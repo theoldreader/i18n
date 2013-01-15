@@ -1,6 +1,3 @@
-# Sample localization file for English. Add more files in this directory for other locales.
-# See https://github.com/svenfuchs/rails-i18n/tree/master/rails%2Flocale for starting points.
-
 ru:
   # Devise
   errors:
@@ -51,7 +48,7 @@ ru:
       send_paranoid_instructions: "Если ваша учётная запись существует, то в течение нескольких минут вы получите письмо с инструкциями по её разблокировке."
     omniauth:
       success: "Вход в систему выполнен с учётной записью из %{kind}."
-      failure: "Вы не можете войти в систему с учётной записью из %{kind}, т.к. \"%{reason}\"."
+      failure: "Вы не можете войти в систему с учётной записью из %{kind}, т.к. %{reason}."
     mailer:
       confirmation_instructions:
         subject: "Инструкции по подтверждению учётной записи"
