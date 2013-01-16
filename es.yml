@@ -246,7 +246,7 @@ es:
       confirm: "Are you sure?"
     pocket:
       title: "Pocket integration"
-      description: "<a href='http://getpocket.com/'>Pocket</a> (formerly called Read It Later) is a handy app that allows you to arrange, sort, and tag content that you intend to access later. Please enter your Pocket credentials to be able to save posts to your Pocket account with a single click."
+      description: "<a href='http://getpocket.com/'>Pocket</a> (formerly called Read It Later) is a handy app that allows you to arrange, sort, and tag content that you intend to access later."
       connect: "Connect to Pocket to start pocketing"
       account: "Your account: <strong>%{username}</strong>"
   import:

@@ -246,7 +246,7 @@ en:
       confirm: "Tem certeza?"
     pocket:
       title: "Integração com o Pocket"
-      description: "<a href='http://getpocket.com/'>Pocket</a> (chamado anteriormente Read It Later) é um app útil que lhe permite organizar, ordenar e marcar conteúdo que você pretende acessar posteriormente. Por favor informe suas credenciais do Pocket para habilitar o envio de postagens para sua conta do Pocket com um só clique."
+      description: "<a href='http://getpocket.com/'>Pocket</a> (chamado anteriormente Read It Later) é um app útil que lhe permite organizar, ordenar e marcar conteúdo que você pretende acessar posteriormente."
       connect: "Conecte ao Pocket para começar o pocketing"
       account: "Sua conta: <strong>%{username}</strong>"
   import:
