@@ -1,0 +1,301 @@
+en:
+  # Devise
+  errors:
+    messages:
+      expired: "expirou, por favor solicite outro"
+      not_found: "não encontrado"
+      already_confirmed: "já foi confirmado, por favor tente entrar"
+      not_locked: "não está bloqueada"
+      not_saved:
+        one: "1 erro impediu esse %{resource} de ser gravado:"
+        few: "%{count} erros impediram esse %{resource} de ser gravado:"
+        many: "%{count} erros impediram esse %{resource} de ser gravado:"
+        other: "%{count} erros impediram esse %{resource} de ser gravado:"
+  
+  devise:
+    failure:
+      already_authenticated: "Você já está autenticado."
+      unauthenticated: "Você precisa se autenticar."
+      unconfirmed: "Você precisa confirmar sua conta para continuar."
+      locked: "Sua conta está bloqueada."
+      invalid: "Email ou senha inválidos."
+      invalid_token: "Token de autenticação inválido."
+      timeout: "Sua sessão expirou, por favor entre novamente para continuar."
+      inactive: "Sua conta ainda não foi ativada."
+    sessions:
+      signed_in: "Autenticado com successo."
+      signed_out: "Desconectado com sucesso."
+    passwords:
+      send_instructions: "Você receberá um email com instruções sobre como redefinir sua senha em alguns minutos."
+      updated: "Sua senha foi modificada com sucesso. Você está autenticado agora."
+      updated_not_active: "Sua senha foi modificada com sucesso."
+      send_paranoid_instructions: "Se o email existe na nossa base de dados, você receberá um link para recuperar a senha em seu email."
+    confirmations:
+      send_instructions: "Você receberá um email com instruções sobre como confirmar sua conta em alguns minutos."
+      send_paranoid_instructions: "Se o email existe na nossa base de dados, você receberá um email com instruções sobre como confirmar sua conta em alguns minutos."
+      confirmed: "Sua conta foi confirmada com sucesso. Você está autenticado agora."
+    registrations:
+      signed_up: "Bem vindo! Você se registrou com sucesso."
+      signed_up_but_unconfirmed: "Uma mensagem com um link de confirmação foi enviado para seu endereço de email. Por favor abra o link para ativar sua conta."
+      signed_up_but_inactive: "Você se registrou com sucesso. Entretanto não pudemos te autenticar porque sua conta ainda não foi ativada."
+      signed_up_but_locked: "Você se registrou com sucesso. Entretanto não pudemos te autenticar porque sua conta está bloqueada."
+      updated: "Você atualizou sua conta com sucesso."
+      update_needs_confirmation: "Você atualizou sua conta com sucesso, mas temos que verificar seu novo endereco de email. Por favor verifique seu email e clique no link para finalizar a confirmação do seu novo endereço de email."
+      destroyed: "Até mais! SUa conta foi cancelada com sucesso. Esperamos te ver novamente em breve."
+    unlocks:
+      send_instructions: "Você receberá um email com instruções sobre como desbloquear sua conta em alguns minutos."
+      unlocked: "Sua conta foi desbloqueada com sucesso. Por favor autentique-se para continuar."
+      send_paranoid_instructions: "Se sua conta existe, Você receberá um email com instruções sobre como desbloque´-la sua conta em alguns minutos."
+    omniauth:
+      success: "Autorizado com sucesso via conta %{kind}."
+      failure: "Autorização via %{kind} falhou pelo seguinte motivo: %{reason}."
+    mailer:
+      confirmation_instructions:
+        subject: "Instruções de confirmação"
+      reset_password_instructions:
+        subject: "Instruções de redefinição da senha"
+      unlock_instructions:
+        subject: "Instruções de desbloqueio"
+  
+  # Reader
+  app: "The Old Reader"
+  eggs: "Nós ♥ gatinhos"
+  title: "The Old Reader"
+  meta:
+    description: "É o leitor de RSS definitivo. Quase igual ao antigo Google Reader, só que melhor. Importe suas assinaturas em um clique, encontre seus amigos do Facebook e comece a compartilhar."
+    keywords: "the old reader"
+  landing:
+    topmenu:
+      -
+        :title: "Twitter"
+        :url: "https://twitter.com/#!/theoldreader"
+      - 
+        :title: "Blog"
+        :url: "http://blog.theoldreader.com/"
+      - 
+        :title: "Contate-nos"
+        :url: "http://blog.theoldreader.com/about"
+    sign_in:
+      title: "Conecte-se usando:"
+      google: "Google"
+      facebook: "Facebook"
+    welcome: 
+      - "Bem vindo ao Old Reader, o leitor de RSS definitivo. Quase igual ao antigo Google Reader, só que melhor. Nós estamos em Beta no momento, mas estamos trabalhando constantemente em melhorias e novas funcionalidades."
+      - "Você pode se conectar e começar a usar o Old Reader com um único clique. Entretanto, se você for muito tímido ou tímida, por favor esteja a vontade para espiar nosso %tour%."
+    qa:
+      -
+        :title: "O que ele faz?"
+        :text: "Ele permite que você navegue por sua dose diária de conteúdo com aquele toque muito especial compartilhado por seus amigos e amigas, com notas e comentários"
+      -
+        :title: "Posso transferir minhas assinaturas?"
+        :text: "Sim, você pode importar seus feeds diretamente da sua conta do Google Reader ou use a funcionalidade de importação de OPML se você tem maior receio com sua segurança."
+      -
+        :title: "Como posso encontrar meus amigos?"
+        :text: "Estamos trabalhando para melhorar a página de sugestões de amigos, enquanto isso você pode procurar por eles manualmente ou ver quais dos seus contatos no Facebook ou Google também usam o Old Reader. Também lhe enviaremos um email sempre que alguém começar a te seguir."
+      -
+        :title: "Vocês tem um app móvel?"
+        :text: "Não <em>ainda</em>, mas como prometemos antes, começamos a trabalhar nele quando nosso número de usuários alcançou 5000 em outubro de 2012. Mesmo agor nossa interface padrão se adapta bem em dispositivos móveis."
+      -
+        :title: "Vocês se comportarão no meu Facebook como aqueles outros aplicativos?"
+        :text: "Absolutamente não! Você pode postar seus ítens compartilhados em sua timeline, porém, a não ser que você escolha enviar para o Facebook, todos os seus compartilhamentos e comentários permanecerão apenas no Old Reader. Nós não enviaremos nada mais em seu nome ou te envolver em algum outro esquema obscuro."
+      -
+        :title: "Porque vocês criaram o Old Reader?"
+        :text: "Digamos apenas que sentíamos muita saudade do Reader original, então criamos o Old Reader para nós e nossos amigos. Gostamos de como ele ficou, então compartilhamos ele com todo mundo."
+    supported: "Apoiado com amor por"
+  user:
+    profile: "Perfil"
+    logout: "Sair"
+    settings: "Configurações"
+    failure: "A conta %{kind} que você está tentando usar já foi conectada com outra conta do Old Reader. Por favor cancele sua outra conta e tente novamente."
+    wrong_auth: "Algo deu errado, por favor contate-nos em support@theoldreader.com"
+    becomes_active_notice: "Você não usou o Old Reader por algum tempo, então mantivemos apenas postagens fresquinhas para você"
+  feeds:
+    no_feeds:
+      text: "Você ainda não tem assinaturas. Você pode %{subscribe} um novo feed (que tal <a href='http://blog.theoldreader.com/rss' class='feed-subscribe'>nosso blog</a>?) ou %{import} suas assinaturas.<br />Se quiser saber mais, %{tour}."
+      subscribe: "assinar"
+      import: "importar"
+      tour: "faça o tour"
+    no_posts: "Não há postagens aqui ainda"
+    no_posts_filler: "Nenhuma postagem abaixo desta linha. Provavelmente você já leu todas elas."
+    subscribe: "Assinar"
+    add_subscription: "Adicionar uma assinatura"
+    add: "Adicionar"
+    url: "URL"
+    invalid_url: "Você forneceu uma URL inválida"
+    empty_url: "Você não forneceu uma URL"
+    loading: "Carregando..."
+    default_folder: "Assinaturas"
+    feeds: "Feeds"
+    feeds_count:
+      one: "feed"
+      few: "feeds"
+      many: "feeds"
+      other: "feeds"
+    posts_count:
+      one: "postagem"
+      few: "postagenss"
+      many: "postagenss"
+      other: "postagenss"
+    your_posts: "Você tem <em>%{unread}</em> %{posts} não lida(s)"
+    refresh: "Atualizar"
+    unsubscribe: "Cancelar assinatura"
+    unsubscribe_confirm: "Deseja realmente cancelar a assinatura? Seus compartilhamentos e curtidas em postagens deste feed não serão removidos."
+    ago: "atrás"
+    never: "Nunca"
+    confirm: "Tem certeza?"
+    mark_all_read: "Marcar tudo como lido"
+    search: "Buscar"
+    search_limits: "A busca que você usou é muito popular, então tivemos que limitar o número de resultados. Se desejar ver todos os resultados, por favor faça uma busca mais específica."
+    mark_read: "Marcar como lido"
+    mark_unread: "Marcar como não lido"
+    share: "Compartilhar"
+    shared: "Compartilhado"
+    unshare: "Não compartilhar"
+    following: "Seguindo"
+    attach_note: "Deseja adicionar uma anotação?"
+    attach: "Gravar anotação"
+    comments:
+      one: "%{count} comentário"
+      few: "%{count} comentários"
+      many: "%{count} comentários"
+      other: "%{count} comentários"
+    comment: "Comentar"
+    comment_text: "Escrever comentário"
+    comment_destroy_confirm: "Deseja realmente remover o comentário?"
+    comment_destroy_text: "Este comentário foi removido pelo usuário."
+    post_author: "por <strong>%{author}</strong>"
+    drop_add_folder: "SOlte aqui para criar uma nova pasta"
+    new_folder: "Nova pasta"
+    like: "Curtir"
+    unlike: "Não curtir"
+    likes_count:
+      zero: "%{users} curtiu isto"
+      one: "%{users} e um outro curtiram isto"
+      few: "%{users} e %{count} outros curtiram isto"
+      many: "%{users} e %{count} outros curtiram isto"
+      other: "%{users} e %{count} outros curtiram isto"
+    feed: "Feed"
+    site: "Site"
+    enclosure_url: "Ver arquivo anexo (%{size}, %{type})"
+    pocket: "Pocket"
+    unpocket: "Unpocket"
+    pocket_error: "Falhou"
+  home:
+    following: "Últimas dos seus amigos"
+    updated: "Atualizados recentemente"
+    dead: "Feeds mortos"
+    tips:
+      title: "Dicas & truques"
+      items:
+        - "Use os atalhos \"j\" e \"k\" no teclado para navegar nas postagens. \"o\" abre a postagem em uma nova janela."
+        - "Alguns outros atalhos no teclado: use \"s\" para compartilhar ou \"l\" para curtir a postagem."
+        - "Arraste & solte os feeds no menu para reordená-los ou para criar novas pastas."
+        - "Você pode dar um duplo-clique no feed ou no título da pasta para renomeá-los."
+        - "Para assinar novos feeds com um único clique, use 'http://theoldreader.com/feeds/subscribe?url=%s' na extensão RSS Subscription ou no gerenciador de feeds do Firefox."
+    aboutus:
+      title: "Algo sobre nós"
+      text: "Por favor sinta-se livre para <a href='mailto:hello@theoldreader.com'>dar um toque</a> se tiver algum comentário ou sugestão. Você também pode <a href='https://twitter.com/#!/theoldreader'>nos seguir</a> no twitter e ler nosso <a href='http://blog.theoldreader.com/'>blog dos bastidores</a>."
+    plugins:
+      title: "Extensões para navegadores"
+  pages:
+    home: "Início"
+    all: "Todos os ítens"
+    liked: "Curtidos"
+    shared: "Compartilhados"
+    followed: "Amigos"
+    import: "Importar"
+    search: "Buscar"
+    settings: "Configurações"
+    profile: "Perfil"
+    friends: "Encontrar amigos"
+    commented: "Comentados"
+    privacy: "Política de privacidade"
+    trending: "Tendências"
+    tour: "Tour"
+  settings:
+    name: "Nome"
+    username: "Nome de usuário"
+    email: "Email"
+    ui:
+      title: "Interface"
+      click_to_scroll: "Clicar em uma postagem rola até ela"
+      locale: "Idioma"
+    feed_display_mode:
+      title: "Modo de exibição dos feeds"
+      all: "Mostrar todas as postagens"
+      unread: "Mostrar apenas não lidas"
+    feed_list_mode:
+      title: "Modo de visualização de postagens"
+      full: "Visualização completa"
+      list: "Visualização em lista"
+    sort_mode:
+      title: "Ordem das postagens"
+      normal: "Normal"
+      reverse: "Inversa"
+    social: "Coisas sociais"
+    notify_when_followed: "Notificar por email quando alguém começa a te seguir"
+    share_timeline: "Publicar seus compartilhamentos na sua página do Facebook"
+    connect_share_timeline: "Conectar ao Facebook para publicar seus compartilhamentos"
+    show_fb_profile: "Mostrar link para a sua página do Facebook em seu perfil"
+    save: "Gravar alterações"
+    cancel_disabled: "Você não pode cancelar sua conta enquanto uma importação estiver ocorrendo, por favor seja paciente."
+    cancel_account:
+      text: "Descontente? Você pode %{export} como um arquivo OPML file e %{cancel} a qualquer hora."
+      export: "exportar seus feeds"
+      cancel: "cancelar sua conta"
+      confirm: "Tem certeza?"
+    pocket:
+      title: "Integração com o Pocket"
+      description: "<a href='http://getpocket.com/'>Pocket</a> (chamado anteriormente Read It Later) é um app útil que lhe permite organizar, ordenar e marcar conteúdo que você pretende acessar posteriormente. Por favor informe suas credenciais do Pocket para habilitar o envio de postagens para sua conta do Pocket com um só clique."
+      connect: "Conecte ao Pocket para começar o pocketing"
+      account: "Sua conta: <strong>%{username}</strong>"
+  import:
+    title: "Importar"
+    alert: "<b>Por favor informe seu usuário e senha Google para importar suas assinaturas do Google Reader</b><br />Nós não armazenaremos suas credenciais. A informação da conta será utilizada apenas para obter suas assinaturas."
+    opml: "<b>Ou escolha um arquivo OPML</b><br />Você pode pegá-lo da página de configurações do Google Reader."
+    email: "Email"
+    password: "Senha"
+    import: "Importar"
+    success: "Nós recebemos a sua lista de feeds. O processo de importação de fato será realizado em segundo plano, assim que você pode começar a usar o Old Reader imediatamente. Logo seus feeds aparecerão no menu."
+    processing: "Seus feeds estão sendo importados agora."
+    error: "Algo deu errado"
+    opml_empty: "O arquivo OPML que você enviou está incorreto ou vazio."
+  profile:
+    follow: "Seguir"
+    unfollow: "Deixar de seguir"
+    thats_you: "Esse(a) é você!"
+    following: 
+      one: "Segue <strong>%{count}</strong> usuário"
+      few: "Segue <strong>%{count}</strong> usuários"
+      many: "Segue <strong>%{count}</strong> usuários"
+      other: "Segue <strong>%{count}</strong> usuários"
+    followers:
+      one: "Seguido por <strong>%{count}</strong> usuário"
+      few: "Seguido por <strong>%{count}</strong> usuários"
+      many: "Seguido por <strong>%{count}</strong> usuários"
+      other: "Seguido por <strong>%{count}</strong> usuários"
+    me_following: "Seguindo <strong>%{count}</strong>"
+    my_followers: "<strong>%{count}</strong> Seguidores"
+    posts: "Postagens compartilhadas"
+    your_profile: "Seu perfil"
+    facebook: "Facebook (%{name})"
+    new: "Novo"
+    new_followers:
+      one: "%{count} novo"
+      few: "%{count} novos"
+      many: "%{count} novos"
+      other: "%{count} novos"
+    rss: "%{name} compartilhou ítens no Old Reader (RSS)"
+  friends:
+    found:
+      one: "Encontrou %{count} usuário"
+      few: "Encontrou %{count} usuários"
+      many: "Encontrou %{count} usuários"
+      other: "Encontrou %{count} usuários"
+    facebook: "Conectar com o Facebook"
+    google: "Conectar com o Google"
+  notifier:
+    followed:
+      subject: "%{name} começou a te seguir"
+    changes:
+      subject: "Nota importante relativa aos Ítens com estrela"
