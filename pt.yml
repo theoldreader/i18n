@@ -133,9 +133,9 @@ pt:
       other: "feeds"
     posts_count:
       one: "postagem"
-      few: "postagenss"
-      many: "postagenss"
-      other: "postagenss"
+      few: "postagens"
+      many: "postagens"
+      other: "postagens"
     your_posts: "Você tem <em>%{unread}</em> %{posts} não lida(s)"
     refresh: "Atualizar"
     unsubscribe: "Cancelar assinatura"
