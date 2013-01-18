@@ -167,7 +167,7 @@ es:
     drop_add_folder: "Suelte aquí para añadir una carpeta nueva"
     new_folder: "Nueva carpeta"
     like: "Me gusta"
-    unlike: "Ya no me gust"
+    unlike: "Ya no me gusta"
     likes_count:
       zero: "A %{users} le gusta"
       one: "A %{users} y otro les gusta"
@@ -240,7 +240,7 @@ es:
     save: "Guardar cambios"
     cancel_disabled: "No puede cancelar su cuenta mientras la importación está en curso, por favor sea paciente."
     cancel_account:
-      text: "¿Descontento? Pueden %{export} como un fichero OPML y %{cancel} en cualquier momento."
+      text: "¿Descontento? Puede %{export} como un fichero OPML y %{cancel} en cualquier momento."
       export: "exportar sus fuentes"
       cancel: "cancelar su cuenta"
       confirm: "¿Está seguro?"
