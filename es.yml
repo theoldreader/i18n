@@ -107,7 +107,7 @@ es:
     logout: "Salir"
     settings: "Configuración"
     failure: "La cuenta de %{kind} que intenta usar ya se ha enlazado con alguna otra cuenta de The Old Reader. Por favor, cancele la otra cuenta y reintente la operación."
-    wrong_auth: "Algo salió mal, por favor contacte con nosotros a través de support@theoldreader.com"
+    wrong_auth: "Algo salió mal, por favor contacte con nosotros a través de hello@theoldreader.com"
     becomes_active_notice: "No ha usado The Old Reader desde hace bastante tiempo, así que solo hemos mantenido sus últimos elementos"
   feeds:
     no_feeds:
