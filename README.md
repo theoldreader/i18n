@@ -4,4 +4,5 @@
 
 1. Fork it
 1. Change anything you want (add commits using ```git``` or simply change files using Github web interface)
-1. Create new Pull Request
+1. If you have Python and PyYAML installed, you can run ```checker.py``` to verify that your translation file contains correct set of keys
+1. Create a new Pull Request

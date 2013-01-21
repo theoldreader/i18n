@@ -3,6 +3,15 @@ import os
 import yaml
 import sets
 
+"""
+Check that all translation have proper keys
+
+This script can be used to check that all translations have the same set
+of keys as the 'master' locale - English in our case.
+
+Just run the script. No output is good.
+"""
+
 master = "en"
 
 def compare_dicts(master, victim, path):
