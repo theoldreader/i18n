@@ -81,7 +81,9 @@ en:
       facebook: "Facebook"
     welcome: 
       - "Welcome to The Old Reader, the ultimate social RSS reader. It's just like the old google reader, only better. We're in beta right now, but we're constantly working on improvements and new features."
-      - "You can sign in and start using The Old Reader with a single click. However, if you are too shy, please feel free to peek at our %tour%."
+      - "You can sign in and start using The Old Reader with a single click. However, if you are too shy, please feel free to take a look at our %tour% or peek at the %trending%."
+    tour: "tour"
+    trending: "top posts of the day"
     qa:
       -
         :title: "What does it do?"

@@ -82,6 +82,8 @@ es:
     welcome: 
       - "Bienvenido a The Old Reader, el lector de RSS definitivo. Es como el viejo Google Reader, pero mejor. Estamos en fase beta, pero trabajamos constantemente en mejoras y nuevas funcionalidades."
       - "Puede registrarse y empezar a usar The Old Reader con un solo click. Sin embargo, si es tímido, puede visitar nuestro %tour%."
+    tour: "tour"
+    trending: ""
     qa:
       -
         :title: "¿Qué es lo que hace?"
