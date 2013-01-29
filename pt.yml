@@ -45,7 +45,7 @@ pt:
     unlocks:
       send_instructions: "Você receberá um email com instruções sobre como desbloquear sua conta em alguns minutos."
       unlocked: "Sua conta foi desbloqueada com sucesso. Por favor autentique-se para continuar."
-      send_paranoid_instructions: "Se sua conta existe, Você receberá um email com instruções sobre como desbloque´-la sua conta em alguns minutos."
+      send_paranoid_instructions: "Se sua conta existe, Você receberá um email com instruções sobre como desbloqueá-la sua conta em alguns minutos."
     omniauth:
       success: "Autorizado com sucesso via conta %{kind}."
       failure: "Autorização via %{kind} falhou pelo seguinte motivo: %{reason}."
@@ -83,7 +83,7 @@ pt:
       - "Bem vindo ao Old Reader, o leitor de RSS definitivo. Quase igual ao antigo Google Reader, só que melhor. Nós estamos em Beta no momento, mas estamos trabalhando constantemente em melhorias e novas funcionalidades."
       - "Você pode se conectar e começar a usar o Old Reader com um único clique. Entretanto, se você for muito tímido ou tímida, por favor esteja a vontade para espiar nosso %tour%."
     tour: "tour"
-    trending: ""
+    trending: "postagens mais populares de hoje"
     qa:
       -
         :title: "O que ele faz?"
@@ -166,7 +166,7 @@ pt:
     comment_destroy_confirm: "Deseja realmente remover o comentário?"
     comment_destroy_text: "Este comentário foi removido pelo usuário."
     post_author: "por <strong>%{author}</strong>"
-    drop_add_folder: "SOlte aqui para criar uma nova pasta"
+    drop_add_folder: "Solte aqui para criar uma nova pasta"
     new_folder: "Nova pasta"
     like: "Curtir"
     unlike: "Não curtir"
