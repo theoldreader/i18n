@@ -81,9 +81,9 @@ es:
       facebook: "Facebook"
     welcome: 
       - "Bienvenido a The Old Reader, el lector de RSS definitivo. Es como el viejo Google Reader, pero mejor. Estamos en fase beta, pero trabajamos constantemente en mejoras y nuevas funcionalidades."
-      - "Puede registrarse y empezar a usar The Old Reader con un solo click. Sin embargo, si es tímido, puede visitar nuestro %tour%."
+      - "Puede registrarse y empezar a usar The Old Reader con un solo click. Sin embargo, si es tímido, puede visitar nuestro %tour% o echar un vistazo a lo más %trending%."
     tour: "tour"
-    trending: ""
+    trending: "popular"
     qa:
       -
         :title: "¿Qué es lo que hace?"
