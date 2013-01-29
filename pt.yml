@@ -81,7 +81,7 @@ pt:
       facebook: "Facebook"
     welcome: 
       - "Bem vindo ao Old Reader, o leitor de RSS definitivo. Quase igual ao antigo Google Reader, só que melhor. Nós estamos em Beta no momento, mas estamos trabalhando constantemente em melhorias e novas funcionalidades."
-      - "Você pode se conectar e começar a usar o Old Reader com um único clique. Entretanto, se você for muito tímido ou tímida, por favor esteja a vontade para espiar nosso %tour%."
+      - "Você pode se conectar e começar a usar o Old Reader com um único clique. Entretanto, se você for muito tímido ou tímida, por favor esteja a vontade para espiar nosso %tour% ou %trending%."
     tour: "tour"
     trending: "postagens mais populares de hoje"
     qa:
