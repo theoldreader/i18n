@@ -69,6 +69,9 @@ ru:
       -
         :title: "Твиттер"
         :url: "https://twitter.com/#!/theoldreader"
+      -
+        :title: "Фейсбук"
+        :url: "https://www.facebook.com/theoldreader"
       - 
         :title: "Блог"
         :url: "http://blog.theoldreader.com/"

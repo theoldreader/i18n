@@ -69,6 +69,9 @@ uk:
       -
         :title: "Твіттер"
         :url: "https://twitter.com/#!/theoldreader"
+      -
+        :title: "Фейсбук"
+        :url: "https://www.facebook.com/theoldreader"
       - 
         :title: "Блоґ"
         :url: "http://blog.theoldreader.com/"
