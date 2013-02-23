@@ -292,7 +292,7 @@ pt:
       other: "%{count} novos"
     rss: "%{name} compartilhou ítens no Old Reader (RSS)"
   friends:
-    follow: "Follow your friends who use The Old Reader"
+    follow: "Siga seus amigos que já usam o Old Reader"
     found:
       one: "Encontrou %{count} usuário"
       few: "Encontrou %{count} usuários"
