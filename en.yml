@@ -292,6 +292,7 @@ en:
       other: "%{count} new"
     rss: "%{name} shared items on The Old Reader (RSS)"
   friends:
+    follow: "Follow your friends who use The Old Reader"
     found:
       one: "Found %{count} user"
       few: "Found %{count} users"

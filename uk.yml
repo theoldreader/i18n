@@ -292,6 +292,7 @@ uk:
       other: "%{count} нових"
     rss: "%{name} поділилися на The Old Reader (RSS)"
   friends:
+    follow: "Стежте за друзями, що використовують The Old Reader"
     found:
       one: "Знайдено %{count} користувача"
       few: "Знайдено %{count} користувачів"

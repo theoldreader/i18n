@@ -292,6 +292,7 @@ ru:
       other: "%{count} новых"
     rss: "%{name} поделился на The Old Reader (RSS)"
   friends:
+    follow: "Зафоловьте друзей, которые используют The Old Reader"
     found:
       one: "Найдено %{count} пользователь"
       few: "Найдено %{count} пользователя"
