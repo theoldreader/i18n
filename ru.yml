@@ -303,5 +303,15 @@ ru:
   notifier:
     followed:
       subject: "%{name} подписался на вас"
+      body: |
+        Hello, %{followed}!
+        
+        %{name} is now following you. Nice!
+        See profile at %{profile}.
+        
+        -- 
+        The Old Reader robot.
+        You can always unsubscribe at your settings page.
+        %{host}
     changes:
       subject: "Важная заметка касательно записей, помеченных звездочкой"

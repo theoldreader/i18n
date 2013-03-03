@@ -303,5 +303,15 @@ es:
   notifier:
     followed:
       subject: "%{name} le sigue"
+      body: |
+        Hello, %{followed}!
+        
+        %{name} is now following you. Nice!
+        See profile at %{profile}.
+        
+        -- 
+        The Old Reader robot.
+        You can always unsubscribe at your settings page.
+        %{host}
     changes:
       subject: "Nota importante sobre los elementos marcados con estrella"
