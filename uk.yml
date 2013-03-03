@@ -304,14 +304,14 @@ uk:
     followed:
       subject: "%{name} почав стежити за вами"
       body: |
-        Hello, %{followed}!
+        Привіт, %{followed}!
         
-        %{name} is now following you. Nice!
-        See profile at %{profile}.
+        %{name} теперь стежить за вами. Кльово!
+        Подивіться профіль користувача на %{profile}.
         
         -- 
-        The Old Reader robot.
-        You can always unsubscribe at your settings page.
+        Робот The Old Reader.
+        Від наших розсилок завжди можна відписатися на сторінці налаштуваннь.
         %{host}
     changes:
       subject: "Важлива замітка щодо записів, позначених зірочкою"
