@@ -304,14 +304,14 @@ es:
     followed:
       subject: "%{name} le sigue"
       body: |
-        Hello, %{followed}!
+        ¡Hola, %{followed}!
         
-        %{name} is now following you. Nice!
-        See profile at %{profile}.
+        %{name} le está siguiendo ahora. ¡Bien!
+        Vea el perfil en %{profile}.
         
         -- 
-        The Old Reader robot.
-        You can always unsubscribe at your settings page.
+        El robot de The Old Reader.
+        Siempre puede desuscribirse en su página de configuración.
         %{host}
     changes:
       subject: "Nota importante sobre los elementos marcados con estrella"
