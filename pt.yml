@@ -304,14 +304,14 @@ pt:
     followed:
       subject: "%{name} começou a te seguir"
       body: |
-        Hello, %{followed}!
+        Olá, %{followed}!
         
-        %{name} is now following you. Nice!
-        See profile at %{profile}.
+        %{name} está te seguindo agora. Legal!
+        Veja seu perfil em %{profile}.
         
         -- 
-        The Old Reader robot.
-        You can always unsubscribe at your settings page.
+        O robô do Old Reader.
+        Você pode sempre deixar de assinar em sua página de configurações.
         %{host}
     changes:
       subject: "Nota importante relativa aos Ítens com estrela"
