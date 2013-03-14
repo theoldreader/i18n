@@ -304,14 +304,14 @@ ru:
     followed:
       subject: "%{name} подписался на вас"
       body: |
-        Hello, %{followed}!
+        Привет, %{followed}!
         
-        %{name} is now following you. Nice!
-        See profile at %{profile}.
+        %{name} теперь фолловит вас. Отлично!
+        Посмотрите профиль пользователя на %{profile}.
         
         -- 
-        The Old Reader robot.
-        You can always unsubscribe at your settings page.
+        Робот The Old Reader.
+        От наших рассылок всегда можно отписаться на странице настроек.
         %{host}
     changes:
       subject: "Важная заметка касательно записей, помеченных звездочкой"
