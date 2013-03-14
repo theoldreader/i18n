@@ -20,3 +20,5 @@ Português: [eduardomps](https://github.com/eduardomps)
 
 Español: [marevalo](https://github.com/marevalo)
 
+Français: [AlexandreP2101](https://github.com/AlexandreP2101)
+
