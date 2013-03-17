@@ -1,0 +1,317 @@
+en:
+  # Devise
+  errors:
+    messages:
+      expired: "ist abgelaufen, bitte fordern Sie ein neues an"
+      not_found: "nicht gefunden"
+      already_confirmed: "wurde bereits bestätigt, bitte melden Sie sich an"
+      not_locked: "wurde nicht gesperrt"
+      not_saved:
+        one: "1 Fehler verhinderte, dass %{resource} gespeichert wurde:"
+        few: "%{count} Fehler verhinderten, dass %{resource} gespeichert wurden:"
+        many: "%{count} Fehler verhinderten, dass %{resource} gespeichert wurden:"
+        other: "%{count} Fehler verhinderten, dass %{resource} gespeichert wurden:"
+  
+  devise:
+    failure:
+      already_authenticated: "Sie sind bereits angemeldet."
+      unauthenticated: "Sie müssen sich zum Fortfahren anmelden."
+      unconfirmed: "Sie müssen Ihr Benutzerkonto zum Fortfahren bestätigen."
+      locked: "Ihr Benutzerkonto ist gesperrt."
+      invalid: "Ungültige E-Mail-Adresse oder Passwort."
+      invalid_token: "Ungültiger Authentifizierungstoken."
+      timeout: "Ihre Sitzung ist abgelaufen, bitte melden Sie sich an um fortzufahren."
+      inactive: "Ihr Benutzerkonto wurde noch nicht aktiviert."
+    sessions:
+      signed_in: "Erfolgreich angemeldet."
+      signed_out: "Erfolgreich abgemeledet."
+    passwords:
+      send_instructions: "Sie erhalten in wenigen Minuten eine E-Mail mit Anweisungen, um Ihr Passwort zurückzusetzen."
+      updated: "Ihr Passwort wurde erfolgreich geändert. Sie sind nun angemeldet."
+      updated_not_active: "Ihr Passwort wurde erfolgreich geändert."
+      send_paranoid_instructions: "Wenn Ihre E-Mail-Adresse in unserer Datenbank gespeichert ist, erhalten Sie dorthin einen Link um Ihr Passwort zurückzusetzen"
+    confirmations:
+      send_instructions: "Sie erhalten in wenigen Minuten eine E-Mail mit Anweisungen, wie Sie Ihr Benutzerkonto bestätigen können."
+      send_paranoid_instructions: "Wenn Ihre E-Mail-Adresse in unserer Datenbank gespeichert ist, erhalten Sie in wenigen Minuten eine E-Mail mit Anweisungen, wie Sie Ihr Benutzerkonto bestätigen können."
+      confirmed: "Ihr Benutzerkonto wurde erfolgreich bestätigt. Sie sind nun angemeldet."
+    registrations:
+      signed_up: "Willkommen! Sie haben sich erfolgreich registriert."
+      signed_up_but_unconfirmed: "Eine Nachricht mit einem Bestätigungslink wurde an Ihre E-Mail-Adresse gesendet. Bitte öffnen Sie den Link um Ihr Benutzerkonto zu aktivieren."
+      signed_up_but_inactive: "Sie haben sich erfolgreich registriert. Sie können sich allerdings nicht anmelden, da Ihr Benutzerkonto noch nicht aktiviert ist."
+      signed_up_but_locked: "Sie haben sich erfolgreich registriert. Sie können sich allerdings nicht anmelden, weil Ihr Benutzerkonto gesperrt ist."
+      updated: "Sie haben Ihr Benutzerkonto erfolgreich aktualisiert."
+      update_needs_confirmation: "Sie haben Ihr Benutzerkonto erfolgreich aktualisiert, aber Ihre neue E-Mail-Adresse muss noch bestätigt werden. Bitte prüfen Sie Ihre E-Mails und klicken Sie auf den Bestätigungslink, um Ihre neue E-Mail-Adresse zu bestätigen."
+      destroyed: "Auf wiedersehen! Ihr Benutzerkonto wurde erfolgreich gekündigt. Wir würden uns freuen Sie bald wieder hier begrüßen zu dürfen."
+    unlocks:
+      send_instructions: "Sie erhalten in wenigen Minuten eine E-Mail mit Anweisungen, wie Sie Ihr Benutzerkonto entsperren können."
+      unlocked: "Ihr Benutzerkonto wurde erfolgreich entsperrt. Bitte melden Sie sich an um fortzufahren."
+      send_paranoid_instructions: "Wenn Ihr Benutzerkonto existiert erhalten Sie in wenigen Minuten eine E-Mail mit Anweisungen, wie Sie es entsperren können."
+    omniauth:
+      success: "Erfolgreich angemeldet über Ihr %{kind} Konto."
+      failure: "%{kind} Anmeldung ist aus folgendem Grund fehlgeschlagen: %{reason}."
+    mailer:
+      confirmation_instructions:
+        subject: "Bestätigung Ihres Benutzerkontos"
+      reset_password_instructions:
+        subject: "Zurücksetzen Ihres Passwortes"
+      unlock_instructions:
+        subject: "Entsperren Ihres Benutzerkontos"
+  
+  # Reader
+  app: "The Old Reader"
+  eggs: "Wir ♥ Kätzchen"
+  title: "The Old Reader"
+  meta:
+    description: "Es ist der ultimative RSS-Reader. Genau wie der alte Google Reader, nur viel besser. Importieren Sie Ihre Abonnements mit einem Klick, finden Sie Ihre Facebook-Freunde und teilen Sie Inhalte."
+    keywords: "the old reader"
+  landing:
+    topmenu:
+      -
+        :title: "Twitter"
+        :url: "https://twitter.com/#!/theoldreader"
+      -
+        :title: "Facebook"
+        :url: "https://www.facebook.com/theoldreader"
+      - 
+        :title: "Blog"
+        :url: "http://blog.theoldreader.com/"
+      - 
+        :title: "Kontakt"
+        :url: "http://blog.theoldreader.com/about"
+    sign_in:
+      title: "Anmelden via:"
+      google: "Google"
+      facebook: "Facebook"
+    welcome: 
+      - "Willkommen zu The Old Reader, dem ultimativen sozialen RSS-Reader. Es ist genau wie der alte Google Reader, nur viel besser. Wir sind momentan in der Beta-Phase, aber wir arbeiten ständig an Verbesserungen und neuen Funktionen."
+      - "Sie können sich mit einem Klick anmelden und The Old Reader nutzen. Aber wenn Sie schüchtern sind, können Sie zunächst unsere %tour% machen oder einen Blick auf %trending% werfen."
+    tour: "Tour"
+    trending: "Top Beiträge des Tages"
+    qa:
+      -
+        :title: "Was tut es?"
+        :text: "Sie können damit Ihre Lieblingsbeiträge durchblättern, mit von Freunden geteilten Inhalten, Anmerkungen und Kommentaren"
+      -
+        :title: "Kann ich meine Abos übertragen?"
+        :text: "Ja, Sie können Ihre Feeds direkt aus Google Reader übertragen oder unsere OPML-Import-Funktion nutzen, falls Ihnen Datenschutz besonders wichtig ist."
+      -
+        :title: "Wie finde ich meine Freunde?"
+        :text: "Wir arbeiten daran unsere Freundesvorschlagsliste zu verbessern, aber in der Zwischenzeit können Sie Ihre Freunde manuell suchen oder schauen, welche Ihrer Facebook-Freunde oder Google Kontakte auch The Old Reader verwenden. Wir schicken Ihnen auch eine E-Mail wenn jemand Ihnen folgt."
+      -
+        :title: "Haben Sie eine App für Mobilgeräte?"
+        :text: "<em>Noch</em> nicht, aber wie wir versprochen haben entwickeln wir diese seit wir im Oktober 2012 5000 Nutzer hatten. Aber schon jetzt sieht unsere normale Benutzeroberfläche gut auf Mobilgeräten aus."
+      -
+        :title: "Werden Sie mein Facebook-Konto so verwenden wie all diese anderen Apps?"
+        :text: "Absolut nicht! Sie können Ihre geteilten Inhalte auf Ihre Timeline veröffentlichen, aber wenn Sie dies nicht selbst auswählen, werden alle Ihre geteilten Inhalte und Kommentare nur bei The Old Reader bleiben. Wir werden niemals irgend etwas anderes in Ihrem Namen veröffentlichen oder Sie sonstwie in zwielichtige Machenschaften verwickeln."
+      -
+        :title: "Warum haben Sie The Old Reader geschaffen?"
+        :text: "Wir sagen mal so, wir haben den ursprünglichen Reader sehr vermisst. Also haben wir The Old Reader für uns und unsere Freunde geschaffen. Wir finden es ist uns gut gelungen, also teilen wir es mit allen."
+    supported: "Mit Liebe unterstützt von"
+  user:
+    profile: "Benutzerkonto"
+    logout: "Abmelden"
+    settings: "Einstellungen"
+    failure: "Das %{kind} Konto, das Sie verwenden wollen, wurde bereits mit einem anderen The Old Reader Konto verknüpft. Bitte kündigen Sie Ihr anderes Konto und versuchen Sie es erneut."
+    wrong_auth: "Etwas ist schiefgelaufen, bitte schreiben Sie uns an hello@theoldreader.com"
+    becomes_active_notice: "Sie haben The Old Reader eine Weile nicht benutzt, daher haben wir nur die aktuellsten Artikel für Sie"
+  feeds:
+    no_feeds:
+      text: "Sie haben noch keine Abos. Sie können einen neuen Feed %{subscribe} (wie wär's mit <a href='http://blog.theoldreader.com/rss' class='feed-subscribe'>unserem Blog</a>?) oder Ihre Abos %{import}.<br />Um mehr zu erfahren, %{tour}."
+      subscribe: "abonnieren"
+      import: "importieren"
+      tour: "sehen Sie sich die Tour an"
+    no_posts: "Hier sind noch keine Beiträge"
+    no_posts_filler: "Keine Beiträge unterhalb dieser Linie. Wahrscheinlich haben Sie schon alle gelesen."
+    subscribe: "Abonnieren"
+    add_subscription: "Ein Abo hinzufügen"
+    add: "Hinzufügen"
+    url: "URL"
+    invalid_url: "Dies ist eine ungültige URL"
+    empty_url: "Keine URL eingegeben"
+    loading: "Laden..."
+    default_folder: "Abos"
+    feeds: "Feeds"
+    feeds_count:
+      one: "Feed"
+      few: "Feeds"
+      many: "Feeds"
+      other: "Feeds"
+    posts_count:
+      one: "Beitrag"
+      few: "Beiträge"
+      many: "Beiträge"
+      other: "Beiträge"
+    your_posts: "Sie haben <em>%{unread}</em> ungelesene %{posts}"
+    refresh: "Aktualisieren"
+    unsubscribe: "Abo beenden"
+    unsubscribe_confirm: "Wollen Sie das Abo wirklich beenden? Ihre geteilten und mit gefällt mir markierten Beiträge von diesem Feed werden nicht entfernt."
+    ago: "her"
+    never: "Nie"
+    confirm: "Sind Sie sicher?"
+    mark_all_read: "Alle als gelesen markieren"
+    search: "Suchen"
+    search_limits: "Ihre Sucheingabe ist sehr beliebt, daher mussten wir die Zahl der Ergebnisse begrenzen. Bitte spezifizieren Sie Ihre Suche, wenn Sie alle Ergebnisse sehen wollen."
+    mark_read: "Als gelesen markieren"
+    mark_unread: "Als ungelesen markieren"
+    share: "Teilen"
+    shared: "Geteilt"
+    unshare: "Nicht mehr teilen"
+    following: "Folger"
+    attach_note: "Notiz hinzufügen?"
+    attach: "Notiz speichern"
+    comments:
+      one: "%{count} Kommentare"
+      few: "%{count} Kommentare"
+      many: "%{count} Kommentare"
+      other: "%{count} Kommentare"
+    comment: "Kommentar"
+    comment_text: "Kommentar schreiben"
+    comment_destroy_confirm: "Wollen Sie den Kommentar wirklich löschen?"
+    comment_destroy_text: "Dieser Kommentar wurde vom Benutzer gelöscht."
+    post_author: "von <strong>%{author}</strong>"
+    drop_add_folder: "Hier ablegen um neuen Ordner zu erstellen"
+    new_folder: "Neuer Ordner"
+    like: "Gefällt mir"
+    unlike: "Gefällt mir nicht mehr"
+    likes_count:
+      zero: "%{users} gefällt dies"
+      one: "%{users} und einem anderen gefällt dies"
+      few: "%{users} und %{count} anderen gefällt dies"
+      many: "%{users} und %{count} anderen gefällt dies"
+      other: "%{users} und %{count} anderen gefällt dies"
+    feed: "Feed"
+    site: "Seite"
+    enclosure_url: "Anhang ansehen (%{size}, %{type})"
+    pocket: "Pocket"
+    unpocket: "Unpocket"
+    pocket_error: "Fehlgeschlagen"
+  home:
+    following: "Das Neuste von Ihren Freunden"
+    updated: "Kürzlich aktualisiert"
+    dead: "Stillgelegte Feeds"
+    tips:
+      title: "Tipps & Tricks"
+      items:
+        - "Mit den Tastaturkürzeln \"j\" und \"k\" können Sie zwischen Beiträgen springen. \"o\" öffnet den Beitrag in einem neuen Fenster."
+        - "Weitere Tastaturkürzel: mit \"s\" einen Beitrag teilen und \"l\" für gefällt mir."
+        - "Drag & drop Feeds im Menü um die Reihenfolge anzupassen oder neue Ordner zu erstellen."
+        - "Mit einem Doppelklick auf einen Feed oder Ordnertitel können Sie diese umbenennen."
+        - "Um Feeds mit einem Klick zu abonnieren, benutzen Sie 'http://theoldreader.com/feeds/subscribe?url=%s' in der RSS Subscription Erweiterung oder Firefox Feed Handler."
+    aboutus:
+      title: "Etwas über uns"
+      text: "Bitte <a href='mailto:hello@theoldreader.com'>senden Sie uns eine Nachricht</a> wenn Sie Anmerkungen oder Vorschläge haben. Sie können uns auch auf <a href='https://twitter.com/#!/theoldreader'>Twitter folgen</a> und unseren <a href='http://blog.theoldreader.com/'>hinter den Kulissen Blog lesen</a>."
+    plugins:
+      title: "Browser-Erweiterung"
+  pages:
+    home: "Home"
+    all: "Alle Beiträge"
+    liked: "Gefällt mir"
+    shared: "Geteilt"
+    followed: "Freunde"
+    import: "Importieren"
+    search: "Suchen"
+    settings: "Einstellungen"
+    profile: "Profile"
+    friends: "Freunde finden"
+    commented: "Kommentiert"
+    privacy: "Datenschutzerklärung"
+    trending: "Trending"
+    tour: "Tour"
+  settings:
+    name: "Name"
+    username: "Benutzername"
+    email: "E-Mail"
+    ui:
+      title: "Benutzeroberfläche"
+      click_to_scroll: "Klick auf einen Beitrag scrollt dort hin"
+      locale: "Sprache"
+    feed_display_mode:
+      title: "Feed-Anzeige"
+      all: "Alle Beiträge"
+      unread: "Nur Ungelesene"
+    feed_list_mode:
+      title: "Beiträge-Anzeige"
+      full: "Vollansicht"
+      list: "Listenansicht"
+    sort_mode:
+      title: "Reihenfolge der Beiträge"
+      normal: "Normal"
+      reverse: "Umgekehrt"
+    social: "Soziales"
+    notify_when_followed: "Per E-Mail benachrichtigen wenn Ihnen jemand folgt"
+    share_timeline: "Geteilte Beiträge auf Facebook veröffentlichen"
+    connect_share_timeline: "Mit Facebook verbinden um geteilte Beiträge zu veröffentlichen"
+    show_fb_profile: "Link zu Ihrer Facebook-Seite im Profil anzeigen"
+    save: "Änderungen speichern"
+    cancel_disabled: "Sie können Ihr Benutzerkonto nicht kündigen während ein Importvorgang läuft, bitte haben Sie Geduld."
+    cancel_account:
+      text: "Unglücklich? Sie können Ihre Abos als OPML-Datei %{export} und jederzeit Ihr %{cancel}."
+      export: "exportieren"
+      cancel: "Konto kündigen"
+      confirm: "Sind Sie sicher?"
+    pocket:
+      title: "Pocket-Verknüpfung"
+      description: "<a href='http://getpocket.com/'>Pocket</a> (früher Read It Later) ist eine nützliche App, mit der Sie Inhalte anordnen, sortieren und taggen können, die Sie später aufrufen wollen."
+      connect: "Mit Pocket verbinden"
+      account: "Ihr Konto: <strong>%{username}</strong>"
+  import:
+    title: "Importieren"
+    alert: "<b>Bitte geben Sie Ihren Google-Benutzername und Passwort ein um Ihre Abos von Google Reader zu importieren.</b><br />Wir speichern Ihre Zugangsdaten nicht. Sie werden nur verwendet um Ihre Abos zu laden."
+    opml: "<b>Oder nutzen Sie eine OPML-Datei</b><br />Sie können diese bei den Google Reader Einstellungen herunterladen."
+    email: "E-Mail"
+    password: "Passwort"
+    import: "Importieren"
+    success: "Wir haben die Liste Ihrer Feeds erhalten. Der Importvorgang findet im Hintergrund statt, Sie können The Old Reader sofort verwenden. Ihre Feeds werden in Kürze im Menü erscheinen."
+    processing: "Ihre Feeds werden im Hintergrund geladen."
+    error: "Etwas ist schiefgelaufen"
+    opml_empty: "Die OPML-Datei ist fehlerhaft oder leer."
+  profile:
+    follow: "Folgen"
+    unfollow: "Nicht mehr folgen"
+    thats_you: "Das sind Sie!"
+    following: 
+      one: "Folgt <strong>%{count}</strong> Benutzer"
+      few: "Folgt <strong>%{count}</strong> users"
+      many: "Follows <strong>%{count}</strong> users"
+      other: "Follows <strong>%{count}</strong> users"
+    followers:
+      one: "Von <strong>%{count}</strong> Nutzer gefolgt"
+      few: "Von <strong>%{count}</strong> Nutzern gefolgt"
+      many: "Von <strong>%{count}</strong> Nutzern gefolgt"
+      other: "Von <strong>%{count}</strong> Nutzern gefolgt"
+    me_following: "Folgt <strong>%{count}</strong>"
+    my_followers: "<strong>%{count}</strong> Folger"
+    posts: "Geteilte Beiträge"
+    your_profile: "Ihr Profil"
+    facebook: "Facebook (%{name})"
+    new: "Neu"
+    new_followers:
+      one: "%{count} neu"
+      few: "%{count} neu"
+      many: "%{count} neu"
+      other: "%{count} neu"
+    rss: "%{name} geteilte Beiträge bei The Old Reader (RSS)"
+  friends:
+    follow: "Folgen Sie Ihren Freunden, die The Old Reader nutzen"
+    found:
+      one: "%{count} Nutzer gefunden"
+      few: "%{count} Nutzer gefunden"
+      many: "%{count} Nutzer gefunden"
+      other: "%{count} Nutzer gefunden"
+    facebook: "Mit Facebook anmelden"
+    google: "Mit Google anmelden"
+  notifier:
+    followed:
+      subject: "%{name} folgt Ihnen"
+      body: |
+        Hallo %{followed}!
+        
+        %{name} folgt Ihnen nun. Hurra!
+        Profil betrachten unter %{profile}.
+        
+        -- 
+        The Old Reader Roboter.
+        Sie können sich unter den Einstellungen abmelden.
+        %{host}
+    changes:
+      subject: "Wichtige Nachricht bzgl. geteilten Beiträgen"
