@@ -23,8 +23,8 @@ fr:
       timeout: "Votre session a expiré, merci de vous connecter à nouveau pour continuer."
       inactive: "Votre compte n'a pas encore été activé."
     sessions:
-      signed_in: "Connection réussie."
-      signed_out: "Déconnection réussie."
+      signed_in: "Connexion réussie."
+      signed_out: "Déconnexion réussie."
     passwords:
       send_instructions: "Vous allez recevoir un e-mail contenant les instructions pour ré-initialiser votre mot de passe dans quelques minutes."
       updated: "Votre mot de passe a bien été changé. Vous êtes maintenant connecté."
@@ -108,8 +108,8 @@ fr:
         :text: "Disons simplement que le lecteur d'origine nous manquait beaucoup, donc nous avons construit The Old Reader pour nous-mêmes et nos amis. Nous aimons ce qu'il est devenu, donc nous le partageons avec tout le monde"
     supported: "Pris en charge avec amour par"
   user:
-    profile: "Profile"
-    logout: "Déconnection"
+    profile: "Profil"
+    logout: "Déconnexion"
     settings: "Réglages"
     failure: "Le %{kind} compte que vous essayez d'utiliser a déjà été lié à un autre compte dans The Old Reader. Annulez votre autre compte et recommencez l'opération."
     wrong_auth: "Quelque chose s'est mal passé, contactez-nous à hello@theoldreader.com"
@@ -187,7 +187,7 @@ fr:
     pocket_error: "Erreur"
   home:
     following: "Derniers vus par vos amis"
-    updated: "Mise à jour récemment"
+    updated: "Mis à jour récemment"
     dead: "Flux morts"
     tips:
       title: "Trucs & astuces"
@@ -196,7 +196,7 @@ fr:
         - "Quelques raccourcis clavier supplémentaires: utilisez \"s\" pour partager un post ou \"l\" pour un like."
         - "Drag & drop les flux dans le menu pour les réorganiser ou pour créer un nouveau dossier de flux."
         - "Vous pouvez double-cliquer sur un flux ou sur un dossier pour le renommer."
-        - "Pour souscrire un nouveau flux en un seul clique, utilisez 'http://theoldreader.com/feeds/subscribe?url=%s' dans l'extension d'abonnement RSS ou dans la gestion des flux Firefox."
+        - "Pour souscrire un nouveau flux en un seul clic, utilisez 'http://theoldreader.com/feeds/subscribe?url=%s' dans l'extension d'abonnement RSS ou dans la gestion des flux Firefox."
     aboutus:
       title: "A propos de nous"
       text: "N'hésitez pas à <a href='mailto:hello@theoldreader.com'>nous envoyer un mot</a> si vous avez un commentaire ou une suggestion. Vous pouvez aussi <a href='https://twitter.com/#!/theoldreader'>nous suivre</a> sur twitter et lire notre <a href='http://blog.theoldreader.com/'>behind the scenes blog</a>."
@@ -275,14 +275,14 @@ fr:
       many: "Suit <strong>%{count}</strong> utilisateurs"
       other: "Suit <strong>%{count}</strong> utilisateurs"
     followers:
-      one: "Est suivit par <strong>%{count}</strong> user"
-      few: "Est suivit par <strong>%{count}</strong> utilisateurs"
-      many: "Est suivit par <strong>%{count}</strong> utilisateurs"
-      other: "Est suivit par <strong>%{count}</strong> utilisateurs"
-    me_following: "<strong>%{count}</strong> Suivit"
+      one: "Est suivi par <strong>%{count}</strong> user"
+      few: "Est suivi par <strong>%{count}</strong> utilisateurs"
+      many: "Est suivi par <strong>%{count}</strong> utilisateurs"
+      other: "Est suivi par <strong>%{count}</strong> utilisateurs"
+    me_following: "<strong>%{count}</strong> Suivi"
     my_followers: "<strong>%{count}</strong> Suivant"
     posts: "Posts partagés"
-    your_profile: "Votre profile"
+    your_profile: "Votre profil"
     facebook: "Facebook (%{name})"
     new: "Nouveau"
     new_followers:
@@ -307,7 +307,7 @@ fr:
         Salut, %{followed}!
         
         %{name} vous suit. Bien!
-        Voir son profile sur %{profile}.
+        Voir son profil sur %{profile}.
         
         -- 
         The Old Reader robot.
