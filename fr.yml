@@ -228,7 +228,7 @@ fr:
     feed_display_mode:
       title: "Mode d'affichage des flux"
       all: "Montrer tous les posts"
-      unread: "Montrer uniquement les non-lus"
+      unread: "Montrer uniquement les posts non-lus"
     feed_list_mode:
       title: "Mode de vue des posts"
       full: "Vue complète"
@@ -238,10 +238,10 @@ fr:
       normal: "Normal"
       reverse: "Inverse"
     social: "Social"
-    notify_when_followed: "Notifier par e-mail quand quelqu'un commence à me suivre"
+    notify_when_followed: "Me notifier par e-mail quand quelqu'un commence à me suivre"
     share_timeline: "Publier mes partages sur ma page Facebook"
     connect_share_timeline: "Se connecter à Facebook pour publier vos partages"
-    show_fb_profile: "Montrer les liens sur votre page Facebook sur votre profil"
+    show_fb_profile: "Montrer le lien de votre page Facebook sur votre profil"
     save: "Sauvegarder vos changements"
     cancel_disabled: "Vous ne pouvez pas fermer votre compte pendant que l'importation est en cours, merci de patienter."
     cancel_account:
