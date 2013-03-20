@@ -1,0 +1,317 @@
+hu:
+  # Devise
+  errors:
+    messages:
+      expired: "lejárt, kérlek igényelj egy újat"
+      not_found: "nem talált"
+      already_confirmed: "már igazolva van, kérlek próbálj bejelentkezni"
+      not_locked: "nem volt zárva"
+      not_saved:
+        one: "1 hiba megakadályozta, hogy lementsd %{resource}-t:"
+        few: "%{count} hiba megakadályozta, hogy lementsd %{resource}-t:"
+        many: "%{count} hiba megakadályozta, hogy lementsd %{resource}-t"
+        other: "%{count} hiba megakadályozta, hogy lementsd %{resource}-t"
+  
+  devise:
+    failure:
+      already_authenticated: "Már be vagy jelentkezve."
+      unauthenticated: "Be kell jelentkezned a folytatáshoz."
+      unconfirmed: "Igazolnod kell a fiókodat a folytatáshoz."
+      locked: "A fiókod zárolva van."
+      invalid: "Hibás email vagy jelszó."
+      invalid_token: "Hibás igazoló kód."
+      timeout: "Az időkeret lejárt, a folytatáshoz kérlek lépj be újra."
+      inactive: "A fiókod még nincs aktiválva."
+    sessions:
+      signed_in: "Sikeres bejelentkezés."
+      signed_out: "Sikeres kijelentkezés."
+    passwords:
+      send_instructions: "Pár percen belül megkapod az emailt a jelszavad helyreállításának lépéseiről."
+      updated: "Jelszavad sikeresen megváltoztatva. Már be vagy jelentkezve."
+      updated_not_active: "Jelszavad sikeresen megváltoztatva."
+      send_paranoid_instructions: "Ha az emailcímed létezik az adatbázisunkban, kapsz egy jelszó-helyreállító linket az emailcímedre"
+    confirmations:
+      send_instructions: "Hamarosan kapsz egy leírást a fiókod igazolásáról emailben."
+      send_paranoid_instructions: "Ha az emailcímed létezik az adatbázisunkban, kapsz egy leírást a fiókod igazolásáról emailben hamarosan"
+      confirmed: "Fiókod sikeresen igazolva. Már be vagy jelentkezve."
+    registrations:
+      signed_up: "Üdvözlünk! Sikeresen regisztráltál."
+      signed_up_but_unconfirmed: "Küldtünk az email címedre egy üzenetet az igazoló linkkel. Kérlek, nyisd meg a linket a fiókod aktiválásához."
+      signed_up_but_inactive: "Sikeresen feliratkoztál. Azonban, nem tudtunk bejelentkeztetni, mert a fiókod még nem aktív."
+      signed_up_but_locked: "Sikeresen feliratkoztál. Azonban, nem tudtunk bejelentkeztetni, mert a fiókod zárolva van."
+      updated: "Sikeresen frissítetted a fiókodat."
+      update_needs_confirmation: "Sikeresen frissítetted a fiókodat, de le kell ellenőriznünk az új email címed. Kérlek ellenőrizd leveleid és nyisd meg az igazoló linket az új email címed hitelesítésének befejezéséhez."
+      destroyed: "Viszlát! A fiókod sikeresen visszavonva. Reméljük, hamarosan viszontlátunk."
+    unlocks:
+      send_instructions: "Hamarosan kapsz egy leírást emailben a fiókod feloldásáról."
+      unlocked: "A fiókod sikeresen feloldva. A folytatáshoz kérlek jelentkezz be."
+      send_paranoid_instructions: "Ha a fiókod létezik, kapsz egy leírást emailben a feloldásáról hamarosan."
+    omniauth:
+      success: "Sikeresen hitelesítve a %{kind} fiók alapján."
+      failure: "%{kind} hitelesítés sikertelen, a következő okból: %{reason}."
+    mailer:
+      confirmation_instructions:
+        subject: "Igazoló utasítások"
+      reset_password_instructions:
+        subject: "Jelszó-helyreállítási utasítások"
+      unlock_instructions:
+        subject: "Feloldási utasítások"
+  
+  # Reader
+  app: "The Old Reader"
+  eggs: "Mi ♥ cicák"
+  title: "The Old Reader"
+  meta:
+    description: "Ez az alapvető RSS olvasó. Pont, mint a régi google olvasó, csak jobb. Importáld a feliratkozásaid egy kattintással, keresd meg Facebookos barátaid, és ossz meg bármit."
+    keywords: "the old reader"
+  landing:
+    topmenu:
+      -
+        :title: "Twitter"
+        :url: "https://twitter.com/#!/theoldreader"
+      -
+        :title: "Facebook"
+        :url: "https://www.facebook.com/theoldreader"
+      - 
+        :title: "Blog"
+        :url: "http://blog.theoldreader.com/"
+      - 
+        :title: "Kapcsolat"
+        :url: "http://blog.theoldreader.com/about"
+    sign_in:
+      title: "Lépj be a következővel:"
+      google: "Google"
+      facebook: "Facebook"
+    welcome: 
+      - "Üdv a The Old Readerben, a végső, közösségi RSS olvasóban. Pont olyan, mint a régi google olvasó, csak jobb. Még béta verzióban vagyunk, de folyamatosan dolgozunk javításokon és új fejlesztéseken."
+      - "Bejelentkezhetsz, és elkezdheted a The Old Reader használatát egy kattintással. Azonban, ha túl félénk volnál, nyugodtan nézd meg a %tour% lapunkat, vagy lesd meg a %trending% oldalát."
+    tour: "bemutatkozó"
+    trending: "napi toplista"
+    qa:
+      -
+        :title: "Mit csinál?"
+        :text: "Segít a tartalmaid napi dózisának böngészésében, kiegészítve a barátaid által megosztottakkal, és megjegyzéseikkel"
+      -
+        :title: "Áthozhatom a feliratkozásaim?"
+        :text: "Igen, egyenesen importálhatod a csatornáidat a Google Olvasóból, vagy használhatod a mi OPML import funkciónkat, ha érzékenyebb vagy adataid biztonságára."
+      -
+        :title: "Hogyan találhatom meg barátaimat?"
+        :text: "Dolgozunk a barát ajánló lap bővítésén, de addig is manuálisan kereshetsz a barátaid után, vagy megnézheted, hogy a Facebookos, Google-s ismerőseid közül ki használja még a The Old Readert. Továbbá küldünk neked emailes értesítőt, ha valaki elkezd téged követni."
+      -
+        :title: "Van már mobilos alkalmazásotok?"
+        :text: "<em>Még</em> nincs, de ahogy korábban ígértük, elkezdtünk rajta dolgozni, amint elértük az 5000-es felhasználótábort 2012 októberében. Az általános felületünk azonban még most is szépen alkalmazkodik a mobil készülékekhez."
+      -
+        :title: "Úgy fogsz viselkedni a Facebookomon, mint a többi alkalmazás?"
+        :text: "Egyáltalán nem! Felteheted az idővonaladra a megosztott elemeidet, de hacsak nem választod ki kifejezetten a Facebookra postolást, minden megosztásod és megjegyzésed a The Old Readeren marad. Nem teszünk fel semmi mást, vagy vonunk bele bármi sötét ügyletbe a nevedben."
+      -
+        :title: "Miért készítettétek a The Old Readert?"
+        :text: "Mondjuk úgy, hogy nagyon hiányoltuk az eredeti olvasót, úgyhogy csináltunk magunknak és barátainknak egyet a régi mintájára, a The Old Readert. Megtetszett a végeredmény, úgyhogy megosztjuk mindenkivel."
+    supported: "Szeretettel támogat az"
+  user:
+    profile: "Profil"
+    logout: "Kijelentkezés"
+    settings: "Beállítások"
+    failure: "A %{kind} fiók, amit megpróbálsz használni, már össze van kapcsolva egy másik The Old Reader fiókkal. Kérlek, szűntesd meg a másik fiókodat, és próbálkozz újra a művelettel."
+    wrong_auth: "Valami hiba történt, kérlek vedd fel velünk a kapcsolatot a hello@theoldreader.com címen"
+    becomes_active_notice: "Nem használtad a The Old Readert egy ideje, úgyhogy csak a friss elemeket tartottuk meg neked"
+  feeds:
+    no_feeds:
+      text: "Még nincsenek feliratkozásaid. Készíthetsz %{subscribe}okat egy új csatornára (mit szólnál <a href='http://blog.theoldreader.com/rss' class='feed-subscribe'>a blogunkhoz</a>?) vagy %{import} útján is feliratkozhatsz.<br />Ha többet szeretnél tudni, %{tour} itt."
+      subscribe: "feliratkozás"
+      import: "importálás"
+      tour: "bemutató megtekintése"
+    no_posts: "Itt még nincsenek elemek"
+    no_posts_filler: "Nincs több elem ezen vonal alatt. Lehetséges, hogy elolvastad mindet."
+    subscribe: "Feliratkozás"
+    add_subscription: "Feliratkozás hozzáadása"
+    add: "Hozzáadás"
+    url: "URL"
+    invalid_url: "Hibás URL-t adtál meg"
+    empty_url: "Nem adtál meg URL-t"
+    loading: "Betöltés..."
+    default_folder: "Feliratkozások"
+    feeds: "Csatornák"
+    feeds_count:
+      one: "csatorna"
+      few: "csatornák"
+      many: "csatornák"
+      other: "csatornák"
+    posts_count:
+      one: "elemed"
+      few: "elemed"
+      many: "elemed"
+      other: "elemed"
+    your_posts: "<em>%{unread}</em> olvasatlan %{posts} van"
+    refresh: "Frissítés"
+    unsubscribe: "Leiratkozás"
+    unsubscribe_confirm: "Biztosan le akarsz iratkozni? A megosztott és tetszett elemeid a csatornáról nem lesznek eltávolítva."
+    ago: "óta"
+    never: "Soha"
+    confirm: "Biztos vagy benne?"
+    mark_all_read: "Mind megjelölése olvasottként"
+    search: "Keres"
+    search_limits: "Az általad megadott keresőkifejezés nagyon gyakori, ezért korlátoztuk a keresési eredmények számát. Ha az összes eredményt látni szeretnéd, kérlek szigorítsd a keresőkifejezést."
+    mark_read: "Megjelölés olvasottként"
+    mark_unread: "Megjelölés olvasatlanként"
+    share: "Megosztás"
+    shared: "Megosztva"
+    unshare: "Nem megosztás"
+    following: "Követés"
+    attach_note: "Akarsz jegyzetet hozzáfűzni?"
+    attach: "Jegyzet mentése"
+    comments:
+      one: "%{count} megjegyzés"
+      few: "%{count} megjegyzés"
+      many: "%{count} megjegyzés"
+      other: "%{count} megjegyzés"
+    comment: "Megjegyzés"
+    comment_text: "Megjegyzés írása"
+    comment_destroy_confirm: "Biztosan ki akarod törölni a megjegyzést?"
+    comment_destroy_text: "Ezt megjegyzést a felhasználó törölte."
+    post_author: "<strong>%{author}</strong> által"
+    drop_add_folder: "Húzd ide az új mappa hozzáadásához"
+    new_folder: "Új mappa"
+    like: "Tetszik"
+    unlike: "Nem tetszik"
+    likes_count:
+      zero: "%{users}-nak tetszik"
+      one: "%{users} és még valakinek tetszik"
+      few: "%{users} és %{count} továbbiaknak tetszik"
+      many: "%{users} és %{count} továbbiaknak tetszik"
+      other: "%{users} és %{count} továbbiaknak tetszik"
+    feed: "Csatorna"
+    site: "Oldal"
+    enclosure_url: "Csatolt file megtekintése (%{size}, %{type})"
+    pocket: "Pocket"
+    unpocket: "Pocketból ki"
+    pocket_error: "Sikertelen"
+  home:
+    following: "Legfrissebbek a barátaidtól"
+    updated: "Frissítések"
+    dead: "Halott csatornák"
+    tips:
+      title: "Tippek & trükkök"
+      items:
+        - "Használd a \"j\" és \"k\" billentyűket az elemek közti navigáláshoz. \"o\" új ablakban nyitja meg az elemet."
+        - "További gyorsbillentyűk: az \"s\"-sel megoszthatsz egy elemet, vagy \"l\", hogy tetszettnek jelöld."
+        - "Húzz be csatornákat a menübe, az átrendezéshez, vagy hogy mappákba csoportosítsd őket."
+        - "Duplakattintással egy csatorna, vagy mappa nevén átnevezheted őket."
+        - "Hogy feliratkozhass egy új csatornára egy szimpla kattintással, használd a 'http://theoldreader.com/feeds/subscribe?url=%s' URL-t az RSS Feliratkozás bővítményben, vagy a Firefox csatornakezelőjét."
+    aboutus:
+      title: "Rólunk"
+      text: "Bátran <a href='mailto:hello@theoldreader.com'>küldj címünkre</a> egy levelet, ha megjegyzéseid, vagy tanácsaid volnának. Továbbá <a href='https://twitter.com/#!/theoldreader'>követhetsz</a> a twitteren és olvashatod a <a href='http://blog.theoldreader.com/'>színfalak mögötti blogunkat</a>."
+    plugins:
+      title: "Böngésző bővítmények"
+  pages:
+    home: "Főoldal"
+    all: "Minden elem"
+    liked: "Tetszett"
+    shared: "Megosztott"
+    followed: "Barátok"
+    import: "Importálás"
+    search: "Keresés"
+    settings: "Beállítások"
+    profile: "Profil"
+    friends: "Barátok keresése"
+    commented: "Megjegyzések"
+    privacy: "Adatvédelmi irányelvek"
+    trending: "Népszerű"
+    tour: "Bemutató"
+  settings:
+    name: "Név"
+    username: "Felhasználónév"
+    email: "Email"
+    ui:
+      title: "Felhasználói felület"
+      click_to_scroll: "Egy elemre kattintás odagördít"
+      locale: "Nyelv"
+    feed_display_mode:
+      title: "Elemek megjelenítése"
+      all: "Minden elemet mutasson"
+      unread: "Csak olvasatlan elemeket mutasson"
+    feed_list_mode:
+      title: "Elemek nézete"
+      full: "Teljes nézet"
+      list: "Lista nézet"
+    sort_mode:
+      title: "Elemek sorrendje"
+      normal: "Normális"
+      reverse: "Fordított"
+    social: "Közösségi dolgok"
+    notify_when_followed: "Küldjön emailt, ha valaki követni kezd téged"
+    share_timeline: "Közzétegye a megosztásaidat a Facebook oldaladon"
+    connect_share_timeline: "Kapcsolódjon a Facebookhoz, hogy közzétegye a megosztásaidat"
+    show_fb_profile: "Mutassa a Facebook oldalad linkjét a profilodon"
+    save: "Módosítások mentése"
+    cancel_disabled: "Nem szűntetheted meg a fiókodat, miközben az importálás folyamatban van, kérlek várj türelemmel."
+    cancel_account:
+      text: "Boldogtalan vagy? Bármikor %{export} OPML file-ként és %{cancel}."
+      export: "exportálhatod csatornáidat"
+      cancel: "megszűntetheted fiókodat"
+      confirm: "Biztos vagy benne?"
+    pocket:
+      title: "Pocket integráció"
+      description: "A <a href='http://getpocket.com/'>Pocket</a> (korábbi nevén Read It Later) egy ügyes alkalmazás, mellyel rendezheted, válogathatod, és címkézheted azokat a tartalmakat, melyekhez később szeretnél hozzáférni."
+      connect: "Kapcsolódás a Pockethez az indításhoz"
+      account: "Fiókod: <strong>%{username}</strong>"
+  import:
+    title: "Importálás"
+    alert: "<b>Kérlek add meg Google felhasználóneved, és jelszavad a feliratkozásaid importálásához a Google Olvasóból.</b><br />Nem tároljuk el belépési adataidat, őket csak a feliratkozásaid behozásához használjuk fel."
+    opml: "<b>Vagy válaszd ki az OPML file-t</b><br />A Google Olvasó beállítási lapjáról szerezheted be."
+    email: "Email"
+    password: "Jelszó"
+    import: "Importálás"
+    success: "Megkaptuk a csatornáid listáját. Az importálási folyamat a háttérben fog futni, hogy elkezdhesd a The Old Reader használatát azonnal. Csatornáid hamarosan megjelennek a menüben."
+    processing: "A csatornáid a háttérben importálódnak."
+    error: "Valami hiba történt"
+    opml_empty: "Az OPML file, amit feltöltöttél vagy helytelen, vagy üres."
+  profile:
+    follow: "Követés"
+    unfollow: "Nem követés"
+    thats_you: "Ez te vagy!"
+    following: 
+      one: "<strong>%{count}</strong> embert követ"
+      few: "<strong>%{count}</strong> embert követ"
+      many: "<strong>%{count}</strong> embert követ"
+      other: "<strong>%{count}</strong> embert követ"
+    followers:
+      one: "Követve <strong>%{count}</strong> ember által"
+      few: "Követve <strong>%{count}</strong> ember által"
+      many: "Követve <strong>%{count}</strong> ember által"
+      other: "Követve <strong>%{count}</strong> ember által"
+    me_following: "<strong>%{count}</strong>-t követsz"
+    my_followers: "<strong>%{count}</strong> követőd van"
+    posts: "Megosztott elemek"
+    your_profile: "Profilod"
+    facebook: "Facebook (%{name})"
+    new: "Új"
+    new_followers:
+      one: "%{count} új"
+      few: "%{count} új"
+      many: "%{count} új"
+      other: "%{count} új"
+    rss: "%{name} megosztott elemeket a The Old Reader-en (RSS)"
+  friends:
+    follow: "Kövesd barátaidat a The Old Readeren"
+    found:
+      one: "%{count} találat"
+      few: "%{count} találat"
+      many: "%{count} találat"
+      other: "%{count} találat"
+    facebook: "Bejelentkezés Facebookkal"
+    google: "Bejelentkezés Google-lel"
+  notifier:
+    followed:
+      subject: "%{name} követ téged"
+      body: |
+        Szia, %{followed}!
+        
+        %{name} már követ téged. Szép!
+        Nézd meg a profilját: %{profile}.
+        
+        -- 
+        The Old Reader robotja.
+        Bármikor leiratkozhatsz a beállítási lapodon.
+        %{host}
+    changes:
+      subject: "Fontos megjegyzés a Csillagozott elemekkel kapcsolatban"
