@@ -1,0 +1,317 @@
+chs:
+  # Devise
+  errors:
+    messages:
+      expired: "已过期，请重新请求"
+      not_found: "未找到"
+      already_confirmed: "已验证，请重新登录"
+      not_locked: "未锁定"
+      not_saved:
+        one: "1 个错误导致 %{resource} 无法被保存:"
+        few: "%{count} 个错误导致 %{resource} 无法被保存:"
+        many: "%{count} 个错误导致 %{resource} 无法被保存:"
+        other: "%{count} 个错误导致 %{resource} 无法被保存:"
+  
+  devise:
+    failure:
+      already_authenticated: "您已经登录了。"
+      unauthenticated: "请登录。"
+      unconfirmed: "请验证您的帐户。"
+      locked: "您的帐号已被锁定。"
+      invalid: "无效的邮箱或密码。"
+      invalid_token: "无效的认证信息。"
+      timeout: "您的会话已过期，请重新登录。"
+      inactive: "您的帐户尚未被激活。"
+    sessions:
+      signed_in: "登录成功。"
+      signed_out: "退出成功。"
+    passwords:
+      send_instructions: "您将会收到一封邮件，请通过它来重置密码。"
+      updated: "密码变更成功。您现在已经登录。"
+      updated_not_active: "密码变更成功。"
+      send_paranoid_instructions: "如果您的邮箱已存在，您将会收到一封包含密码修复链接的邮件。"
+    confirmations:
+      send_instructions: "您将会收到一封邮件，请通过它来验证您的帐户。"
+      send_paranoid_instructions: "如果您的邮箱已存在，您将会收到一封包含验证信息的邮件。"
+      confirmed: "验证成功。您现在已经登录。"
+    registrations:
+      signed_up: "欢迎！ 您已成功注册。"
+      signed_up_but_unconfirmed: "一封包含验证信息的邮件已被送至您的邮箱。请点击链接以激活您的帐户。"
+      signed_up_but_inactive: "您已成功注册，但您的帐户尚未被激活。"
+      signed_up_but_locked: "您已成功注册，但您的帐户已被锁定。"
+      updated: "您已成功变更帐户信息。"
+      update_needs_confirmation: "您已成功变更帐户信息，但我们需要验证您的新邮箱。请检查您的收件箱并点击链接以完成验证。"
+      destroyed: "Bye！ 您的帐户已成功注销。"
+    unlocks:
+      send_instructions: "您将会收到一封邮件，请通过它来解锁您的帐户。"
+      unlocked: "解锁帐户成功。请重新登录。"
+      send_paranoid_instructions: "如果您的邮箱已存在，您将会收到一封包含解锁指南的邮件。"
+    omniauth:
+      success: "%{kind} 帐户授权成功。"
+      failure: "%{kind} 帐户授权失败: %{reason}。"
+    mailer:
+      confirmation_instructions:
+        subject: "帐户验证"
+      reset_password_instructions:
+        subject: "密码重置"
+      unlock_instructions:
+        subject: "帐户解锁"
+  
+  # Reader
+  app: "The Old Reader"
+  eggs: "We ♥ kittens"
+  title: "The Old Reader"
+  meta:
+    description: "RSS阅读器的绝佳之选。她看起来就像是经典版的Google Reader，但远不止如此。一键导入订阅，找到你的Facebook好友，开始分享。"
+    keywords: "the old reader"
+  landing:
+    topmenu:
+      -
+        :title: "Twitter"
+        :url: "https://twitter.com/#！/theoldreader"
+      -
+        :title: "Facebook"
+        :url: "https://www.facebook.com/theoldreader"
+      - 
+        :title: "博客"
+        :url: "http://blog.theoldreader.com/"
+      - 
+        :title: "联系我们"
+        :url: "http://blog.theoldreader.com/about"
+    sign_in:
+      title: "登录:"
+      google: "Google"
+      facebook: "Facebook"
+    welcome: 
+      - "欢迎来到The Old Reader，RSS阅读器的绝佳之选。她看起来就像是经典版的Google Reader，但远不止如此。The Old Reader仍处在测试阶段，而我们正在努力改善用户体验并添加新功能。"
+      - "你可以一键登录并开始使用The Old Reader。如果你不确定The Old Reader是否符合你的口味，不妨先看看%tour%和%trending%。"
+    tour: "新手入门"
+    trending: "每日热门"
+    qa:
+      -
+        :title: "可以用来做什么？"
+        :text: "It allows you to browse your daily dose of content with that very special bit shared by your friends, with notes and comments"
+      -
+        :title: "我能够转移我的订阅吗？"
+        :text: "是的，你可以直接从Google Reader导入订阅，如果你担心帐户安全的话，也可以通过OPML文件导入。"
+      -
+        :title: "如何找到我的朋友？"
+        :text: "We're working on improving the friend suggestion page, but in the mean time you can search for your buddies manually or see who among your Facebook friends or Google contacts is also using The Old Reader. We'll also send you an e-mail when someone starts following you。"
+      -
+        :title: "你们拥有移动应用吗？"
+        :text: "<em>暂时</em>没有。但就像我们之前承诺的一样，当我们的用户数在2012年10月达到5000时，相关工作就已经开始了。即便是现在，我们的标准界面也可以很好地适配移动设备。"
+      -
+        :title: "你们跟Facebook上其他应用一样么？"
+        :text: "当然不！ You can post your shared items on your timeline, but unless you choose to post to Facebook, all your shares and comments will stay in The Old Reader only. We'll never post anything else on your behalf or involve you in any other shady scheme。"
+      -
+        :title: "你们为什么创建The Old Reader？"
+        :text: "我们非常怀念经典版的Google Reader，因此我们为自己和朋友创建了The Old Reader。最终效果远超预期，所以我们决定和所有人分享。"
+    supported: "Supported with love by"
+  user:
+    profile: "个人档案"
+    logout: "退出"
+    settings: "设置"
+    failure: "您所使用的%{kind}帐户已经关联至另一个The Old Reader帐户。请注销您的另一个帐户并重试。"
+    wrong_auth: "出错了，请与 hello@theoldreader.com 联系"
+    becomes_active_notice: "您有段时间没使用The Old Reader了，因此我们只保留了最新条目。"
+  feeds:
+    no_feeds:
+      text: "还没有任何订阅。你可以%{subscribe}一个新的供稿(<a href='http://blog.theoldreader.com/rss' class='feed-subscribe'>我们的博客</a>怎么样？)或者%{import}你的订阅.<br />如果你想了解更多，试试我们的%{tour}。"
+      subscribe: "订阅"
+      import: "导入"
+      tour: "新手入门"
+    no_posts: "还没有任何条目。"
+    no_posts_filler: "没有更多条目了。大概你已经都读过了。"
+    subscribe: "订阅"
+    add_subscription: "添加一个新订阅"
+    add: "添加"
+    url: "URL"
+    invalid_url: "无效的URL"
+    empty_url: "URL不能为空"
+    loading: "Loading..。"
+    default_folder: "订阅"
+    feeds: "供稿"
+    feeds_count:
+      one: "个供稿"
+      few: "个供稿"
+      many: "个供稿"
+      other: "个供稿"
+    posts_count:
+      one: "个条目"
+      few: "个条目"
+      many: "个条目"
+      other: "个条目"
+    your_posts: "<em>%{unread}</em> 个未读新%{posts}"
+    refresh: "刷新"
+    unsubscribe: "取消订阅"
+    unsubscribe_confirm: "真的要取消订阅？ 分享和喜欢的条目不会被删除。"
+    ago: "之前"
+    never: "从不"
+    confirm: "确定？"
+    mark_all_read: "全部标为已读"
+    search: "搜索"
+    search_limits: "您的搜索请求过于宽泛，因此我们限制了搜索结果个数。如果您希望看到所有结果，请为搜索请求添加更多限制条件。"
+    mark_read: "标记为已读"
+    mark_unread: "标记为未读"
+    share: "分享"
+    shared: "已分享"
+    unshare: "取消分享"
+    following: "正在关注"
+    attach_note: "想要添加一条新笔记？"
+    attach: "保存笔记"
+    comments:
+      one: "%{count} 条评论"
+      few: "%{count} 条评论"
+      many: "%{count} 条评论"
+      other: "%{count} 条评论"
+    comment: "评论"
+    comment_text: "写新评论"
+    comment_destroy_confirm: "确定要删除这条评论？"
+    comment_destroy_text: "这条评论已被删除。"
+    post_author: "by <strong>%{author}</strong>"
+    drop_add_folder: "拖到这里创建一个新文件夹"
+    new_folder: "新文件夹"
+    like: "喜欢"
+    unlike: "取消喜欢"
+    likes_count:
+      zero: "%{users} 喜欢"
+      one: "%{users} 及另外 1 位用户喜欢"
+      few: "%{users} 及另外 %{count} 位用户喜欢"
+      many: "%{users} 及另外 %{count} 位用户喜欢"
+      other: "%{users} 及另外 %{count} 位用户喜欢"
+    feed: "源"
+    site: "站点"
+    enclosure_url: "查看附件(%{size}, %{type})"
+    pocket: "Pocket"
+    unpocket: "Unpocket"
+    pocket_error: "失败"
+  home:
+    following: "好友更新"
+    updated: "最近更新"
+    dead: "失效供稿"
+    tips:
+      title: "小技巧"
+      items:
+        - "Use \"j\" and \"k\" keyboard shortcuts to navigate posts. \"o\" opens the post in a new window。"
+        - "Some more keyboard shortcuts: use \"s\" to share a post or \"l\" to mark it as liked."
+        - "Drag & drop feeds in the menu to reorder them or to create new feed folders."
+        - "You can double click on feed or folder title to rename it."
+        - "To subscribe to new feeds with a single click, use 'http://theoldreader.com/feeds/subscribe?url=%s' in RSS Subscription extension or Firefox feed handler."
+    aboutus:
+      title: "关于我们"
+      text: "如果有任何意见和建议，请<a href='mailto:hello@theoldreader.com'>发邮件</a>联系我们。你也可以在<a href='https://twitter.com/#！/theoldreader'>twitter</a>关注我们或者访问<a href='http://blog.theoldreader.com/'>我们的博客</a>。"
+    plugins:
+      title: "浏览器扩展"
+  pages:
+    home: "主页"
+    all: "所有条目"
+    liked: "喜欢"
+    shared: "分享"
+    followed: "好友"
+    import: "导入"
+    search: "搜索"
+    settings: "设置"
+    profile: "个人档案"
+    friends: "找人"
+    commented: "评论"
+    privacy: "隐私协议"
+    trending: "趋势"
+    tour: "新手入门"
+  settings:
+    name: "昵称"
+    username: "用户名"
+    email: "邮箱"
+    ui:
+      title: "界面"
+      click_to_scroll: "选中条目时自动聚焦"
+      locale: "语言"
+    feed_display_mode:
+      title: "显示模式"
+      all: "显示全部条目"
+      unread: "显示未读条目"
+    feed_list_mode:
+      title: "浏览模式"
+      full: "完整视图"
+      list: "列表视图"
+    sort_mode:
+      title: "显示顺序"
+      normal: "由最新到最早"
+      reverse: "由最早到最新"
+    social: "社交网络"
+    notify_when_followed: "当我有一个新关注者时请用邮件通知我"
+    share_timeline: "将分享发布到我的Facebook"
+    connect_share_timeline: "关联Facebook"
+    show_fb_profile: "在个人档案页显示Facebook链接"
+    save: "Save changes"
+    cancel_disabled: "在导入过程中您无法注销帐户，请耐心等待。"
+    cancel_account:
+      text: "觉得不爽？ 您可以%{export}到OPML文件，然后随时都可以%{cancel}。"
+      export: "导出订阅"
+      cancel: "注销您的帐户"
+      confirm: "确定？"
+    pocket:
+      title: "Pocket integration"
+      description: "<a href='http://getpocket.com/'>Pocket</a> (原先叫Read It Later)是一款非常有用的应用，帮助你整理、标记内容， 以便稍后获取。"
+      connect: "关联Pocket"
+      account: "您的帐户: <strong>%{username}</strong>"
+  import:
+    title: "导入"
+    alert: "<b>请输入您Google帐户的用户名及密码以从Google Reader导入您的订阅.</b><br />我们不会保存您的密码。您的帐户信息将只用来获取您的订阅。"
+    opml: "<b>或者上传OPML文件</b><br />您可以从Google Reader的设置页获取到。"
+    email: "邮箱"
+    password: "密码"
+    import: "导入"
+    success: "我们已经获取了您的订阅列表。导入进程将在后台执行，您可以立即开始使用The Old Reader。您的供稿稍后将出现在菜单中。"
+    processing: "正在导入您的供稿。"
+    error: "出错了"
+    opml_empty: "OPML文件不正确或是空的。"
+  profile:
+    follow: "关注"
+    unfollow: "取消关注"
+    thats_you: "That's you!"
+    following: 
+      one: "关注 <strong>%{count}</strong> 位用户"
+      few: "关注 <strong>%{count}</strong> 位用户"
+      many: "关注 <strong>%{count}</strong> 位用户"
+      other: "关注 <strong>%{count}</strong> 位用户"
+    followers:
+      one: "被 <strong>%{count}</strong> 位用户关注"
+      few: "被 <strong>%{count}</strong> 位用户关注"
+      many: "被 <strong>%{count}</strong> 位用户关注"
+      other: "被 <strong>%{count}</strong> 位用户关注"
+    me_following: "<strong>%{count}</strong> 正在关注"
+    my_followers: "<strong>%{count}</strong> 关注者"
+    posts: "分享的条目"
+    your_profile: "你的档案"
+    facebook: "Facebook (%{name})"
+    new: "New"
+    new_followers:
+      one: "%{count} 位新关注者"
+      few: "%{count} 位新关注者"
+      many: "%{count} 位新关注者"
+      other: "%{count} 位新关注者"
+    rss: "%{name}在The Old Reader分享的条目(RSS)"
+  friends:
+    follow: "在The Old Reader关注你的好友"
+    found:
+      one: "找到 %{count} 位用户"
+      few: "找到 %{count} 位用户"
+      many: "找到 %{count} 位用户"
+      other: "找到 %{count} 位用户"
+    facebook: "登录 Facebook"
+    google: "登录 Google"
+  notifier:
+    followed:
+      subject: "%{name}关注了你"
+      body: |
+        Hello，%{followed}！
+        
+        %{name}正在关注你！
+        在%{profile}查看TA的个人档案.
+        
+        -- 
+        The Old Reader robot.
+        如需退订请在设置页更改通知设置.
+        %{host}
+    changes:
+      subject: "关于加星标的条目"
