@@ -10,7 +10,7 @@
 
 ## Contributors
 
-English: [krasnoukhov](https://github.com/krasnoukhov), [knyar](https://github.com/knyar)
+English: [knyar](https://github.com/knyar), [krasnoukhov](https://github.com/krasnoukhov)
 
 Русский: [darianiff](https://github.com/darianiff), [krasnoukhov](https://github.com/krasnoukhov), [knyar](https://github.com/knyar), [zemlanin](https://github.com/zemlanin)
 
@@ -22,3 +22,12 @@ Español: [marevalo](https://github.com/marevalo)
 
 Français: [AlexandreP2101](https://github.com/AlexandreP2101), [madx](https://github.com/madx)
 
+Catalan: [ramonpoca](https://github.com/ramonpoca)
+
+Hungarian: [blas3nik](https://github.com/blas3nik)
+
+Italiano: [ggimpa](https://github.com/ggimpa)
+
+Chinese simplified: [ushuz](https://github.com/ushuz)
+
+Deutsch: [wuhup](https://github.com/wuhup)
