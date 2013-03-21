@@ -257,7 +257,7 @@ sv:
   import:
     title: "Importera"
     alert: "<b>Vänligen ange ditt Google-användarnamn och lösenord för att importera dina prenumerationer från Google Reader. Vi kommer inte att spara dina uppgifter. Dina kontouppgifter ska användas bara för att få dina prenumerationer."
-    opml: "<b>Eller välja en OPML-fil</b><br />Du hittar det på Google Reader inställningarsidan."
+    opml: "<b>Eller välja en OPML-fil</b><br />Du hittar det på Google Reader inställningarsidan. <br />Använd <b>subscriptions.xml</b> från takeout-filen."
     email: "E-post"
     password: "Lösenord"
     import: "Importera"

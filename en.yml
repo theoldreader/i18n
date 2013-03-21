@@ -101,7 +101,7 @@ en:
         :title: "Do you have a mobile app?"
         :text: "Not <em>yet</em>, but as we had promised earlier, we started working on it when our user count reached 5000 in October 2012. Even now our standard interface adapts nicely to mobile devices."
       -
-        :title: "Will you behave on my Facebook like those other apps?"
+        :title: "Will you misbehave on my Facebook like those other apps?"
         :text: "Absolutely not! You can post your shared items on your timeline, but unless you choose to post to Facebook, all your shares and comments will stay in The Old Reader only. We'll never post anything else on your behalf or involve you in any other shady scheme."
       -
         :title: "Why did you build The Old Reader?"
@@ -257,14 +257,18 @@ en:
   import:
     title: "Import"
     alert: "<b>Please enter your Google username and password to import your subscriptions from Google Reader</b><br />We are not going to store your credentials. Account information will only be used to fetch your subscriptions."
-    opml: "<b>Or choose an OPML file</b><br />You can grab it from Google Reader settings page."
+    opml: "<b>Or choose an OPML file</b><br />You can grab it from Google Reader settings page.<br />Please use<b>subscriptions.xml</b> from your takeout archive."
     email: "Email"
     password: "Password"
     import: "Import"
-    success: "We have received the list of your feeds. The actual import process will be run in background, so you can start using The Old Reader immediately. Your feeds will shortly be appearing in the menu."
+    started: "We find feed import to be quite resource intensive procedure, so our system only allows a limited number of import operations to run at the same time. Currently all available slots are busy, so your import operation will be queued."
+    queued: "Thank you for uploading your OPML file. We will soon start importing your subscriptions, which might take up to several hours depending on the amount of feeds you have."
+    queued_notice: "There are <strong>%{count}</strong> users in the import queue ahead of you."
     processing: "Your feeds are now importing in background."
     error: "Something went wrong"
     opml_empty: "OPML file you uploaded is either incorrect or empty."
+    too_many_feeds: "For technical reasons we will only import first 1000 of your feeds."
+    cancel: "Cancel import"
   profile:
     follow: "Follow"
     unfollow: "Unfollow"
@@ -312,6 +316,18 @@ en:
         -- 
         The Old Reader robot.
         You can always unsubscribe at your settings page.
+        %{host}
+    import:
+      subject: "Your feeds are ready, hooray!"
+      body: |
+        Hello %{name},
+        
+        We are happy to inform you that we have finished importing your subscriptions.
+        %{count} feeds you imported should now be available at %{host}.
+        Thank you for using The Old Reader.
+        
+        -- 
+        The Old Reader robot.
         %{host}
     changes:
       subject: "Important note regarding Starred items"

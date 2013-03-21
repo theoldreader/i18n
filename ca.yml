@@ -1,0 +1,317 @@
+ca:
+  # Devise
+  errors:
+    messages:
+      expired: "ha expirat, si us plau demaneu-ne un de nou"
+      not_found: "no es troba"
+      already_confirmed: "ja estava confirmat, intenteu entrar al compte"
+      not_locked: "no estava bloquejat"
+      not_saved:
+        one: "1 error ha impedit guardar %{resource}:"
+        few: "%{count} errors han impedit guardar %{resource}:"
+        many: "%{count} errors han impedit guardar %{resource}:"
+        other: "%{count} errors han impedit guardar %{resource}:"
+  
+  devise:
+    failure:
+      already_authenticated: "Ja esteu autenticats."
+      unauthenticated: "No cal que us torneu a connectar per seguir."
+      unconfirmed: "Heu de confirmar el compte per continuar."
+      locked: "Aquest compte està bloquejat."
+      invalid: "Correu electrònic o contrasenya no vàlids."
+      invalid_token: "Token d'autenticació no vàlid."
+      timeout: "La vostra sessió ha caducat, torneu a connectar-vos per continuar."
+      inactive: "El vostre compte encara no s'ha activat."
+    sessions:
+      signed_in: "Us heu connectat."
+      signed_out: "Us heu desconnectat."
+    passwords:
+      send_instructions: "En uns minuts rebreu un correu per poder restablir la vostra contrasenya."
+      updated: "Heu canviat la vostra contrasenya. Esteu connectats al compte."
+      updated_not_active: "Heu canviat la vostra contrasenya."
+      send_paranoid_instructions: "Si la vostra adreça de correu electrònic és dins la nostra base de dades rebreu un correu per actualitzar la contrasenya."
+    confirmations:
+      send_instructions: "En uns minuts rebreu un correu electrònic per confirmar el vostre compte."
+      send_paranoid_instructions: "Si la vostra adreça de correu electrònic és dins la nostra base de dades rebreu un correu per confirmar el vostre compte."
+      confirmed: "El vostre compte s'ha confirmat. Esteu connectats al compte."
+    registrations:
+      signed_up: "Benvingut! Us heu connectat al vostre compte."
+      signed_up_but_unconfirmed: "Un missatge amb un enllaç de confirmació s'ha enviat al vostre compte de correu electrònic. Obriu l'enllaç per activar el vostre compte."
+      signed_up_but_inactive: "Us heu donat d'alta, però no us podeu connectar fins que s'hagi activat el vostre compte."
+      signed_up_but_locked: "Us heu donat d'alta, però no us podeu connectar donat que el vostre compte està bloquejat."
+      updated: "Heu actualitzat el vostre compte."
+      update_needs_confirmation: "Heu actualitzat el vostre compte, però hem de verificar la vostra adreça de correu electrònic. Comproveu el vostre cooreu i cliqueu l'enllaç per confirmar la vostra adreça."
+      destroyed: "Adéu! El vostre compte s'ha cancel·lat. Esperem tornar-te a veure aviat."
+    unlocks:
+      send_instructions: "En uns minuts rebreu un correu electrònic sobre com desbloquejar el vostre compte."
+      unlocked: "Heu desbloquejat el vostre compte. Torneu-vos a connectar per continuar."
+      send_paranoid_instructions: "Si el vostre compte existeix, en uns minuts rebreu un correu electrònic sobre com desbloquejar el vostre compte."
+    omniauth:
+      success: "Autoritzat a través del compte %{kind}."
+      failure: "Autorització a través de %{kind} ha fallat degut a: %{reason}."
+    mailer:
+      confirmation_instructions:
+        subject: "Instruccions de confirmació"
+      reset_password_instructions:
+        subject: "Instruccions de canvi de contrasenya"
+      unlock_instructions:
+        subject: "Instruccions de desbloqueig"
+  
+  # Reader
+  app: "L'antic Reader"
+  eggs: "♥ Oh! Gatets! ♥"
+  title: "L'antic Reader"
+  meta:
+    description: "És el lector RSS definitiu. Igualet que l'antic Google Reader, només que millor. Importeu les vostres subscripcions en un clic, trobeu els vostres amics de Facebook i comenceu a compartir."
+    keywords: "l'antic reader"
+  landing:
+    topmenu:
+      -
+        :title: "Twitter"
+        :url: "https://twitter.com/#!/theoldreader"
+      -
+        :title: "Facebook"
+        :url: "https://www.facebook.com/theoldreader"
+      - 
+        :title: "Blog"
+        :url: "http://blog.theoldreader.com/"
+      - 
+        :title: "Contacteu-nos"
+        :url: "http://blog.theoldreader.com/about"
+    sign_in:
+      title: "Connectar-se amb:"
+      google: "Google"
+      facebook: "Facebook"
+    welcome: 
+      - "Benvinguts a L'Antic Reader, el lector RSS definitiu. Igualet que l'antic Google Reader, només que millor. Ara mateix estem en beta, però treballem constantment en noves característiques i millores."
+      - "Pots connectar-te i usar L'Antic Reader amb un sol clic. Si ets massa tímid pots provar el nostre %tour% o donar un cop d'ull a allò més llegit a %trending%."
+    tour: "tour"
+    trending: "el més llegit del dia"
+    qa:
+      -
+        :title: "Qué fa?"
+        :text: "Et permet fullejar la teva dosi diària de continguts, amb l'alegre detall d'allò que els teus amics comparteixin, amb notes i comentaris"
+      -
+        :title: "Puc transferir les meves subscripcions?"
+        :text: "Sí, pots importar els teus fluxos directament de Google Reader  o usar la importació de fitxers OPML si ets sensible a la seguretat."
+      -
+        :title: "Com trobo els meus amics?"
+        :text: "Estem treballant en millorar la pàgina de suggeriments, mentrestant pots provar a cercar manualment o veure si els teus contactes de Facebook o Google també fan servir L'Antic Reader. A més, t'enviarem un correu quan algú et segueixi."
+      -
+        :title: "Teniu una App mòbil?"
+        :text: "<em>No encara</em>, però tal i com varem prometre, hi varem començar a treballar quan varem arribar als 5000 usuaris l'octubre de 2012. Fins i tot la nostra interfície estàndard s'adapta bé als dispositius mòbils."
+      -
+        :title: "Us comportareu a Facebook com totes aquelles altres apps?"
+        :text: "I ara! Pots penjar els teus articles compartits a la teva línia de temps de Facebook, però a menys que ho triïs tots els teus articles i comentaris es quedaran dins l'Antic Reader. No penjarem res de part teva ni et farem part de cap invent poc clar."
+      -
+        :title: "Perquè vareu crear l'Antic Reader?"
+        :text: "Diguem que trobàvem a faltar molt l'antic Reader, així que varem crear l'Antic Reader per nosaltres i els nostres amics. Com que ens agrada com va quedar, ho estem compartint amb tothom"
+    supported: "Mantingut amb amor per"
+  user:
+    profile: "Perfil"
+    logout: "Desconnectar"
+    settings: "Ajustos"
+    failure: "El compte de %{kind} que estas intentant usar ja està enllaçat a un altre compte de l'Antic Reader. Si us plau, cancel·la l'altre compte i torna a intentar-ho."
+    wrong_auth: "Alguna cosa ha fallat. Si us plau, escriu-nos a hello@theoldreader.com"
+    becomes_active_notice: "No has visitat l'Antic Reader fa una temporada, només et mostrarem els articles més frescos."
+  feeds:
+    no_feeds:
+      text: "No tens cap subscripció. Et pots %{subscribe} a un nou flux (com fer-ho a <a href='http://blog.theoldreader.com/rss' class='feed-subscribe'>el nostre blog</a>?) o %{import} les teves subscripcions.<br />Si en vols saber més, %{tour}."
+      subscribe: "subscriure"
+      import: "importar"
+      tour: "fer el tour"
+    no_posts: "Encara no hi ha articles"
+    no_posts_filler: "No hi ha més articles més avall. Segurament ja te'ls has llegit tots."
+    subscribe: "Subscriure"
+    add_subscription: "Afegir una subscripció"
+    add: "Afegir"
+    url: "URL"
+    invalid_url: "La URL que has donat no és vàlida"
+    empty_url: "No has entrat cap URL"
+    loading: "Carregant..."
+    default_folder: "Subscripcions"
+    feeds: "Fluxos"
+    feeds_count:
+      one: "flux"
+      few: "fluxos"
+      many: "fluxos"
+      other: "fluxos"
+    posts_count:
+      one: "article"
+      few: "articles"
+      many: "articles"
+      other: "articles"
+    your_posts: "Tens <em>%{unread}</em>  %{posts} per llegir"
+    refresh: "Refrescar"
+    unsubscribe: "De-subscriure"
+    unsubscribe_confirm: "Segur que vols de-subscriure't? Els articles compartits i marcats no s'eliminaran."
+    ago: "passats"
+    never: "Mai"
+    confirm: "Segur?"
+    mark_all_read: "Marcar tots com llegits"
+    search: "Cercar"
+    search_limits: "La cerca que has fet és molt popular, així doncs hem hagut de limitar el nombre de resultats. Si vols veure'n més afegeix termes per fer la teva cerca més estricta."
+    mark_read: "Marcar com llegit"
+    mark_unread: "Marcar com no llegit"
+    share: "Compartir"
+    shared: "Compartit"
+    unshare: "Deixar de compartir"
+    following: "Seguint"
+    attach_note: "Vols afegir una nota?"
+    attach: "Desar nota"
+    comments:
+      one: "%{count} comentari"
+      few: "%{count} comentaris"
+      many: "%{count} comentaris"
+      other: "%{count} comentaris"
+    comment: "Comentar"
+    comment_text: "Escriure comentari"
+    comment_destroy_confirm: "De debò que vols esborrar el comentari?"
+    comment_destroy_text: "Aquest comentari ha estat esborrat per l'usuari."
+    post_author: "per <strong>%{author}</strong>"
+    drop_add_folder: "Deixa caure aquí per crear una nova carpeta"
+    new_folder: "Nova carpeta"
+    like: "M'agrada"
+    unlike: "No m'agrada"
+    likes_count:
+      zero: "A %{users} els agrada"
+      one: "A %{users} i un altre els agrada"
+      few: "A %{users} i %{count} més els agrada"
+      many: "A %{users} i %{count} més els agrada"
+      other: "A %{users} i %{count} més els agrada"
+    feed: "Flux"
+    site: "Lloc"
+    enclosure_url: "Veure fitxer adjunt (%{size}, %{type})"
+    pocket: "Pocket"
+    unpocket: "Unpocket"
+    pocket_error: "Ha fallat"
+  home:
+    following: "El darrer dels teus amics"
+    updated: "Actualitzat fa poc"
+    dead: "Fluxos morts"
+    tips:
+      title: "Trucs i consells"
+      items:
+        - "Usa \"j\" i \"k\" al teclat per navegar els articles. \"o\" obre l'article en una nova finestra."
+        - "Unes quantes dreceres més: usa \"s\" per compartir un article, o \"l\" per marcar-lo com favorit."
+        - "Agafa i deixa caure fluxos al menú per canviar-ne l'ordre o per crear noves carpetes."
+        - "Fes doble clic en un flux o carpeta per canviar-ne el nom."
+        - "Per subscriure't a nous fluxos amb un sol clic, usa 'http://theoldreader.com/feeds/subscribe?url=%s' a l'extensió de subscripció RSS o al gestor de fluxos de Firefox."
+    aboutus:
+      title: "Quelcom sobre nosaltres"
+      text: "Ets benvingut a <a href='mailto:hello@theoldreader.com'>enviar-nos una nota</a> si tens comentaris o suggeriments. També <a href='https://twitter.com/#!/theoldreader'>ens pots seguir</a> a twitter o llegir el nostre <a href='http://blog.theoldreader.com/'>blog darrere l'escenari</a>."
+    plugins:
+      title: "Extensions per navegador"
+  pages:
+    home: "Home"
+    all: "Tots"
+    liked: "Favorits"
+    shared: "Compartits"
+    followed: "Amics"
+    import: "Importar"
+    search: "Cercar"
+    settings: "Ajustos"
+    profile: "Perfil"
+    friends: "Cercar Amics"
+    commented: "Comentats"
+    privacy: "Política de privacitat"
+    trending: "De moda"
+    tour: "Tour"
+  settings:
+    name: "Nom"
+    username: "Usuari"
+    email: "Correu electrònic"
+    ui:
+      title: "Interfície d'usuari"
+      click_to_scroll: "Fer clic a un article et trasllada fins ell"
+      locale: "Llengua"
+    feed_display_mode:
+      title: "Com es mostren els fluxos"
+      all: "Mostrar tots els articles"
+      unread: "Només els pendents de llegir"
+    feed_list_mode:
+      title: "Com es mostren els articles"
+      full: "Vista completa"
+      list: "Com una llista"
+    sort_mode:
+      title: "Ordre dels articles"
+      normal: "Normal"
+      reverse: "Invers"
+    social: "Social"
+    notify_when_followed: "Notificar per correu electrònic quan algú comença a seguir-te"
+    share_timeline: "Publicar els articles compartits a Facebook"
+    connect_share_timeline: "Connecta a Facebook per compartir-hi articles"
+    show_fb_profile: "Mostrar un enllaç al teu Facebook al teu perfil"
+    save: "Desar canvis"
+    cancel_disabled: "No pots cancel·lar el teu compte mentre hi ha una importació en curs, un xic de paciència."
+    cancel_account:
+      text: "No estas content? Pots %{export} com OPML i %{cancel} en qualsevol moment."
+      export: "exportar els teus fluxos"
+      cancel: "cancel·lar el teu compte"
+      confirm: "N'estas segur?"
+    pocket:
+      title: "Integració amb Pocket"
+      description: "<a href='http://getpocket.com/'>Pocket</a> (abans Read It Later) és una app que et permet marcar i organitzar articles per llegir més endavant."
+      connect: "Connectat a Pocket per començar a marcar"
+      account: "Compte: <strong>%{username}</strong>"
+  import:
+    title: "Importar"
+    alert: "<b>Si et plau, entra el teu usuari i contrasenya de Google per importar les subscripcions de Google Reader</b><br />No ens guardarem les teves credencials. La informació del compte només l'usarem per obtenir les teves subscripcions."
+    opml: "<b>O tria un fitxer OPML</b><br />El pots obtenir a la pàgina d'ajustos de Google Reader."
+    email: "Compte"
+    password: "Contrasenya"
+    import: "Importar"
+    success: "Hem rebut la llista dels teus fluxos. El procés d'importació correrà en segon pla, pots fer servir l'Antic Reader immediatament. Els teus fluxos apareixeran al menú d'aquí a poc temps."
+    processing: "Els teus fluxos s'estant important en segon pla."
+    error: "Quelcom no ha funcionat"
+    opml_empty: "El fitxer OPML és incorrecte o està buit."
+  profile:
+    follow: "Seguir"
+    unfollow: "Deixar de seguir"
+    thats_you: "Aquest ets tu!"
+    following: 
+      one: "Segueix <strong>%{count}</strong> usuari"
+      few: "Segueix <strong>%{count}</strong> usuaris"
+      many: "Segueix <strong>%{count}</strong> usuaris"
+      other: "Segueix <strong>%{count}</strong> usuaris"
+    followers:
+      one: "Seguit per <strong>%{count}</strong> usuari"
+      few: "Seguit per <strong>%{count}</strong> usuaris"
+      many: "Seguit per <strong>%{count}</strong> usuaris"
+      other: "Seguit per <strong>%{count}</strong> usuaris"
+    me_following: "<strong>%{count}</strong> Seguint"
+    my_followers: "<strong>%{count}</strong> Seguidors"
+    posts: "Articles compartits"
+    your_profile: "El teu perfil"
+    facebook: "Facebook (%{name})"
+    new: "Nou"
+    new_followers:
+      one: "%{count} nou"
+      few: "%{count} nous"
+      many: "%{count} nous"
+      other: "%{count} nous"
+    rss: "%{name} articles compartits a l'Antic Reader (RSS)"
+  friends:
+    follow: "Segueix els teus amics que usen l'Antic Reader"
+    found:
+      one: "Trobat %{count} usuari"
+      few: "Trobats %{count} usuaris"
+      many: "Trobats %{count} usuaris"
+      other: "Trobats %{count} usuaris"
+    facebook: "Connectar amb Facebook"
+    google: "Connectar amb Google"
+  notifier:
+    followed:
+      subject: "%{name} t'està seguint"
+      body: |
+        Hola, %{followed}!
+        
+        %{name} t'està seguint. Maco!
+        Veu el perfil a %{profile}.
+        
+        -- 
+        El robot de l'Antic Reader.
+        Pots canviar les preferències de correu a la pàgina d'ajustos.
+        %{host}
+    changes:
+      subject: "Nota important sobre els articles marcats amb estrella"
