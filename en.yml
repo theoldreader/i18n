@@ -199,7 +199,7 @@ en:
         - "To subscribe to new feeds with a single click, use 'http://theoldreader.com/feeds/subscribe?url=%s' in RSS Subscription extension or Firefox feed handler."
     aboutus:
       title: "Something about us"
-      text: "Please feel free to <a href='mailto:hello@theoldreader.com'>drop as a note</a> if you have any comments or suggestions. You can also <a href='https://twitter.com/#!/theoldreader'>follow us</a> on twitter and read our <a href='http://blog.theoldreader.com/'>behind the scenes blog</a>."
+      text: "Please feel free to <a href='mailto:hello@theoldreader.com'>drop us a note</a> if you have any comments or suggestions. You can also <a href='https://twitter.com/#!/theoldreader'>follow us</a> on twitter and read our <a href='http://blog.theoldreader.com/'>behind the scenes blog</a>."
     plugins:
       title: "Browser extensions"
   pages:
@@ -257,7 +257,7 @@ en:
   import:
     title: "Import"
     alert: "<b>Please enter your Google username and password to import your subscriptions from Google Reader</b><br />We are not going to store your credentials. Account information will only be used to fetch your subscriptions."
-    opml: "<b>Or choose OPML file</b><br />You can grab it from Google Reader settings page."
+    opml: "<b>Or choose an OPML file</b><br />You can grab it from Google Reader settings page."
     email: "Email"
     password: "Password"
     import: "Import"
