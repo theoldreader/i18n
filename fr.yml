@@ -257,14 +257,18 @@ fr:
   import:
     title: "Importer"
     alert: "<b>Merci de saisir votre login et mot de passe Google pour importer vos abonnements depuis Google Reader</b><br />Nous ne gardons pas vos identifiants. Vos informations vont seulement être utilisées pour récupérer vos abonnements."
-    opml: "<b>Ou choisissez un fichier OPML</b><br />Vous pouvez le récupérer à partir de la page de réglage de Google Reader."
+    opml: "<b>Choisissez un fichier OPML</b><br />Vous pouvez le récupérer à partir de la page de réglage de Google Reader."
     email: "E-mail"
     password: "Mot de passe"
     import: "Importer"
-    success: "Nous avons reçu la liste de vos flux. Le processus d'importation sera exécuté en arrière-plan, de sorte que vous pouvez commencer à utiliser The Old Reader immédiatement. Vos flux vont bientôt apparaitre dans le menu."
+    started: "Nous trouvons que l'importation de flux est une procédure consommatrice de ressources, ainsi notre système autorise un nombre limité d'importation en parallèle. Pour le moment tous les emplacements sont occupés, votre opération d'importation est mise en file d'attente."
+    queued: "Merci d'avoir importé votre fichier OPML. Nous allons bientôt commencer à importer vos abonnements, ce qui devrait prendre quelques heures en fonction du nombre de flux que vous suivez."
+    queued_notice: "Il y a <strong>%{count}</strong> utilisateurs devant vous dans la file d'attente."
     processing: "Vos flux s'importent en arrière-plan."
     error: "Quelque chose s'est mal passé"
     opml_empty: "Le fichier OPML que vous avez chargé est soit incorrect, soit vide."
+    too_many_feeds: "Pour des raisons techniques, nous allons seulement importer vos 1000 premiers flux."
+    cancel: "Annuler l'importation"
   profile:
     follow: "Suivre"
     unfollow: "Ne plus suivre"
@@ -312,6 +316,18 @@ fr:
         -- 
         The Old Reader robot.
         Vous pouvez toujours vous désabonner sur votre page de réglage.
+        %{host}
+    import:
+      subject: "Vos flux sont prêts, hourra!"
+      body: |
+        Bonjour %{name},
+        
+        Nous sommes heureux de vous informer que nous avons fini d'importer vos abonnements.
+        %{count} flux que vous avez importé devrait maintenant être disponible sur %{host}.
+        Merci d'utiliser The Old Reader.
+        
+        -- 
+        The Old Reader robot.
         %{host}
     changes:
       subject: "Remarque importante concernant les articles Favoris"
