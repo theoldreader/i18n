@@ -84,8 +84,8 @@ en:
       facebook: "Facebook"
     welcome: 
       - "Welcome to The Old Reader, the ultimate social RSS reader. It's just like the old google reader, only better. We're in beta right now, but we're constantly working on improvements and new features."
-      - "You can sign in and start using The Old Reader with a single click. However, if you are too shy, please feel free to take a look at our %tour% or peek at the %trending%."
-    tour: "tour"
+      - "You can sign in and start using The Old Reader with a single click. However, if you are too shy, please feel free to see our %tour% or peek at the %trending%."
+    tour: "Howto"
     trending: "top posts of the day"
     qa:
       -
@@ -119,7 +119,7 @@ en:
       text: "You have no subscriptions yet. You can %{subscribe} to a new feed (how about <a href='http://blog.theoldreader.com/rss' class='feed-subscribe'>our blog</a>?) or %{import} your subscriptions.<br />If you want to learn more, %{tour}."
       subscribe: "subscribe"
       import: "import"
-      tour: "take the tour"
+      tour: "see the Howto"
     no_posts: "There are no posts here yet"
     no_posts_filler: "No posts below this line. Probably you have read them all."
     subscribe: "Subscribe"
@@ -216,7 +216,11 @@ en:
     commented: "Commented"
     privacy: "Privacy policy"
     trending: "Trending"
-    tour: "Tour"
+    donate: "Donate"
+    tour: "Howto"
+    blog: "Blog"
+    status: "Server status"
+    requests: "Requests & Bugs"
   settings:
     name: "Name"
     username: "Username"
@@ -224,6 +228,7 @@ en:
     ui:
       title: "User interface"
       click_to_scroll: "Clicking on a post scrolls to it"
+      scroll_to_read: "Scrolling through posts marks them as read"
       locale: "Language"
     feed_display_mode:
       title: "Feed display mode"
@@ -235,8 +240,8 @@ en:
       list: "List view"
     sort_mode:
       title: "Posts order"
-      normal: "Normal"
-      reverse: "Reverse"
+      normal: "Normal (new posts first)"
+      reverse: "Reverse (old posts first)"
     social: "Social stuff"
     notify_when_followed: "Notify by email when someone starts following you"
     share_timeline: "Publish your shares on your Facebook page"
@@ -257,12 +262,12 @@ en:
   import:
     title: "Import"
     alert: "<b>Please enter your Google username and password to import your subscriptions from Google Reader</b><br />We are not going to store your credentials. Account information will only be used to fetch your subscriptions."
-    opml: "<b>Or choose an OPML file</b><br />You can grab it from Google Reader settings page."
+    opml: "<b>Choose an OPML file</b><br />You can grab it from Google Reader settings page.<br />Please use<b>subscriptions.xml</b> from your takeout archive."
     email: "Email"
     password: "Password"
     import: "Import"
     started: "We find feed import to be quite resource intensive procedure, so our system only allows a limited number of import operations to run at the same time. Currently all available slots are busy, so your import operation will be queued."
-    queued: "Thank you for uploading your OPML file. We will soon start importing your subscriptions, which might take up to several hours depending on the amount of feeds you have."
+    queued: "Thank you for uploading your OPML file. We will soon start importing your subscriptions."
     queued_notice: "There are <strong>%{count}</strong> users in the import queue ahead of you."
     processing: "Your feeds are now importing in background."
     error: "Something went wrong"
