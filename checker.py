@@ -49,14 +49,19 @@ def compare_dicts(master, victim, path):
     return errors
 
 if __name__ == "__main__":
-    with open(os.path.join(os.path.dirname(__file__), "%s.yml" % master), 'r') as master_file:
+    basedir = os.path.dirname(__file__) or '.'
+    with open(os.path.join(basedir, "%s.yml" % master), 'r') as master_file:
         master_data = yaml.load(master_file)[master]
 
-    for filename in os.listdir(os.path.dirname(__file__)):
+    for filename in os.listdir(basedir):
         if filename == "%s.yml" % master or not filename.endswith('.yml'): continue
-        with open(os.path.join(os.path.dirname(__file__), filename), 'r') as f:
-            victim_data = yaml.load(f)[filename.replace('.yml','')]
-            errors = compare_dicts(master_data, victim_data, [])
+        with open(os.path.join(basedir, filename), 'r') as f:
+            victim_lang = filename.replace('.yml','')
+            victim_data = yaml.load(f)
+            if victim_lang in victim_data:
+                errors = compare_dicts(master_data, victim_data[victim_lang], [])
+            else:
+                errors = ["Top-level node '%s' not found" % victim_lang]
             if errors:
                 print "Errors found in %s:" % filename
                 for error in errors:
