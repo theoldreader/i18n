@@ -1,4 +1,4 @@
-chs:
+ch:
   # Devise
   errors:
     messages:
@@ -45,7 +45,7 @@ chs:
     unlocks:
       send_instructions: "您将会收到一封邮件，请通过它来解锁您的帐户。"
       unlocked: "解锁帐户成功。请重新登录。"
-      send_paranoid_instructions: "如果您的邮箱已存在，您将会收到一封包含解锁指南的邮件。"
+      send_paranoid_instructions: "如果您的邮箱已存在，您将会收到一封包含解锁方法的邮件。"
     omniauth:
       success: "%{kind} 帐户授权成功。"
       failure: "%{kind} 帐户授权失败: %{reason}。"
@@ -116,7 +116,7 @@ chs:
     becomes_active_notice: "您有段时间没使用The Old Reader了，因此我们只保留了最新条目。"
   feeds:
     no_feeds:
-      text: "还没有任何订阅。你可以%{subscribe}一个新的供稿(<a href='http://blog.theoldreader.com/rss' class='feed-subscribe'>我们的博客</a>怎么样？)或者%{import}你的订阅.<br />如果你想了解更多，试试我们的%{tour}。"
+      text: "还没有任何订阅。你可以%{subscribe}一个新的供稿(<a href='http://blog.theoldreader.com/rss' class='feed-subscribe'>我们的博客</a>怎么样？)或者%{import}你的订阅.<br />如果你想了解更多，请看一看我们的%{tour}。"
       subscribe: "订阅"
       import: "导入"
       tour: "新手入门"
@@ -128,7 +128,7 @@ chs:
     url: "URL"
     invalid_url: "无效的URL"
     empty_url: "URL不能为空"
-    loading: "Loading..。"
+    loading: "读取中..."
     default_folder: "订阅"
     feeds: "供稿"
     feeds_count:
@@ -141,7 +141,7 @@ chs:
       few: "个条目"
       many: "个条目"
       other: "个条目"
-    your_posts: "<em>%{unread}</em> 个未读新%{posts}"
+    your_posts: "<em>%{unread}</em> %{posts}未读"
     refresh: "刷新"
     unsubscribe: "取消订阅"
     unsubscribe_confirm: "真的要取消订阅？ 分享和喜欢的条目不会被删除。"
@@ -188,15 +188,15 @@ chs:
   home:
     following: "好友更新"
     updated: "最近更新"
-    dead: "失效供稿"
+    dead: "久未更新"
     tips:
       title: "小技巧"
       items:
-        - "Use \"j\" and \"k\" keyboard shortcuts to navigate posts. \"o\" opens the post in a new window。"
-        - "Some more keyboard shortcuts: use \"s\" to share a post or \"l\" to mark it as liked."
-        - "Drag & drop feeds in the menu to reorder them or to create new feed folders."
-        - "You can double click on feed or folder title to rename it."
-        - "To subscribe to new feeds with a single click, use 'http://theoldreader.com/feeds/subscribe?url=%s' in RSS Subscription extension or Firefox feed handler."
+        - "按 \"j\" 和 \"k\" 在条目间切换。按 \"o\" 可以在新窗口中打开一个条目。"
+        - "一些有用的快捷键: 按 \"s\" 分享一个条目或按 \"l\" 来标记一个条目为喜欢。"
+        - "在菜单中拖拽供稿可以为他们重新排序，或创建一个新文件夹。"
+        - "双击一个供稿或文件夹来重命名。"
+        - "在RSS订阅扩展或Firefox阅读器中，通过'http://theoldreader.com/feeds/subscribe?url=%s'来一键订阅新的供稿。"
     aboutus:
       title: "关于我们"
       text: "如果有任何意见和建议，请<a href='mailto:hello@theoldreader.com'>发邮件</a>联系我们。你也可以在<a href='https://twitter.com/#！/theoldreader'>twitter</a>关注我们或者访问<a href='http://blog.theoldreader.com/'>我们的博客</a>。"
@@ -216,7 +216,11 @@ chs:
     commented: "评论"
     privacy: "隐私协议"
     trending: "趋势"
-    tour: "新手入门"
+    donate: "捐赠"
+    tour: "入门"
+    blog: "博客"
+    status: "服务器状态"
+    requests: "建议与反馈"
   settings:
     name: "昵称"
     username: "用户名"
@@ -224,6 +228,7 @@ chs:
     ui:
       title: "界面"
       click_to_scroll: "选中条目时自动聚焦"
+      scroll_to_read: "浏览条目后自动标为已读"
       locale: "语言"
     feed_display_mode:
       title: "显示模式"
@@ -235,14 +240,14 @@ chs:
       list: "列表视图"
     sort_mode:
       title: "显示顺序"
-      normal: "由最新到最早"
-      reverse: "由最早到最新"
+      normal: "新条目在前"
+      reverse: "旧条目在前"
     social: "社交网络"
     notify_when_followed: "当我有一个新关注者时请用邮件通知我"
     share_timeline: "将分享发布到我的Facebook"
     connect_share_timeline: "关联Facebook"
     show_fb_profile: "在个人档案页显示Facebook链接"
-    save: "Save changes"
+    save: "保存"
     cancel_disabled: "在导入过程中您无法注销帐户，请耐心等待。"
     cancel_account:
       text: "觉得不爽？ 您可以%{export}到OPML文件，然后随时都可以%{cancel}。"
@@ -251,20 +256,24 @@ chs:
       confirm: "确定？"
     pocket:
       title: "Pocket integration"
-      description: "<a href='http://getpocket.com/'>Pocket</a> (原先叫Read It Later)是一款非常有用的应用，帮助你整理、标记内容， 以便稍后获取。"
+      description: "<a href='http://getpocket.com/'>Pocket</a> （原先叫Read It Later）是一款非常有用的应用，帮助你整理、标记内容， 以便稍后获取。"
       connect: "关联Pocket"
       account: "您的帐户: <strong>%{username}</strong>"
   import:
     title: "导入"
     alert: "<b>请输入您Google帐户的用户名及密码以从Google Reader导入您的订阅.</b><br />我们不会保存您的密码。您的帐户信息将只用来获取您的订阅。"
-    opml: "<b>或者上传OPML文件</b><br />您可以从Google Reader的设置页获取到。"
+    opml: "<b>或者上传OPML文件</b><br />您可以从Google Reader的设置页获取到。<br />请上传<b>subscriptions.xml</b>文件"
     email: "邮箱"
     password: "密码"
     import: "导入"
-    success: "我们已经获取了您的订阅列表。导入进程将在后台执行，您可以立即开始使用The Old Reader。您的供稿稍后将出现在菜单中。"
+    started: "导入订阅会消耗大量资源，因此系统只允许同时进行有限数量的导入操作，您的操作将被提交至导入队列。"
+    queued: "OPML文件上传成功！我们将尽快开始导入您的订阅。"
+    queued_notice: "队列中还有 <strong>%{count}</strong> 位用户在您之前，请耐心等待。"
     processing: "正在导入您的供稿。"
     error: "出错了"
     opml_empty: "OPML文件不正确或是空的。"
+    too_many_feeds: "由于技术问题，我们只能导入您的前1000个订阅。"
+    cancel: "取消"
   profile:
     follow: "关注"
     unfollow: "取消关注"
@@ -312,6 +321,18 @@ chs:
         -- 
         The Old Reader robot.
         如需退订请在设置页更改通知设置.
+        %{host}
+    import:
+      subject: "您的订阅已经准备就绪, 哇哦!"
+      body: |
+        Hello %{name},
+        
+        非常高兴地通知您，我们已经完成了导入工作。
+        您导入的 %{count} 个供稿已可用，请访问%{host}。
+        感谢您使用The Old Reader。
+        
+        -- 
+        The Old Reader robot.
         %{host}
     changes:
       subject: "关于加星标的条目"

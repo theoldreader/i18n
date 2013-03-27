@@ -101,7 +101,7 @@ hu:
         :title: "Van már mobilos alkalmazásotok?"
         :text: "<em>Még</em> nincs, de ahogy korábban ígértük, elkezdtünk rajta dolgozni, amint elértük az 5000-es felhasználótábort 2012 októberében. Az általános felületünk azonban még most is szépen alkalmazkodik a mobil készülékekhez."
       -
-        :title: "Úgy fogsz viselkedni a Facebookomon, mint a többi alkalmazás?"
+        :title: "Úgy fogsz rosszalkodni a Facebookomon, mint a többi alkalmazás?"
         :text: "Egyáltalán nem! Felteheted az idővonaladra a megosztott elemeidet, de hacsak nem választod ki kifejezetten a Facebookra postolást, minden megosztásod és megjegyzésed a The Old Readeren marad. Nem teszünk fel semmi mást, vagy vonunk bele bármi sötét ügyletbe a nevedben."
       -
         :title: "Miért készítettétek a The Old Readert?"
@@ -216,7 +216,11 @@ hu:
     commented: "Megjegyzések"
     privacy: "Adatvédelmi irányelvek"
     trending: "Népszerű"
+    donate: "Adományok"
     tour: "Bemutató"
+    blog: "Blog"
+    status: "Szerver állapota"
+    requests: "Kérések & Hibák"
   settings:
     name: "Név"
     username: "Felhasználónév"
@@ -224,6 +228,7 @@ hu:
     ui:
       title: "Felhasználói felület"
       click_to_scroll: "Egy elemre kattintás odagördít"
+      scroll_to_read: "Az elemeken átgördítés olvasottnak jelöli őket"
       locale: "Nyelv"
     feed_display_mode:
       title: "Elemek megjelenítése"
@@ -261,10 +266,14 @@ hu:
     email: "Email"
     password: "Jelszó"
     import: "Importálás"
-    success: "Megkaptuk a csatornáid listáját. Az importálási folyamat a háttérben fog futni, hogy elkezdhesd a The Old Reader használatát azonnal. Csatornáid hamarosan megjelennek a menüben."
+    started: "Az importálást erőforrásigényes folyamatnak találtuk, így a rendszerünk csak korlátozott számú műveletet enged meg egyszerre végrehajtani. Jelenleg az összes elérhető kapacitásunk foglalt, így a te kérésedet a sorba állítottuk."
+    queued: "Köszönjük, hogy feltöltötted az OPML file-odat. Hamarosan elkezdjük importálni a csatornáid."
+    queued_notice: "Jelenleg <strong>%{count}</strong> felhasználó várakozik a sorban importálásra előtted."
     processing: "A csatornáid a háttérben importálódnak."
     error: "Valami hiba történt"
     opml_empty: "Az OPML file, amit feltöltöttél vagy helytelen, vagy üres."
+    too_many_feeds: "Technikai okokból jelenleg csak az első 1000 csatornádat fogjuk importálni."
+    cancel: "Importálás megszakítása"
   profile:
     follow: "Követés"
     unfollow: "Nem követés"
@@ -312,6 +321,18 @@ hu:
         -- 
         The Old Reader robotja.
         Bármikor leiratkozhatsz a beállítási lapodon.
+        %{host}
+    import:
+      subject: "A csatornáid készen vannak, hurrá!"
+      body: |
+        Szia %{name},
+        
+        Örömmel tudatjuk veled, hogy befejeztük a csatornáid importálását.
+        %{count} csatornát most már elérheted a %{host}-n.
+        Köszönjük, hogy a The Old Readert használod!
+        
+        -- 
+        The Old Reader robot.
         %{host}
     changes:
       subject: "Fontos megjegyzés a Csillagozott elemekkel kapcsolatban"
