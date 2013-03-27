@@ -28,11 +28,8 @@ Hungarian: [blas3nik](https://github.com/blas3nik)
 
 Italiano: [ggimpa](https://github.com/ggimpa)
 
-Chinese simplified: [ushuz](https://github.com/ushuz)
+简体字: [ushuz](https://github.com/ushuz)
 
 Deutsch: [wuhup](https://github.com/wuhup)
 
 Svenska: [alemacgo](https://github.com/alemacgo)
-
-
-
