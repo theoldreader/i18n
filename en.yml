@@ -228,7 +228,7 @@ en:
     ui:
       title: "User interface"
       click_to_scroll: "Clicking on a post scrolls to it"
-      scroll_to_read: "Scrolling through posts marks them as read"
+      scroll_to_read: "Scrolling through posts marks them as read (full view)"
       locale: "Language"
     feed_display_mode:
       title: "Feed display mode"
