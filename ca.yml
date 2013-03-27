@@ -217,6 +217,10 @@ ca:
     privacy: "Política de privacitat"
     trending: "De moda"
     tour: "Tour"
+    donate: "Donar"
+    blog: "Blog"
+    status: "Estat del servei"
+    requests: "Peticions"
   settings:
     name: "Nom"
     username: "Usuari"
@@ -224,6 +228,7 @@ ca:
     ui:
       title: "Interfície d'usuari"
       click_to_scroll: "Fer clic a un article et trasllada fins ell"
+      scroll_to_read: "Avançant pels articles els va marcant com a llegits (en vista completa)"
       locale: "Llengua"
     feed_display_mode:
       title: "Com es mostren els fluxos"
@@ -261,7 +266,11 @@ ca:
     email: "Compte"
     password: "Contrasenya"
     import: "Importar"
-    success: "Hem rebut la llista dels teus fluxos. El procés d'importació correrà en segon pla, pots fer servir l'Antic Reader immediatament. Els teus fluxos apareixeran al menú d'aquí a poc temps."
+    started: "La importació és un procés bastant intensiu, el nostre sistema només admet un cert nombre de processos corrent al mateix temps. Ara mateix tots els processos estan ocupats, així doncs la teva importació es posarà a la cua"
+    queued: "Gràcies per pujar el teu fitxer OPML. Ben aviat començarem a importar les teves subscripcions."
+    queued_notice: "Hi han <strong>%{count}</strong> usuaris a la cua davant teu."
+    too_many_feeds: "Per raons tècniques només importarem els primers 1000 dels teus fluxos."
+    cancel: "Cancel·lar importació"
     processing: "Els teus fluxos s'estant important en segon pla."
     error: "Quelcom no ha funcionat"
     opml_empty: "El fitxer OPML és incorrecte o està buit."
@@ -312,6 +321,18 @@ ca:
         -- 
         El robot de l'Antic Reader.
         Pots canviar les preferències de correu a la pàgina d'ajustos.
+        %{host}
+    import:
+      subject: "Els teus fluxos de noticies ja estan llestos! Hurra!"
+      body: |
+        Hola %{name},
+        
+        Ens complau informar-te que ja hem importat les teves subscripcions.
+        Els %{count} fluxos que has importat estan disponibles a %{host}.
+        Gràcies per usar l'Antic Reader.
+        
+        -- 
+        El robot de l'Antic Reader.
         %{host}
     changes:
       subject: "Nota important sobre els articles marcats amb estrella"
