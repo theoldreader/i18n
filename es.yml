@@ -216,7 +216,11 @@ es:
     commented: "Comentado"
     privacy: "Política de privacidad"
     trending: "Popular"
+    donate: "Donar"
     tour: "Tour"
+    blog: "Blog"
+    status: "Estado de los servidores"
+    requests: "Solicitudes y Errores"
   settings:
     name: "Nombre"
     username: "Nombre de usuario"
@@ -224,6 +228,7 @@ es:
     ui:
       title: "Interfaz de usuario"
       click_to_scroll: "Pulsar en un elemento desliza hasta él"
+      scroll_to_read: "Deslizarse entre los elementos los marca como leídos (vista completa)"
       locale: "Idioma"
     feed_display_mode:
       title: "Modo de visualización de fuentes"
@@ -235,8 +240,8 @@ es:
       list: "Vista de lista"
     sort_mode:
       title: "Ordenar elementos"
-      normal: "Normal"
-      reverse: "A la inversa"
+      normal: "Normal (elementos nuevos primero)"
+      reverse: "A la inversa (elementos antiguos primero)"
     social: "Redes sociales"
     notify_when_followed: "Notificar por correo cuando alguien empieza a seguirle"
     share_timeline: "Publicar sus compartidos en su página de Facebook"
@@ -261,10 +266,14 @@ es:
     email: "Email"
     password: "Contraseña"
     import: "Importar"
-    success: "Hemos recibido la lista con sus fuentes. El proceso real de importación se realizará en segundo plano, así podrá empezar a usar The Old Reader inmediatamente. Sus fuentes empezarán a salir en el menú en breve."
+    started: "La importación de fuentes es un proceso que utiliza muchos recursos, así que nuestro sistema sólo permite un número limitado de operaciones de importación al mismo tiempo. De momento, nuestros servidores están ocupados, así que su operación de importación será colocada en una cola."
+    queued: "Gracias por subir su fichero OPML. Estaremos importando sus suscripciones próximamente."
+    queued_notice: "Hay <strong>%{count}</strong> usuarios en la cola de importación antes de usted."
     processing: "Sus fuentes se están importando en segundo plano."
     error: "Algo salió mal"
     opml_empty: "El fichero OPML que envió es incorrecto o está vacío."
+    too_many_feeds: "Por razones técnicas, sólo importaremos sus primeras 1000 fuentes."
+    cancel: "Cancelar importación"
   profile:
     follow: "Seguir"
     unfollow: "Dejar de seguir"
@@ -312,6 +321,18 @@ es:
         -- 
         El robot de The Old Reader.
         Siempre puede desuscribirse en su página de configuración.
+        %{host}
+    import:
+      subject: "Sus fuentes están listas, ¡hurra!"
+      body: |
+        Hola %{name},
+        
+        Nos complace informarle que hemos terminado de importar sus subscripciones.
+        %{count} fuentes que importó deben estar ya disponibles en %{host}.
+        Gracias por utilizar The Old Reader.
+        
+        -- 
+        El robot de The Old Reader.
         %{host}
     changes:
       subject: "Nota importante sobre los elementos marcados con estrella"
