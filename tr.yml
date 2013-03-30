@@ -1,0 +1,338 @@
+en:
+  # Devise
+  errors:
+    messages:
+      expired: "süresi doldu, lütfen yenisini talep edin"
+      not_found: "bulunamadı"
+      already_confirmed: "zaten onaylandı, lütfen giriş yapmayı deneyin"
+      not_locked: "kilitlenmedi"
+      not_saved:
+        one: "1 hata bu %{resource}'ın kaydedilmesini engelledi:"
+        few: "%{count} hata bu %{resource}'ın kaydedilmesini engelledi:"
+        many: "%{count} hata bu %{resource}'ın kaydedilmesini engelledi:"
+        other: "%{count} hata bu %{resource}'ın kaydedilmesini engelledi:"
+  
+  devise:
+    failure:
+      already_authenticated: "Zaten giriş yaptınız."
+      unauthenticated: "Devam edebilmek için giriş yapmalısınız."
+      unconfirmed: "Devam edebilmek için hesabınızı onaylamalısınız."
+      locked: "Hesabınız kilitlendi."
+      invalid: "Hatalı e-posta ya da şifre."
+      invalid_token: "Geçersiz doğrulama belirteci."
+      timeout: "Oturumunuzun süresi doldu, devam edebilmek için lütfen giriş yapın."
+      inactive: "Hesabınız henüz etkinleştirilmedi."
+    sessions:
+      signed_in: "Başarıyla giriş yapıldı."
+      signed_out: "Başarıyla çıkış yapıldı."
+    passwords:
+      send_instructions: "Birkaç dakika içerisinde şifrenizi nasıl sıfırlayabileceğinizi adım adım anlatan bir e-posta alacaksınız."
+      updated: "Şifreniz başarıyla değiştirildi. Giriş yapmış bulunuyorsunuz."
+      updated_not_active: "Şifreniz başarıyla değiştirildi."
+      send_paranoid_instructions: "Eğer e-posta adresiniz veri tabanımızda yer alıyorsa, adresinize, şifrenizi yeniden etkinleştirebileceğiniz bir link göndereceğiz"
+    confirmations:
+      send_instructions: "Birkaç dakika içerisinde hesabınızı nasıl onaylayabileceğinizi anlatan bir e-posta alacaksınız."
+      send_paranoid_instructions: "Eğer e-posta adresiniz veri tabanımızda yer alıyorsa, adresinize, hesabınızı nasıl onaylayabileceğinizi anlatan bir e-posta göndereceğiz"
+      confirmed: "Hesabınız başarıyla onaylandı. Giriş yapmış bulunuyorsunuz."
+    registrations:
+      signed_up: "Hoşgeldiniz! Başarıyla kayıt yaptırdınız."
+      signed_up_but_unconfirmed: "Onay linkini içeren bir e-posta adresinize gönderildi. Hesabınızı etkinleştirmek için lütfen linke tıklayın."
+      signed_up_but_inactive: "Başarıyla kayıt yaptırdınız. Ne var ki hesabınız henüz etkinleştirilmediği için henüz giriş yapamazsınız."
+      signed_up_but_locked: "Başarıyla kayıt yaptırdınız. Ne var ki, hesabınız kilitli olduğu için giriş yapamazsınız."
+      updated: Hesabınızı başarıyla güncellediniz."
+      update_needs_confirmation: "Hesabınızı başarıyla güncellediniz, ne var ki yeni e-posta adresinizin doğrulanması gerekiyor. Lütfen e-postalarınızı kontrol edip onay linkine tıklayarak yeni e-posta adresinizin doğrulanması işlemini tamamlayın."
+      destroyed: "Güle güle! Hesabınız başarıyla iptal edildi. Sizi yakında yeniden görebilmeyi umuyoruz."
+    unlocks:
+      send_instructions: "Birkaç dakika içerisinde hesabınızın kilidini nasıl kaldırabileceğinizi açıklayan bir e-posta alacaksınız."
+      unlocked: "Hesabınızın kilidi başarıyla kaldırıldı. Devam edebilmek için lütfen giriş yapın."
+      send_paranoid_instructions: "Eğer size ait bir hesap varsa, birkaç dakika içerisinde, hesabınızın kilidini nasıl kaldırabileceğinizi açıklayan bir e-posta alacaksınız."
+    omniauth:
+      success: "%{kind} hesabı kullanılarak doğrulama gerçekleştirildi."
+      failure: "%{kind} doğrulaması şu nedenle başarısız oldu: %{reason}."
+    mailer:
+      confirmation_instructions:
+        subject: "Onay yönergeleri"
+      reset_password_instructions:
+        subject: "Şifre sıfırlama yönergeleri"
+      unlock_instructions:
+        subject: "Hesap kilidi kaldırma yönergeleri"
+  
+  # Reader
+  app: "The Old Reader"
+  eggs: "Kedicikleri seviyoruz ♥"
+  title: "The Old Reader"
+  meta:
+    description: "RSS okuyucuların doruğu. Tıpkı eski google reader gibi, sadece daha iyisi. Tek bir tıklamayla aboneliklerinizi içe aktarın, Facebook arkadaşlarınızı bulun ve paylaşmaya başlayın."
+    keywords: "the old reader"
+  landing:
+    topmenu:
+      -
+        :title: "Twitter"
+        :url: "https://twitter.com/#!/theoldreader"
+      -
+        :title: "Facebook"
+        :url: "https://www.facebook.com/theoldreader"
+      - 
+        :title: "Blog"
+        :url: "http://blog.theoldreader.com/"
+      - 
+        :title: "İletişim"
+        :url: "http://blog.theoldreader.com/about"
+    sign_in:
+      title: "Şunları kullanarak giriş yapabilirsiniz:"
+      google: "Google"
+      facebook: "Facebook"
+    welcome: 
+      - "The Old Reader'a, sosyal RSS okyucuların doruk noktasına hoş geldiniz. Tıpkı eski google reader gibi, sadece daha iyisi. Şu anda beta aşamasındayız ama sürekli olarak mevcut özelliklerin iyileştirilmesi ve yeni özelliklerin eklenmesi üzerinde çalışıyoruz."
+      - "Tek bir tıklamayla The Old Reader'a kaydolup onu kullanmaya başlayabilirsiniz. Eğer biraz utangaç bir yapınız varsa tanıtım %tour%umuza bakabilir ya da %trending%na göz atabilirsiniz."
+    tour: "tur"
+    trending: "günün öne çıkan başlıkları"
+    qa:
+      -
+        :title: "Ne işe yarar?"
+        :text: "Günlük olarak arkadaşlarınız tarafından paylaşılmış ve yorumlanmış olan iletileri gözden geçirmenizi sağlar."
+      -
+        :title: "Aboneliklerimi transfer edebilir miyim?"
+        :text: "Evet, feed'lerinizi doğrudan Google Reader'dan transfer edebilir, ya da, eğer bilgi güvenliğinize çok düşkünseniz OPML içe atarma özelliğimizi kullanabilirsiniz."
+      -
+        :title: "Arkadaşlarımı nasıl bulurum?"
+        :text: "Arkadaş öneri sayfamızı daha da iyileştirmeye çalışıyoruz, bu arada siz de arkadaşlarınızı arayabilir veya Facebook arkadaşlarınızdan ya da Google kontaktlarınızdan hangilerinin The Old Reader'ı kullandığına bakabilirsiniz. Birisi sizi izlemeye başladığında size bir e-posta göndereceğiz."
+      -
+        :title: "Mobil uygulamanız var mı?"
+        :text: "<em>Henüz</em> yok, ama daha önce de söz verdiğimiz gibi, kullanıcı sayımız Ekim 2012'de 5000'e ulaştığında üzerinde çalışmaya başladık. Şimdi bile stadart arayüzümüz mobil cihazlara güzelce uyum sağlıyor."
+      -
+        :title: "Öteki uygulamalar gibi Facebook hesabımı kötüye kullanacak mısınız?"
+        :text: "Kesinlikle hayır! İsterseniz paylaştığınız öğelerin Facebook zaman çizginizde görünmesini sağlayabilirsiniz, ama siz istemedikçe bütün paylaşımlarınız ve yorumlarınız yalnızca The Old Reader'da kalacak. Asla sizin adınıza ileti göndermeyeceğiz ve sizi asla şaibeli işlere karıştırmayacağız."
+      -
+        :title: "The Old Reader'ı neden kurdunuz?"
+        :text: "Şöyle diyelim: Google Reader'ın ilk halini çok özledik, o yüzden The Old Reader'ı kendimiz ve arkadaşlarımız için kurduk. İşlerin buraya gelmesi hoşumuza gitti, o nedenle şimdi onu herkesle paylaşıyoruz."
+    supported: "Sevgiyle destekleyen"
+  user:
+    profile: "Profil"
+    logout: "Çıkış"
+    settings: "Ayarlar"
+    failure: "Kullanmaya çalıştığınız %{kind} hesabı zaten başka bir The Old Reader hesabıyla ilişkilendirilmiş. Lütfen diğer hesabınızı iptal edip işlemi tekrarlayın."
+    wrong_auth: "Bir şeyler yanlış gitti, lütfen hello@theoldreader.com adresinden bizimle iletişime geçin."
+    becomes_active_notice: "Bir süredit The Old Reader'ı kullanmıyordunuz, o nedenle yalnızca en yeni öğeleri tuttuk."
+  feeds:
+    no_feeds:
+      text: "Henüz hiç aboneliğiniz yok. Yeni bir feed'e %{subscribe} olabilir (<a href='http://blog.theoldreader.com/rss' class='feed-subscribe'>bizim blogumuza</a> ne dersiniz?) ya da aboneliklerinizi %{import}.<br />Daha fazla bilgi edinmek isterseniz, %{tour}."
+      subscribe: "abone"
+      import: "içer akratabilirsiniz"
+      tour: "tura bir göz atabilirsiniz"
+    no_posts: "Burada henüz hiç ileti yok"
+    no_posts_filler: "Buradan sonra hiç ileti yok. Muhtemelen hepsini okudunuz."
+    subscribe: "Abone Ol"
+    add_subscription: "Abonelik ekle"
+    add: "Ekle"
+    url: "URL"
+    invalid_url: "Geçersiz URL"
+    empty_url: "URL girişi yapmadınız"
+    loading: "Yükleniyor..."
+    default_folder: "Abonelikler"
+    feeds: "Feedler"
+    feeds_count:
+      one: "feed"
+      few: "feed"
+      many: "feed"
+      other: "feed"
+    posts_count:
+      one: "ileti"
+      few: "ileti"
+      many: "ileti"
+      other: "ileti"
+    your_posts: "Okunmamış <em>%{unread}</em> %{posts}"
+    refresh: "Yenile"
+    unsubscribe: "Aboneliği Sonlandır"
+    unsubscribe_confirm: "Gerçekten aboneliği sonlandırmak istiyor musunuz? Bu feedden paylaştığınız ve beğendiğiniz iletiler silinmeyecek."
+    ago: "önce"
+    never: "Asla"
+    confirm: "Emin misiniz?"
+    mark_all_read: "Hepsini okunmuş olarak işaretle"
+    search: "Arama"
+    search_limits: "Kullandığınız arama sorgusu oldukça yaygın bu nedenle arama sonuçlarını sınırlamak zorunda kaldık. Bütün sonuçları görmek istiyorsanız arama lütfen sorgunuzu biraz daha sınırlandırın."
+    mark_read: "Okunmuş olarak işaretle"
+    mark_unread: "Okunmamış olarak işaretle"
+    share: "Paylaş"
+    shared: "Paylaşıldı"
+    unshare: "Paylaşımı kaldır"
+    following: "Takip Ediyor"
+    attach_note: "Bir not eklemek ister misiniz?"
+    attach: "Notu kaydet"
+    comments:
+      one: "%{count} yorum"
+      few: "%{count} yorum"
+      many: "%{count} yorum"
+      other: "%{count} yorum"
+    comment: "Yorum"
+    comment_text: "Yorum yaz"
+    comment_destroy_confirm: "Gerçekten yorumu silmek mi istiyorsunuz?"
+    comment_destroy_text: "Bu yorum kullanıcı tarafından silindi."
+    post_author: "<strong>%{author}</strong>"
+    drop_add_folder: "Yen klasör eklemek için buraya bırakın"
+    new_folder: "Yeni klasör"
+    like: "Beğen"
+    unlike: "Beğeniyi Kaldır"
+    likes_count:
+      zero: "%{users} bunu beğendi"
+      one: "%{users} ve bir kişi daha bunu beğendi"
+      few: "%{users} ve %{count} kişi bunu beğendi"
+      many: "%{users} ve %{count} kişi bunu beğendi"
+      other: "%{users} ve %{count} kişi bunu beğendi"
+    feed: "Feed"
+    site: "Site"
+    enclosure_url: "Ekli dosyayı gör (%{size}, %{type})"
+    pocket: "Pocket"
+    unpocket: "Unpocket"
+    pocket_error: "Başarısız"
+  home:
+    following: "Arkadaşlarınızdan en yeniler"
+    updated: "Son güncellenenler"
+    dead: "Ölü feedler"
+    tips:
+      title: "İpuçları"
+      items:
+        - "\"j\" ve \"k\" kısayollarını kullanarak iletiler arasında dolaşabilirsiniz. \"o\" iletiyi yeni bir pencerede açar."
+        - "Başka kısayol tuşları: bir iletiyi paylaşmak için \"s\"'yi beğenmek için \"l\"'yi kullanabilirsiniz."
+        - "Feedleri düzenlemek ya da yeni klasörler oluşturmak için onları menü içerisinde sürükleyip bırakabilirsiniz."
+        - "Bir feed ya da klasörü yeniden adlandırmak için üzerine çift tıklayabilirsniz."
+        - "Feedlere tek tıklamayla abone olmak için, RSS Subscription eklentisinde ya da Firefox feed denetimcisinde 'http://theoldreader.com/feeds/subscribe?url=%s' adresini kullanın."
+    aboutus:
+      title: "Bizim hakkımızda bir şeyler"
+      text: "Yorum ve önerilerinizi bizimle <a href='mailto:hello@theoldreader.com'>paylaşmaktan</a> lütfen çekinmeyin. Dilerseniz bizi twitter'dan <a href='https://twitter.com/#!/theoldreader'>takip edebilir</a>, <a href='http://blog.theoldreader.com/'>perde arkası blogumuzu</a> okuyabilirsiniz."
+    plugins:
+      title: "Tarayıcı eklentileri"
+  pages:
+    home: "Ana Sayfa"
+    all: "Bütün öğeler"
+    liked: "Beğenilenler"
+    shared: "Paylaşılanlar"
+    followed: "Arkadaşlar"
+    import: "İçe Aktar"
+    search: "Ara"
+    settings: "Ayarlar"
+    profile: "Profil"
+    friends: "Arkadaş Bul"
+    commented: "Yorumlananlar"
+    privacy: "Gizlilik ilkeleri"
+    trending: "Revaçta olanlar"
+    donate: "Bağışa bulun"
+    tour: "Ne, Nasıl"
+    blog: "Blog"
+    status: "Sunucu statüsü"
+    requests: "İstekler & Hatalar"
+  settings:
+    name: "Adı"
+    username: "Kullanıcı adı"
+    email: "E-posta"
+    ui:
+      title: "Kullanıcı arayüzü"
+      click_to_scroll: "Clicking on a post scrolls to it"
+      scroll_to_read: "Scrolling through posts marks them as read (full view)"
+      locale: "Language"
+    feed_display_mode:
+      title: "Feed display mode"
+      all: "Show all posts"
+      unread: "Show unread only"
+    feed_list_mode:
+      title: "Posts view mode"
+      full: "Full view"
+      list: "List view"
+    sort_mode:
+      title: "Posts order"
+      normal: "Normal (new posts first)"
+      reverse: "Reverse (old posts first)"
+    social: "Social stuff"
+    notify_when_followed: "Notify by email when someone starts following you"
+    share_timeline: "Publish your shares on your Facebook page"
+    connect_share_timeline: "Connect to Facebook to publish your shares"
+    show_fb_profile: "Show link to your Facebook page in your profile"
+    save: "Save changes"
+    cancel_disabled: "You can't cancel your account while import is in progress, please be patient."
+    cancel_account:
+      text: "Unhappy? You can %{export} as OPML file and %{cancel} at any time."
+      export: "export your feeds"
+      cancel: "cancel your account"
+      confirm: "Are you sure?"
+    pocket:
+      title: "Pocket integration"
+      description: "<a href='http://getpocket.com/'>Pocket</a> (formerly called Read It Later) is a handy app that allows you to arrange, sort, and tag content that you intend to access later."
+      connect: "Connect to Pocket to start pocketing"
+      account: "Your account: <strong>%{username}</strong>"
+  import:
+    title: "Import"
+    alert: "<b>Please enter your Google username and password to import your subscriptions from Google Reader</b><br />We are not going to store your credentials. Account information will only be used to fetch your subscriptions."
+    opml: "<b>Choose an OPML file</b><br />You can grab it from Google Reader settings page.<br />Please use<b>subscriptions.xml</b> from your takeout archive."
+    email: "Email"
+    password: "Password"
+    import: "Import"
+    started: "We find feed import to be quite resource intensive procedure, so our system only allows a limited number of import operations to run at the same time. Currently all available slots are busy, so your import operation will be queued."
+    queued: "Thank you for uploading your OPML file. We will soon start importing your subscriptions."
+    queued_notice: "There are <strong>%{count}</strong> users in the import queue ahead of you."
+    processing: "Your feeds are now importing in background."
+    error: "Something went wrong"
+    opml_empty: "OPML file you uploaded is either incorrect or empty."
+    too_many_feeds: "For technical reasons we will only import first 1000 of your feeds."
+    cancel: "Cancel import"
+  profile:
+    follow: "Follow"
+    unfollow: "Unfollow"
+    thats_you: "That's you!"
+    following: 
+      one: "Follows <strong>%{count}</strong> user"
+      few: "Follows <strong>%{count}</strong> users"
+      many: "Follows <strong>%{count}</strong> users"
+      other: "Follows <strong>%{count}</strong> users"
+    followers:
+      one: "Followed by <strong>%{count}</strong> user"
+      few: "Followed by <strong>%{count}</strong> users"
+      many: "Followed by <strong>%{count}</strong> users"
+      other: "Followed by <strong>%{count}</strong> users"
+    me_following: "<strong>%{count}</strong> Following"
+    my_followers: "<strong>%{count}</strong> Followers"
+    posts: "Shared posts"
+    your_profile: "Your profile"
+    facebook: "Facebook (%{name})"
+    new: "New"
+    new_followers:
+      one: "%{count} new"
+      few: "%{count} new"
+      many: "%{count} new"
+      other: "%{count} new"
+    rss: "%{name} shared items on The Old Reader (RSS)"
+  friends:
+    follow: "Follow your friends who use The Old Reader"
+    found:
+      one: "Found %{count} user"
+      few: "Found %{count} users"
+      many: "Found %{count} users"
+      other: "Found %{count} users"
+    facebook: "Login with Facebook"
+    google: "Login with Google"
+  notifier:
+    followed:
+      subject: "%{name} has followed you"
+      body: |
+        Hello, %{followed}!
+        
+        %{name} is now following you. Nice!
+        See profile at %{profile}.
+        
+        -- 
+        The Old Reader robot.
+        You can always unsubscribe at your settings page.
+        %{host}
+    import:
+      subject: "Your feeds are ready, hooray!"
+      body: |
+        Hello %{name},
+        
+        We are happy to inform you that we have finished importing your subscriptions.
+        %{count} feeds you imported should now be available at %{host}.
+        Thank you for using The Old Reader.
+        
+        -- 
+        The Old Reader robot.
+        %{host}
+    changes:
+      subject: "Important note regarding Starred items"
