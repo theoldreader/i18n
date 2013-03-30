@@ -227,112 +227,112 @@ en:
     email: "E-posta"
     ui:
       title: "Kullanıcı arayüzü"
-      click_to_scroll: "Clicking on a post scrolls to it"
-      scroll_to_read: "Scrolling through posts marks them as read (full view)"
-      locale: "Language"
+      click_to_scroll: "Bir iletiye tıklamak tarayıcıyı ona kaydırır"
+      scroll_to_read: "İletileri kaydırma yaparak geçmek onları okunmuş olarak işaretler (açık görünümde)"
+      locale: "Dil"
     feed_display_mode:
-      title: "Feed display mode"
-      all: "Show all posts"
-      unread: "Show unread only"
+      title: "Feed görünüm modu"
+      all: "Bütün iletileri göster"
+      unread: "Yalnızca okunmamışları göster"
     feed_list_mode:
-      title: "Posts view mode"
-      full: "Full view"
-      list: "List view"
+      title: "İleti görünüm modu"
+      full: "Açık görünüm"
+      list: "Liste görünümü"
     sort_mode:
-      title: "Posts order"
-      normal: "Normal (new posts first)"
-      reverse: "Reverse (old posts first)"
-    social: "Social stuff"
-    notify_when_followed: "Notify by email when someone starts following you"
-    share_timeline: "Publish your shares on your Facebook page"
-    connect_share_timeline: "Connect to Facebook to publish your shares"
-    show_fb_profile: "Show link to your Facebook page in your profile"
-    save: "Save changes"
-    cancel_disabled: "You can't cancel your account while import is in progress, please be patient."
+      title: "İleti sıralanışı"
+      normal: "Normal (önce yeni iletiler)"
+      reverse: "Reverse (önce eski iletiler)"
+    social: "Sosyal şeyler"
+    notify_when_followed: "Birisi beni takip etmeye başladığında e-postayla haber verin"
+    share_timeline: "Paylaşımlarımı Facebook hesabımda yayınlayın"
+    connect_share_timeline: "Paylaşımlarınızı yayınlamak için Facebook'a bağlanın"
+    show_fb_profile: "Profilinizde Facebook sayfanızın linki olsun"
+    save: "Değişiklikler kaydedildi"
+    cancel_disabled: "İçe aktarım sürerken hesabınızı iptal edemezsiniz, lütfen sabredin."
     cancel_account:
-      text: "Unhappy? You can %{export} as OPML file and %{cancel} at any time."
-      export: "export your feeds"
-      cancel: "cancel your account"
-      confirm: "Are you sure?"
+      text: "Mutsuz musunuz? İstediğiniz zaman feedlerinizi OPML dosyası olarak %{export}, %{cancel}."
+      export: "dışa aktarabilir"
+      cancel: "hesabınızı iptal edebilirsiniz"
+      confirm: "Emin misiniz?"
     pocket:
-      title: "Pocket integration"
-      description: "<a href='http://getpocket.com/'>Pocket</a> (formerly called Read It Later) is a handy app that allows you to arrange, sort, and tag content that you intend to access later."
-      connect: "Connect to Pocket to start pocketing"
-      account: "Your account: <strong>%{username}</strong>"
+      title: "Pocket entegrasyonu"
+      description: "<a href='http://getpocket.com/'>Pocket</a> (önceki adı Read It Later) daha sonra erişmek istediğiniz içeriği düzenlemeye, sıralamaya ve etiketlemeye yarayan kullanışlı bir uygulamadır."
+      connect: "Cebe atmaya başlamak için Pocket'a bağlanın"
+      account: "Hesabınız: <strong>%{username}</strong>"
   import:
-    title: "Import"
-    alert: "<b>Please enter your Google username and password to import your subscriptions from Google Reader</b><br />We are not going to store your credentials. Account information will only be used to fetch your subscriptions."
-    opml: "<b>Choose an OPML file</b><br />You can grab it from Google Reader settings page.<br />Please use<b>subscriptions.xml</b> from your takeout archive."
-    email: "Email"
-    password: "Password"
-    import: "Import"
-    started: "We find feed import to be quite resource intensive procedure, so our system only allows a limited number of import operations to run at the same time. Currently all available slots are busy, so your import operation will be queued."
-    queued: "Thank you for uploading your OPML file. We will soon start importing your subscriptions."
-    queued_notice: "There are <strong>%{count}</strong> users in the import queue ahead of you."
-    processing: "Your feeds are now importing in background."
-    error: "Something went wrong"
-    opml_empty: "OPML file you uploaded is either incorrect or empty."
-    too_many_feeds: "For technical reasons we will only import first 1000 of your feeds."
-    cancel: "Cancel import"
+    title: "İçe Aktarım"
+    alert: "<b>Google Reader aboneliklerinizi aktarmak için lütfen Google kullanıcı adınızı ve şifrenizi girin.</b><br />Bu bilgileri kaydetmiyoruz. Hesap bilgileriniz yalnızca aboneliklerinizi aktarmak için kullanılıyor."
+    opml: "<b>Bir OPML dosyası seçin</b><br />OPML dosyasını Google Reader ayarlar sayfasından edinebilirsiniz.<br />Lütfen Takeout arşivinizdeki <b>subscriptions.xml</b> dosyasını kullanın."
+    email: "E-posta"
+    password: "şifre"
+    import: "İçe Aktar"
+    started: "İçe aktarma işlemi işlemci kaynak kullanımı konusunda pek tutumlu sayılmazz, dolayısıyla sistemimiz aynı anda belirli sayıda içe aktarma işleminin yürütülmesine izin veriyor. Şu anda bütün kaynaklar kullanımda olduğundan içe aktarma işleminiz sıraya alınacak."
+    queued: "OPML dosyanızı yüklediğiniz için teşekkürler. Yakında aboneliklerinizi içe aktarmaya başlayacağız."
+    queued_notice: "İçe aktarma sırasında önünüzde <strong>%{count}</strong> kullanıcı var."
+    processing: "Feedleriniz şu anda arkaplanda içe aktarılıyor."
+    error: "Bir şeyler ters gitti"
+    opml_empty: "Yüklediğiniz OPML dosyası ya hatalı ya da boş."
+    too_many_feeds: "Teknik nedenlerle feedlerinizin yalnızca ilk 1000 tanesini içe aktarabiliyoruz."
+    cancel: "İçe aktarmayı iptal et"
   profile:
-    follow: "Follow"
-    unfollow: "Unfollow"
-    thats_you: "That's you!"
+    follow: "Takip et"
+    unfollow: "Takip etmeyi bırak"
+    thats_you: "Bu sensin!"
     following: 
-      one: "Follows <strong>%{count}</strong> user"
-      few: "Follows <strong>%{count}</strong> users"
-      many: "Follows <strong>%{count}</strong> users"
-      other: "Follows <strong>%{count}</strong> users"
+      one: "<strong>%{count}</strong> kullanıcıyı takip ediyor"
+      few: "<strong>%{count}</strong> kullanıcıyı takip ediyor"
+      many: "<strong>%{count}</strong> kullanıcıyı takip ediyor"
+      other: "<strong>%{count}</strong> kullanıcıyı takip ediyor"
     followers:
-      one: "Followed by <strong>%{count}</strong> user"
-      few: "Followed by <strong>%{count}</strong> users"
-      many: "Followed by <strong>%{count}</strong> users"
-      other: "Followed by <strong>%{count}</strong> users"
-    me_following: "<strong>%{count}</strong> Following"
-    my_followers: "<strong>%{count}</strong> Followers"
-    posts: "Shared posts"
-    your_profile: "Your profile"
+      one: "<strong>%{count}</strong> kullanıcı tarafından takip ediliyor"
+      few: "<strong>%{count}</strong> kullanıcı tarafından takip ediliyor"
+      many: "<strong>%{count}</strong> kullanıcı tarafından takip ediliyor"
+      other: "<strong>%{count}</strong> kullanıcı tarafından takip ediliyor"
+    me_following: "<strong>%{count}</strong> kişiyi takipte"
+    my_followers: "<strong>%{count}</strong> kişinin takibinde"
+    posts: "Paylaşılan iletiler"
+    your_profile: "Profiliniz"
     facebook: "Facebook (%{name})"
-    new: "New"
+    new: "Yeni"
     new_followers:
-      one: "%{count} new"
-      few: "%{count} new"
-      many: "%{count} new"
-      other: "%{count} new"
-    rss: "%{name} shared items on The Old Reader (RSS)"
+      one: "%{count} yeni"
+      few: "%{count} yeni"
+      many: "%{count} yeni"
+      other: "%{count} yeni"
+    rss: "%{name} The Old Reader'da (RSS) paylaşımda paylaştı"
   friends:
-    follow: "Follow your friends who use The Old Reader"
+    follow: "The Old Reader kullanan arkadaşlarınızı takip edin"
     found:
-      one: "Found %{count} user"
-      few: "Found %{count} users"
-      many: "Found %{count} users"
-      other: "Found %{count} users"
-    facebook: "Login with Facebook"
-    google: "Login with Google"
+      one: "%{count} kullanıcı buldu"
+      few: "%{count} kullanıcı buldu"
+      many: "%{count} kullanıcı buldu"
+      other: "%{count} kullanıcı buldu"
+    facebook: "Facebook kullanarak giriş yap"
+    google: "Google kullanarak giriş yap"
   notifier:
     followed:
-      subject: "%{name} has followed you"
+      subject: "%{name} sizi takip ediyor"
       body: |
-        Hello, %{followed}!
+        Merhaba, %{followed}!
         
-        %{name} is now following you. Nice!
-        See profile at %{profile}.
+        %{name} sizi takip etmeye başladı. Ne güzel!
+        Profilini şuradan görebilirsiniz: %{profile}.
         
         -- 
-        The Old Reader robot.
-        You can always unsubscribe at your settings page.
+        The Old Reader robotu.
+        Bu iletileri almak istemiyorsanız ayarlar sayfanızı ziyaret edin.
         %{host}
     import:
-      subject: "Your feeds are ready, hooray!"
+      subject: "Feedleriniz hazır, yaşasın!"
       body: |
-        Hello %{name},
+        Merhaba %{name},
         
-        We are happy to inform you that we have finished importing your subscriptions.
-        %{count} feeds you imported should now be available at %{host}.
-        Thank you for using The Old Reader.
+        Feedlerinizin işe aktarma işleminin tamamlandığını bildirmekten dolayı mutluyuz.
+        İçe aktardığınız %{count} feede şu anda şuradan ulaşabilirsiniz: %{host}.
+        The Old Reader'ı kullandığınız için teşekkürler.
         
         -- 
-        The Old Reader robot.
+        The Old Reader robotu.
         %{host}
     changes:
-      subject: "Important note regarding Starred items"
+      subject: "Yıldızlanmış öğelerle ilgili önemli not"
