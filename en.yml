@@ -262,7 +262,7 @@ en:
   import:
     title: "Import"
     alert: "<b>Please enter your Google username and password to import your subscriptions from Google Reader</b><br />We are not going to store your credentials. Account information will only be used to fetch your subscriptions."
-    opml: "<b>Choose an OPML file</b><br />You can grab it from Google Reader settings page.<br />Please use<b>subscriptions.xml</b> from your takeout archive."
+    opml: "<b>Choose an OPML file</b><br />You can grab it from Google Reader settings page.<br />Please use <b>subscriptions.xml</b> from your takeout archive."
     email: "Email"
     password: "Password"
     import: "Import"
