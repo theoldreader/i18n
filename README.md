@@ -7,7 +7,6 @@
 1. If you have Python and PyYAML installed, you can run ```checker.py``` to verify that your translation file contains correct set of keys
 1. Create a new Pull Request
 
-
 ## Contributors
 
 English: [knyar](https://github.com/knyar), [krasnoukhov](https://github.com/krasnoukhov)
@@ -33,3 +32,5 @@ Italiano: [ggimpa](https://github.com/ggimpa)
 Deutsch: [wuhup](https://github.com/wuhup)
 
 Svenska: [alemacgo](https://github.com/alemacgo)
+
+Türkçe: [canpolat](https://github.com/canpolat)
