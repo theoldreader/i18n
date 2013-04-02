@@ -232,7 +232,7 @@ es:
       locale: "Idioma"
     feed_display_mode:
       title: "Modo de visualización de fuentes"
-      all: "Mostar todos los elementos"
+      all: "Mostrar todos los elementos"
       unread: "Mostrar lo pendiente de leer"
     feed_list_mode:
       title: "Modo de visualización de elementos"
