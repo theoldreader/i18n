@@ -125,7 +125,7 @@ en:
     subscribe: "Subscribe"
     add_subscription: "Add a subscription"
     add: "Add"
-    url: "URL"
+    url: "Feed URL"
     invalid_url: "You have provided invalid URL"
     empty_url: "You have not provided URL"
     loading: "Loading..."
@@ -228,7 +228,8 @@ en:
     ui:
       title: "User interface"
       click_to_scroll: "Clicking on a post scrolls to it"
-      scroll_to_read: "Scrolling through posts marks them as read (full view)"
+      scroll_to_read: "Scrolling through posts marks them as read"
+      sidebar_unread_only: "Show only those folders/feeds that have unread items"
       locale: "Language"
     feed_display_mode:
       title: "Feed display mode"
