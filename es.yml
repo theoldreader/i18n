@@ -229,6 +229,7 @@ es:
       title: "Interfaz de usuario"
       click_to_scroll: "Pulsar en un elemento desliza hasta él"
       scroll_to_read: "Deslizarse entre los elementos los marca como leídos (vista completa)"
+      sidebar_unread_only: "Mostrar únicamente aquellas carpetas/suscripciones con elementos por leer"
       locale: "Idioma"
     feed_display_mode:
       title: "Modo de visualización de fuentes"
