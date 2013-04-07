@@ -125,7 +125,7 @@ pt:
     subscribe: "Assinar"
     add_subscription: "Adicionar uma assinatura"
     add: "Adicionar"
-    url: "URL"
+    url: "URL do feed"
     invalid_url: "Você forneceu uma URL inválida"
     empty_url: "Você não forneceu uma URL"
     loading: "Carregando..."
@@ -216,7 +216,11 @@ pt:
     commented: "Comentados"
     privacy: "Política de privacidade"
     trending: "Tendências"
+    donate: "Contribuir"
     tour: "Tour"
+    blog: "Blog"
+    status: "Status do Servidor"
+    requests: "Solicitações & Bugs"
   settings:
     name: "Nome"
     username: "Nome de usuário"
@@ -224,6 +228,8 @@ pt:
     ui:
       title: "Interface"
       click_to_scroll: "Clicar em uma postagem rola até ela"
+      scroll_to_read: "Rolar pelas postagens as marca como lidas"
+      sidebar_unread_only: "Mostrar apenas as pastas/feeds que tem ítens não lidos"
       locale: "Idioma"
     feed_display_mode:
       title: "Modo de exibição dos feeds"
@@ -261,10 +267,14 @@ pt:
     email: "Email"
     password: "Senha"
     import: "Importar"
-    success: "Nós recebemos a sua lista de feeds. O processo de importação de fato será realizado em segundo plano, assim que você pode começar a usar o Old Reader imediatamente. Logo seus feeds aparecerão no menu."
+    started: "Nós descobrimos que a importação de feeds é um procedimento que consome bastante recursos, portanto nosso sistema permite que apenas um número limitado de operações de importação sejam realizadas ao mesmo tempo. No momento todas as vagas disponíveis estão ocupadas, logo, sua operação de importação entrará na fila."
+    queued: "Obrigado por fazer o enviar seu arquivo OPML. Nós começaremos logo a importar suas assinaturas."
+    queued_notice: "Há <strong>%{count}</strong> usuários na fila de importação a sua frente."
     processing: "Seus feeds estão sendo importados agora."
     error: "Algo deu errado"
     opml_empty: "O arquivo OPML que você enviou está incorreto ou vazio."
+    too_many_feeds: "Por motivos técnicos nós importaremos apenas os primeiros 1000 de seus feeds."
+    cancel: "Cancelar importação"
   profile:
     follow: "Seguir"
     unfollow: "Deixar de seguir"
@@ -312,6 +322,18 @@ pt:
         -- 
         O robô do Old Reader.
         Você pode sempre deixar de assinar em sua página de configurações.
+        %{host}
+    import:
+      subject: "Seus feeds estão prontos, viva!"
+      body: |
+        Olá %{name},
+        
+        Estamos felizes em informar que terminamos de importar suas assinaturas.
+        Os %{count} feeds que você importou devem estar disponíveis agora em %{host}.
+        Obrigado por usar o Old Reader.
+        
+        -- 
+        O robô do Old Reader.
         %{host}
     changes:
       subject: "Nota importante relativa aos Ítens com estrela"
