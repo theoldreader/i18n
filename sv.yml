@@ -2,26 +2,26 @@ sv:
   # Devise
   errors:
     messages:
-      expired: "har gått utt, vänligen begära en ny"
+      expired: "har gått ut, vänligen begär en ny"
       not_found: "hittades inte"
-      already_confirmed: "är redan bekräftad, vänligen försök att logga in"
+      already_confirmed: "är redan verifierad, vänligen försök att logga in"
       not_locked: "var ej låst"
       not_saved:
-        one: "1 fel förbjudit detta %{resource} från att sparas:"
-        few: "%{count} fel förbjudit detta %{resource} från att sparas:"
-        many: "%{count} fel förbjudit detta %{resource} från att sparas:"
-        other: "%{count} fel förbjudit detta %{resource} från att sparas:"
+        one: "1 fel förhindrade detta %{resource} från att sparas:"
+        few: "%{count} fel förhindrade detta %{resource} från att sparas:"
+        many: "%{count} fel förhindrade detta %{resource} från att sparas:"
+        other: "%{count} fel förhindrade detta %{resource} från att sparas:"
 
   devise:
     failure:
       already_authenticated: "Du är redan inloggad."
       unauthenticated: "Du måste logga in för att fortsätta."
-      unconfirmed: "Du måste bekräfta ditt konto för att fortsätta."
+      unconfirmed: "Du måste aktivera ditt konto för att fortsätta."
       locked: "Ditt konto är låst."
       invalid: "Ogiltig e-post eller lösenord."
       invalid_token: "Ogiltig verifieringstoken."
       timeout: "Din session har gått utt, vänligen logga in igen för att fortsätta."
-      inactive: "Ditt konto aktiverades inte ännu."
+      inactive: "Ditt konto aktiverades inte."
     sessions:
       signed_in: "Inloggning lyckades."
       signed_out: "Utloggning lyckades."
@@ -31,13 +31,13 @@ sv:
       updated_not_active: "Ditt lösenord ändrades."
       send_paranoid_instructions: "Om e-postadressen finns i vår databas kommer du snart att få ett e-postmeddelande med en länk för att återställa lösenordet."
     confirmations:
-      send_instructions: "Du kommer snart att få ett e-postmeddelande med instruktioner om hur du bekräftar ditt konto."
-      send_paranoid_instructions: "Om e-postadressen finns i vår databas kommer du snart att få ett e-postmeddelande med instruktioner om hur du bekräftar ditt konto."
-      confirmed: "Ditt konto bekräftades. Du är nu inloggad."
+      send_instructions: "Du kommer snart att få ett e-postmeddelande med instruktioner om hur du aktiverar ditt konto."
+      send_paranoid_instructions: "Om e-postadressen finns i vår databas kommer du snart att få ett e-postmeddelande med instruktioner om hur du aktiverar ditt konto."
+      confirmed: "Ditt konto aktiverades. Du är nu inloggad."
     registrations:
       signed_up: "Välkommen! Du har nu registrerat dig."
-      signed_up_but_unconfirmed: "En e-postmeddelande har skickats till din e-postadress. Vänligen öpnna länken för att aktivera ditt konto."
-      signed_up_but_inactive: "Du har nu registrerat dig. Det gick däremot inte att logga in dig eftersom ditt konto inte är aktiverad ännu."
+      signed_up_but_unconfirmed: "Ett e-postmeddelande har skickats till din e-postadress. Vänligen öpnna länken för att aktivera ditt konto."
+      signed_up_but_inactive: "Du har nu registrerat dig. Det gick däremot inte att logga in dig eftersom ditt konto inte är aktiverat ännu."
       signed_up_but_locked: "Du har nu registrerat dig. Det gick däremot inte att logga in dig eftersom ditt konto är låst."
       updated: "Ditt konto uppdaterades."
       update_needs_confirmation: "Ditt konto uppdaterades, men vi behöver att verifiera din nya e-postadress. Vänligen kontrollera din e-post och klicka på bekräftelselänken för att bekräfta din nya e-postadress."
@@ -48,10 +48,10 @@ sv:
       send_paranoid_instructions: "Om ditt konto finns kommer du snart att få ett e-postmeddelande med instruktioner för att låsa upp det."
     omniauth:
       success: "Godkännandet lyckades via %{kind} kontot."
-      failure: "%{kind} godkännandet misslyckades på grund av den följande anledningen: %{reason}."
+      failure: "%{kind} godkännandet misslyckades på grund av den följande anledning: %{reason}."
     mailer:
       confirmation_instructions:
-        subject: "Instruktioner för att bekräfta kontot"
+        subject: "Instruktioner för aktivera kontot"
       reset_password_instructions:
         subject: "Instruktioner för att återställa lösenordet"
       unlock_instructions:
@@ -62,7 +62,7 @@ sv:
   eggs: "Vi ♥ kattungar"
   title: "The Old Reader"
   meta:
-    description: "Det är den ultimata RSS-läsare. Precis som den gamla Google Reader, fast bättre. Importera dina prenumerationer med bara ett klick, hitta dina Facebook-vänner och börja dela."
+    description: "Den ultimata RSS-läsaren. Precis som gamla Google Reader, fast bättre. Importera dina prenumerationer med bara ett klick, hitta dina Facebook-vänner och börja dela."
     keywords: "the old reader"
   landing:
     topmenu:
@@ -83,45 +83,45 @@ sv:
       google: "Google"
       facebook: "Facebook"
     welcome: 
-      - "Välkommen till The Old Reader, den ultimata RSS-läsare. Det är precis som den gamla Google Reader, fast bättre. Vi är fortfarande i beta-fasen, men vi jobbar ständigt för förbättringar och nyheter."
-      - "Du kan logga in och börja använda The Old Reader med bara ett klick. Om du är för blyg är du välkommen att gå igenom vår %tour% eller titta på vad som är %trending%."
+      - "Välkommen till The Old Reader, den ultimata RSS-läsaren. Precis som gamla Google Reader, fast bättre. Vi är fortfarande i beta-fasen, men vi jobbar ständigt med förbättringar och nyheter."
+      - "Du kan logga in och börja använda The Old Reader med bara ett klick. Om du är för blyg är du välkommen att gå igenom vår %tour% eller se vad som är %trending%."
     tour: "guidade visning"
     trending: "dagens trender"
     qa:
       -
-        :title: "Vad gör det?"
-        :text: "Det är ett sätt att bläddra i din dagliga dos av innehållen på webben med den speciella biten delads av dina vänner, med anteckningar och kommentarer."
+        :title: "Vad gör den?"
+        :text: "Den låter dig ta del av din dagliga dos webbinnehåll, inklusive det som delats av dina vänner, med noteringar och kommentarer."
       -
         :title: "Går det att importera mina prenumerationer?"
-        :text: "Ja, du kan importera dina flöden direkt från ditt Google Reader konto eller använda vår OPML-import funktionen om du är orolig för din säkerhet."
+        :text: "Ja, du kan importera dina flöden direkt från ditt Google Reader-konto eller använda OPML-import om du är orolig för din säkerhet."
       -
         :title: "Hur hittar jag mina vänner?"
-        :text: "Vi jobbar med att förbättra vänförslagsidan, men under tiden kan du söka efter dina kompisar manuellt eller kolla vem bland dina Facebook-vänner eller Google-kontakter också använder The Old Reader. Vi kommer också att skicka en e-postmeddelande till dig när någon följer dig."
+        :text: "Vi jobbar med att förbättra vänförslag-sidan, men under tiden kan du söka efter dina vänner manuellt eller kolla vem bland dina Facebook-vänner eller Google-kontakter vilka som redan använder The Old Reader. Vi kommer också att skicka en e-postmeddelande till dig när någon följer dig."
       -
         :title: "Har ni en mobilapp?"
-        :text: "Inte <em>än</em>, men som vi lovade tidigare, vi började arbeta på det när vi nådde 5000 användare i oktober 2012. Dessutom, vårt gränssnitt anpassar sig till mobila enheter nu."
+        :text: "Inte <em>än</em>, men som utlovat så började vi arbeta på en när vi nådde 5000 användare i oktober 2012. Vårt grafiska gränssnitt fungerar dock bra för mobila enheter."
       -
-        :title: "Kommer du bete som andra appar gör på min Facebook?"
-        :text: "Absolut inte! Du kan lägga till dina delade objekt på din tidslinje, men om du inte väljer att posta på Facebook, alla dina delade objekt och kommentarer kommer att stanna endast på The Old Reader. Vi kommer aldrig att posta något för din räkning eller engagera dig i något som är tvivelaktig."
+        :title: "Kommer ni posta saker på min facebook-profil utan min tillåtelse?"
+        :text: "Absolut inte! Du kan lägga till dina delade objekt på din tidslinje, men om du inte väljer att posta på Facebook kommer dina delade objekt och kommentarer endast att synas i The Old Reader. Vi kommer aldrig att posta något för din räkning eller använda din information för tvivelaktiga syften."
       -
         :title: "Varför utvecklade ni The Old Reader?"
-        :text: "Vi saknade den ursprungliga läsare mycket, så vi utvecklade The Old Reader bara för oss och våra kompisar. Vi tycker att det gick bra, så vi bestämde att dela det med alla."
-    supported: "Stöddes med kärlek av"
+        :text: "Vi saknade den ursprungliga versionen av Google Reader, så vi utvecklade The Old Reader bara för oss och våra vänner. Det blev bra, så vi bestämde oss för att dela med oss."
+    supported: "Stöds med kärlek av"
   user:
     profile: "Profil"
     logout: "Logga ut"
     settings: "Inställningar"
-    failure: "Det %{kind} kontot som du försöker använda har länkats till något annat The Old Reader konto. Vänligen avregistrera ditt andra konto och försök igen."
-    wrong_auth: "Något gick fel, vänligen kontakta oss till hello@theoldreader.com"
-    becomes_active_notice: "Du har inte använt The Old Reader på ett tag, så vi höll bara färska inlägg åt dig."
+    failure: "%{kind}-kontot som du försöker använda har redan länkats till ett annat The Old Reader-konto. Vänligen avregistrera ditt andra konto och försök igen."
+    wrong_auth: "Något gick fel, vänligen kontakta oss på hello@theoldreader.com"
+    becomes_active_notice: "Du har inte använt The Old Reader på ett tag, så vi höll några inlägg färska åt dig."
   feeds:
     no_feeds:
-      text: "Du har inga prenumerationer ännu. Du kan %{subscribe} på ett nytt flöde (vad sägs om <a href='http://blog.theoldreader.com/rss' class='feed-subscribe'>vår blogg</a>?) eller %{import} dina prenumerationer.<br />Om du vill meta mer, %{tour}."
-      subscribe: "subscribe"
-      import: "import"
+      text: "Du har inga prenumerationer ännu. Du kan %{subscribe} på ett nytt flöde (vad sägs om <a href='http://blog.theoldreader.com/rss' class='feed-subscribe'>vår blogg</a>?) eller %{import} dina prenumerationer.<br />Om du vill veta mer, %{tour}."
+      subscribe: "prenumerera"
+      import: "importera"
       tour: "ta den guidade visningen"
     no_posts: "Det finns inga inlägg här ännu"
-    no_posts_filler: "Inga inlägg under denna rad. Du har nog läst dem alla."
+    no_posts_filler: "Inga inlägg under denna rad. Du har nog läst alla."
     subscribe: "Prenumerera"
     add_subscription: "Lägg till en prenumeration"
     add: "Lägg till"
@@ -141,21 +141,21 @@ sv:
       few: "inlägg"
       many: "inlägg"
       other: "inlägg"
-    your_posts: "Du har <em>%{unread}</em> oläst %{posts}"
+    your_posts: "Du har <em>%{unread}</em> olästa %{posts}"
     refresh: "Uppdatera"
     unsubscribe: "Avsluta prenumeration"
     unsubscribe_confirm: "Vill du verkligen avsluta prenumerationen? Dina delade och gillade inlägg kommer inte att tas bort."
     ago: "sedan"
     never: "Aldrig"
     confirm: "Är du säker?"
-    mark_all_read: "Markera alla som läst"
+    mark_all_read: "Markera alla som lästa"
     search: "Sök"
-    search_limits: "Sökfrågan som du använde är mycket populär, så vi var tvungen att begränsa antalet resultat. Om du vill se alla resultat, vänligen gör din sökning strängare."
+    search_limits: "Sökningen du gjorde är mycket populär, så vi var tvungna att begränsa antalet resultat. Om du vill se alla resultat, vänligen gör din sökning snävare."
     mark_read: "Markera som läst"
     mark_unread: "Markera som oläst"
     share: "Dela"
     shared: "Delad"
-    unshare: "Sluta dela"
+    unshare: "Ångra delning"
     following: "Följer"
     attach_note: "Lägg till en anteckning"
     attach: "Spara anteckningen"
@@ -167,7 +167,7 @@ sv:
     comment: "Kommentar"
     comment_text: "Kommentera"
     comment_destroy_confirm: "Vill du verkligen ta bort kommentaren?"
-    comment_destroy_text: "Denna kommentar togs bort av användare."
+    comment_destroy_text: "Denna kommentar togs bort av användaren."
     post_author: "av <strong>%{author}</strong>"
     drop_add_folder: "Släpp här för att lägga till en ny mapp"
     new_folder: "Ny mapp"
@@ -192,14 +192,14 @@ sv:
     tips:
       title: "Tips och råd"
       items:
-        - "Använd \"j\" and \"k\" kortkommandon för att navigera inlägg. \"o\" öppnar inlägget i ett nytt fönster."
+        - "Använd kortkommandona \"j\" och \"k\" för att navigera mellan inlägg. \"o\" öppnar inlägget i ett nytt fönster."
         - "Visa fler kortkommandon: använd \"s\" för att dela ett inlägg eller \"l\" för att gilla det."
-        - "Dra och släpp prenumerationer på menyn för att ordna dem eller för att skapa nya mappar."
-        - "Du kan dubbelklicka på ett flöde eller mapp för att byta sitt namn."
-        - "För att prenumerera till nya flöden med bara ett klick, använd 'http://theoldreader.com/feeds/subscribe?url=%s' i RSS Subscription tillägg eller Firefox feed handler."
+        - "Dra och släpp prenumerationer i menyn för att ordna dem eller för att skapa nya mappar."
+        - "Du kan dubbelklicka på ett flöde eller mapp för att ändra namnet."
+        - "För att prenumerera på nya flöden med bara ett klick, använd 'http://theoldreader.com/feeds/subscribe?url=%s' i RSS Subscription tillägg eller Firefox feed handler."
     aboutus:
       title: "Något om oss"
-      text: "Du är välkommen att <a href='mailto:hello@theoldreader.com'>e-posta oss</a> om du har några kommentarer eller förslag. Du kan också <a href='https://twitter.com/#!/theoldreader'>följa oss</a> på twitter och läsa vår <a href='http://blog.theoldreader.com/'>bakom kulisserna blogg</a>."
+      text: "Du är välkommen att <a href='mailto:hello@theoldreader.com'>e-posta oss</a> om du har några kommentarer eller förslag. Du kan också <a href='https://twitter.com/#!/theoldreader'>följa oss</a> på twitter och läsa vår <a href='http://blog.theoldreader.com/'>bakom kulisserna-blogg</a>."
     plugins:
       title: "Tillägg för webbläsaren"
   pages:
@@ -216,11 +216,11 @@ sv:
     commented: "Kommenterade"
     privacy: "Sekretesspolicy"
     trending: "Trender"
-    donate: "Skänka"
-    tour: "Guidade visning"
+    donate: "Donera"
+    tour: "Guidad visning"
     blog: "Blogg"
     status: "Serverstatus"
-    requests: "Begäran & Buggar"
+    requests: "Förslag & Buggar"
   settings:
     name: "Namn"
     username: "Användarnamn"
@@ -228,66 +228,66 @@ sv:
     ui:
       title: "Gränssnitt"
       click_to_scroll: "Om du klickar på ett inlägg tar vi dig dit"
-      scroll_to_read: "Du markerar inläggen som lästa genom att bläddra igenom dem (hel visning)"
+      scroll_to_read: "Du markerar inläggen som lästa genom att bläddra igenom dem"
       locale: "Språk"
     feed_display_mode:
-      title: "Flöde visningsläge"
+      title: "Visningsläge för flödet"
       all: "Visa alla inlägg"
       unread: "Visa endast olästa"
     feed_list_mode:
-      title: "Inlägg visningsläge"
-      full: "Hel visning"
-      list: "List visning"
+      title: "Visningsläge för inlägg"
+      full: "Full visning"
+      list: "Listvisning"
     sort_mode:
-      title: "Inlägg order"
+      title: "Inläggens ordning"
       normal: "Normal"
-      reverse: "Omvända"
+      reverse: "Omvänt"
     social: "Sociala inställningar"
     notify_when_followed: "Meddela via e-post när någon följer dig"
-    share_timeline: "Publicera dina delade objekt på din Facebook sida"
+    share_timeline: "Publicera dina delade objekt på din Facebook-profil"
     connect_share_timeline: "Anslut till Facebook för att publicera dina delade objekt"
-    show_fb_profile: "Visa länken till Facebook på din profil"
+    show_fb_profile: "Visa länk till din Facebook-profil på din sida"
     save: "Spara ändringar"
-    cancel_disabled: "Du kan inte avregistrera ditt konto när importen pågår, vänligen ha lite tålamod."
+    cancel_disabled: "Du kan inte avregistrera ditt konto medan importen pågår, vänligen ha lite tålamod."
     cancel_account:
       text: "Missnöjd? Du kan %{export} som OPML-fil och %{cancel} när som helst."
       export: "exportera dina prenumerationer"
       cancel: "avregistrera ditt konto"
-      confirm: "Ar du säker?"
+      confirm: "Är du säker?"
     pocket:
       title: "Pocket-integration"
       description: "<a href='http://getpocket.com/'>Pocket</a> (kallades Read It Later förut) är en praktisk app för att arrangera, ordna och tagga inehållen som du vill kolla upp senare."
-      connect: "Anslut till Pocket för att börja spara för senare"
+      connect: "Anslut till Pocket för att använda funktionen"
       account: "Ditt konto: <strong>%{username}</strong>"
   import:
     title: "Importera"
-    alert: "<b>Vänligen ange ditt Google-användarnamn och lösenord för att importera dina prenumerationer från Google Reader. Vi kommer inte att spara dina uppgifter. Dina kontouppgifter ska användas bara för att få dina prenumerationer."
-    opml: "<b>Eller välja en OPML-fil</b><br />Du hittar det på Google Reader inställningarsidan."
+    alert: "<b>Vänligen ange ditt Google-användarnamn och lösenord för att importera dina prenumerationer från Google Reader. Vi kommer inte att spara dina uppgifter. Dina kontouppgifter ska användas bara för att hämta dina prenumerationer."
+    opml: "<b>Eller välja en OPML-fil</b><br />Du hittar det under Inställningar i Google Reader."
     email: "E-post"
     password: "Lösenord"
     import: "Importera"
-    started: "Importen av prenumerationer är en ganska resurskrävande process, så vårt system tillåter bara ett begränsat antal operationer som körs samtidigt. För närvarande, alla platser är upptagna, så din import-operation kommer att köas."
+    started: "Import av prenumerationer är en ganska resurskrävande process, så vårt system tillåter bara ett begränsat antal importer åt gången. För närvarande är alla platser upptagna. Du placeras i kö."
     queued: "Tack för att du har laddat upp din OPML-fil. Vi kommer snart att börja importera dina prenumerationer."
-    queued_notice: "Det finns <strong>%{count}</strong> användare framför dig i import-kön."
+    queued_notice: "Det finns <strong>%{count}</strong> användare före dig i import-kön."
     processing: "Dina prenumerationer uppdateras nu i bakgrunden."
     error: "Något gick fel"
     opml_empty: "OPML-filen som du laddat upp är ogiltig eller tom."
-    too_many_feeds: "På grund av tekniska orsaker kommer vi att importera bara de första 1000 av dina flöden."
-    cancel: "Avbryta importen"
+    too_many_feeds: "På grund av tekniska svårigheter kan vi bara importera bara de första tusen av dina flöden."
+    cancel: "Avbryt importen"
   profile:
-    follow: "Följa"
+    follow: "Följ"
     unfollow: "Sluta följa"
-    thats_you: "Det är du ju!"
+    thats_you: "Det är ju du!"
     following:
       one: "Följer <strong>%{count}</strong> användare"
       few: "Följer <strong>%{count}</strong> användare"
       many: "Följer <strong>%{count}</strong> användare"
       other: "Följer <strong>%{count}</strong> användare"
     followers:
-      one: "Följade av <strong>%{count}</strong> användare"
-      few: "Följade av <strong>%{count}</strong> användare"
-      many: "Följade av <strong>%{count}</strong> användare"
-      other: "Följade av <strong>%{count}</strong> användare"
+      one: "<strong>%{count}</strong> följaree"
+      few: "<strong>%{count}</strong> följare"
+      many: "<strong>%{count}</strong> följare"
+      other: "<strong>%{count}</strong> följare"
     me_following: "<strong>%{count}</strong> Följer"
     my_followers: "<strong>%{count}</strong> Följare"
     posts: "Delade inlägg"
@@ -301,7 +301,7 @@ sv:
       other: "%{count} nya"
     rss: "%{name} delade objekt på The Old Reader (RSS)"
   friends:
-    follow: "Följa dina kompisar som använder The Old Reader"
+    follow: "Följ dina kompisar som använder The Old Reader"
     found:
       one: "Hittade %{count} användare"
       few: "Hittade %{count} användare"
@@ -311,7 +311,7 @@ sv:
     google: "Logga in med Google"
   notifier:
     followed:
-      subject: "%{name} följer dig nu"
+      subject: "%{name} följer nu dig"
       body: |
         Hej, %{followed}!
 
@@ -320,15 +320,15 @@ sv:
 
         -- 
         The Old Reader robot.
-        Du kan alltid avregistrara dig på din inställningarsida.
+        Du kan alltid avregistrara från dessa mail i inställningarna för ditt konto.
         %{host}
     import:
-      subject: "Your feeds are ready, hooray!"
+      subject: "Dina flöden är redo, hurra!"
       body: |
         Hej %{name},
         
-        Vi är glada att kunna berätta att vi har importerat klart dina prenumerationer.
-        %{count} flöden som du importerade borde vara tillgängliga på %{host}.
+        Vi är glada att kunna berätta att vi har importerat klart dina %{count} prenumerationer.
+        De löden som du importerade borde vara tillgängliga på %{host}.
         Tack för att du använder The Old Reader.
         
         -- 
