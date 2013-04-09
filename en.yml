@@ -197,11 +197,6 @@ en:
         - "Drag & drop feeds in the menu to reorder them or to create new feed folders."
         - "You can double click on feed or folder title to rename it."
         - "To subscribe to new feeds with a single click, use 'http://theoldreader.com/feeds/subscribe?url=%s' in RSS Subscription extension or Firefox feed handler."
-    aboutus:
-      title: "Something about us"
-      text: "Please feel free to <a href='mailto:hello@theoldreader.com'>drop us a note</a> if you have any comments or suggestions. You can also <a href='https://twitter.com/#!/theoldreader'>follow us</a> on twitter and read our <a href='http://blog.theoldreader.com/'>behind the scenes blog</a>."
-    plugins:
-      title: "Browser extensions"
   pages:
     home: "Home"
     all: "All items"
@@ -220,7 +215,7 @@ en:
     tour: "Howto"
     blog: "Blog"
     status: "Server status"
-    requests: "Requests & Bugs"
+    community: "Community resources"
   settings:
     name: "Name"
     username: "Username"
