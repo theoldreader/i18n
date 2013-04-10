@@ -229,6 +229,7 @@ ca:
       title: "Interfície d'usuari"
       click_to_scroll: "Fer clic a un article et trasllada fins ell"
       scroll_to_read: "Avançant pels articles els va marcant com a llegits (en vista completa)"
+      sidebar_unread_only: "Mostrar només els fluxos/carpetes amb articles sense llegir"
       locale: "Llengua"
     feed_display_mode:
       title: "Com es mostren els fluxos"
