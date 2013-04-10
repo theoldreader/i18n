@@ -197,11 +197,6 @@ ca:
         - "Agafa i deixa caure fluxos al menú per canviar-ne l'ordre o per crear noves carpetes."
         - "Fes doble clic en un flux o carpeta per canviar-ne el nom."
         - "Per subscriure't a nous fluxos amb un sol clic, usa 'http://theoldreader.com/feeds/subscribe?url=%s' a l'extensió de subscripció RSS o al gestor de fluxos de Firefox."
-    aboutus:
-      title: "Quelcom sobre nosaltres"
-      text: "Ets benvingut a <a href='mailto:hello@theoldreader.com'>enviar-nos una nota</a> si tens comentaris o suggeriments. També <a href='https://twitter.com/#!/theoldreader'>ens pots seguir</a> a twitter o llegir el nostre <a href='http://blog.theoldreader.com/'>blog darrere l'escenari</a>."
-    plugins:
-      title: "Extensions per navegador"
   pages:
     home: "Home"
     all: "Tots"
@@ -220,7 +215,7 @@ ca:
     donate: "Donacions"
     blog: "Blog"
     status: "Estat del servei"
-    requests: "Peticions"
+    community: "Recursos comunitaris"
   settings:
     name: "Nom"
     username: "Usuari"
