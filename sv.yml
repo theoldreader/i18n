@@ -138,10 +138,10 @@ sv:
       other: "flöden"
     posts_count:
       one: "inlägg"
-      few: "inlägg"
-      many: "inlägg"
-      other: "inlägg"
-    your_posts: "Du har <em>%{unread}</em> olästa %{posts}"
+      few: "a inlägg"
+      many: "a inlägg"
+      other: "a inlägg"
+    your_posts: "Du har <em>%{unread}</em> oläst%{posts}"
     refresh: "Uppdatera"
     unsubscribe: "Avsluta prenumeration"
     unsubscribe_confirm: "Vill du verkligen avsluta prenumerationen? Dina delade och gillade inlägg kommer inte att tas bort."
@@ -272,7 +272,7 @@ sv:
     processing: "Dina prenumerationer uppdateras nu i bakgrunden."
     error: "Något gick fel"
     opml_empty: "OPML-filen som du laddat upp är ogiltig eller tom."
-    too_many_feeds: "På grund av tekniska svårigheter kan vi bara importera bara de första tusen av dina flöden."
+    too_many_feeds: "På grund av tekniska svårigheter kan vi endast importera de tusen första av dina flöden."
     cancel: "Avbryt importen"
   profile:
     follow: "Följ"
@@ -328,7 +328,7 @@ sv:
         Hej %{name},
         
         Vi är glada att kunna berätta att vi har importerat klart dina %{count} prenumerationer.
-        De löden som du importerade borde vara tillgängliga på %{host}.
+        De flöden som du importerade borde vara tillgängliga på %{host}.
         Tack för att du använder The Old Reader.
         
         -- 
