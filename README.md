@@ -31,6 +31,6 @@ Italiano: [ggimpa](https://github.com/ggimpa)
 
 Deutsch: [wuhup](https://github.com/wuhup)
 
-Svenska: [alemacgo](https://github.com/alemacgo)
+Svenska: [alemacgo](https://github.com/alemacgo), [Tobbe](https://github.com/Tobbe), [kokarn](https://github.com/kokarn)
 
 Türkçe: [canpolat](https://github.com/canpolat)
