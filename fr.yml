@@ -125,7 +125,7 @@ fr:
     subscribe: "S'abonner"
     add_subscription: "Ajouter un abonnement"
     add: "Ajouter"
-    url: "URL"
+    url: "URL du Flux"
     invalid_url: "Vous avez donné un URL invalide"
     empty_url: "Vous n'avez pas donné d'URL"
     loading: "Chargement..."
@@ -197,11 +197,6 @@ fr:
         - "Drag & drop les flux dans le menu pour les réorganiser ou pour créer un nouveau dossier de flux."
         - "Vous pouvez double-cliquer sur un flux ou sur un dossier pour le renommer."
         - "Pour souscrire un nouveau flux en un seul clic, utilisez 'http://theoldreader.com/feeds/subscribe?url=%s' dans l'extension d'abonnement RSS ou dans la gestion des flux Firefox."
-    aboutus:
-      title: "A propos de nous"
-      text: "N'hésitez pas à <a href='mailto:hello@theoldreader.com'>nous envoyer un mot</a> si vous avez un commentaire ou une suggestion. Vous pouvez aussi <a href='https://twitter.com/#!/theoldreader'>nous suivre</a> sur twitter et lire notre <a href='http://blog.theoldreader.com/'>behind the scenes blog</a>."
-    plugins:
-      title: "Extensions pour navigateur"
   pages:
     home: "Accueil"
     all: "Tous les éléments"
@@ -216,7 +211,11 @@ fr:
     commented: "Commentés"
     privacy: "Politique de confidentialité"
     trending: "Tendances"
+    donate: "Dons"
     tour: "Guide"
+    blog: "Blog"
+    status: "Etat du serveur"
+    community: "Communauté"
   settings:
     name: "Nom"
     username: "Nom d'utilisateur"
@@ -224,6 +223,8 @@ fr:
     ui:
       title: "Interface utilisateur"
       click_to_scroll: "Aller sur un post en cliquant dessus"
+      scroll_to_read: "Marquer les posts lus au fur et à mesure du défilement"
+      sidebar_unread_only: "Montrer seulement les dossiers/flux non lus"
       locale: "Langage"
     feed_display_mode:
       title: "Mode d'affichage des flux"
@@ -235,8 +236,8 @@ fr:
       list: "Vue en liste"
     sort_mode:
       title: "Ordre des posts"
-      normal: "Normal"
-      reverse: "Inverse"
+      normal: "Normal (Les plus récents en premier)"
+      reverse: "Inverse (Les plus vieux en premier)"
     social: "Social"
     notify_when_followed: "Me notifier par e-mail quand quelqu'un commence à me suivre"
     share_timeline: "Publier mes partages sur ma page Facebook"
@@ -257,7 +258,7 @@ fr:
   import:
     title: "Importer"
     alert: "<b>Merci de saisir votre login et mot de passe Google pour importer vos abonnements depuis Google Reader</b><br />Nous ne gardons pas vos identifiants. Vos informations vont seulement être utilisées pour récupérer vos abonnements."
-    opml: "<b>Choisissez un fichier OPML</b><br />Vous pouvez le récupérer à partir de la page de réglage de Google Reader."
+    opml: "<b>Choisissez un fichier OPML</b><br />Vous pouvez le récupérer à partir de la page de réglage de Google Reader.<br />Il faut utiliser le fichier <b>subscriptions.xml</b> de l'archive."
     email: "E-mail"
     password: "Mot de passe"
     import: "Importer"
