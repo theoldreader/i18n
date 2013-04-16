@@ -197,11 +197,6 @@ hu:
         - "Húzz be csatornákat a menübe, az átrendezéshez, vagy hogy mappákba csoportosítsd őket."
         - "Duplakattintással egy csatorna, vagy mappa nevén átnevezheted őket."
         - "Hogy feliratkozhass egy új csatornára egy szimpla kattintással, használd a 'http://theoldreader.com/feeds/subscribe?url=%s' URL-t az RSS Feliratkozás bővítményben, vagy a Firefox csatornakezelőjét."
-    aboutus:
-      title: "Rólunk"
-      text: "Bátran <a href='mailto:hello@theoldreader.com'>küldj címünkre</a> egy levelet, ha megjegyzéseid, vagy tanácsaid volnának. Továbbá <a href='https://twitter.com/#!/theoldreader'>követhetsz</a> a twitteren és olvashatod a <a href='http://blog.theoldreader.com/'>színfalak mögötti blogunkat</a>."
-    plugins:
-      title: "Böngésző bővítmények"
   pages:
     home: "Főoldal"
     all: "Minden elem"
@@ -220,7 +215,7 @@ hu:
     tour: "Bemutató"
     blog: "Blog"
     status: "Szerver állapota"
-    requests: "Kérések & Hibák"
+    community: "Közösségi erőforrások"
   settings:
     name: "Név"
     username: "Felhasználónév"
@@ -229,6 +224,7 @@ hu:
       title: "Felhasználói felület"
       click_to_scroll: "Egy elemre kattintás odagördít"
       scroll_to_read: "Az elemeken átgördítés olvasottnak jelöli őket"
+      sidebar_unread_only: "Csak azokat a mappákat/csatornákat mutassa, ami tartalmaz olvasatlan elemet"
       locale: "Nyelv"
     feed_display_mode:
       title: "Elemek megjelenítése"
