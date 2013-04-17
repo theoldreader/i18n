@@ -21,7 +21,7 @@ Español: [marevalo](https://github.com/marevalo)
 
 Français: [AlexandreP2101](https://github.com/AlexandreP2101), [madx](https://github.com/madx)
 
-Catalan: [ramonpoca](https://github.com/ramonpoca)
+Catalan: [ramonpoca](https://github.com/ramonpoca), [jmontane](https://github.com/jmontane)
 
 Hungarian: [blas3nik](https://github.com/blas3nik)
 
