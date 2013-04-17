@@ -90,13 +90,13 @@ ch:
     qa:
       -
         :title: "可以用来做什么？"
-        :text: "It allows you to browse your daily dose of content with that very special bit shared by your friends, with notes and comments"
+        :text: "它能让您浏览每天由您的朋友特别分享出来的，带有笔记和评论的信息。"
       -
         :title: "我能够转移我的订阅吗？"
         :text: "是的，你可以直接从Google Reader导入订阅，如果你担心帐户安全的话，也可以通过OPML文件导入。"
       -
         :title: "如何找到我的朋友？"
-        :text: "We're working on improving the friend suggestion page, but in the mean time you can search for your buddies manually or see who among your Facebook friends or Google contacts is also using The Old Reader. We'll also send you an e-mail when someone starts following you。"
+        :text: "我们正在改善好友推荐页面，与此同时您可以手动搜索您的好友们或者看看您在Facebook或者谷歌联系人内还有哪些好友在使用The Old Reader。当有人开始关注您时我们也会发送电子邮件通知您"
       -
         :title: "你们拥有移动应用吗？"
         :text: "<em>暂时</em>没有。但就像我们之前承诺的一样，当我们的用户数在2012年10月达到5000时，相关工作就已经开始了。即便是现在，我们的标准界面也可以很好地适配移动设备。"
