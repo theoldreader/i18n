@@ -25,7 +25,7 @@ Catalan: [ramonpoca](https://github.com/ramonpoca), [jmontane](https://github.co
 
 Hungarian: [blas3nik](https://github.com/blas3nik)
 
-Italiano: [ggimpa](https://github.com/ggimpa)
+Italiano: [ggimpa](https://github.com/ggimpa), [luca74](https://github.com/luca74)
 
 简体字: [ushuz](https://github.com/ushuz), [gzjoekeny](https://github.com/gzjoekeny)
 
