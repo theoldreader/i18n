@@ -89,11 +89,11 @@ it:
     trending: "post principali del giorno"
     qa:
       -
-        :title: "What does it do?"
+        :title: "Che cosa fa?"
         :text: "It allows you to browse your daily dose of content with that very special bit shared by your friends, with notes and comments"
       -
-        :title: "Can I transfer my subscriptions?"
-        :text: "Yes, you can import your feeds directly from your Google Reader account or use our OPML import feature if you're sensitive about your security."
+        :title: "Posso trasferire le mie sottoscrizioni?"
+        :text: "Sì, puoi importare i tuoi fees direttamente dall'account di Google Reader o usera la funzione di import OPML se sei preoccupato per la tua sicurezza."
       -
         :title: "How do I find my friends?"
         :text: "We're working on improving the friend suggestion page, but in the mean time you can search for your buddies manually or see who among your Facebook friends or Google contacts is also using The Old Reader. We'll also send you an e-mail when someone starts following you."
@@ -158,7 +158,7 @@ it:
     unshare: "Elimina Condivisione"
     following: "Seguito"
     attach_note: "Vuoi aggiungere una nota?"
-    attach: "Save note"
+    attach: "Salva la nota"
     comments:
       one: "%{count} commento"
       few: "%{count} commenti"
@@ -171,8 +171,8 @@ it:
     post_author: "by <strong>%{author}</strong>"
     drop_add_folder: "Lascia qui per aggiungere una nuova cartella"
     new_folder: "Nuova cartella"
-    like: "Like"
-    unlike: "Unlike"
+    like: "Piace"
+    unlike: "Non piace"
     likes_count:
       zero: "è piaciuto a %{users}"
       one: "è piaciuto a %{users} e a un altro"
@@ -196,7 +196,7 @@ it:
         - "Qualche altra scorciatoia: usa \"s\" per condividere un post e \"l\" per mettere mi piace."
         - "Trascina i feed nel menù per riordinarli o per creare nuove cartelle."
         - "Puoi cliccare due volte sul titolo dei feed o sulle cartelle per rinominarli."
-        - "To subscribe to new feeds with a single click, use 'http://theoldreader.com/feeds/subscribe?url=%s' in RSS Subscription extension or Firefox feed handler."
+        - "Per sittoscruvere a nuovo new feeds con un singoli click, usa 'http://theoldreader.com/feeds/subscribe?url=%s' nell'estensione per sottoscrivere gli RSS o nel gestori di feed di Firefox."
     aboutus:
       title: "Qualcosa su di noi"
       text: "Please feel free to <a href='mailto:hello@theoldreader.com'>drop as a note</a> if you have any comments or suggestions. You can also <a href='https://twitter.com/#!/theoldreader'>follow us</a> on twitter and read our <a href='http://blog.theoldreader.com/'>behind the scenes blog</a>."
@@ -205,7 +205,7 @@ it:
   pages:
     home: "Home"
     all: "Tutti gli elementi"
-    liked: "Liked"
+    liked: "Piaciiti"
     shared: "Condivisi"
     followed: "Amici"
     import: "Importa"
@@ -237,7 +237,7 @@ it:
       title: "Ordine Dei Post"
       normal: "Normale"
       reverse: "Rovesciata"
-    social: "Roba Social"
+    social: "Social"
     notify_when_followed: "Notifica via email quando qualcuno inizia a seguirti"
     share_timeline: "Pubblica le tue condivisioni sul tuo profilo Facebook"
     connect_share_timeline: "Connettiti a Facebook per pubblicare le tue condivisioni"
@@ -267,7 +267,7 @@ it:
     opml_empty: "il file OPML che hai caricato è vuoto o non corretto."
   profile:
     follow: "Segui"
-    unfollow: "Unfollow"
+    unfollow: "Non seguire più"
     thats_you: "Questo sei tu!"
     following: 
       one: "Segue <strong>%{count}</strong> utente"
