@@ -196,7 +196,7 @@ it:
         - "Qualche altra scorciatoia: usa \"s\" per condividere un post e \"l\" per mettere mi piace."
         - "Trascina i feed nel menù per riordinarli o per creare nuove cartelle."
         - "Puoi cliccare due volte sul titolo dei feed o sulle cartelle per rinominarli."
-        - "Per sittoscruvere a nuovo new feeds con un singoli click, usa 'http://theoldreader.com/feeds/subscribe?url=%s' nell'estensione per sottoscrivere gli RSS o nel gestori di feed di Firefox."
+        - "Per sottoscrivere a nuovo new feeds con un singoli click, usa 'http://theoldreader.com/feeds/subscribe?url=%s' nell'estensione per sottoscrivere gli RSS o nel gestori di feed di Firefox."
     aboutus:
       title: "Qualcosa su di noi"
       text: "Please feel free to <a href='mailto:hello@theoldreader.com'>drop as a note</a> if you have any comments or suggestions. You can also <a href='https://twitter.com/#!/theoldreader'>follow us</a> on twitter and read our <a href='http://blog.theoldreader.com/'>behind the scenes blog</a>."
@@ -205,7 +205,7 @@ it:
   pages:
     home: "Home"
     all: "Tutti gli elementi"
-    liked: "Piaciiti"
+    liked: "Piaciuti"
     shared: "Condivisi"
     followed: "Amici"
     import: "Importa"
