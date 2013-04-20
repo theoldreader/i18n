@@ -11,7 +11,9 @@
 
 English: [knyar](https://github.com/knyar), [krasnoukhov](https://github.com/krasnoukhov)
 
-Русский: [darianiff](https://github.com/darianiff), [krasnoukhov](https://github.com/krasnoukhov), [knyar](https://github.com/knyar), [zemlanin](https://github.com/zemlanin)
+Русский: [darianiff](https://github.com/darianiff), [krasnoukhov](https://github.com/krasnoukhov), [knyar](https://github.com/knyar), [zemlanin](https://github.com/zemlanin), [Validat0r](https://github.com/Validat0r)
+
+Русскій (дореформенный): [Validat0r](https://github.com/Validat0r)
 
 Українська: [zemlanin](https://github.com/zemlanin)
 
