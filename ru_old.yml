@@ -274,16 +274,16 @@ ru_old:
     follow: "Начать читать" 
     unfollow: "Не читать" 
     thats_you: "Это вы!" 
-    following: 
-      one: "Начать читать <strong>%{count}</strong> пользователя" 
-      few: "Начать читать <strong>%{count}</strong> пользователей" 
-      many: "Начать читать <strong>%{count}</strong> пользователей" 
-      other: "Начать читать <strong>%{count}</strong> пользователей" 
-    followers: 
-      one: "Началъ читать <strong>%{count}</strong> пользователь" 
-      few: "Начали читать <strong>%{count}</strong> пользователя" 
-      many: "Начали читать <strong>%{count}</strong> пользователей" 
-      other: "Начали читать <strong>%{count}</strong> пользователей" 
+    following:
+      one: "Вы читаете <strong>%{count}</strong> пользователя"
+      few: "Вы читаете <strong>%{count}</strong> пользователей"
+      many: "Вы читаете <strong>%{count}</strong> пользователей"
+      other: "Вы читаете <strong>%{count}</strong> пользователей"
+    followers:
+      one: "Васъ читаетъ <strong>%{count}</strong> пользователь"
+      few: "Васъ читаютъ <strong>%{count}</strong> пользователя"
+      many: "Васъ читаютъ <strong>%{count}</strong> пользователей"
+      other: "Васъ читаютъ <strong>%{count}</strong> пользователей"
     me_following: "<strong>%{count}</strong> читаю" 
     my_followers: "<strong>%{count}</strong> читаютъ" 
     posts: "Записи" 
