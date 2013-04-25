@@ -214,9 +214,13 @@ it:
     profile: "Profilo"
     friends: "Cerca Amici"
     commented: "Commentati"
-    privacy: "Privacy policy"
+    privacy: "Norme sulla privacy"
     trending: "Trending"
+    donate: "Dona"
     tour: "Tour"
+    blog: "Blog"
+    status: "Stato del server"
+    community: "Risorse della community"
   settings:
     name: "Nome"
     username: "Nome Utente"
@@ -224,6 +228,8 @@ it:
     ui:
       title: "Interfaccia Utente"
       click_to_scroll: "Clicca su un post per metterlo in evidenza" 
+      scroll_to_read: "Sfogliare i post li marcherà come letti"
+      sidebar_unread_only: "Mostra solo quelle cartelle/feed che hanno elementi ancora da leggere"
       locale: "Lingua"
     feed_display_mode:
       title: "Modalità di visualizzazione dei feed"
@@ -261,6 +267,11 @@ it:
     email: "Email"
     password: "Password"
     import: "Importa"
+    too_many_feeds: "Per ragioni techniche, importeremo solo i tuoi primi 1000 feed."
+    started: "Poichè l'import è una procedura che richiede considerevoli risorse, i nostri sistemi eseguono un numero limitato di procedure di import nello stesso istante. Al momento tutti gli slot disponibili sono occupati, perciò il tuo import verrà accodato."
+    queued: "Grazie per aver caricato il tuo file OPML. Inizieremo appena possibile a importare le tue sottoscrizioni."
+    queued_notice: "Ci sono <strong>%{count}</strong> utenti in attesa di import prima di te."
+    cancel: "Annulla import"
     success: "Abbiamo ricevuto la lista dei tuoi feed. L'effettivo processo di import verrà eseguito in background, così potrai iniziare subito ad usare The Old Reader. Le tue sottoscrizioni appariranno a breve nel tuo menù."
     processing: "I tuoi feed verranno importati in background."
     error: "Qualcosa è andato storto"
@@ -312,6 +323,18 @@ it:
         -- 
         The Old Reader robot.
         You can always unsubscribe at your settings page.
+        %{host}
+    import:
+      subject: "Yuppii!! I tuoi feed sono disponibili ora!"
+      body: |
+        Ciao %{name},
+        
+        Siamo fieri di informarti che abbiamo finito di importare le tue sottoscrizioni.
+        %{count} feeds che hai importato dovrebbero essere ora disponibili a %{host}.
+        Grazie per usare The Old Reader.
+        
+        -- 
+        The Old Reader robot.
         %{host}
     changes:
       subject: "Note importanti riguardo gli elementi speciali"
