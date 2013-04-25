@@ -59,7 +59,7 @@ it:
   
   # Reader
   app: "The Old Reader"
-  eggs: "We ? kittens"
+  eggs: "Ci piacciono i gattini!"
   title: "The Old Reader"
   meta:
     description: "È il lettore RSS definitivo. Come il vecchio Google Reader, ma meglio. Importa le tue sottoscrizioni in un click, trova i tuoi amici Facebook e inizia a condividere."
@@ -90,22 +90,22 @@ it:
     qa:
       -
         :title: "Che cosa fa?"
-        :text: "It allows you to browse your daily dose of content with that very special bit shared by your friends, with notes and comments"
+        :text: "Ti permette di sfogliare la tua dose giornaliera di notizie con quel qualcosa in più condiviso dai tuoi amici, con note e commenti"
       -
         :title: "Posso trasferire le mie sottoscrizioni?"
         :text: "Sì, puoi importare i tuoi fees direttamente dall'account di Google Reader o usera la funzione di import OPML se sei preoccupato per la tua sicurezza."
       -
-        :title: "How do I find my friends?"
-        :text: "We're working on improving the friend suggestion page, but in the mean time you can search for your buddies manually or see who among your Facebook friends or Google contacts is also using The Old Reader. We'll also send you an e-mail when someone starts following you."
+        :title: "Come trovo i miei amici?"
+        :text: "Stiamo lavorando per migliorare la pagina 'suggerisci gli amici', ma nel frattempo puoi cercare i tuoi amici manualmente, o vedere chi tra i tuoi amici di Facebook o tra i tuoi contatti Google sta usando The Old Reader. Ti manderemo anche una e-mail in caso qualcuno diventa un tuo follower."
       -
-        :title: "Do you have a mobile app?"
-        :text: "Not <em>yet</em>, but as we had promised earlier, we started working on it when our user count reached 5000 in October 2012. Even now our standard interface adapts nicely to mobile devices."
+        :title: "Avete un'app per smartphone?"
+        :text: "<em>Ancora</em> no, ma - come promesso - abbiamo iniziato a lavorarci quando il numero dei nostri utenti ha raggiunto la soglia di 5000 in Ottobre 2012. Già ora la nostra interfaccia standard funziona abbastanza bene sui dispositivi mobili."
       -
-        :title: "Will you behave on my Facebook like those other apps?"
-        :text: "Absolutely not! You can post your shared items on your timeline, but unless you choose to post to Facebook, all your shares and comments will stay in The Old Reader only. We'll never post anything else on your behalf or involve you in any other shady scheme."
+        :title: "Pubblicherete sul mio diario Facebook come fanno tutte quelle altre app?"
+        :text: "Assolutamente no! Puoi pubblicare i contenuti che vuoi condividere sul tuo diario, ma a meno che non sia tu a decidere di pubblicare su Facebook, tutte le tue condivisioni e commenti rimarranno all'interno di The Old Reader. Non pubblicheremo niente al posto tuo ne faremo nient'altro di losco."
       -
-        :title: "Why did you build The Old Reader?"
-        :text: "Let's just say we missed the original reader a lot, so we built The Old Reader for ourselves and our friends. We like the way it turned out, so we are sharing it with everyone"
+        :title: "Perchè avete creato The Old Reader?"
+        :text: "Diciamo solamente che ci mancava un sacco il 'vecchio' reader, così abbiamo creato The Old Reader per noi e i nostri amici. Ci piace cos'è diventato, così lo stiamo condividendo con chiunque voglia"
     supported: "Supportato con amore da"
   user:
     profile: "Profilo"
@@ -116,9 +116,9 @@ it:
     becomes_active_notice: "Non hai usato The Old Reader per un po, così abbiamo tenuto solo i post più freschi per te"
   feeds:
     no_feeds:
-      text: "You have no subscriptions yet. You can %{subscribe} to a new feed (how about <a href='http://blog.theoldreader.com/rss' class='feed-subscribe'>our blog</a>?) or %{import} your subscriptions.<br />If you want to learn more, %{tour}."
-      subscribe: "sottoscrivi"
-      import: "importa"
+      text: "Non hai nassuna sottoscrizione. Puoi %{subscribe} a un nuovo feed (che ne dici del <a href='http://blog.theoldreader.com/rss' class='feed-subscribe'>nostro blog</a>?) o %{import} le tue sottoscrizioni.<br />Se vuoi saperne di più, %{tour}."
+      subscribe: "abbonarti"
+      import: "importare"
       tour: "fai un tour"
     no_posts: "Non ci sono ancora post qui"
     no_posts_filler: "Nessun post sotto questa linea. Probabilmente li hai letti tutti."
