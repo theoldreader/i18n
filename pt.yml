@@ -41,7 +41,7 @@ pt:
       signed_up_but_locked: "Você se registrou com sucesso. Entretanto não pudemos te autenticar porque sua conta está bloqueada."
       updated: "Você atualizou sua conta com sucesso."
       update_needs_confirmation: "Você atualizou sua conta com sucesso, mas temos que verificar seu novo endereco de email. Por favor verifique seu email e clique no link para finalizar a confirmação do seu novo endereço de email."
-      destroyed: "Até mais! SUa conta foi cancelada com sucesso. Esperamos te ver novamente em breve."
+      destroyed: "Até mais! Sua conta foi cancelada com sucesso. Esperamos te ver novamente em breve."
     unlocks:
       send_instructions: "Você receberá um email com instruções sobre como desbloquear sua conta em alguns minutos."
       unlocked: "Sua conta foi desbloqueada com sucesso. Por favor autentique-se para continuar."
@@ -204,7 +204,7 @@ pt:
       title: "Extensões para navegadores"
   pages:
     home: "Início"
-    all: "Todos os ítens"
+    all: "Todos os itens"
     liked: "Curtidos"
     shared: "Compartilhados"
     followed: "Amigos"
@@ -229,7 +229,7 @@ pt:
       title: "Interface"
       click_to_scroll: "Clicar em uma postagem rola até ela"
       scroll_to_read: "Rolar pelas postagens as marca como lidas"
-      sidebar_unread_only: "Mostrar apenas as pastas/feeds que tem ítens não lidos"
+      sidebar_unread_only: "Mostrar apenas as pastas/feeds que tem itens não lidos"
       locale: "Idioma"
     feed_display_mode:
       title: "Modo de exibição dos feeds"
@@ -300,7 +300,7 @@ pt:
       few: "%{count} novos"
       many: "%{count} novos"
       other: "%{count} novos"
-    rss: "%{name} compartilhou ítens no Old Reader (RSS)"
+    rss: "%{name} compartilhou itens no Old Reader (RSS)"
   friends:
     follow: "Siga seus amigos que já usam o Old Reader"
     found:
