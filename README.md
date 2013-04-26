@@ -17,7 +17,7 @@ English: [knyar](https://github.com/knyar), [krasnoukhov](https://github.com/kra
 
 Українська: [zemlanin](https://github.com/zemlanin)
 
-Português: [eduardomps](https://github.com/eduardomps)
+Português: [eduardomps](https://github.com/eduardomps), [annyella](https://github.com/annyella) 
 
 Español: [marevalo](https://github.com/marevalo)
 
