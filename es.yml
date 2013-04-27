@@ -197,11 +197,6 @@ es:
         - "Arrastre y suelte fuentes en el menú para reordenarlas o para crear nuevas carpetas."
         - "Puede pulsar dos veces en el título de una fuente o carpeta para renombrarla."
         - "Para suscribirse a fuentes nuevas con un click use 'http://theoldreader.com/feeds/subscribe?url=%s' en la extensión de Suscripción a RSS o en el gestor de fuentes de Firefox."
-    aboutus:
-      title: "Algo sobre nosotros"
-      text: "Por favor, no dude en <a href='mailto:hello@theoldreader.com'>enviarnos un mensaje</a> si tiene algún comentario o sugerencia. También puede <a href='https://twitter.com/#!/theoldreader'>seguirnos</a> en twitter y leer nuestro <a href='http://blog.theoldreader.com/'>blog de lo que pasa entre bastidores</a>."
-    plugins:
-      title: "Extensiones de navegadores"
   pages:
     home: "Portada"
     all: "Todos"
@@ -220,7 +215,7 @@ es:
     tour: "Tour"
     blog: "Blog"
     status: "Estado de los servidores"
-    requests: "Solicitudes y Errores"
+    community: "Recursos de la comunidad"
   settings:
     name: "Nombre"
     username: "Nombre de usuario"

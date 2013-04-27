@@ -197,11 +197,6 @@ sv:
         - "Dra och släpp prenumerationer i menyn för att ordna dem eller för att skapa nya mappar."
         - "Du kan dubbelklicka på ett flöde eller mapp för att ändra namnet."
         - "För att prenumerera på nya flöden med bara ett klick, använd 'http://theoldreader.com/feeds/subscribe?url=%s' i RSS Subscription tillägg eller Firefox feed handler."
-    aboutus:
-      title: "Något om oss"
-      text: "Du är välkommen att <a href='mailto:hello@theoldreader.com'>e-posta oss</a> om du har några kommentarer eller förslag. Du kan också <a href='https://twitter.com/#!/theoldreader'>följa oss</a> på twitter och läsa vår <a href='http://blog.theoldreader.com/'>bakom kulisserna-blogg</a>."
-    plugins:
-      title: "Tillägg för webbläsaren"
   pages:
     home: "Hem"
     all: "Alla objekt"
@@ -220,7 +215,7 @@ sv:
     tour: "Guidad visning"
     blog: "Blogg"
     status: "Serverstatus"
-    requests: "Förslag & Buggar"
+    community: "Gemenskapresurser"
   settings:
     name: "Namn"
     username: "Användarnamn"
@@ -229,6 +224,7 @@ sv:
       title: "Gränssnitt"
       click_to_scroll: "Om du klickar på ett inlägg tar vi dig dit"
       scroll_to_read: "Du markerar inläggen som lästa genom att bläddra igenom dem"
+      sidebar_unread_only: "Visa endast mappar och flöden som har olästa objekt"
       locale: "Språk"
     feed_display_mode:
       title: "Visningsläge för flödet"
