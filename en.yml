@@ -192,8 +192,7 @@ en:
     tips:
       title: "Tips & tricks"
       items:
-        - "Use \"j\" and \"k\" keyboard shortcuts to navigate posts. \"o\" opens the post in a new window."
-        - "Some more keyboard shortcuts: use \"s\" to share a post or \"l\" to mark it as liked."
+        - "Press ? to see the list of keyboard shortcuts."
         - "Drag & drop feeds in the menu to reorder them or to create new feed folders."
         - "You can double click on feed or folder title to rename it."
         - "To subscribe to new feeds with a single click, use 'http://theoldreader.com/feeds/subscribe?url=%s' in RSS Subscription extension or Firefox feed handler."
@@ -332,3 +331,47 @@ en:
         %{host}
     changes:
       subject: "Important note regarding Starred items"
+  shortcuts:
+    header: "Keyboard Shortcuts"
+    note: "*Chrome, Safari, Opera only"
+    pages:
+      title: "Navigate between pages"
+      body: |
+        shift-n: next subscription or folder
+        shift-p: previous subscription or folder
+        shift-x: collapse selected folder
+        shift-o: open selected subscription or folder
+        g then h: go to home
+        g then a: go to all items
+        g then l: go to liked
+        g then s: go to shared
+        g then t: go to trending
+        g then c: go to commented
+        g then f: go to following
+    other:
+      title: "Other shortcuts"
+      body: |
+        r: refresh current page
+        /: focus the search field
+        a: add subscription
+        ?: show this window
+    posts:
+      title: "Shortcuts for posts"
+      body: |
+        space: scroll down
+        shift+space: scroll up
+        shift+a: mark all as read
+        j, n: next post
+        k, p: previous post
+        o: open post in a new tab
+        b: open post in a background tab*
+        l: mark post as liked
+        s: share a post
+        m: read/unread a post
+        f: save post to Pocket
+        c: scroll to comments and open the form
+        1: switch to full view
+        2: switch to list view
+  alerts:
+    common: "Request to the server failed, please try again later"
+    posts: "Could not load posts"
