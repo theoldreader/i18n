@@ -365,6 +365,7 @@ en:
         k, p: previous post
         o: open post in a new tab
         b: open post in a background tab*
+        x: toggle post (list view)
         l: mark post as liked
         s: share a post
         m: read/unread a post
