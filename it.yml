@@ -194,6 +194,7 @@ it:
       items:
         - "Usa le scorciatoie \"j\" e \"k\" per navigare i post. \"o\" per aprire i post in una nuova finestra."
         - "Qualche altra scorciatoia: usa \"s\" per condividere un post e \"l\" per mettere mi piace."
+        - "Premi ? per vedere la lista delle scorciatoie." 
         - "Trascina i feed nel menù per riordinarli o per creare nuove cartelle."
         - "Puoi cliccare due volte sul titolo dei feed o sulle cartelle per rinominarli."
         - "Per sottoscrivere a nuovo new feeds con un singoli click, usa 'http://theoldreader.com/feeds/subscribe?url=%s' nell'estensione per sottoscrivere gli RSS o nel gestori di feed di Firefox."
@@ -217,7 +218,7 @@ it:
     privacy: "Norme sulla privacy"
     trending: "Trending"
     donate: "Dona"
-    tour: "Tour"
+    tour: "HowTo"
     blog: "Blog"
     status: "Stato del server"
     community: "Risorse della community"
@@ -338,3 +339,47 @@ it:
         %{host}
     changes:
       subject: "Note importanti riguardo gli elementi speciali"
+  shortcuts:
+    header: "Scorciatoie"
+    note: "Solo per Chrome, Safari e Opera*"
+    pages:
+      title: "Navigate between pages"
+      body: |
+        shift-n: sottoscrizione o cartella successiva
+        shift-p: sottoscrizioni o cartella precedente
+        shift-x: minimizza la cartella selezioanta
+        shift-o: apri la cartella o la sottoscrizione selezionata
+        g then h: vai alla home
+        g then a: vai a tutti gli elementi
+        g then l: vai a piaciuti
+        g then s: vai a dondivisi
+        g then t: vai a trending
+        g then c: vai a commentati
+        g then f: vai a seguiti
+    other:
+      title: "Altre scorciatoie"
+      body: |
+        r: ricarica la pagina corrente
+        /: seleziona il campo di ricerca
+        a: aggiungi sottoscrizione
+        ?: visualizza questa finestra
+    posts:
+      title: "Scorciatoie per i post"
+      body: |
+        space: scorri verso il basso
+        shift+space: scorri verso l'alto
+        shift+a: segna tutti come letti
+        j, n: prossimo post
+        k, p: post successivo
+        o: apri il post in una nuova scheda
+        b: apri il post in una scheda in background*
+        l: aggiungi il post tra i paciuti
+        s: condividi un post
+        m: segna un post come letto/non letto
+        f: save post to Pocket
+        c: scorri verso i commenti e apri il form
+        1: passa alla visualizzazione dei post completa
+        2: passa alla visualizzazione dei post per lista
+  alerts:
+    common: "Richiesta al server fallita, ti preghiamo di provare più tardi"
+    posts: "Impossibile caricare i post"
