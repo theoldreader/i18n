@@ -188,7 +188,7 @@ fr:
   home:
     following: "Derniers vus par vos amis"
     updated: "Mis à jour récemment"
-    dead: "Flux morts"
+    dead: "Flux inactifs"
     tips:
       title: "Trucs & astuces"
       items:
