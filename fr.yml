@@ -192,8 +192,7 @@ fr:
     tips:
       title: "Trucs & astuces"
       items:
-        - "Utiliser les raccourcis clavier \"j\" and \"k\" pour naviguer dans les articles. \"o\" ouvre l'article dans une nouvelle fenêtre."
-        - "Quelques raccourcis clavier supplémentaires: utilisez \"s\" pour partager un article ou \"l\" pour un like."
+        - "Pressez ? pour voir la liste des raccourcis clavier."
         - "Glissez & déposez les flux dans le menu pour les réorganiser ou pour créer un nouveau dossier de flux."
         - "Vous pouvez double-cliquer sur un flux ou sur un dossier pour le renommer."
         - "Pour souscrire un nouveau flux en un seul clic, utilisez 'http://theoldreader.com/feeds/subscribe?url=%s' dans l'extension d'abonnement RSS ou dans la gestion des flux Firefox."
@@ -332,3 +331,47 @@ fr:
         %{host}
     changes:
       subject: "Remarque importante concernant les articles Favoris"
+  shortcuts:
+    header: "Raccourcis clavier"
+    note: "*Uniquement pour Chrome, Safari, Opera"
+    pages:
+      title: "Naviguer entre les pages"
+      body: |
+        shift-n: abonnement ou dossier suivant
+        shift-p: abonnement ou dossier précédent
+        shift-x: réduire le dossier sélectionné
+        shift-o: ouvrir abonnement ou le dossier sélectionné
+        g then h: aller à l'accueil
+        g then a: aller à tous les éléments
+        g then l: aller aux 'J'aime'
+        g then s: aller aux partagés
+        g then t: aller aux tendances
+        g then c: aller aux commentés
+        g then f: aller aux suivis
+    other:
+      title: "Autres raccourcis"
+      body: |
+        r: rafraichir la page actuelle
+        /: se placer dans le champ de recherche
+        a: ajouter un abonnement
+        ?: montrer cette fenêtre
+    posts:
+      title: "Raccourcis pour les articles"
+      body: |
+        space: défiler vers le bas
+        shift+space: défiler vers le haut
+        shift+a: tout marquer comme lu
+        j, n: article suivant
+        k, p: article précédent
+        o: ouvrir l'article dans un nouvel onglet
+        b: ouvrir l'article dans un nouvel onglet en fond*
+        l: marquer l'article 'J'aime'
+        s: partager un article
+        m: marquer lu/non lu un article
+        f: sauvegarder l'article dans Pocket
+        c: aller aux commentaires et ouvrir le formulaire
+        1: basculer vers la vue complète
+        2: basculer vers la vue en liste
+  alerts:
+    common: "La requête vers le serveur a échoué, merci d'essayer à nouveau plus tard"
+    posts: "Impossible de charger les articles"
