@@ -140,7 +140,7 @@ fr:
       one: "article"
       few: "articles"
       many: "articles"
-      other: "articles"
+      other: "article"
     your_posts: "Vous avez <em>%{unread}</em> %{posts} non lu(s)"
     refresh: "Rafraichir"
     unsubscribe: "Se désabonner"
