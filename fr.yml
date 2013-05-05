@@ -137,10 +137,10 @@ fr:
       many: "flux"
       other: "flux"
     posts_count:
-      one: "post"
-      few: "posts"
-      many: "posts"
-      other: "posts"
+      one: "article"
+      few: "articles"
+      many: "articles"
+      other: "articles"
     your_posts: "Vous avez <em>%{unread}</em> %{posts} non lu(s)"
     refresh: "Rafraichir"
     unsubscribe: "Se désabonner"
@@ -279,7 +279,7 @@ fr:
       many: "Suit <strong>%{count}</strong> utilisateurs"
       other: "Suit <strong>%{count}</strong> utilisateurs"
     followers:
-      one: "Est suivi par <strong>%{count}</strong> user"
+      one: "Est suivi par <strong>%{count}</strong> utilisateur(s)"
       few: "Est suivi par <strong>%{count}</strong> utilisateurs"
       many: "Est suivi par <strong>%{count}</strong> utilisateurs"
       other: "Est suivi par <strong>%{count}</strong> utilisateurs"
