@@ -1,0 +1,378 @@
+en:
+  # Devise
+  errors:
+    messages:
+      expired: "vypršalo, prosím požiadajte o nový"
+      not_found: "nebolo nájdené"
+      already_confirmed: "už bol úspešne potvrdený, prosím skúste sa prihlásiť"
+      not_locked: "nebol uzamknutý"
+      not_saved:
+        one: "Jedna chyba Vám zabránila uložiť tento %{resource}:"
+        few: "%{count} chýb Vám zabránilo uložiť tento %{resource}:"
+        many: "%{count} chýb Vám zabránilo uložiť tento %{resource}:"
+        other: "%{count} chýb Vám zabránilo uložiť tento %{resource}:"
+  
+  devise:
+    failure:
+      already_authenticated: "Už ste raz prihlásený do Vášho účtu."
+      unauthenticated: "Aby ste mohli pokračovať musíte byť prihlásený."
+      unconfirmed: "Musíte potvrdiť Váš účet, aby ste mohli pokračovať."
+      locked: "Váš účet je uzamknutý."
+      invalid: "Nesprávne meno alebo heslo."
+      invalid_token: "Nesprávny overovací kľúč."
+      timeout: "Vaš čas vypršal, pre pokračovanie sa prosím prihláste znovu."
+      inactive: "Váš účet zatiaľ nebol aktivovaný."
+    sessions:
+      signed_in: "Boli ste úspešne prihlásený."
+      signed_out: "Boli ste úspešne odhlásený."
+    passwords:
+      send_instructions: "Do niekoľkých minút obdržíte e-mail s návodom na zmenu Vášho hesla."
+      updated: "Vaše heslo bolo úspešne zmenené a práve ste prihlásený."
+      updated_not_active: "Vaše heslo bolo úspešne zmenené."
+      send_paranoid_instructions: "Pokiaľ sa Váša e-mailová adresa nachádza v našej databáze, tak obdržíte správu s odkazom na obnovu hesla."
+    confirmations:
+      send_instructions: "Do niekoľkých minút obdržíte e-mail s návodom ako overiť pravosť Vášho účtu."
+      send_paranoid_instructions: "Ak sa Vaša e-mailová adresa nachádza v našej databáze, do niekoľkých minút obdržíte e-mail s návodom ako potvrdiť pravosť Vášho účtu."
+      confirmed: "Váš účet bol úspešne potvrdený a boli ste prihlásený."
+    registrations:
+      signed_up: "Vitajte! Boli ste úspešne prihlásený."
+      signed_up_but_unconfirmed: "Správa s odkazom na overenie Vášho účtu bola odoslaná na Vášu e-mailovú adresy. Pre aktivovanie účtu prosím otvorte odkaz."
+      signed_up_but_inactive: "Boli ste úspešne zaregistrovaný. Bohužiaľ, zatiaľ nemôžete byť prihlásený, pretože Váš účet zatiaľ nebol aktivovaný."
+      signed_up_but_locked: "Boli ste úspešne zaregistrovaný. Bohužiaľ, zatiaľ nemôžete byť prihlásený, pretože Váš účet je uzamknutý."
+      updated: "Úspešne ste aktualizovali Váš účet."
+      update_needs_confirmation: "Úspešne ste aktualizovali Váš účet, ale potrebujeme overiť Vašu novú e-mailovú adresu. Prosím skontrolujte si vašu elektronickú poštu a klknite na overovací odkaz pre dokončenie overenia Vašej novej e-mailovej adresy."
+      destroyed: "Váš účet bol úspešne zrušený. Dúfame že Vás znovu čoskoro uvidíme."
+    unlocks:
+      send_instructions: "Do niekoľkých minút obdržíte e-mail s návodom ako odomknúť Váš účet."
+      unlocked: "Váš účet bol úspešne odomknutý. Pre pokračovanie sa prosím prihláste."
+      send_paranoid_instructions: "Pokiaľ Váš učet existuje, tak do niekoľkých minút obdržíte e-mail s návodom ako ho odomknúť."
+    omniauth:
+      success: "Boli ste úspešne autorizovaný pomocou %{kind} účtu."
+      failure: "%{kind} autorizácia zlyhala kôli nasledujúcemu dôvodu: %{reason}."
+    mailer:
+      confirmation_instructions:
+        subject: "Návod na overenie adresy"
+      reset_password_instructions:
+        subject: "Návod na zmenu hesla"
+      unlock_instructions:
+        subject: "Návod na odomknutie"
+  
+  # Reader
+  app: "The Old Reader"
+  eggs: "Máme radi mačíčky ♥"
+  title: "The Old Reader"
+  meta:
+    description: "Toto je najlepšia RSS čítačka vôbec. Je presne taká ako Google Reader za starých čias, iba oveľa lepšia! Importujte Vaše RSS kanály jedným kliknutím, nájdite Vašich priateľov na Facebook a začnite s nimi zdieľať obsah."
+    keywords: "the old reader"
+  landing:
+    topmenu:
+      -
+        :title: "Twitter"
+        :url: "https://twitter.com/#!/theoldreader"
+      -
+        :title: "Facebook"
+        :url: "https://www.facebook.com/theoldreader"
+      - 
+        :title: "Blog"
+        :url: "http://blog.theoldreader.com/"
+      - 
+        :title: "Kontaktujte nás"
+        :url: "http://blog.theoldreader.com/about"
+    sign_in:
+      title: "Prihláste sa pomocou:"
+      google: "Google"
+      facebook: "Facebooku"
+    welcome: 
+      - "Vitajte v The Old Reader, najlepšiej RSS čítačke vôbec. Je presne taká ako Google Reader za starých čias, iba oveľa lepšia!  Práve sa nachádzame v skúšobnom režime, a stále pracujeme na vylepšeniach a nových funkciách."
+      - "Jedným kliknutím sa môžete zaregistrovať a začať používať The Old Reader. Pokiaľ ste ale na to príliš hamblivý, môžete si zatial prezrieť našu %tour% alebo prezrieť %trending%."
+    tour: "Ako na..."
+    trending: "najlepšie články dnešného dňa"
+    qa:
+      -
+        :title: "Načo to je?"
+        :text: "Umožňuje Vám prezerať si Váše každodenné informacie z internetu s možnosťou zdieľať ich s Vašimi priateľmi, ukladať si poznámky a komentovať príspevky."
+      -
+        :title: "Môžem si preniesť svoje kanály?"
+        :text: "Áno môžete importovať VaŠe kanály priamo z Vašeho Google Reader účtu alebo využiť import OPML súborov pokiaľ ste citlivý na bezpečnosť Vašich údajov."
+      -
+        :title: "Ako nájdem svojich priateľov?"
+        :text: "Pracujeme na stránke, ktorá Vám odporučí Vašich priateľov, ale zatiaľ môžete svojich priateľov vyhľadať manuálne alebo zistiť to z Vašich priateľov z Facebooku alebo Google kontaktov tiež využíva The Old Reader. Taktiež Vám zašleme e-mail pokiaľ niekto začne sledovať Vašu činnosť."
+      -
+        :title: "Máte aj aplikáciu pre mobilné telefóny?"
+        :text: "Nie <em>zatiaľ</em>, ale ako sme slúbili keď sme dosiahli 5000 uživateľov v Októbri 2012, začali sme na nej pracovať. Už teraz sa však naša stránka dokáže prispoôobiť obrazovke Vášho mobilného telefónu alebo tabletu."
+      -
+        :title: "Budete robiť výtržnosti na mojom Facebook profile ako iné aplikácie?"
+        :text: "V žiadnom prípade! Vy sami môžete zdieľať obsaj na Vašej timeline, ale pokiaľ sa nerozhodnete zdieľať s Vašim Facebookom, všetky vaše zdieľania a komentáte zostanú len na stránke The Old Reader-u. Nikdy nič vo Vašom mene nepošleme ani Vás nezahrnieme do žiadnej inej činnosti."
+      -
+        :title: "Prečo ste postavili The Old Reader?"
+        :text: "Povedzme že nám veľmi chýbal starý Google reader, tak sme sami postavili The Old Reader a pozvali sme do neho našich priateľov. Sme radi ako to všetko dopadlo, takže ho zdieľame z každým."
+    supported: "S láskou podporováný od"
+  user:
+    profile: "Profil"
+    logout: "Odhlásiť sa "
+    settings: "Nastavenia"
+    failure: "%{kind} účet ktorý sa snažíte použiť už bol použitý pre iný The Old Reader účet. Prosím zrušte svoj druhý účet a skúste to znovu."
+    wrong_auth: "Niečo sa pokazilo, prosím kontaktujte nás na hello@theoldreader.com"
+    becomes_active_notice: "Už dlho ste nepoužili Váš The Old Reader, takže sme pre Vás zachovali len čerstvé správy."
+  feeds:
+    no_feeds:
+      text: "Zatiaľ nemáte prihlásené žiadne kanály. Môžete %{subscribe} nové kanály. (môžete napríklad <a href='http://blog.theoldreader.com/rss' class='feed-subscribe'>náš blog</a>?) alebo %{import} vaše kanály.<br />Viac sa dozviete na %{tour}."
+      subscribe: "odoberať"
+      import: "importovať"
+      tour: "see the Ako na..."
+    no_posts: "Zatiaľ tu niesu žiadne články"
+    no_posts_filler: "Nižšie sa už žiadne články nenachádzajú. Pravdepodobne ste ich už všetky prečítali."
+    subscribe: "Prihlásiť"
+    add_subscription: "Prihlásiť sa k odberu"
+    add: "Pridať"
+    url: "Adresa kanála"
+    invalid_url: "Vložili ste nesprávnu adresu"
+    empty_url: "Nevložili ste žiadnu adresu"
+    loading: "Načítavam..."
+    default_folder: "Odbery"
+    feeds: "Kanály"
+    feeds_count:
+      one: "kanál"
+      few: "kanály"
+      many: "kanálov"
+      other: "kanálu"
+    posts_count:
+      one: "článok"
+      few: "články"
+      many: "článkov"
+      other: "články"
+    your_posts: "Máte <em>%{unread}</em> neprečítaných %{posts}"
+    refresh: "Znovu načítať"
+    unsubscribe: "Odhlásiť sa"
+    unsubscribe_confirm: "Naozaj sa chcete odhlásiť odber tohto kanála? Články, ktoré ste zdieľali alebo označili ako obľúbené v tomto kanáli, zostanú zachované."
+    ago: "pred"
+    never: "Nikdy"
+    confirm: "Ste si istý?"
+    mark_all_read: "Označiť všetky ako prečítané"
+    search: "Vyhľadať"
+    search_limits: "Výraz, ktorý ste vyhľadali sa vo výsledkoch vyhľadávania vyskytuje veľmi často a preto sme museli obmedziť počet vúsledkov. Ak si prajete vidieť všetky výsledky, použite presnejší výraz."
+    mark_read: "Označiť ako prečítané"
+    mark_unread: "Označiť ako neprečítané"
+    share: "Zdieľať"
+    shared: "Zdieľané"
+    unshare: "Nezdieľať"
+    following: "Sledovaný"
+    attach_note: "Chcete pridať poznámku:"
+    attach: "Uložiť poznámku"
+    comments:
+      one: "%{count} komentár"
+      few: "%{count} komentáre"
+      many: "%{count} komentárov"
+      other: "%{count} komentáre"
+    comment: "Pridať komentár"
+    comment_text: "Vložiť komentár"
+    comment_destroy_confirm: "Naozaj si prajete vymazať tento komentár?"
+    comment_destroy_text: "Užívateľ vymazal tento komentár"
+    post_author: "<strong>%{author}</strong>"
+    drop_add_folder: "Pre pridanie nového priečinku preneste sem."
+    new_folder: "Nový priečinok"
+    like: "Páči sa mi"
+    unlike: "Nepáči sa mi"
+    likes_count:
+      zero: "%{users} označil že sa mu článok páči"
+      one: "%{users} a ďalší uživateľ označili že sa im článok páči"
+      few: "%{users} a %{count} ďalší označili že sa im článok páči"
+      many: "%{users} a %{count} ďalších označilo že sa im článok páči"
+      other: "%{users} a %{count} ďalší označili že sa im článok páči"
+    feed: "Kanál"
+    site: "Stránka"
+    enclosure_url: "Zobraziť priložený súbor (%{size}, %{type})"
+    pocket: "Vložiť do Pocket-u"
+    unpocket: "Odstrániť z Pocket-u"
+    pocket_error: "Chyba"
+  home:
+    following: "Najnovšie čĺanky od Vašich priateľov"
+    updated: "Najnovšie príspevky"
+    dead: "Nefunkčné kanály"
+    tips:
+      title: "Tipy a triky"
+      items:
+        - "Pre zobrazenie klávesových skratok stlačte klávesu ?."
+        - "Chyťťe a preneste kanály v menu pre ich usporiadanie alebo pre organizáciu do priečinkov."
+        - "Kanál môžete premenovať dvojitým kliknutím na jeho názov."
+        - "Pre prihlásenie sa k odberu nových kanálov jedným kliknutím použite 'http://theoldreader.com/feeds/subscribe?url=%s' v RSS Subscription rozširení alebo v správcovi kanálov Firefox-u."
+  pages:
+    home: "Domov"
+    all: "Všetky čĺánky"
+    liked: "Obľúbené"
+    shared: "Zdieľané"
+    followed: "Priateľia"
+    import: "Importované"
+    search: "Výhľadávanie"
+    settings: "Nastavenia"
+    profile: "Profil"
+    friends: "Nájsť priateľov"
+    commented: "Komentované"
+    privacy: "Podmienky používania"
+    trending: "Aktuálne trendy"
+    donate: "Prispieť"
+    tour: "Ako na"
+    blog: "Blog"
+    status: "Stav servera"
+    community: "Komunita"
+  settings:
+    name: "Meno"
+    username: "Prihlasovacie meno"
+    email: "Email"
+    ui:
+      title: "Zobrazenie stránky."
+      click_to_scroll: "Kliknutím na článok sa naň obrazovka presunie."
+      scroll_to_read: "Posúvanie obrazovky cez článký ich označí za prečítané."
+      sidebar_unread_only: "Zobraziť iba tie priečinky alebo kanály, ktoré majú neprečítané položky."
+      locale: "Jazky"
+    feed_display_mode:
+      title: "Spôsob zobrazenia kanálov"
+      all: "Zobraziť všetky články"
+      unread: "Zobraziť iba neprečítané články"
+    feed_list_mode:
+      title: "Spôsob zobrazenia článkov"
+      full: "Plné zobrazenie"
+      list: "Zobraziť ako zoznam"
+    sort_mode:
+      title: "Poradie článkov"
+      normal: "Klasické (nové články zobaziť ako prvé)"
+      reverse: "Prevrátené (najstaršie články zobaziť ako prvé)"
+    social: "Sociálne nastavenia"
+    notify_when_followed: "Odošlite mi správu pokiaľ niekto začne sledovať moju činnosť"
+    share_timeline: "Zverejnite zdieľania na Vašej stránke na Facebooku"
+    connect_share_timeline: "Spojiť sa s Facebookom pre publikovanie Vášho zdieľania"
+    show_fb_profile: "Zobraziť odkaz na Vašu stránku na Facebooku v profile"
+    save: "uložiť zmenu"
+    cancel_disabled: "Váš účet nemôžete zrušiť pokiaľ prebieha import kanálov, prosíme o strpenie."
+    cancel_account:
+      text: "Nieste spokojný? Môžeťe %{export} ako súbor OPML a kedykoľvek %{cancel}."
+      export: "exportovať Vaše kanály"
+      cancel: "zrušiť účet"
+      confirm: "Ste si naozaj istý?"
+    pocket:
+      title: "Integrácia so službou Pocket "
+      description: "<a href='http://getpocket.com/'>Pocket</a> (v minulosti nazvaný Read It Later) je praktická aplikácia, ktorá Vám umožňuje vybrať, zoradiť a triediť obsah, ktorý si chcete prečítať neskôr."
+      connect: "Spojiť so službou Pocket pre začanie odkladaniea"
+      account: "Váš účet: <strong>%{username}</strong>"
+  import:
+    title: "Import"
+    alert: "<b>Pre importovanie kanálov z Google reader, prosím zadajte Vaše prihlasovacie meno a heslo do Google účtu</b><br />Vaše prihlasovacie údaje nebudeme ukladať a Vaše informácie o účte budú použité len na spracovanie Vašich kanálov."
+    opml: "<b>Vybrať súbor OPML</b><br /> Môžete ho nájsť na stránkach nastavení Google Readera.<br />Prosím použite súbor <b>subscriptions.xml</b> z vašeho takeout archívu."
+    email: "Email"
+    password: "Heslo"
+    import: "Import"
+    started: "Importovanie kanálov je proces náročný na výkon, takže náš systém povoľuje len obmedzené množstvo importovaných súborov súčasne. Práve teraz sú všetky naše voľné miesta zaplnené, takže Váš import bude zaradený na koniec čakacej rady."
+    queued: "Ďakujeme Vám za nahratie Vášho OPML súboru. čoskoro začneme importovať Vaše kanály."
+    queued_notice: "<strong>%{count}</strong> užívateľov je v rade pred Vami."
+    processing: "Vaše kanály sú importované na pozadí."
+    error: "Niečo sa pokazilo"
+    opml_empty: "OPML súbor, ktorý ste nahrali je buď nesprávny ale bo prázdny."
+    too_many_feeds: "Z technických príčin Vám importujeme len prvých 1000 kanálov."
+    cancel: "Ukončiť import"
+  profile:
+    follow: "Sledovať"
+    unfollow: "Ukončiť sledovanie"
+    thats_you: "Toto ste Vy!"
+    following: 
+      one: "Sleduje <strong>%{count}</strong> uživateľa"
+      few: "Sleduje <strong>%{count}</strong> uživateľov"
+      many: "Sleduje <strong>%{count}</strong> uživateľov"
+      other: "Sleduje <strong>%{count}</strong> uživateľov"
+    followers:
+      one: "Je sledovaný <strong>%{count}</strong> uživateľom"
+      few: "Je sledovaný <strong>%{count}</strong> uživateľmi"
+      many: "Je sledovaný <strong>%{count}</strong> uživateľmi"
+      other: "Je sledovaný <strong>%{count}</strong> uživateľmi"
+    me_following: "<strong>%{count}</strong> Sledovaných"
+    my_followers: "<strong>%{count}</strong> Sledujúcich"
+    posts: "Zdieľané články"
+    your_profile: "Váš profil"
+    facebook: "Facebook (%{name})"
+    new: "Nové"
+    new_followers:
+      one: "%{count} nový"
+      few: "%{count} nové"
+      many: "%{count} nové"
+      other: "%{count} nové"
+    rss: "%{name} zdieľa články pomocou The Old Reader (RSS)"
+  friends:
+    follow: "Sledujte činnosť Vašich priaťelov, ktorý používajú The Old Reader"
+    found:
+      one: "Bol nájdený %{count} užívateľ"
+      few: "Boli nájdení %{count} užívatelia"
+      many: "Bolo nájdených %{count} užívateľov"
+      other: "Boli nájdení %{count} užívatelia"
+    facebook: "Prihlasiť sa pomocou Facebook-u"
+    google: "Prihlasiť sa pomocou Google"
+  notifier:
+    followed:
+      subject: "%{name} začal sledovať Váš profil"
+      body: |
+        Dobrý deň, %{followed}!
+        
+        %{name} začal sledovať Váš profil.
+        Jeho stránku nájdete na %{profile}.
+        
+        -- 
+        The Old Reader robot.
+        Zabrániť príjmaniu týchto správ môžete na stránkach nastavení.
+        %{host}
+    import:
+      subject: "Vaše článký sú pripravené!"
+      body: |
+        Dobrý deň %{name},
+        
+        S radosťou Vás informujeme, že sme dokončili spracovanie Vašich kanálov. 
+        Importovali sme %{count} položiek, ktoré sú teraz dostupne na %{host}.
+        Ďakujeme Vám za použitie The Old Reader.
+        
+        
+        -- 
+        The Old Reader robot.
+        %{host}
+    changes:
+      subject: "Dôležítá poznámka k článkom označeným hviezdičkou."
+  shortcuts:
+    header: "Klávesové skratky"
+    note: "*iba pre Chrome, Safari a Operu"
+    pages:
+      title: "Navigácia medzi stránkami"
+      body: |
+        shift-n: ďalší kanál alebo priečinok
+        shift-p: predchádzajúci kanál alebo priečinok
+        shift-x: zatvoriť aktuálny priečinok 
+        shift-o: otvoriť aktuálny kanál alebo priečinok 
+        g a potom h: prejsť na domovskú stránku 
+        g a potom a: prejsť zoznam článkov'
+        g a potom l: prejsť na obľúbené
+        g a potom s: prejsť na zdieľané shared
+        g a potom t: prejsť na aktuálne trendy
+        g a potom c: prejsť na komentované
+        g a potom f: prejsť na sledované
+    other:
+      title: "Ostatné skratky"
+      body: |
+        r: znovu načítať aktuálnu stránku 
+        /: prejsť na vyhľadávacie pole 
+        a: pridať kanál
+        ?: zobraziť toto okno
+    posts:
+      title: "Klávesové skratky pre články"
+      body: |
+        medzera: posunúť stránku smerom dole 
+        shift+medzera: posunúť stránku smerom hore
+        shift+a: označiť všetky články za prečítané
+        j, n: ďalši článok 
+        k, p: predchádzajúci článok
+        o: otvoriť článok v novej záložke
+        b: otvoriť článok v záložke na pozadí
+        l: označí článok za obľúbený 
+        s: zdieľať článok
+        m: označiť článok ako prečítaný/neprečítaný
+        f: uloží článok do Pocket-u
+        c: zobraziť komentáre
+        1: prepne na plné zobrazenie
+        2: prepne na režim zoznamu
+  alerts:
+    common: "Požiadavka na server zlyhala, prosím skúste znova neskôr"
+    posts: "Články nebolo možné načítať"
