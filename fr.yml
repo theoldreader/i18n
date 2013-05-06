@@ -223,12 +223,12 @@ fr:
       title: "Interface utilisateur"
       click_to_scroll: "Aller sur un article en cliquant dessus"
       scroll_to_read: "Marquer les articles lus au fur et à mesure du défilement"
-      sidebar_unread_only: "Montrer seulement les dossiers/flux non lus"
+      sidebar_unread_only: "Afficher seulement les dossiers/flux non lus"
       locale: "Langage"
     feed_display_mode:
       title: "Mode d'affichage des flux"
-      all: "Montrer tous les articles"
-      unread: "Montrer uniquement les articles non-lus"
+      all: "Afficher tous les articles"
+      unread: "Afficher uniquement les articles non-lus"
     feed_list_mode:
       title: "Mode de vue des articles"
       full: "Vue complète"
@@ -354,7 +354,7 @@ fr:
         r: rafraichir la page actuelle
         /: se placer dans le champ de recherche
         a: ajouter un abonnement
-        ?: montrer cette fenêtre
+        ?: afficher cette fenêtre
     posts:
       title: "Raccourcis pour les articles"
       body: |
