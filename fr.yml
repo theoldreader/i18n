@@ -192,7 +192,7 @@ fr:
     tips:
       title: "Trucs & astuces"
       items:
-        - "Pressez ? pour voir la liste des raccourcis clavier."
+        - "Appuyez sur la touche ? pour voir la liste des raccourcis clavier."
         - "Glissez & déposez les flux dans le menu pour les réorganiser ou pour créer un nouveau dossier de flux."
         - "Vous pouvez double-cliquer sur un flux ou sur un dossier pour le renommer."
         - "Pour souscrire un nouveau flux en un seul clic, utilisez 'http://theoldreader.com/feeds/subscribe?url=%s' dans l'extension d'abonnement RSS ou dans la gestion des flux Firefox."
@@ -368,10 +368,10 @@ fr:
         l: marquer l'article 'J'aime'
         s: partager un article
         m: marquer lu/non lu un article
-        f: sauvegarder l'article dans Pocket
+        f: sauvegarder l'article vers Pocket
         c: aller aux commentaires et ouvrir le formulaire
         1: basculer vers la vue complète
         2: basculer vers la vue en liste
   alerts:
-    common: "La requête vers le serveur a échoué, merci d'essayer à nouveau plus tard"
+    common: "La requête vers le serveur a échoué, merci d'essayer à nouveau un peu plus tard"
     posts: "Impossible de charger les articles"
