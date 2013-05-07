@@ -141,7 +141,7 @@ fr:
       few: "articles"
       many: "articles"
       other: "articles"
-    your_posts: "Vous avez <em>%{unread}</em> %{posts} non lu(s)"
+    your_posts: "Vous avez <em>%{unread}</em> %{articles} non lu(s)"
     refresh: "Rafraichir"
     unsubscribe: "Se désabonner"
     unsubscribe_confirm: "Voulez vous vraiment vous désabonner ? Les partages et likes sur ce flux ne seront pas supprimés."
@@ -192,7 +192,7 @@ fr:
     tips:
       title: "Trucs & astuces"
       items:
-        - "Pressez ? pour voir la liste des raccourcis clavier."
+        - "Appuyez sur la touche ? pour voir la liste des raccourcis clavier."
         - "Glissez & déposez les flux dans le menu pour les réorganiser ou pour créer un nouveau dossier de flux."
         - "Vous pouvez double-cliquer sur un flux ou sur un dossier pour le renommer."
         - "Pour souscrire un nouveau flux en un seul clic, utilisez 'http://theoldreader.com/feeds/subscribe?url=%s' dans l'extension d'abonnement RSS ou dans la gestion des flux Firefox."
@@ -223,12 +223,12 @@ fr:
       title: "Interface utilisateur"
       click_to_scroll: "Aller sur un article en cliquant dessus"
       scroll_to_read: "Marquer les articles lus au fur et à mesure du défilement"
-      sidebar_unread_only: "Montrer seulement les dossiers/flux non lus"
+      sidebar_unread_only: "Afficher seulement les dossiers/flux non lus"
       locale: "Langage"
     feed_display_mode:
       title: "Mode d'affichage des flux"
-      all: "Montrer tous les articles"
-      unread: "Montrer uniquement les articles non-lus"
+      all: "Afficher tous les articles"
+      unread: "Afficher uniquement les articles non-lus"
     feed_list_mode:
       title: "Mode de vue des articles"
       full: "Vue complète"
@@ -284,7 +284,7 @@ fr:
       many: "Est suivi par <strong>%{count}</strong> utilisateurs"
       other: "Est suivi par <strong>%{count}</strong> utilisateurs"
     me_following: "<strong>%{count}</strong> Suivi"
-    my_followers: "<strong>%{count}</strong> Suivant"
+    my_followers: "<strong>%{count}</strong> Abonné(s)"
     posts: "Articles partagés"
     your_profile: "Votre profil"
     facebook: "Facebook (%{name})"
@@ -354,7 +354,7 @@ fr:
         r: rafraichir la page actuelle
         /: se placer dans le champ de recherche
         a: ajouter un abonnement
-        ?: montrer cette fenêtre
+        ?: afficher cette fenêtre
     posts:
       title: "Raccourcis pour les articles"
       body: |
@@ -368,10 +368,10 @@ fr:
         l: marquer l'article 'J'aime'
         s: partager un article
         m: marquer lu/non lu un article
-        f: sauvegarder l'article dans Pocket
+        f: sauvegarder l'article vers Pocket
         c: aller aux commentaires et ouvrir le formulaire
         1: basculer vers la vue complète
         2: basculer vers la vue en liste
   alerts:
-    common: "La requête vers le serveur a échoué, merci d'essayer à nouveau plus tard"
+    common: "La requête vers le serveur a échoué, merci d'essayer à nouveau un peu plus tard"
     posts: "Impossible de charger les articles"
