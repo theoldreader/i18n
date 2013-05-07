@@ -20,32 +20,32 @@ en:
       locked: "Your account is locked."
       invalid: "Invalid email or password."
       invalid_token: "Invalid authentication token."
-      timeout: "Your session expired, please sign in again to continue."
-      inactive: "Your account was not activated yet."
+      timeout: "Your session has expired, please sign in again to continue."
+      inactive: "Your account has not been activated yet."
     sessions:
       signed_in: "Signed in successfully."
       signed_out: "Signed out successfully."
     passwords:
-      send_instructions: "You will receive an email with instructions about how to reset your password in a few minutes."
-      updated: "Your password was changed successfully. You are now signed in."
-      updated_not_active: "Your password was changed successfully."
-      send_paranoid_instructions: "If your e-mail exists on our database, you will receive a password recovery link on your e-mail"
+      send_instructions: "You will receive an email with instructions on how to reset your password in a few minutes."
+      updated: "Your password has been changed successfully. You are now signed in."
+      updated_not_active: "Your password has been changed successfully."
+      send_paranoid_instructions: "If your e-mail exists in our database you will receive a password recovery link by e-mail"
     confirmations:
-      send_instructions: "You will receive an email with instructions about how to confirm your account in a few minutes."
-      send_paranoid_instructions: "If your e-mail exists on our database, you will receive an email with instructions about how to confirm your account in a few minutes."
+      send_instructions: "You will receive an email with instructions on how to confirm your account in a few minutes."
+      send_paranoid_instructions: "If your e-mail exists in our database, you will receive an email with instructions on how to confirm your account in a few minutes."
       confirmed: "Your account was successfully confirmed. You are now signed in."
     registrations:
       signed_up: "Welcome! You have signed up successfully."
       signed_up_but_unconfirmed: "A message with a confirmation link has been sent to your email address. Please open the link to activate your account."
-      signed_up_but_inactive: "You have signed up successfully. However, we could not sign you in because your account is not yet activated."
+      signed_up_but_inactive: "You have signed up successfully. However, we could not sign you in because your account has not yet been activated."
       signed_up_but_locked: "You have signed up successfully. However, we could not sign you in because your account is locked."
       updated: "You updated your account successfully."
-      update_needs_confirmation: "You updated your account successfully, but we need to verify your new email address. Please check your email and click on the confirm link to finalize confirming your new email address."
+      update_needs_confirmation: "You updated your account successfully, but we need to verify your new email address. Please check your email and click on the confirmation link."
       destroyed: "Bye! Your account was successfully cancelled. We hope to see you again soon."
     unlocks:
-      send_instructions: "You will receive an email with instructions about how to unlock your account in a few minutes."
+      send_instructions: "You will receive an email with instructions on how to unlock your account in a few minutes."
       unlocked: "Your account has been unlocked successfully. Please sign in to continue."
-      send_paranoid_instructions: "If your account exists, you will receive an email with instructions about how to unlock it in a few minutes."
+      send_paranoid_instructions: "If your account exists, you will receive an email with instructions on how to unlock it in a few minutes."
     omniauth:
       success: "Successfully authorized via %{kind} account."
       failure: "%{kind} authorization failed for the following reason: %{reason}."
@@ -82,6 +82,10 @@ en:
       title: "Sign in using:"
       google: "Google"
       facebook: "Facebook"
+      login: "Login"
+      register: "Register"
+      password: "Forgot password?"
+      change_password: "Change password"
     welcome: 
       - "Welcome to The Old Reader, the ultimate social RSS reader. It's just like the old google reader, only better. We're in beta right now, but we're constantly working on improvements and new features."
       - "You can sign in and start using The Old Reader with a single click. However, if you are too shy, please feel free to see our %tour% or peek at the %trending%."
@@ -219,6 +223,9 @@ en:
     name: "Name"
     username: "Username"
     email: "Email"
+    password: "Password"
+    password_confirmation: "Confirm password"
+    password_notice: "Leave blank to keep current"
     ui:
       title: "User interface"
       click_to_scroll: "Clicking on a post scrolls to it"
@@ -313,7 +320,7 @@ en:
         %{name} is now following you. Nice!
         See profile at %{profile}.
         
-        -- 
+        --
         The Old Reader robot.
         You can always unsubscribe at your settings page.
         %{host}
@@ -326,11 +333,32 @@ en:
         %{count} feeds you imported should now be available at %{host}.
         Thank you for using The Old Reader.
         
-        -- 
+        --
         The Old Reader robot.
         %{host}
-    changes:
-      subject: "Important note regarding Starred items"
+    confirmation:
+      body: |
+        Welcome %{name},
+        
+        You can confirm your account email using the link below:
+        %{link}
+        
+        --
+        The Old Reader robot.
+        %{host}
+    password:
+      body: |
+        Hello %{name},
+        
+        Someone has requested a link to change your password, here it is:
+        %{link}
+        
+        If you have not requested this, please ignore this email.
+        Your password will not get changed until you access the link above.
+        
+        --
+        The Old Reader robot.
+        %{host}
   shortcuts:
     header: "Keyboard Shortcuts"
     note: "*Chrome, Safari, Opera only"
@@ -376,3 +404,86 @@ en:
   alerts:
     common: "Request to the server failed, please try again later"
     posts: "Could not load posts"
+  page_content:
+    community:
+      title: "Community resources"
+      p1: "We are extremely happy to have a loyal community of users who constantly help us move the project forward. Here are some links to the resources created and supported by our community."
+      translations:
+        title: "Translations"
+        pre_link: "The Old Reader has been translated to many languages. We keep translations in a "
+        link: "separate public github repo"
+        post_link: " so that anyone could contribute."
+      extensions:
+        title: "Browser extensions"
+        p1: "There is a number of browser extensions that make tracking your unread items easier."
+        source_code: "source code"
+        chrome: "Google Chrome extension"
+        chrome_author: "by Anton Tolchanov"
+        chromeapp: "Google Chrome app"
+        chromeapp_author: "by Enrico Bacis"
+        safari: "Safari extension"
+        safari_author: "by Dmitry Kranoukhov"
+        opera: "Opera extension"
+        opera_author: "by Lazare Inepologlou"
+        firefox: "Firefox addon"
+        firefox_author: "by Tomek Wasiak"
+      themes:
+        title: "Unofficial themes"
+        pre_link: "Some users created userstyles that change the way The Old Reader looks in your browser. There is no guarantee that these styles will always work and will not break the site for you, but if you are courageous enough to try, they are available at "
+        post_link: "."
+      requests:
+        title: "Feature requests"
+        pre_link: "You can vote for feature requests and suggest new ones on "
+        link: "our uservoice page"
+        post_link: ". Please search for existing requests before creating a new one, most probably somebody suggested your idea before. We do not moderate the uservoice page, so when you create a duplicate you actually decrease the chances of it getting to the top, because two requests will compete with each other for user votes."
+      forums:
+        title: "Community forums"
+        pre_link: "We have created "
+        link: "a forum on yuku.com"
+        post_link: " for our users to communicate. Feel free to join it and ask for assistance, discuss tweaks, and share your thoughs."
+    donate:
+      title: "Donate"
+      p1: "Running an RSS reader requires quite a lot of resources. This might seem like a simple site, but we have to refresh several million of feeds, some as often as every 5 minutes. Our server cost is pretty high, and we would never be able to afford it without help from our awesome users."
+      p2: "There are several ways you can help us financially and keep the project alive:"
+      flattr:
+        pre_link: "Use "
+        link1: "Flattr"
+        inbetween: ". It is a simple way to give money to authors or services you like. You can either send us a fixed amount of money, or press the “flattr” button, and then your monthly budget would be distributed among us and other projects you helped during a given month. You can also subscribe to "
+        link2: "our account in Flattr"
+        post_link: " which will make you \"flattr\" us automatically every month."
+      bitcoins: "For all the privacy-concerned folks, we haz bitcoins"
+      additional:
+        pre_link: "Unfortunately, for legal reasons we cannot run a Paypal form on the website. However, if you would like to send us a significant sum of money and cannot use Flattr or bitcoins for some reason, please "
+        link: "drop us a note"
+        post_link: "  and we will figure out a way for you to send a personal gift transfer to one of us."
+      thanks: "We appreciate your help! So does this kitten:"
+    tour:
+      title: "The Old Reader 101"
+      add_feeds:
+        title: "Add feeds"
+        p1: "Your new The Old Reader account is shipped empty, so the first thing you should do is add some feeds to read."
+        img1: "Use 'Add a subscription' button to subscribe to a feed. If you enter a web page URL rather than direct feed URL, we will add first RSS feed from that page automatically."
+        img2: "If you are migrating from Google Reader or any other RSS software that can export subscriptions to OPML file, you can use the 'Import' feature to add all your feeds.  We will even migrate all your feed folders to ensure that you feel yourself at home immediately."
+      organize:
+        title: "Organize feeds"
+        img1: "You can drag & drop feeds and folders to change their position. Creating a new feed folder is as easy as dragging a feed to an empty space below your last folder. Empty folders are removed automatically."
+        img2: "Simply double-click on a feed or a folder to rename it."
+      read:
+        title: "Read posts"
+        img1: "Choose what you'd like to read from the menu. You can click on a folder to read all feeds that the folder contains."
+        img2: "Navigation menu allows you to go to the next or previous post with a single click. You can also switch to 'List view' that collapses all posts, lets you glimpse through titles and expand only those articles you are interested in."
+        img3: "You can also use keyboard shortcuts to navigate. Press '?' to see the list."
+        img4_p1: "There are action buttons below each post. If you hit 'Like' your name will appear in the list of users who liked that post. The post will also go to your 'Liked' folder."
+        img4_p2: "If you choose to share the post, all your contacts will immediately see it. You can also post your shares to your Facebook timeline (visit Settings to enable that)."
+      discuss:
+        title: "Discuss posts"
+        img1: "It's no fun reading RSS feeds alone. Go to 'Find Friends' page to see who among your Facebook friends or Google contacts is using The Old Reader. You can also look for your friends by name."
+        img2: "All posts that you have shared are in the 'Shared' folder. Items that your friends have shared are in the 'Following' folder. As usual, you can either read the whole folder or choose a specific username to see all posts shared by that user."
+        img3: "You can comment on any post shared by your friends — just hit the 'Comment' button and join the discussion."
+      finally:
+        title: "Any questions?"
+        pre_link: "Please take a look at our "
+        link1: "knowledge base"
+        inbetween: " and feel free to ask for assistance at the "
+        link2: "community forums"
+        post_link: " if something is not clear."
