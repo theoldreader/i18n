@@ -82,9 +82,13 @@ hu:
       title: "Lépj be a következővel:"
       google: "Google"
       facebook: "Facebook"
+      login: "Belépés"
+      register: "Regisztráció"
+      password: "Elfelejtett jelszó?"
+      change_password: "Jelszó módosítás"
     welcome: 
-      - "Üdv a The Old Readerben, a végső, közösségi RSS olvasóban. Pont olyan, mint a régi google olvasó, csak jobb. Még béta verzióban vagyunk, de folyamatosan dolgozunk javításokon és új fejlesztéseken."
-      - "Bejelentkezhetsz, és elkezdheted a The Old Reader használatát egy kattintással. Azonban, ha túl félénk volnál, nyugodtan nézd meg a %tour% lapunkat, vagy lesd meg a %trending% oldalát."
+      - "Üdv a The Old Readerben, a végső, közösségi RSS olvasóban. Pont olyan, mint a régi google olvasó, csak jobb. Még béta verzióban vagyunk, de folyamatosan dolgozunk rajta és új fejlesztéseken."
+      - "Bejelentkezhetsz, és elkezdheted a The Old Reader használatát egy kattintással. Azonban, ha túl félénk volnál, nyugodtan nézd meg előbb a %tour% lapunkat, vagy lesd meg a %trending% oldalát."
     tour: "bemutatkozó"
     trending: "napi toplista"
     qa:
@@ -192,14 +196,13 @@ hu:
     tips:
       title: "Tippek & trükkök"
       items:
-        - "Használd a \"j\" és \"k\" billentyűket az elemek közti navigáláshoz. \"o\" új ablakban nyitja meg az elemet."
-        - "További gyorsbillentyűk: az \"s\"-sel megoszthatsz egy elemet, vagy \"l\", hogy tetszettnek jelöld."
-        - "Húzz be csatornákat a menübe, az átrendezéshez, vagy hogy mappákba csoportosítsd őket."
+        - "Nyomd meg a ? billentyűt, hogy láthasd a használható gyorsbillentyűket."
+        - "Húzz be csatornákat a menübe az átrendezéshez vagy, hogy mappákba csoportosítsd őket."
         - "Duplakattintással egy csatorna, vagy mappa nevén átnevezheted őket."
         - "Hogy feliratkozhass egy új csatornára egy szimpla kattintással, használd a 'http://theoldreader.com/feeds/subscribe?url=%s' URL-t az RSS Feliratkozás bővítményben, vagy a Firefox csatornakezelőjét."
   pages:
     home: "Főoldal"
-    all: "Minden elem"
+    all: "Összes elem"
     liked: "Tetszett"
     shared: "Megosztott"
     followed: "Barátok"
@@ -220,6 +223,9 @@ hu:
     name: "Név"
     username: "Felhasználónév"
     email: "Email"
+    password: "Jelszó"
+    password_confirmation: "Jelszó megerősítés"
+    password_notice: "Hagyd üresen a mostani megőrzéséhez"
     ui:
       title: "Felhasználói felület"
       click_to_scroll: "Egy elemre kattintás odagördít"
@@ -330,5 +336,154 @@ hu:
         -- 
         The Old Reader robot.
         %{host}
-    changes:
-      subject: "Fontos megjegyzés a Csillagozott elemekkel kapcsolatban"
+    confirmation:
+      body: |
+        Szia %{name},
+        
+        Igazolhatod a fiókod emailcímét az alábbi linkre való kattintással:
+        %{link}
+        
+        --
+        The Old Reader robot.
+        %{host}
+    password:
+      body: |
+        Szia %{name},
+        
+        Valaki kért egy linket a jelszavad megváltoztatására, itt találod:
+        %{link}
+        
+        Ha nem te kérted ezt, kérlek hagyd figyelmen kívül ezt a levelet.
+        A jelszavad nem változik meg, amíg nem nyitod meg a fenti hivatkozást.
+        
+        --
+        The Old Reader robot.
+        %{host}
+    shortcuts:
+    header: "Gyorsbillentyűk"
+    note: "*Csak Chrome, Safari és Opera"
+    pages:
+      title: "Lapok közötti navigáció"
+      body: |
+        shift-n: következő feliratkozás vagy mappa
+        shift-p: előző feliratkozás vagy mappa
+        shift-x: kijelölt mappa becsukása
+        shift-o: kijelölt mappa vagy feliratkozás kinyitása
+        g utána h: menj a főoldalra
+        g utána a: menj az összes elemre
+        g utána l: menj a tetszettekhez
+        g utána s: menj a megosztottakhoz
+        g utána t: menj a népszerűekre
+        g utána c: menj a kommentáltakra
+        g utána f: menj a követettekre
+    other:
+      title: "Egyéb gyorsbillentyűk"
+      body: |
+        r: jelen oldal frissítése
+        /: keresőmezőre fókuszálás
+        a: feliratkozás hozzáadása
+        ?: mutassa ezt az ablakot
+    posts:
+      title: "Elemek gyorsbillentyűi"
+      body: |
+        space: lefelé görgetés
+        shift+space: felfelé görgetés
+        shift+a: mindegyik olvasottnak jelölése
+        j, n: következő elem
+        k, p: előző elem
+        o: elem megnyitása új fülön
+        b: elem megnyitása a háttérben*
+        x: elemek kibontása (lista nézet)
+        l: elem tetszettnek jelölése
+        s: elem megosztása
+        m: olvas/olvasatlan elem
+        f: elem mentése a Pocketbe
+        c: megjegyzésekhez görgetés és az űrlap megnyitása
+        1: teljes nézetre váltás
+        2: listás nézetre váltás
+  alerts:
+    common: "A kérés a szerver felé hibát dobott, kérlek próbálkozz később újra"
+    posts: "Az elemeket nem tudtuk betölteni"
+  page_content:
+    community:
+      title: "Közösségi erőforrások"
+      p1: "Elképesztően boldogok vagyunk, hogy felhasználóink egy lelkes tábora folyamatosan segíti a projekt előrehaladását. Íme, pár hivatkozás azokhoz az erőforrásokhoz, amelyeket a közösségünk készített, és támogat."
+      translations:
+        title: "Fordítások"
+        pre_link: "A The Old Reader sok nyelven elérhető. A fordításainkat egy "
+        link: "különálló, nyilvános github repoban"
+        post_link: " tároljuk, hogy bárki hozzájárulhasson."
+      extensions:
+        title: "Böngészőbővítmények"
+        p1: "Számos bővítmény van, ami megkönnyíti az olvasatlan elemeid követését."
+        source_code: "forráskód"
+        chrome: "Google Chrome bővítmény"
+        chrome_author: "Anton Tolchanov által"
+        chromeapp: "Google Chrome alkalmazás"
+        chromeapp_author: "Enrico Bacis által"
+        safari: "Safari bővítmény"
+        safari_author: "Dmitry Kranoukhov által"
+        opera: "Opera bővítmény"
+        opera_author: "Lazare Inepologlou által"
+        firefox: "Firefox kiegészítés"
+        firefox_author: "Tomek Wasiak által"
+      themes:
+        title: "Nem hivatalos témák"
+        pre_link: "Néhány felhasználó készített stílusokat, amelyek megváltoztatják a The Old Reader kinézetét a böngésződben. Nincs garancia, hogy ezek mindig működnek, és nem fogják elrontani az oldalt nálad, de ha bátor vagy kipróbálni őket, akkor ők elérhetőek itt "
+        post_link: "."
+      requests:
+        title: "Fejlesztési igények"
+        pre_link: "Szavazhatsz fejlesztési igényekre, vagy tanácsolhatsz újakat a "
+        link: "mi uservoice oldalunkon"
+        post_link: ". Kérünk, hogy előbb a meglévő igények között keress, mielőtt újat hozol létre, mert lehetséges, hogy valaki már beadta az ötleted. Mi nem moderáljuk a uservoice oldalt, tehát ha te duplikálsz egy kérést, akkor csak annak esélyeit rontod, hogy az az élre kerüljön, mert a két kérés egymással is vetélkedni fog a felhasználói szavazatokért."
+      forums:
+        title: "Közösségi fórumok"
+        pre_link: "Készítettünk "
+        link: "egy fórumot a yuku.com-on"
+        post_link: ", hogy a felhasználóink kommunikálhassanak. Bátran kapcsolódj be, és kérj segítésget, vagy megbeszéld a beállításokat, megoszd gondolataidat."
+    donate:
+      title: "Adományozás"
+      p1: "Egy RSS olvasó futtatása meglehetősen erőforrásigényes. Bár egyszerű oldalnak tűnik, de jónéhány millió csatornát kell frissítenünk, némelyiküket akár 5 percenként. A szerverköltségünk ezért elég magas, és ezt mi magunk egyedül nem tudnánk kifizetni a legfantasztikusabb felhasználóink nélkül."
+      p2: "Jónéhány módon segíthetsz nekünk pénzügyileg és tarthatod ezzel életben a projektet:"
+      flattr:
+        pre_link: "Használj "
+        link1: "Flattr"
+        inbetween: "-t. It is a simple way to give money to authors or services you like. You can either send us a fixed amount of money, or press the “flattr” button, and then your monthly budget would be distributed among us and other projects you helped during a given month. You can also subscribe to "
+        link2: "our account in Flattr"
+        post_link: " which will make you \"flattr\" us automatically every month."
+      bitcoins: "For all the privacy-concerned folks, we haz bitcoins"
+      additional:
+        pre_link: "Unfortunately, for legal reasons we cannot run a Paypal form on the website. However, if you would like to send us a significant sum of money and cannot use Flattr or bitcoins for some reason, please "
+        link: "drop us a note"
+        post_link: "  and we will figure out a way for you to send a personal gift transfer to one of us."
+      thanks: "We appreciate your help! So does this kitten:"
+    tour:
+      title: "The Old Reader 101"
+      add_feeds:
+        title: "Add feeds"
+        p1: "Your new The Old Reader account is shipped empty, so the first thing you should do is add some feeds to read."
+        img1: "Use 'Add a subscription' button to subscribe to a feed. If you enter a web page URL rather than direct feed URL, we will add first RSS feed from that page automatically."
+        img2: "If you are migrating from Google Reader or any other RSS software that can export subscriptions to OPML file, you can use the 'Import' feature to add all your feeds.  We will even migrate all your feed folders to ensure that you feel yourself at home immediately."
+      organize:
+        title: "Organize feeds"
+        img1: "You can drag & drop feeds and folders to change their position. Creating a new feed folder is as easy as dragging a feed to an empty space below your last folder. Empty folders are removed automatically."
+        img2: "Simply double-click on a feed or a folder to rename it."
+      read:
+        title: "Read posts"
+        img1: "Choose what you'd like to read from the menu. You can click on a folder to read all feeds that the folder contains."
+        img2: "Navigation menu allows you to go to the next or previous post with a single click. You can also switch to 'List view' that collapses all posts, lets you glimpse through titles and expand only those articles you are interested in."
+        img3: "You can also use keyboard shortcuts to navigate. Press '?' to see the list."
+        img4_p1: "There are action buttons below each post. If you hit 'Like' your name will appear in the list of users who liked that post. The post will also go to your 'Liked' folder."
+        img4_p2: "If you choose to share the post, all your contacts will immediately see it. You can also post your shares to your Facebook timeline (visit Settings to enable that)."
+      discuss:
+        title: "Discuss posts"
+        img1: "It's no fun reading RSS feeds alone. Go to 'Find Friends' page to see who among your Facebook friends or Google contacts is using The Old Reader. You can also look for your friends by name."
+        img2: "All posts that you have shared are in the 'Shared' folder. Items that your friends have shared are in the 'Following' folder. As usual, you can either read the whole folder or choose a specific username to see all posts shared by that user."
+        img3: "You can comment on any post shared by your friends — just hit the 'Comment' button and join the discussion."
+      finally:
+        title: "Any questions?"
+        pre_link: "Please take a look at our "
+        link1: "knowledge base"
+        inbetween: " and feel free to ask for assistance at the "
+        link2: "community forums"
+        post_link: " if something is not clear."
