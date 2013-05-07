@@ -141,7 +141,7 @@ fr:
       few: "articles"
       many: "articles"
       other: "articles"
-    your_posts: "Vous avez <em>%{unread}</em> %{articles} non lu(s)"
+    your_posts: "Vous avez <em>%{unread}</em> %{posts} non lu(s)"
     refresh: "Rafraichir"
     unsubscribe: "Se désabonner"
     unsubscribe_confirm: "Voulez vous vraiment vous désabonner ? Les partages et likes sur ce flux ne seront pas supprimés."
