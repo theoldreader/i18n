@@ -82,6 +82,10 @@ it:
       title: "Connetiti usando:"
       google: "Google"
       facebook: "Facebook"
+      login: "Login"
+      register: "Registrati"
+      password: "Password Dimenticata?"
+      change_password: "Cambia password" 
     welcome: 
       - "Benvenuto su The Old Reader, il lettore RSS social definitivo. È come il vecchio Google Reader, solo meglio. Ora siamo in beta, ma stiamo costantemente lavorando su miglioramenti e nuove funzionalità."
       - "Puoi connetterti e iniziare ad usare The Old Reader con un solo click. Comunque, se sei troppo timido, sentiti libero di dare un occhiata al nostro %tour% o dai una sbirciata ai %trending%."
@@ -226,6 +230,9 @@ it:
     name: "Nome"
     username: "Nome Utente"
     email: "Email"
+    password: "Password"
+    password_confirmation: "Conferma password"
+    password_notice: "Lascia vuoto per non cambiarla" 
     ui:
       title: "Interfaccia Utente"
       click_to_scroll: "Clicca su un post per metterlo in evidenza" 
@@ -337,8 +344,29 @@ it:
         -- 
         The Old Reader robot.
         %{host}
-    changes:
-      subject: "Note importanti riguardo gli elementi speciali"
+    confirmation:
+      body: |
+        Benvenuto\a %{name},
+        
+        Ora puoi confermare la mail associata al tuo account utilizzando il seguente link:
+        %{link}
+        
+        --
+        The Old Reader robot.
+        %{host}
+    password:
+      body: |
+        Ciao %{name},
+        
+        Qualcuno ha richiesto un link per modificare la tua password, eccolo:
+        %{link}
+        
+        Se non sei stato tu a richiederlo, ignora pure questa email.
+        La tua password non verrà modificata fin quando non accederai usando il link qui sopra.
+        
+        --
+        The Old Reader robot.
+        %{host}
   shortcuts:
     header: "Scorciatoie"
     note: "Solo per Chrome, Safari e Opera*"
@@ -383,3 +411,86 @@ it:
   alerts:
     common: "Richiesta al server fallita, ti preghiamo di provare più tardi"
     posts: "Impossibile caricare i post"
+  page_content:
+    community:
+      title: "Community resources"
+      p1: "We are extremely happy to have a loyal community of users who constantly help us move the project forward. Here are some links to the resources created and supported by our community."
+      translations:
+        title: "Translations"
+        pre_link: "The Old Reader has been translated to many languages. We keep translations in a "
+        link: "separate public github repo"
+        post_link: " so that anyone could contribute."
+      extensions:
+        title: "Browser extensions"
+        p1: "There is a number of browser extensions that make tracking your unread items easier."
+        source_code: "source code"
+        chrome: "Google Chrome extension"
+        chrome_author: "by Anton Tolchanov"
+        chromeapp: "Google Chrome app"
+        chromeapp_author: "by Enrico Bacis"
+        safari: "Safari extension"
+        safari_author: "by Dmitry Kranoukhov"
+        opera: "Opera extension"
+        opera_author: "by Lazare Inepologlou"
+        firefox: "Firefox addon"
+        firefox_author: "by Tomek Wasiak"
+      themes:
+        title: "Unofficial themes"
+        pre_link: "Some users created userstyles that change the way The Old Reader looks in your browser. There is no guarantee that these styles will always work and will not break the site for you, but if you are courageous enough to try, they are available at "
+        post_link: "."
+      requests:
+        title: "Feature requests"
+        pre_link: "You can vote for feature requests and suggest new ones on "
+        link: "our uservoice page"
+        post_link: ". Please search for existing requests before creating a new one, most probably somebody suggested your idea before. We do not moderate the uservoice page, so when you create a duplicate you actually decrease the chances of it getting to the top, because two requests will compete with each other for user votes."
+      forums:
+        title: "Community forums"
+        pre_link: "We have created "
+        link: "a forum on yuku.com"
+        post_link: " for our users to communicate. Feel free to join it and ask for assistance, discuss tweaks, and share your thoughs."
+    donate:
+      title: "Donate"
+      p1: "Running an RSS reader requires quite a lot of resources. This might seem like a simple site, but we have to refresh several million of feeds, some as often as every 5 minutes. Our server cost is pretty high, and we would never be able to afford it without help from our awesome users."
+      p2: "There are several ways you can help us financially and keep the project alive:"
+      flattr:
+        pre_link: "Use "
+        link1: "Flattr"
+        inbetween: ". It is a simple way to give money to authors or services you like. You can either send us a fixed amount of money, or press the “flattr” button, and then your monthly budget would be distributed among us and other projects you helped during a given month. You can also subscribe to "
+        link2: "our account in Flattr"
+        post_link: " which will make you \"flattr\" us automatically every month."
+      bitcoins: "For all the privacy-concerned folks, we haz bitcoins"
+      additional:
+        pre_link: "Unfortunately, for legal reasons we cannot run a Paypal form on the website. However, if you would like to send us a significant sum of money and cannot use Flattr or bitcoins for some reason, please "
+        link: "drop us a note"
+        post_link: "  and we will figure out a way for you to send a personal gift transfer to one of us."
+      thanks: "We appreciate your help! So does this kitten:"
+    tour:
+      title: "The Old Reader 101"
+      add_feeds:
+        title: "Add feeds"
+        p1: "Your new The Old Reader account is shipped empty, so the first thing you should do is add some feeds to read."
+        img1: "Use 'Add a subscription' button to subscribe to a feed. If you enter a web page URL rather than direct feed URL, we will add first RSS feed from that page automatically."
+        img2: "If you are migrating from Google Reader or any other RSS software that can export subscriptions to OPML file, you can use the 'Import' feature to add all your feeds.  We will even migrate all your feed folders to ensure that you feel yourself at home immediately."
+      organize:
+        title: "Organize feeds"
+        img1: "You can drag & drop feeds and folders to change their position. Creating a new feed folder is as easy as dragging a feed to an empty space below your last folder. Empty folders are removed automatically."
+        img2: "Simply double-click on a feed or a folder to rename it."
+      read:
+        title: "Read posts"
+        img1: "Choose what you'd like to read from the menu. You can click on a folder to read all feeds that the folder contains."
+        img2: "Navigation menu allows you to go to the next or previous post with a single click. You can also switch to 'List view' that collapses all posts, lets you glimpse through titles and expand only those articles you are interested in."
+        img3: "You can also use keyboard shortcuts to navigate. Press '?' to see the list."
+        img4_p1: "There are action buttons below each post. If you hit 'Like' your name will appear in the list of users who liked that post. The post will also go to your 'Liked' folder."
+        img4_p2: "If you choose to share the post, all your contacts will immediately see it. You can also post your shares to your Facebook timeline (visit Settings to enable that)."
+      discuss:
+        title: "Discuss posts"
+        img1: "It's no fun reading RSS feeds alone. Go to 'Find Friends' page to see who among your Facebook friends or Google contacts is using The Old Reader. You can also look for your friends by name."
+        img2: "All posts that you have shared are in the 'Shared' folder. Items that your friends have shared are in the 'Following' folder. As usual, you can either read the whole folder or choose a specific username to see all posts shared by that user."
+        img3: "You can comment on any post shared by your friends — just hit the 'Comment' button and join the discussion."
+      finally:
+        title: "Any questions?"
+        pre_link: "Please take a look at our "
+        link1: "knowledge base"
+        inbetween: " and feel free to ask for assistance at the "
+        link2: "community forums"
+        post_link: " if something is not clear." 
