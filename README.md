@@ -36,3 +36,5 @@ Deutsch: [wuhup](https://github.com/wuhup)
 Svenska: [alemacgo](https://github.com/alemacgo), [virkot](https://github.com/virkot), [Tobbe](https://github.com/Tobbe), [kokarn](https://github.com/kokarn)
 
 Türkçe: [canpolat](https://github.com/canpolat)
+
+Slovenčina: [mufi](https://github.com/mufi)
