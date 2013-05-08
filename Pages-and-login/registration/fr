@@ -26,8 +26,8 @@ fr:
       signed_in: "Connecté avec succès."
       signed_out: "Déconnexion avec succès."
     passwords:
-      send_instructions: "You will receive an email with instructions on how to reset your password in a few minutes."
-      updated: "Your password has been changed successfully. You are now signed in."
+      send_instructions: "Vous allez recevoir un email avec les instructions pour savoir comment réinitialiser votre mot de passe, d'ici quelques minutes."
+      updated: "Votre mot de passe a été modifié avec succès. Vous êtes maintenant connecté."
       updated_not_active: "Your password has been changed successfully."
       send_paranoid_instructions: "If your e-mail exists in our database you will receive a password recovery link by e-mail"
     confirmations:
