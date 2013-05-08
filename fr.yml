@@ -128,7 +128,7 @@ fr:
     url: "URL du Flux"
     invalid_url: "Vous avez inscrit une URL invalide"
     empty_url: "Vous n'avez pas inscrit d'URL"
-    loading: "Chargement..."
+    loading: "Chargement en cours..."
     default_folder: "Abonnements"
     feeds: "Flux"
     feeds_count:
