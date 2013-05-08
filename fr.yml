@@ -31,8 +31,8 @@ fr:
       updated_not_active: "Votre mot de passe a bien été changé."
       send_paranoid_instructions: "Si votre e-mail existe dans notre base de données, vous allez recevoir par e-mail un lien pour restaurer votre mot de passe"
     confirmations:
-      send_instructions: "Vous allez recevoir un e-mail contenant les instructions pour confirmer votre compte dans quelques minutes."
-      send_paranoid_instructions: "Si votre e-mail existe dans notre base de données, vous allez recevoir un e-mail contenant les instructions pour confirmer votre compte dans quelques minutes."
+      send_instructions: "Vous allez recevoir un e-mail contenant les instructions pour confirmer votre compte d'ici quelques minutes."
+      send_paranoid_instructions: "Si votre e-mail existe dans notre base de données, vous allez recevoir un e-mail contenant les instructions pour confirmer votre compte d'ici quelques minutes."
       confirmed: "Votre compte a bien été confirmé. Vous êtes maintenant connecté."
     registrations:
       signed_up: "Bienvenue! Vous vous êtes inscrit avec succès."
@@ -89,10 +89,10 @@ fr:
     trending: "articles populaires du jour"
     qa:
       -
-        :title: "Qu'est- ce que ça fait?"
-        :test: "Il vous permet de parcourir votre dose quotidienne d'actualités avec cette touche très spéciale de partage par vos amis, avec des notes et des commentaires"
+        :title: "A quoi ça sert ?"
+        :test: "Il vous permet de consulter votre dose quotidienne d'actualités avec cette touche très spéciale de partage avec vos amis, avec des notes et des commentaires"
       -
-        :title: "Est-ce que je peux transférer mes abonnements?"
+        :title: "Est-ce que je peux importer mes abonnements?"
         :text: "Oui, vous pouvez importer vos flux directement à partir de votre compte Google Reader ou utiliser notre fonction d'importation OPML si vous êtes sensible au sujet de votre sécurité."
       -
         :title: "Comment puis-je retrouver mes amis?"
@@ -128,7 +128,7 @@ fr:
     url: "URL du Flux"
     invalid_url: "Vous avez inscrit une URL invalide"
     empty_url: "Vous n'avez pas inscrit d'URL"
-    loading: "Chargement..."
+    loading: "Chargement en cours..."
     default_folder: "Abonnements"
     feeds: "Flux"
     feeds_count:
@@ -323,7 +323,7 @@ fr:
         Bonjour %{name},
         
         Nous sommes heureux de vous informer que nous avons fini d'importer vos abonnements.
-        %{count} flux que vous avez importé devrait maintenant être disponible sur %{host}.
+        %{count} flux que vous avez importé devraient maintenant être disponible sur %{host}.
         Merci d'utiliser The Old Reader.
         
         -- 
