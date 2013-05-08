@@ -82,6 +82,10 @@ pt:
       title: "Conecte-se usando:"
       google: "Google"
       facebook: "Facebook"
+      login: "Login"
+      register: "Registrar"
+      password: "Esqueceu sua senha?"
+      change_password: "Alterar sua senha"
     welcome: 
       - "Bem vindo ao Old Reader, o leitor de RSS definitivo. Quase igual ao antigo Google Reader, só que melhor. Nós estamos em Beta no momento, mas estamos trabalhando constantemente em melhorias e novas funcionalidades."
       - "Você pode se conectar e começar a usar o Old Reader com um único clique. Entretanto, se você for muito tímido ou tímida, por favor esteja a vontade para espiar nosso %tour% ou %trending%."
@@ -192,16 +196,10 @@ pt:
     tips:
       title: "Dicas & truques"
       items:
-        - "Use os atalhos \"j\" e \"k\" no teclado para navegar nas postagens. \"o\" abre a postagem em uma nova janela."
-        - "Alguns outros atalhos no teclado: use \"s\" para compartilhar ou \"l\" para curtir a postagem."
+        - "Pressione '?' ou 'h' para ver a lista de atalhos de teclado."
         - "Arraste & solte os feeds no menu para reordená-los ou para criar novas pastas."
         - "Você pode dar um duplo-clique no feed ou no título da pasta para renomeá-los."
         - "Para assinar novos feeds com um único clique, use 'http://theoldreader.com/feeds/subscribe?url=%s' na extensão RSS Subscription ou no gerenciador de feeds do Firefox."
-    aboutus:
-      title: "Algo sobre nós"
-      text: "Por favor sinta-se livre para <a href='mailto:hello@theoldreader.com'>dar um toque</a> se tiver algum comentário ou sugestão. Você também pode <a href='https://twitter.com/#!/theoldreader'>nos seguir</a> no twitter e ler nosso <a href='http://blog.theoldreader.com/'>blog dos bastidores</a>."
-    plugins:
-      title: "Extensões para navegadores"
   pages:
     home: "Início"
     all: "Todos os itens"
@@ -220,11 +218,14 @@ pt:
     tour: "Tour"
     blog: "Blog"
     status: "Status do Servidor"
-    requests: "Solicitações & Bugs"
+    community: "Recursos da comunidade"
   settings:
     name: "Nome"
     username: "Nome de usuário"
     email: "Email"
+    password: "Senha"
+    password_confirmation: "Confirme a senha"
+    password_notice: "Deixe em branco para manter a atual"
     ui:
       title: "Interface"
       click_to_scroll: "Clicar em uma postagem rola até ela"
@@ -335,5 +336,154 @@ pt:
         -- 
         O robô do Old Reader.
         %{host}
-    changes:
-      subject: "Nota importante relativa aos Ítens com estrela"
+    confirmation:
+      body: |
+        Bem vindo %{name},
+        
+        Você pode confirmar o email da sua conta usando o link abaixo:
+        %{link}
+        
+        --
+        O robô do Old Reader.
+        %{host}
+    password:
+      body: |
+        Olá %{name},
+        
+        Alguém solicitou um link para mudar sua senha, aqui está:
+        %{link}
+        
+        Se você não solicitou isso, por favor ignore este email.
+        Sua senha não vai ser modificada até que você acesse o link acima.
+        
+        --
+        O robô do Old Reader.
+        %{host}
+  shortcuts:
+    header: "Atalhos de teclado"
+    note: "*Apenas Chrome, Safari e Opera"
+    pages:
+      title: "Navegar entre páginas"
+      body: |
+        shift-n: assinatura ou pasta seguinte
+        shift-p: assinatura ou pasta anterior
+        shift-x: fechar pasta selecionada
+        shift-o: abrir pasta ou assinatura selecionada
+        g depois h: ir para início
+        g depois a: ir para todos os ítens
+        g depois l: ir para curtidos
+        g depois s: ir para compartilhados
+        g depois t: ir para tendências
+        g depois c: ir para comentados
+        g depois f: ir para seguidos
+    other:
+      title: "Outros atalhos"
+      body: |
+        r: atualizar a página atual
+        /: foco no campo de busca
+        a: adicionar assinatura
+        ? or h: exibir esta janela
+    posts:
+      title: "Atalhos para postagens"
+      body: |
+        space: rolar para baixo
+        shift+space: rolar para cima
+        shift+a: marcar todas como lidas
+        j, n: postagem seguinte
+        k, p: postagem anterior
+        o: abrir postagem em nova aba
+        b: abrir postagem em uma aba em segundo plano*
+        x: alternar postagem (visualização em lista)
+        l: marcar postagem como curtida
+        s: compartilhar postagem
+        m: marcar postagem como lida/não-lida
+        f: enviar postagem ao Pocket
+        c: rolar até os comentários e abrir o campo
+        1: mudar para o modo de visualização completa
+        2: mudar para o modo de visualização em lista
+  alerts:
+    common: "Requisição ao servidor falhou, por favor tente mais tarde"
+    posts: "Não foi possível carregar as postagens"
+  page_content:
+    community:
+      title: "Recursos da comunidade"
+      p1: "Nós estamos extremamente felizes de ter uma comunidade fiel de usuários que nos ajudam constantemente a mover o projeto adiante. Aqui estão alguns links para os recursos criados e apoiados por nossa comunidade."
+      translations:
+        title: "Traduções"
+        pre_link: "O Old Reader foi traduzido para várias línguas. Nós mantemos traduções em um "
+        link: "repositório público separado no github"
+        post_link: " para que todos possam contribuir."
+      extensions:
+        title: "Extensões de navegadores"
+        p1: "Há várias extensões de navegadores que tornam mais fácil acompanhar os seus ítens não lidos."
+        source_code: "código fonte"
+        chrome: "extensão do Google Chrome"
+        chrome_author: "por Anton Tolchanov"
+        chromeapp: "aplicativo do Google Chrome"
+        chromeapp_author: "por Enrico Bacis"
+        safari: "extensão do Safari"
+        safari_author: "por Dmitry Kranoukhov"
+        opera: "extensão do Opera"
+        opera_author: "por Lazare Inepologlou"
+        firefox: "complemento do Firefox"
+        firefox_author: "por Tomek Wasiak"
+      themes:
+        title: "Temas não-oficiais"
+        pre_link: "Alguns usuários criaram estilos que mudam a aparência do Old Reader no seu navegador. Não há garantia que esses estilos irão funcionar sempre e que não vão quebrar o site para você, mas se você for corajoso o suficiente para tentar, eles estão disponíveis em "
+        post_link: "."
+      requests:
+        title: "Solicitar funcionalidades"
+        pre_link: "Você pode votar nas solicitações de funcionalidades e sugerir novas na "
+        link: "nossa página do uservoice"
+        post_link: ". Por favor busque por solicitações existentes antes de criar uma nova, é bastante provável que alguém já tenha sugerido sua idéia antes. Nós não moderamos a página do uservoice, então quando você cria uma duplicata você diminui as chances dela chegar ao topo, porque duas solicitações vão competir entre si pelos votos dos usuários."
+      forums:
+        title: "Fóruns da comunidade"
+        pre_link: "Nós criamos "
+        link: "um fórum no yuku.com"
+        post_link: " para nossos usuários se comunicarem. Sintam-se à vontade para se cadastrar e pedir ajuda, discutir modificações e compartilhar suas idéias."
+    donate:
+      title: "Doar"
+      p1: "Manter um leitor de RSS requer muitos recursos. Isto parece ser um site simples, mas nós temos que atualizar vários milhões de feeds, alguns a cada 5 minutos. O custo do nosso servidor é um tanto alto e nós nunca seríamos capazes de mantê-lo sem ajuda de nossos incríveis usuários."
+      p2: "Há várias maneiras de você nos ajudar financeiramente e manter o projeto vivo:"
+      flattr:
+        pre_link: "Use o "
+        link1: "Flattr"
+        inbetween: ". É uma maneira simples de doar dinheiro a autores ou serviços que você gosta. Você pode nos enviar ou uma quantia fixa de dinheiro, ou pressionar o botão “flattr”, e então seu orçamento mensal será distribuido entre nós e outros projetos que você ajudou durante um determinado mês. Você também pode se inscrever na "
+        link2: "nossa conta no Flattr"
+        post_link: " que fará com que você nos \"flattr\" automaticamente todo mês."
+      bitcoins: "Para todos os preocupados com privacidade, we haz bitcoins"
+      additional:
+        pre_link: "Infelizmente, por razões legais, nós não podemos colocar um formulário do Paypal no site. Entretanto, se você deseja doar uma quantia de dinheiro significante e não pode usar o Flattr ou bitcoins por alguma razão, por favor "
+        link: "mande-nos uma mensagem"
+        post_link: "  e nós achamos uma maneira de você enviar uma transferência pessoal para um de nós."
+      thanks: "Nós agradecemos sua ajuda! E esse gatinho também:"
+    tour:
+      title: "O Old Reader 101"
+      add_feeds:
+        title: "Adicionar Feeds"
+        p1: "Sua nova conta é criada vazia, então a primeira coisa que você deve fazer é adicionar alguns feeds para ler."
+        img1: "Use o botão 'Adicionar uma assinatura' para assinar um feed. Se você adicionar uma URL de uma página em vez da URL direta do feed, nós adicionaremos o primeiro feed RSS dessa página automaticamente."
+        img2: "Se você está migrando do Google Reader ou qualquer outro aplicativo de RSS que pode exportar assinaturas para um arquivo OPML, você pode usar a funcionalidade 'Importar' para adicionar todos os seus feeds. Nós vamos inclusive migrar todas as suas pastas de feeds para garantir que você se sinta em casa imediatamente."
+      organize:
+        title: "Organizar feeds"
+        img1: "Você pode arrastar & soltar feeds e pastas para mudar suas posições. Criar uma nova pasta de feeds é simples, basta arrastar um feed até a área vazia abaixo da sua última pasta. Pastas vazias são removidas automaticamente."
+        img2: "Simplesmente clique duas vezes em um feed ou pasta para renomeá-los."
+      read:
+        title: "Ler postagens"
+        img1: "Escolha o que você gostaria de ler pelo menu. Você pode clicar em uma pasta para ler todos os feeds que ela contém."
+        img2: "O menu de navegação permite a você ir à postagem seguinte ou à anterior com um único clique. Você também pode mudar para o modo de 'Visualização em lista' que compacta todas as postagens, permite a você passar pelos títulos e expandir apenas aqueles artigos em que você está interessado."
+        img3: "Você também pode usar os atalhos de teclado para navegar. Pressione '?' ou 'h' para ver a lista."
+        img4_p1: "Há botões de ação abaixo de cada postagem. Se você pressionar 'Curtir' seu nome vai aparecer na lista de usuários que curtiram aquela postagem. A postagem também irá à sua pasta de 'Curtidos'."
+        img4_p2: "Se você escolher compartilhar a postagem, todos os seus contatos verão imediatamente. Você também pode enviar seus compartilhados para sua linha do tempo do Facebook(visite as Configurações para ativar isto)."
+      discuss:
+        title: "Comentar postagens"
+        img1: "Não tem graça ler feeds RSS sozinho. Vá à página 'Encontrar Amigos' para ver quais dos seus amigos do Facebook ou contatos do Google estão usando o Old Reader. Você também pode procurar pelo nome dos seus amigos."
+        img2: "Todas as postagens que você compartilhar estão na pasta 'Compartilhados'. Ítens que seus amigos compartilharam estão na pasta 'Seguindo'. Como de costume, você pode ler ou a pasta toda ou escolher um nome de usuário para ver todas as postagens compartilhadas por aquele usuário."
+        img3: "Você pode comentar em qualquer postagem compartilhada por seus amigos — basta apertar o botão 'Comentar' e se juntar à conversa."
+      finally:
+        title: "Alguma pergunta?"
+        pre_link: "Por favor dê uma olhada na nossa "
+        link1: "base de conhecimento"
+        inbetween: " e sinta-se à vontade para pedir ajuda nos "
+        link2: "fóruns da comunidade"
+        post_link: " se algo não estiver claro."
