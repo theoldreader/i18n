@@ -323,7 +323,7 @@ fr:
         Bonjour %{name},
         
         Nous sommes heureux de vous informer que nous avons fini d'importer vos abonnements.
-        %{count} flux que vous avez importé devrait maintenant être disponible sur %{host}.
+        %{count} flux que vous avez importé devraient maintenant être disponible sur %{host}.
         Merci d'utiliser The Old Reader.
         
         -- 
