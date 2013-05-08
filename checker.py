@@ -49,10 +49,10 @@ def compare_dicts(master, victim, path):
 
     return errors
 
-def process_file(filename):
+def process_file(filename, master_data):
     if filename == "%s.yml" % master or not filename.endswith('.yml'): return
-    with open(os.path.join(basedir, filename), 'r') as f:
-        victim_lang = filename.replace('.yml','')
+    with open(filename, 'r') as f:
+        victim_lang = os.path.basename(filename).replace('.yml','')
         victim_data = yaml.load(f)
         if victim_lang in victim_data:
             errors = compare_dicts(master_data, victim_data[victim_lang], [])
@@ -63,25 +63,23 @@ def process_file(filename):
             print "Errors found in %s:" % filename
             for error in errors:
                 print "- %s" % error
-        else:
-            print "No error found in %s" % filename
 
-if __name__ == "__main__":
+def main(args):
     basedir = os.path.dirname(__file__) or '.'
     with open(os.path.join(basedir, "%s.yml" % master), 'r') as master_file:
         master_data = yaml.load(master_file)[master]
 
-    if len(sys.argv) == 2:
-        argFile = sys.argv[1]
-        if os.path.exists(argFile):
-            process_file(argFile)
-        else:
-            # try with +.yml
-            argFile += '.yml'
-            if os.path.exists(argFile):
-                process_file(argFile)
-            else:
-                print "File '%s' does not exists" % argFile
+    if len(args) > 1:
+        filenames = args[1:]
     else:
-        for filename in os.listdir(basedir):
-            process_file(filename)
+        filenames = os.listdir(basedir)
+
+    for filename in filenames:
+        filename = os.path.join(basedir, filename)
+        if not os.path.exists(filename):
+            filename += '.yml'
+        process_file(filename, master_data)
+
+if __name__ == "__main__":
+    main(sys.argv)
+
