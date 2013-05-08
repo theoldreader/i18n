@@ -196,9 +196,7 @@ it:
     tips:
       title: "Tips & tricks"
       items:
-        - "Usa le scorciatoie \"j\" e \"k\" per navigare i post. \"o\" per aprire i post in una nuova finestra."
-        - "Qualche altra scorciatoia: usa \"s\" per condividere un post e \"l\" per mettere mi piace."
-        - "Premi ? per vedere la lista delle scorciatoie." 
+        - "Premi '?' oppure 'h' per vedere la lista delle scorciatoie." 
         - "Trascina i feed nel menù per riordinarli o per creare nuove cartelle."
         - "Puoi cliccare due volte sul titolo dei feed o sulle cartelle per rinominarli."
         - "Per sottoscrivere a nuovo new feeds con un singoli click, usa 'http://theoldreader.com/feeds/subscribe?url=%s' nell'estensione per sottoscrivere gli RSS o nel gestori di feed di Firefox."
@@ -390,7 +388,7 @@ it:
         r: ricarica la pagina corrente
         /: seleziona il campo di ricerca
         a: aggiungi sottoscrizione
-        ?: visualizza questa finestra
+        ? or h: visualizza questa finestra
     posts:
       title: "Scorciatoie per i post"
       body: |
@@ -479,7 +477,7 @@ it:
         title: "Read posts"
         img1: "Choose what you'd like to read from the menu. You can click on a folder to read all feeds that the folder contains."
         img2: "Navigation menu allows you to go to the next or previous post with a single click. You can also switch to 'List view' that collapses all posts, lets you glimpse through titles and expand only those articles you are interested in."
-        img3: "You can also use keyboard shortcuts to navigate. Press '?' to see the list."
+        img3: "You can also use keyboard shortcuts to navigate. Press '?' or 'h' to see the list."
         img4_p1: "There are action buttons below each post. If you hit 'Like' your name will appear in the list of users who liked that post. The post will also go to your 'Liked' folder."
         img4_p2: "If you choose to share the post, all your contacts will immediately see it. You can also post your shares to your Facebook timeline (visit Settings to enable that)."
       discuss:
