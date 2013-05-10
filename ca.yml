@@ -40,7 +40,7 @@ ca:
       signed_up_but_inactive: "Us heu donat d'alta, però no us podeu connectar fins que s'hagi activat el vostre compte."
       signed_up_but_locked: "Us heu donat d'alta, però no us podeu connectar donat que el vostre compte està bloquejat."
       updated: "Heu actualitzat el vostre compte."
-      update_needs_confirmation: "Heu actualitzat el vostre compte, però hem de verificar la vostra adreça de correu electrònic. Comproveu el vostre cooreu i cliqueu l'enllaç per confirmar la vostra adreça."
+      update_needs_confirmation: "Heu actualitzat el vostre compte, però hem de verificar la vostra adreça de correu electrònic. Comproveu el vostre correu i cliqueu l'enllaç per confirmar la vostra adreça."
       destroyed: "Adéu! El vostre compte s'ha cancel·lat. Esperem tornar-vos a veure aviat."
     unlocks:
       send_instructions: "En uns minuts rebreu un correu electrònic sobre com desbloquejar el vostre compte."
@@ -89,7 +89,7 @@ ca:
     trending: "el més llegit del dia"
     qa:
       -
-        :title: "Qué fa?"
+        :title: "Què fa?"
         :text: "Us permet fullejar la vostra dosi diària de continguts, amb l'alegre detall d'allò que els vostres amics comparteixin, amb notes i comentaris"
       -
         :title: "Puc transferir les meves subscripcions?"
