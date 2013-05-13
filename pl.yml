@@ -1,0 +1,490 @@
+pl:
+  # Devise
+  errors:
+    messages:
+      expired: "przeterminowane, spróbuj jeszcze raz"
+      not_found: "nieznalezione"
+      already_confirmed: "zostało już potwierdzone, spróbuj się zalogować"
+      not_locked: "nie było zablokowane"
+      not_saved:
+        one: "Zapisanie „%{resource}” nie udało się z powodu jednego błędu:"
+        few: "Zapisanie „%{resource}” nie udało się z powodu %{count} błędów:"
+        many: "Zapisanie „%{resource}” nie udało się z powodu %{count} błędów:"
+        other: "Zapisanie „%{resource}” nie udało się z powodu %{count} błędów:"
+  
+  devise:
+    failure:
+      already_authenticated: "Jesteś już zalogowany."
+      unauthenticated: "Najpierw musisz się zalogować."
+      unconfirmed: "Najpierw musisz potwierdzić swoje konto."
+      locked: "Twoje konto jest zablokowane."
+      invalid: "Nieprawidłowe hasło lub e-mail."
+      invalid_token: "Nieprawidłowy klucz uwierzytelnienia."
+      timeout: "Twoja sesja przeterminowała się. Zaloguj ponownie."
+      inactive: "Twoje konto nie zostało jeszcze aktywowane."
+    sessions:
+      signed_in: "Poprawnie zalogowano."
+      signed_out: "Poprawnie wylogowano."
+    passwords:
+      send_instructions: "W ciągu paru minut otrzymasz e-mail z instrukcją postępowania w celu zmiany hasła."
+      updated: "Hasło zmienione poprawnie. Jesteś zalogowany."
+      updated_not_active: "Hasło zmienione poprawnie."
+      send_paranoid_instructions: "O ile twój e-mail znajduje się w bazie danych, w ciągu paru minut otrzymasz wiadomość z instrukcją postępowania w celu odzyskania hasła."
+    confirmations:
+      send_instructions: "W ciągu paru minut otrzymasz e-mail z instrukcją postępowania w celu potwierdzenia konta."
+      send_paranoid_instructions: "O ile twój e-mail znajduje się w bazie danych, w ciągu paru minut otrzymasz wiadomość z instrukcją postępowania w celu potwierdzenia konta."
+      confirmed: "Konto potwierdzone. Jesteś zalogowany."
+    registrations:
+      signed_up: "Rejestracja przebiegła pomyślnie."
+      signed_up_but_unconfirmed: "Na twój adres e-mail została wysłana wiadomość z linkiem potwierdzającym. Otwórz go, aby potwierdzić konto."
+      signed_up_but_inactive: "Rejestracja przebiegła pomyślnie, jednak nie możesz się zalogować, ponieważ twoje konto jeszcze nie zostało aktywowane."
+      signed_up_but_locked: "Rejestracja przebiegła pomyślnie, jednak nie możesz się zalogować, ponieważ twoje konto jest zablokowane."
+      updated: "Konto zaktualizowane poprawnie."
+      update_needs_confirmation: "Konto zaktualizowane poprawnie. Aby potwierdzić nowy adres, kliknij w link który otrzymasz w wiadomości."
+      destroyed: "Twoje konto zostało usunięte. Mamy jednak nadzieję, że wkrótce zawitasz ponownie."
+    unlocks:
+      send_instructions: "W ciągu paru minut otrzymasz e-mail z instrukcją postępowania w celu odblokowania konta."
+      unlocked: "Twoje konto zostało odblokowane. Teraz możesz się zalogować."
+      send_paranoid_instructions: "O ile twoje konto istnieje, w ciągu paru minut otrzymasz e-mail z instrukcją postępowania w celu odblokowania."
+    omniauth:
+      success: "Poprawnie uwierzytelniono przez konto %{kind}."
+      failure: "Uwierzytelnienie przez konto %{kind} nie powiodło się z następującego powodu: %{reason}."
+    mailer:
+      confirmation_instructions:
+        subject: "Potwierdzenie konta"
+      reset_password_instructions:
+        subject: "Reset hasła"
+      unlock_instructions:
+        subject: "Odblokowywanie konta"
+  
+  # Reader
+  app: "The Old Reader"
+  eggs: "Kotki ♥"
+  title: "The Old Reader"
+  meta:
+    description: "Najlepszy czytnik kanałów RSS. Inspirowany dawnym Google Readerem, ale jeszcze usprawniony. Zaimportuj swoje subskrypcje, odnajdź znajomych z Facebooka i dziel się."
+    keywords: "the old reader"
+  landing:
+    topmenu:
+      -
+        :title: "Twitter"
+        :url: "https://twitter.com/#!/theoldreader"
+      -
+        :title: "Facebook"
+        :url: "https://www.facebook.com/theoldreader"
+      - 
+        :title: "Blog"
+        :url: "http://blog.theoldreader.com/"
+      - 
+        :title: "Kontakt"
+        :url: "http://blog.theoldreader.com/about"
+    sign_in:
+      title: "Zaloguj się przez:"
+      google: "Google"
+      facebook: "Facebook"
+      login: "Zaloguj"
+      register: "Zarejestruj"
+      password: "Odzyskiwanie hasła"
+      change_password: "Zmień hasło"
+    welcome: 
+      - "The Old Reader. Doskonały czytnik RSS. Jest taki, jak stary Google Reader, tylko jeszcze lepszy. Obecnie w fazie beta, stale usprawniany i uzupełniany o nowe funkcjonalności."
+      - "Możesz od razu zarejestrować się i po kilku kliknięciach zacząć używać The Old Readera. Jeśli jednak jeszcze nie jesteś przekonany, przeczytaj nasz %tour% albo zobacz %trending%."
+    tour: "przewodnik"
+    trending: "najlepsze posty dnia"
+    qa:
+      -
+        :title: "Jak to działa?"
+        :text: "Czytnik pozwala przejrzeć codzienną porcję nowości z twoich ulubionych źródeł informacji, uzupełnioną o polecenia znajomych, ich notatki i komentarze"
+      -
+        :title: "Czy mogę przenieść swoje subskrypcje?"
+        :text: "Tak, możesz zaimportować listę kanałów które subskrybujesz bezpośrednio z Google Readera, albo zaimportować plik OPML, jeśli jesteś czuły na punkcie zasad bezpieczeństwa."
+      -
+        :title: "Jak znajdę swoich znajomych wśród użytkowników?"
+        :text: "Pracujemy nad usprawnieniem mechanizmu sugerowania znajomych. Póki co możesz wyszukiwać ich ręcznie, albo sprawdzić kto z twoich kontaktów na Facebooku lub na koncie Google używa już The Old Readera. Poza tym za każdym razem kiedy ktoś zacznie cię obserwować, powiadomimy cię e-mailem."
+      -
+        :title: "Czy macie aplikację mobilną?"
+        :text: "<em>Na razie</em> jeszcze nie jest gotowa, ale zgodnie z naszą wcześniejszą obietnicą zaczęliśmy prace, kiedy w październiku 2012 liczba naszych użytkowników przekroczyła 5000. Już teraz jednak standardowa wersja naszej strony działa całkiem dobrze na urządzeniach przenośnych."
+      -
+        :title: "Czy będziecie zaśmiecać mojego Facebooka jak niektóre aplikacje?"
+        :text: "W żadnym wypadku! Możesz umieszczać posty na swojej osi czasu, ale jeśli sam tego nie zrobisz, wszystkie udostępnienia, polubienia i komentarze pozostaną tylko w The Old Readerze. Nigdy niczego nie będziemy publikować w twoim imieniu."
+      -
+        :title: "W jakim celu powstał The Old Reader?"
+        :text: "Bardzo brakowało nam starego dobrego interfejsu czytnika, więc stworzyliśmy The Old Readera na użytek własny i naszych znajomych. Jesteśmy zadowoleni z efektu, więc dzielimy się nim ze wszystkimi."
+    supported: "Dzięki życzliwemu wsparciu"
+  user:
+    profile: "Profil"
+    logout: "Wyloguj"
+    settings: "Ustawienia"
+    failure: "Konto %{kind}, którego próbujesz w tej chwili użyć, zostało już połączone z innym kontem w The Old Readerze. Rozłącz je, a następnie spróbuj ponowić działanie."
+    wrong_auth: "Wystąpił błąd. Skontaktuj się z nami: hello@theoldreader.com"
+    becomes_active_notice: "Nie zaglądałeś do The Old Readera przez pewien czas, więc zachowaliśmy dla ciebie tylko najświeższe posty."
+  feeds:
+    no_feeds:
+      text: "Nie masz jeszcze żadnych subskrypcji. Zacznij korzystać i %{subscribe} nowe kanały (polecamy <a href='http://blog.theoldreader.com/rss' class='feed-subscribe'>naszego bloga</a> z nowościami) albo %{import} swoje subskrypcje.<br />Jeśli chcesz dowiedzieć się więcej, %{tour}."
+      subscribe: "subskrybuj"
+      import: "importuj"
+      tour: "przeczytaj przewodnik"
+    no_posts: "Nie ma tu jeszcze żadnych postów"
+    no_posts_filler: "Nie ma więcej postów. Najwyraźniej przeczytałeś już wszystkie."
+    subscribe: "Subskrybuj"
+    add_subscription: "Dodaj kanał"
+    add: "Dodaj"
+    url: "URL kanału"
+    invalid_url: "Podałeś niepoprawny URL"
+    empty_url: "Nie podałeś adresu URL"
+    loading: "Ładowanie…"
+    default_folder: "Subskrypcje"
+    feeds: "Kanały"
+    feeds_count:
+      one: "kanał"
+      few: "kanały"
+      many: "kanałów"
+      other: "kanału"
+    posts_count:
+      one: "post"
+      few: "posty"
+      many: "postów"
+      other: "posta"
+    your_posts: "Nieprzeczytane posty: <em>%{unread}</em>."
+    refresh: "Odśwież"
+    unsubscribe: "Cofnij subskrypcję"
+    unsubscribe_confirm: "Czy na pewno chcesz cofnąć subskrypcję? Udostępnione i polubione przez ciebie posty z tego kanału nie zostaną usunięte."
+    ago: "temu"
+    never: "Nigdy"
+    confirm: "Czy na pewno?"
+    mark_all_read: "Oznacz wszystkie jako przeczytane"
+    search: "Szukaj"
+    search_limits: "Zapytanie, którego użyłeś, jest bardzo popularne, dlatego musieliśmy ograniczyć liczbę pokazywanych wyników. Jeśli chcesz zobaczyć wszystkie wyniki, musisz zawęzić swoje zapytanie."
+    mark_read: "Ozn. jako przeczytane"
+    mark_unread: "Ozn. jako nieprzeczytane"
+    share: "Udostępnij"
+    shared: "Udostępnione"
+    unshare: "Przestań udostępniać"
+    following: "Obserwowani"
+    attach_note: "Tu możesz dodać notatkę."
+    attach: "Zapisz notatkę"
+    comments:
+      one: "%{count} komentarz"
+      few: "%{count} komentarze"
+      many: "%{count} komentarzy"
+      other: "%{count} komentarza"
+    comment: "Skomentuj"
+    comment_text: "Napisz komentarz"
+    comment_destroy_confirm: "Czy na pewno chcesz usunąć ten komentarz?"
+    comment_destroy_text: "Komentarz usunięty przez użytkownika."
+    post_author: "― <strong>%{author}</strong>"
+    drop_add_folder: "Upuść tu, aby dodać nowy folder"
+    new_folder: "Nowy folder"
+    like: "Lubię"
+    unlike: "Nie lubię"
+    likes_count:
+      zero: "Lubią to: %{users}."
+      one: "%{users} i jeszcze jedna osoba lubią to."
+      few: "%{users} i %{count} innych lubią to."
+      many: "%{users} i %{count} innych lubią to."
+      other: "%{users} i %{count} innych lubią to."
+    feed: "Adres kanału"
+    site: "Adres strony"
+    enclosure_url: "Pokaż załączony plik (%{size}, %{type})"
+    pocket: "Pocket"
+    unpocket: "Unpocket"
+    pocket_error: "Błąd"
+  home:
+    following: "Najnowsze od twoich znajomych"
+    updated: "Świeżo zaktualizowane"
+    dead: "Wymarłe kanały"
+    tips:
+      title: "Podpowiedzi"
+      items:
+        - "Aby zobaczyć dostępne skróty klawiszowe, naciśnij „?” albo „H”."
+        - "Przeciągaj i upuszczaj kanały żeby ułożyć je w innej kolejności lub utworzyć nowy folder."
+        - "Aby zmienić nazwę kanału lub folderu − podwójnie na nim kliknij."
+        - "Użyj „http://theoldreader.com/feeds/subscribe?url=%s” w rozszerzeniach lub w ustawieniach twojej przeglądarki, żeby subskrybować kanały jednym kliknięciem."
+  pages:
+    home: "Główna"
+    all: "Wszystkie"
+    liked: "Polubione"
+    shared: "Udostępnione"
+    followed: "Obserwowani"
+    import: "Importuj"
+    search: "Szukaj"
+    settings: "Ustawienia"
+    profile: "Profil"
+    friends: "Znajdź znajomych"
+    commented: "Skomentowane"
+    privacy: "Prywatność"
+    trending: "Popularne"
+    donate: "Wesprzyj"
+    tour: "Przewodnik"
+    blog: "Blog"
+    status: "Stan serwera"
+    community: "Wsparcie społeczności"
+  settings:
+    name: "Dane osobowe"
+    username: "Nazwa użytkownika"
+    email: "E-mail"
+    password: "Hasło"
+    password_confirmation: "Potwierdź hasło"
+    password_notice: "Aby nie zmieniać, zostaw puste"
+    ui:
+      title: "Interfejs"
+      click_to_scroll: "Przewijaj ekran do klikniętego posta"
+      scroll_to_read: "Przy przewijaniu oznaczaj minięte jako przeczytane"
+      sidebar_unread_only: "Pokaż tylko foldery i kanały z nieprzeczytanymi postami"
+      locale: "Język"
+    feed_display_mode:
+      title: "Tryb wyświetlania kanału"
+      all: "Wszystkie posty"
+      unread: "Tylko nieprzeczytane"
+    feed_list_mode:
+      title: "Tryb wyświetlania postów"
+      full: "Pełen widok"
+      list: "Widok listy"
+    sort_mode:
+      title: "Kolejność postów"
+      normal: "Najnowsze na górze"
+      reverse: "Najstarsze na górze"
+    social: "Ustawienia społecznościowe"
+    notify_when_followed: "Powiadom e-mailem kiedy ktoś zacznie obserwować"
+    share_timeline: "Publikuj udostępniane na Facebooku"
+    connect_share_timeline: "Połącz z Facebookiem, aby publikować udostępniane"
+    show_fb_profile: "Pokaż w profilu link do konta na Facebooku"
+    save: "Zapisz zmiany"
+    cancel_disabled: "Nie można usunąć konta dopóki trwa import, prosimy o cierpliwość."
+    cancel_account:
+      text: "Niezadowolony? W każdej chwili możliwy jest %{export} w formacie OPML, a także %{cancel}."
+      export: "eksport kanałów"
+      cancel: "usunięcie konta"
+      confirm: "Czy na pewno?"
+    pocket:
+      title: "Integracja z Pocket"
+      description: "<a href='http://getpocket.com/'>Pocket</a> (dawniej pod nazwą „Read It Later”) to aplikacja służąca do przechowywania treści, do których chciałbyś wrócić później. Umożliwia także dowolne sortowanie ich i stosowanie tagów."
+      connect: "Połącz z Pocket"
+      account: "Twoje konto: <strong>%{username}</strong>"
+  import:
+    title: "Importuj"
+    alert: "<b>Aby zaimportować swoje subskrypcje z Google Readera, podaj nazwę użytkownika i hasło do konta Google.</b><br />Nie będziemy przechowywać twoich danych logowania. Zostaną one użyte wyłącznie do pobrania twoich subskrypcji."
+    opml: "<b>Wybierz plik OPML</b><br />Możesz pobrać go ze strony ustawień Google Readera.<br />Po pobraniu archiwum, rozpakuj je i użyj pliku <b>subscriptions.xml</b> ."
+    email: "E-mail"
+    password: "Hasło"
+    import: "Importuj"
+    started: "Import subskrypcji to dość mocno obciążająca procedura, dlatego nasz system dopuszcza ograniczoną ilość takich operacji w tym samym czasie. Ponieważ w tej chwili nasze serwery są zajęte, import twoich subskrypcji umieściliśmy w kolejce."
+    queued: "Dziękujemy za wysłanie nam pliku OPML. Niebawem zaczniemy import twoich subskrypcji."
+    queued_notice: "Twoje zlecenie zaimportowania subskrypcji czeka w kolejce. Przed tobą stoi jeszcze: <strong>%{count}</strong>."
+    processing: "Twoje kanały są importowane w tle."
+    error: "Wystąpił błąd"
+    opml_empty: "Wysłałeś albo uszkodzony, albo pusty plik OPML."
+    too_many_feeds: "Z przyczyn technicznych, zaimportujemy tylko pierwsze 1000 twoich kanałów."
+    cancel: "Anuluj importowanie"
+  profile:
+    follow: "Obserwuj"
+    unfollow: "Przestań obserwować"
+    thats_you: "To ty!"
+    following: 
+      one: "Obserwuje <strong>%{count}</strong> osobę"
+      few: "Obserwuje <strong>%{count}</strong> osoby"
+      many: "Obserwuje <strong>%{count}</strong> osób"
+      other: "Obserwuje <strong>%{count}</strong> osoby"
+    followers:
+      one: "Obserwowany przez <strong>%{count}</strong> osobę"
+      few: "Obserwowany przez <strong>%{count}</strong> osoby"
+      many: "Obserwowany przez <strong>%{count}</strong> osób"
+      other: "Obserwowany przez <strong>%{count}</strong> osoby"
+    me_following: "Obserwujesz: <strong>%{count}</strong>"
+    my_followers: "Obserwują cię: <strong>%{count}</strong>"
+    posts: "Udostępnione posty"
+    your_profile: "Twój profil"
+    facebook: "Facebook (%{name})"
+    new: "Nowe"
+    new_followers:
+      one: "%{count} nowy"
+      few: "%{count} nowych"
+      many: "%{count} nowych"
+      other: "%{count} nowego"
+    rss: "Posty udostępnione w The Old Readerze przez: %{name} (RSS)"
+  friends:
+    follow: "Obserwuj swoich znajomych, którzy korzystają z The Old Readera"
+    found:
+      one: "Znaleziono %{count} osobę"
+      few: "Znaleziono %{count} osoby"
+      many: "Znaleziono %{count} osób"
+      other: "Znaleziono %{count} osoby"
+    facebook: "Zaloguj przez Facebook"
+    google: "Zaloguj przez Google"
+  notifier:
+    followed:
+      subject: "%{name} od teraz obserwuje cię"
+      body: |
+        Czołem, %{followed}!
+        
+        %{name} obserwuje Cię od teraz. Czyż nie uroczo?
+        Zobacz profil tej osoby tu: %{profile}.
+        
+        --
+        Robot pocztowy The Old Reader.
+        Wyłączyć powiadomienia możesz na swojej stronie ustawień.
+        %{host}
+    import:
+      subject: "Twoje kanały RSS czekają na ciebie!"
+      body: |
+        Czołem, %{name}!
+        
+        Mamy przyjemność poinformować Cię, że zakończyliśmy importowanie
+        Twoich subskrypcji. Twoje kanały (%{count}), czekają na Ciebie
+        pod adresem: %{host}.
+        
+        Dziękujemy za korzystanie z The Old Readera.
+        
+        --
+        Robot pocztowy The Old Reader.
+        %{host}
+    confirmation:
+      body: |
+        Czołem, %{name}!
+        
+        Możesz potwierdzić swój adres e-mail klikając w poniższy link:
+        %{link}
+        
+        --
+        Robot pocztowy The Old Reader.
+        %{host}
+    password:
+      body: |
+        Czołem, %{name}!
+        
+        Ktoś zlecił przysłanie linka resetującego Twoje hasło, oto on:
+        %{link}
+        Jeśli to nie byłeś Ty, zignoruj ten e-mail. Twoje hasło nie zos-
+        tanie zmienione, dopóki nie klikniesz w powyższy link.
+        
+        --
+        Robot pocztowy The Old Reader.
+        %{host}
+  shortcuts:
+    header: "Skróty klawiaturowe"
+    note: "*Działa tylko w Chrome, Safari i Operze."
+    pages:
+      title: "Nawigacja po stronach"
+      body: |
+        Shift + N: następny kanał lub folder
+        Shift + P: poprzedni kanał lub folder
+        Shift + X: zwiń/rozwiń zaznaczony folder
+        Shift + O: otwórz zaznaczony kanał lub folder
+        G, następnie H: strona domowa
+        G, następnie A: wszystkie
+        G, następnie L: polubione
+        G, następnie S: udostępnione
+        G, następnie T: popularne
+        G, następnie C: komentowane
+        G, następnie F: obserwowane
+    other:
+      title: "Pozostałe skróty"
+      body: |
+        R: odśwież bieżące okno
+        /: przeskocz do szukania
+        A: dodaj nową subskrypcję
+        ? lub H: pokaż to okno
+    posts:
+      title: "Operacje na postach"
+      body: |
+        Spacja: przewiń w dół
+        Shift + spacja: przewiń w górę
+        Shift + A: oznacz wszystkie jako przeczytane
+        J lub N: następny post
+        K lub P: poprzedni post
+        O: otwórz post w nowej karcie
+        B: otwórz post w nowej karcie w tle*
+        X: zwiń/rozwiń post (w widoku listy)
+        L: polub post
+        S: udostępnij post
+        M: oznacz post jako przeczytany/nieprzeczytany
+        F: dodaj post do Pocket
+        C: dodaj komentarz
+        1: przełącz na pełen widok
+        2: przełącz na widok listy
+  alerts:
+    common: "Serwer niedostępny, spróbuj ponownie później"
+    posts: "Załadowanie postów niemożliwe"
+  page_content:
+    community:
+      title: "Wsparcie społeczności"
+      p1: "Jesteśmy bardzo szczęśliwi z posiadania oddanej społeczności użytkowników, którzy stale wspierają nas w rozwijaniu projektu. Poniżej znajduje się kilka linków to zasobów stworzonych i wspieranych przez naszą społeczność."
+      translations:
+        title: "Tłumaczenia"
+        pre_link: "The Old Reader został przetłumaczony na wiele języków. Tłumaczenia trzymamy w "
+        link: "publicznie dostępnym repozytorium GitHub"
+        post_link: " aby każdy chętny mógł wnieść swój wkład."
+      extensions:
+        title: "Rozszerzenia przeglądarek"
+        p1: "Istnieje kilka rozszerzeń, które pomagają śledzić nowości."
+        source_code: "kod źródłowy"
+        chrome: "rozszerzenie dla Google Chrome"
+        chrome_author: "― Anton Tolchanov"
+        chromeapp: "aplikacja dla Google Chrome"
+        chromeapp_author: "― Enrico Bacis"
+        safari: "rozszerzenie dla Safari"
+        safari_author: "― Dmitry Kranoukhov"
+        opera: "rozszerzenie dla Opery"
+        opera_author: "― Lazare Inepologlou"
+        firefox: "dodatek dla Firefoksa"
+        firefox_author: "― Tomek Wasiak"
+      themes:
+        title: "Nieoficjalne modyfikacje wyglądu"
+        pre_link: "Nasi użytkownicy stworzyli specjalne skrypty, zmieniające wygląd The Old Readera. Nie ma żadnej gwarancji że będą one zawsze działać i nie zepsują wyglądu strony, ale jeśli nie boisz się spróbować, znajdziesz je pod adresem "
+        post_link: "."
+      requests:
+        title: "Propozycje usprawnień"
+        pre_link: "Głosować za propozycjami usprawnień (lub zgłaszać swoje własne) można na "
+        link: "naszej stronie Uservoice"
+        post_link: ". Zanim jednak napiszesz własną propozycję, przeszukaj dokładnie już istniejące − niewykluczone że ktoś zgłosił ją już przed tobą. Tworzenie duplikatów zmniejsza szanse propozycji na znalezienie się wysoko na liście, ponieważ konkurują one o głosy użytkowników także między sobą."
+      forums:
+        title: "Forum społeczności"
+        pre_link: "Stworzyliśmy "
+        link: "forum na stronie yuku.com"
+        post_link: ", aby umożliwić naszym użytkownikom komunikację. Zapraszamy do dołączenia: można tam prosić o pomoc, dyskutować i dzielić się swoimi przemyśleniami."
+    donate:
+      title: "Wsparcie"
+      p1: "Czytnik RSS wymaga wbrew pozorom sporych zasobów. Chociaż może wydawać się że to prosta strona, to odświeżanie kilku milionów kanałów (niektórych nawet co 5 minut) jest sporym obciążeniem. Nasz serwer nie jest tani i w żadnym wypadku nie bylibyśmy w stanie utrzymać go bez wsparcia naszych wspaniałych użytkowników."
+      p2: "Możecie wesprzeć nas finansowo, i tym samym podtrzymać projekt przy życiu, na kilka sposobów:"
+      flattr:
+        pre_link: "Używając serwisu "
+        link1: "Flattr"
+        inbetween: ". To prosta metoda przekazywania pieniędzy ulubionym autorom i serwisom. Możecie przesłać nam konkretną sumę pieniędzy albo kliknąć guzik „flattr”, a wtedy wasz miesięczny budżet zostanie rozdysponowany między nas i inne projekty, które zdecydowaliście się wesprzeć w ciągu danego miesiąca. Możecie także zasubskrybować "
+        link2: "nasze konto Flattr"
+        post_link: ", co spowoduje że będziemy znajdować się w waszym budżecie co miesiąc."
+      bitcoins: "Dla dbających o prywatność − przyjmujemy także bitcoiny"
+      additional:
+        pre_link: "Niestety, przepisy prawa nie pozwalają nam umieścić formularza Paypal na stronie. Jeśli jednak chciałbyś przekazać nam znaczną sumę pieniędzy, a z jakichś przyczyn nie możesz użyć Flattra ani bitcoinów, "
+        link: "napisz do nas"
+        post_link: ", a zorganizujemy możliwość przesłania darowizny."
+      thanks: "Bardzo cenimy sobie wasze wsparcie i pomoc! Kotek również docenia:"
+    tour:
+      title: "The Old Reader 101"
+      add_feeds:
+        title: "Dodaj kanały"
+        p1: "Twoje nowe konto w The Old Readerze jest na początku puste, dlatego pierwszą rzeczą którą powinieneś zrobić, jest dodanie kanałów które chciałbyś czytać."
+        img1: "Użyj przycisku „Dodaj kanał”, aby zasubskrybować nowe źródło postów. Jeśli podasz link prowadzący do strony, a nie bezpośrednio do kanału, automatycznie dodamy pierwszy znajdujący się na niej kanał RSS."
+        img2: "Jeśli przenosisz się z Google Readera, lub innego czytnika RSS który potrafi eksportować listę subskrypcji do pliku OPML, możesz przenieść do nas wszystkie swoje kanały za pomocą importowania. Przeniesiemy nawet twoje foldery, żebyś od razu poczuł się jak w domu."
+      organize:
+        title: "Uporządkuj kanały"
+        img1: "Żeby zmienić kolejność i położenie kanałów oraz folderów, przeciągaj je. Jeśli chcesz utworzyć nowy folder − nic prostszego, po prostu przeciągnij kanał do pustego miejsca za twoim ostatnim folderem. Foldery nie zawierające kanałów są od razu usuwane."
+        img2: "Aby zmienić nazwę kanału lub folderu, kliknij podwójnie."
+      read:
+        title: "Czytaj posty"
+        img1: "Z menu po lewej wybierz, co chcesz czytać. Możesz także, klikając na folder, przeglądać zawartość wszystkich znajdujących się w nim kanałów."
+        img2: "Dzięki przyciskom nawigacji możesz poruszać się między kolejnymi postami za pomocą pojedynczego kliknięcia. Możesz także włączyć „widok listy” w którym posty są zwinięte, a ty możesz przejrzeć same tytuły i rozwinąć wyłącznie te, które cię zainteresują."
+        img3: "Nawigację ułatwiają także skróty klawiaturowe. Naciśnij „?” lub „H”, aby zapoznać się z ich listą."
+        img4_p1: "Pod każdym postem znajdują się przyciski akcji. Jeśli wciśniesz „Lubię”, zaczniesz być wyświetlany wśród użytkowników lubiących post. Pojawi się on także w twoim folderze „Polubione”."
+        img4_p2: "Jeśli postanowisz udostępnić post, będzie to od razu widoczne dla wszystkich obserwujących cię. Możesz także zamieszczać udostępniane posty na swoim Facebooku, jeśli włączysz odpowiednią opcję w ustawieniach."
+      discuss:
+        title: "Dyskutuj nad postami"
+        img1: "Czytanie kanałów RSS samemu nie jest fajne. Odwiedź stronę „Znajdź znajomych”, aby zobaczyć kto z twoich kontaktów Google, lub znajomych na Facebooku, używa The Old Readera. Możesz także wyszukiwać znajomych po nazwie."
+        img2: "W folderze „Udostępnione” znajdziesz wszystkie posty którymi postanowiłeś się podzielić. To, co udostępniają twoi znajomi, znajdziesz w folderze „Obserwowani”. Tak jak w zwykłych folderach, możesz czytać albo całą jego zawartość, albo wybrać konkretną nazwę użytkownika, żeby przeczytać wszystko co konkretnie on udostępnia."
+        img3: "Możesz komentować wszystkie udostępnione przez znajomych posty − po prostuj kliknij „Komentuj” i dołącz do dyskusji."
+      finally:
+        title: "Pytania?"
+        pre_link: "Zajrzyj do naszej "
+        link1: "bazy wiedzy"
+        inbetween: " i nie krępuj się poprosić o pomoc na naszym "
+        link2: "forum"
+        post_link: ", jeśli coś jest dla ciebie niejasne."
