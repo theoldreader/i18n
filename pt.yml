@@ -62,7 +62,6 @@ pt:
   eggs: "Nós ♥ gatinhos"
   title: "The Old Reader"
   meta:
-    description: "É o leitor de RSS definitivo. Quase igual ao antigo Google Reader, só que melhor. Importe suas assinaturas em um clique, encontre seus amigos do Facebook e comece a compartilhar."
     keywords: "the old reader"
   landing:
     topmenu:
@@ -86,9 +85,6 @@ pt:
       register: "Registrar"
       password: "Esqueceu sua senha?"
       change_password: "Alterar sua senha"
-    welcome: 
-      - "Bem vindo ao Old Reader, o leitor de RSS definitivo. Quase igual ao antigo Google Reader, só que melhor. Nós estamos em Beta no momento, mas estamos trabalhando constantemente em melhorias e novas funcionalidades."
-      - "Você pode se conectar e começar a usar o Old Reader com um único clique. Entretanto, se você for muito tímido ou tímida, por favor esteja a vontade para espiar nosso %tour% ou %trending%."
     tour: "tour"
     trending: "postagens mais populares de hoje"
     qa:

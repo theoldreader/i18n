@@ -62,7 +62,7 @@ en:
   eggs: "We ♥ kittens"
   title: "The Old Reader"
   meta:
-    description: "It's the ultimate RSS reader. Just like the old google reader, only better. Import your subscriptions in one click, find your Facebook friends and start sharing."
+    description: "It's the ultimate RSS reader. Import your subscriptions in one click, find your friends, and start sharing."
     keywords: "the old reader"
   landing:
     topmenu:
@@ -86,8 +86,8 @@ en:
       register: "Register"
       password: "Forgot password?"
       change_password: "Change password"
-    welcome: 
-      - "Welcome to The Old Reader, the ultimate social RSS reader. It's just like the old google reader, only better. We're in beta right now, but we're constantly working on improvements and new features."
+    welcome:
+      - "Welcome to The Old Reader, the ultimate social RSS reader. We're in beta right now, but we're constantly working on improvements and new features."
       - "You can sign in and start using The Old Reader with a single click. However, if you are too shy, please feel free to see our %tour% or peek at the %trending%."
     tour: "Howto"
     trending: "top posts of the day"

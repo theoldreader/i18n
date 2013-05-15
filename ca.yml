@@ -62,7 +62,6 @@ ca:
   eggs: "♥ Oh! Gatets! ♥"
   title: "The Old Reader"
   meta:
-    description: "És el lector RSS definitiu. Igualet que l'antic Google Reader, només que millor. Importeu les vostres subscripcions en un clic, trobeu els vostres amics de Facebook i comenceu a compartir."
     keywords: "l'antic reader the old reader"
   landing:
     topmenu:
@@ -82,9 +81,6 @@ ca:
       title: "Incia sessió amb:"
       google: "Google"
       facebook: "Facebook"
-    welcome: 
-      - "Us donem la benvinguda a The Old Reader, el lector RSS definitiu. Igualet que l'antic Google Reader, només que millor. Ara mateix estem en beta, però treballem constantment en noves característiques i millores."
-      - "Podeu connectar-te i usar The Old Reader amb un clic. Si sou massa tímid podeu provar el nostre %tour% o donar un cop d'ull a allò més llegit a %trending%."
     tour: "tour"
     trending: "el més llegit del dia"
     qa:
@@ -223,7 +219,6 @@ ca:
     ui:
       title: "Interfície d'usuari"
       click_to_scroll: "En fer clic a un article us trasllada fins ell"
-      scroll_to_read: "Avançant pels articles els va marcant com a llegits (en vista completa)"
       sidebar_unread_only: "Mostra només els fluxos o carpetes amb articles sense llegir"
       locale: "Llengua"
     feed_display_mode:
@@ -330,5 +325,3 @@ ca:
         -- 
         El robot de The Old Reader.
         %{host}
-    changes:
-      subject: "Nota important sobre els articles marcats amb estrella"

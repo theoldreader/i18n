@@ -62,7 +62,6 @@ ch:
   eggs: "We ♥ kittens"
   title: "The Old Reader"
   meta:
-    description: "RSS阅读器的绝佳之选。她看起来就像是经典版的Google Reader，但远不止如此。一键导入订阅，找到你的Facebook好友，开始分享。"
     keywords: "the old reader"
   landing:
     topmenu:
@@ -82,9 +81,6 @@ ch:
       title: "登录:"
       google: "Google"
       facebook: "Facebook"
-    welcome: 
-      - "欢迎来到The Old Reader，RSS阅读器的绝佳之选。她看起来就像是经典版的Google Reader，但远不止如此。The Old Reader仍处在测试阶段，而我们正在努力改善用户体验并添加新功能。"
-      - "你可以一键登录并开始使用The Old Reader。如果你不确定The Old Reader是否符合你的口味，不妨先看看%tour%和%trending%。"
     tour: "新手入门"
     trending: "每日热门"
     qa:
@@ -197,11 +193,6 @@ ch:
         - "在菜单中拖拽供稿可以为他们重新排序，或创建一个新文件夹。"
         - "双击一个供稿或文件夹来重命名。"
         - "在RSS订阅扩展或Firefox阅读器中，通过'http://theoldreader.com/feeds/subscribe?url=%s'来一键订阅新的供稿。"
-    aboutus:
-      title: "关于我们"
-      text: "如果有任何意见和建议，请<a href='mailto:hello@theoldreader.com'>发邮件</a>联系我们。你也可以在<a href='https://twitter.com/#！/theoldreader'>twitter</a>关注我们或者访问<a href='http://blog.theoldreader.com/'>我们的博客</a>。"
-    plugins:
-      title: "浏览器扩展"
   pages:
     home: "主页"
     all: "所有条目"
@@ -220,7 +211,6 @@ ch:
     tour: "入门"
     blog: "博客"
     status: "服务器状态"
-    requests: "建议与反馈"
   settings:
     name: "昵称"
     username: "用户名"
@@ -335,5 +325,3 @@ ch:
         -- 
         The Old Reader robot.
         %{host}
-    changes:
-      subject: "关于加星标的条目"

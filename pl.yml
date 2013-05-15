@@ -62,7 +62,6 @@ pl:
   eggs: "Kotki ♥"
   title: "The Old Reader"
   meta:
-    description: "Najlepszy czytnik kanałów RSS. Inspirowany dawnym Google Readerem, ale jeszcze usprawniony. Zaimportuj swoje subskrypcje, odnajdź znajomych z Facebooka i dziel się."
     keywords: "the old reader"
   landing:
     topmenu:
@@ -86,9 +85,6 @@ pl:
       register: "Zarejestruj"
       password: "Odzyskiwanie hasła"
       change_password: "Zmień hasło"
-    welcome: 
-      - "The Old Reader. Doskonały czytnik RSS. Jest taki, jak stary Google Reader, tylko jeszcze lepszy. Obecnie w fazie beta, stale usprawniany i uzupełniany o nowe funkcjonalności."
-      - "Możesz od razu zarejestrować się i po kilku kliknięciach zacząć używać The Old Readera. Jeśli jednak jeszcze nie jesteś przekonany, przeczytaj nasz %tour% albo zobacz %trending%."
     tour: "przewodnik"
     trending: "najlepsze posty dnia"
     qa:
