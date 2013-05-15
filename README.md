@@ -38,3 +38,5 @@ Svenska: [alemacgo](https://github.com/alemacgo), [virkot](https://github.com/vi
 Türkçe: [canpolat](https://github.com/canpolat)
 
 Slovenčina: [mufi](https://github.com/mufi)
+
+Polski: [mrsadowski](https://github.com/mrsadowski)
