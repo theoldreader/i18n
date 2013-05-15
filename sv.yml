@@ -196,7 +196,7 @@ sv:
     tips:
       title: "Tips och råd"
       items:
-        - "Använd kortkommandon \"j\" och \"k\" för att navigera mellan inlägg. \"o\" öppnar inlägget i ett nytt fönster."
+        - "Använd kortkommandona \"j\" och \"k\" för att navigera mellan inlägg. \"o\" öppnar inlägget i ett nytt fönster."
         - "Visa fler kortkommandon: använd \"s\" för att dela ett inlägg eller \"l\" för att gilla det."
         - "Dra och släpp prenumerationer i menyn för att ordna dem eller för att skapa nya mappar."
         - "Du kan dubbelklicka på ett flöde eller mapp för att ändra namnet."
@@ -219,7 +219,7 @@ sv:
     tour: "Guidad visning"
     blog: "Blogg"
     status: "Serverstatus"
-    community: "Gemenskapresurser"
+    community: "Sociala resurser"
   settings:
     name: "Namn"
     username: "Användarnamn"
@@ -354,7 +354,7 @@ sv:
         Någon har begärt en länk för att återställa ditt lösenord, varsågod:
         %{link}
 
-        Om det var inte du som har begärt detta kan du ignorera detta e-post.
+        Om det inte var du som begärde detta kan du ignorera detta mail.
         Ditt lösenord kommer inte att ändras om du inte klickar på länken.
 
         --
@@ -362,13 +362,13 @@ sv:
         %{host}
   shortcuts:
     header: "Kortkommandon"
-    note: "*endast Chrome, Safari, Opera"
+    note: "*endast Chrome, Safari och Opera"
     pages:
       title: "Navigera på sidor"
       body: |
         shift-n: nästa prenumeration eller mapp
         shift-p: föregående prenumeration eller mapp
-        shift-x: kontrahera valda mapp
+        shift-x: minimera valda mapp
         shift-o: öppna valda prenumeration eller mapp
         g sedan h: gå hem
         g sedan a: gå till alla objekt
@@ -376,14 +376,14 @@ sv:
         g sedan s: gå till delade
         g sedan t: gå till trender
         g sedan c: gå till kommenterade
-        g sedan f: gå till följade
+        g sedan f: gå till följda
     other:
       title: "Andra kortkommandon"
       body: |
         r: uppdatera sidan
         /: fokusera på sökfältet
         a: lägg till prenumeration
-        ? eller h: vissa detta fönster
+        ? eller h: visa detta fönster
     posts:
       title: "Kortkommandon för inlägg"
       body: |
@@ -394,7 +394,7 @@ sv:
         k, p: föregående inlägg
         o: öppna inlägg i ny flik
         b: öppna inlägg i ny flik i bakgrunden*
-        x: ändra visningläge för inlägg
+        x: ändra visningsläge för inlägg
         l: gilla inlägg
         s: dela inlägg
         m: markera inlägg som läst/oläst
@@ -407,26 +407,26 @@ sv:
     posts: "Kunde inte ladda inlägg"
   page_content:
     community:
-      title: "Gemenskapresurser"
-      p1: "Vi är otroligt glada att vi har många lojala användare som hjälp oss ständigt att utveckla projektet vidare. Här finns några länkar till resurser skapades och stöddes av gemenskapet."
+      title: "Resurser för trogna användare"
+      p1: "Vi är otroligt glada att vi har många lojala användare som ständigt hjälper oss att utveckla projektet vidare. Här finns några länkar till resurser skapade och underhållna av våra mest trogna användare."
       translations:
         title: "Översättningar"
-        pre_link: "The Old Reader har översätts till många språk. Vi håller översättningar på ett "
-        link: "separata offentliga github repo"
-        post_link: " så att vem som helst kan bidra med dem."
+        pre_link: "The Old Reader har översatts till många olika språk. Översättningarna finns på "
+        link: "ett separat, offentligt, github repo"
+        post_link: " så att vem som helst kan bidra till dem."
       extensions:
         title: "Webbläsartillägg"
         p1: "Det finns några webbläsartillägg som gör det lättare att hålla koll på dina olästa objekt."
         source_code: "källkod"
-        chrome: "Google Chrome tillägg"
+        chrome: "Google Chrome-tillägg"
         chrome_author: "av Anton Tolchanov"
-        chromeapp: "Google Chrome app"
+        chromeapp: "Google Chrome-app"
         chromeapp_author: "av Enrico Bacis"
-        safari: "Safari extension"
+        safari: "Safari-tillägg"
         safari_author: "av Dmitry Kranoukhov"
-        opera: "Opera extension"
+        opera: "Opera-tillägg"
         opera_author: "av Lazare Inepologlou"
-        firefox: "Firefox addon"
+        firefox: "Firefox-tillägg"
         firefox_author: "av Tomek Wasiak"
       themes:
         title: "Inofficiella teman"
@@ -472,7 +472,7 @@ sv:
       read:
         title: "Läsa inlägg"
         img1: "Välja vad du vill läsa från menyn. Du kan klicka på en mapp för att läsa alla flöden som den inehåller."
-        img2: "Du kan gå till nästa eller förgående inlägg med navigeringsmenyn. Du kan också ändra visningsläge till listvisning. Det kontraherar alla inlägg så du kan skymta genom artiklarna som du är intresserad av."
+        img2: "Du kan gå till nästa eller förgående inlägg med navigeringsmenyn. Du kan också ändra visningsläge till listvisning. Det minimerar alla inlägg så du kan skymta genom artiklarna som du är intresserad av."
         img3: "Du kan även använda kortkommandon för att navigera. Tryck på '?' eller 'h' för att se listan."
         img4_p1: "Det finns funktionsknappar under varje inlägg. On du trycker på 'Gilla' kommer ditt namn att stå på listan av användare som gillade inlägget. Inlägget kommer också att finnas i din 'Liked' mapp."
         img4_p2: "Om du väljer att dela inlägget kommer dina kontakter att kunna se det direkt. Du kan också dela inlägg till din Facebook tidslinje (gå till Inställningar först)."
