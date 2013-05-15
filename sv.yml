@@ -82,6 +82,10 @@ sv:
       title: "Logga in med:"
       google: "Google"
       facebook: "Facebook"
+      login: "Logga in"
+      register: "Registrera"
+      password: "Glömt lösenordet?"
+      change_password: "Ändra lösenord"
     welcome: 
       - "Välkommen till The Old Reader, den ultimata RSS-läsaren. Precis som gamla Google Reader, fast bättre. Vi är fortfarande i beta-fasen, men vi jobbar ständigt med förbättringar och nyheter."
       - "Du kan logga in och börja använda The Old Reader med bara ett klick. Om du är för blyg är du välkommen att gå igenom vår %tour% eller se vad som är %trending%."
@@ -192,7 +196,7 @@ sv:
     tips:
       title: "Tips och råd"
       items:
-        - "Använd kortkommandona \"j\" och \"k\" för att navigera mellan inlägg. \"o\" öppnar inlägget i ett nytt fönster."
+        - "Använd kortkommandon \"j\" och \"k\" för att navigera mellan inlägg. \"o\" öppnar inlägget i ett nytt fönster."
         - "Visa fler kortkommandon: använd \"s\" för att dela ett inlägg eller \"l\" för att gilla det."
         - "Dra och släpp prenumerationer i menyn för att ordna dem eller för att skapa nya mappar."
         - "Du kan dubbelklicka på ett flöde eller mapp för att ändra namnet."
@@ -220,6 +224,9 @@ sv:
     name: "Namn"
     username: "Användarnamn"
     email: "E-post"
+    password: "Lösenord"
+    password_confirmation: "Bekräfta lösenord"
+    password_notice: "Lämna tomt för att behålla det befintliga"
     ui:
       title: "Gränssnitt"
       click_to_scroll: "Om du klickar på ett inlägg tar vi dig dit"
@@ -330,5 +337,154 @@ sv:
         -- 
         The Old Reader robot.
         %{host}
-    changes:
-      subject: "Viktig meddelande om stjärnmarkta objekt"
+    confirmation:
+      body: |
+        Välkommen %{name},
+
+        Du kan bekräfta din e-postadress genom att klicka på bekräftelselänken nedan:
+        %{link}
+
+        --
+        The Old Reader robot.
+        %{host}
+    password:
+      body: |
+        Hej %{name},
+
+        Någon har begärt en länk för att återställa ditt lösenord, varsågod:
+        %{link}
+
+        Om det var inte du som har begärt detta kan du ignorera detta e-post.
+        Ditt lösenord kommer inte att ändras om du inte klickar på länken.
+
+        --
+        The Old Reader robot.
+        %{host}
+  shortcuts:
+    header: "Kortkommandon"
+    note: "*endast Chrome, Safari, Opera"
+    pages:
+      title: "Navigera på sidor"
+      body: |
+        shift-n: nästa prenumeration eller mapp
+        shift-p: föregående prenumeration eller mapp
+        shift-x: kontrahera valda mapp
+        shift-o: öppna valda prenumeration eller mapp
+        g sedan h: gå hem
+        g sedan a: gå till alla objekt
+        g sedan l: gå till gillade
+        g sedan s: gå till delade
+        g sedan t: gå till trender
+        g sedan c: gå till kommenterade
+        g sedan f: gå till följade
+    other:
+      title: "Andra kortkommandon"
+      body: |
+        r: uppdatera sidan
+        /: fokusera på sökfältet
+        a: lägg till prenumeration
+        ? eller h: vissa detta fönster
+    posts:
+      title: "Kortkommandon för inlägg"
+      body: |
+        space: scrolla ner
+        shift+mellanslag: scrolla upp
+        shift+a: markera alla som lästa
+        j, n: nästa inlägg
+        k, p: föregående inlägg
+        o: öppna inlägg i ny flik
+        b: öppna inlägg i ny flik i bakgrunden*
+        x: ändra visningläge för inlägg
+        l: gilla inlägg
+        s: dela inlägg
+        m: markera inlägg som läst/oläst
+        f: spara inlägg till Pocket
+        c: scrolla till kommentarer och öppna formuläret
+        1: ändra till full visning
+        2: ändra till listvisning
+  alerts:
+    common: "Begäran till servern misslyckades, vänligen försök igen senare"
+    posts: "Kunde inte ladda inlägg"
+  page_content:
+    community:
+      title: "Gemenskapresurser"
+      p1: "Vi är otroligt glada att vi har många lojala användare som hjälp oss ständigt att utveckla projektet vidare. Här finns några länkar till resurser skapades och stöddes av gemenskapet."
+      translations:
+        title: "Översättningar"
+        pre_link: "The Old Reader har översätts till många språk. Vi håller översättningar på ett "
+        link: "separata offentliga github repo"
+        post_link: " så att vem som helst kan bidra med dem."
+      extensions:
+        title: "Webbläsartillägg"
+        p1: "Det finns några webbläsartillägg som gör det lättare att hålla koll på dina olästa objekt."
+        source_code: "källkod"
+        chrome: "Google Chrome tillägg"
+        chrome_author: "av Anton Tolchanov"
+        chromeapp: "Google Chrome app"
+        chromeapp_author: "av Enrico Bacis"
+        safari: "Safari extension"
+        safari_author: "av Dmitry Kranoukhov"
+        opera: "Opera extension"
+        opera_author: "av Lazare Inepologlou"
+        firefox: "Firefox addon"
+        firefox_author: "av Tomek Wasiak"
+      themes:
+        title: "Inofficiella teman"
+        pre_link: "Några användare har skapat stiler som förändrar hur The Old Reader visas i din webbläsare. Det finns ingen garanti att dessa stiler kommer att fungera alltid, men om du modig kan du hitta dem på "
+        post_link: "."
+      requests:
+        title: "Funktionsförfrågan"
+        pre_link: "Du kan rösta för fuktionsförfrågan och föreslå nya på "
+        link: "vår uservoice sida"
+        post_link: ". Vänligen sök efter befintliga förfrågan innan du skapar en ny. Vi modererar inte uservoice sidan, så när du skapar en dubblett minskar du chansen att din förslag ska nå toppen, eftersom båda förslag kämpar mot varandra för rösterna."
+      forums:
+        title: "Forum"
+        pre_link: "Vi har skapat "
+        link: "några forum på yuku.com"
+        post_link: " för att våra användare ska kommunicera med varandra. Du är välkommen att gå med och fråga efter hjälp, diskutera förändringar och säga vad du tycker."
+    donate:
+      title: "Donera"
+      p1: "Att köra en RSS-läsare kräver ganska många resurser. Detta verkar som en enkel site, men vi uppdaterar flera miljoner flöden, några av dem varje femte minut. Kostnaden av servrar är ganska hög, och vi skulle inte ha råd med det utan hjälp från våra häftiga användare."
+      p2: "Det finns flera sätt att hjälpa oss ekomiskt och hålla projektet vid liv:"
+      flattr:
+        pre_link: "Använd "
+        link1: "Flattr"
+        inbetween: ". Det är ett enkelt sätt att ge pengar till tjänster som du gillar. Du kan antingen skicka oss ett fast belopp, eller trycka på \"flattr\"-knappen, och då kommer din månadsbudget att delas mellan oss och andra projekt som du har hjälpt under månaden. Du kan också prenumerera på "
+        link2: "vår Flattr-konto"
+        post_link: " som gör att du \"flattr\" oss automatiskt varje månad."
+      bitcoins: "För alla som är bekymrada över sekretess, vi haz bitcoins"
+      additional:
+        pre_link: "Vi kan tyvärr inte ha ett Paypal-form på webbsidan (juridiska skäl). Däremot, om du vill skicka oss en betydande summa pengar och kan inte använda Flattr eller bitcoins av någon anledning, vänligen "
+        link: "skicka oss ett meddelande"
+        post_link: " och vi kommer att räkna ut ett sätt för att skicka en överföring till oss."
+      thanks: "Vi är tacksamma för din hjälp! Den här kattung med:"
+    tour:
+      title: "The Old Reader 101"
+      add_feeds:
+        title: "Lägg till flöden"
+        p1: "Ditt nya The Old Reader konto är tomt, så den första saken du borde göra är att lägga till några flöden för att läsa."
+        img1: "Använd 'Lägg till en prenumeration'-knappen för att prenumerera till ett flöde. Om du använder en webbsida-URL i stället för ett direkt flöde-URL kommer vi att lägga till det första RSS-flöde från sidan automatiskt."
+        img2: "Om du migrerar från Google Reader eller en annan RSS programvara som kan exportera prenumerationer till en OPML-fil kan du använda 'Import' funktionen för att lägga till alla dina flöden. Vi kommer även att migrera alla dina mappar för att få dig att känna dig precis som hemma."
+      organize:
+        title: "Organisera flöden"
+        img1: "Det går att dra och släppa flöden och mappar för att förändra deras ställning. Det är enkelt att skapa en ny flödemapp genom att dra ett flöde till ett tomt utrymme under din sista mapp. Tomma mappar raderas automatiskt."
+        img2: "Bara dubbelklicka på ett flöde eller mapp för att byta sitt namn."
+      read:
+        title: "Läsa inlägg"
+        img1: "Välja vad du vill läsa från menyn. Du kan klicka på en mapp för att läsa alla flöden som den inehåller."
+        img2: "Du kan gå till nästa eller förgående inlägg med navigeringsmenyn. Du kan också ändra visningsläge till listvisning. Det kontraherar alla inlägg så du kan skymta genom artiklarna som du är intresserad av."
+        img3: "Du kan även använda kortkommandon för att navigera. Tryck på '?' eller 'h' för att se listan."
+        img4_p1: "Det finns funktionsknappar under varje inlägg. On du trycker på 'Gilla' kommer ditt namn att stå på listan av användare som gillade inlägget. Inlägget kommer också att finnas i din 'Liked' mapp."
+        img4_p2: "Om du väljer att dela inlägget kommer dina kontakter att kunna se det direkt. Du kan också dela inlägg till din Facebook tidslinje (gå till Inställningar först)."
+      discuss:
+        title: "Diskutera inlägg"
+        img1: "Det är inte kul att läsa RSS-flöden ensam. Gå till 'Hitta vänner' sidan för att se vem av dina Facebook vänner eller Google kontakter använder The Old Reader. Du kan även hitta dina vänner med namn."
+        img2: "Alla inlägg som du har delat någon gång finns på 'Delat' mappen. Objekt som dina vänner har delat finns på 'Följad' mappen. Som vanligt kan du antingen läsa hela mappen eller välja ett specifikt användarnamn."
+        img3: "Du kan kommentera på alla inlägg delat av dina vänner - klicka bara på 'Kommentera' och gå med i diskussionen."
+      finally:
+        title: "Några frågor?"
+        pre_link: "Kolla på våra "
+        link1: "kunskapsbasen"
+        inbetween: " och känn dig välkommen att fråga efter hjälp på "
+        link2: "forum"
+        post_link: " om något är oklart."
