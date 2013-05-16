@@ -62,7 +62,6 @@ de:
   eggs: "Wir ♥ Kätzchen"
   title: "The Old Reader"
   meta:
-    description: "Es ist der ultimative RSS-Reader. Genau wie der alte Google Reader, nur viel besser. Importieren Sie Ihre Abonnements mit einem Klick, finden Sie Ihre Facebook-Freunde und teilen Sie Inhalte."
     keywords: "the old reader"
   landing:
     topmenu:
@@ -82,9 +81,6 @@ de:
       title: "Anmelden via:"
       google: "Google"
       facebook: "Facebook"
-    welcome: 
-      - "Willkommen zu The Old Reader, dem ultimativen sozialen RSS-Reader. Es ist genau wie der alte Google Reader, nur viel besser. Wir sind momentan in der Beta-Phase, aber wir arbeiten ständig an Verbesserungen und neuen Funktionen."
-      - "Sie können sich mit einem Klick anmelden und The Old Reader nutzen. Aber wenn Sie schüchtern sind, können Sie zunächst unsere %tour% machen oder einen Blick auf %trending% werfen."
     tour: "Tour"
     trending: "Top Beiträge des Tages"
     qa:
@@ -197,11 +193,6 @@ de:
         - "Drag & drop Feeds im Menü um die Reihenfolge anzupassen oder neue Ordner zu erstellen."
         - "Mit einem Doppelklick auf einen Feed oder Ordnertitel können Sie diese umbenennen."
         - "Um Feeds mit einem Klick zu abonnieren, benutzen Sie 'http://theoldreader.com/feeds/subscribe?url=%s' in der RSS Subscription Erweiterung oder Firefox Feed Handler."
-    aboutus:
-      title: "Etwas über uns"
-      text: "Bitte <a href='mailto:hello@theoldreader.com'>senden Sie uns eine Nachricht</a> wenn Sie Anmerkungen oder Vorschläge haben. Sie können uns auch auf <a href='https://twitter.com/#!/theoldreader'>Twitter folgen</a> und unseren <a href='http://blog.theoldreader.com/'>hinter den Kulissen Blog lesen</a>."
-    plugins:
-      title: "Browser-Erweiterung"
   pages:
     home: "Home"
     all: "Alle Beiträge"
@@ -261,7 +252,6 @@ de:
     email: "E-Mail"
     password: "Passwort"
     import: "Importieren"
-    success: "Wir haben die Liste Ihrer Feeds erhalten. Der Importvorgang findet im Hintergrund statt, Sie können The Old Reader sofort verwenden. Ihre Feeds werden in Kürze im Menü erscheinen."
     processing: "Ihre Feeds werden im Hintergrund geladen."
     error: "Etwas ist schiefgelaufen"
     opml_empty: "Die OPML-Datei ist fehlerhaft oder leer."
@@ -313,5 +303,3 @@ de:
         The Old Reader Roboter.
         Sie können sich unter den Einstellungen abmelden.
         %{host}
-    changes:
-      subject: "Wichtige Nachricht bzgl. geteilten Beiträgen"

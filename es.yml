@@ -62,7 +62,6 @@ es:
   eggs: "Nos ♥ los gatitos"
   title: "The Old Reader"
   meta:
-    description: "El lector de RSS definitivo. Como el viejo Google Reader, pero mejor. Importe sus suscripciones con un click, encuentre sus amigos en Facebook y empieze a compartir."
     keywords: "the old reader"
   landing:
     topmenu:
@@ -82,9 +81,6 @@ es:
       title: "Conéctese usando:"
       google: "Google"
       facebook: "Facebook"
-    welcome: 
-      - "Bienvenido a The Old Reader, el lector de RSS definitivo. Es como el viejo Google Reader, pero mejor. Estamos en fase beta, pero trabajamos constantemente en mejoras y nuevas funcionalidades."
-      - "Puede registrarse y empezar a usar The Old Reader con un solo click. Sin embargo, si es tímido, puede visitar nuestro %tour% o echar un vistazo a lo más %trending%."
     tour: "tour"
     trending: "popular"
     qa:
@@ -223,7 +219,6 @@ es:
     ui:
       title: "Interfaz de usuario"
       click_to_scroll: "Pulsar en un elemento desliza hasta él"
-      scroll_to_read: "Deslizarse entre los elementos los marca como leídos (vista completa)"
       sidebar_unread_only: "Mostrar únicamente aquellas carpetas/suscripciones con elementos por leer"
       locale: "Idioma"
     feed_display_mode:
@@ -330,5 +325,3 @@ es:
         -- 
         El robot de The Old Reader.
         %{host}
-    changes:
-      subject: "Nota importante sobre los elementos marcados con estrella"

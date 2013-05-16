@@ -62,7 +62,6 @@ sk:
   eggs: "Máme radi mačíčky ♥"
   title: "The Old Reader"
   meta:
-    description: "Toto je najlepšia RSS čítačka vôbec. Je presne taká ako Google Reader za starých čias, iba oveľa lepšia! Importujte Vaše RSS kanály jedným kliknutím, nájdite Vašich priateľov na Facebook a začnite s nimi zdieľať obsah."
     keywords: "the old reader"
   landing:
     topmenu:
@@ -82,9 +81,6 @@ sk:
       title: "Prihláste sa pomocou:"
       google: "Google"
       facebook: "Facebooku"
-    welcome: 
-      - "Vitajte v The Old Reader, najlepšiej RSS čítačke vôbec. Je presne taká ako Google Reader za starých čias, iba oveľa lepšia!  Práve sa nachádzame v skúšobnom režime, a stále pracujeme na vylepšeniach a nových funkciách."
-      - "Jedným kliknutím sa môžete zaregistrovať a začať používať The Old Reader. Pokiaľ ste ale na to príliš hamblivý, môžete si zatial prezrieť našu %tour% alebo prezrieť %trending%."
     tour: "Ako na..."
     trending: "najlepšie články dnešného dňa"
     qa:
@@ -330,8 +326,6 @@ sk:
         -- 
         The Old Reader robot.
         %{host}
-    changes:
-      subject: "Dôležítá poznámka k článkom označeným hviezdičkou."
   shortcuts:
     header: "Klávesové skratky"
     note: "*iba pre Chrome, Safari a Operu"
@@ -351,28 +345,8 @@ sk:
         g a potom f: prejsť na sledované
     other:
       title: "Ostatné skratky"
-      body: |
-        r: znovu načítať aktuálnu stránku 
-        /: prejsť na vyhľadávacie pole 
-        a: pridať kanál
-        ?: zobraziť toto okno
     posts:
       title: "Klávesové skratky pre články"
-      body: |
-        medzera: posunúť stránku smerom dole 
-        shift+medzera: posunúť stránku smerom hore
-        shift+a: označiť všetky články za prečítané
-        j, n: ďalši článok 
-        k, p: predchádzajúci článok
-        o: otvoriť článok v novej záložke
-        b: otvoriť článok v záložke na pozadí
-        l: označí článok za obľúbený 
-        s: zdieľať článok
-        m: označiť článok ako prečítaný/neprečítaný
-        f: uloží článok do Pocket-u
-        c: zobraziť komentáre
-        1: prepne na plné zobrazenie
-        2: prepne na režim zoznamu
   alerts:
     common: "Požiadavka na server zlyhala, prosím skúste znova neskôr"
     posts: "Články nebolo možné načítať"

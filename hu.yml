@@ -62,7 +62,6 @@ hu:
   eggs: "Mi ♥ cicák"
   title: "The Old Reader"
   meta:
-    description: "Ez az alapvető RSS olvasó. Pont, mint a régi google olvasó, csak jobb. Importáld a feliratkozásaid egy kattintással, keresd meg Facebookos barátaid, és ossz meg bármit."
     keywords: "the old reader"
   landing:
     topmenu:
@@ -86,9 +85,6 @@ hu:
       register: "Regisztráció"
       password: "Elfelejtett jelszó?"
       change_password: "Jelszó módosítás"
-    welcome: 
-      - "Üdv a The Old Readerben, a végső, közösségi RSS olvasóban. Pont olyan, mint a régi google olvasó, csak jobb. Még béta verzióban vagyunk, de folyamatosan dolgozunk rajta és új fejlesztéseken."
-      - "Bejelentkezhetsz, és elkezdheted a The Old Reader használatát egy kattintással. Azonban, ha túl félénk volnál, nyugodtan nézd meg előbb a %tour% lapunkat, vagy lesd meg a %trending% oldalát."
     tour: "bemutatkozó"
     trending: "napi toplista"
     qa:
@@ -195,11 +191,6 @@ hu:
     dead: "Halott csatornák"
     tips:
       title: "Tippek & trükkök"
-      items:
-        - "Nyomd meg a ? billentyűt, hogy láthasd a használható gyorsbillentyűket."
-        - "Húzz be csatornákat a menübe az átrendezéshez vagy, hogy mappákba csoportosítsd őket."
-        - "Duplakattintással egy csatorna, vagy mappa nevén átnevezheted őket."
-        - "Hogy feliratkozhass egy új csatornára egy szimpla kattintással, használd a 'http://theoldreader.com/feeds/subscribe?url=%s' URL-t az RSS Feliratkozás bővítményben, vagy a Firefox csatornakezelőjét."
   pages:
     home: "Főoldal"
     all: "Összes elem"
@@ -378,11 +369,6 @@ hu:
         g utána f: menj a követettekre
     other:
       title: "Egyéb gyorsbillentyűk"
-      body: |
-        r: jelen oldal frissítése
-        /: keresőmezőre fókuszálás
-        a: feliratkozás hozzáadása
-        ?: mutassa ezt az ablakot
     posts:
       title: "Elemek gyorsbillentyűi"
       body: |
@@ -472,7 +458,6 @@ hu:
         title: "Elemek olvasása"
         img1: "Válaszd ki, mit szeretnél olvasni a menüből. Rákattintva egy mappa nevére a benne található összes csatornát elolvashatod."
         img2: "A navigációs menü segítségével ugorhatsz egy kattintással az előző vagy a következő elemre. Továbbá válthatsz 'Lista nézetre', ami összecsukja az összes elemet, így végiglesheted az összes címet, és csak azokat a cikkeket nyisd meg, amelyek érdekelnek."
-        img3: "Gyorsbillentyűket is használhatsz a navigációra. Nyomd meg a '?'-t a listájukhoz"
         img4_p1: "Minden elem alatt találhatóak akciógombok. A 'Tetszik' gombbal a neved meg fog jelenni azon felhasználók listájában, akiknek tetszett az elem. Továbbá bekerül a 'Tetszett' mappádba."
         img4_p2: "Ha azt választod, hogy a megosztasz egy elemet, az összes kapcsolatod azonnal látni fogja azt. A Facebookos idővonaladra is kiposztolhatod a megosztásaidat (látogasd meg a Beállítások oldalt, hogy engedélyezd ezt)."
       discuss:

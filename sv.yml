@@ -62,7 +62,6 @@ sv:
   eggs: "Vi ♥ kattungar"
   title: "The Old Reader"
   meta:
-    description: "Den ultimata RSS-läsaren. Precis som gamla Google Reader, fast bättre. Importera dina prenumerationer med bara ett klick, hitta dina Facebook-vänner och börja dela."
     keywords: "the old reader"
   landing:
     topmenu:
@@ -86,9 +85,6 @@ sv:
       register: "Registrera"
       password: "Glömt lösenordet?"
       change_password: "Ändra lösenord"
-    welcome: 
-      - "Välkommen till The Old Reader, den ultimata RSS-läsaren. Precis som gamla Google Reader, fast bättre. Vi är fortfarande i beta-fasen, men vi jobbar ständigt med förbättringar och nyheter."
-      - "Du kan logga in och börja använda The Old Reader med bara ett klick. Om du är för blyg är du välkommen att gå igenom vår %tour% eller se vad som är %trending%."
     tour: "guidade visning"
     trending: "dagens trender"
     qa:

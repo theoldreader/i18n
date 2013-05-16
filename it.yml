@@ -62,7 +62,6 @@ it:
   eggs: "Ci piacciono i gattini!"
   title: "The Old Reader"
   meta:
-    description: "È il lettore RSS definitivo. Come il vecchio Google Reader, ma meglio. Importa le tue sottoscrizioni in un click, trova i tuoi amici Facebook e inizia a condividere."
     keywords: "the old reader"
   landing:
     topmenu:
@@ -86,9 +85,6 @@ it:
       register: "Registrati"
       password: "Password Dimenticata?"
       change_password: "Cambia password" 
-    welcome: 
-      - "Benvenuto su The Old Reader, il lettore RSS social definitivo. È come il vecchio Google Reader, solo meglio. Ora siamo in beta, ma stiamo costantemente lavorando su miglioramenti e nuove funzionalità."
-      - "Puoi connetterti e iniziare ad usare The Old Reader con un solo click. Comunque, se sei troppo timido, sentiti libero di dare un occhiata al nostro %tour% o dai una sbirciata ai %trending%."
     tour: "tour"
     trending: "post principali del giorno"
     qa:
@@ -200,11 +196,6 @@ it:
         - "Trascina i feed nel menù per riordinarli o per creare nuove cartelle."
         - "Puoi cliccare due volte sul titolo dei feed o sulle cartelle per rinominarli."
         - "Per sottoscrivere a nuovo new feeds con un singoli click, usa 'http://theoldreader.com/feeds/subscribe?url=%s' nell'estensione per sottoscrivere gli RSS o nel gestori di feed di Firefox."
-    aboutus:
-      title: "Qualcosa su di noi"
-      text: "Please feel free to <a href='mailto:hello@theoldreader.com'>drop as a note</a> if you have any comments or suggestions. You can also <a href='https://twitter.com/#!/theoldreader'>follow us</a> on twitter and read our <a href='http://blog.theoldreader.com/'>behind the scenes blog</a>."
-    plugins:
-      title: "Componenti aggiuntivi per il browser"
   pages:
     home: "Home"
     all: "Tutti gli elementi"
@@ -278,7 +269,6 @@ it:
     queued: "Grazie per aver caricato il tuo file OPML. Inizieremo appena possibile a importare le tue sottoscrizioni."
     queued_notice: "Ci sono <strong>%{count}</strong> utenti in attesa di import prima di te."
     cancel: "Annulla import"
-    success: "Abbiamo ricevuto la lista dei tuoi feed. L'effettivo processo di import verrà eseguito in background, così potrai iniziare subito ad usare The Old Reader. Le tue sottoscrizioni appariranno a breve nel tuo menù."
     processing: "I tuoi feed verranno importati in background."
     error: "Qualcosa è andato storto"
     opml_empty: "il file OPML che hai caricato è vuoto o non corretto."
@@ -391,21 +381,6 @@ it:
         ? or h: visualizza questa finestra
     posts:
       title: "Scorciatoie per i post"
-      body: |
-        space: scorri verso il basso
-        shift+space: scorri verso l'alto
-        shift+a: segna tutti come letti
-        j, n: prossimo post
-        k, p: post successivo
-        o: apri il post in una nuova scheda
-        b: apri il post in una scheda in background*
-        l: aggiungi il post tra i paciuti
-        s: condividi un post
-        m: segna un post come letto/non letto
-        f: save post to Pocket
-        c: scorri verso i commenti e apri il form
-        1: passa alla visualizzazione dei post completa
-        2: passa alla visualizzazione dei post per lista
   alerts:
     common: "Richiesta al server fallita, ti preghiamo di provare più tardi"
     posts: "Impossibile caricare i post"
