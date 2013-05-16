@@ -31,16 +31,16 @@ ca:
       updated_not_active: "Heu canviat la contrasenya."
       send_paranoid_instructions: "Si la adreça de correu electrònic és dins la nostra base de dades rebreu un correu per actualitzar la contrasenya."
     confirmations:
-      send_instructions: "En uns minuts rebreu un correu electrònic per confirmar el vostre compte."
-      send_paranoid_instructions: "Si la vostra adreça de correu electrònic és dins la nostra base de dades rebreu un correu per confirmar el vostre compte."
-      confirmed: "El vostre compte s'ha confirmat. Esteu connectats al compte."
+      send_instructions: "En uns minuts rebreu un correu electrònic per confirmar el compte."
+      send_paranoid_instructions: "Si la vostra adreça de correu electrònic és dins la nostra base de dades rebreu un correu per confirmar el compte."
+      confirmed: "El compte s'ha confirmat. Esteu connectats al compte."
     registrations:
       signed_up: "Us donem la benvinguda! Us heu connectat al vostre compte."
       signed_up_but_unconfirmed: "Us hem enviat un missatge amb un enllaç de confirmació a la vostra adreça electrònica."
       signed_up_but_inactive: "Us heu donat d'alta, però no us podeu connectar fins que s'hagi activat el vostre compte."
-      signed_up_but_locked: "Us heu donat d'alta, però no us podeu connectar donat que el vostre compte està bloquejat."
+      signed_up_but_locked: "Us heu donat d'alta, però no us podeu connectar ja que el vostre compte està bloquejat."
       updated: "Heu actualitzat el vostre compte."
-      update_needs_confirmation: "Heu actualitzat el vostre compte, però hem de verificar la vostra adreça de correu electrònic. Comproveu el vostre cooreu i cliqueu l'enllaç per confirmar la vostra adreça."
+      update_needs_confirmation: "Heu actualitzat el vostre compte, però hem de verificar la vostra adreça de correu electrònic. Comproveu el vostre correu i cliqueu l'enllaç per confirmar la vostra adreça."
       destroyed: "Adéu! El vostre compte s'ha cancel·lat. Esperem tornar-vos a veure aviat."
     unlocks:
       send_instructions: "En uns minuts rebreu un correu electrònic sobre com desbloquejar el vostre compte."
@@ -78,18 +78,18 @@ ca:
         :title: "Contacteu-nos"
         :url: "http://blog.theoldreader.com/about"
     sign_in:
-      title: "Incia sessió amb:"
+      title: "Inicia sessió amb:"
       google: "Google"
       facebook: "Facebook"
     tour: "tour"
     trending: "el més llegit del dia"
     qa:
       -
-        :title: "Qué fa?"
+        :title: "Què fa?"
         :text: "Us permet fullejar la vostra dosi diària de continguts, amb l'alegre detall d'allò que els vostres amics comparteixin, amb notes i comentaris"
       -
         :title: "Puc transferir les meves subscripcions?"
-        :text: "Sí, podeu importar els vostres fluxos directament de Google Reader  o usar la importació de fitxers OPML si ets sensible a la seguretat."
+        :text: "Sí, podeu importar els vostres canals RSS directament de Google Reader  o usar la importació de fitxers OPML si ets sensible a la seguretat."
       -
         :title: "Com trobo els meus amics?"
         :text: "Estem treballant en millorar la pàgina de suggeriments, mentrestant podeu provar a cercar manualment o veure si els teus contactes de Facebook o Google també fan servir The Old Reader. A més, us enviarem un correu quan algú us segueixi."
@@ -98,10 +98,10 @@ ca:
         :text: "<em>Encara no</em>, però tal i com vàrem prometre, hi vàrem començar a treballar quan varem arribar als 5000 usuaris l'octubre de 2012. Fins i tot la nostra interfície estàndard s'adapta bé als dispositius mòbils."
       -
         :title: "Us comportareu a Facebook com totes aquelles altres aplicacions?"
-        :text: "I ara! Podeu penjar els vostres articles compartits a la vostra línia de temps de Facebook, però a menys que ho trieu tots els vostres articles i comentaris es quedaran dins The Old Reader. No penjarem res en nom vostre ni us farem part de cap invent poc clar."
+        :text: "I ara! Podeu penjar els vostres articles compartits a la vostra línia de temps de Facebook però, llevat que ho trieu, tots els vostres articles i comentaris es quedaran a The Old Reader. No penjarem res en nom vostre, ni us farem part de cap invent poc clar."
       -
-        :title: "Perquè vareu crear The Old Reader?"
-        :text: "Diguem que trobàvem a faltar molt l'antic Google Reader, així que vàrem crear The Old Reader per a nosaltres i els nostres amics. Com que ens agrada com va quedar, ho estem compartint amb tothom"
+        :title: "Perquè vau crear The Old Reader?"
+        :text: "Diguem que trobàvem a faltar molt l'antic Google Reader, així que vàrem crear The Old Reader per a nosaltres i els nostres amics. Ens agrada com va quedar, i ho estem compartint amb tothom"
     supported: "Mantingut amb amor per"
   user:
     profile: "Perfil"
@@ -112,13 +112,13 @@ ca:
     becomes_active_notice: "No heu visitat The Old Reader des de fa una temporada, només us mostrarem els articles més frescos."
   feeds:
     no_feeds:
-      text: "No teniu cap subscripció. Us podeu %{subscribe} a un nou flux (com fer-ho a <a href='http://blog.theoldreader.com/rss' class='feed-subscribe'>el nostre blog</a>?) o %{import} les teves subscripcions.<br />Si en voleu saber més, %{tour}."
+      text: "No teniu cap subscripció. Us podeu %{subscribe} a un nou canal RSS (com fer-ho a <a href='http://blog.theoldreader.com/rss' class='feed-subscribe'>el nostre blog</a>?) o %{import} les vostres subscripcions.<br />Si en voleu saber més, %{tour}."
       subscribe: "subscriure"
       import: "importar"
       tour: "feu el tour"
     no_posts: "Encara no hi ha cap article"
     no_posts_filler: "No hi ha més articles més avall. Segurament ja els heu llegit tots."
-    subscribe: "Subscriu"
+    subscribe: "Subscriu-me"
     add_subscription: "Afegeix una subscripció"
     add: "Afegeix"
     url: "URL"
@@ -126,12 +126,12 @@ ca:
     empty_url: "No heu indicat cap URL"
     loading: "S'està carregant..."
     default_folder: "Subscripcions"
-    feeds: "Fluxos"
+    feeds: "Canals RSS"
     feeds_count:
-      one: "flux"
-      few: "fluxos"
-      many: "fluxos"
-      other: "fluxos"
+      one: "canal RSS"
+      few: "canals RSS"
+      many: "canals RSS"
+      other: "canals RSS"
     posts_count:
       one: "article"
       few: "articles"
@@ -139,8 +139,8 @@ ca:
       other: "articles"
     your_posts: "Teniu <em>%{unread}</em>  %{posts} per llegir"
     refresh: "Actualitza"
-    unsubscribe: "De-subscriu"
-    unsubscribe_confirm: "Esteu segur que voleu suprimir la subscripció? Els articles compartits i marcats no se suprimiran."
+    unsubscribe: "Cancel·la la subscripció"
+    unsubscribe_confirm: "Esteu segur que voleu cancel·lar la subscripció? Els articles compartits i marcats no se suprimiran."
     ago: "passats"
     never: "Mai"
     confirm: "N'esteu segur?"
@@ -161,8 +161,8 @@ ca:
       many: "%{count} comentaris"
       other: "%{count} comentaris"
     comment: "Comenta"
-    comment_text: "Escriur un comentari"
-    comment_destroy_confirm: "De debò que voleu suprimir el comentari?"
+    comment_text: "Escriviu un comentari"
+    comment_destroy_confirm: "Voleu suprimir el comentari?"
     comment_destroy_text: "Aquest comentari ha estat suprimit per l'usuari."
     post_author: "per <strong>%{author}</strong>"
     drop_add_folder: "Deixeu caure aquí per crear una carpeta nova"
@@ -175,7 +175,7 @@ ca:
       few: "A %{users} i %{count} més els agrada"
       many: "A %{users} i %{count} més els agrada"
       other: "A %{users} i %{count} més els agrada"
-    feed: "Flux"
+    feed: "Canal RSS"
     site: "Lloc"
     enclosure_url: "Visualita el fitxer adjunt (%{size}, %{type})"
     pocket: "Pocket"
@@ -184,15 +184,15 @@ ca:
   home:
     following: "El darrer dels amics"
     updated: "Actualitzat fa poc"
-    dead: "Fluxos morts"
+    dead: "Canals RSS morts"
     tips:
       title: "Trucs i consells"
       items:
         - "Useu \"j\" i \"k\" al teclat per navegar els articles. \"o\" obre l'article en una finestra nova."
         - "Unes quantes dreceres més: useu \"s\" per compartir un article, o \"l\" per marcar-lo com favorit."
-        - "Agafeu i deixeu caure fluxos al menú per canviar-ne l'ordre o per crear carpetes noves."
-        - "Feu doble clic en un flux o carpeta per canviar-ne el nom."
-        - "Per subscriure-us a nous fluxos amb un sol clic, useu 'http://theoldreader.com/feeds/subscribe?url=%s' a l'extensió de subscripció RSS o al gestor de fluxos de Firefox."
+        - "Agafeu i deixeu caure canals RSS al menú per canviar-ne l'ordre o per crear carpetes noves."
+        - "Feu doble clic en un canal RSS o carpeta per canviar-ne el nom."
+        - "Per subscriure-us a nous canals RSS amb un sol clic, useu 'http://theoldreader.com/feeds/subscribe?url=%s' a l'extensió de subscripció RSS o al gestor de canals RSS del Firefox."
   pages:
     home: "Inici"
     all: "Tots"
@@ -219,10 +219,10 @@ ca:
     ui:
       title: "Interfície d'usuari"
       click_to_scroll: "En fer clic a un article us trasllada fins ell"
-      sidebar_unread_only: "Mostra només els fluxos o carpetes amb articles sense llegir"
+      sidebar_unread_only: "Mostra només els canals RSS o carpetes amb articles sense llegir"
       locale: "Llengua"
     feed_display_mode:
-      title: "Com es mostren els fluxos"
+      title: "Com es mostren els canals RSS"
       all: "Mostra tots els articles"
       unread: "Només els pendents de llegir"
     feed_list_mode:
@@ -242,7 +242,7 @@ ca:
     cancel_disabled: "No podeu cancel·lar el vostre compte mentre hi ha una importació en curs, un xic de paciència."
     cancel_account:
       text: "No esteu content? Podeu %{export} com OPML i %{cancel} en qualsevol moment."
-      export: "exportar els teus fluxos"
+      export: "exportar els teus canals RSS"
       cancel: "cancel·lar el teu compte"
       confirm: "N'esteu segur?"
     pocket:
@@ -260,9 +260,9 @@ ca:
     started: "La importació és un procés bastant intensiu, el nostre sistema només admet un cert nombre de processos corrent al mateix temps. Ara mateix tots els processos estan ocupats, així doncs la vostra importació es posarà a la cua"
     queued: "Gràcies per pujar el fitxer OPML. Ben aviat començarem a importar les subscripcions."
     queued_notice: "Hi ha <strong>%{count}</strong> usuaris a la cua davant vostre."
-    too_many_feeds: "Per raons tècniques només importarem els primers 1.000 fluxos."
+    too_many_feeds: "Per raons tècniques només importarem els primers 1.000 canals RSS."
     cancel: "Cancel·la la importació"
-    processing: "Els fluxos s'estant important en segon pla."
+    processing: "Els canals RSS s'estant important en segon pla."
     error: "Quelcom no ha funcionat"
     opml_empty: "El fitxer OPML és incorrecte o està buit."
   profile:
@@ -314,12 +314,12 @@ ca:
         Podeu canviar les preferències de correu a la pàgina de configuració.
         %{host}
     import:
-      subject: "Els fluxos de notícies ja estan enllestits! Visca!"
+      subject: "Els canals RSS de notícies ja estan enllestits! Visca!"
       body: |
         Hola %{name},
         
         Ens complau informar-vos que ja hem importat les vostres subscripcions.
-        Els %{count} fluxos que heu importat estan disponibles a %{host}.
+        Els %{count} canals RSS que heu importat estan disponibles a %{host}.
         Gràcies per usar The Old Reader.
         
         -- 
