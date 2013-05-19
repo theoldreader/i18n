@@ -331,18 +331,6 @@ sk:
     note: "*iba pre Chrome, Safari a Operu"
     pages:
       title: "Navigácia medzi stránkami"
-      body: |
-        shift-n: ďalší kanál alebo priečinok
-        shift-p: predchádzajúci kanál alebo priečinok
-        shift-x: zatvoriť aktuálny priečinok 
-        shift-o: otvoriť aktuálny kanál alebo priečinok 
-        g a potom h: prejsť na domovskú stránku 
-        g a potom a: prejsť zoznam článkov'
-        g a potom l: prejsť na obľúbené
-        g a potom s: prejsť na zdieľané shared
-        g a potom t: prejsť na aktuálne trendy
-        g a potom c: prejsť na komentované
-        g a potom f: prejsť na sledované
     other:
       title: "Ostatné skratky"
     posts:

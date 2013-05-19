@@ -365,10 +365,12 @@ en:
     pages:
       title: "Navigate between pages"
       body: |
-        shift-n: next subscription or folder
-        shift-p: previous subscription or folder
+        shift-n, shift-j: next subscription or folder
+        shift-p, shift-k: previous subscription or folder
         shift-x: collapse selected folder
         shift-o: open selected subscription or folder
+        shift-c: collapse all folders
+        shift-e: expand all folders
         g then h: go to home
         g then a: go to all items
         g then l: go to liked

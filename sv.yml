@@ -365,18 +365,6 @@ sv:
     note: "*endast Chrome, Safari och Opera"
     pages:
       title: "Navigera på sidor"
-      body: |
-        shift-n: nästa prenumeration eller mapp
-        shift-p: föregående prenumeration eller mapp
-        shift-x: minimera valda mapp
-        shift-o: öppna valda prenumeration eller mapp
-        g sedan h: gå hem
-        g sedan a: gå till alla objekt
-        g sedan l: gå till gillade
-        g sedan s: gå till delade
-        g sedan t: gå till trender
-        g sedan c: gå till kommenterade
-        g sedan f: gå till följda
     other:
       title: "Andra kortkommandon"
       body: |

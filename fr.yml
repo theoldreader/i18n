@@ -324,18 +324,6 @@ fr:
     note: "*Uniquement pour Chrome, Safari, Opera"
     pages:
       title: "Naviguer entre les pages"
-      body: |
-        shift-n: abonnement ou dossier suivant
-        shift-p: abonnement ou dossier précédent
-        shift-x: réduire le dossier sélectionné
-        shift-o: ouvrir abonnement ou le dossier sélectionné
-        g then h: aller à l'accueil
-        g then a: aller à tous les éléments
-        g then l: aller aux 'J'aime'
-        g then s: aller aux partagés
-        g then t: aller aux tendances
-        g then c: aller aux commentés
-        g then f: aller aux suivis
     other:
       title: "Autres raccourcis"
     posts:

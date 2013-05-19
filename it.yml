@@ -360,18 +360,6 @@ it:
     note: "Solo per Chrome, Safari e Opera*"
     pages:
       title: "Navigate between pages"
-      body: |
-        shift-n: sottoscrizione o cartella successiva
-        shift-p: sottoscrizioni o cartella precedente
-        shift-x: minimizza la cartella selezioanta
-        shift-o: apri la cartella o la sottoscrizione selezionata
-        g then h: vai alla home
-        g then a: vai a tutti gli elementi
-        g then l: vai a piaciuti
-        g then s: vai a dondivisi
-        g then t: vai a trending
-        g then c: vai a commentati
-        g then f: vai a seguiti
     other:
       title: "Altre scorciatoie"
       body: |

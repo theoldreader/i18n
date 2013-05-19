@@ -355,18 +355,6 @@ hu:
     note: "*Csak Chrome, Safari és Opera"
     pages:
       title: "Lapok közötti navigáció"
-      body: |
-        shift-n: következő feliratkozás vagy mappa
-        shift-p: előző feliratkozás vagy mappa
-        shift-x: kijelölt mappa becsukása
-        shift-o: kijelölt mappa vagy feliratkozás kinyitása
-        g utána h: menj a főoldalra
-        g utána a: menj az összes elemre
-        g utána l: menj a tetszettekhez
-        g utána s: menj a megosztottakhoz
-        g utána t: menj a népszerűekre
-        g utána c: menj a kommentáltakra
-        g utána f: menj a követettekre
     other:
       title: "Egyéb gyorsbillentyűk"
     posts:

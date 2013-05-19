@@ -361,18 +361,6 @@ pl:
     note: "*Działa tylko w Chrome, Safari i Operze."
     pages:
       title: "Nawigacja po stronach"
-      body: |
-        Shift + N: następny kanał lub folder
-        Shift + P: poprzedni kanał lub folder
-        Shift + X: zwiń/rozwiń zaznaczony folder
-        Shift + O: otwórz zaznaczony kanał lub folder
-        G, następnie H: strona domowa
-        G, następnie A: wszystkie
-        G, następnie L: polubione
-        G, następnie S: udostępnione
-        G, następnie T: popularne
-        G, następnie C: komentowane
-        G, następnie F: obserwowane
     other:
       title: "Pozostałe skróty"
       body: |
