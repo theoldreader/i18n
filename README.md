@@ -25,7 +25,7 @@ Français: [AlexandreP2101](https://github.com/AlexandreP2101), [madx](https://g
 
 Catalan: [ramonpoca](https://github.com/ramonpoca), [jmontane](https://github.com/jmontane)
 
-Hungarian: [blas3nik](https://github.com/blas3nik)
+Magyar: [blas3nik](https://github.com/blas3nik)
 
 Italiano: [ggimpa](https://github.com/ggimpa), [luca74](https://github.com/luca74), [alexdown](https://github.com/alexdown)
 
