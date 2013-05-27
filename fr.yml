@@ -62,6 +62,7 @@ fr:
   eggs: "Nous ♥ les chattons"
   title: "The Old Reader"
   meta:
+    description: "C'est l'ultime lecteur RSS. Importez vos abonnements en un clic, retrouvez vos amis, et commencez à partager."
     keywords: "the old reader"
   landing:
     topmenu:
@@ -81,6 +82,13 @@ fr:
       title: "Se connecter en utilisant:"
       google: "Google"
       facebook: "Facebook"
+      login: "Se connecter"
+      register: "S'enregistrer"
+      password: "Mot de passe oublié?"
+      change_password: "Changer de mot passe"
+    welcome:
+      - "Bienvenue sur The Old Reader, l'ultime lecteur RSS social. Nous sommes actuellement en béta, mais nous travaillons constamment sur des améliorations et des nouvelles fonctionnalités."
+      - "Vous pouvez vous inscrire et commencez à utiliser The Old Reader d'un simple clic. Cependant si vous êtes trop timide, vous pouvez voir notre %tour% ou voir les %trending%."
     tour: "guide"
     trending: "articles populaires du jour"
     qa:
@@ -187,6 +195,11 @@ fr:
     dead: "Flux inactifs"
     tips:
       title: "Trucs & astuces"
+      items:
+        - "Appuyez sur '?' ou 'h' pour voir la liste des raccourcis clavier."
+        - "Glisser & déposer les abonnements dans le menu pour les réorganiser ou pour créer des dossiers d'abonnements."
+        - "Vous pouvez double cliquer sur un abonnement ou sur un dossier pour le renommer."
+        - "Pour souscrire à de nouveaux abonnements en un simple clic, utilisez 'http://theoldreader.com/feeds/subscribe?url=%s' dans votre extension d'abonnement RSS or dans la gestion des abonnements de Firefox."
   pages:
     home: "Accueil"
     all: "Tous les éléments"
@@ -210,6 +223,9 @@ fr:
     name: "Nom"
     username: "Nom d'utilisateur"
     email: "E-mail"
+    password: "Mot de passe"
+    password_confirmation: "Confirmer le mot de passe"
+    password_notice: "Laissez vide pour garder l'actuel"
     ui:
       title: "Interface utilisateur"
       click_to_scroll: "Aller sur un article en cliquant dessus"
@@ -253,6 +269,7 @@ fr:
     password: "Mot de passe"
     import: "Importer"
     started: "Nous trouvons que l'importation de flux est une opération consommatrice de ressources, ainsi notre système autorise un nombre limité d'importation en parallèle. Pour le moment tous les emplacements sont occupés, votre opération d'importation est mise en file d'attente."
+    queued: "Merci pour le téléchargement de votre fichier OPML. Nous allons bientôt commencer à importer vos abonnements."
     queued_notice: "Il y a <strong>%{count}</strong> utilisateurs devant vous dans la file d'attente."
     processing: "Vos flux s'importent en tâche de fond."
     error: "Quelque chose ne s'est pas déroulé correctement"
@@ -298,7 +315,7 @@ fr:
     followed:
       subject: "%{name} vous suit"
       body: |
-        Salut, %{followed}!
+        Bonjour, %{followed}!
         
         %{name} vous suit. Bien!
         Voir son profil sur %{profile}.
@@ -319,15 +336,156 @@ fr:
         -- 
         The Old Reader robot.
         %{host}
+    confirmation:
+      body: |
+        Bienvenue %{name},
+        
+        Vous pouvez confirmer compte email en utilisant le lien ci-dessous:
+        %{link}
+        
+        --
+        The Old Reader robot.
+        %{host}
+    password:
+      body: |
+        Bonjour %{name},
+        
+        Quelqu'un à demandé un lien pour changer votre mot de passe, le voici:
+        %{link}
+        
+        If vous n'avez pas demandé cela, merci d'ignorer cet email.
+        Votre mot de passe ne sera modifié tant que vous n'aurez accédé au lien ci-dessus.
+        
+        --
+        The Old Reader robot.
+        %{host}
   shortcuts:
     header: "Raccourcis clavier"
     note: "*Uniquement pour Chrome, Safari, Opera"
     pages:
       title: "Naviguer entre les pages"
+      body: |
+        shift-n, shift-j: abonnement ou dossier suivant
+        shift-p, shift-k: abonnement ou dossier précédent
+        shift-x: enrouler le dossier sélectionné
+        shift-o: ouvrir l'abonnement ou le dossier sélectionné
+        shift-c: enrouler tous les dossiers
+        shift-e: dérouler tous les dossiers
+        g then h: aller à l'accueil
+        g then a: aller vers tous les articles
+        g then l: aller aux 'J'aime'
+        g then s: aller au dossier partagés
+        g then t: aller aux tendances
+        g then c: aller aux articles commentés
+        g then f: aller aux articles suivis
     other:
       title: "Autres raccourcis"
+      body: |
+        r: rafraichir la page actuelle
+        /: aller dans le champs de recherche
+        a: ajouter un abonnement
+        ? or h: montrer cette fenêtre
     posts:
       title: "Raccourcis pour les articles"
+      body: |
+        space: défiler vers le bas
+        shift+space: défiler vers le haut
+        shift+a: tous marquer comme lu
+        j, n: article suivant
+        k, p: article précédent
+        o: ouvre l'article dans un nouvel onglet
+        b: ouvre l'article dans un nouvel onglet en arrière plan*
+        x: basculer l'article (list view)
+        l: marquer l'article 'J'aime'
+        s: partager un article
+        m: marquer lu/non-lu un article
+        f: sauvegarder l'article vers Pocket
+        c: défiler vers les commentaires et ouvrir le formulaire
+        1: basculer vers la vue complète
+        2: basculer vers la vue en liste
   alerts:
     common: "La requête vers le serveur a échoué, merci d'essayer à nouveau un peu plus tard"
     posts: "Impossible de charger les articles"
+  page_content:
+    community:
+      title: "Ressources de la communauté"
+      p1: "Nous sommes extrêmement heureux d'avoir une communauté d'utilisateurs fidèles qui ne cessent de nous aider à faire avancer le projet. Voici quelques liens vers des ressources créées et soutenues par notre communauté."
+      translations:
+        title: "Traductions"
+        pre_link: "The Old Reader a été traduit dans de nombreuses langues. Nous gardons les traductions dans un "
+        link: "repo github public séparé"
+        post_link: " afin que tous le monde puisse contribuer."
+      extensions:
+        title: "Extensions de navigateur"
+        p1: "Il y a un certain nombre d'extensions de navigateurs qui facilite le suivi de vos éléments non lus."
+        source_code: "code source"
+        chrome: "Extension Google Chrome"
+        chrome_author: "par Anton Tolchanov"
+        chromeapp: "Google Chrome app"
+        chromeapp_author: "par Enrico Bacis"
+        safari: "Extension Safari"
+        safari_author: "par Dmitry Kranoukhov"
+        opera: "Extension Opera"
+        opera_author: "par Lazare Inepologlou"
+        firefox: "Firefox addon"
+        firefox_author: "par Tomek Wasiak"
+      themes:
+        title: "Thèmes non officiels"
+        pre_link: "Des utilisateurs ont créés des styles qui changent la style de The Old Reader. Il n'y a aucune garantie que ces styles vont toujours fonctionner et qu'ils ne vont pas casser le site pour vous, mais si vous êtes assez courageux pour essayer, ils sont disponibles à "
+        post_link: "."
+      requests:
+        title: "Demandes de fonctionnalités"
+        pre_link: "Vous pouvez voter pour des demandes de fonctionnalités et en proposer des nouvelles sur "
+        link: "notre page uservoice"
+        post_link: ". Veuillez rechercher dans les demandes existantes avant d'en créer une nouvelle, il est probable que quelqu'un ai suggéré votre idée avant. Nous n'avons pas à modérer la page uservoice, donc quand vous créez un doublon vous diminuez réellement les chances d'arriver au sommet, parceque deux demandes seront en compétition pour les votes des utilisateurs."
+      forums:
+        title: "Forums Communautaire"
+        pre_link: "Nous avons créés "
+        link: "un forum sur yuku.com"
+        post_link: " pour que nos utilisateurs puissent communiquer. N'hésitez pas à le rejoindre pour demander de l'aide, discuter des modifications et partager vos impressions."
+    donate:
+      title: "Donations"
+      p1: "Le fonctionnement d'un lecteur RSS requiert beaucoup de ressources. Cela peut être vu comme un simple site, mais nous devons rafraichir plusieurs millions de flux, et certains toutes les 5 minutes. Nos coûts de serveur sont plutôt élevés, et nous ne serions jamais en mesure de nous le permettre sans l'aide de nos généreux utilisateurs."
+      p2: "Il y a plusieurs façons dont vous pouvez nous aider financièrement et maintenir le projet en vie:"
+      flattr:
+        pre_link: "Utiliser "
+        link1: "Flattr"
+        inbetween: ". C'est un moyen simple de donner de l'argent aux auteurs ou services que vous aimez. Vous pouvez nous envoyer un montant fixe, ou appuyez sur le bouton «Flattr», puis votre budget mensuel sera réparti entre nous et d'autres projets que vous avez aidé au cours du mois. Vous pouvez également vous abonner à "
+        link2: "votre compte Flattr"
+        post_link: " qui nous fera un don \"flattr\" automatiquement tous les mois."
+      bitcoins: "Pour toutes les personnes sensibles sur la vie privée, nous avons bitcoins"
+      additional:
+        pre_link: "Malheureusement, pour des raisons juridiques, nous ne pouvons pas utiliser Paypal sur le site. Toutefois, si vous souhaitez nous envoyer une importante somme d'argent et que vous ne pouvez pas utiliser Flattr ou bitcoins pour une raison ou une autre, merci "
+        link: "de nous envoyer un mot"
+        post_link: " et nous trouverons un moyen pour vous de nous envoyer un virement cadeau personnel à l'un d'entre nous."
+      thanks: "Nous vous remercions de votre aide! Tout comme ce chaton:"
+    tour:
+      title: "The Old Reader 101"
+      add_feeds:
+        title: "Ajouter un abonnement"
+        p1: "Votre nouveau compte The Old Reader account est fournit vide, la première chose à faire est donc d'ajouter quelques abonnements à lire."
+        img1: "Utiliser le bouton 'Ajouter un abonnement' pour souscrire à ce dernier. Si vous entrez l'URL d'une page web plutôt que d'un abonnement, nous allons ajouter automatiquement, nous ajouterons le premier lien RSS trouvé."
+        img2: "Si vous migrez depuis Google Reader ou tout autre lecteur RSS qui peut exporter vos abonnements dans un fichier OPML, vous pouvez utiliser la fonction 'Importer' pour ajouter vos abonnements. Nous importerons aussi to vos dossiers pour vous faire rapidement sentir comme chez vous."
+      organize:
+        title: "Organiser vos abonnements"
+        img1: "Vous pouvez 'glisser-déposer' vos abonnements et vos dossiers pour changer leurs positions. Créer un nouveau dossier est aussi simple que de déposer un abonnement dans l'espace vide sous votre dernier dossier. Les dossiers vides sont automatiquement supprimés."
+        img2: "Double cliquez sur un abonnement ou sur un dossier pour le renommer."
+      read:
+        title: "Lire les articles"
+        img1: "Choisissez ce que vous voulez lire à partir du menu. Vous pouvez cliquer sur un dossier pour lire tous les abonnements que ce dossier contient."
+        img2: "Le menu de navigation vous permet d'aller à l'article suivant ou précédent d'un simple clic. Vous pouvez aussi basculer vers la 'Vue en liste' qui enroule tous les articles, et vous laisse ainsi parcourir les titres et dérouler uniquement les articles qui vous interessent."
+        img3: "Vous pouvez aussi utiliser les raccourcis clavier pour la navigation. Appuyez sur '?' ou 'h' pour voir la liste."
+        img4_p1: "Il y a des boutons d'actions sous chaque article. Si vous appuyez sur 'J'aime', votre nom va appaitre dans la liste des utilisateurs qui ont aimés cet article. Ce dernier ira aussi dans votre dossier 'J'aime'."
+        img4_p2: "Si vous choisissez de partager un article, tous vos contact vont immédiatement le voir. Vous pouvez aussi envoyer vos partages vers votre timelime Facebook (allez dans les vos réglages pour l'activer)."
+      discuss:
+        title: "Discuter des articles"
+        img1: "C'est pas drôle de lire les abonnements RSS seuls. Allez sur la page 'Trouvez des amis' pour voir qui de vos amis Facebook ou de vos contacts Google utilisent The Old Reader. Vous pouvez aussi recherchez vos amis par leur nom."
+        img2: "Tous les articles que vous avez partagé sont dans votre dossier 'Partage'. Les articles que vos amis ont partagés sont dans le dossier 'Suivre'. Comme d'habitude, vous pouvez choisir de lire tous le dossier ou choisir un utilisateur spécifique pour voir ces articles partagés."
+        img3: "Vous pouvez commenter tout articles partagés par vos amis - cliquez juste sur le bouton 'Commenter' et rejoigner la discussion."
+      finally:
+        title: "Des questions?"
+        pre_link: "Merci de faire un tour sur notre "
+        link1: "base de connaissance"
+        inbetween: " et n'hésitez pas à demander une assistance sur "
+        link2: "les forums communautaires"
+        post_link: " si quelque chose n'est pas claire."
