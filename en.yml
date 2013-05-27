@@ -442,7 +442,7 @@ en:
         title: "Community forums"
         pre_link: "We have created "
         link: "a forum on yuku.com"
-        post_link: " for our users to communicate. Feel free to join it and ask for assistance, discuss tweaks, and share your thoughs."
+        post_link: " for our users to communicate. Feel free to join it and ask for assistance, discuss tweaks, and share your thoughts."
     donate:
       title: "Donate"
       p1: "Running an RSS reader requires quite a lot of resources. This might seem like a simple site, but we have to refresh several million of feeds, some as often as every 5 minutes. Our server cost is pretty high, and we would never be able to afford it without help from our awesome users."
