@@ -191,11 +191,6 @@ pl:
     dead: "Wymarłe kanały"
     tips:
       title: "Podpowiedzi"
-      items:
-        - "Aby zobaczyć dostępne skróty klawiszowe, naciśnij „?” albo „H”."
-        - "Przeciągaj i upuszczaj kanały żeby ułożyć je w innej kolejności lub utworzyć nowy folder."
-        - "Aby zmienić nazwę kanału lub folderu − podwójnie na nim kliknij."
-        - "Użyj „http://theoldreader.com/feeds/subscribe?url=%s” w rozszerzeniach lub w ustawieniach twojej przeglądarki, żeby subskrybować kanały jednym kliknięciem."
   pages:
     home: "Główna"
     all: "Wszystkie"

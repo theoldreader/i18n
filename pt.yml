@@ -191,11 +191,6 @@ pt:
     dead: "Feeds mortos"
     tips:
       title: "Dicas & truques"
-      items:
-        - "Pressione '?' ou 'h' para ver a lista de atalhos de teclado."
-        - "Arraste & solte os feeds no menu para reordená-los ou para criar novas pastas."
-        - "Você pode dar um duplo-clique no feed ou no título da pasta para renomeá-los."
-        - "Para assinar novos feeds com um único clique, use 'http://theoldreader.com/feeds/subscribe?url=%s' na extensão RSS Subscription ou no gerenciador de feeds do Firefox."
   pages:
     home: "Início"
     all: "Todos os itens"

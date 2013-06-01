@@ -187,11 +187,6 @@ sk:
     dead: "Nefunkčné kanály"
     tips:
       title: "Tipy a triky"
-      items:
-        - "Pre zobrazenie klávesových skratok stlačte klávesu ?."
-        - "Chyťťe a preneste kanály v menu pre ich usporiadanie alebo pre organizáciu do priečinkov."
-        - "Kanál môžete premenovať dvojitým kliknutím na jeho názov."
-        - "Pre prihlásenie sa k odberu nových kanálov jedným kliknutím použite 'http://theoldreader.com/feeds/subscribe?url=%s' v RSS Subscription rozširení alebo v správcovi kanálov Firefox-u."
   pages:
     home: "Domov"
     all: "Všetky čĺánky"

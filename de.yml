@@ -187,12 +187,6 @@ de:
     dead: "Stillgelegte Feeds"
     tips:
       title: "Tipps & Tricks"
-      items:
-        - "Mit den Tastaturkürzeln \"j\" und \"k\" können Sie zwischen Beiträgen springen. \"o\" öffnet den Beitrag in einem neuen Fenster."
-        - "Weitere Tastaturkürzel: mit \"s\" einen Beitrag teilen und \"l\" für gefällt mir."
-        - "Drag & drop Feeds im Menü um die Reihenfolge anzupassen oder neue Ordner zu erstellen."
-        - "Mit einem Doppelklick auf einen Feed oder Ordnertitel können Sie diese umbenennen."
-        - "Um Feeds mit einem Klick zu abonnieren, benutzen Sie 'http://theoldreader.com/feeds/subscribe?url=%s' in der RSS Subscription Erweiterung oder Firefox Feed Handler."
   pages:
     home: "Home"
     all: "Alle Beiträge"

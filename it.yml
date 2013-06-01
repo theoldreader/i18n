@@ -191,11 +191,6 @@ it:
     dead: "Feed morti"
     tips:
       title: "Tips & tricks"
-      items:
-        - "Premi '?' oppure 'h' per vedere la lista delle scorciatoie." 
-        - "Trascina i feed nel menù per riordinarli o per creare nuove cartelle."
-        - "Puoi cliccare due volte sul titolo dei feed o sulle cartelle per rinominarli."
-        - "Per sottoscrivere a nuovo new feeds con un singoli click, usa 'http://theoldreader.com/feeds/subscribe?url=%s' nell'estensione per sottoscrivere gli RSS o nel gestori di feed di Firefox."
   pages:
     home: "Home"
     all: "Tutti gli elementi"

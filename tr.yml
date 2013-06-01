@@ -187,12 +187,6 @@ tr:
     dead: "Ölü feedler"
     tips:
       title: "İpuçları"
-      items:
-        - "\"j\" ve \"k\" kısayollarını kullanarak iletiler arasında dolaşabilirsiniz. \"o\" iletiyi yeni bir pencerede açar."
-        - "Başka kısayol tuşları: bir iletiyi paylaşmak için \"s\"'yi beğenmek için \"l\"'yi kullanabilirsiniz."
-        - "Feedleri düzenlemek ya da yeni klasörler oluşturmak için onları menü içerisinde sürükleyip bırakabilirsiniz."
-        - "Bir feed ya da klasörü yeniden adlandırmak için üzerine çift tıklayabilirsniz."
-        - "Feedlere tek tıklamayla abone olmak için, RSS Subscription eklentisinde ya da Firefox feed denetimcisinde 'http://theoldreader.com/feeds/subscribe?url=%s' adresini kullanın."
   pages:
     home: "Ana Sayfa"
     all: "Bütün öğeler"

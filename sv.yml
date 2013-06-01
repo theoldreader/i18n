@@ -195,12 +195,6 @@ sv:
     dead: "Döda flöden"
     tips:
       title: "Tips och råd"
-      items:
-        - "Använd kortkommandona \"j\" och \"k\" för att navigera mellan inlägg. \"o\" öppnar inlägget i ett nytt fönster."
-        - "Visa fler kortkommandon: använd \"s\" för att dela ett inlägg eller \"l\" för att gilla det."
-        - "Dra och släpp prenumerationer i menyn för att ordna dem eller för att skapa nya mappar."
-        - "Du kan dubbelklicka på ett flöde eller mapp för att ändra namnet."
-        - "För att prenumerera på nya flöden med bara ett klick, använd 'http://theoldreader.com/feeds/subscribe?url=%s' i RSS Subscription tillägg eller Firefox feed handler."
   pages:
     home: "Hem"
     all: "Alla objekt"

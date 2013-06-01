@@ -195,11 +195,6 @@ fr:
     dead: "Flux inactifs"
     tips:
       title: "Trucs & astuces"
-      items:
-        - "Appuyez sur '?' ou 'h' pour voir la liste des raccourcis clavier."
-        - "Glisser & déposer les abonnements dans le menu pour les réorganiser ou pour créer des dossiers d'abonnements."
-        - "Vous pouvez double cliquer sur un abonnement ou sur un dossier pour le renommer."
-        - "Pour souscrire à de nouveaux abonnements en un simple clic, utilisez 'http://theoldreader.com/feeds/subscribe?url=%s' dans votre extension d'abonnement RSS or dans la gestion des abonnements de Firefox."
   pages:
     home: "Accueil"
     all: "Tous les éléments"

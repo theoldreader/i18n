@@ -187,12 +187,6 @@ es:
     dead: "Fuentes inactivas"
     tips:
       title: "Consejos y trucos"
-      items:
-        - "Use los atajos de teclado \"j\" y \"k\" para navegar por los elementos. \"o\" abre el elemento en una nueva ventana."
-        - "Otros atajos: use \"s\" para compartir un elemento o \"l\" para decir que le gusta."
-        - "Arrastre y suelte fuentes en el menú para reordenarlas o para crear nuevas carpetas."
-        - "Puede pulsar dos veces en el título de una fuente o carpeta para renombrarla."
-        - "Para suscribirse a fuentes nuevas con un click use 'http://theoldreader.com/feeds/subscribe?url=%s' en la extensión de Suscripción a RSS o en el gestor de fuentes de Firefox."
   pages:
     home: "Portada"
     all: "Todos"

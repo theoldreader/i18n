@@ -187,12 +187,6 @@ ca:
     dead: "Canals RSS morts"
     tips:
       title: "Trucs i consells"
-      items:
-        - "Useu \"j\" i \"k\" al teclat per navegar els articles. \"o\" obre l'article en una finestra nova."
-        - "Unes quantes dreceres més: useu \"s\" per compartir un article, o \"l\" per marcar-lo com favorit."
-        - "Agafeu i deixeu caure canals RSS al menú per canviar-ne l'ordre o per crear carpetes noves."
-        - "Feu doble clic en un canal RSS o carpeta per canviar-ne el nom."
-        - "Per subscriure-us a nous canals RSS amb un sol clic, useu 'http://theoldreader.com/feeds/subscribe?url=%s' a l'extensió de subscripció RSS o al gestor de canals RSS del Firefox."
   pages:
     home: "Inici"
     all: "Tots"
