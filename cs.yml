@@ -1,0 +1,498 @@
+cs:
+  # Devise
+  errors:
+    messages:
+      expired: "vypršelo, prosím požádejte o nový"
+      not_found: "nebylo nalezeno"
+      already_confirmed: "už byl potvrzený, prosím požádejte o nový"
+      not_locked: "nebyl uzamčen"
+      not_saved:
+        one: "1 chyba zabránila v uložení %{resource}:"
+        few: "%{count} chyby zabránily v uložení %{resource}:"
+        many: "%{count} chyb zabránilo v uložení %{resource}:"
+        other: "%{count} chyb zabránilo v uložení %{resource}:"
+
+  devise:
+    failure:
+      already_authenticated: "Už jste přihlášen."
+      unauthenticated: "Musíte se přihlásit pro pokračování."
+      unconfirmed: "Pro pokračování musíte potvrdit váš účet."
+      locked: "Váš účet je uzamčený."
+      invalid: "Chybný e-mail nebo heslo."
+      invalid_token: "Chybný ověřovací klíč."
+      timeout: "Vaše seance vypršela, pro pokračování se přihlaste znovu."
+      inactive: "Váš účet dosud nebyl potvrzen."
+    sessions:
+      signed_in: "Úspěšně přihlášen."
+      signed_out: "Úspěšně odhlášen."
+    passwords:
+      send_instructions: "Během několika minut obdržíte e-mail s instrukcemi, jak obnovit vaše heslo."
+      updated: "Vaše heslo bylo úspěšně změněno. Nyní jste přihlášen."
+      updated_not_active: "Vaše heslo bylo úspěšně změněno."
+      send_paranoid_instructions: "Pokud v naší databázi existuje váš e-mail, obdržíte odkaz pro obnovu hesla touto cestou."
+    confirmations:
+      send_instructions: "Během několika minut obdržíte e-mail s instrukcemi, jak potvrdit váš účet."
+      send_paranoid_instructions: "Pokud v naší databázi existuje váš e-mail, obdržíte odkaz pro potvrzení účtu touto cestou."
+      confirmed: "Váš účet byl úspěšně potvrzen. Automaticky jsme vás přihlásili."
+    registrations:
+      signed_up: "Vítejte! Vaše přihlášení bylo úspěšné."
+      signed_up_but_unconfirmed: "Zpráva s potvrzovacím odkazem byla odeslána na váš e-mail. Klikněte na odkaz pro potvrzení vašeho účtu."
+      signed_up_but_inactive: "Vaše přihlášení bylo úspěšné. Nemůžeme vás však přihlásit, protože váš účet ještě nebyl potvrzen."
+      signed_up_but_locked: "Vaše přihlášení bylo úspěšné. Nemůžeme vás však přihlásit, protože váš účet byl uzamčen."
+      updated: "Aktualizace vašeho účtu proběhla úspěšně."
+      update_needs_confirmation: "Aktualizace vašeho účtu proběhla úspěšně, ale potřebujeme ověřit váš e-mail. Zkontrolujte svou poštu a klikněte na ověřovací odkaz."
+      destroyed: "Váš účet byl zrušen. Snad někdy na viděnou."
+    unlocks:
+      send_instructions: "Během několika minut obdržíte e-mail s instrukcemi, jak odemknout váš účet."
+      unlocked: "Váš účet byl úspěšně odemknut. Přihlaste se pro pokračování."
+      send_paranoid_instructions: "Pokud v naší databázi existuje váš účet, obdržíte informace o odemknutí na váš e-mail."
+    omniauth:
+      success: "Úspěšná autorizace přes účet %{kind}."
+      failure: "Autorizace přes účet %{kind} selhala s následující chybou: %{reason}."
+    mailer:
+      confirmation_instructions:
+        subject: "Instrukce pro potvrzení"
+      reset_password_instructions:
+        subject: "Instrukce pro obnovu hesla"
+      unlock_instructions:
+        subject: "Instrukce pro odemknutí účtu"
+  
+  # Reader
+  app: "The Old Reader"
+  eggs: "Milujeme koťátka :)"
+  title: "The Old Reader"
+  meta:
+    description: "Toto je skvělá RSS čtečka. Importujte své zdroje jedním kliknutím, nalezněte nové přátele a začněte sdílet."
+    keywords: "the old reader"
+  landing:
+    topmenu:
+      -
+        :title: "Twitter"
+        :url: "https://twitter.com/#!/theoldreader"
+      -
+        :title: "Facebook"
+        :url: "https://www.facebook.com/theoldreader"
+      - 
+        :title: "Blog"
+        :url: "http://blog.theoldreader.com/"
+      - 
+        :title: "Kontaktujte nás"
+        :url: "http://blog.theoldreader.com/about"
+    sign_in:
+      title: "Přihlášení pomocí:"
+      google: "Google"
+      facebook: "Facebook"
+      login: "Přihlášení"
+      register: "Registrace"
+      password: "Zapomenuté heslo?"
+      change_password: "Změna hesla"
+    welcome:
+      - "Vítáme vás v The Old Reader, skvělé sociální RSS čtečce. V současnosti jedeme v beta režimu, ale trvale pracujeme na vylepšeních a nových funkcích."
+      - "Můžete začít používat The Old Reader jediným kliknutím. Pokud se však zatím stydíte, zkuste %tour% nebo %trending%."
+    tour: "FAQ"
+    trending: "nejlepší články dne"
+    qa:
+      -
+        :title: "What does it do?"
+        :text: "It allows you to browse your daily dose of content with that very special bit shared by your friends, with notes and comments"
+      -
+        :title: "Can I transfer my subscriptions?"
+        :text: "Yes, you can import your feeds directly from your Google Reader account or use our OPML import feature if you're sensitive about your security."
+      -
+        :title: "How do I find my friends?"
+        :text: "We're working on improving the friend suggestion page, but in the mean time you can search for your buddies manually or see who among your Facebook friends or Google contacts is also using The Old Reader. We'll also send you an e-mail when someone starts following you."
+      -
+        :title: "Do you have a mobile app?"
+        :text: "Not <em>yet</em>, but as we had promised earlier, we started working on it when our user count reached 5000 in October 2012. Even now our standard interface adapts nicely to mobile devices."
+      -
+        :title: "Will you misbehave on my Facebook like those other apps?"
+        :text: "Absolutely not! You can post your shared items on your timeline, but unless you choose to post to Facebook, all your shares and comments will stay in The Old Reader only. We'll never post anything else on your behalf or involve you in any other shady scheme."
+      -
+        :title: "Why did you build The Old Reader?"
+        :text: "Let's just say we missed the original reader a lot, so we built The Old Reader for ourselves and our friends. We like the way it turned out, so we are sharing it with everyone"
+    supported: "Supported with love by"
+  user:
+    profile: "Profil"
+    logout: "Odhlášení"
+    settings: "Nastavení"
+    failure: "Účet %{kind} již byl asociován s jiným účtem v The Old Reader. Zrušte nejprve druhý účet a pak se pokuste o přihlášení znovu."
+    wrong_auth: "Došlo k chybě, prosím kontaktujte nás na hello@theoldreader.com."
+    becomes_active_notice: "Jelikož jste The Old Reader nějakou dobu nepoužívali, uchovali jsme pro vás jen nejnovější články."
+  feeds:
+    no_feeds:
+      text: "Zatím nemáte žádné zdroje. Můžete se přihlásit k novému zdroji (např. k <a href='http://blog.theoldreader.com/rss' class='feed-subscribe'>našemu blogu</a>) nebo importovat své zdroje.<br />Více informací naleznete ve FAQ."
+      subscribe: "přihlásit"
+      import: "importovat"
+      tour: "zobrazit FAQ"
+    no_posts: "V tuto chvíli zde nejsou žádné články."
+    no_posts_filler: "Žádné články pod touto čarou. Zřejmě máte všechno přečteno."
+    subscribe: "Přihlásit"
+    add_subscription: "Přidat zdroj"
+    add: "Přidat"
+    url: "URL zdroje"
+    invalid_url: "Zadáno invalidní URL zdroje"
+    empty_url: "URL zdroje nezadáno"
+    loading: "Nahrávám…"
+    default_folder: "Zdroje"
+    feeds: "Zdroje"
+    feeds_count:
+      one: "zdroj"
+      few: "zdroje"
+      many: "zdrojů"
+      other: "zdrojů"
+    posts_count:
+      one: "článek"
+      few: "články"
+      many: "článků"
+      other: "článků"
+    your_posts: "Nepřečteno: <em>%{unread} %{posts}</em>"
+    refresh: "Obnovit"
+    unsubscribe: "Odhlásit"
+    unsubscribe_confirm: "Opravdu se chcete odhlásit z tohoto zdroje? Vaše sdílené a oblíbené články z tohoto zdroje zůstanou zachovány."
+    ago: "před"
+    never: "Nikdy"
+    confirm: "Opravdu?"
+    mark_all_read: "Označit vše jako přečtené"
+    search: "Hledat"
+    search_limits: "Search query that you used is very popular, so we had to limit the number of search results. If you wish to see all results, please make your search query more strict."
+    mark_read: "Označit jako přečtené"
+    mark_unread: "Označit jako nepřečtené"
+    share: "Sdílet"
+    shared: "Sdíleno"
+    unshare: "Nesdílet"
+    following: "Sledování"
+    attach_note: "Chcete přidat poznámku?"
+    attach: "Uložit poznámku"
+    comments:
+      one: "%{count} komentář"
+      few: "%{count} komentáře"
+      many: "%{count} komentářů"
+      other: "%{count} komentářů"
+    comment: "Komentář"
+    comment_text: "Napsat komentář"
+    comment_destroy_confirm: "Opravdu chcete smazat komentář?"
+    comment_destroy_text: "Tento komentář byl smazán uživatelem."
+    post_author: "<strong>%{author}</strong>"
+    drop_add_folder: "Přetáhněte sem pro vytvoření nové složky"
+    new_folder: "Nová složka"
+    like: "Oblíbit"
+    unlike: "Neoblíbit"
+    likes_count:
+      zero: "%{users} si toto oblíbil"
+      one: "%{users} a jeden další si toto oblíbili"
+      few: "%{users} a %{count} další si toto oblíbili"
+      many: "%{users} a %{count} dalších si toto oblíbili"
+      other: "%{users} a %{count} dalších si toto oblíbili"
+    feed: "Zdroj"
+    site: "Stránka"
+    enclosure_url: "Zobrazit přiložený soubor (%{size}, %{type})"
+    pocket: "Poslat do Pocketu"
+    unpocket: "Odebrat z Pocketu"
+    pocket_error: "Chyba Pocketu"
+  home:
+    following: "Novinky od vašich přátel"
+    updated: "Nejnovější články"
+    dead: "Nefunkční zdroje"
+    tips:
+      title: "Tipy a triky"
+      items:
+        - "Stiskněte „?“ nebo „h“ pro seznam klávesových zkratek."
+        - "Přetáhněte zdroje v seznamu pro jejich setřídění nebo tvorbu nových složek."
+        - "Dvojklik na název zdroje či složky umožní přejmenování."
+        - "Podívejte se do <a href='/pages/tour'>FAQ</a> pro další informace, jak tuto čtečku používat."
+  pages:
+    home: "Úvodní stránka"
+    all: "Všechny položky"
+    liked: "Oblíbené"
+    shared: "Sdílené"
+    followed: "Přátelé"
+    import: "Importovat"
+    search: "Hledat"
+    settings: "Nastavení"
+    profile: "Profil"
+    friends: "Najít přátele"
+    commented: "Komentováno"
+    privacy: "Ochrana osobních údajů"
+    trending: "Nejlepší články"
+    donate: "Podpořte nás"
+    tour: "FAQ"
+    blog: "Blog"
+    status: "Stav služeb"
+    community: "Komunitní zdroje"
+  settings:
+    name: "Jméno"
+    username: "Přihlašovací jméno"
+    email: "E-mail"
+    password: "Heslo"
+    password_confirmation: "Potvrzení hesla"
+    password_notice: "Pro ponechání stávajícího nevyplňujte"
+    token: "Ověřovací klíč"
+    ui:
+      title: "Uživatelské rozhraní"
+      click_to_scroll: "Kliknutí na článek přejde na jeho polohu v seznamu"
+      scroll_to_read: "Listování články je označuje jako přečtené"
+      sidebar_unread_only: "Zobrazovat jen zdroje či složky s nepřečtenými články"
+      locale: "Jazyk"
+    feed_display_mode:
+      title: "Zobrazení zdrojů"
+      all: "Zobrazit všechny články"
+      unread: "Zobrazit jen nepřečtené články"
+    feed_list_mode:
+      title: "Zobrazení článků"
+      full: "Plné zobrazení"
+      list: "Pouze seznam"
+    sort_mode:
+      title: "Pořadí článků"
+      normal: "Od nejnovějších k nejstarším"
+      reverse: "Od nejstarších k nejnovějším"
+    social: "Sociální věci"
+    notify_when_followed: "Poslat e-mail, pokud vás začne někdo sledovat"
+    share_timeline: "Publikovat sdílené články na vašem Facebooku"
+    connect_share_timeline: "Připojit váš účet na Facebooku"
+    show_fb_profile: "Ukazovat v profilu odkaz na váš Facebook"
+    save: "Uložit změny"
+    cancel_disabled: "Nemůžete zrušit účet, pokud probíhá import. Prosíme o vaši trpělivost."
+    cancel_account:
+      text: "Nejste spokojeni? Můžete %{export} ve formě OPML souboru a kdykoliv %{cancel}."
+      export: "exportovat zdroje"
+      cancel: "zrušit svůj účet"
+      confirm: "Opravdu?"
+    pocket:
+      title: "Integrace Pocketu"
+      description: "<a href='http://getpocket.com/'>Pocket</a> (dříve <em>Read It Later</em>) je užitečná aplikace, která umožňuje spravovat články, které si chcete prohlédnout později."
+      connect: "Připojit se k Pocketu"
+      account: "Váš účet: <strong>%{username}</strong>"
+  import:
+    title: "Import"
+    alert: "<b>Zadejte své jméno a heslo pro Google účet</b><br />Vaše přihlašovací údaje neukládáme, slouží pouze pro načtení vašich zdrojů."
+    opml: "<b>Vyberte OPML soubor</b><br />Získáte jej v nastavení služby Google Reader.<br />Použijte <b>subscriptions.xml</b> z vašeho archivu služby Google Takeout."
+    email: "E-mail"
+    password: "Heslo"
+    import: "Import"
+    started: "Import zdrojů je náročná procedura, proto náš systém umožňuje současný import pouze určitého počtu z nich. V tuto chvíli je systém přetížen, proto byl váš import zařazen do fronty."
+    queued: "Děkujeme za nahrání vašeho OPML souboru. Vaše zdroje začneme již brzy importovat."
+    queued_notice: "Ve frontě importu je <strong>%{count}</strong> uživatelů před vámi."
+    processing: "Vaše zdroje budou importovány na pozadí."
+    error: "Došlo k chybě"
+    opml_empty: "OPML soubor je buď poškozený nebo prázdný."
+    too_many_feeds: "Z technických důvodů importujeme pouze prvních 1000 zdrojů."
+    cancel: "Zrušit import"
+  profile:
+    follow: "Sledovat"
+    unfollow: "Nesledovat"
+    thats_you: "Tohle jste vy!"
+    following: 
+      one: "Sleduje <strong>%{count}</strong> uživatele"
+      few: "Sleduje <strong>%{count}</strong> uživatele"
+      many: "Sleduje <strong>%{count}</strong> uživatelů"
+      other: "Sleduje <strong>%{count}</strong> uživatelů"
+    followers:
+      one: "Sledován <strong>%{count}</strong> uživatelem"
+      few: "Sledován <strong>%{count}</strong> uživateli"
+      many: "Sledován <strong>%{count}</strong> uživateli"
+      other: "Sledován <strong>%{count}</strong> uživateli"
+    me_following: "<strong>%{count}</strong> sledovaných"
+    my_followers: "<strong>%{count}</strong> sledujících"
+    posts: "Sdílené články"
+    your_profile: "Váš profil"
+    facebook: "Facebook (%{name})"
+    new: "Nové"
+    new_followers:
+      one: "%{count} nový"
+      few: "%{count} noví"
+      many: "%{count} nových"
+      other: "%{count} nových"
+    rss: "%{name} sdílí články na The Old Reader (RSS)"
+  friends:
+    follow: "Následujte své přátele na The Old Reader"
+    found:
+      one: "Nalezen %{count} uživatel"
+      few: "Nalezeni %{count} uživatelé"
+      many: "Nalezeno %{count} uživatelů"
+      other: "Nalezeno %{count} uživatelů"
+    facebook: "Přihlásit pomocí Facebooku"
+    google: "Přihlásit pomocí Googlu"
+  notifier:
+    followed:
+      subject: "%{name} vás začal sledovat"
+      body: |
+        Ahoj, %{followed}.
+        
+        %{name} vás začal sledovat. Super!
+        Zobrazte si jeho profil na adrese %{profile}.
+        
+        --
+        The Old Reader robot
+        Tyto zprávy můžete zrušit v nastavení.
+        %{host}
+    import:
+      subject: "Vaše zdroje jsou připraveny"
+      body: |
+        Ahoj, %{name}.
+        
+        S potěšením vás informujeme, že jsme dokončili import vašich zdrojů.
+        %{count} zdrojů bylo importováno a najdete je na stránce %{host}.
+        Děkujeme za používání The Old Reader.
+        
+        --
+        The Old Reader robot
+        %{host}
+    confirmation:
+      body: |
+        Vítejte, %{name}.
+        
+        Svůj e-mail můžete potvrdit pomocí tohoto odkazu:
+        %{link}
+        
+        --
+        The Old Reader robot
+        %{host}
+    password:
+      body: |
+        Ahoj, %{name}.
+        
+        Někdo požádal o změnu vašeho hesla. Změnu provedete kliknutím na tento odkaz:
+        %{link}
+        
+        Pokud jste to nebyli vy, klidně ignorujte tento e-mail.
+        Ke změně hesla nedojde, pokud nekliknete na odkaz výše.
+        
+        --
+        The Old Reader robot
+        %{host}
+  shortcuts:
+    header: "Klávesové zkratky"
+    note: "* pouze pro Chrome, Safari a Operu"
+    pages:
+      title: "Navigace mezi stránkami"
+      body: |
+        shift-n, shift-j: následující zdroj či složka
+        shift-p, shift-k: předchozí zdroj či složka
+        shift-x: zavřít otevřenou složku
+        shift-o: otevřít zvolený zdroj či složku
+        shift-c: sbalit všechny složky
+        shift-e: rozbalit všechny složky
+        g then h: jít na úvodní stránku
+        g then a: jít na všechny články
+        g then l: jít na oblíbené články
+        g then s: jít na sdílené články
+        g then t: jít na nejlepší články
+        g then c: jít na komentáře
+        g then f: jít na sledované
+    other:
+      title: "Ostatní zkratky"
+      body: |
+        r: obnovit současnou stránku
+        /: přejít do vyhledávacího pole
+        a: přidat zdroj
+        ? or h: zobrazit nápovědu (tuto stránku)
+    posts:
+      title: "Zkratky pro články"
+      body: |
+        space: o stránku níže
+        shift+space: o stránku výše
+        shift+a: označit vše jako přečtené
+        j, n: následující článek
+        k, p: předchozí článek
+        o: otevřít článek v nové kartě
+        b: otevřít článek v nové kartě na pozadí*
+        x: toggle post (list view)
+        l: označit článek jako oblíbený
+        s: sdílet článek
+        m: označit článek jako (ne)přečtený
+        f: poslat článek do Pocketu
+        c: přejít na komentáře
+        1: přepnout na plné zobrazení článků
+        2: přepnout na seznam článků
+  alerts:
+    common: "Požadavek na server selhal, zkuste to prosím později"
+    posts: "Nemohu nahrát články"
+  page_content:
+    community:
+      title: "Community resources"
+      p1: "We are extremely happy to have a loyal community of users who constantly help us move the project forward. Here are some links to the resources created and supported by our community."
+      translations:
+        title: "Translations"
+        pre_link: "The Old Reader has been translated to many languages. We keep translations in a "
+        link: "separate public github repo"
+        post_link: " so that anyone could contribute."
+      extensions:
+        title: "Browser extensions"
+        p1: "There is a number of browser extensions that make tracking your unread items easier."
+        source_code: "source code"
+        chrome: "Google Chrome extension"
+        chrome_author: "by Anton Tolchanov"
+        chromeapp: "Google Chrome app"
+        chromeapp_author: "by Enrico Bacis"
+        safari: "Safari extension"
+        safari_author: "by Dmitry Kranoukhov"
+        opera: "Opera extension"
+        opera_author: "by Lazare Inepologlou"
+        firefox: "Firefox addon"
+        firefox_author: "by Tomek Wasiak"
+      themes:
+        title: "Unofficial themes"
+        pre_link: "Some users created userstyles that change the way The Old Reader looks in your browser. There is no guarantee that these styles will always work and will not break the site for you, but if you are courageous enough to try, they are available at "
+        post_link: "."
+      requests:
+        title: "Feature requests"
+        pre_link: "You can vote for feature requests and suggest new ones on "
+        link: "our uservoice page"
+        post_link: ". Please search for existing requests before creating a new one, most probably somebody suggested your idea before. We do not moderate the uservoice page, so when you create a duplicate you actually decrease the chances of it getting to the top, because two requests will compete with each other for user votes."
+      forums:
+        title: "Community forums"
+        pre_link: "We have created "
+        link: "a forum on yuku.com"
+        post_link: " for our users to communicate. Feel free to join it and ask for assistance, discuss tweaks, and share your thoughts."
+    donate:
+      title: "Donate"
+      p1: "Running an RSS reader requires quite a lot of resources. This might seem like a simple site, but we have to refresh several million of feeds, some as often as every 5 minutes. Our server cost is pretty high, and we would never be able to afford it without help from our awesome users."
+      p2: "There are several ways you can help us financially and keep the project alive:"
+      flattr:
+        pre_link: "Use "
+        link1: "Flattr"
+        inbetween: ". It is a simple way to give money to authors or services you like. You can either send us a fixed amount of money, or press the “flattr” button, and then your monthly budget would be distributed among us and other projects you helped during a given month. You can also subscribe to "
+        link2: "our account in Flattr"
+        post_link: " which will make you \"flattr\" us automatically every month."
+      bitcoins: "For all the privacy-concerned folks, we haz bitcoins"
+      additional:
+        pre_link: "Unfortunately, for legal reasons we cannot run a Paypal form on the website. However, if you would like to send us a significant sum of money and cannot use Flattr or bitcoins for some reason, please "
+        link: "drop us a note"
+        post_link: "  and we will figure out a way for you to send a personal gift transfer to one of us."
+      thanks: "We appreciate your help! So does this kitten:"
+    tour:
+      title: "The Old Reader 101"
+      add_feeds:
+        title: "Add feeds"
+        p1: "Your new The Old Reader account is shipped empty, so the first thing you should do is add some feeds to read."
+        img1: "Use 'Add a subscription' button to subscribe to a feed. If you enter a web page URL rather than direct feed URL, we will add first RSS feed from that page automatically."
+        img2: "If you are migrating from Google Reader or any other RSS software that can export subscriptions to OPML file, you can use the 'Import' feature to add all your feeds.  We will even migrate all your feed folders to ensure that you feel yourself at home immediately."
+      organize:
+        title: "Organize feeds"
+        img1: "You can drag & drop feeds and folders to change their position. Creating a new feed folder is as easy as dragging a feed to an empty space below your last folder. Empty folders are removed automatically."
+        img2: "Simply double-click on a feed or a folder to rename it."
+      read:
+        title: "Read posts"
+        img1: "Choose what you'd like to read from the menu. You can click on a folder to read all feeds that the folder contains."
+        img2: "Navigation menu allows you to go to the next or previous post with a single click. You can also switch to 'List view' that collapses all posts, lets you glimpse through titles and expand only those articles you are interested in."
+        img3: "You can also use keyboard shortcuts to navigate. Press '?' or 'h' to see the list."
+        img4_p1: "There are action buttons below each post. If you hit 'Like' your name will appear in the list of users who liked that post. The post will also go to your 'Liked' folder."
+        img4_p2: "If you choose to share the post, all your contacts will immediately see it. You can also post your shares to your Facebook timeline (visit Settings to enable that)."
+      discuss:
+        title: "Discuss posts"
+        img1: "It's no fun reading RSS feeds alone. Go to 'Find Friends' page to see who among your Facebook friends or Google contacts is using The Old Reader. You can also look for your friends by name."
+        img2: "All posts that you have shared are in the 'Shared' folder. Items that your friends have shared are in the 'Following' folder. As usual, you can either read the whole folder or choose a specific username to see all posts shared by that user."
+        img3: "You can comment on any post shared by your friends — just hit the 'Comment' button and join the discussion."
+      tips:
+        title: "Tips & Tricks"
+        p1: "To subscribe to new feeds with a single click, configure 'http://theoldreader.com/feeds/subscribe?url=%s' in your RSS feed handler or extension;"
+        p2_pre_link: "If you use Firefox, just "
+        p2_link: "press here"
+        p2_post_link: " to add The Old Reader as your RSS feed handler."
+      finally:
+        title: "Any questions?"
+        pre_link: "Please take a look at our "
+        link1: "knowledge base"
+        inbetween: " and feel free to ask for assistance at the "
+        link2: "community forums"
+        post_link: " if something is not clear."
