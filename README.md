@@ -40,3 +40,5 @@ Türkçe: [canpolat](https://github.com/canpolat)
 Slovenčina: [mufi](https://github.com/mufi)
 
 Polski: [mrsadowski](https://github.com/mrsadowski)
+
+Čeština: [ragimiri](https://github.com/ragimiri)
