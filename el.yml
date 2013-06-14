@@ -5,12 +5,12 @@ el:
       expired: "έχει λήξει, παρακαλώ ζητήστε ένα νέο"
       not_found: "δε βρέθηκε"
       already_confirmed: "έχει ήδη επιβεβαιωθεί, παρακαλώ προσπαθείστε να συνδεθείτε"
-      not_locked: "δεν κλειδώθηκε"
+      not_locked: "δεν ήταν κλειδωμένο"
       not_saved:
         one: "1 σφάλμα απέτρεψε την αποθήκευση αυτού του %{resource}:"
         few: "%{count} σφάλματα απέτρεψαν την αποθήκευση αυτού του %{resource}:"
         many: "%{count} σφάλματα απέτρεψαν την αποθήκευση αυτού του %{resource}:"
-        other: "%{count} σφάλματα απέτρεψαν την αποθήκευση αυτού του %{resource} :"
+        other: "%{count} σφάλματα απέτρεψαν την αποθήκευση αυτού του %{resource}:"
   
   devise:
     failure:
@@ -18,21 +18,21 @@ el:
       unauthenticated: "Χρειάζεται να συνδεθείτε για να συνεχίσετε."
       unconfirmed: "Χρειάζεται να επιβεβαιώσετε τον λογαριασμό σας για να συνεχίσετε."
       locked: "Ο λογαριασμός σας είναι κλειδωμένος."
-      invalid: "Λάθος e-mail ή κωδικός."
-      invalid_token: "Μη έγκυρο τεκμήριο επιβεβαίωσης (authentication token)."
+      invalid: "Μη έγκυρο e-mail ή μη έγκυρος κωδικός."
+      invalid_token: "Μη έγκυρο κουπόνι επιβεβαίωσης (authentication token)."
       timeout: "Η συνεδρία σας έχει λήξει, παρακαλώ συνδεθείτε ξανά για να συνεχίσετε."
-      inactive: "Your account has not been activated yet."
+      inactive: "Ο λογαριασμός σας δεν έχει ενεργοποιηθεί ακόμη."
     sessions:
       signed_in: "Έχετε συνδεθεί επιτυχώς."
       signed_out: "Έχετε αποσυνδεθεί επιτυχώς."
     passwords:
-      send_instructions: "Θα λάβετε ένα e-mail με οδηγίες σχετικά με το πως να επαναφέρετε τον κωδικό σας μέσα σε λίγα λεπτά."
+      send_instructions: "Θα λάβετε ένα e-mail με οδηγίες σχετικά με το πως να επαναφέρετε τον κωδικό σας, μέσα σε λίγα λεπτά."
       updated: "Ο κωδικός σας έχει αλλάξει επιτυχώς. Είσαστε συνδεδεμένος/η."
       updated_not_active: "Ο κωδικός σας έχει αλλάξει επιτυχώς."
-      send_paranoid_instructions: "Αν το e-mail υπάρχει στην βάση δεδομένων μας, θα λάβετε έναν σύνδεσμο για επαναφορά κωδικού μέσω e-mail"
+      send_paranoid_instructions: "Αν το e-mail υπάρχει στη βάση δεδομένων μας, θα λάβετε έναν σύνδεσμο για επαναφορά κωδικού μέσω e-mail"
     confirmations:
       send_instructions: "Θα λάβετε ένα e-mail με οδηγίες σχετικά με το πως να επιβεβαιώσετε τον λογαριασμό σας, μέσα σε λίγα λεπτά."
-      send_paranoid_instructions: "Αν το e-mail υπάρχει στην βάση δεδομένων μας, Θα λάβετε ένα e-mail με οδηγίες σχετικά με το πως να επιβεβαιώσετε τον λογαριασμό σας, μέσα σε λίγα λεπτά."
+      send_paranoid_instructions: "Αν το e-mail υπάρχει στη βάση δεδομένων μας, Θα λάβετε ένα e-mail με οδηγίες σχετικά με το πως να επιβεβαιώσετε τον λογαριασμό σας, μέσα σε λίγα λεπτά."
       confirmed: "Ο λογαριασμός σας επιβεβαιώθηκε επιτυχώς. Είσαστε τώρα συνδεδεμένος/η."
     registrations:
       signed_up: "Καλώς ορίσατε! Έχετε εγγραφεί επιτυχώς!"
@@ -41,28 +41,28 @@ el:
       signed_up_but_locked: "Έχετε εγγραφεί επιτυχώς. Ωστόσο, δε μπορείτε να συνδεθείτε επειδή ο λογαριασμός σας είναι κλειδωμένος."
       updated: "Ενημερώσατε επιτυχώς τον λογαριασμό σας."
       update_needs_confirmation: "Ενημερώσατε επιτυχώς τον λογαριασμό σας αλλά χρειάζεται να επιβεβαιώσετε τη νέα σας διεύθυνση e-mail. Παρακαλώ ελέγξτε το e-mail σας και ανοίξτε τον σύνδεσμο επιβεβαίωσης."
-      destroyed: "Αντίο! Ο λογαριασμός σας διεγράφη επιτυχώς. Ελπίζωουμε να σας ξαναδούμε σύντομα."
+      destroyed: "Αντίο! Ο λογαριασμός σας διεγράφη επιτυχώς. Ελπίζουμε να σας ξαναδούμε σύντομα."
     unlocks:
       send_instructions: "Θα λάβετε ένα e-mail με οδηγίες σχετικά με το πως να ξεκλειδώσετε τον λογαριασμό σας μέσα σε λίγα λεπτά."
       unlocked: "Ο λογαριασμός σας ξεκλειδώθηκε επιτυχώς. Παρακαλώ συνδεθείτε για να συνεχίσετε."
       send_paranoid_instructions: "Αν ο λογαριασμός σας υπάρχει, θα λάβετε ένα e-mail με οδηγίες σχετικά με το πως να τον ξεκλειώσετε μέσα σε λίγα λεπτά."
     omniauth:
-      success: "Successfully authorized via %{kind} account."
-      failure: "%{kind} authorization failed for the following reason: %{reason}."
+      success: "Επιτυχής έγκριση μέσω του λογαριασμού %{kind}."
+      failure: "Η έγκριση %{kind} απέτυχε για τον εξής λόγο: %{reason}."
     mailer:
       confirmation_instructions:
-        subject: "Confirmation instructions"
+        subject: "Οδηγίες επιβεβαίωσης"
       reset_password_instructions:
-        subject: "Reset password instructions"
+        subject: "Οδηγίες επαναφοράς κωδικού"
       unlock_instructions:
-        subject: "Unlock Instructions"
+        subject: "Οδηγίες ξεκλειδώματος"
   
   # Reader
   app: "The Old Reader"
   eggs: "We ♥ kittens"
   title: "The Old Reader"
   meta:
-    description: "It's the ultimate RSS reader. Import your subscriptions in one click, find your friends, and start sharing."
+    description: "Είναι ο απόλυτος αναγνώστης RSS. Εισάγετε τις συνδρομές σας με ένα κλικ, βρείτε τους φίλους σας, και ξεκινήστε τον διαμοιρασμό."
     keywords: "the old reader"
   landing:
     topmenu:
@@ -76,48 +76,48 @@ el:
         :title: "Blog"
         :url: "http://blog.theoldreader.com/"
       - 
-        :title: "Contact us"
+        :title: "Επικοινωνία"
         :url: "http://blog.theoldreader.com/about"
     sign_in:
-      title: "Sign in using:"
+      title: "Σύνδεση μέσω:"
       google: "Google"
       facebook: "Facebook"
-      login: "Login"
-      register: "Register"
-      password: "Forgot password?"
-      change_password: "Change password"
+      login: "Σύνδεση"
+      register: "Εγγραφή"
+      password: "Ξεχάσατε τον κωδικό σας;"
+      change_password: "Αλλαγή κωδικού"
     welcome:
-      - "Welcome to The Old Reader, the ultimate social RSS reader. We're in beta right now, but we're constantly working on improvements and new features."
-      - "You can sign in and start using The Old Reader with a single click. However, if you are too shy, please feel free to see our %tour% or peek at the %trending%."
-    tour: "Howto"
-    trending: "top posts of the day"
+      - "Καλώς ορίσατε στον The Old Reader, τον απόλυτο αναγνώστη RSS. Είμαστε στη φάση beta αυτήν τη στιγμή, αλλά εργαζόμαστε συνεχώς για βελτιώσεις και νέες λειτουργίες."
+      - "Μπορείτε να συνδεθείτε και να ξεκινήσετε να χρησιμοποιείτε τον The Old Reader με ένα κλικ. Ωστόσο, αν είστε πολύ ντροπαλός/η, παρακαλώ μη διστάσετε να δείτε τις %tour% ή να ρίξετε μία ματιά στις %trending%."
+    tour: "οδηγίες"
+    trending: "δημοφιλέστερες αναρτήσεις της ημέρας"
     qa:
       -
-        :title: "What does it do?"
-        :text: "It allows you to browse your daily dose of content with that very special bit shared by your friends, with notes and comments"
+        :title: "Τι κάνει;"
+        :text: "Σας επιτρέπει να περιηγηθείτε στην καθημερινή σας δόση περιεχομένου με την ξεχωριστή λειτουργία του διαμοιρασμού με τους φίλους σας, με σημειώσεις και σχόλια"
       -
-        :title: "Can I transfer my subscriptions?"
-        :text: "Yes, you can import your feeds directly from your Google Reader account or use our OPML import feature if you're sensitive about your security."
+        :title: "Μπορώ να μεταφέρω τις συνδρομές μου;"
+        :text: "Ναι, μπορείτε να εισάγετε τις ροές σας κατευθείαν από τον λογαριασμό σας στο Google Reader ή να χρησιμοποιήσετε τη λειτουργία εισαγωγής OPML, αν είστε ευαίσθητοι σχετικά με την ασφάλειά σας."
       -
-        :title: "How do I find my friends?"
-        :text: "We're working on improving the friend suggestion page, but in the mean time you can search for your buddies manually or see who among your Facebook friends or Google contacts is also using The Old Reader. We'll also send you an e-mail when someone starts following you."
+        :title: "Πώς βρίσκω τους φίλους μου;"
+        :text: "Εργαζόμαστε στο να βελτιώσουμε τη σελίδα που προτείνει φίλους, αλλά στο ενδιάμεσο μπορείτε να αναζητήσετε τους φίλους σας χειροκίνητα ή να δείτε ποιος ανάμεσα από τους φίλους σας στο Facebook ή τις Google επαφές σας χρησιμοποιεί επίσης τον The Old Reader. Θα σας στείλουμε επίσης ένα e-mail όταν κάποιος αρχίσει να σας ακολουθεί."
       -
-        :title: "Do you have a mobile app?"
-        :text: "Not <em>yet</em>, but as we had promised earlier, we started working on it when our user count reached 5000 in October 2012. Even now our standard interface adapts nicely to mobile devices."
+        :title: "Έχετε εφαρμογή για κινητά;"
+        :text: "Όχι <em>ακόμα</em>, αλλά όπως υποσχεθήκαμε προηγουμένως, ξεκινήσαμε να εργαζόμαστε πάνω σε αυτό όταν ο αριθμός χρηστών έφτασε τους 5000 τον Οκτώβριο του 2012. Ακόμα και τώρα το τυπικό μας περιβάλλον προσαρμόζεται όμορφα σε φορητές συσκευές."
       -
-        :title: "Will you misbehave on my Facebook like those other apps?"
-        :text: "Absolutely not! You can post your shared items on your timeline, but unless you choose to post to Facebook, all your shares and comments will stay in The Old Reader only. We'll never post anything else on your behalf or involve you in any other shady scheme."
+        :title: "Θα συμπεριφερθείτε άσχημα στο Facebook μου όπως οι άλλες εφαρμογές;"
+        :text: "Απολύτως όχι! Μπορείτε να αναρτάτε στα διαμοιρασμένα στοιχεία σας στο χρονολόγιό σας, αλλά αν δεν επιλέξετε να αναρτήσετε στο Facebook, όλοι οι διαμοιρασμοί σας και τα σχόλια θα μείνουν μόνο στον The Old Reader. Δε θα αναρτήσουμε ποτέ τίποτα άλλο εκ μέρους σας και δε θα σας εμπλέξουμε σε κάποια άλλη ύπουλη ενέργεια."
       -
-        :title: "Why did you build The Old Reader?"
-        :text: "Let's just say we missed the original reader a lot, so we built The Old Reader for ourselves and our friends. We like the way it turned out, so we are sharing it with everyone"
-    supported: "Supported with love by"
+        :title: "Γιατί δημιουργήσατε τον The Old Reader?"
+        :text: "Ας πούμε απλά ότι ο αρχικός αναγνώστης μας έλειψε αρκετά, και έτσι δημιουργήσαμε τον The Old Reader για εμάς και τους φίλους μας. Μας αρέσει το πως προέκυψε τελικά, και έτσι το μοιραζόμαστε με όλους"
+    supported: "Υποστηριζόμενο με αγάπη από"
   user:
-    profile: "Profile"
-    logout: "Logout"
-    settings: "Settings"
-    failure: "The %{kind} account you are trying to use has already been linked to some other The Old Reader account. Please cancel your other account and retry the operation."
-    wrong_auth: "Something went wrong, please contact us at hello@theoldreader.com"
-    becomes_active_notice: "You have not used The Old Reader for a while, so we kept only fresh posts for you"
+    profile: "Προφίλ"
+    logout: "Αποσύνδεση"
+    settings: "Ρυθμίσεις"
+    failure: "Ο λογαριασμός %{kind} που προσπαθείτε να χρησιμοποιήσετε, έχει ήδη ταυτοποιηθεί σε κάποιον άλλον λογαριασμό στο The Old Reader. Παρακαλώ ακυρώστε τον άλλο σας λογαριασμό και ξαναπροσπαθείστε."
+    wrong_auth: "Κάτι δεν πήγε καλά, παρακαλώ επικοινωνήστε μαζί μας στο hello@theoldreader.com"
+    becomes_active_notice: "Δεν έχετε χρησιμοποιήσει τον The Old Reader για λίγο καιρό, οπότε κρατήσαμε μόνο τις νέες αναρτήσεις για εσάς"
   feeds:
     no_feeds:
       text: "You have no subscriptions yet. You can %{subscribe} to a new feed (how about <a href='http://blog.theoldreader.com/rss' class='feed-subscribe'>our blog</a>?) or %{import} your subscriptions.<br />If you want to learn more, %{tour}."
