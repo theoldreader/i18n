@@ -2,7 +2,7 @@ de:
   # Devise
   errors:
     messages:
-      expired: "ist abgelaufen, bitte fordern Sie ein neues an"
+      expired: "ist abgelaufen, bitte neu anfordern"
       not_found: "nicht gefunden"
       already_confirmed: "wurde bereits bestätigt, bitte melden Sie sich an"
       not_locked: "wurde nicht gesperrt"
@@ -104,7 +104,7 @@ de:
         :text: "Wir sagen mal so, wir haben den ursprünglichen Reader sehr vermisst. Also haben wir The Old Reader für uns und unsere Freunde geschaffen. Wir finden es ist uns gut gelungen, also teilen wir es mit allen."
     supported: "Mit Liebe unterstützt von"
   user:
-    profile: "Benutzerkonto"
+    profile: "Profil"
     logout: "Abmelden"
     settings: "Einstellungen"
     failure: "Das %{kind} Konto, das Sie verwenden wollen, wurde bereits mit einem anderen The Old Reader Konto verknüpft. Bitte kündigen Sie Ihr anderes Konto und versuchen Sie es erneut."
@@ -119,7 +119,7 @@ de:
     no_posts: "Hier sind noch keine Beiträge"
     no_posts_filler: "Keine Beiträge unterhalb dieser Linie. Wahrscheinlich haben Sie schon alle gelesen."
     subscribe: "Abonnieren"
-    add_subscription: "Ein Abo hinzufügen"
+    add_subscription: "Feed abonieren"
     add: "Hinzufügen"
     url: "URL"
     invalid_url: "Dies ist eine ungültige URL"
@@ -253,11 +253,11 @@ de:
     follow: "Folgen"
     unfollow: "Nicht mehr folgen"
     thats_you: "Das sind Sie!"
-    following: 
+    following:
       one: "Folgt <strong>%{count}</strong> Benutzer"
-      few: "Folgt <strong>%{count}</strong> users"
-      many: "Follows <strong>%{count}</strong> users"
-      other: "Follows <strong>%{count}</strong> users"
+      few: "Folgt <strong>%{count}</strong> Benutzern"
+      many: "Follows <strong>%{count}</strong> Benutzern"
+      other: "Follows <strong>%{count}</strong> Benutzern"
     followers:
       one: "Von <strong>%{count}</strong> Nutzer gefolgt"
       few: "Von <strong>%{count}</strong> Nutzern gefolgt"
