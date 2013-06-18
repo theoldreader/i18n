@@ -101,7 +101,7 @@ ca:
         :text: "I ara! Podeu penjar els vostres articles compartits a la vostra línia de temps de Facebook però, llevat que ho trieu, tots els vostres articles i comentaris es quedaran a The Old Reader. No penjarem res en nom vostre, ni us farem part de cap invent poc clar."
       -
         :title: "Perquè vau crear The Old Reader?"
-        :text: "Diguem que trobàvem a faltar molt l'antic Google Reader, així que vàrem crear The Old Reader per a nosaltres i els nostres amics. Ens agrada com va quedar, i ho estem compartint amb tothom"
+        :text: "Diguem que trobàvem a faltar molt l'antic Google Reader, així que vàrem crear The Old Reader per a nosaltres i els nostres amics. Ens agrada com va quedar, i ho estem compartint amb tothom."
     supported: "Mantingut amb amor per"
   user:
     profile: "Perfil"
@@ -241,7 +241,7 @@ ca:
       confirm: "N'esteu segur?"
     pocket:
       title: "Integració amb Pocket"
-      description: "<a href='http://getpocket.com/'>Pocket</a> (abans Read It Later) és una app que us permet marcar i organitzar articles per llegir més endavant."
+      description: "<a href='http://getpocket.com/'>Pocket</a> (abans Read It Later) és una aplicació que us permet marcar i organitzar articles per llegir més endavant."
       connect: "Connecta a Pocket per començar a marcar"
       account: "Compte: <strong>%{username}</strong>"
   import:
@@ -256,7 +256,7 @@ ca:
     queued_notice: "Hi ha <strong>%{count}</strong> usuaris a la cua davant vostre."
     too_many_feeds: "Per raons tècniques només importarem els primers 1.000 canals RSS."
     cancel: "Cancel·la la importació"
-    processing: "Els canals RSS s'estant important en segon pla."
+    processing: "Els canals RSS s'estan important en segon pla."
     error: "Quelcom no ha funcionat"
     opml_empty: "El fitxer OPML és incorrecte o està buit."
   profile:
@@ -300,7 +300,7 @@ ca:
       body: |
         Hola, %{followed}!
         
-        %{name} us segueix. Maco!
+        %{name} us segueix. Visca!
         Llegiu el perfil a %{profile}.
         
         -- 
