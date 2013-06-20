@@ -314,34 +314,34 @@ en:
     google: "Logg inn med Google"
   notifier:
     followed:
-      subject: "%{name} has followed you"
+      subject: "%{name} følger deg nå"
       body: |
-        Hello, %{followed}!
+        Hei, %{followed}!
 
-        %{name} is now following you. Nice!
-        See profile at %{profile}.
+        %{name} følger deg nå. Supert!
+        Se profilen på %{profile}.
 
         --
         The Old Reader robot.
-        You can always unsubscribe at your settings page.
+        Du kan alltids avregistrere deg fra disse e-postene i kontoinnstillingene dine.
         %{host}
     import:
-      subject: "Your feeds are ready, hooray!"
+      subject: "Strømmene dine er klare nå, hurra!"
       body: |
-        Hello %{name},
+        Hei %{name},
 
-        We are happy to inform you that we have finished importing your subscriptions.
-        %{count} feeds you imported should now be available at %{host}.
-        Thank you for using The Old Reader.
+        Det gleder oss å informere deg at vi er ferdig med å importere de %{count} abonnementene dine.
+        Strømmene du importerte burde nå være tilgjengelig på %{host}.
+        Takk for at du bruker The Old Reader.
 
         --
         The Old Reader robot.
         %{host}
     confirmation:
       body: |
-        Welcome %{name},
+        Velkommen %{name},
 
-        You can confirm your account email using the link below:
+        Du kan verifisere e-posten din på linken under:
         %{link}
 
         --
@@ -349,150 +349,150 @@ en:
         %{host}
     password:
       body: |
-        Hello %{name},
+        Hei %{name},
 
-        Someone has requested a link to change your password, here it is:
+        Noen har bedt om en link for å endre passordet ditt, her er den:
         %{link}
 
-        If you have not requested this, please ignore this email.
-        Your password will not get changed until you access the link above.
+        Hvis du ikke har bedt om dette, vennligst ignorer denne e-posten.
+        Passordet ditt vil ikke endres før du åpner linken over.
 
         --
         The Old Reader robot.
         %{host}
   shortcuts:
-    header: "Keyboard Shortcuts"
-    note: "*Chrome, Safari, Opera only"
+    header: "Hurtigtaster"
+    note: "*bare for Chrome, Safari og Opera"
     pages:
-      title: "Navigate between pages"
+      title: "Naviger mellom sider"
       body: |
-        shift-n, shift-j: next subscription or folder
-        shift-p, shift-k: previous subscription or folder
-        shift-x: collapse selected folder
-        shift-o: open selected subscription or folder
-        shift-c: collapse all folders
-        shift-e: expand all folders
-        g then h: go to home
-        g then a: go to all items
-        g then l: go to liked
-        g then s: go to shared
-        g then t: go to trending
-        g then c: go to commented
-        g then f: go to following
+        shift-n, shift-j: neste abonnement eller mappe
+        shift-p, shift-k: forrige abonnement eller mappe
+        shift-x: lukk valgt mappe
+        shift-o: åpne valgt abonnement eller mappe
+        shift-c: lukk alle mapper
+        shift-e: utvid alle mapper
+        g then h: gå til hjemmeside
+        g then a: gå til alle objekter
+        g then l: gå til likte objekter
+        g then s: gå til delte objekter
+        g then t: gå til trender
+        g then c: gå til kommenterte objekter
+        g then f: gå til fulgte
     other:
-      title: "Other shortcuts"
+      title: "Andre hurtigtaster"
       body: |
-        r: refresh current page
-        /: focus the search field
-        a: add subscription
-        ? or h: show this window
+        r: oppdater gjeldende side
+        /: fokuser på søkefeltet
+        a: legg til abonnement
+        ? or h: vis dette vinduet
     posts:
-      title: "Shortcuts for posts"
+      title: "Hurtigtaster for innlegg"
       body: |
-        space: scroll down
-        shift+space: scroll up
-        shift+a: mark all as read
-        j, n: next post
-        k, p: previous post
-        o: open post in a new tab
-        b: open post in a background tab*
-        x: toggle post (list view)
-        l: mark post as liked
-        s: share a post
-        m: read/unread a post
-        f: save post to Pocket
-        c: scroll to comments and open the form
-        1: switch to full view
-        2: switch to list view
+        space: rull ned
+        shift+space: rull opp
+        shift+a: marker alle som lest
+        j, n: neste innlegg
+        k, p: forrige innlegg
+        o: åpne innlegg i ny tab
+        b: åpne innlegg i bakgrunns-tab*
+        x: endre visningsmodus for innlegg
+        l: marker innlegg som likt
+        s: del et innlegg
+        m: marker innlegg som lest/ulest
+        f: lagre innlegg i Pocket
+        c: rull til kommentarer og åpne skjemaet
+        1: bytt til full visning
+        2: bytt til listevisning
   alerts:
-    common: "Request to the server failed, please try again later"
-    posts: "Could not load posts"
+    common: "Forespørsel til serveren misslyktes, vennligst prøv igjen senere"
+    posts: "Kunne ikke laste innlegg"
   page_content:
     community:
-      title: "Community resources"
-      p1: "We are extremely happy to have a loyal community of users who constantly help us move the project forward. Here are some links to the resources created and supported by our community."
+      title: "Samfunnsressurser"
+      p1: "Vi er utrolig glade for at vi har et lojalt samfunn av brukere som stadig hjelper oss å utvikle prosjektet videre. Her er noen linker til ressursene laget og støttet av samfunnet vårt."
       translations:
-        title: "Translations"
-        pre_link: "The Old Reader has been translated to many languages. We keep translations in a "
-        link: "separate public github repo"
-        post_link: " so that anyone could contribute."
+        title: "Oversettelser"
+        pre_link: "The Old Reader har blitt oversatt til mange språk. Vi har oversettelsene i et "
+        link: "separat, offentlig, github repo"
+        post_link: " så hvem som helst kan bidra."
       extensions:
-        title: "Browser extensions"
-        p1: "There is a number of browser extensions that make tracking your unread items easier."
-        source_code: "source code"
-        chrome: "Google Chrome extension"
-        chrome_author: "by Anton Tolchanov"
-        chromeapp: "Google Chrome app"
-        chromeapp_author: "by Enrico Bacis"
-        safari: "Safari extension"
-        safari_author: "by Dmitry Kranoukhov"
-        opera: "Opera extension"
-        opera_author: "by Lazare Inepologlou"
-        firefox: "Firefox addon"
-        firefox_author: "by Tomek Wasiak"
+        title: "Nettleserutvidelser"
+        p1: "Det finns en del nettleserutvidelser som gjør det lettere å holde styr i de uleste objektene dine."
+        source_code: "kildekode"
+        chrome: "Google Chrome-utvidelse"
+        chrome_author: "av Anton Tolchanov"
+        chromeapp: "Google Chrome-app"
+        chromeapp_author: "av Enrico Bacis"
+        safari: "Safari-utvidelse"
+        safari_author: "av Dmitry Kranoukhov"
+        opera: "Opera-utvidelse"
+        opera_author: "av Lazare Inepologlou"
+        firefox: "Firefox-utvidelse"
+        firefox_author: "av Tomek Wasiak"
       themes:
-        title: "Unofficial themes"
-        pre_link: "Some users created userstyles that change the way The Old Reader looks in your browser. There is no guarantee that these styles will always work and will not break the site for you, but if you are courageous enough to try, they are available at "
+        title: "Uoffisielle temaer"
+        pre_link: "Noen brukere har laget stiler som endrer hvordan The Old Reader ser ut i nettleseren din. Det er ingen garanti for at disse stilene alltid vil fungere, men om du er modig finner du de på "
         post_link: "."
       requests:
-        title: "Feature requests"
-        pre_link: "You can vote for feature requests and suggest new ones on "
-        link: "our uservoice page"
-        post_link: ". Please search for existing requests before creating a new one, most probably somebody suggested your idea before. We do not moderate the uservoice page, so when you create a duplicate you actually decrease the chances of it getting to the top, because two requests will compete with each other for user votes."
+        title: "Funksjonsforespørsler"
+        pre_link: "Du kan stemme på forespørsler om funksjoner, og foreslå nye, på "
+        link: "uservoice-siden vår"
+        post_link: ". Vennligst søk etter eksisterende forespørsler før du lager en ny, det er meget sannsynlig noen har foreslått idéen din før. Vi moderer ikke uservoice-siden vår, så når du lager en duplikat minker du faktisk sjansene for at den kommer til toppen, fordi begge forespørselene vil slåss med hverandre over brukerstemmer."
       forums:
-        title: "Community forums"
-        pre_link: "We have created "
-        link: "a forum on yuku.com"
-        post_link: " for our users to communicate. Feel free to join it and ask for assistance, discuss tweaks, and share your thoughts."
+        title: "Forum"
+        pre_link: "Vi har opprettet "
+        link: "et forum på yuku.com"
+        post_link: " slik at brukerene våre kan kommunisere. Du er velkommen til å være med og spørre om hjelp, diskutere endringer, og dele tankene dine."
     donate:
-      title: "Donate"
-      p1: "Running an RSS reader requires quite a lot of resources. This might seem like a simple site, but we have to refresh several million of feeds, some as often as every 5 minutes. Our server cost is pretty high, and we would never be able to afford it without help from our awesome users."
-      p2: "There are several ways you can help us financially and keep the project alive:"
+      title: "Donér"
+      p1: "Å kjøre en RSS-leser krever mye ressurser. Dette ser kanskje ut som en simpel webside, men vi må oppdatere flere millioner strømmer, noen så ofte som hvert femte minutt. Serverkostnadene våre er ganske høye, og vi ville aldri hatt råd til det uten de utrolige brukerene våre."
+      p2: "Det er mange måter du kan hjelpe oss økonomisk og holde prosjektet i live:"
       flattr:
-        pre_link: "Use "
+        pre_link: "Bruk "
         link1: "Flattr"
-        inbetween: ". It is a simple way to give money to authors or services you like. You can either send us a fixed amount of money, or press the “flattr” button, and then your monthly budget would be distributed among us and other projects you helped during a given month. You can also subscribe to "
-        link2: "our account in Flattr"
-        post_link: " which will make you \"flattr\" us automatically every month."
-      bitcoins: "For all the privacy-concerned folks, we haz bitcoins"
+        inbetween: ". Det er en enkel måte å gi penger til forfattere og tjenester du liker. Du kan enten sende oss et fast beløp, eller trykke på “flattr”-knappen, og så blir det månedlige budsjettet distribuert mellom oss og andre prosjekter du har hjulpet i løpet av en måned. Du kan også abonnere på "
+        link2: "Flattr-kontoen våres"
+        post_link: " som gjør at du \"flattr\" oss automatisk hver måned."
+      bitcoins: "For alle som er bekymrede for privatlivet, så haz vi bitcoins"
       additional:
-        pre_link: "Unfortunately, for legal reasons we cannot run a Paypal form on the website. However, if you would like to send us a significant sum of money and cannot use Flattr or bitcoins for some reason, please "
-        link: "drop us a note"
-        post_link: "  and we will figure out a way for you to send a personal gift transfer to one of us."
-      thanks: "We appreciate your help! So does this kitten:"
+        pre_link: "Uheldigvis kan vi ikke kjøre et Paypal-skjema på websiden vår av juridiske grunner. Derimot, hvis du har lyst til å sende oss en betydelig sum penger og av en eller annen grunn ikke kan bruke Flattr eller bitcoin, vennligst "
+        link: "send oss en beskjed"
+        post_link: "  så vil vi finne ut en måte du kan sende en personlig overføring til en av oss."
+      thanks: "Vi setter pris på din hjelp! Det gjør også denne kattungen:"
     tour:
-      title: "The Old Reader 101"
+      title: "The Old Reader - grunnkurs"
       add_feeds:
-        title: "Add feeds"
-        p1: "Your new The Old Reader account is shipped empty, so the first thing you should do is add some feeds to read."
-        img1: "Use 'Add a subscription' button to subscribe to a feed. If you enter a web page URL rather than direct feed URL, we will add first RSS feed from that page automatically."
-        img2: "If you are migrating from Google Reader or any other RSS software that can export subscriptions to OPML file, you can use the 'Import' feature to add all your feeds.  We will even migrate all your feed folders to ensure that you feel yourself at home immediately."
+        title: "Legg til strømmer"
+        p1: "Din nye The Old Reader konto kommer tom ut av boksen, så det første du burde gjøre er å legge til noen strømmer å lese."
+        img1: "Bruk 'Legg til et abonnement'-knappen for å abonnere på en strøm. Hvis du legger inn en webside-URL istedet for en URL direkte til en strøm kommer vi automatisk til å legge til den første RSS-strømmen fra websiden."
+        img2: "Hvis du migrere fra Google Reader eller et annet RSS-program kan du eksportere abonnementene dine til en OPML-fil og bruke 'Import'-funksjonen til å legge inn alle strømmene dine. Vi vil tilogmed migrere alle mappene dine for å forsikre at du føler deg hjemme med en gang."
       organize:
-        title: "Organize feeds"
-        img1: "You can drag & drop feeds and folders to change their position. Creating a new feed folder is as easy as dragging a feed to an empty space below your last folder. Empty folders are removed automatically."
-        img2: "Simply double-click on a feed or a folder to rename it."
+        title: "Organisere strømmer"
+        img1: "Du kan dra og slippe strømmer og mapper for å endre plasseringene deres. Å lage en ny mappe er så enkelt som å dra en strøm til en tom plass under den siste mappa di. Tomme mapper blir automatisk fjernet."
+        img2: "Simpelthen dobbeltklikk på en strøm eller mappe for å skifte på navnet deres."
       read:
-        title: "Read posts"
-        img1: "Choose what you'd like to read from the menu. You can click on a folder to read all feeds that the folder contains."
-        img2: "Navigation menu allows you to go to the next or previous post with a single click. You can also switch to 'List view' that collapses all posts, lets you glimpse through titles and expand only those articles you are interested in."
-        img3: "You can also use keyboard shortcuts to navigate. Press '?' or 'h' to see the list."
-        img4_p1: "There are action buttons below each post. If you hit 'Like' your name will appear in the list of users who liked that post. The post will also go to your 'Liked' folder."
-        img4_p2: "If you choose to share the post, all your contacts will immediately see it. You can also post your shares to your Facebook timeline (visit Settings to enable that)."
+        title: "Les innlegg"
+        img1: "Velg hva du har lyst til å lese fra menyen. Du kan klikke på en mappe for å lese alle strømmene som mappen inneholder."
+        img2: "Navigasjonsmenyen lar deg gå til den neste eller forrige innlegg med ett enkelt klikk. Du kan også skifte til 'Listevisning' som minimerer alle innlegg, og lar deg skumlese titlene og åpne bare de artiklene du er interessert i."
+        img3: "Du kan også bruke hurtigtaster for å navigere. Trykk på '?' eller 'h' for å se listen."
+        img4_p1: "Det er funksjonsknapper under hvert innlegg. Trykker du på 'Lik' kommer navnet dit til å vises i listen over brukere som liker innlegget. Innlegget vil også bli lagt i 'Likt'-mappen din."
+        img4_p2: "Hvis du velger å dele innlegget vil alle kontaktene dine se det umiddelbart. Du kan også poste det du deler til Facebook-tidslinjen din (gå til Innstillinger for å skru det på)."
       discuss:
-        title: "Discuss posts"
-        img1: "It's no fun reading RSS feeds alone. Go to 'Find Friends' page to see who among your Facebook friends or Google contacts is using The Old Reader. You can also look for your friends by name."
-        img2: "All posts that you have shared are in the 'Shared' folder. Items that your friends have shared are in the 'Following' folder. As usual, you can either read the whole folder or choose a specific username to see all posts shared by that user."
-        img3: "You can comment on any post shared by your friends — just hit the 'Comment' button and join the discussion."
+        title: "Diskutér innlegg"
+        img1: "Det er ikke noe gøy å lese RSS-strømmer alene. Gå til 'Finn Venner'-siden for å se hvem blant Facebook-vennene eller Google-kontaktene dine bruker The Old Reader. Du kan også se etter venner basert på navn."
+        img2: "Alle innlegg du har delt ligger i 'Delte'-mappen din. Objekter som vennene dine har delt ligger i 'Følger'-mappen. Som vanlig kan du enten lese hele mappen, eller velge et spesifikt brukernavn for å se alle innleggene delt av den brukeren."
+        img3: "Du kan kommentere by alle innlegg delt av dine venner - bare trykk på 'Kommenter'-knappen og delta i diskusjonen."
       tips:
-        title: "Tips & Tricks"
-        p1: "To subscribe to new feeds with a single click, configure 'http://theoldreader.com/feeds/subscribe?url=%s' in your RSS feed handler or extension;"
-        p2_pre_link: "If you use Firefox, just "
-        p2_link: "press here"
-        p2_post_link: " to add The Old Reader as your RSS feed handler."
+        title: "Tips og Triks"
+        p1: "For å abonnere på nye strømmer med ett enkelt klikk, konfigurér 'http://theoldreader.com/feeds/subscribe?url=%s' i RSS-strømhåndtereren eller utvidelsen din;"
+        p2_pre_link: "Hvis du bruker Firefox, bare "
+        p2_link: "klikk her"
+        p2_post_link: " for å legge til The Old Reader som RSS-strømhåndtereren din."
       finally:
-        title: "Any questions?"
-        pre_link: "Please take a look at our "
-        link1: "knowledge base"
-        inbetween: " and feel free to ask for assistance at the "
-        link2: "community forums"
-        post_link: " if something is not clear."
+        title: "Noen spørsmål?"
+        pre_link: "Vennligst ta en titt i "
+        link1: "kunnskapsbasen vår"
+        inbetween: " og føl deg fri til å spøre om hjelp på  "
+        link2: "forumet vårt"
+        post_link: " hvis noe er uklart."
