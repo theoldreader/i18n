@@ -323,7 +323,7 @@ nb_no:
 
         --
         The Old Reader robot.
-        Du kan alltids avregistrere deg fra disse epostene i kontoinnstillingene dine.
+        Du kan alltids avregistrere deg fra disse e-postene i kontoinnstillingene dine.
         %{host}
     import:
       subject: "Strømmene dine er klare nå, hurra!"
@@ -354,7 +354,7 @@ nb_no:
         Noen har bedt om en link for å endre passordet ditt, her er den:
         %{link}
 
-        Hvis du ikke har bedt om dette, vennligst ignorer denne eposten.
+        Hvis du ikke har bedt om dette, vennligst ignorer denne e-posten.
         Passordet ditt vil ikke endres før du åpner linken over.
 
         --
