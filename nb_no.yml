@@ -394,7 +394,7 @@ nb_no:
         shift+a: marker alle som lest
         j, n: neste innlegg
         k, p: forrige innlegg
-        o: åpne innlegg i ny tab
+        o, v: åpne innlegg i ny tab
         b: åpne innlegg i bakgrunns-tab*
         x: endre visningsmodus for innlegg
         l: marker innlegg som likt
@@ -471,6 +471,7 @@ nb_no:
         title: "Organisere strømmer"
         img1: "Du kan dra og slippe strømmer og mapper for å endre plasseringene deres. Å lage en ny mappe er så enkelt som å dra en strøm til en tom plass under den siste mappen din. Tomme mapper blir automatisk fjernet."
         img2: "Simpelthen dobbeltklikk på en strøm eller mappe for å skifte på navnet deres."
+        img2_p2: "Det er ikke mulig å endre navn på standardmappen ('Abonnementer'), men du kan flytte alle strømmene ut av den til nye mapper, og den vil forsvinne helt."
       read:
         title: "Les innlegg"
         img1: "Velg hva du har lyst til å lese fra menyen. Du kan klikke på en mappe for å lese alle strømmene som mappen inneholder."
