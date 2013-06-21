@@ -388,7 +388,7 @@ fr:
         shift+a: tous marquer comme lu
         j, n: article suivant
         k, p: article précédent
-        o: ouvre l'article dans un nouvel onglet
+        o, v: ouvre l'article dans un nouvel onglet
         b: ouvre l'article dans un nouvel onglet en arrière plan*
         x: basculer l'article (list view)
         l: marquer l'article 'J'aime'

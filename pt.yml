@@ -382,7 +382,7 @@ pt:
         shift+a: marcar todas como lidas
         j, n: postagem seguinte
         k, p: postagem anterior
-        o: abrir postagem em nova aba
+        o, v: abrir postagem em nova aba
         b: abrir postagem em uma aba em segundo plano*
         x: alternar postagem (visualização em lista)
         l: marcar postagem como curtida

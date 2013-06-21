@@ -365,7 +365,7 @@ hu:
         shift+a: mindegyik olvasottnak jelölése
         j, n: következő elem
         k, p: előző elem
-        o: elem megnyitása új fülön
+        o, v: elem megnyitása új fülön
         b: elem megnyitása a háttérben*
         x: elemek kibontása (lista nézet)
         l: elem tetszettnek jelölése

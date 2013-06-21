@@ -394,7 +394,7 @@ en:
         shift+a: mark all as read
         j, n: next post
         k, p: previous post
-        o: open post in a new tab
+        o, v: open post in a new tab
         b: open post in a background tab*
         x: toggle post (list view)
         l: mark post as liked
@@ -471,6 +471,7 @@ en:
         title: "Organize feeds"
         img1: "You can drag & drop feeds and folders to change their position. Creating a new feed folder is as easy as dragging a feed to an empty space below your last folder. Empty folders are removed automatically."
         img2: "Simply double-click on a feed or a folder to rename it."
+        img2_p2: "It's not possible to rename the default folder ('Subscriptions'), but you can move all your feeds out of it to other folders, and it will disappear completely."
       read:
         title: "Read posts"
         img1: "Choose what you'd like to read from the menu. You can click on a folder to read all feeds that the folder contains."
