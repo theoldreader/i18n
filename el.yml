@@ -100,7 +100,7 @@ el:
         :text: "Ναι, μπορείτε να εισάγετε τις ροές σας κατευθείαν από τον λογαριασμό σας στο Google Reader ή να χρησιμοποιήσετε τη λειτουργία εισαγωγής OPML, αν είστε ευαίσθητοι σχετικά με την ασφάλειά σας."
       -
         :title: "Πώς βρίσκω τους φίλους μου;"
-        :text: "Εργαζόμαστε στο να βελτιώσουμε τη σελίδα που προτείνει φίλους, αλλά στο ενδιάμεσο μπορείτε να αναζητήσετε τους φίλους σας χειροκίνητα ή να δείτε ποιος ανάμεσα από τους φίλους σας στο Facebook ή τις Google επαφές σας χρησιμοποιεί επίσης τον The Old Reader. Θα σας στείλουμε επίσης ένα e-mail όταν κάποιος αρχίσει να σας ακολουθεί."
+        :text: "Εργαζόμαστε στο να βελτιώσουμε τη σελίδα που προτείνει φίλους, αλλά στο ενδιάμεσο μπορείτε να αναζητήσετε τους φίλους σας χειροκίνητα ή να δείτε ποιος ανάμεσα από τους φίλους σας στο Facebook ή τις Google επαφές σας χρησιμοποιεί επίσης τον The Old Reader. Θα σας στείλουμε επίσης ένα e-mail όταν κάποιος αρχίσει να σας ακολουθεί."If you want to learn more
       -
         :title: "Έχετε εφαρμογή για κινητά;"
         :text: "Όχι <em>ακόμα</em>, αλλά όπως υποσχεθήκαμε προηγουμένως, ξεκινήσαμε να εργαζόμαστε πάνω σε αυτό όταν ο αριθμός χρηστών έφτασε τους 5000 τον Οκτώβριο του 2012. Ακόμα και τώρα το τυπικό μας περιβάλλον προσαρμόζεται όμορφα σε φορητές συσκευές."
@@ -120,228 +120,228 @@ el:
     becomes_active_notice: "Δεν έχετε χρησιμοποιήσει τον The Old Reader για λίγο καιρό, οπότε κρατήσαμε μόνο τις νέες αναρτήσεις για εσάς"
   feeds:
     no_feeds:
-      text: "You have no subscriptions yet. You can %{subscribe} to a new feed (how about <a href='http://blog.theoldreader.com/rss' class='feed-subscribe'>our blog</a>?) or %{import} your subscriptions.<br />If you want to learn more, %{tour}."
-      subscribe: "subscribe"
-      import: "import"
-      tour: "see the Howto"
-    no_posts: "There are no posts here yet"
-    no_posts_filler: "No posts below this line. Probably you have read them all."
-    subscribe: "Subscribe"
-    add_subscription: "Add a subscription"
-    add: "Add"
-    url: "Feed URL"
-    invalid_url: "You have provided invalid URL"
-    empty_url: "You have not provided URL"
-    loading: "Loading..."
-    default_folder: "Subscriptions"
-    feeds: "Feeds"
+      text: "Δεν έχετε συνδρομές ακόμα. Μπορείτε να %{subscribe} σε μία νέα ροή (τι θα λέγατε <a href='http://blog.theoldreader.com/rss' class='feed-subscribe'>για το blog μας</a>;) ή να %{import} τις συνδρομές σας.<br />Αν θέλετε να μάθετε περισσότερα, %{tour}."
+      subscribe: "εγγραφείτε"
+      import: "εισάγετε"
+      tour: "δείτε το  Howto"
+    no_posts: "Δεν υπάρχουν εδώ αναρτήσεις ακόμα."
+    no_posts_filler: "Δεν υπάρχουν αναρτήσεις κάτω από αυτή τη γραμμή. Πιθανότατα τα έχετε διαβάσει όλα."
+    subscribe: "Εγγραφείτε"
+    add_subscription: "Προσθέστε μία νέα συνδρομή"
+    add: "Προσθήκη"
+    url: "URL ροής"
+    invalid_url: "Έχετε δώσει μη έγκυρο URL"
+    empty_url: "Δεν έχετε δώσει κάποιο URL"
+    loading: "Φόρτωση..."
+    default_folder: "Συνδρομές"
+    feeds: "Ροές"
     feeds_count:
-      one: "feed"
-      few: "feeds"
-      many: "feeds"
-      other: "feeds"
+      one: "ροή"
+      few: "ροές"
+      many: "ροές"
+      other: "ροές"
     posts_count:
-      one: "post"
-      few: "posts"
-      many: "posts"
-      other: "posts"
-    your_posts: "You have <em>%{unread}</em> unread %{posts}"
-    refresh: "Refresh"
-    unsubscribe: "Unsubscribe"
-    unsubscribe_confirm: "Do you really want to unsubscribe? Your shared and likes posts from this feed will not be removed."
-    ago: "ago"
-    never: "Never"
-    confirm: "Are you sure?"
-    mark_all_read: "Mark all as read"
-    search: "Search"
-    search_limits: "Search query that you used is very popular, so we had to limit the number of search results. If you wish to see all results, please make your search query more strict."
-    mark_read: "Mark as read"
-    mark_unread: "Mark as unread"
-    share: "Share"
-    shared: "Shared"
-    unshare: "Unshare"
-    following: "Following"
-    attach_note: "Want to add a note?"
-    attach: "Save note"
+      one: "ανάρτηση"
+      few: "αναρτήσεις"
+      many: "αναρτήσεις"
+      other: "αναρτήσεις"
+    your_posts: "Έχετε <em>%{unread}</em> μη αναγνωσμένες %{posts}"
+    refresh: "Ανανέωση"
+    unsubscribe: "Απεγγραφή"
+    unsubscribe_confirm: "Είσαστε σίγουρος/η ότι θέλετε να απεγγραφείτε; Οι διαμοιρασμένες και οι αγαπημένες σας αναρτήσεις από αυτή τη ροή δε θα διαγραφούν."
+    ago: "πριν"
+    never: "Ποτέ"
+    confirm: "Είσαστε σίγουρος/η;"
+    mark_all_read: "Επισήμανση ως αναγνωσμένα"
+    search: "Αναζήτηση"
+    search_limits: "Το ερώτημα αναζήτησης που χρησιμοποιήσατε είναι πολύ δημοφιλές, οπότε έπρεπε να περιορίσουμε τον αιρθμό των αποτελεσμάτων. Αν επιθυμείτε να δείτε όλα τα αποτελέσματα, παρακαλώ κάντε πιο ακριβές το ερώτημά σας."
+    mark_read: "Επισήμανση ως αναγνωσμένο"
+    mark_unread: "Επισήμανση ως μη αναγνωσμένο"
+    share: "Μοιραστείτε"
+    shared: "Μοιρασμένο"
+    unshare: "Κατάργηση διαμοιρασμού"
+    following: "Ακόλουθοι"
+    attach_note: "Θέλετε να προσθέσετε μία σημείωση;"
+    attach: "Αποθήκευση σημείωσης"
     comments:
-      one: "%{count} comment"
-      few: "%{count} comments"
-      many: "%{count} comments"
-      other: "%{count} comments"
-    comment: "Comment"
-    comment_text: "Write comment"
-    comment_destroy_confirm: "Do you really want to delete the comment?"
-    comment_destroy_text: "This comment has been deleted by the user."
-    post_author: "by <strong>%{author}</strong>"
-    drop_add_folder: "Drop here to add a new folder"
-    new_folder: "New folder"
-    like: "Like"
-    unlike: "Unlike"
+      one: "%{count} σχόλιο"
+      few: "%{count} σχόλια"
+      many: "%{count} σχόλια"
+      other: "%{count} σχόλια"
+    comment: "Σχόλιο"
+    comment_text: "Γράψτε ένα σχόλιο"
+    comment_destroy_confirm: "Είσαστε σίγουρος/η ότι θέλετε να διαγράψετε το σχόλιο;"
+    comment_destroy_text: "Αυτό το σχόλιο έχει διαγραφεί από τον χρήστη."
+    post_author: "από <strong>%{author}</strong>"
+    drop_add_folder: "Σύρετε εδώ για να προσθέσετε έναν φάκελο"
+    new_folder: "Νεός Φάκελος"
+    like: "Μου αρέσει"
+    unlike: "Δε μου αρέσει"
     likes_count:
-      zero: "%{users} likes this"
-      one: "%{users} and one other like this"
-      few: "%{users} and %{count} others like this"
-      many: "%{users} and %{count} others like this"
-      other: "%{users} and %{count} others like this"
-    feed: "Feed"
-    site: "Site"
-    enclosure_url: "View attached file (%{size}, %{type})"
+      zero: "Αρέσει στους %{users}"
+      one: "Αρέσει στους %{users} και σε άλλον έναν"
+      few: "Αρέσει στους %{users} and σε άλλους %{count}"
+      many: "Αρέσει στους %{users} and σε άλλους %{count}"
+      other: "Αρέσει στους %{users} and σε άλλους %{count}"
+    feed: "Ροή"
+    site: "Ιστοσελίδα"
+    enclosure_url: "Προβολή συνημμένου αρχείου (%{size}, %{type})"
     pocket: "Pocket"
     unpocket: "Unpocket"
-    pocket_error: "Failed"
+    pocket_error: "Απέτυχε"
   home:
-    following: "Latest from your friends"
-    updated: "Recently updated"
-    dead: "Dead feeds"
+    following: "Τα πιο πρόσφατα των φίλων σας"
+    updated: "Πρόσφατα ενημερωμένα"
+    dead: "Νεκρές ροές"
     tips:
       title: "Tips & tricks"
       items:
-        - "Press '?' or 'h' to see the list of keyboard shortcuts."
-        - "Drag & drop feeds in the menu to reorder them or to create new feed folders."
-        - "You can double click on feed or folder title to rename it."
-        - "Check out our <a href='/pages/tour'>Howto</a> page for detailed instructions on how to use The Old Reader."
+        - "Πιέστε '?' ή 'h' για να δείτε τη λίστα των συντομεύσεων πληκτρολογίου."
+        - "Σύρετε ροές στο μενού για να τις αναδιατάξετε ή για να δημιουργήσετε νέους φακέλους."
+        - "Μπορείτε να κάνετε διπλό κλικ πάνω σε μία ροή ή στον τίτλο ενός φακέλου για να την/τον μετονομάσετε."
+        - "Δείτε τη σελίδα <a href='/pages/tour'>Howto</a> για λεπτομερείς οδηγίες για το πως να χρησιμοποιήσετε τον The Old Reader."
   pages:
-    home: "Home"
-    all: "All items"
-    liked: "Liked"
-    shared: "Shared"
-    followed: "Friends"
-    import: "Import"
-    search: "Search"
-    settings: "Settings"
-    profile: "Profile"
-    friends: "Find Friends"
-    commented: "Commented"
-    privacy: "Privacy policy"
-    trending: "Trending"
-    donate: "Donate"
+    home: "Αρχική"
+    all: "Όλες τα στοιχεία"
+    liked: "Αγαπημένα"
+    shared: "Μοιρασμένα"
+    followed: "Φίλοι"
+    import: "Εισαγωγή"
+    search: "Αναζήτηση"
+    settings: "Ρυθμίσεις"
+    profile: "Προφίλ"
+    friends: "Εύρεση Φίλων"
+    commented: "Σχολιασμένο"
+    privacy: "Πολιτική Προστασίας Προσωπικών Δεδομένων"
+    trending: "Δημοφιλέστερα"
+    donate: "Δωρεές"
     tour: "Howto"
     blog: "Blog"
-    status: "Server status"
-    community: "Community resources"
+    status: "Κατάσταση του server"
+    community: "Πόροι της κοινότητας"
   settings:
-    name: "Name"
-    username: "Username"
+    name: "Όνομα"
+    username: "Όνομα χρήστη"
     email: "Email"
-    password: "Password"
-    password_confirmation: "Confirm password"
-    password_notice: "Leave blank to keep current"
-    token: "Token"
+    password: "Κωδικός"
+    password_confirmation: "Επαλήθευση κωδικού"
+    password_notice: "Αφήστε το κενό για να κρατήσετε τον τωρινό"
+    token: "Κουπόνι (token)"
     ui:
-      title: "User interface"
-      click_to_scroll: "Clicking on a post scrolls to it"
-      scroll_to_read: "Scrolling through posts marks them as read"
-      sidebar_unread_only: "Show only those folders/feeds that have unread items"
-      locale: "Language"
+      title: "Περιβάλλον χρήστη"
+      click_to_scroll: "Κάνοντας κλικ σε μία ανάρτηση, γίνεται scroll σε αυτό"
+      scroll_to_read: "Κάνοντας scroll στις αναρτήσεις, τις επισημαίνετε ως αναγωνσμένες"
+      sidebar_unread_only: "Εμφάνιση φακέλων/ροών με μη αναγνωσμένα στοιχεία"
+      locale: "Γλώσσα"
     feed_display_mode:
-      title: "Feed display mode"
-      all: "Show all posts"
-      unread: "Show unread only"
+      title: "Τρόπος προβολής οθόνης ροών"
+      all: "Εμφάνιση όλων των στοιχείων"
+      unread: "Εμφάνιση μόνο των μη αναγνωσμένων"
     feed_list_mode:
-      title: "Posts view mode"
-      full: "Full view"
-      list: "List view"
+      title: "Τρόπος προβολής αναρτήσεων"
+      full: "Πλήρης προβολή"
+      list: "Προβολή λίστας"
     sort_mode:
-      title: "Posts order"
-      normal: "Normal (new posts first)"
-      reverse: "Reverse (old posts first)"
+      title: "Διάταξη αναρτήσεων"
+      normal: "Κανονική (οι καινούριες αναρτήσεις πρώτα)"
+      reverse: "Ανάποδη (οι παλιές αναρτήσεις πρώτα)"
     social: "Social stuff"
-    notify_when_followed: "Notify by email when someone starts following you"
-    share_timeline: "Publish your shares on your Facebook page"
-    connect_share_timeline: "Connect to Facebook to publish your shares"
-    show_fb_profile: "Show link to your Facebook page in your profile"
-    save: "Save changes"
-    cancel_disabled: "You can't cancel your account while import is in progress, please be patient."
+    notify_when_followed: "Ειδοποίηση μέσω email όταν κάποιος αρχίσει να σας ακολουθεί"
+    share_timeline: "Δημοσίευση των διαμοιρασμών σας στη σελίδα σας στο Facebook"
+    connect_share_timeline: "Συνδεθείτε στο Facebook για να δημοσιεύσετε τους διαμοιρασμούς σας"
+    show_fb_profile: "Εμφάνιση συνδέσμου προς τη σελίδα σας στο Facebook στο προφίλ σας"
+    save: "Αποθήκευση αλλαγών"
+    cancel_disabled: "Δεν μπορείτε να ακυρώσετε τον λογαριασμό σας ενώ η εισαγωγή είναι εν εξελίξει, παρακαλώ περιμένετε."
     cancel_account:
-      text: "Unhappy? You can %{export} as OPML file and %{cancel} at any time."
-      export: "export your feeds"
-      cancel: "cancel your account"
-      confirm: "Are you sure?"
+      text: "Δυσαρεστημένος/η; Μπορείτε να %{export} ως ένα αρχείο OPML και να %{cancel} ανά πάσα στιγμή."
+      export: "εξάγετε τις ροές"
+      cancel: "ακυρώσετε τον λογαριασμό"
+      confirm: "Είσαστε σίγουρος/η;?"
     pocket:
-      title: "Pocket integration"
-      description: "<a href='http://getpocket.com/'>Pocket</a> (formerly called Read It Later) is a handy app that allows you to arrange, sort, and tag content that you intend to access later."
-      connect: "Connect to Pocket to start pocketing"
-      account: "Your account: <strong>%{username}</strong>"
+      title: "Ενσωμάτωση του Pocket"
+      description: "Το <a href='http://getpocket.com/'>Pocket</a> (γνωστό και ως Read It Later) είναι μία βολική εφαρμογή η οποία σας επιτρέπει να οργανώνετε, ταξινομείτε και να βάζετε ετικέτες σε περιεχόμενο που σκοπεύετε να διαβάσετε αργότερα."
+      connect: "Συνδεθείτε στο Pocket για να ξεκινήσετε το pocketing"
+      account: "Ο λογαριασμός σας: <strong>%{username}</strong>"
   import:
-    title: "Import"
-    alert: "<b>Please enter your Google username and password to import your subscriptions from Google Reader</b><br />We are not going to store your credentials. Account information will only be used to fetch your subscriptions."
-    opml: "<b>Choose an OPML file</b><br />You can grab it from Google Reader settings page.<br />Please use <b>subscriptions.xml</b> from your takeout archive."
+    title: "Εισαγωγή"
+    alert: "<b>Παρακαλώ πληκτρολογήστε το όνομα χρήστη σας και τον κωδικό σας στο Google για να εισάγετε τις συνδρομές σας από το Google Reader</b><br />Δεν πρόκειται να αποθηκεύσουμε τα στοιχεία σύνδεσής σας. Οι πληροφορίες του λογαριασμού σας θα χρησιμοποιηθούν μόνο για την εισαγωγή των συνδρομών σας."
+    opml: "<b>Επιλέξτε ένα αρχείο OPML</b><br />Μπορείτε να το πάρετε από τη σελίδα ρυθμίσεων του Google Reader.<br />Παρακαλώ χρησιμοποιήστε το <b>subscriptions.xml</b> από το αρχείο εξαγωγής του takeout."
     email: "Email"
-    password: "Password"
-    import: "Import"
-    started: "We find feed import to be quite resource intensive procedure, so our system only allows a limited number of import operations to run at the same time. Currently all available slots are busy, so your import operation will be queued."
-    queued: "Thank you for uploading your OPML file. We will soon start importing your subscriptions."
-    queued_notice: "There are <strong>%{count}</strong> users in the import queue ahead of you."
-    processing: "Your feeds are now importing in background."
-    error: "Something went wrong"
-    opml_empty: "OPML file you uploaded is either incorrect or empty."
-    too_many_feeds: "For technical reasons we will only import first 1000 of your feeds."
-    cancel: "Cancel import"
+    password: "Κωδικός"
+    import: "Εισαγωγή"
+    started: "Η εισαγωγή ροών είναι αρκετά απαιτητική σε πόρους διαδικασία, οπότε το σύστημά μας επιτρέπει μόνο έναν περιορισμένο αριθμό εισαγωγών να τρέχουν την ίδια στιγμή. Αυτή τη στιγμή όλες οι διαθέσιμες θέσεις χρησιμοποιούνται, οπότε η δραστηριότητα της εισαγωγής θα είναι σε αναμονή."
+    queued: "Ευχαριστούμε που ανεβάσατε το αρχείο OPML σας. Σύντομα θα ξεκινήσουμε να εισάγουμε τις συνδρομές σας."
+    queued_notice: "Υπάρχουν <strong>%{count}</strong> χρήστες στην ουρά αναμονής για την εισαγωγή μπροστά από εσάς."
+    processing: "Οι ροές σας εισάγονται τώρα στο παρασκήνιο."
+    error: "Κάτι πήγε στραβά"
+    opml_empty: "Το αρχείο OPML που ανεβάσατε είναι είτε λάθος ή άδειο."
+    too_many_feeds: "Για τεχνικούς λόγους μπορούμε να εισάγουμε μόνο τις 1000 πρώτες ροές σας."
+    cancel: "Ακύρωση εισαγωγής"
   profile:
-    follow: "Follow"
-    unfollow: "Unfollow"
-    thats_you: "That's you!"
+    follow: "Ακολουθήστε"
+    unfollow: "Κατάργηση ακολουθίας"
+    thats_you: "Αυτός/ή είσαστε εσείς!"
     following: 
-      one: "Follows <strong>%{count}</strong> user"
-      few: "Follows <strong>%{count}</strong> users"
-      many: "Follows <strong>%{count}</strong> users"
-      other: "Follows <strong>%{count}</strong> users"
+      one: "Ακουλουθεί <strong>%{count}</strong> χρήστη"
+      few: "Ακουλουθεί <strong>%{count}</strong> χρήστες"
+      many: "Ακουλουθεί <strong>%{count}</strong> χρήστες"
+      other: "Ακουλουθεί <strong>%{count}</strong> χρήστες"
     followers:
-      one: "Followed by <strong>%{count}</strong> user"
-      few: "Followed by <strong>%{count}</strong> users"
-      many: "Followed by <strong>%{count}</strong> users"
-      other: "Followed by <strong>%{count}</strong> users"
-    me_following: "<strong>%{count}</strong> Following"
-    my_followers: "<strong>%{count}</strong> Followers"
-    posts: "Shared posts"
-    your_profile: "Your profile"
+      one: "Ακουλουθείται από <strong>%{count}</strong> χρήστη"
+      few: "Ακουλουθείται από <strong>%{count}</strong> χρήστες"
+      many: "Ακουλουθείται από <strong>%{count}</strong> χρήστες"
+      other: "Ακουλουθείται από <strong>%{count}</strong> χρήστες"
+    me_following: "Ακολουθείτε <strong>%{count}</strong>"
+    my_followers: "Σας ακολουθούν <strong>%{count}</strong>"
+    posts: "Διαμοιρασμένες αναρτήσεις"
+    your_profile: "Το προφίλ σας"
     facebook: "Facebook (%{name})"
-    new: "New"
+    new: "Νέο"
     new_followers:
-      one: "%{count} new"
-      few: "%{count} new"
-      many: "%{count} new"
-      other: "%{count} new"
-    rss: "%{name} shared items on The Old Reader (RSS)"
+      one: "%{count} νέος"
+      few: "%{count} νέοι"
+      many: "%{count} νέοι"
+      other: "%{count} νέοι"
+    rss: "%{name} διαμοιρασμένα στοιχεία στον The Old Reader (RSS)"
   friends:
-    follow: "Follow your friends who use The Old Reader"
+    follow: "Ακολουθήστε τους φίλους σας που χρησιμοποιούν τον The Old Reader"
     found:
-      one: "Found %{count} user"
-      few: "Found %{count} users"
-      many: "Found %{count} users"
-      other: "Found %{count} users"
-    facebook: "Login with Facebook"
-    google: "Login with Google"
+      one: "Βρέθηκε %{count} χρήστης"
+      few: "Βρέθηκαν %{count} χρήστες"
+      many: "Βρέθηκαν %{count} χρήστες"
+      other: "Βρέθηκαν %{count} χρήστες"
+    facebook: "Σύνδεση μέσω Facebook"
+    google: "Σύνδεση μέσω Google"
   notifier:
     followed:
-      subject: "%{name} has followed you"
+      subject: "Ο/Η %{name} σας ακολουθεί"
       body: |
-        Hello, %{followed}!
+        Γεια σας, %{followed}!
         
-        %{name} is now following you. Nice!
-        See profile at %{profile}.
+        %{name} σας ακολουθεί τώρα. Τέλεια!
+        Δείτε το προφίλ στο %{profile}.
         
         --
         The Old Reader robot.
-        You can always unsubscribe at your settings page.
+        Μπορείτε πάντα να απεγγραφείτε στη σελίδα ρυθμίσεων σας.
         %{host}
     import:
-      subject: "Your feeds are ready, hooray!"
+      subject: "Οι ροές σας είναι έτοιμες, τέλεια!"
       body: |
-        Hello %{name},
+        Γεια σας %{name},
         
-        We are happy to inform you that we have finished importing your subscriptions.
-        %{count} feeds you imported should now be available at %{host}.
-        Thank you for using The Old Reader.
+        Είμαστε στην ευχάριστη θέση να σας πληροφορήσουμε ότι έχουμε τελειώσει την εισαγωγή των συνδρομών σας.
+        %{count} ροές που εισάγατε, πρέπει να είναι διαθέσιμες τώρα στο %{host}.
+        Ευχαριστούμε που χρησιμοποιείτε τον The Old Reader.
         
         --
         The Old Reader robot.
         %{host}
     confirmation:
       body: |
-        Welcome %{name},
+        Καλώς ήρθατε %{name},
         
-        You can confirm your account email using the link below:
+        Μπορείτε να επιβεβαιώσετε το email του λογαριασμού σας χρησιμοποιώντας τον παρακάτω σύνδεσμο:
         %{link}
         
         --
@@ -349,61 +349,61 @@ el:
         %{host}
     password:
       body: |
-        Hello %{name},
+        Γεια σας %{name},
         
-        Someone has requested a link to change your password, here it is:
+        Κάποιος έχει ζητήσει έναν σύνδεσμο για την αλλαγή του κωδικού σας, ορίστε:
         %{link}
         
-        If you have not requested this, please ignore this email.
-        Your password will not get changed until you access the link above.
+        Αν δεν τον έχετε ζητήσει εσείς, παρακαλώ αγνοήστε αυτό το email.
+        Ο κωδικός σας δεν θα αλλάξει αν δεν χρησιμοποιήσετε τον παραπάνω σύνδεσμο.
         
         --
         The Old Reader robot.
         %{host}
   shortcuts:
-    header: "Keyboard Shortcuts"
-    note: "*Chrome, Safari, Opera only"
+    header: "Συντομεύσεις πληκτρολογίου"
+    note: "*Μόνο για Chrome, Safari, Opera"
     pages:
-      title: "Navigate between pages"
+      title: "Πλοήγηση ανάμεσα στις pages"
       body: |
-        shift-n, shift-j: next subscription or folder
-        shift-p, shift-k: previous subscription or folder
-        shift-x: collapse selected folder
-        shift-o: open selected subscription or folder
-        shift-c: collapse all folders
-        shift-e: expand all folders
-        g then h: go to home
-        g then a: go to all items
-        g then l: go to liked
-        g then s: go to shared
-        g then t: go to trending
-        g then c: go to commented
-        g then f: go to following
+        shift-n, shift-j: επόμενη συνδρομή ή επόμενος φάκελος
+        shift-p, shift-k: προηγούμενη συνδρομή ή προηγούμενος φάκελος
+        shift-x: σύμπτυξη επιλεγμένου φακέλου
+        shift-o: άνοιγμα επιλεγμένης συνδρομής ή επιλεγμένου φακέλου
+        shift-c: σύμπτυξη όλων των φακέλων
+        shift-e: ανάπτυξη όλων των φακέλων
+        g then h: προς την αρχική σελίδα
+        g then a: προς όλα τα στοιχεία
+        g then l: προς τα αγαπημένα
+        g then s: προς τα μοιρασμένα
+        g then t: προς τα δημοφιλέστερα
+        g then c: προς τα σχολιασμένα
+        g then f: προς τους ακολούθους
     other:
-      title: "Other shortcuts"
+      title: "Άλλες συντομεύσεις"
       body: |
-        r: refresh current page
-        /: focus the search field
-        a: add subscription
-        ? or h: show this window
+        r: ανανέωση τρέχουσας σελίδας
+        /: ενεργοποίηση του πεδίου αναζήτησης
+        a: εισαγωγή συνδρομής
+        ? or h: εμφάνιση αυτού του παραθύρου
     posts:
-      title: "Shortcuts for posts"
+      title: "Συντομεύσεις αναρτήσεων"
       body: |
         space: scroll down
         shift+space: scroll up
-        shift+a: mark all as read
-        j, n: next post
-        k, p: previous post
-        o: open post in a new tab
-        b: open post in a background tab*
-        x: toggle post (list view)
-        l: mark post as liked
-        s: share a post
-        m: read/unread a post
-        f: save post to Pocket
-        c: scroll to comments and open the form
-        1: switch to full view
-        2: switch to list view
+        shift+a: σήμανση όλων ως αναγνωσμένων
+        j, n: επόμενη ανάρτηση
+        k, p: προηγούμενη ανάρτηση
+        o: άνοιγμα ανάρτησης σε νέα καρτέλα
+        b: άνοιγμα ανάρτησης σε νέα καρτέλα στο παρασκήνιο*
+        x: εναλλαγή ανάρτησης (προβολή λίστας)
+        l: σήμανση ανάρτησης ως αγαπημένης
+        s: μοιραστείτε μία ανάρτηση
+        m: σήμανση ως αναγνωσμένης/μη αναγνωσμένης μίας ανάρτησης
+        f: αποθήκευση ανάρτησης στο Pocket
+        c: scroll στα σχόλια και άνοιγμα της φόρμας
+        1: αλλαγή σε πλήρη προβολή
+        2: αλλαγή σε προβολή λίστας
   alerts:
     common: "Request to the server failed, please try again later"
     posts: "Could not load posts"
