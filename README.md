@@ -42,3 +42,7 @@ Slovenčina: [mufi](https://github.com/mufi)
 Polski: [mrsadowski](https://github.com/mrsadowski)
 
 Čeština: [ragimiri](https://github.com/ragimiri)
+
+Norsk (bokmål): [ircubic](https://github.com/ircubic)
+
+Ελληνικά: [kostas213](https://github.com/kostas213)
