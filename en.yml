@@ -280,6 +280,7 @@ en:
   profile:
     follow: "Follow"
     unfollow: "Unfollow"
+    unfollow_confirm: "Do you really want to unfollow? Your shared and likes posts will not be removed."
     thats_you: "That's you!"
     following: 
       one: "Follows <strong>%{count}</strong> user"
