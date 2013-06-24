@@ -62,6 +62,7 @@ hu:
   eggs: "Mi ♥ cicák"
   title: "The Old Reader"
   meta:
+    description: "Ez a tökéletes RSS olvasó. Importáld a feliratkozásaidat egy kattintással, találd meg barátaidat, és kezdj el megosztani."
     keywords: "the old reader"
   landing:
     topmenu:
@@ -85,8 +86,11 @@ hu:
       register: "Regisztráció"
       password: "Elfelejtett jelszó?"
       change_password: "Jelszó módosítás"
+    welcome:
+      - "Üdvözlet a The Old Readerben, a tökéletes közösségi RSS olvasóban. Jelenleg bétában vagyunk, de folyamatosan dolgozunk új funkciókon és fejlesztéseken."
+      - "Egyetlen kattintással bejelentkezhetsz, és elkezdheted a The Old Reader használatát. Ha azonban túl félénk volnál, vess egy pillantást a %tour% oldalunkra, vagy nézd meg a %trending%."
     tour: "bemutatkozó"
-    trending: "napi toplista"
+    trending: "napi toplistát"
     qa:
       -
         :title: "Mit csinál?"
@@ -191,6 +195,11 @@ hu:
     dead: "Halott csatornák"
     tips:
       title: "Tippek & trükkök"
+      items:
+        - "Nyomj '?'-t, vagy 'h'-t, hogy megnézd az elérhető gyorsbillentyűk listáját."
+        - "Húzással megváltoztathadod a csatornák és mappák sorrendjét, vagy létrehozhatsz újakat."
+        - "Duplakattintással a nevén, átnevezhetsz egy mappát, vagy csatornát."
+        - "Nézd meg a <a href='/pages/tour'>Hogyan</a> oldalunkat a The Old Reader használatának részleteiért."
   pages:
     home: "Főoldal"
     all: "Összes elem"
@@ -217,6 +226,7 @@ hu:
     password: "Jelszó"
     password_confirmation: "Jelszó megerősítés"
     password_notice: "Hagyd üresen a mostani megőrzéséhez"
+    token: "Token"
     ui:
       title: "Felhasználói felület"
       click_to_scroll: "Egy elemre kattintás odagördít"
@@ -270,6 +280,7 @@ hu:
   profile:
     follow: "Követés"
     unfollow: "Nem követés"
+    unfollow_confirm: "Biztosan nem akarod tovább követni? A megosztott és tetszett elemeket nem távolítjuk el."
     thats_you: "Ez te vagy!"
     following: 
       one: "<strong>%{count}</strong> embert követ"
@@ -355,8 +366,27 @@ hu:
     note: "*Csak Chrome, Safari és Opera"
     pages:
       title: "Lapok közötti navigáció"
+      body: |
+        shift-n, shift-j: következő feliratkozás, vagy mappa
+        shift-p, shift-k: előző feliratkozás, vagy mappa
+        shift-x: megnyitott mappa összecsukása
+        shift-o: kiválasztott feliratkozás, vagy mappa megnyitása
+        shift-c: összes mappa összecsukása
+        shift-e: összes mappa kinyitása
+        g then h: főoldalra ugrás
+        g then a: összes elemre ugrás
+        g then l: tetszettekhez ugrás
+        g then s: megosztottakhoz ugrás
+        g then t: népszerűekre ugrás
+        g then c: kommentáltakhoz ugrás
+        g then f: követettekhez ugrás
     other:
       title: "Egyéb gyorsbillentyűk"
+      body: |
+        r: aktuális oldal frissítése
+        /: keresőmezőre állás
+        a: feliratkozás hozzáadása
+        ? or h: ezen ablak
     posts:
       title: "Elemek gyorsbillentyűi"
       body: |
@@ -442,10 +472,12 @@ hu:
         title: "Csatornák rendszerezése"
         img1: "Húzással megváltoztathadod a csatornák és mappákat pozícióját. Új mappa létrehozásához egyszerűen húzz le egy csatornát az üres területre a legalsó mappád alá. Az üres mappákat pedig automatikusan eltávolítjuk."
         img2: "Egyszerű duplakattintással átnevezhetsz egy csatornát vagy mappát."
+        img2_p2: "Nem lehetséges az alap mappát ('Feliratkozások') átnevezni, de az összes csatornát átmozgathatod belőle egy másik mappába, és akkor eltűnik."
       read:
         title: "Elemek olvasása"
         img1: "Válaszd ki, mit szeretnél olvasni a menüből. Rákattintva egy mappa nevére a benne található összes csatornát elolvashatod."
         img2: "A navigációs menü segítségével ugorhatsz egy kattintással az előző vagy a következő elemre. Továbbá válthatsz 'Lista nézetre', ami összecsukja az összes elemet, így végiglesheted az összes címet, és csak azokat a cikkeket nyisd meg, amelyek érdekelnek."
+        img3: "Gyorsbillentyűket is használhatsz a navigációra. Nyomd meg a '?', vagy a 'h' billentyűket, hogy lásd az elérhető listát."
         img4_p1: "Minden elem alatt találhatóak akciógombok. A 'Tetszik' gombbal a neved meg fog jelenni azon felhasználók listájában, akiknek tetszett az elem. Továbbá bekerül a 'Tetszett' mappádba."
         img4_p2: "Ha azt választod, hogy a megosztasz egy elemet, az összes kapcsolatod azonnal látni fogja azt. A Facebookos idővonaladra is kiposztolhatod a megosztásaidat (látogasd meg a Beállítások oldalt, hogy engedélyezd ezt)."
       discuss:
@@ -453,6 +485,12 @@ hu:
         img1: "Unalmas egyedül olvasni RSS csatornákat. Menj a 'Barátok keresése' oldalra, hogy meglásd, hogy a Facebookos barátaid, vagy Google kapcsolataid közül ki használja a The Old Readert. Persze, név szerint is megkeresheted barátaidat."
         img2: "Minden általad megosztott elemet a 'Megosztott' mappádban találsz. Barátaid által megoszott tételeket a 'Követés' mappában találod. Mint mindig, akár az egész mappát, vagy egy felhasználónevet kiválasztva az illető összes megosztását elolvashatod."
         img3: "Bármelyik elemre, amelyiket barátaid osztottak meg, tehetsz megjegyzéseket - csak kattints a 'Megjegyzés' gombra, és csatlakozz a vitához."
+      tips:
+        title: "Tippek & Trükkök"
+        p1: "Ahhoz, hogy egy szimpla kattintással feliratkozz új csatornákra, állítsd be a 'http://theoldreader.com/feeds/subscribe?url=%s' címet az RSS csatornakezelődben;"
+        p2_pre_link: "Ha Firefoxot használsz, csak "
+        p2_link: "kattints ide,"
+        p2_post_link: " hogy hozzáadd a The Old Readert az RSS kezelődhöz."
       finally:
         title: "Kérdésed van?"
         pre_link: "Kérlek látogasd meg a "
