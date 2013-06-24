@@ -394,7 +394,7 @@ cs:
         shift+a: označit vše jako přečtené
         j, n: následující článek
         k, p: předchozí článek
-        o: otevřít článek v nové kartě
+        o, v: otevřít článek v nové kartě
         b: otevřít článek v nové kartě na pozadí*
         x: toggle post (list view)
         l: označit článek jako oblíbený

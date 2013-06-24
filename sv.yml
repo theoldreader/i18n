@@ -374,7 +374,7 @@ sv:
         shift+a: markera alla som lästa
         j, n: nästa inlägg
         k, p: föregående inlägg
-        o: öppna inlägg i ny flik
+        o, v: öppna inlägg i ny flik
         b: öppna inlägg i ny flik i bakgrunden*
         x: ändra visningsläge för inlägg
         l: gilla inlägg

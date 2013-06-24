@@ -1,0 +1,499 @@
+nb:
+  # Devise
+  errors:
+    messages:
+      expired: "har utgått, vennligst be om en ny"
+      not_found: "ikke funnet"
+      already_confirmed: "er allerede verifisert, vennligst logg inn"
+      not_locked: "var ikke låst"
+      not_saved:
+        one: "1 feil forhindret denne %{resource} fra å lagres:"
+        few: "%{count} feil forhindret denne %{resource} fra å lagres:"
+        many: "%{count} feil forhindret denne %{resource} fra å lagres:"
+        other: "%{count} feil forhindret denne %{resource} fra å lagres:"
+
+  devise:
+    failure:
+      already_authenticated: "Du er allerede logget inn."
+      unauthenticated: "Du må logge inn for å fortsette."
+      unconfirmed: "Du må verifisere kontoen din for å fortsette."
+      locked: "Kontoen din er låst."
+      invalid: "Ugyldig e-post eller passord."
+      invalid_token: "Ugyldig verifiserings-token."
+      timeout: "Sesjonen din har gått ut, vennligst logg inn igjen for å fortsette."
+      inactive: "Kontoen din har ikke blitt aktivert enda."
+    sessions:
+      signed_in: "Innlogging lyktes."
+      signed_out: "Utlogging lyktes."
+    passwords:
+      send_instructions: "Du vil snart motta en e-post med instruksjoner om hvordan du endrer passordet ditt."
+      updated: "Passordet ditt har blitt endret. Du er nå logget inn."
+      updated_not_active: "Passordet ditt har blitt endret."
+      send_paranoid_instructions: "Hvis e-posten din finnes i databasen vår får du snart en e-post med en link for å tilbakestille passordet ditt."
+    confirmations:
+      send_instructions: "Du vil snart få en e-post med instruksjoner om hvordan du verifiserer kontoen din."
+      send_paranoid_instructions: "Hvis e-posten din finnes i databasen vår får du snart en e-post med en link for å verifisere kontoen din."
+      confirmed: "Kontoen din har blitt verifisert. Du er nå logget inn."
+    registrations:
+      signed_up: "Velkommen! Du har nå registrert deg."
+      signed_up_but_unconfirmed: "En e-post har blitt send til din e-postadresse. Vennligst åpne linken i den for å aktivere kontoen din."
+      signed_up_but_inactive: "Du har nå registrert deg. Vi kunne derimot ikke logge deg inn fordi kontoen din ikke er aktivert enda."
+      signed_up_but_locked: "Du har nå registrert deg. Vi kunne derimot ikke logge deg inn fordi kontoen din er låst."
+      updated: "Kontoen din har blitt oppdatert."
+      update_needs_confirmation: "Kontoen din har blitt oppdatert, men vi må verifisere den nye e-postadressen din. Vennligst sjekk e-posten din og åpne linken i den for å verifisere din nye e-post."
+      destroyed: "Ha det! Kontoen din har blitt avregistert. Vi håper å se deg igjen snart."
+    unlocks:
+      send_instructions: "Du vil snart motta en e-post med instruksjoner om hvordan du låser opp konten din."
+      unlocked: "Kontoen din har nå blitt låst opp. Vennligst logg inn for å fortsette."
+      send_paranoid_instructions: "Hvis e-posten din finnes i databasen vår får du snart en e-post med en link for å låse den opp."
+    omniauth:
+      success: "Godkjenningen lyktes via %{kind}-kontoen."
+      failure: "%{kind}-godkjenning lyktes ikke av følgende grunn: %{reason}."
+    mailer:
+      confirmation_instructions:
+        subject: "Instruksjoner for å verifisere kontoen"
+      reset_password_instructions:
+        subject: "Instruksjoner for å tilbakestille passordet"
+      unlock_instructions:
+        subject: "Instruksjoner for å låse opp kontoen"
+
+  # Reader
+  app: "The Old Reader"
+  eggs: "Vi ♥ kattunger"
+  title: "The Old Reader"
+  meta:
+    description: "Den ultimate RSS-leseren. Importer abonnementene dine med ett enkelt klikk, finn vennene dine, og begynn å dele."
+    keywords: "the old reader"
+  landing:
+    topmenu:
+      -
+        :title: "Twitter"
+        :url: "https://twitter.com/#!/theoldreader"
+      -
+        :title: "Facebook"
+        :url: "https://www.facebook.com/theoldreader"
+      -
+        :title: "Blogg"
+        :url: "http://blog.theoldreader.com/"
+      -
+        :title: "Kontakt oss"
+        :url: "http://blog.theoldreader.com/about"
+    sign_in:
+      title: "Logg inn med:"
+      google: "Google"
+      facebook: "Facebook"
+      login: "Login"
+      register: "Registrer"
+      password: "Glemt passord?"
+      change_password: "Endre passord"
+    welcome:
+      - "Velkommen til The Old Reader, den ultimate sosiale RSS-leseren. Vi er i beta-fasen nå, men vi jobber konstant med forbedringer og nye funksjoner."
+      - "Du kan logge inn og begynne å bruke The Old Reader med ett enkelt klikk. På den andre siden, hvis du er for sjenert, er du velkommen til å gå gjennom vår %tour% eller se hva som er %trending%."
+    tour: "guidede visning"
+    trending: "dagens trender"
+    qa:
+      -
+        :title: "Hva gjør den?"
+        :text: "Den tillater deg å gå gjennom din daglige dose innhold, inkludert den veldig spesielle biten som deles av vennene dine, med notater og kommentarer"
+      -
+        :title: "Kan jeg overføre abonnementene mine?"
+        :text: "Ja, du kan importere abonemmentene dine direkte fra Google Reader-kontoen din, eller bruke OPML-import om du er bekymret for sikkerheten din."
+      -
+        :title: "Hvordan finner jeg vennene mine?"
+        :text: "Vi jobber med å forbedre venneforslags-siden, men i mellomtiden kan du søke etter vennene dine manuelt eller se hvem av Facebook-vennene eller Google-kontaktene dine som også bruker The Old Reader. Vi sender deg også en e-post når noen følger deg."
+      -
+        :title: "Har dere en mobilapp?"
+        :text: "Ikke <em>enda</em>, men som lovet startet vi å jobbe med en når vi nådde 5000 brukere i Oktober 2012. Dog fungerer standard-grensesnittet vårt allerede ganske bra på mobile enheter."
+      -
+        :title: "Kommer dere til å poste ting på Facebook-profilen min uten min tillatelse?"
+        :text: "Absolutt ikke! Du har mulighet til å poste dine delte objekter på tidslinjen din, men med mindre du velger å poste til Facebook kommer dine delte objekter bare til å synes i The Old Reader. Vi kommer aldri til å poste noe annet under ditt navn eller bruke informasjonen din til noe tvilsomt."
+      -
+        :title: "Hvorfor bygde dere The Old Reader?"
+        :text: "La oss bare si at vi savnet den originale versjonen av Google Reader, så vi bygde The Old Reader for oss selv og våre venner. Vi syns at det ble så bra at vi bestemte oss for å dele det med verden."
+    supported: "Støttet med kjærlighet av"
+  user:
+    profile: "Profil"
+    logout: "Logg ut"
+    settings: "Innstillinger"
+    failure: "%{kind}-kontoen du prøver å bruke har allerede blitt linket til en annen The Old Reader-konto. Vennligst avregistrer den andre kontoen og prøv på nytt."
+    wrong_auth: "Noe gikk galt, vennligst kontakt oss på hello@theoldreader.com"
+    becomes_active_notice: "Du har ikke brukt The Old Reader på en stund, så vi har beholdt de ferskeste postene for deg"
+  feeds:
+    no_feeds:
+      text: "Du har ingen abonnementer enda. Du kan %{subscribe} på en ny strøm (hva med <a href='http://blog.theoldreader.com/rss' class='feed-subscribe'>bloggen vår</a>?) eller %{import} abonnementene dine.<br />Hvis du vil lære mer, %{tour}."
+      subscribe: "abonnere"
+      import: "importere"
+      tour: "ta den guidede visningen"
+    no_posts: "Det finnes ingen innlegg her enda"
+    no_posts_filler: "Ingen innlegg under denne linjen. Du har nok lest alle."
+    subscribe: "Abonner"
+    add_subscription: "Legg til abonnement"
+    add: "Legg til"
+    url: "URL"
+    invalid_url: "Du har oppgitt en ugyldig URL"
+    empty_url: "Du har ikke oppgitt en URL"
+    loading: "Laster..."
+    default_folder: "Abonnementer"
+    feeds: "Strømmer"
+    feeds_count:
+      one: "strøm"
+      few: "strømmer"
+      many: "strømmer"
+      other: "strømmer"
+    posts_count:
+      one: " innlegg"
+      few: "e innlegg"
+      many: "e innlegg"
+      other: "e innlegg"
+    your_posts: "Du har <em>%{unread}</em> ulest%{posts}"
+    refresh: "Oppdater"
+    unsubscribe: "Avslutt abonnement"
+    unsubscribe_confirm: "Vil du virkelig avslutte abonnementet? De delte og likte inleggene dine kommer ikke til å fjernes."
+    ago: "siden"
+    never: "Aldri"
+    confirm: "Er du sikker?"
+    mark_all_read: "Marker alle som lest"
+    search: "Søk"
+    search_limits: "Søket du har gjort er veldig populært, så vi måtte begrense antall resultater. Hvis du har lyst til å se alle resultatene, vennligst gjør søket ditt mer spesifikt."
+    mark_read: "Marker som lest"
+    mark_unread: "Marker som ulest"
+    share: "Del"
+    shared: "Delt"
+    unshare: "Angre deling"
+    following: "Følger"
+    attach_note: "Legg til notat"
+    attach: "Lagre notat"
+    comments:
+      one: "%{count} kommentar"
+      few: "%{count} kommentarer"
+      many: "%{count} kommentarer"
+      other: "%{count} kommentarer"
+    comment: "Kommentar"
+    comment_text: "Skriv kommentar"
+    comment_destroy_confirm: "Vil du virkelig slette denne kommentaren?"
+    comment_destroy_text: "Denne kommentaren har blitt slettet av brukeren."
+    post_author: "av <strong>%{author}</strong>"
+    drop_add_folder: "Slipp her for å lage en ny mappe"
+    new_folder: "Ny mappe"
+    like: "Lik"
+    unlike: "Slutt å like"
+    likes_count:
+      zero: "%{users} liker dette"
+      one: "%{users} og en til liker dette"
+      few: "%{users} og %{count} andre liker dette"
+      many: "%{users} og %{count} andre liker dette"
+      other: "%{users} og %{count} andre liker dette"
+    feed: "Strøm"
+    site: "Webside"
+    enclosure_url: "Vis vedlagt fil (%{size}, %{type})"
+    pocket: "Pocket"
+    unpocket: "Unpocket"
+    pocket_error: "Mislyktes"
+  home:
+    following: "Det siste fra vennene dine"
+    updated: "Nylig oppdatert"
+    dead: "Døde strømmer"
+    tips:
+      title: "Tips og triks"
+      items:
+        - "Trykk '?' eller 'h' for å se listen over hurtigtaster."
+        - "Dra og slipp strømmer i menyen for å endre rekkefølgen deres eller for å lage nye mapper."
+        - "Du kan dobbeltklikke på en strøm eller mappe for å skifte navn på den."
+        - "Sjekk vår <a href='/pages/tour'>guidede visning</a> for detaljerte instruksjoner om hvordan å bruke The Old reader."
+  pages:
+    home: "Hjem"
+    all: "Alle objekter"
+    liked: "Likte"
+    shared: "Delte"
+    followed: "Venner"
+    import: "Importer"
+    search: "Søk"
+    settings: "Innstillinger"
+    profile: "Profil"
+    friends: "Finn Venner"
+    commented: "Kommenterte"
+    privacy: "Privacy policy"
+    trending: "Trender"
+    donate: "Donér"
+    tour: "Guided visning"
+    blog: "Blogg"
+    status: "Serverstatus"
+    community: "Samfunnsressurser"
+  settings:
+    name: "Navn"
+    username: "Brukernavn"
+    email: "E-post"
+    password: "Passord"
+    password_confirmation: "Bekreft passord"
+    password_notice: "La forbli tomt for å beholde gjeldende"
+    token: "Token"
+    ui:
+      title: "Grensesnitt"
+      click_to_scroll: "Å klikke på en post tar deg dit"
+      scroll_to_read: "Å bla gjennom poster markerer de som lest"
+      sidebar_unread_only: "Vis bare mapper/strømmer som har uleste objekter"
+      locale: "Språk"
+    feed_display_mode:
+      title: "Visningsmodus for strømmen"
+      all: "Vis alle innlegg"
+      unread: "Vis bare uleste"
+    feed_list_mode:
+      title: "Visningsmodus for innlegg"
+      full: "Full visning"
+      list: "Listevisning"
+    sort_mode:
+      title: "Innleggenes rekkefølge"
+      normal: "Normal (nye innlegg først)"
+      reverse: "Omvendt (gamle innlegg først)"
+    social: "Sosiale innstillinger"
+    notify_when_followed: "Varsle via e-post når noen følger deg"
+    share_timeline: "Publiser dine delte objekter på Facebook-profilen din"
+    connect_share_timeline: "Koble til Facebook for å publisere dine delte objekter"
+    show_fb_profile: "Vis link til Facebook-profilen din på profilen din"
+    save: "Lagre endringer"
+    cancel_disabled: "Du kan ikke avregistrere mens importen pågår, vennligst vær litt tålmodig."
+    cancel_account:
+      text: "Misfornøyd? Du kan %{export} som en OPML fil og %{cancel} når som helst."
+      export: "eksportere strømmene dine"
+      cancel: "avregistrere kontoen din"
+      confirm: "Er du sikker?"
+    pocket:
+      title: "Pocket-integrasjon"
+      description: "<a href='http://getpocket.com/'>Pocket</a> (tidligere kalt Read It Later) er en hendig app for å arrangere, sortere og tagge innhold som du vil komme tilbake til senere."
+      connect: "Koble til Pocket for å bruke funksjonen"
+      account: "Din konto: <strong>%{username}</strong>"
+  import:
+    title: "Importer"
+    alert: "<b>Vennligst angi Google-brukernavnet og passordet ditt for å importere abonnementene dine fra Google Reader</b><br />Vi kommer ikke til å lagre informasjonen din. Kontoinformasjon vil bare bli brukt for å hente abonnementer."
+    opml: "<b>Velg en OPML-fil</b><br />Du finner den under Innstillinger i Google Reader,<br />Vennligst bruk <b>subscriptions.xml</b> fra ditt takeout-arkiv."
+    email: "E-post"
+    password: "Passord"
+    import: "Importer"
+    started: "Import av abonnementer er en veldig ressurskrevende operasjon, så systemet vårt tillater bare et begrenset antall importer om gangen. For øyeblikket er alle tilgjengelige plasser opptatt. Du blir plassert i en kø."
+    queued: "Takk for at du lastet opp OPML-filen din. Vi vil importere abonnementene dine snart."
+    queued_notice: "Det er <strong>%{count}</strong> brukere foran deg i import-køen."
+    processing: "Abonnementene dine importeres nå i bakgrunnen."
+    error: "Noe gikk galt"
+    opml_empty: "OPML-filen du lastet opp er enten ugyldig eller tom."
+    too_many_feeds: "Av tekniske grunner vil vi bare importere de tusen første strømmene dine."
+    cancel: "Avbryt importen"
+  profile:
+    follow: "Følg"
+    unfollow: "Slutt å følge"
+    thats_you: "Det er deg!"
+    following:
+      one: "Følger <strong>%{count}</strong> bruker"
+      few: "Følger <strong>%{count}</strong> brukere"
+      many: "Følger <strong>%{count}</strong> brukere"
+      other: "Følger <strong>%{count}</strong> brukere"
+    followers:
+      one: "Fulgt av <strong>%{count}</strong> bruker"
+      few: "Fulgt av <strong>%{count}</strong> brukere"
+      many: "Fulgt av <strong>%{count}</strong> brukere"
+      other: "Fulgt av <strong>%{count}</strong> brukere"
+    me_following: "<strong>%{count}</strong> Følger"
+    my_followers: "<strong>%{count}</strong> Følgere"
+    posts: "Delte innlegg"
+    your_profile: "Din profil"
+    facebook: "Facebook (%{name})"
+    new: "Ny"
+    new_followers:
+      one: "%{count} ny"
+      few: "%{count} nye"
+      many: "%{count} nye"
+      other: "%{count} nye"
+    rss: "%{name} Delte objekter på The Old Reader (RSS)"
+  friends:
+    follow: "Følg vennene dine som bruker The Old Reader"
+    found:
+      one: "Fant %{count} bruker"
+      few: "Fant %{count} brukere"
+      many: "Fant %{count} brukere"
+      other: "Fant %{count} brukere"
+    facebook: "Logg inn med Facebook"
+    google: "Logg inn med Google"
+  notifier:
+    followed:
+      subject: "%{name} følger deg nå"
+      body: |
+        Hei, %{followed}!
+
+        %{name} følger deg nå. Supert!
+        Se profilen deres på %{profile}.
+
+        --
+        The Old Reader robot.
+        Du kan alltids avregistrere deg fra disse e-postene i kontoinnstillingene dine.
+        %{host}
+    import:
+      subject: "Strømmene dine er klare nå, hurra!"
+      body: |
+        Hei %{name},
+
+        Det gleder oss å informere deg at vi er ferdig med å importere de %{count} abonnementene dine.
+        Strømmene du importerte burde nå være tilgjengelig på %{host}.
+        Takk for at du bruker The Old Reader.
+
+        --
+        The Old Reader robot.
+        %{host}
+    confirmation:
+      body: |
+        Velkommen %{name},
+
+        Du kan verifisere e-posten din på linken under:
+        %{link}
+
+        --
+        The Old Reader robot.
+        %{host}
+    password:
+      body: |
+        Hei %{name},
+
+        Noen har bedt om en link for å endre passordet ditt, her er den:
+        %{link}
+
+        Hvis du ikke har bedt om dette, vennligst ignorer denne e-posten.
+        Passordet ditt vil ikke endres før du åpner linken over.
+
+        --
+        The Old Reader robot.
+        %{host}
+  shortcuts:
+    header: "Hurtigtaster"
+    note: "*bare for Chrome, Safari og Opera"
+    pages:
+      title: "Naviger mellom sider"
+      body: |
+        shift-n, shift-j: neste abonnement eller mappe
+        shift-p, shift-k: forrige abonnement eller mappe
+        shift-x: minimer valgt mappe
+        shift-o: åpne valgt abonnement eller mappe
+        shift-c: minimer alle mapper
+        shift-e: utvid alle mapper
+        g then h: gå til hjemmeside
+        g then a: gå til alle objekter
+        g then l: gå til likte objekter
+        g then s: gå til delte objekter
+        g then t: gå til trender
+        g then c: gå til kommenterte objekter
+        g then f: gå til fulgte
+    other:
+      title: "Andre hurtigtaster"
+      body: |
+        r: oppdater gjeldende side
+        /: flytt fokus til søkefeltet
+        a: legg til abonnement
+        ? or h: vis dette vinduet
+    posts:
+      title: "Hurtigtaster for innlegg"
+      body: |
+        space: scroll ned
+        shift+space: scroll opp
+        shift+a: marker alle som lest
+        j, n: neste innlegg
+        k, p: forrige innlegg
+        o, v: åpne innlegg i ny tab
+        b: åpne innlegg i bakgrunns-tab*
+        x: endre visningsmodus for innlegg
+        l: marker innlegg som likt
+        s: del et innlegg
+        m: marker innlegg som lest/ulest
+        f: lagre innlegg i Pocket
+        c: scroll til kommentarer og åpne skjemaet
+        1: bytt til full visning
+        2: bytt til listevisning
+  alerts:
+    common: "Forespørsel til serveren misslyktes, vennligst prøv igjen senere"
+    posts: "Kunne ikke laste innlegg"
+  page_content:
+    community:
+      title: "Samfunnsressurser"
+      p1: "Vi er utrolig glade for at vi har et lojalt samfunn av brukere som stadig hjelper oss å utvikle prosjektet videre. Her er noen linker til ressursene laget og støttet av samfunnet vårt."
+      translations:
+        title: "Oversettelser"
+        pre_link: "The Old Reader har blitt oversatt til mange språk. Vi har oversettelsene i et "
+        link: "separat, offentlig, github repo"
+        post_link: " så hvem som helst kan bidra."
+      extensions:
+        title: "Nettleserutvidelser"
+        p1: "Det finns en del nettleserutvidelser som gjør det lettere å holde styr i de uleste objektene dine."
+        source_code: "kildekode"
+        chrome: "Google Chrome-utvidelse"
+        chrome_author: "av Anton Tolchanov"
+        chromeapp: "Google Chrome-app"
+        chromeapp_author: "av Enrico Bacis"
+        safari: "Safari-utvidelse"
+        safari_author: "av Dmitry Kranoukhov"
+        opera: "Opera-utvidelse"
+        opera_author: "av Lazare Inepologlou"
+        firefox: "Firefox-utvidelse"
+        firefox_author: "av Tomek Wasiak"
+      themes:
+        title: "Uoffisielle temaer"
+        pre_link: "Noen brukere har laget stiler som endrer hvordan The Old Reader ser ut i nettleseren din. Det er ingen garanti for at disse stilene alltid vil fungere, men om du er modig finner du de på "
+        post_link: "."
+      requests:
+        title: "Funksjonsforespørsler"
+        pre_link: "Du kan stemme på forespørsler om funksjoner, og foreslå nye, på "
+        link: "uservoice-siden vår"
+        post_link: ". Vennligst søk etter eksisterende forespørsler før du lager en ny, det er meget sannsynlig at noen har foreslått idéen din før. Vi moderer ikke uservoice-siden vår, så når du lager en duplikat minker du faktisk sjansene for at den kommer til toppen, fordi begge forespørselene vil slåss med hverandre over brukerstemmer."
+      forums:
+        title: "Forum"
+        pre_link: "Vi har opprettet et "
+        link: "forum på yuku.com"
+        post_link: " slik at brukerene våre kan kommunisere. Du er velkommen til å være med og spørre om hjelp, diskutere endringer, og dele tankene dine."
+    donate:
+      title: "Donér"
+      p1: "Å kjøre en RSS-leser krever mye ressurser. Dette ser kanskje ut som en simpel webside, men vi må oppdatere flere millioner strømmer, noen så ofte som hvert femte minutt. Serverkostnadene våre er ganske høye, og vi ville aldri hatt råd til det uten de utrolige brukerene våre."
+      p2: "Det finnes mange måter du kan hjelpe oss økonomisk og holde prosjektet i live:"
+      flattr:
+        pre_link: "Bruk "
+        link1: "Flattr"
+        inbetween: ". Det er en enkel måte å gi penger til forfattere og tjenester du liker. Du kan enten sende oss et fast beløp, eller trykke på “flattr”-knappen, og så blir det månedlige budsjettet distribuert mellom oss og andre prosjekter du har hjulpet i løpet av en måned. Du kan også abonnere på "
+        link2: "Flattr-kontoen våres"
+        post_link: " som gjør at du \"flattr\" oss automatisk hver måned."
+      bitcoins: "For alle som er bekymrede for privatlivet sitt, så haz vi bitcoins"
+      additional:
+        pre_link: "Uheldigvis kan vi ikke vise et Paypal-skjema på websiden vår av juridiske grunner. Så hvis du har lyst til å sende oss en betydelig sum penger og av en eller annen grunn ikke kan bruke Flattr eller bitcoin, vennligst "
+        link: "send oss en beskjed"
+        post_link: "  så vil vi finne ut en måte du kan sende en personlig overføring til en av oss."
+      thanks: "Vi setter pris på din hjelp! Det gjør også denne kattungen:"
+    tour:
+      title: "The Old Reader - grunnkurs"
+      add_feeds:
+        title: "Legg til strømmer"
+        p1: "Din nye The Old Reader konto kommer tom ut av boksen, så det første du burde gjøre er å legge til noen strømmer du kan lese."
+        img1: "Bruk 'Legg til abonnement'-knappen for å abonnere på en strøm. Hvis du legger inn en webside-URL istedet for en URL direkte til en strøm kommer vi automatisk til å legge til den første RSS-strømmen fra websiden."
+        img2: "Hvis du migrerer fra Google Reader eller et annet RSS-program som kan eksportere abonnementene dine til en OPML-fil kan du bruke 'Import'-funksjonen for å legge til alle strømmene dine. Vi vil til og med migrere alle mappene dine for å forsikre at du føler deg hjemme med en gang."
+      organize:
+        title: "Organisere strømmer"
+        img1: "Du kan dra og slippe strømmer og mapper for å endre plasseringene deres. Å lage en ny mappe er så enkelt som å dra en strøm til en tom plass under den siste mappen din. Tomme mapper blir automatisk fjernet."
+        img2: "Simpelthen dobbeltklikk på en strøm eller mappe for å skifte på navnet deres."
+        img2_p2: "Det er ikke mulig å endre navn på standardmappen ('Abonnementer'), men du kan flytte alle strømmene ut av den til nye mapper, og den vil forsvinne helt."
+      read:
+        title: "Les innlegg"
+        img1: "Velg hva du har lyst til å lese fra menyen. Du kan klikke på en mappe for å lese alle strømmene som mappen inneholder."
+        img2: "Navigasjonsmenyen lar deg gå til den neste eller forrige innlegg med ett enkelt klikk. Du kan også skifte til 'Listevisning' som minimerer alle innlegg, og lar deg skumlese titlene og åpne bare de artiklene du er interessert i."
+        img3: "Du kan også bruke hurtigtaster for å navigere. Trykk på '?' eller 'h' for å se listen."
+        img4_p1: "Det er funksjonsknapper under hvert innlegg. Trykker du på 'Lik' kommer navnet dit til å vises i listen over brukere som liker innlegget. Innlegget vil også bli lagt i 'Likte'-mappen din."
+        img4_p2: "Hvis du velger å dele innlegget vil alle kontaktene dine se det umiddelbart. Du kan også poste det du deler til Facebook-tidslinjen din (gå til Innstillinger for å skru det på)."
+      discuss:
+        title: "Diskutér innlegg"
+        img1: "Det er ikke noe gøy å lese RSS-strømmer alene. Gå til 'Finn Venner'-siden for å se hvem blant Facebook-vennene eller Google-kontaktene dine bruker The Old Reader. Du kan også se etter venner basert på navn."
+        img2: "Alle innlegg du har delt ligger i 'Delte'-mappen din. Objekter som vennene dine har delt ligger i 'Følger'-mappen. Som vanlig kan du enten lese hele mappen, eller velge et spesifikt brukernavn for å se alle innleggene delt av den brukeren."
+        img3: "Du kan kommentere by alle innlegg delt av dine venner - bare trykk på 'Kommenter'-knappen og delta i diskusjonen."
+      tips:
+        title: "Tips og Triks"
+        p1: "For å abonnere på nye strømmer med ett enkelt klikk, konfigurér 'http://theoldreader.com/feeds/subscribe?url=%s' som RSS-strømhåndterer eller legg det til i utvidelsen din;"
+        p2_pre_link: "Hvis du bruker Firefox, bare "
+        p2_link: "klikk her"
+        p2_post_link: " for å legge til The Old Reader som RSS-strømhåndtereren din."
+      finally:
+        title: "Noen spørsmål?"
+        pre_link: "Vennligst ta en titt i "
+        link1: "kunnskapsbasen vår"
+        inbetween: " og føl deg fri til å spøre om hjelp på  "
+        link2: "forumet vårt"
+        post_link: " hvis noe er uklart."

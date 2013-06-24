@@ -23,7 +23,7 @@ Español: [marevalo](https://github.com/marevalo)
 
 Français: [AlexandreP2101](https://github.com/AlexandreP2101), [madx](https://github.com/madx), [lelabtv](https://github.com/lelabtv)
 
-Catalan: [ramonpoca](https://github.com/ramonpoca), [jmontane](https://github.com/jmontane)
+Catalan: [ramonpoca](https://github.com/ramonpoca), [jmontane](https://github.com/jmontane), [martimorta](https://github.com/martimorta)
 
 Magyar: [blas3nik](https://github.com/blas3nik)
 
@@ -31,7 +31,7 @@ Italiano: [ggimpa](https://github.com/ggimpa), [luca74](https://github.com/luca7
 
 简体字: [ushuz](https://github.com/ushuz), [gzjoekeny](https://github.com/gzjoekeny)
 
-Deutsch: [wuhup](https://github.com/wuhup)
+Deutsch: [wuhup](https://github.com/wuhup), [tehabe](https://github.com/tehabe)
 
 Svenska: [alemacgo](https://github.com/alemacgo), [virkot](https://github.com/virkot), [Tobbe](https://github.com/Tobbe), [kokarn](https://github.com/kokarn)
 
@@ -42,3 +42,7 @@ Slovenčina: [mufi](https://github.com/mufi)
 Polski: [mrsadowski](https://github.com/mrsadowski)
 
 Čeština: [ragimiri](https://github.com/ragimiri)
+
+Norsk (bokmål): [ircubic](https://github.com/ircubic)
+
+Ελληνικά: [kostas213](https://github.com/kostas213)
