@@ -4,30 +4,30 @@ nl:
     messages:
       expired: "verlopen, vraag een nieuwe aan"
       not_found: "niet gevonden"
-      already_confirmed: "was already confirmed, please try signing in"
-      not_locked: "was not locked"
+      already_confirmed: "Is reeds bevestigd. Tracht nu in te loggen"
+      not_locked: "Was niet vergrendeld"
       not_saved:
-        one: "1 error prohibited this %{resource} from being saved:"
-        few: "%{count} errors prohibited this %{resource} from being saved:"
-        many: "%{count} errors prohibited this %{resource} from being saved:"
-        other: "%{count} errors prohibited this %{resource} from being saved:"
+        one: "1 fout maakte dat dit %{resource} niet kon worden opgeslagen:"
+        few: "%{count} fouten maakten dat dit %{resource} niet kon worden opgeslagen:"
+        many: "%{count} fouten maakten dat dit %{resource} niet kon worden opgeslagen:"
+        other: "%{count} fouten maakten dat dit %{resource} niet kon worden opgeslagen:"
   
   devise:
     failure:
-      already_authenticated: "You are already signed in."
-      unauthenticated: "You need to sign in to continue."
-      unconfirmed: "You have to confirm your account to continue."
-      locked: "Your account is locked."
-      invalid: "Invalid email or password."
-      invalid_token: "Invalid authentication token."
-      timeout: "Your session has expired, please sign in again to continue."
-      inactive: "Your account has not been activated yet."
+      already_authenticated: "U bent al ingelogd."
+      unauthenticated: "U moet inloggen om door te gaan."
+      unconfirmed: "U moet uw account bevestigen om door te gaan."
+      locked: "Uw account is vergrendeld."
+      invalid: "Ongeldig e-mail of wachtwoord."
+      invalid_token: "Ongeldig authenticatiesleutel."
+      timeout: "Uw sessie is verlopen, log opnieuw in om door te gaan."
+      inactive: "Uw account is nog niet geactiveerd."
     sessions:
-      signed_in: "Signed in successfully."
-      signed_out: "Signed out successfully."
+      signed_in: "Met succes aangemeld."
+      signed_out: "Met succes afgemeld."
     passwords:
-      send_instructions: "You will receive an email with instructions on how to reset your password in a few minutes."
-      updated: "Your password has been changed successfully. You are now signed in."
+      send_instructions: "U ontvangt binnen enkele ogenblikken een e-mail met instructie hoe u uw  wachtwoord moet herstellen."
+      updated: "Uw wachtwoord is met succes veranderd. U bent nu ingelogd."
       updated_not_active: "Your password has been changed successfully."
       send_paranoid_instructions: "If your e-mail exists in our database you will receive a password recovery link by e-mail"
     confirmations:
