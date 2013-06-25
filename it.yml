@@ -87,25 +87,6 @@ it:
       change_password: "Cambia password" 
     tour: "tour"
     trending: "post principali del giorno"
-    qa:
-      -
-        :title: "Che cosa fa?"
-        :text: "Ti permette di sfogliare la tua dose giornaliera di notizie con quel qualcosa in più condiviso dai tuoi amici, con note e commenti"
-      -
-        :title: "Posso trasferire le mie sottoscrizioni?"
-        :text: "Sì, puoi importare i tuoi fees direttamente dall'account di Google Reader o usera la funzione di import OPML se sei preoccupato per la tua sicurezza."
-      -
-        :title: "Come trovo i miei amici?"
-        :text: "Stiamo lavorando per migliorare la pagina 'suggerisci gli amici', ma nel frattempo puoi cercare i tuoi amici manualmente, o vedere chi tra i tuoi amici di Facebook o tra i tuoi contatti Google sta usando The Old Reader. Ti manderemo anche una e-mail in caso qualcuno diventa un tuo follower."
-      -
-        :title: "Avete un'app per smartphone?"
-        :text: "<em>Ancora</em> no, ma - come promesso - abbiamo iniziato a lavorarci quando il numero dei nostri utenti ha raggiunto la soglia di 5000 in Ottobre 2012. Già ora la nostra interfaccia standard funziona abbastanza bene sui dispositivi mobili."
-      -
-        :title: "Pubblicherete sul mio diario Facebook come fanno tutte quelle altre app?"
-        :text: "Assolutamente no! Puoi pubblicare i contenuti che vuoi condividere sul tuo diario, ma a meno che non sia tu a decidere di pubblicare su Facebook, tutte le tue condivisioni e commenti rimarranno all'interno di The Old Reader. Non pubblicheremo niente al posto tuo ne faremo nient'altro di losco."
-      -
-        :title: "Perchè avete creato The Old Reader?"
-        :text: "Diciamo solamente che ci mancava un sacco il 'vecchio' reader, così abbiamo creato The Old Reader per noi e i nostri amici. Ci piace cos'è diventato, così lo stiamo condividendo con chiunque voglia"
     supported: "Supportato con amore da"
   user:
     profile: "Profilo"

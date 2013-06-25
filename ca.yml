@@ -83,25 +83,6 @@ ca:
       facebook: "Facebook"
     tour: "tour"
     trending: "el més llegit del dia"
-    qa:
-      -
-        :title: "Què fa?"
-        :text: "Us permet fullejar la vostra dosi diària de continguts, amb l'alegre detall d'allò que els vostres amics comparteixin, amb notes i comentaris"
-      -
-        :title: "Puc transferir les meves subscripcions?"
-        :text: "Sí, podeu importar els vostres canals RSS directament de Google Reader  o usar la importació de fitxers OPML si ets sensible a la seguretat."
-      -
-        :title: "Com trobo els meus amics?"
-        :text: "Estem treballant en millorar la pàgina de suggeriments, mentrestant podeu provar a cercar manualment o veure si els teus contactes de Facebook o Google també fan servir The Old Reader. A més, us enviarem un correu quan algú us segueixi."
-      -
-        :title: "Teniu una aplicació mòbil?"
-        :text: "<em>Encara no</em>, però tal i com vàrem prometre, hi vàrem començar a treballar quan varem arribar als 5000 usuaris l'octubre de 2012. Fins i tot la nostra interfície estàndard s'adapta bé als dispositius mòbils."
-      -
-        :title: "Us comportareu a Facebook com totes aquelles altres aplicacions?"
-        :text: "I ara! Podeu penjar els vostres articles compartits a la vostra línia de temps de Facebook però, llevat que ho trieu, tots els vostres articles i comentaris es quedaran a The Old Reader. No penjarem res en nom vostre, ni us farem part de cap invent poc clar."
-      -
-        :title: "Perquè vau crear The Old Reader?"
-        :text: "Diguem que trobàvem a faltar molt l'antic Google Reader, així que vàrem crear The Old Reader per a nosaltres i els nostres amics. Ens agrada com va quedar, i ho estem compartint amb tothom."
     supported: "Mantingut amb amor per"
   user:
     profile: "Perfil"

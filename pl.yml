@@ -87,25 +87,6 @@ pl:
       change_password: "Zmień hasło"
     tour: "przewodnik"
     trending: "najlepsze posty dnia"
-    qa:
-      -
-        :title: "Jak to działa?"
-        :text: "Czytnik pozwala przejrzeć codzienną porcję nowości z twoich ulubionych źródeł informacji, uzupełnioną o polecenia znajomych, ich notatki i komentarze"
-      -
-        :title: "Czy mogę przenieść swoje subskrypcje?"
-        :text: "Tak, możesz zaimportować listę kanałów które subskrybujesz bezpośrednio z Google Readera, albo zaimportować plik OPML, jeśli jesteś czuły na punkcie zasad bezpieczeństwa."
-      -
-        :title: "Jak znajdę swoich znajomych wśród użytkowników?"
-        :text: "Pracujemy nad usprawnieniem mechanizmu sugerowania znajomych. Póki co możesz wyszukiwać ich ręcznie, albo sprawdzić kto z twoich kontaktów na Facebooku lub na koncie Google używa już The Old Readera. Poza tym za każdym razem kiedy ktoś zacznie cię obserwować, powiadomimy cię e-mailem."
-      -
-        :title: "Czy macie aplikację mobilną?"
-        :text: "<em>Na razie</em> jeszcze nie jest gotowa, ale zgodnie z naszą wcześniejszą obietnicą zaczęliśmy prace, kiedy w październiku 2012 liczba naszych użytkowników przekroczyła 5000. Już teraz jednak standardowa wersja naszej strony działa całkiem dobrze na urządzeniach przenośnych."
-      -
-        :title: "Czy będziecie zaśmiecać mojego Facebooka jak niektóre aplikacje?"
-        :text: "W żadnym wypadku! Możesz umieszczać posty na swojej osi czasu, ale jeśli sam tego nie zrobisz, wszystkie udostępnienia, polubienia i komentarze pozostaną tylko w The Old Readerze. Nigdy niczego nie będziemy publikować w twoim imieniu."
-      -
-        :title: "W jakim celu powstał The Old Reader?"
-        :text: "Bardzo brakowało nam starego dobrego interfejsu czytnika, więc stworzyliśmy The Old Readera na użytek własny i naszych znajomych. Jesteśmy zadowoleni z efektu, więc dzielimy się nim ze wszystkimi."
     supported: "Dzięki życzliwemu wsparciu"
   user:
     profile: "Profil"

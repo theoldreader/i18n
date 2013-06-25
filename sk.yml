@@ -83,25 +83,6 @@ sk:
       facebook: "Facebooku"
     tour: "Ako na..."
     trending: "najlepšie články dnešného dňa"
-    qa:
-      -
-        :title: "Načo to je?"
-        :text: "Umožňuje Vám prezerať si Váše každodenné informacie z internetu s možnosťou zdieľať ich s Vašimi priateľmi, ukladať si poznámky a komentovať príspevky."
-      -
-        :title: "Môžem si preniesť svoje kanály?"
-        :text: "Áno môžete importovať VaŠe kanály priamo z Vašeho Google Reader účtu alebo využiť import OPML súborov pokiaľ ste citlivý na bezpečnosť Vašich údajov."
-      -
-        :title: "Ako nájdem svojich priateľov?"
-        :text: "Pracujeme na stránke, ktorá Vám odporučí Vašich priateľov, ale zatiaľ môžete svojich priateľov vyhľadať manuálne alebo zistiť to z Vašich priateľov z Facebooku alebo Google kontaktov tiež využíva The Old Reader. Taktiež Vám zašleme e-mail pokiaľ niekto začne sledovať Vašu činnosť."
-      -
-        :title: "Máte aj aplikáciu pre mobilné telefóny?"
-        :text: "Nie <em>zatiaľ</em>, ale ako sme slúbili keď sme dosiahli 5000 uživateľov v Októbri 2012, začali sme na nej pracovať. Už teraz sa však naša stránka dokáže prispoôobiť obrazovke Vášho mobilného telefónu alebo tabletu."
-      -
-        :title: "Budete robiť výtržnosti na mojom Facebook profile ako iné aplikácie?"
-        :text: "V žiadnom prípade! Vy sami môžete zdieľať obsaj na Vašej timeline, ale pokiaľ sa nerozhodnete zdieľať s Vašim Facebookom, všetky vaše zdieľania a komentáte zostanú len na stránke The Old Reader-u. Nikdy nič vo Vašom mene nepošleme ani Vás nezahrnieme do žiadnej inej činnosti."
-      -
-        :title: "Prečo ste postavili The Old Reader?"
-        :text: "Povedzme že nám veľmi chýbal starý Google reader, tak sme sami postavili The Old Reader a pozvali sme do neho našich priateľov. Sme radi ako to všetko dopadlo, takže ho zdieľame z každým."
     supported: "S láskou podporováný od"
   user:
     profile: "Profil"

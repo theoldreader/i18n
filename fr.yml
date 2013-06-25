@@ -91,25 +91,6 @@ fr:
       - "Vous pouvez vous inscrire et commencez à utiliser The Old Reader d'un simple clic. Cependant si vous êtes trop timide, vous pouvez voir notre %tour% ou voir les %trending%."
     tour: "guide"
     trending: "articles populaires du jour"
-    qa:
-      -
-        :title: "A quoi ça sert ?"
-        :test: "Il vous permet de consulter votre dose quotidienne d'actualités avec cette touche très spéciale de partage avec vos amis, avec des notes et des commentaires"
-      -
-        :title: "Est-ce que je peux importer mes abonnements?"
-        :text: "Oui, vous pouvez importer vos flux directement à partir de votre compte Google Reader ou utiliser notre fonction d'importation OPML si vous êtes sensible au sujet de votre sécurité."
-      -
-        :title: "Comment puis-je retrouver mes amis?"
-        :text: "Nous travaillons sur l'amélioration de la page de suggestion d'amis, mais en attendant, vous pouvez rechercher vos amis manuellement ou voir qui parmi vos amis Facebook ou contacts Google utilise également The Old Reader. Nous allons aussi vous envoyer un e-mail quand quelqu'un commence à vous suivre."
-      -
-        :title: "Avez-vous une application mobile?"
-        :text: "Pas <em>encore</em>, mais comme nous l'avions promis, nous avons commencé à travailler sur celle-ci quand notre nombre d'utilisateurs aurait atteint 5000 en Octobre 2012. Cependant, notre interface standard s'adapte parfaitement aux appareils mobiles."
-      -
-        :title: "Est-ce que vous allez agir sur mes 'like' de Facebook comme les autres applications?"
-        :text: "Absolument pas! Vous pouvez poster vos articles partagés sur votre timeline, mais à moins que vous ne choisissiez de poster sur Facebook, toutes les actions et vos commentaires resteront seulement dans The Old Reader. Nous ne posterons jamais n'importe quoi en votre nom ou ne vous impliquerons dans aucune autre action sans votre consentement."
-      -
-        :title: "Pourquoi avez-vous construit The Old Reader?"
-        :text: "Disons simplement que le lecteur d'origine nous manquait beaucoup, donc nous avons construit The Old Reader pour nous-mêmes et nos amis. Nous aimons ce qu'il est devenu, donc nous le partageons avec tout le monde"
     supported: "Pris en charge avec amour par"
   user:
     profile: "Profil"

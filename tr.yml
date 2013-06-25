@@ -83,25 +83,6 @@ tr:
       facebook: "Facebook"
     tour: "tur"
     trending: "günün öne çıkan başlıkları"
-    qa:
-      -
-        :title: "Ne işe yarar?"
-        :text: "Günlük olarak arkadaşlarınız tarafından paylaşılmış ve yorumlanmış olan iletileri gözden geçirmenizi sağlar."
-      -
-        :title: "Aboneliklerimi transfer edebilir miyim?"
-        :text: "Evet, feed'lerinizi doğrudan Google Reader'dan transfer edebilir, ya da, eğer bilgi güvenliğinize çok düşkünseniz OPML içe atarma özelliğimizi kullanabilirsiniz."
-      -
-        :title: "Arkadaşlarımı nasıl bulurum?"
-        :text: "Arkadaş öneri sayfamızı daha da iyileştirmeye çalışıyoruz, bu arada siz de arkadaşlarınızı arayabilir veya Facebook arkadaşlarınızdan ya da Google kontaktlarınızdan hangilerinin The Old Reader'ı kullandığına bakabilirsiniz. Birisi sizi izlemeye başladığında size bir e-posta göndereceğiz."
-      -
-        :title: "Mobil uygulamanız var mı?"
-        :text: "<em>Henüz</em> yok, ama daha önce de söz verdiğimiz gibi, kullanıcı sayımız Ekim 2012'de 5000'e ulaştığında üzerinde çalışmaya başladık. Şimdi bile stadart arayüzümüz mobil cihazlara güzelce uyum sağlıyor."
-      -
-        :title: "Öteki uygulamalar gibi Facebook hesabımı kötüye kullanacak mısınız?"
-        :text: "Kesinlikle hayır! İsterseniz paylaştığınız öğelerin Facebook zaman çizginizde görünmesini sağlayabilirsiniz, ama siz istemedikçe bütün paylaşımlarınız ve yorumlarınız yalnızca The Old Reader'da kalacak. Asla sizin adınıza ileti göndermeyeceğiz ve sizi asla şaibeli işlere karıştırmayacağız."
-      -
-        :title: "The Old Reader'ı neden kurdunuz?"
-        :text: "Şöyle diyelim: Google Reader'ın ilk halini çok özledik, o yüzden The Old Reader'ı kendimiz ve arkadaşlarımız için kurduk. İşlerin buraya gelmesi hoşumuza gitti, o nedenle şimdi onu herkesle paylaşıyoruz."
     supported: "Sevgiyle destekleyen"
   user:
     profile: "Profil"

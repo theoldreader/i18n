@@ -91,25 +91,6 @@ sv:
       - "Du kan logga in och börja använda The Old Reader med bara ett klick. Om du är för blyg är du välkommen att gå igenom vår %tour% eller se vad som är %trending%."
     tour: "guidade visning"
     trending: "dagens trender"
-    qa:
-      -
-        :title: "Vad gör den?"
-        :text: "Den låter dig ta del av din dagliga dos webbinnehåll, inklusive det som delats av dina vänner, med noteringar och kommentarer."
-      -
-        :title: "Går det att importera mina prenumerationer?"
-        :text: "Ja, du kan importera dina flöden direkt från ditt Google Reader-konto eller använda OPML-import om du är orolig för din säkerhet."
-      -
-        :title: "Hur hittar jag mina vänner?"
-        :text: "Vi jobbar med att förbättra vänförslag-sidan, men under tiden kan du söka efter dina vänner manuellt eller kolla vem bland dina Facebook-vänner eller Google-kontakter vilka som redan använder The Old Reader. Vi kommer också att skicka en e-postmeddelande till dig när någon följer dig."
-      -
-        :title: "Har ni en mobilapp?"
-        :text: "Inte <em>än</em>, men som utlovat så började vi arbeta på en när vi nådde 5000 användare i oktober 2012. Vårt grafiska gränssnitt fungerar dock bra för mobila enheter."
-      -
-        :title: "Kommer ni posta saker på min facebook-profil utan min tillåtelse?"
-        :text: "Absolut inte! Du kan lägga till dina delade objekt på din tidslinje, men om du inte väljer att posta på Facebook kommer dina delade objekt och kommentarer endast att synas i The Old Reader. Vi kommer aldrig att posta något för din räkning eller använda din information för tvivelaktiga syften."
-      -
-        :title: "Varför utvecklade ni The Old Reader?"
-        :text: "Vi saknade den ursprungliga versionen av Google Reader, så vi utvecklade The Old Reader bara för oss och våra vänner. Det blev bra, så vi bestämde oss för att dela med oss."
     supported: "Stöds med kärlek av"
   user:
     profile: "Profil"

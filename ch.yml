@@ -83,25 +83,6 @@ ch:
       facebook: "Facebook"
     tour: "新手入门"
     trending: "每日热门"
-    qa:
-      -
-        :title: "可以用来做什么？"
-        :text: "它能让您浏览每天由您的朋友特别分享出来的，带有笔记和评论的信息。"
-      -
-        :title: "我能够转移我的订阅吗？"
-        :text: "是的，你可以直接从Google Reader导入订阅，如果你担心帐户安全的话，也可以通过OPML文件导入。"
-      -
-        :title: "如何找到我的朋友？"
-        :text: "我们正在改善好友推荐页面，与此同时您可以手动搜索您的好友们或者看看您在Facebook或者谷歌联系人内还有哪些好友在使用The Old Reader。当有人开始关注您时我们也会发送电子邮件通知您"
-      -
-        :title: "你们拥有移动应用吗？"
-        :text: "<em>暂时</em>没有。但就像我们之前承诺的一样，当我们的用户数在2012年10月达到5000时，相关工作就已经开始了。即便是现在，我们的标准界面也可以很好地适配移动设备。"
-      -
-        :title: "你们跟Facebook上其他应用一样么？"
-        :text: "当然不！ You can post your shared items on your timeline, but unless you choose to post to Facebook, all your shares and comments will stay in The Old Reader only. We'll never post anything else on your behalf or involve you in any other shady scheme。"
-      -
-        :title: "你们为什么创建The Old Reader？"
-        :text: "我们非常怀念经典版的Google Reader，因此我们为自己和朋友创建了The Old Reader。最终效果远超预期，所以我们决定和所有人分享。"
     supported: "Supported with love by"
   user:
     profile: "个人档案"

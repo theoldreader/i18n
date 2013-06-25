@@ -91,25 +91,6 @@ nb:
       - "Du kan logge inn og begynne å bruke The Old Reader med ett enkelt klikk. På den andre siden, hvis du er for sjenert, er du velkommen til å gå gjennom vår %tour% eller se hva som er %trending%."
     tour: "guidede visning"
     trending: "dagens trender"
-    qa:
-      -
-        :title: "Hva gjør den?"
-        :text: "Den tillater deg å gå gjennom din daglige dose innhold, inkludert den veldig spesielle biten som deles av vennene dine, med notater og kommentarer"
-      -
-        :title: "Kan jeg overføre abonnementene mine?"
-        :text: "Ja, du kan importere abonemmentene dine direkte fra Google Reader-kontoen din, eller bruke OPML-import om du er bekymret for sikkerheten din."
-      -
-        :title: "Hvordan finner jeg vennene mine?"
-        :text: "Vi jobber med å forbedre venneforslags-siden, men i mellomtiden kan du søke etter vennene dine manuelt eller se hvem av Facebook-vennene eller Google-kontaktene dine som også bruker The Old Reader. Vi sender deg også en e-post når noen følger deg."
-      -
-        :title: "Har dere en mobilapp?"
-        :text: "Ikke <em>enda</em>, men som lovet startet vi å jobbe med en når vi nådde 5000 brukere i Oktober 2012. Dog fungerer standard-grensesnittet vårt allerede ganske bra på mobile enheter."
-      -
-        :title: "Kommer dere til å poste ting på Facebook-profilen min uten min tillatelse?"
-        :text: "Absolutt ikke! Du har mulighet til å poste dine delte objekter på tidslinjen din, men med mindre du velger å poste til Facebook kommer dine delte objekter bare til å synes i The Old Reader. Vi kommer aldri til å poste noe annet under ditt navn eller bruke informasjonen din til noe tvilsomt."
-      -
-        :title: "Hvorfor bygde dere The Old Reader?"
-        :text: "La oss bare si at vi savnet den originale versjonen av Google Reader, så vi bygde The Old Reader for oss selv og våre venner. Vi syns at det ble så bra at vi bestemte oss for å dele det med verden."
     supported: "Støttet med kjærlighet av"
   user:
     profile: "Profil"

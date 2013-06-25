@@ -87,25 +87,6 @@ pt:
       change_password: "Alterar sua senha"
     tour: "tour"
     trending: "postagens mais populares de hoje"
-    qa:
-      -
-        :title: "O que ele faz?"
-        :text: "Ele permite que você navegue por sua dose diária de conteúdo com aquele toque muito especial compartilhado por seus amigos e amigas, com notas e comentários"
-      -
-        :title: "Posso transferir minhas assinaturas?"
-        :text: "Sim, você pode importar seus feeds diretamente da sua conta do Google Reader ou use a funcionalidade de importação de OPML se você tem maior receio com sua segurança."
-      -
-        :title: "Como posso encontrar meus amigos?"
-        :text: "Estamos trabalhando para melhorar a página de sugestões de amigos, enquanto isso você pode procurar por eles manualmente ou ver quais dos seus contatos no Facebook ou Google também usam o Old Reader. Também lhe enviaremos um email sempre que alguém começar a te seguir."
-      -
-        :title: "Vocês tem um app móvel?"
-        :text: "Não <em>ainda</em>, mas como prometemos antes, começamos a trabalhar nele quando nosso número de usuários alcançou 5000 em outubro de 2012. Mesmo agor nossa interface padrão se adapta bem em dispositivos móveis."
-      -
-        :title: "Vocês se comportarão no meu Facebook como aqueles outros aplicativos?"
-        :text: "Absolutamente não! Você pode postar seus ítens compartilhados em sua timeline, porém, a não ser que você escolha enviar para o Facebook, todos os seus compartilhamentos e comentários permanecerão apenas no Old Reader. Nós não enviaremos nada mais em seu nome ou te envolver em algum outro esquema obscuro."
-      -
-        :title: "Porque vocês criaram o Old Reader?"
-        :text: "Digamos apenas que sentíamos muita saudade do Reader original, então criamos o Old Reader para nós e nossos amigos. Gostamos de como ele ficou, então compartilhamos ele com todo mundo."
     supported: "Apoiado com amor por"
   user:
     profile: "Perfil"

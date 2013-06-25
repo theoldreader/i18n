@@ -83,25 +83,6 @@ es:
       facebook: "Facebook"
     tour: "tour"
     trending: "popular"
-    qa:
-      -
-        :title: "¿Qué es lo que hace?"
-        :text: "Le permite navegar por su dosis diaria de contenido más la parte especial compartida por sus amigos, con notas y comentarios."
-      -
-        :title: "¿Puedo importar mis suscripciones?"
-        :text: "Sí, puede importar sus suscripciones directamente desde su cuenta de Google Reader o usar nuestra importación de OPML si le preocupa la seguridad."
-      -
-        :title: "¿Cómo encuentro a mis amigos?"
-        :text: "Trabajamos en mejorar la página de sugerencia de amigos, mientras tanto puede buscar manualmente a sus amigos o ver quién usa The Old Reader entre sus contactos de Facebook o Google. También le enviaremos un correo cuando alguien empieze a seguirle."
-      -
-        :title: "¿Tenéis una aplicación móvil?"
-        :text: "<em>Todavía</em> no pero, tal como prometimos en un principio, empezamos a trabajar en ellas cuando el número de usuarios llegó a 5.000 en Octubre de 2012. Aunque ahora mismo la interfaz web funciona bastante bien en dispositivos móviles."
-      -
-        :title: "¿Vais a hacer lo mismo en Facebook que otras aplicaciones?"
-        :text: "¡Por supuesto que no! Puede publicar sus elementos compartidos en su biografía, pero a no se que elija publicar en Facebook, todos sus compartidos y comentarios no saldrán de The Old Reader. Nunca publicaremos nada más en su nombre ni le involucraremos en ningún timo piramidal."
-      -
-        :title: "¿Por qué hacéis The Old Reader?"
-        :text: "Digamos que echamos mucho de menos el Reader original, así que hicimos The Old Reader para nosotros y nuestros amigos. Nos gustó cómo salió, así que ahora lo compartimos con todos."
     supported: "Soportado con amor por"
   user:
     profile: "Perfil"

@@ -91,25 +91,6 @@ hu:
       - "Egyetlen kattintással bejelentkezhetsz, és elkezdheted a The Old Reader használatát. Ha azonban túl félénk volnál, vess egy pillantást a %tour% oldalunkra, vagy nézd meg a %trending%."
     tour: "bemutatkozó"
     trending: "napi toplistát"
-    qa:
-      -
-        :title: "Mit csinál?"
-        :text: "Segít a tartalmaid napi dózisának böngészésében, kiegészítve a barátaid által megosztottakkal, és megjegyzéseikkel"
-      -
-        :title: "Áthozhatom a feliratkozásaim?"
-        :text: "Igen, egyenesen importálhatod a csatornáidat a Google Olvasóból, vagy használhatod a mi OPML import funkciónkat, ha érzékenyebb vagy adataid biztonságára."
-      -
-        :title: "Hogyan találhatom meg barátaimat?"
-        :text: "Dolgozunk a barát ajánló lap bővítésén, de addig is manuálisan kereshetsz a barátaid után, vagy megnézheted, hogy a Facebookos, Google-s ismerőseid közül ki használja még a The Old Readert. Továbbá küldünk neked emailes értesítőt, ha valaki elkezd téged követni."
-      -
-        :title: "Van már mobilos alkalmazásotok?"
-        :text: "<em>Még</em> nincs, de ahogy korábban ígértük, elkezdtünk rajta dolgozni, amint elértük az 5000-es felhasználótábort 2012 októberében. Az általános felületünk azonban még most is szépen alkalmazkodik a mobil készülékekhez."
-      -
-        :title: "Úgy fogsz rosszalkodni a Facebookomon, mint a többi alkalmazás?"
-        :text: "Egyáltalán nem! Felteheted az idővonaladra a megosztott elemeidet, de hacsak nem választod ki kifejezetten a Facebookra postolást, minden megosztásod és megjegyzésed a The Old Readeren marad. Nem teszünk fel semmi mást, vagy vonunk bele bármi sötét ügyletbe a nevedben."
-      -
-        :title: "Miért készítettétek a The Old Readert?"
-        :text: "Mondjuk úgy, hogy nagyon hiányoltuk az eredeti olvasót, úgyhogy csináltunk magunknak és barátainknak egyet a régi mintájára, a The Old Readert. Megtetszett a végeredmény, úgyhogy megosztjuk mindenkivel."
     supported: "Szeretettel támogat az"
   user:
     profile: "Profil"

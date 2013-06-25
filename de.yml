@@ -83,25 +83,6 @@ de:
       facebook: "Facebook"
     tour: "Tour"
     trending: "Top Beiträge des Tages"
-    qa:
-      -
-        :title: "Was tut es?"
-        :text: "Sie können damit Ihre Lieblingsbeiträge durchblättern, mit von Freunden geteilten Inhalten, Anmerkungen und Kommentaren"
-      -
-        :title: "Kann ich meine Abos übertragen?"
-        :text: "Ja, Sie können Ihre Feeds direkt aus Google Reader übertragen oder unsere OPML-Import-Funktion nutzen, falls Ihnen Datenschutz besonders wichtig ist."
-      -
-        :title: "Wie finde ich meine Freunde?"
-        :text: "Wir arbeiten daran unsere Freundesvorschlagsliste zu verbessern, aber in der Zwischenzeit können Sie Ihre Freunde manuell suchen oder schauen, welche Ihrer Facebook-Freunde oder Google Kontakte auch The Old Reader verwenden. Wir schicken Ihnen auch eine E-Mail wenn jemand Ihnen folgt."
-      -
-        :title: "Haben Sie eine App für Mobilgeräte?"
-        :text: "<em>Noch</em> nicht, aber wie wir versprochen haben entwickeln wir diese seit wir im Oktober 2012 5000 Nutzer hatten. Aber schon jetzt sieht unsere normale Benutzeroberfläche gut auf Mobilgeräten aus."
-      -
-        :title: "Werden Sie mein Facebook-Konto so verwenden wie all diese anderen Apps?"
-        :text: "Absolut nicht! Sie können Ihre geteilten Inhalte auf Ihre Timeline veröffentlichen, aber wenn Sie dies nicht selbst auswählen, werden alle Ihre geteilten Inhalte und Kommentare nur bei The Old Reader bleiben. Wir werden niemals irgend etwas anderes in Ihrem Namen veröffentlichen oder Sie sonstwie in zwielichtige Machenschaften verwickeln."
-      -
-        :title: "Warum haben Sie The Old Reader geschaffen?"
-        :text: "Wir sagen mal so, wir haben den ursprünglichen Reader sehr vermisst. Also haben wir The Old Reader für uns und unsere Freunde geschaffen. Wir finden es ist uns gut gelungen, also teilen wir es mit allen."
     supported: "Mit Liebe unterstützt von"
   user:
     profile: "Profil"
