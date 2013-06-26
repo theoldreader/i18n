@@ -87,45 +87,45 @@ nl:
       password: "Wachtwoord vergeten?"
       change_password: "Verander wachtwoord"
     welcome:
-      - "Welkom bij de The Old Reader, de ultieme sociale RSS reader. We zijn nog steeds een beta-versie, maar we werken constant aan verbeteringen en nieuwe functies."
-      - "U kunt inloggen en de Old Reader met een enkele klik gebruiken. als u dit liever niet meteen doet kunt u ook onze %tour% volgen of een blik werpen op de %trending%."
+      - "Welkom bij The Old Reader, de ultieme sociale RSS reader. We zijn nog steeds een beta-versie, maar we werken constant aan verbeteringen en nieuwe functies."
+      - "U kunt inloggen en The Old Reader met een enkele klik gebruiken. als u dit liever niet meteen doet kunt u ook onze %tour% volgen of een blik werpen op de %trending%."
     tour: "Tutorial"
-    trending: "top posts van de dag"
+    trending: "belangrijkste berichten vandaag"
     qa:
       -
         :title: "Wat doet het?"
         :text: "Het laat u uw dagelijkse portie content doorbladeren waarvan die speciale berichten die u met u vrienden heeft gedeeld, met notities en reacties"
       -
         :title: "Kan ik mijn subscripties overbrengen?"
-        :text: "Ja, u kunt uw feeds dierect vanuit Google Reader importeren of onze OPML import funcite gebruiken als u dit veiliger vindt."
+        :text: "Ja, u kunt uw feeds direct vanuit Google Reader importeren of onze OPML import functie gebruiken als u dit veiliger vindt."
       -
         :title: "Hoe vind ik mijn vrienden?"
-        :text: "We zijn bezig de pagina met voorgestelde vrienden te verbeteren, maar in de tussentijd kunt u handmatig naar uw vrienden zoeken of kijken wie er bij uw Facebook vrienden of Goolge contacten ook de Old Reader gebruikt. We zenden u ook een e-mail wanneer iemand u begint te volgen."
+        :text: "We zijn bezig de pagina met voorgestelde vrienden te verbeteren, maar in de tussentijd kunt u handmatig naar uw vrienden zoeken of kijken wie er bij uw Facebook vrienden of Google contacten ook The Old Reader gebruikt. We zenden u ook een e-mail wanneer iemand u begint te volgen."
       -
-        :title: "Hebbemn jullie een mobile app?"
+        :title: "Hebben jullie een mobile app?"
         :text: "Nee <em>nog</em> niet, maar zoals eerder beloofd, zijn we er aan de ontwikkeling ervan begonnen toen ons gebruikersaantal 5000 bereikte in oktober 2012. Zelfs nu is onze standaard interface prima aangepast aan mobile apparaten."
       -
         :title: "Misdragen jullie je op Facebook zoals die andere apps?"
-        :text: "Absoluut niet! U kunt u gedeelde posts op uw tijdslijn zetten, maar tenzij u specifiek verkozen heeft op Facebook te posten, zullen alle gedeelde berichten en reacties alleen in de Old Reader blijven. We zullen nooit iets anders posten in uw naam of u laten deelnemen aan een of andere duistere praktijk."
+        :text: "Absoluut niet! U kunt u gedeelde berichten op uw tijdslijn zetten, maar tenzij u specifiek verkozen heeft op Facebook te posten, zullen alle gedeelde berichten en reacties alleen in The Old Reader blijven. We zullen nooit iets anders posten in uw naam of u laten deelnemen aan een of andere duistere praktijk."
       -
-        :title: "Waarom hebben jullie de Old Reader gebouwd?"
-        :text: "Laten we het er op houden dat we de originele reader erg misten en we daarom de Old Reader voor onszelf en onze vrienden bouwden. We vonden dat dat goed uitpakte en daarom besloten we het met iedereen te delen"
+        :title: "Waarom hebben jullie The Old Reader gebouwd?"
+        :text: "Laten we het er op houden dat we de originele reader erg misten en we daarom The Old Reader voor onszelf en onze vrienden bouwden. We vonden dat dat goed uitpakte en daarom besloten we het met iedereen te delen"
     supported: "Met liefde ondersteund door"
   user:
     profile: "Profiel"
     logout: "Uitloggen"
     settings: "Instellingen"
-    failure: "Het %{kind} account dat u probeert te gebruiken is reeds gekoppeld aan een ander Old Reader account. Annuleer het ander account en herstart de handeling."
+    failure: "Het %{kind} account dat u probeert te gebruiken is reeds gekoppeld aan een ander The Old Reader account. Annuleer het ander account en herstart de handeling."
     wrong_auth: "Iets ging er mis, attendeer ons op hello@theoldreader.com"
-    becomes_active_notice: "U heeft de Old Reader al een poos niet gebruikt, daarom hebben we alleen nieuwe post voor u bewaard"
+    becomes_active_notice: "U heeft The Old Reader al een poos niet gebruikt, daarom hebben we alleen nieuwe berichten voor u bewaard"
   feeds:
     no_feeds:
       text: "U heeft nog geen subscripties. U kunt u zich %{subscribe} op een nieuwe feed (wat dacht u van <a href='http://blog.theoldreader.com/rss' class='feed-subscribe'>onze blog</a>?) of uw subscripties %{import}.<br />Als u meer wilt weten, %{tour}."
       subscribe: "abonneren"
       import: "importeren"
       tour: "zie de tutorial"
-    no_posts: "Er zijn hier nog geen posts"
-    no_posts_filler: "Geen posts onder deze lijn. U heeft ze waarschijnlijk allemaal gelezen."
+    no_posts: "Er zijn hier nog geen berichten"
+    no_posts_filler: "Geen berichten onder deze lijn. U heeft ze waarschijnlijk allemaal gelezen."
     subscribe: "Abonneren"
     add_subscription: "voeg een subscriptie toe"
     add: "toevoegen"
@@ -141,14 +141,14 @@ nl:
       many: "feeds"
       other: "feeds"
     posts_count:
-      one: "post"
-      few: "posts"
-      many: "posts"
-      other: "posts"
+      one: "bericht"
+      few: "berichten"
+      many: "berichten"
+      other: "berichten"
     your_posts: "U heeft <em>%{unread}</em> ongelezen %{posts}"
-    refresh: "Refresh"
+    refresh: "Verversen"
     unsubscribe: "Abonnement opzeggen"
-    unsubscribe_confirm: "Wilt werkelijk dit abonnement opzeggen? Uw gedeelde posts en likes uit deze feed zullen niet worden verwijderd."
+    unsubscribe_confirm: "Wilt werkelijk dit abonnement opzeggen? Uw gedeelde berichten en likes uit deze feed zullen niet worden verwijderd."
     ago: "geleden"
     never: "Nooit"
     confirm: "Weet u het zeker?"
@@ -162,7 +162,7 @@ nl:
     unshare: "Delen ongedaan maken"
     following: "Volgen"
     attach_note: "Wilt u een notitie toevoegen?"
-    attach: "Notitie opslaan"
+    attach: "Notitie toevoegen"
     comments:
       one: "%{count} reactie"
       few: "%{count} reacties"
@@ -197,9 +197,9 @@ nl:
       title: "Tips & truuks"
       items:
         - "Druk op '?' of 'h' om de lijst met sneltoetscombinaties te zien."
-        - "Sleep feeds in the menu om ze te rangschikken of nieuwe mappen aan te maken."
-        - "U kunt dubbelklikken op een feed op maptitel om deze te hernoemen."
-        - "Kijk op onze <a href='/pages/tour'>Tutorial</a> pagina voor gedetailleerde instructies hoe de Old Reader te gebruiken."
+        - "Sleep feeds in het menu om ze te rangschikken of nieuwe mappen aan te maken."
+        - "U kunt dubbelklikken op een feed of map titel om deze te hernoemen."
+        - "Kijk op onze <a href='/pages/tour'>Tutorial</a> pagina voor gedetailleerde instructies hoe The Old Reader te gebruiken."
   pages:
     home: "Home"
     all: "Alle items"
@@ -213,7 +213,7 @@ nl:
     friends: "Vind vrienden"
     commented: "Met reacties"
     privacy: "Privacy beleid"
-    trending: "Trending"
+    trending: "Trendy"
     donate: "Doneer"
     tour: "Tutorial"
     blog: "Blog"
@@ -229,120 +229,120 @@ nl:
     token: "Token"
     ui:
       title: "gebruikersinterface"
-      click_to_scroll: "Clicking on a post scrolls to it"
-      scroll_to_read: "Scrolling through posts marks them as read"
-      sidebar_unread_only: "Show only those folders/feeds that have unread items"
-      locale: "Language"
+      click_to_scroll: "Klikken op een bericht om omlaag te scrollen"
+      scroll_to_read: "Scrollen door berichten, markeert ze als gelezen"
+      sidebar_unread_only: "Toon alleen die mappen/feeds die ongelezen items hebben"
+      locale: "Taal"
     feed_display_mode:
-      title: "Feed display mode"
-      all: "Show all posts"
-      unread: "Show unread only"
+      title: "Feed weergavemodus"
+      all: "Toon alle berichten"
+      unread: "Toon alleen ongelezen"
     feed_list_mode:
-      title: "Posts view mode"
-      full: "Full view"
-      list: "List view"
+      title: "Berichten weergavemodus"
+      full: "Volledige weergave"
+      list: "Lijst weergave"
     sort_mode:
-      title: "Posts order"
-      normal: "Normal (new posts first)"
-      reverse: "Reverse (old posts first)"
-    social: "Social stuff"
-    notify_when_followed: "Notify by email when someone starts following you"
-    share_timeline: "Publish your shares on your Facebook page"
-    connect_share_timeline: "Connect to Facebook to publish your shares"
-    show_fb_profile: "Show link to your Facebook page in your profile"
+      title: "Berichten rangorde"
+      normal: "Normaal (nieuwe berichten eerst)"
+      reverse: "Omgekeerd (oude berichten eerst)"
+    social: "Sociale onderwerpen"
+    notify_when_followed: "Waarschuw per e-mail wanneer iemand u begint te volgen"
+    share_timeline: "Publiceer uw gedeelde items op uw Facebook pagina"
+    connect_share_timeline: "Maak verbinding met Facebook om uw gedeelde berichten te publiceren"
+    show_fb_profile: "Toon een link naar uw Facebook pagina in uw profiel"
     save: "Save changes"
-    cancel_disabled: "You can't cancel your account while import is in progress, please be patient."
+    cancel_disabled: "U kunt uw account niet annuleren tijden een het importeren, even geduld graag."
     cancel_account:
-      text: "Unhappy? You can %{export} as OPML file and %{cancel} at any time."
-      export: "export your feeds"
-      cancel: "cancel your account"
-      confirm: "Are you sure?"
+      text: "Niet gelukkig? U kunt %{export} als een OPML-bestand en op elk moment %{cancel}."
+      export: "exporteer uw feeds"
+      cancel: "annuleer uw account"
+      confirm: "Weet u het zeker?"
     pocket:
-      title: "Pocket integration"
-      description: "<a href='http://getpocket.com/'>Pocket</a> (formerly called Read It Later) is a handy app that allows you to arrange, sort, and tag content that you intend to access later."
-      connect: "Connect to Pocket to start pocketing"
-      account: "Your account: <strong>%{username}</strong>"
+      title: "integratie met Pocket"
+      description: "<a href='http://getpocket.com/'>Pocket</a> (vroeger Read It Later genoemd) is een handige app dat u inhoudelijke tekst die u later wilt lezen laat orderen, samenvoegen en van een tag voorzien."
+      connect: "Maak verbinding met Pocket om te beginnen met opslaan op Pocket"
+      account: "Uw account: <strong>%{username}</strong>"
   import:
-    title: "Import"
-    alert: "<b>Please enter your Google username and password to import your subscriptions from Google Reader</b><br />We are not going to store your credentials. Account information will only be used to fetch your subscriptions."
-    opml: "<b>Choose an OPML file</b><br />You can grab it from Google Reader settings page.<br />Please use <b>subscriptions.xml</b> from your takeout archive."
-    email: "Email"
-    password: "Password"
-    import: "Import"
-    started: "We find feed import to be quite resource intensive procedure, so our system only allows a limited number of import operations to run at the same time. Currently all available slots are busy, so your import operation will be queued."
-    queued: "Thank you for uploading your OPML file. We will soon start importing your subscriptions."
-    queued_notice: "There are <strong>%{count}</strong> users in the import queue ahead of you."
-    processing: "Your feeds are now importing in background."
-    error: "Something went wrong"
-    opml_empty: "OPML file you uploaded is either incorrect or empty."
-    too_many_feeds: "For technical reasons we will only import first 1000 of your feeds."
-    cancel: "Cancel import"
+    title: "Importeren"
+    alert: "<b>Vul uw Google's gebruikersnaam en wachtwoord in om subscripties te importeren vanuit Google Reader</b><br />Wij slaan uw inlog gegevens niet op. Account informatie wordt alleen gebruikt om de subscripties te verkrijgen."
+    opml: "<b>Kies een OPML-bestand</b><br />U kunt dit verkrijgen van de  Google Reader instellingen pagina.<br />Gebruik  <b>subscriptions.xml</b> van uw takeout zip-archief."
+    email: "E-mail"
+    password: "Wachtwoord"
+    import: "Importeren"
+    started: "Het importeren van feeds is behoorlijk bron intensief gebeuren, daarom laat ons systeem maar een beperkt aantal tegelijk lopende import operaties toe. Op dit moment zijn alle beschikbare plaatsen bezet, dus uw import operatie is in de wacht gezet."
+    queued: "Hartelijk dank voor het uploaden van uw OPML-bestand. We zullen spoedig met het importeren beginnen van uw subscripties."
+    queued_notice: "Er zijn <strong>%{count}</strong> gebruikers in de import wachtrij voor u."
+    processing: "Uw feeds worden nu op de achtergrond geïmporteerd."
+    error: "Er is iets mis gegaan"
+    opml_empty: "Het OPML-bestand dat u uploadde is of leeg of onjuist."
+    too_many_feeds: "Om technische redenen zullen we alleen de eerste 1000 feeds importeren."
+    cancel: "Import annuleren"
   profile:
-    follow: "Follow"
-    unfollow: "Unfollow"
-    unfollow_confirm: "Do you really want to unfollow? Your shared and likes posts will not be removed."
-    thats_you: "That's you!"
+    follow: "Volgen"
+    unfollow: "Niet meer volgen"
+    unfollow_confirm: "Wilt uw werkelijk het volgen staken? Uw gedeelde en als leuk aangemerkte berichten zullen niet worden verwijderd."
+    thats_you: "Dat bent uzelf!"
     following: 
-      one: "Follows <strong>%{count}</strong> user"
-      few: "Follows <strong>%{count}</strong> users"
-      many: "Follows <strong>%{count}</strong> users"
-      other: "Follows <strong>%{count}</strong> users"
+      one: "Volgt <strong>%{count}</strong> gebruiker"
+      few: "Volgt <strong>%{count}</strong> gebruikers"
+      many: "Volgt <strong>%{count}</strong> gebruikers"
+      other: "Volgt <strong>%{count}</strong> gebruikers"
     followers:
-      one: "Followed by <strong>%{count}</strong> user"
-      few: "Followed by <strong>%{count}</strong> users"
-      many: "Followed by <strong>%{count}</strong> users"
-      other: "Followed by <strong>%{count}</strong> users"
-    me_following: "<strong>%{count}</strong> Following"
-    my_followers: "<strong>%{count}</strong> Followers"
+      one: "gevolgt door <strong>%{count}</strong> gebruiker"
+      few: "gevolgt door <strong>%{count}</strong> gebruikers"
+      many: "gevolgt door <strong>%{count}</strong> gebruikers"
+      other: "gevolgt door <strong>%{count}</strong> gebruikers"
+    me_following: "<strong>%{count}</strong> volgend"
+    my_followers: "<strong>%{count}</strong> volgers"
     posts: "Shared posts"
-    your_profile: "Your profile"
+    your_profile: "Uw profiel"
     facebook: "Facebook (%{name})"
-    new: "New"
+    new: "Nieuw"
     new_followers:
-      one: "%{count} new"
-      few: "%{count} new"
-      many: "%{count} new"
-      other: "%{count} new"
-    rss: "%{name} shared items on The Old Reader (RSS)"
+      one: "%{count} nieuwe"
+      few: "%{count} nieuwen"
+      many: "%{count} nieuwen"
+      other: "%{count} nieuwen"
+    rss: "%{name} gedeelde items op The Old Reader (RSS)"
   friends:
-    follow: "Follow your friends who use The Old Reader"
+    follow: "Volg de vrienden die The Old Reader gebruiken"
     found:
-      one: "Found %{count} user"
-      few: "Found %{count} users"
-      many: "Found %{count} users"
-      other: "Found %{count} users"
-    facebook: "Login with Facebook"
-    google: "Login with Google"
+      one: "Gevonden %{count} gebruiker"
+      few: "Gevonden %{count} gebruikers"
+      many: "Gevonden %{count} gebruikers"
+      other: "Gevonden %{count} gebruikers"
+    facebook: "Login met Facebook"
+    google: "Login met Google"
   notifier:
     followed:
-      subject: "%{name} has followed you"
+      subject: "%{name} heeft u gevolgd"
       body: |
-        Hello, %{followed}!
+        Hallo, %{followed}!
         
-        %{name} is now following you. Nice!
-        See profile at %{profile}.
+        %{name} volgt u nu. Mooi!
+        Zie het profiel op %{profile}.
         
         --
         The Old Reader robot.
-        You can always unsubscribe at your settings page.
+        U kunt altijd uw abonnement opzeggen op de instellingen pagina.
         %{host}
     import:
-      subject: "Your feeds are ready, hooray!"
+      subject: "Uw feed zijn gereed, hoera!"
       body: |
-        Hello %{name},
+        Hallo %{name},
         
-        We are happy to inform you that we have finished importing your subscriptions.
-        %{count} feeds you imported should now be available at %{host}.
-        Thank you for using The Old Reader.
+        We zijn blij u te kunnen meedelen dat we gereed zijn met het importeren van uw subscripties.
+        %{count} door u geïmporteerde feeds zijn nu beschikbaar op %{host}.
+        Hartelijk dank voor het gebruiken van The Old Reader.
         
         --
         The Old Reader robot.
         %{host}
     confirmation:
       body: |
-        Welcome %{name},
+        Welkom %{name},
         
-        You can confirm your account email using the link below:
+        U kunt uw account e-mail confirmeren door op de link hieronder te klikken:
         %{link}
         
         --
@@ -350,151 +350,151 @@ nl:
         %{host}
     password:
       body: |
-        Hello %{name},
+        Hallo %{name},
         
-        Someone has requested a link to change your password, here it is:
+        Iemand het een verzoek ingediend uw wachtwoord te veranderen, hier is de link:
         %{link}
         
-        If you have not requested this, please ignore this email.
-        Your password will not get changed until you access the link above.
+        Als u dit verzoek niet zelf hebt gedaan kunt u dit e-mailbericht negeren.
+        Uw wachtwoord zal niet worden veranderd zolang u niet op deze link hierboven klikt.
         
         --
         The Old Reader robot.
         %{host}
   shortcuts:
-    header: "Keyboard Shortcuts"
-    note: "*Chrome, Safari, Opera only"
+    header: "Sneltoetscombinaties"
+    note: "*Alleen Chrome, Safari en Opera"
     pages:
-      title: "Navigate between pages"
+      title: "Navigeer tussen de pagina's"
       body: |
-        shift-n, shift-j: next subscription or folder
-        shift-p, shift-k: previous subscription or folder
-        shift-x: collapse selected folder
-        shift-o: open selected subscription or folder
-        shift-c: collapse all folders
-        shift-e: expand all folders
-        g then h: go to home
-        g then a: go to all items
-        g then l: go to liked
-        g then s: go to shared
-        g then t: go to trending
-        g then c: go to commented
-        g then f: go to following
+        shift-n, shift-j: volgende subscriptie of map
+        shift-p, shift-k: vorige subscriptie of map
+        shift-x: inklappen geselecteerde map
+        shift-o: open geselecteerde subscriptie of map
+        shift-c: alle mappen inklappen
+        shift-e: Alle mappen uitklappen
+        g then h: ga naar home
+        g then a: ga naar alle items
+        g then l: ga naar liked
+        g then s: ga naar gedeeld
+        g then t: ga naar trendy
+        g then c: ga naar reacties
+        g then f: ga naar volgend
     other:
-      title: "Other shortcuts"
+      title: "Andere sneltoetscombinaties"
       body: |
-        r: refresh current page
-        /: focus the search field
-        a: add subscription
-        ? or h: show this window
+        r: verversen huidige pagina
+        /: zet focus op zoekveld
+        a: subscriptie toevoegen
+        ? of h: toon dit helpvenster
     posts:
-      title: "Shortcuts for posts"
+      title: "Sneltoetscombinaties voor berichten"
       body: |
-        space: scroll down
-        shift+space: scroll up
-        shift+a: mark all as read
-        j, n: next post
-        k, p: previous post
-        o, v: open post in a new tab
-        b: open post in a background tab*
-        x: toggle post (list view)
-        l: mark post as liked
-        s: share a post
-        m: read/unread a post
-        f: save post to Pocket
-        c: scroll to comments and open the form
-        1: switch to full view
-        2: switch to list view
+        spatiebalk: scroll omlaag
+        shift+spatiebalk: scroll omhoog
+        shift+a: markeer alles als gelezen
+        j, n: volgend bericht
+        k, p: vorig bericht
+        o, v: open bericht in een nieuwe tab
+        b: open bericht in een achtergrond tab*
+        x: schakel tussen weergave berichten (lijstweergave)
+        l: markeer bericht als leuk
+        s: deel dit bericht
+        m: schakel gelezen/ongelezen bericht
+        f: bewaar bericht bij Pocket
+        c: scroll to reacties en open het formulier
+        1: schakel naar volledige weergave
+        2: schakel naar lijstweergave
   alerts:
-    common: "Request to the server failed, please try again later"
-    posts: "Could not load posts"
+    common: "Verzoek aan de server is mislukt, probeer het later nog eens"
+    posts: "Kon berichten niet laden"
   page_content:
     community:
-      title: "Community resources"
-      p1: "We are extremely happy to have a loyal community of users who constantly help us move the project forward. Here are some links to the resources created and supported by our community."
+      title: "Gemeenschappelijk hulpmiddelen"
+      p1: "We zijn erg blij een loyale gemeenschap te hebben van gebruikers die ons constant helpen het project in voorwaartse richting te stuwen. Hier zijn enkele links naar de hulpbronnen, gemaakt en onderhouden door onze gemeenschap."
       translations:
-        title: "Translations"
-        pre_link: "The Old Reader has been translated to many languages. We keep translations in a "
-        link: "separate public github repo"
-        post_link: " so that anyone could contribute."
+        title: "Vertalingen"
+        pre_link: "The Old Reader is vertaalt in vele talen. We hebben de vertalingen in een "
+        link: "afzonderlijke openbare github repo"
+        post_link: " zodat iedereen er aan kan bijdragen."
       extensions:
-        title: "Browser extensions"
-        p1: "There is a number of browser extensions that make tracking your unread items easier."
-        source_code: "source code"
-        chrome: "Google Chrome extension"
-        chrome_author: "by Anton Tolchanov"
+        title: "Browser extensies"
+        p1: "Er bestaan een aantal browser extensies die het volgen van uw ongelezen items makkelijker maakt."
+        source_code: "broncode"
+        chrome: "Google Chrome extensie"
+        chrome_author: "door Anton Tolchanov"
         chromeapp: "Google Chrome app"
-        chromeapp_author: "by Enrico Bacis"
-        safari: "Safari extension"
-        safari_author: "by Dmitry Kranoukhov"
-        opera: "Opera extension"
-        opera_author: "by Lazare Inepologlou"
+        chromeapp_author: "door Enrico Bacis"
+        safari: "Safari extensie"
+        safari_author: "door Dmitry Kranoukhov"
+        opera: "Opera extensie"
+        opera_author: "door Lazare Inepologlou"
         firefox: "Firefox addon"
-        firefox_author: "by Tomek Wasiak"
+        firefox_author: "door Tomek Wasiak"
       themes:
-        title: "Unofficial themes"
-        pre_link: "Some users created userstyles that change the way The Old Reader looks in your browser. There is no guarantee that these styles will always work and will not break the site for you, but if you are courageous enough to try, they are available at "
+        title: "Onofficiële thema's"
+        pre_link: "Sommige gebruikers hebben gebruikersstijlen gemaakt, die het gezicht van The Old Reader in uw browser aanpassen. Er is geen garantie dat deze stijlen altijd zullen werken en de website niet laten vastlopen, maar als u voldoende moed hebt kunt u ze vinden op "
         post_link: "."
       requests:
-        title: "Feature requests"
-        pre_link: "You can vote for feature requests and suggest new ones on "
-        link: "our uservoice page"
-        post_link: ". Please search for existing requests before creating a new one, most probably somebody suggested your idea before. We do not moderate the uservoice page, so when you create a duplicate you actually decrease the chances of it getting to the top, because two requests will compete with each other for user votes."
+        title: "Functie verzoeken"
+        pre_link: "U kunt stemmen op een functieverzoek en nieuwe verzoeken indienen op "
+        link: "onze uservoice pagina"
+        post_link: ". Zoek eerst bij de bestaande verzoeken of u idee er al bijstaat, voordat u een nieuwe aanmaakt. Er is geen moderator voor de uservoice pagina, dus als u een duplicaat verzoek indient vermindert u in feite de kans dat die bovenaan komt te staan omdat dan twee verzoeken elkaars concurrent worden voor gebruikersstemmen."
       forums:
-        title: "Community forums"
-        pre_link: "We have created "
-        link: "a forum on yuku.com"
-        post_link: " for our users to communicate. Feel free to join it and ask for assistance, discuss tweaks, and share your thoughts."
+        title: "Gemeenschapsforums"
+        pre_link: "We hebben een forum "
+        link: "gemaakt op yuku.com"
+        post_link: " voor onze gebruikers om op te communiceren. Het staat u vrij hier aan deel te nemen en om hulp te vragen, over tweaks te discussiëren en uw gedachten te delen."
     donate:
-      title: "Donate"
-      p1: "Running an RSS reader requires quite a lot of resources. This might seem like a simple site, but we have to refresh several million of feeds, some as often as every 5 minutes. Our server cost is pretty high, and we would never be able to afford it without help from our awesome users."
-      p2: "There are several ways you can help us financially and keep the project alive:"
+      title: "Doneren"
+      p1: "Het draaien van een RSS reader vereist nogal wat middelen. Dit mag een simpele site lijken, maar we moeten een aantal miljoen feeds verversen. Soms elke 5 minuten. Onze serverkosten zijn behoorlijk hoog en dat zouden we ons nooit kunnen veroorloven zonder de hulp van onze geweldige gebruikers."
+      p2: "Er zijn verscheidene manieren waarop u ons financieel kunt ondersteunen en zo ons project levend kunt houden:"
       flattr:
-        pre_link: "Use "
+        pre_link: "Gebruik "
         link1: "Flattr"
-        inbetween: ". It is a simple way to give money to authors or services you like. You can either send us a fixed amount of money, or press the “flattr” button, and then your monthly budget would be distributed among us and other projects you helped during a given month. You can also subscribe to "
-        link2: "our account in Flattr"
-        post_link: " which will make you \"flattr\" us automatically every month."
-      bitcoins: "For all the privacy-concerned folks, we haz bitcoins"
+        inbetween: ". Het is een simpele manier om geld aan auteurs of diensten te geven. U kunt zowel een vast bedrag zenden of op de Y “flattr” knop drukken en dan wordt uw maandelijkse budget verdeeld onder ons en andere projecten die een helpt gedurende een bepaalde maand. U kunt u ook inschrijven op "
+        link2: "ons account in Flattr"
+        post_link: " dat maakt dat u ons automatisch elke maand \"flattred\"."
+      bitcoins: "Voor alle privacy bedachte mensen hebben we bitcoins"
       additional:
-        pre_link: "Unfortunately, for legal reasons we cannot run a Paypal form on the website. However, if you would like to send us a significant sum of money and cannot use Flattr or bitcoins for some reason, please "
-        link: "drop us a note"
-        post_link: "  and we will figure out a way for you to send a personal gift transfer to one of us."
-      thanks: "We appreciate your help! So does this kitten:"
+        pre_link: "We kunnen helaas om juridische redenen geen Paypal formulier op de website zetten. Als u echter ons een significante som geld wilt sturen en Flattr of bitcoins niet kunt of wilt gebruiken "
+        link: "zend ons dan aub een berichtje"
+        post_link: "  en wij zullen dan een manier trachten te vinden om u een persoonlijke gift naar ons te kunnen laten sturen."
+      thanks: "Wij appreciëren uw hulp! Net zo als dit jonge katje:"
     tour:
       title: "The Old Reader 101"
       add_feeds:
-        title: "Add feeds"
-        p1: "Your new The Old Reader account is shipped empty, so the first thing you should do is add some feeds to read."
-        img1: "Use 'Add a subscription' button to subscribe to a feed. If you enter a web page URL rather than direct feed URL, we will add first RSS feed from that page automatically."
-        img2: "If you are migrating from Google Reader or any other RSS software that can export subscriptions to OPML file, you can use the 'Import' feature to add all your feeds.  We will even migrate all your feed folders to ensure that you feel yourself at home immediately."
+        title: "Feeds toevoegen"
+        p1: "Uw nieuwe account bij The Old Reader is nog leeg, dus het eerste dat u nu moet doen is wat feeds toevoegen."
+        img1: "Gebruik de 'Voeg een subscriptie toe' knop om u te abonneren op een feed. Als u een webpagina URL invult inplaats van een directe feed URL, zullen we de eerste RSS-feed van die pagina automatisch toevoegen."
+        img2: "Als u migreert van Google Reader of elke andere RSS software dat subscripties kan exporteren naar een OPML-bestand, kunt u de  'Import' functie gebruiken om al uw feeds toe te voegen. We zullen zelfs al uw feed maps overzetten zodat u zich onmiddellijk thuis zal voelen in de interface."
       organize:
-        title: "Organize feeds"
-        img1: "You can drag & drop feeds and folders to change their position. Creating a new feed folder is as easy as dragging a feed to an empty space below your last folder. Empty folders are removed automatically."
-        img2: "Simply double-click on a feed or a folder to rename it."
-        img2_p2: "It's not possible to rename the default folder ('Subscriptions'), but you can move all your feeds out of it to other folders, and it will disappear completely."
+        title: "Organiseren van feeds"
+        img1: "U kunt feeds en mappen verslepen met de muis om hun positie te veranderen. Het aanmaken van een nieuwe map gaat makkelijk door het slepen van een feed naar een lege plek onder uw laatste map. Lege mappen worden automatisch verwijderd."
+        img2: "Dubbelklik eenvoudigweg op een feed of map om deze te hernoemen."
+        img2_p2: "Het is niet mogelijk de standaard map  ('Subscriptions') een andere naam te geven, maar u kunt al uw feeds er uit vandaan halen en in andere mappen plaatsen. Dan zal deze standaard map vanzelf verdwijnen."
       read:
-        title: "Read posts"
-        img1: "Choose what you'd like to read from the menu. You can click on a folder to read all feeds that the folder contains."
-        img2: "Navigation menu allows you to go to the next or previous post with a single click. You can also switch to 'List view' that collapses all posts, lets you glimpse through titles and expand only those articles you are interested in."
-        img3: "You can also use keyboard shortcuts to navigate. Press '?' or 'h' to see the list."
-        img4_p1: "There are action buttons below each post. If you hit 'Like' your name will appear in the list of users who liked that post. The post will also go to your 'Liked' folder."
-        img4_p2: "If you choose to share the post, all your contacts will immediately see it. You can also post your shares to your Facebook timeline (visit Settings to enable that)."
+        title: "Berichten lezen"
+        img1: "Kies wat u wilt lezen uit het menu. u kunt op een map klikken om alle feeds in die map te lezen."
+        img2: "Het navigatie menu lat u naar het volgende of vorige  bericht te springen met een enkele muisklik. U kunt ook overschakelen naar  'Lijstweergave' dat alle berichten laat inklappen, u de kopteksten kunt doornemen en alleen die laat uitklappen die u wilt lezen."
+        img3: "U kunt ook sneltoetsen gebruiken om te navigeren. Druk op '?' of 'h' om de lijst te zien."
+        img4_p1: "Er staan actieknoppen onder elk bericht. Als u op de 'Like' knop drukt, verschijnt uw naam in de lijst van gebruikers dit dit bericht ook leuk vonden. Het bericht zal ook naar uw  'Liked' map gaan."
+        img4_p2: "Als u verkiest een bericht te delen, zullen al uw contacten dit onmiddellijk zien. U kunt uw gedeelde berichten op uw Facebook tijdslijn zetten (bezoek Instellingen om dat in te schakelen)."
       discuss:
-        title: "Discuss posts"
-        img1: "It's no fun reading RSS feeds alone. Go to 'Find Friends' page to see who among your Facebook friends or Google contacts is using The Old Reader. You can also look for your friends by name."
-        img2: "All posts that you have shared are in the 'Shared' folder. Items that your friends have shared are in the 'Following' folder. As usual, you can either read the whole folder or choose a specific username to see all posts shared by that user."
-        img3: "You can comment on any post shared by your friends — just hit the 'Comment' button and join the discussion."
+        title: "Berichten bediscussiëren"
+        img1: "Het is leuker over RSS feeds te praten. Ga naar de 'Vind Vrienden' pagina om te zien wie er onder uw Facebook vrienden of Google contacten The Old Reader gebruikt. U kunt vrienden ook op naam zoeken."
+        img2: "Alle berichten die u heeft gedeeld staan in de 'Gedeeld' map. Items die uw vrienden hebben gedeeld staan in de 'Volgend' map. Zoals gebruikelijk kunt u de gehele map lezen of een specifieke gebruikersnaam kiezen om alle met deze gebruiker gedeelde berichten te lezen."
+        img3: "U kunt commentaar leveren op elk met uw vrienden gedeeld bericht: klik gewoon op de 'Comment' knop en neem deel aan de discussie."
       tips:
-        title: "Tips & Tricks"
-        p1: "To subscribe to new feeds with a single click, configure 'http://theoldreader.com/feeds/subscribe?url=%s' in your RSS feed handler or extension;"
-        p2_pre_link: "If you use Firefox, just "
-        p2_link: "press here"
-        p2_post_link: " to add The Old Reader as your RSS feed handler."
+        title: "Tips & Trucs"
+        p1: "Om u te kunnen abonneren op nieuwe feeds met een enkele muisklik, stel 'http://theoldreader.com/feeds/subscribe?url=%s' in in uw RSS feed handler of extensie;"
+        p2_pre_link: "Als u Firefox gebruikt, druk dan "
+        p2_link: "hier"
+        p2_post_link: " om The Old Reader als uw RSS feed handler in te stellen."
       finally:
-        title: "Any questions?"
-        pre_link: "Please take a look at our "
-        link1: "knowledge base"
-        inbetween: " and feel free to ask for assistance at the "
-        link2: "community forums"
-        post_link: " if something is not clear."
+        title: "Nog vragen?"
+        pre_link: "Kijk dan een op onze "
+        link1: "kennisbank"
+        inbetween: " en vraag gerust om help op de "
+        link2: "gemeenschapsforums"
+        post_link: " als iets niet duidelijk is."
