@@ -175,14 +175,14 @@ nl:
     post_author: "door <strong>%{author}</strong>"
     drop_add_folder: "Sleep hier na toe om een nieuwe map toe te voegen"
     new_folder: "Nieuwe map"
-    like: "Leuk"
-    unlike: "Niet leuk"
+    like: "like"
+    unlike: "unlike"
     likes_count:
-      zero: "%{users} vinden dit leuk"
-      one: "%{users} en een andere vinden dit leuk"
-      few: "%{users} and %{count} anderen vinden dit leuk"
-      many: "%{users} and %{count} anderen vinden dit leuk"
-      other: "%{users} and %{count} anderen vinden dit leuk"
+      zero: "%{users} liken dit"
+      one: "%{users} en een andere liken dit"
+      few: "%{users} and %{count} anderen liken dit"
+      many: "%{users} and %{count} anderen liken dit"
+      other: "%{users} and %{count} anderen liken dit"
     feed: "Feed"
     site: "Site"
     enclosure_url: "Bekijk bijgevoegd bestand (%{size}, %{type})"
@@ -203,7 +203,7 @@ nl:
   pages:
     home: "Home"
     all: "Alle items"
-    liked: "Vind ik leuk"
+    liked: "liked"
     shared: "Gedeeld"
     followed: "Vrienden"
     import: "Importen"
@@ -280,7 +280,7 @@ nl:
   profile:
     follow: "Volgen"
     unfollow: "Niet meer volgen"
-    unfollow_confirm: "Wilt uw werkelijk het volgen staken? Uw gedeelde en als leuk aangemerkte berichten zullen niet worden verwijderd."
+    unfollow_confirm: "Wilt uw werkelijk het volgen staken? Uw gedeelde en liked berichten zullen niet worden verwijderd."
     thats_you: "Dat bent uzelf!"
     following: 
       one: "Volgt <strong>%{count}</strong> gebruiker"
@@ -398,7 +398,7 @@ nl:
         o, v: open bericht in een nieuwe tab
         b: open bericht in een achtergrond tab*
         x: schakel tussen weergave berichten (lijstweergave)
-        l: markeer bericht als leuk
+        l: like bericht
         s: deel dit bericht
         m: schakel gelezen/ongelezen bericht
         f: bewaar bericht bij Pocket
@@ -478,7 +478,7 @@ nl:
         img1: "Kies wat u wilt lezen uit het menu. u kunt op een map klikken om alle feeds in die map te lezen."
         img2: "Het navigatie menu lat u naar het volgende of vorige  bericht te springen met een enkele muisklik. U kunt ook overschakelen naar  'Lijstweergave' dat alle berichten laat inklappen, u de kopteksten kunt doornemen en alleen die laat uitklappen die u wilt lezen."
         img3: "U kunt ook sneltoetsen gebruiken om te navigeren. Druk op '?' of 'h' om de lijst te zien."
-        img4_p1: "Er staan actieknoppen onder elk bericht. Als u op de 'Like' knop drukt, verschijnt uw naam in de lijst van gebruikers dit dit bericht ook leuk vonden. Het bericht zal ook naar uw  'Liked' map gaan."
+        img4_p1: "Er staan actieknoppen onder elk bericht. Als u op de 'Like' knop drukt, verschijnt uw naam in de lijst van gebruikers die dit bericht ook liken. Het bericht zal ook naar uw  'Liked' map gaan."
         img4_p2: "Als u verkiest een bericht te delen, zullen al uw contacten dit onmiddellijk zien. U kunt uw gedeelde berichten op uw Facebook tijdslijn zetten (bezoek Instellingen om dat in te schakelen)."
       discuss:
         title: "Berichten bediscussiëren"
