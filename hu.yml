@@ -91,6 +91,23 @@ hu:
       - "Egyetlen kattintással bejelentkezhetsz, és elkezdheted a The Old Reader használatát. Ha azonban túl félénk volnál, vess egy pillantást a %tour% oldalunkra, vagy nézd meg a %trending%."
     tour: "bemutatkozó"
     trending: "napi toplistát"
+    qa:
+      :title0: "Mit csinál?"
+      :text0: "Lehetővé teszi, hogy tartalmakat böngéssz, a barátaid által megosztott, megjelölt, és kommenteltekkel együtt."
+      :title1: "Áthozhatom a feliratkozásaim?"
+      :text1: "Igen, az OPML funkciónk segítségével könnyen importálhatod őket."
+      :title2: "Hogyan találom meg a barátaimat?"
+      :text2: "Dolgozunk a barátkereső oldalon, de addigis keresheted őket manuálisan, vagy megnézheted, hogy a Facebookos, illetve Google-ös kapcsolataid közül kik használják még a The Old Readert. Sőt, küldünk emailt neked, amint valaki elkezd téged követni."
+      :title3: "Van mobilos alkalmazásotok?"
+      :text3_pre_link: "Nincsen hivatalos alkalmazásunk, de van egy "
+      :text3_link1: "API-nk"
+      :text3_between_links: ". Ennek segítségével bárki tud alkalmazást írni a The Old Readerhez, ezért máris van "
+      :text3_link2: "számtalan mobilos alkalmazás"
+      :text3_post_link: ", mely az oldalunkat támogatja."
+      :title4: "Ugyanúgy rosszalkodni fogtok a Facebookomon, mint a többi alkalmazás?"
+      :text4: "Egyáltalán nem! Feltöltheted a megosztott elemeidet az idővonaladra, de hacsak azt nem választod, hogy mindent posztoljon a Facebookodra, minden megosztásod, és kommented csakis a The Old Readeren marad. Semmit nem teszünk fel oda a nevedben, vagy keverünk bele valami kétes tervbe."
+      :title5: "Miért készítettétek a The Old Readert?"
+      :text5: "Mondjuk azt, hogy hiányzott nekünk nagyon az eredeti reader, ezért csináltunk egyet magunknak és a barátainknak. Megtetszett a végeredemény, úgy döntöttünk, hogy megosztjuk mindenkivel."
     supported: "Szeretettel támogat az"
   user:
     profile: "Profil"
@@ -200,6 +217,7 @@ hu:
     blog: "Blog"
     status: "Szerver állapota"
     community: "Közösségi erőforrások"
+    apps: "Alkalmazások"
   settings:
     name: "Név"
     username: "Felhasználónév"
@@ -342,7 +360,7 @@ hu:
         --
         The Old Reader robot.
         %{host}
-    shortcuts:
+  shortcuts:
     header: "Gyorsbillentyűk"
     note: "*Csak Chrome, Safari és Opera"
     pages:
@@ -390,14 +408,15 @@ hu:
     common: "A kérés a szerver felé hibát dobott, kérlek próbálkozz később újra"
     posts: "Az elemeket nem tudtuk betölteni"
   page_content:
-    community:
-      title: "Közösségi erőforrások"
-      p1: "Elképesztően boldogok vagyunk, hogy felhasználóink egy lelkes tábora folyamatosan segíti a projekt előrehaladását. Íme, pár hivatkozás azokhoz az erőforrásokhoz, amelyeket a közösségünk készített, és támogat."
-      translations:
-        title: "Fordítások"
-        pre_link: "A The Old Reader sok nyelven elérhető. A fordításainkat egy "
-        link: "különálló, nyilvános github repoban"
-        post_link: " tároljuk, hogy bárki hozzájárulhasson."
+    apps:
+      api:
+        title: "API"
+        pre_link: "Implementáltunk egy GoogleReader-szerű mobil API-t, aminek a segítségével bárki készíthet egy mobil alkalmazást, ami a The Old Readerrel együttműködik. Az API dokumentációja "
+        link: "egy külön github repository"
+        post_link: "-ban van. Kérünk, küldj egy levelet, ha egy alkalmazást fejlesztesz a The Old Readerrel."
+      apps:
+        title: "Mobil alkalmazások"
+        p1: "Kérlek, vedd észre, hogy az alkalmazások jelszót kérnek, úgyhogy be kell állítanod magadnak egyet a Beállítások lapon, mielőtt bármelyik alkalmazást használnád."
       extensions:
         title: "Böngészőbővítmények"
         p1: "Számos bővítmény van, ami megkönnyíti az olvasatlan elemeid követését."
@@ -412,6 +431,14 @@ hu:
         opera_author: "Lazare Inepologlou által"
         firefox: "Firefox kiegészítés"
         firefox_author: "Tomek Wasiak által"
+    community:
+      title: "Közösségi erőforrások"
+      p1: "Elképesztően boldogok vagyunk, hogy felhasználóink egy lelkes tábora folyamatosan segíti a projekt előrehaladását. Íme, pár hivatkozás azokhoz az erőforrásokhoz, amelyeket a közösségünk készített, és támogat."
+      translations:
+        title: "Fordítások"
+        pre_link: "A The Old Reader sok nyelven elérhető. A fordításainkat egy "
+        link: "különálló, nyilvános github repoban"
+        post_link: " tároljuk, hogy bárki hozzájárulhasson."
       themes:
         title: "Nem hivatalos témák"
         pre_link: "Néhány felhasználó készített stílusokat, amelyek megváltoztatják a The Old Reader kinézetét a böngésződben. Nincs garancia, hogy ezek mindig működnek, és nem fogják elrontani az oldalt nálad, de ha bátor vagy kipróbálni őket, akkor ők elérhetőek itt "
