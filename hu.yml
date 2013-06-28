@@ -224,7 +224,6 @@ hu:
     email: "Email"
     password: "Jelszó"
     password_confirmation: "Jelszó megerősítés"
-    password_notice: "Hagyd üresen a mostani megőrzéséhez"
     token: "Token"
     ui:
       title: "Felhasználói felület"

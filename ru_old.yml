@@ -224,7 +224,6 @@ ru_old:
     email: "Email" 
     password: "Пароль"
     password_confirmation: "Подтвердите пароль"
-    password_notice: "Оставьте пустымъ, чтобы использовать текущій"
     token: "Токенъ"
     ui: 
       title: "Интерфейсъ" 

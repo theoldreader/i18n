@@ -197,7 +197,6 @@ it:
     email: "Email"
     password: "Password"
     password_confirmation: "Conferma password"
-    password_notice: "Lascia vuoto per non cambiarla" 
     ui:
       title: "Interfaccia Utente"
       click_to_scroll: "Clicca su un post per metterlo in evidenza" 

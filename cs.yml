@@ -206,7 +206,6 @@ cs:
     email: "E-mail"
     password: "Heslo"
     password_confirmation: "Potvrzení hesla"
-    password_notice: "Pro ponechání stávajícího nevyplňujte"
     token: "Ověřovací klíč"
     ui:
       title: "Uživatelské rozhraní"

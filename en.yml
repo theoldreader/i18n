@@ -224,8 +224,16 @@ en:
     email: "Email"
     password: "Password"
     password_confirmation: "Confirm password"
-    password_notice: "Leave blank to keep current"
+    password_change: "Change"
+    password_notice: "Your password will not be changed until you press the 'Save changes' button"
     token: "Token"
+    sign:
+      title: "You can log in to this The Old Reader account using:"
+      google: "Your Google account"
+      google_email: "'%{email}' Google account"
+      facebook_name: "'%{name}' Facebook account"
+      username: "'%{username}' and your password (use this in any of the %{apps} for The Old Reader)"
+      apps: "mobile apps"
     ui:
       title: "User interface"
       click_to_scroll: "Clicking on a post scrolls to it"

@@ -197,7 +197,6 @@ pl:
     email: "E-mail"
     password: "Hasło"
     password_confirmation: "Potwierdź hasło"
-    password_notice: "Aby nie zmieniać, zostaw puste"
     ui:
       title: "Interfejs"
       click_to_scroll: "Przewijaj ekran do klikniętego posta"

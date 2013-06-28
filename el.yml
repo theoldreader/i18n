@@ -224,7 +224,6 @@ el:
     email: "E-mail"
     password: "Κωδικός"
     password_confirmation: "Επαλήθευση κωδικού"
-    password_notice: "Αφήστε το κενό για να κρατήσετε τον τωρινό"
     token: "Κουπόνι (token)"
     ui:
       title: "Περιβάλλον χρήστη"

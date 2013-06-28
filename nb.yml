@@ -224,7 +224,6 @@ nb:
     email: "E-post"
     password: "Passord"
     password_confirmation: "Bekreft passord"
-    password_notice: "La forbli tomt for å beholde gjeldende"
     token: "Token"
     ui:
       title: "Grensesnitt"

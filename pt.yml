@@ -197,7 +197,6 @@ pt:
     email: "Email"
     password: "Senha"
     password_confirmation: "Confirme a senha"
-    password_notice: "Deixe em branco para manter a atual"
     ui:
       title: "Interface"
       click_to_scroll: "Clicar em uma postagem rola até ela"

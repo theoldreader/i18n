@@ -201,7 +201,6 @@ sv:
     email: "E-post"
     password: "Lösenord"
     password_confirmation: "Bekräfta lösenord"
-    password_notice: "Lämna tomt för att behålla det befintliga"
     ui:
       title: "Gränssnitt"
       click_to_scroll: "Om du klickar på ett inlägg tar vi dig dit"

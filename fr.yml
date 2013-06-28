@@ -201,7 +201,6 @@ fr:
     email: "E-mail"
     password: "Mot de passe"
     password_confirmation: "Confirmer le mot de passe"
-    password_notice: "Laissez vide pour garder l'actuel"
     ui:
       title: "Interface utilisateur"
       click_to_scroll: "Aller sur un article en cliquant dessus"
