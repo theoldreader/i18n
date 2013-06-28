@@ -127,7 +127,7 @@ fr:
       many: "articles"
       other: "articles"
     your_posts: "Vous avez <em>%{unread}</em> %{posts} non lu(s)"
-    refresh: "Rafraichir"
+    refresh: "Rafraîchir"
     unsubscribe: "Se désabonner"
     unsubscribe_confirm: "Voulez vous vraiment vous désabonner ? Les partages et likes sur ce flux ne seront pas supprimés."
     ago: "depuis"
@@ -356,7 +356,7 @@ fr:
     other:
       title: "Autres raccourcis"
       body: |
-        r: rafraichir la page actuelle
+        r: rafraîchit la page actuelle
         /: aller dans le champs de recherche
         a: ajouter un abonnement
         ? or h: montrer cette fenêtre
@@ -420,7 +420,7 @@ fr:
         post_link: " pour que nos utilisateurs puissent communiquer. N'hésitez pas à le rejoindre pour demander de l'aide, discuter des modifications et partager vos impressions."
     donate:
       title: "Donations"
-      p1: "Le fonctionnement d'un lecteur RSS requiert beaucoup de ressources. Cela peut être vu comme un simple site, mais nous devons rafraichir plusieurs millions de flux, et certains toutes les 5 minutes. Nos coûts de serveur sont plutôt élevés, et nous ne serions jamais en mesure de nous le permettre sans l'aide de nos généreux utilisateurs."
+      p1: "Le fonctionnement d'un lecteur RSS requiert beaucoup de ressources. Cela peut être vu comme un simple site, mais nous devons rafraîchir plusieurs millions de flux, et certains toutes les 5 minutes. Nos coûts de serveur sont plutôt élevés, et nous ne serions jamais en mesure de nous le permettre sans l'aide de nos généreux utilisateurs."
       p2: "Il y a plusieurs façons dont vous pouvez nous aider financièrement et maintenir le projet en vie:"
       flattr:
         pre_link: "Utiliser "
