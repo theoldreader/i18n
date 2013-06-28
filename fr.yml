@@ -11,7 +11,7 @@ fr:
         few: "%{count} erreurs ont empéché cette %{resource} d'être sauvegardée:"
         many: "%{count} erreurs ont empéché cette %{resource} d'être sauvegardée:"
         other: "%{count} erreurs ont empéché cette %{resource} d'être sauvegardée:"
-  
+
   devise:
     failure:
       already_authenticated: "Vous êtes déjà connecté(e)."
@@ -56,7 +56,7 @@ fr:
         subject: "Instructions pour réinitialiser le mot de passe"
       unlock_instructions:
         subject: "Instructions pour le déblocage"
-  
+
   # Reader
   app: "The Old Reader"
   eggs: "Nous ♥ les chattons"
@@ -72,10 +72,10 @@ fr:
       -
         :title: "Facebook"
         :url: "https://www.facebook.com/theoldreader"
-      - 
+      -
         :title: "Blog"
         :url: "http://blog.theoldreader.com/"
-      - 
+      -
         :title: "Nous contacter"
         :url: "http://blog.theoldreader.com/about"
     sign_in:
@@ -127,7 +127,7 @@ fr:
       many: "articles"
       other: "articles"
     your_posts: "Vous avez <em>%{unread}</em> %{posts} non lu(s)"
-    refresh: "Rafraichir"
+    refresh: "Rafraîchir"
     unsubscribe: "Se désabonner"
     unsubscribe_confirm: "Voulez-vous vraiment vous désabonner ? Les partages et likes sur ce flux ne seront pas supprimés."
     ago: "depuis"
@@ -255,7 +255,7 @@ fr:
     follow: "Suivre"
     unfollow: "Ne plus suivre"
     thats_you: "C'est vous !"
-    following: 
+    following:
       one: "Suit <strong>%{count}</strong> utilisateur"
       few: "Suit <strong>%{count}</strong> utilisateurs"
       many: "Suit <strong>%{count}</strong> utilisateurs"
@@ -291,11 +291,11 @@ fr:
       subject: "%{name} vous suit"
       body: |
         Bonjour, %{followed}!
-        
+
         %{name} vous suit. Bien!
         Voir son profil sur %{profile}.
-        
-        -- 
+
+        --
         The Old Reader robot.
         Vous pouvez toujours vous désabonner sur votre page de réglage.
         %{host}
@@ -303,34 +303,34 @@ fr:
       subject: "Vos flux sont prêts, hourra !"
       body: |
         Bonjour %{name},
-        
+
         Nous sommes heureux de vous informer que nous avons fini d'importer vos abonnements.
         %{count} flux que vous avez importé devraient maintenant être disponible sur %{host}.
         Merci d'utiliser The Old Reader.
-        
-        -- 
+
+        --
         The Old Reader robot.
         %{host}
     confirmation:
       body: |
         Bienvenue %{name},
-        
+
         Vous pouvez confirmer compte email en utilisant le lien ci-dessous:
         %{link}
-        
+
         --
         The Old Reader robot.
         %{host}
     password:
       body: |
         Bonjour %{name},
-        
+
         Quelqu'un a demandé un lien pour changer votre mot de passe, le voici:
         %{link}
-        
+
         If vous n'avez pas demandé cela, merci d'ignorer cet email.
         Votre mot de passe ne sera modifié tant que vous n’aurez accédé au lien ci-dessus.
-        
+
         --
         The Old Reader robot.
         %{host}
@@ -356,7 +356,7 @@ fr:
     other:
       title: "Autres raccourcis"
       body: |
-        r: rafraichir la page actuelle
+        r: rafraîchit la page actuelle
         /: aller dans le champ de recherche
         a: ajouter un abonnement
         ? or h: montrer cette fenêtre
@@ -420,7 +420,7 @@ fr:
         post_link: " pour que nos utilisateurs puissent communiquer. N'hésitez pas à le rejoindre pour demander de l'aide, discuter des modifications et partager vos impressions."
     donate:
       title: "Donations"
-      p1: "Le fonctionnement d'un lecteur RSS requiert beaucoup de ressources. Cela peut être vu comme un simple site, mais nous devons rafraichir plusieurs millions de flux, et certains toutes les 5 minutes. Nos coûts de serveur sont plutôt élevés, et nous ne serions jamais en mesure de nous le permettre sans l'aide de nos généreux utilisateurs."
+      p1: "Le fonctionnement d'un lecteur RSS requiert beaucoup de ressources. Cela peut être vu comme un simple site, mais nous devons rafraîchir plusieurs millions de flux, et certains toutes les 5 minutes. Nos coûts de serveur sont plutôt élevés, et nous ne serions jamais en mesure de nous le permettre sans l'aide de nos généreux utilisateurs."
       p2: "Il y a plusieurs façons dont vous pouvez nous aider financièrement et maintenir le projet en vie:"
       flattr:
         pre_link: "Utiliser "
