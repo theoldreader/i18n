@@ -222,6 +222,7 @@ en:
     name: "Name"
     username: "Username"
     email: "Email"
+    username_or_email: "Username/Email"
     password: "Password"
     password_confirmation: "Confirm password"
     password_change: "Change"
