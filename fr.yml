@@ -336,7 +336,7 @@ fr:
         %{host}
   shortcuts:
     header: "Raccourcis clavier"
-    note: "*Uniquement pour Chrome, Safari, Opera"
+    note: "*Uniquement pour Chrome, Safari et Opera."
     pages:
       title: "Naviguer entre les pages"
       body: |
