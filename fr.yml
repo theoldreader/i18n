@@ -222,11 +222,11 @@ fr:
     name: "Nom complet"
     username: "Nom d'utilisateur"
     email: "Mail"
-    username_or_email: "Utilisateur/Mail"
+    username_or_email: "Nom d'utilisateur/Mail"
     password: "Mot de passe"
     password_confirmation: "Confirmer le mot de passe"
     password_change: "Changer"
-    password_notice: "Your password will not be changed until you press the 'Save changes' button"
+    password_notice: "Votre mot de passe ne sera pas changé si vous n'avez pas appuyé sur le bouton 'Sauvegarder vos changements'"
     token: "Token"
     sign:
       title: "You can log in to this The Old Reader account using:"
@@ -234,7 +234,7 @@ fr:
       google_email: "'%{email}' Google account"
       facebook_name: "'%{name}' Facebook account"
       username: "'%{username}' and your password (use this in any of the %{apps} for The Old Reader)"
-      apps: "mobile apps"
+      apps: "Apps mobile"
     ui:
       title: "Interface utilisateur"
       click_to_scroll: "Aller sur un article en cliquant dessus"
@@ -503,11 +503,11 @@ fr:
         img2: "Tous les articles que vous avez partagés sont dans votre dossier 'Partage'. Les articles que vos amis ont partagés sont dans le dossier 'Suivre'. Comme d'habitude, vous pouvez choisir de lire tout le dossier ou choisir un utilisateur spécifique pour voir ces articles partagés."
         img3: "Vous pouvez commenter tout article partagé par vos amis - cliquez juste sur le bouton 'Commenter' et rejoignez la discussion."
       tips:
-        title: "Tips & Tricks"
+        title: "Trucs et astuces"
         p1: "To subscribe to new feeds with a single click, configure 'http://theoldreader.com/feeds/subscribe?url=%s' in your RSS feed handler or extension;"
-        p2_pre_link: "If you use Firefox, just "
-        p2_link: "press here"
-        p2_post_link: " to add The Old Reader as your RSS feed handler."
+        p2_pre_link: "Si vous utilisez Firefox, vous devez "
+        p2_link: "appuyer ici"
+        p2_post_link: " pour ajouter The Old Reader comme votre gestionnaire de flux RSS."
       finally:
         title: "Des questions?"
         pre_link: "Merci de faire un tour sur notre "
