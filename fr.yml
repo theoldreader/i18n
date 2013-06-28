@@ -196,7 +196,7 @@ fr:
     status: "État du serveur"
     community: "Communauté"
   settings:
-    name: "Nom"
+    name: "Nom complet"
     username: "Nom d'utilisateur"
     email: "E-mail"
     password: "Mot de passe"
@@ -206,7 +206,7 @@ fr:
       click_to_scroll: "Aller sur un article en cliquant dessus"
       scroll_to_read: "Marquer les articles lus au fur et à mesure du défilement"
       sidebar_unread_only: "Afficher seulement les dossiers/flux non lus"
-      locale: "Langage"
+      locale: "Langue"
     feed_display_mode:
       title: "Mode d'affichage des flux"
       all: "Afficher tous les articles"
