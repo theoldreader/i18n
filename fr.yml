@@ -18,7 +18,7 @@ fr:
       unauthenticated: "Vous devez vous connecter pour continuer."
       unconfirmed: "Vous devez confirmer votre compte pour continuer."
       locked: "Votre compte est bloqué."
-      invalid: "E-mail ou mot de passe non valide."
+      invalid: "Mail ou mot de passe non valide."
       invalid_token: "Jeton d'authentification non valide."
       timeout: "Votre session a expiré, merci de vous connecter à nouveau pour continuer."
       inactive: "Votre compte n'a pas encore été activé."
@@ -26,26 +26,26 @@ fr:
       signed_in: "Connexion réussie."
       signed_out: "Déconnexion réussie."
     passwords:
-      send_instructions: "Vous allez recevoir un e-mail contenant les instructions pour ré-initialiser votre mot de passe dans quelques minutes."
+      send_instructions: "Vous allez recevoir un mail contenant les instructions pour réinitialiser votre mot de passe dans quelques minutes."
       updated: "Votre mot de passe a bien été changé. Vous êtes maintenant connecté."
       updated_not_active: "Votre mot de passe a bien été changé."
-      send_paranoid_instructions: "Si votre e-mail existe dans notre base de données, vous allez recevoir par e-mail un lien pour restaurer votre mot de passe"
+      send_paranoid_instructions: "Si votre mail existe dans notre base de données, vous allez recevoir par mail un lien pour restaurer votre mot de passe"
     confirmations:
-      send_instructions: "Vous allez recevoir un e-mail contenant les instructions pour confirmer votre compte d'ici quelques minutes."
-      send_paranoid_instructions: "Si votre e-mail existe dans notre base de données, vous allez recevoir un e-mail contenant les instructions pour confirmer votre compte d'ici quelques minutes."
+      send_instructions: "Vous allez recevoir un mail contenant les instructions pour confirmer votre compte d'ici quelques minutes."
+      send_paranoid_instructions: "Si votre mail existe dans notre base de données, vous allez recevoir un mail contenant les instructions pour confirmer votre compte d'ici quelques minutes."
       confirmed: "Votre compte a bien été confirmé. Vous êtes maintenant connecté."
     registrations:
       signed_up: "Bienvenue! Vous vous êtes inscrit avec succès."
-      signed_up_but_unconfirmed: "Un message avec un lien de confirmation a été envoyé à votre adresse e-mail. Merci d'ouvrir le lien pour activer votre compte."
+      signed_up_but_unconfirmed: "Un message avec un lien de confirmation a été envoyé à votre adresse mail. Merci d'ouvrir le lien pour activer votre compte."
       signed_up_but_inactive: "Vous vous êtes inscrit avec succès. Cependant nous ne pouvons vous connecter car votre compte n'a pas encore été activé."
       signed_up_but_locked: "Vous vous êtes inscrit avec succès. Cependant nous ne pouvons vous connecter car votre compte est verrouillé."
       updated: "Mise à jour de votre compte réussie."
-      update_needs_confirmation: "Mise à jour de votre compte réussie, mais nous devons vérifier votre adresse e-mail. Merci de vérifier vos e-mails et de cliquer sur le lien de confirmation pour finaliser votre nouvelle adresse."
+      update_needs_confirmation: "Mise à jour de votre compte réussi, mais nous devons vérifier votre adresse mail. Merci de vérifier vos mails et de cliquer sur le lien de confirmation pour finaliser votre nouvelle adresse."
       destroyed: "Bye! Votre compte a bien été supprimé. Nous espérons vous revoir bientôt."
     unlocks:
-      send_instructions: "Vous allez recevoir un e-mail contenant les instructions pour débloquer votre compte dans quelques minutes."
+      send_instructions: "Vous allez recevoir un mail contenant les instructions pour débloquer votre compte dans quelques minutes."
       unlocked: "Votre compte a bien été débloqué. Merci de vous connecter pour continuer."
-      send_paranoid_instructions: "Si votre compte existe, vous allez recevoir un e-mail contenant les instructions pour débloquer votre compte dans quelques minutes."
+      send_paranoid_instructions: "Si votre compte existe, vous allez recevoir un mail contenant les instructions pour débloquer votre compte dans quelques minutes."
     omniauth:
       success: "Autorisation réussie via le compte %{kind}."
       failure: "Echec d'Autorisation via %{kind} pour la raison suivante: %{reason}."
@@ -53,9 +53,9 @@ fr:
       confirmation_instructions:
         subject: "Instructions de confirmation"
       reset_password_instructions:
-        subject: "Instructions pour ré-initialiser le mot de passe"
+        subject: "Instructions pour réinitialiser le mot de passe"
       unlock_instructions:
-        subject: "Instructions pour le débloquage"
+        subject: "Instructions pour le déblocage"
   
   # Reader
   app: "The Old Reader"
@@ -87,7 +87,7 @@ fr:
       password: "Mot de passe oublié?"
       change_password: "Changer de mot passe"
     welcome:
-      - "Bienvenue sur The Old Reader, l'ultime lecteur RSS social. Nous sommes actuellement en béta, mais nous travaillons constamment sur des améliorations et des nouvelles fonctionnalités."
+      - "Bienvenue sur The Old Reader, l'ultime lecteur RSS social. Nous sommes actuellement en beta, mais nous travaillons constamment sur des améliorations et des nouvelles fonctionnalités."
       - "Vous pouvez vous inscrire et commencez à utiliser The Old Reader d'un simple clic. Cependant si vous êtes trop timide, vous pouvez voir notre %tour% ou voir les %trending%."
     tour: "guide"
     trending: "articles populaires du jour"
@@ -129,7 +129,7 @@ fr:
     your_posts: "Vous avez <em>%{unread}</em> %{posts} non lu(s)"
     refresh: "Rafraichir"
     unsubscribe: "Se désabonner"
-    unsubscribe_confirm: "Voulez vous vraiment vous désabonner ? Les partages et likes sur ce flux ne seront pas supprimés."
+    unsubscribe_confirm: "Voulez-vous vraiment vous désabonner ? Les partages et likes sur ce flux ne seront pas supprimés."
     ago: "depuis"
     never: "Jamais"
     confirm: "Êtes-vous sûr?"
@@ -137,7 +137,7 @@ fr:
     search: "Rechercher"
     search_limits: "La recherche que vous avez faite est très populaire, et nous avons dû limiter le nombre de résultats. Si vous souhaitez voir tous les résultats, merci d'affiner votre recherche."
     mark_read: "Marquer comme lu"
-    mark_unread: "Marquer comme non-lu"
+    mark_unread: "Marquer comme non lu"
     share: "Partager"
     shared: "Partagé"
     unshare: "Dé-partager"
@@ -150,7 +150,7 @@ fr:
       many: "%{count} commentaires"
       other: "%{count} commentaires"
     comment: "Commentaire"
-    comment_text: "Ecrire un commentaire"
+    comment_text: "Écrire un commentaire"
     comment_destroy_confirm: "Voulez-vous vraiment supprimer ce commentaire?"
     comment_destroy_text: "Ce commentaire a été supprimé par l'utilisateur."
     post_author: "par <strong>%{author}</strong>"
@@ -198,7 +198,7 @@ fr:
   settings:
     name: "Nom"
     username: "Nom d'utilisateur"
-    email: "E-mail"
+    email: "Mail"
     password: "Mot de passe"
     password_confirmation: "Confirmer le mot de passe"
     ui:
@@ -210,17 +210,17 @@ fr:
     feed_display_mode:
       title: "Mode d'affichage des flux"
       all: "Afficher tous les articles"
-      unread: "Afficher uniquement les articles non-lus"
+      unread: "Afficher uniquement les articles non lus"
     feed_list_mode:
       title: "Mode de vue des articles"
       full: "Vue complète"
       list: "Vue en liste"
     sort_mode:
       title: "Ordre des articles"
-      normal: "Normal (Les plus récents en premier)"
-      reverse: "Inverse (Les plus anciens en premier)"
+      normal: "Normal (les plus récents en premier)"
+      reverse: "Inverse (les plus anciens en premier)"
     social: "Social"
-    notify_when_followed: "Me notifier par e-mail quand quelqu'un commence à me suivre"
+    notify_when_followed: "Me notifier par mail quand quelqu'un commence à me suivre"
     share_timeline: "Publier mes partages sur ma page Facebook"
     connect_share_timeline: "Se connecter à Facebook pour publier vos partages"
     show_fb_profile: "Afficher le lien de votre page Facebook sur votre profil"
@@ -240,10 +240,10 @@ fr:
     title: "Importer"
     alert: "<b>Merci de saisir votre login et mot de passe Google pour importer vos abonnements depuis Google Reader</b><br />Nous ne gardons pas vos identifiants. Vos informations vont seulement être utilisées pour récupérer vos abonnements."
     opml: "<b>Choisissez un fichier OPML</b><br />Vous pouvez le récupérer à partir de la page de réglage de Google Reader.<br />Il faut utiliser le fichier <b>subscriptions.xml</b> de l'archive."
-    email: "E-mail"
+    email: "Mail"
     password: "Mot de passe"
     import: "Importer"
-    started: "Nous trouvons que l'importation de flux est une opération consommatrice de ressources, ainsi notre système autorise un nombre limité d'importation en parallèle. Pour le moment tous les emplacements sont occupés, votre opération d'importation est mise en file d'attente."
+    started: "Nous trouvons que l'importation de flux est une opération consommatrice de ressources, ainsi notre système autorise un nombre limité d'importations en parallèle. Pour le moment tous les emplacements sont occupés, votre opération d'importation est mise en file d'attente."
     queued: "Merci pour le téléchargement de votre fichier OPML. Nous allons bientôt commencer à importer vos abonnements."
     queued_notice: "Il y a <strong>%{count}</strong> utilisateurs devant vous dans la file d'attente."
     processing: "Vos flux s'importent en tâche de fond."
@@ -325,11 +325,11 @@ fr:
       body: |
         Bonjour %{name},
         
-        Quelqu'un à demandé un lien pour changer votre mot de passe, le voici:
+        Quelqu'un a demandé un lien pour changer votre mot de passe, le voici:
         %{link}
         
         If vous n'avez pas demandé cela, merci d'ignorer cet email.
-        Votre mot de passe ne sera modifié tant que vous n'aurez accédé au lien ci-dessus.
+        Votre mot de passe ne sera modifié tant que vous n’aurez accédé au lien ci-dessus.
         
         --
         The Old Reader robot.
@@ -349,7 +349,7 @@ fr:
         g then h: aller à l'accueil
         g then a: aller vers tous les articles
         g then l: aller aux 'J'aime'
-        g then s: aller au dossier partagés
+        g then s: aller au dossier partagé
         g then t: aller aux tendances
         g then c: aller aux articles commentés
         g then f: aller aux articles suivis
@@ -357,7 +357,7 @@ fr:
       title: "Autres raccourcis"
       body: |
         r: rafraichir la page actuelle
-        /: aller dans le champs de recherche
+        /: aller dans le champ de recherche
         a: ajouter un abonnement
         ? or h: montrer cette fenêtre
     posts:
@@ -369,11 +369,11 @@ fr:
         j, n: article suivant
         k, p: article précédent
         o, v: ouvre l'article dans un nouvel onglet
-        b: ouvre l'article dans un nouvel onglet en arrière plan*
+        b: ouvre l'article dans un nouvel onglet en arrière-plan*
         x: basculer l'article (list view)
         l: marquer l'article 'J'aime'
         s: partager un article
-        m: marquer lu/non-lu un article
+        m: marquer lu/non lu un article
         f: sauvegarder l'article vers Pocket
         c: défiler vers les commentaires et ouvrir le formulaire
         1: basculer vers la vue complète
@@ -389,7 +389,7 @@ fr:
         title: "Traductions"
         pre_link: "The Old Reader a été traduit dans de nombreuses langues. Nous gardons les traductions dans un "
         link: "repo GitHub public séparé"
-        post_link: " afin que tous le monde puisse contribuer."
+        post_link: " afin que tout le monde puisse contribuer."
       extensions:
         title: "Extensions de navigateur"
         p1: "Il y a un certain nombre d'extensions de navigateurs qui facilite le suivi de vos éléments non lus."
@@ -412,7 +412,7 @@ fr:
         title: "Demandes de fonctionnalités"
         pre_link: "Vous pouvez voter pour des demandes de fonctionnalités et en proposer des nouvelles sur "
         link: "notre page uservoice"
-        post_link: ". Veuillez rechercher dans les demandes existantes avant d'en créer une nouvelle, il est probable que quelqu'un ai suggéré votre idée avant. Nous n'avons pas à modérer la page uservoice, donc quand vous créez un doublon vous diminuez réellement les chances d'arriver au sommet, parceque deux demandes seront en compétition pour les votes des utilisateurs."
+        post_link: ". Veuillez rechercher dans les demandes existantes avant d'en créer une nouvelle, il est probable que quelqu'un ait suggéré votre idée avant. Nous n'avons pas à modérer la page uservoice, donc quand vous créez un doublon vous diminuez réellement les chances d'arriver au sommet, parce que deux demandes seront en compétition pour les votes des utilisateurs."
       forums:
         title: "Forums Communautaire"
         pre_link: "Nous avons créés "
@@ -430,7 +430,7 @@ fr:
         post_link: " qui nous fera un don \"flattr\" automatiquement tous les mois."
       bitcoins: "Pour toutes les personnes sensibles sur la vie privée, nous avons bitcoins"
       additional:
-        pre_link: "Malheureusement, pour des raisons juridiques, nous ne pouvons pas utiliser Paypal sur le site. Toutefois, si vous souhaitez nous envoyer une importante somme d'argent et que vous ne pouvez pas utiliser Flattr ou bitcoins pour une raison ou une autre, merci "
+        pre_link: "Malheureusement, pour des raisons juridiques, nous ne pouvons pas utiliser PayPal sur le site. Toutefois, si vous souhaitez nous envoyer une importante somme d'argent et que vous ne pouvez pas utiliser Flattr ou bitcoins pour une raison ou une autre, merci "
         link: "de nous envoyer un mot"
         post_link: " et nous trouverons un moyen pour vous de nous envoyer un virement cadeau personnel à l'un d'entre nous."
       thanks: "Nous vous remercions de votre aide! Tout comme ce chaton:"
@@ -438,7 +438,7 @@ fr:
       title: "The Old Reader 101"
       add_feeds:
         title: "Ajouter un abonnement"
-        p1: "Votre nouveau compte The Old Reader account est fournit vide, la première chose à faire est donc d'ajouter quelques abonnements à lire."
+        p1: "Votre nouveau compte The Old Reader est fournit vide, la première chose à faire est donc d'ajouter quelques abonnements à lire."
         img1: "Utiliser le bouton 'Ajouter un abonnement' pour souscrire à ce dernier. Si vous entrez l'URL d'une page web plutôt que d'un abonnement, nous allons ajouter automatiquement, nous ajouterons le premier lien RSS trouvé."
         img2: "Si vous migrez depuis Google Reader ou tout autre lecteur RSS qui peut exporter vos abonnements dans un fichier OPML, vous pouvez utiliser la fonction 'Importer' pour ajouter vos abonnements. Nous importerons aussi tous vos dossiers pour vous faire rapidement sentir comme chez vous."
       organize:
@@ -448,19 +448,19 @@ fr:
       read:
         title: "Lire les articles"
         img1: "Choisissez ce que vous voulez lire à partir du menu. Vous pouvez cliquer sur un dossier pour lire tous les abonnements que ce dossier contient."
-        img2: "Le menu de navigation vous permet d'aller à l'article suivant ou précédent d'un simple clic. Vous pouvez aussi basculer vers la 'Vue en liste' qui enroule tous les articles, et vous laisse ainsi parcourir les titres et dérouler uniquement les articles qui vous interessent."
+        img2: "Le menu de navigation vous permet d'aller à l'article suivant ou précédent d'un simple clic. Vous pouvez aussi basculer vers la 'Vue en liste' qui enroule tous les articles, et vous laisse ainsi parcourir les titres et dérouler uniquement les articles qui vous intéressent."
         img3: "Vous pouvez aussi utiliser les raccourcis clavier pour la navigation. Appuyez sur '?' ou 'h' pour voir la liste."
-        img4_p1: "Il y a des boutons d'actions sous chaque article. Si vous appuyez sur 'J'aime', votre nom va appaitre dans la liste des utilisateurs qui ont aimés cet article. Ce dernier ira aussi dans votre dossier 'J'aime'."
-        img4_p2: "Si vous choisissez de partager un article, tous vos contact vont immédiatement le voir. Vous pouvez aussi envoyer vos partages vers votre timelime Facebook (allez dans les vos réglages pour l'activer)."
+        img4_p1: "Il y a des boutons d'actions sous chaque article. Si vous appuyez sur 'J'aime', votre nom va apparaitre dans la liste des utilisateurs qui ont aimé cet article. Ce dernier ira aussi dans votre dossier 'J'aime'."
+        img4_p2: "Si vous choisissez de partager un article, tous vos contacts vont immédiatement le voir. Vous pouvez aussi envoyer vos partages vers votre timelime Facebook (allez dans les vos réglages pour l'activer)."
       discuss:
         title: "Discuter des articles"
-        img1: "C'est pas drôle de lire les abonnements RSS seuls. Allez sur la page 'Trouvez des amis' pour voir qui de vos amis Facebook ou de vos contacts Google utilisent The Old Reader. Vous pouvez aussi recherchez vos amis par leur nom."
-        img2: "Tous les articles que vous avez partagé sont dans votre dossier 'Partage'. Les articles que vos amis ont partagés sont dans le dossier 'Suivre'. Comme d'habitude, vous pouvez choisir de lire tous le dossier ou choisir un utilisateur spécifique pour voir ces articles partagés."
-        img3: "Vous pouvez commenter tout articles partagés par vos amis - cliquez juste sur le bouton 'Commenter' et rejoigner la discussion."
+        img1: "Ce n’est pas drôle de lire les abonnements RSS seuls. Allez sur la page 'Trouvez des amis' pour voir qui de vos amis Facebook ou de vos contacts Google utilisent The Old Reader. Vous pouvez aussi rechercher vos amis par leur nom."
+        img2: "Tous les articles que vous avez partagés sont dans votre dossier 'Partage'. Les articles que vos amis ont partagés sont dans le dossier 'Suivre'. Comme d'habitude, vous pouvez choisir de lire tout le dossier ou choisir un utilisateur spécifique pour voir ces articles partagés."
+        img3: "Vous pouvez commenter tout article partagé par vos amis - cliquez juste sur le bouton 'Commenter' et rejoignez la discussion."
       finally:
         title: "Des questions?"
         pre_link: "Merci de faire un tour sur notre "
         link1: "base de connaissance"
         inbetween: " et n'hésitez pas à demander une assistance sur "
         link2: "les forums communautaires"
-        post_link: " si quelque chose n'est pas claire."
+        post_link: " si quelque chose n'est pas clair."
