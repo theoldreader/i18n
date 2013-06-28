@@ -193,7 +193,7 @@ fr:
     donate: "Dons"
     tour: "Guide"
     blog: "Blog"
-    status: "Etat du serveur"
+    status: "État du serveur"
     community: "Communauté"
   settings:
     name: "Nom"
@@ -389,7 +389,7 @@ fr:
       translations:
         title: "Traductions"
         pre_link: "The Old Reader a été traduit dans de nombreuses langues. Nous gardons les traductions dans un "
-        link: "repo github public séparé"
+        link: "repo GitHub public séparé"
         post_link: " afin que tous le monde puisse contribuer."
       extensions:
         title: "Extensions de navigateur"
@@ -441,7 +441,7 @@ fr:
         title: "Ajouter un abonnement"
         p1: "Votre nouveau compte The Old Reader account est fournit vide, la première chose à faire est donc d'ajouter quelques abonnements à lire."
         img1: "Utiliser le bouton 'Ajouter un abonnement' pour souscrire à ce dernier. Si vous entrez l'URL d'une page web plutôt que d'un abonnement, nous allons ajouter automatiquement, nous ajouterons le premier lien RSS trouvé."
-        img2: "Si vous migrez depuis Google Reader ou tout autre lecteur RSS qui peut exporter vos abonnements dans un fichier OPML, vous pouvez utiliser la fonction 'Importer' pour ajouter vos abonnements. Nous importerons aussi to vos dossiers pour vous faire rapidement sentir comme chez vous."
+        img2: "Si vous migrez depuis Google Reader ou tout autre lecteur RSS qui peut exporter vos abonnements dans un fichier OPML, vous pouvez utiliser la fonction 'Importer' pour ajouter vos abonnements. Nous importerons aussi tous vos dossiers pour vous faire rapidement sentir comme chez vous."
       organize:
         title: "Organiser vos abonnements"
         img1: "Vous pouvez 'glisser-déposer' vos abonnements et vos dossiers pour changer leurs positions. Créer un nouveau dossier est aussi simple que de déposer un abonnement dans l'espace vide sous votre dernier dossier. Les dossiers vides sont automatiquement supprimés."
