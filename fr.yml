@@ -229,12 +229,12 @@ fr:
     password_notice: "Votre mot de passe ne sera pas changé si vous n'avez pas appuyé sur le bouton 'Sauvegarder vos changements'"
     token: "Token"
     sign:
-      title: "You can log in to this The Old Reader account using:"
-      google: "Your Google account"
-      google_email: "'%{email}' Google account"
-      facebook_name: "'%{name}' Facebook account"
-      username: "'%{username}' and your password (use this in any of the %{apps} for The Old Reader)"
-      apps: "Apps mobile"
+      title: "Vous pouvez vous connecter à votre compte The Old Reader en utilisant: "
+      google: "Votre compte Google"
+      google_email: "Votre mail Google '%{email}'"
+      facebook_name: "Votre compte Facebook '%{name}'"
+      username: "'%{username}' et votre mot de passe (utiliser ceci dans n'importe quelle %{apps} pour The Old Reader)"
+      apps: "apps mobile"
     ui:
       title: "Interface utilisateur"
       click_to_scroll: "Aller sur un article en cliquant dessus"
