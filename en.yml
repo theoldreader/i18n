@@ -146,7 +146,7 @@ en:
     your_posts: "You have <em>%{unread}</em> unread %{posts}"
     refresh: "Refresh"
     unsubscribe: "Unsubscribe"
-    unsubscribe_confirm: "Do you really want to unsubscribe? Your shared and likes posts from this feed will not be removed."
+    unsubscribe_confirm: "Do you really want to unsubscribe? Your shared and liked posts from this feed will not be removed."
     ago: "ago"
     never: "Never"
     confirm: "Are you sure?"
