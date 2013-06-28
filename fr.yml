@@ -85,7 +85,7 @@ fr:
       login: "Se connecter"
       register: "S'enregistrer"
       password: "Mot de passe oublié?"
-      change_password: "Changer de mot passe"
+      change_password: "Changer de mot de passe"
     welcome:
       - "Bienvenue sur The Old Reader, l'ultime lecteur RSS social. Nous sommes actuellement en béta, mais nous travaillons constamment sur des améliorations et des nouvelles fonctionnalités."
       - "Vous pouvez vous inscrire et commencez à utiliser The Old Reader d'un simple clic. Cependant si vous êtes trop timide, vous pouvez voir notre %tour% ou voir les %trending%."
