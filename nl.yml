@@ -1,0 +1,500 @@
+nl:
+  # Devise
+  errors:
+    messages:
+      expired: "verlopen, vraag een nieuwe aan"
+      not_found: "niet gevonden"
+      already_confirmed: "Is reeds bevestigd. Tracht nu in te loggen"
+      not_locked: "Was niet vergrendeld"
+      not_saved:
+        one: "1 fout maakte dat dit %{resource} niet kon worden opgeslagen:"
+        few: "%{count} fouten maakten dat dit %{resource} niet kon worden opgeslagen:"
+        many: "%{count} fouten maakten dat dit %{resource} niet kon worden opgeslagen:"
+        other: "%{count} fouten maakten dat dit %{resource} niet kon worden opgeslagen:"
+  
+  devise:
+    failure:
+      already_authenticated: "U bent al ingelogd."
+      unauthenticated: "U moet inloggen om door te gaan."
+      unconfirmed: "U moet uw account bevestigen om door te gaan."
+      locked: "Uw account is vergrendeld."
+      invalid: "Ongeldig e-mail of wachtwoord."
+      invalid_token: "Ongeldig authenticatiesleutel."
+      timeout: "Uw sessie is verlopen, log opnieuw in om door te gaan."
+      inactive: "Uw account is nog niet geactiveerd."
+    sessions:
+      signed_in: "Met succes aangemeld."
+      signed_out: "Met succes afgemeld."
+    passwords:
+      send_instructions: "U ontvangt binnen enkele ogenblikken een e-mail met instructie hoe u uw  wachtwoord opnieuw moet instellen."
+      updated: "Uw wachtwoord is met succes veranderd. U bent nu ingelogd."
+      updated_not_active: "Uw wachtwoord is met succes veranderd."
+      send_paranoid_instructions: "Als uw e-mailadres in onze database aanwezig is, zult u een wachtwoord herstel-link per e-mail toegestuurd krijgen."
+    confirmations:
+      send_instructions: "U ontvangt binnen enkele ogenblikken een e-mail met instructies hoe u uw account kunt bevestigen."
+      send_paranoid_instructions: "Als uw e-mailadres in onze database aanwezig is, ontvangt u binnen enkele ogenblikken een e-mail met instructies hoe u uw account kunt bevestigen."
+      confirmed: "Uw account is met succes geconfirmeerd. U bent nu ingelogd."
+    registrations:
+      signed_up: "Welkom! U heeft u met succes geregistreerd."
+      signed_up_but_unconfirmed: "Een bericht met een link ter confirmatie van uw account is naar uw e-mailadres verstuurd. Open deze link aub om uw account te activeren."
+      signed_up_but_inactive: "U heeft u met succes geregistreerd. U kunt zich echter niet aanmelden omdat uw account nog niet is geactiveerd."
+      signed_up_but_locked: "U heeft u met succes geregistreerd. U kunt zich echter niet aanmelden omdat uw account is vergrendeld."
+      updated: "U heeft uw account met succes bijgewerkt."
+      update_needs_confirmation: "U heeft uw account met succes bijgewerkt, maar wij moeten uw nieuwe e-mailadres verifiëren. Controleer uw e-mail en klik op de bevestigingslink."
+      destroyed: "tot ziens! Uw account is met succes geannuleerd. We hopen u spoedig weer te zien."
+    unlocks:
+      send_instructions: "U ontvangt binnen enkele ogenblikken een e-mail met instructies hoe u uw account kunt ontgrendelen."
+      unlocked: "Uw account is met succes ontgrendeld. U kunt u nu aanmelden om door te gaan."
+      send_paranoid_instructions: "Als uw account bestaat,  ontvangt u binnen enkele ogenblikken een e-mail met instructies hoe u uw account kunt ontgrendelen."
+    omniauth:
+      success: "Met succes geautoriseerd via %{kind} account."
+      failure: "de %{kind} autorisatie is mislukt om de volgende reden: %{reason}."
+    mailer:
+      confirmation_instructions:
+        subject: "Bevestiging instructies"
+      reset_password_instructions:
+        subject: "Instructies wachtwoord opnieuw instellen"
+      unlock_instructions:
+        subject: "Ontgrendel instructies"
+  
+  # Reader
+  app: "The Old Reader"
+  eggs: "We ♥ jonge poesjes"
+  title: "The Old Reader"
+  meta:
+    description: "Het is de ultieme RSS reader. Importeer uw subscripties met een klik, vind uw vrienden en start delen."
+    keywords: "the old reader"
+  landing:
+    topmenu:
+      -
+        :title: "Twitter"
+        :url: "https://twitter.com/#!/theoldreader"
+      -
+        :title: "Facebook"
+        :url: "https://www.facebook.com/theoldreader"
+      - 
+        :title: "Blog"
+        :url: "http://blog.theoldreader.com/"
+      - 
+        :title: "Contact"
+        :url: "http://blog.theoldreader.com/about"
+    sign_in:
+      title: "Meld u aan met:"
+      google: "Google"
+      facebook: "Facebook"
+      login: "Login"
+      register: "Registreer"
+      password: "Wachtwoord vergeten?"
+      change_password: "Verander wachtwoord"
+    welcome:
+      - "Welkom bij The Old Reader, de ultieme sociale RSS reader. We zijn nog steeds een beta-versie, maar we werken constant aan verbeteringen en nieuwe functies."
+      - "U kunt inloggen en The Old Reader met een enkele klik gebruiken. als u dit liever niet meteen doet kunt u ook onze %tour% volgen of een blik werpen op de %trending%."
+    tour: "Tutorial"
+    trending: "belangrijkste berichten vandaag"
+    qa:
+      -
+        :title: "Wat doet het?"
+        :text: "Het laat u uw dagelijkse portie content doorbladeren waarvan die speciale berichten die u met u vrienden heeft gedeeld, met notities en reacties"
+      -
+        :title: "Kan ik mijn subscripties overbrengen?"
+        :text: "Ja, u kunt uw feeds direct vanuit Google Reader importeren of onze OPML import functie gebruiken als u dit veiliger vindt."
+      -
+        :title: "Hoe vind ik mijn vrienden?"
+        :text: "We zijn bezig de pagina met voorgestelde vrienden te verbeteren, maar in de tussentijd kunt u handmatig naar uw vrienden zoeken of kijken wie er bij uw Facebook vrienden of Google contacten ook The Old Reader gebruikt. We zenden u ook een e-mail wanneer iemand u begint te volgen."
+      -
+        :title: "Hebben jullie een mobile app?"
+        :text: "Nee <em>nog</em> niet, maar zoals eerder beloofd, zijn we er aan de ontwikkeling ervan begonnen toen ons gebruikersaantal 5000 bereikte in oktober 2012. Zelfs nu is onze standaard interface prima aangepast aan mobile apparaten."
+      -
+        :title: "Misdragen jullie je op Facebook zoals die andere apps?"
+        :text: "Absoluut niet! U kunt u gedeelde berichten op uw tijdslijn zetten, maar tenzij u specifiek verkozen heeft op Facebook te posten, zullen alle gedeelde berichten en reacties alleen in The Old Reader blijven. We zullen nooit iets anders posten in uw naam of u laten deelnemen aan een of andere duistere praktijk."
+      -
+        :title: "Waarom hebben jullie The Old Reader gebouwd?"
+        :text: "Laten we het er op houden dat we de originele reader erg misten en we daarom The Old Reader voor onszelf en onze vrienden bouwden. We vonden dat dat goed uitpakte en daarom besloten we het met iedereen te delen"
+    supported: "Met liefde ondersteund door"
+  user:
+    profile: "Profiel"
+    logout: "Uitloggen"
+    settings: "Instellingen"
+    failure: "Het %{kind} account dat u probeert te gebruiken is reeds gekoppeld aan een ander The Old Reader account. Annuleer het ander account en herstart de handeling."
+    wrong_auth: "Iets ging er mis, attendeer ons op hello@theoldreader.com"
+    becomes_active_notice: "U heeft The Old Reader al een poos niet gebruikt, daarom hebben we alleen nieuwe berichten voor u bewaard"
+  feeds:
+    no_feeds:
+      text: "U heeft nog geen subscripties. U kunt u zich %{subscribe} op een nieuwe feed (wat dacht u van <a href='http://blog.theoldreader.com/rss' class='feed-subscribe'>onze blog</a>?) of uw subscripties %{import}.<br />Als u meer wilt weten, %{tour}."
+      subscribe: "abonneren"
+      import: "importeren"
+      tour: "zie de tutorial"
+    no_posts: "Er zijn hier nog geen berichten"
+    no_posts_filler: "Geen berichten onder deze lijn. U heeft ze waarschijnlijk allemaal gelezen."
+    subscribe: "Abonneren"
+    add_subscription: "voeg een subscriptie toe"
+    add: "toevoegen"
+    url: "Feed URL"
+    invalid_url: "U heeft een ongeldige URL ingevuld"
+    empty_url: "U heeft geen URL ingevuld"
+    loading: "Aan 't laden..."
+    default_folder: "Subscripties"
+    feeds: "Feeds"
+    feeds_count:
+      one: "feed"
+      few: "feeds"
+      many: "feeds"
+      other: "feeds"
+    posts_count:
+      one: "bericht"
+      few: "berichten"
+      many: "berichten"
+      other: "berichten"
+    your_posts: "U heeft <em>%{unread}</em> ongelezen %{posts}"
+    refresh: "Verversen"
+    unsubscribe: "Abonnement opzeggen"
+    unsubscribe_confirm: "Wilt werkelijk dit abonnement opzeggen? Uw gedeelde berichten en likes uit deze feed zullen niet worden verwijderd."
+    ago: "geleden"
+    never: "Nooit"
+    confirm: "Weet u het zeker?"
+    mark_all_read: "Markeer alles als gelezen"
+    search: "Zoeken"
+    search_limits: "De zoekopdracht die u gebruikt is erg populair. We moeten daarom het aantal resultaten beperken. Als u alle resultaten wilt zien, maak u zoekopdracht dan gedetailleerder."
+    mark_read: "Markeer als gelezen"
+    mark_unread: "Markeer als ongelezen"
+    share: "Delen"
+    shared: "Gedeeld"
+    unshare: "Delen ongedaan maken"
+    following: "Volgen"
+    attach_note: "Wilt u een notitie toevoegen?"
+    attach: "Notitie toevoegen"
+    comments:
+      one: "%{count} reactie"
+      few: "%{count} reacties"
+      many: "%{count} reacties"
+      other: "%{count} reacties"
+    comment: "Reactie"
+    comment_text: "Schrijf reactie"
+    comment_destroy_confirm: "Wilt u werkelijk de reactie verwijderen?"
+    comment_destroy_text: "Deze reactie is verwijderd door de gebruiker."
+    post_author: "door <strong>%{author}</strong>"
+    drop_add_folder: "Sleep hier na toe om een nieuwe map toe te voegen"
+    new_folder: "Nieuwe map"
+    like: "like"
+    unlike: "unlike"
+    likes_count:
+      zero: "%{users} liken dit"
+      one: "%{users} en een andere liken dit"
+      few: "%{users} and %{count} anderen liken dit"
+      many: "%{users} and %{count} anderen liken dit"
+      other: "%{users} and %{count} anderen liken dit"
+    feed: "Feed"
+    site: "Site"
+    enclosure_url: "Bekijk bijgevoegd bestand (%{size}, %{type})"
+    pocket: "Pocket"
+    unpocket: "Unpocket"
+    pocket_error: "Mislukt"
+  home:
+    following: "Laatste van uw vrienden"
+    updated: "Recent bijgewerkt"
+    dead: "dode feeds"
+    tips:
+      title: "Tips & trucs"
+      items:
+        - "Druk op '?' of 'h' om de lijst met sneltoetscombinaties te zien."
+        - "Sleep feeds in het menu om ze te rangschikken of nieuwe mappen aan te maken."
+        - "U kunt dubbelklikken op een feed of map titel om deze te hernoemen."
+        - "Kijk op onze <a href='/pages/tour'>Tutorial</a> pagina voor gedetailleerde instructies hoe The Old Reader te gebruiken."
+  pages:
+    home: "Home"
+    all: "Alle items"
+    liked: "liked"
+    shared: "Gedeeld"
+    followed: "Vrienden"
+    import: "Importen"
+    search: "Zoeken"
+    settings: "Instellingen"
+    profile: "Profiel"
+    friends: "Vind vrienden"
+    commented: "Met reacties"
+    privacy: "Privacy beleid"
+    trending: "Trendy"
+    donate: "Doneer"
+    tour: "Tutorial"
+    blog: "Blog"
+    status: "Server status"
+    community: "Community resources"
+  settings:
+    name: "Naam"
+    username: "Gebruikersnaam"
+    email: "E-mail"
+    password: "Wachtwoord"
+    password_confirmation: "Bevestig wachtwoord"
+    password_notice: "laat leeg voor houden van huidig wachtwoord"
+    token: "Token"
+    ui:
+      title: "gebruikersinterface"
+      click_to_scroll: "Klikken op een bericht om omlaag te scrollen"
+      scroll_to_read: "Scrollen door berichten, markeert ze als gelezen"
+      sidebar_unread_only: "Toon alleen die mappen/feeds die ongelezen items hebben"
+      locale: "Taal"
+    feed_display_mode:
+      title: "Feed weergavemodus"
+      all: "Toon alle berichten"
+      unread: "Toon alleen ongelezen"
+    feed_list_mode:
+      title: "Berichten weergavemodus"
+      full: "Volledige weergave"
+      list: "Lijst weergave"
+    sort_mode:
+      title: "Berichten rangorde"
+      normal: "Normaal (nieuwe berichten eerst)"
+      reverse: "Omgekeerd (oude berichten eerst)"
+    social: "Sociale onderwerpen"
+    notify_when_followed: "Waarschuw per e-mail wanneer iemand u begint te volgen"
+    share_timeline: "Publiceer uw gedeelde items op uw Facebook pagina"
+    connect_share_timeline: "Maak verbinding met Facebook om uw gedeelde berichten te publiceren"
+    show_fb_profile: "Toon een link naar uw Facebook pagina in uw profiel"
+    save: "Save changes"
+    cancel_disabled: "U kunt uw account niet annuleren tijden een het importeren, even geduld graag."
+    cancel_account:
+      text: "Niet gelukkig? U kunt %{export} als een OPML-bestand en op elk moment %{cancel}."
+      export: "exporteer uw feeds"
+      cancel: "annuleer uw account"
+      confirm: "Weet u het zeker?"
+    pocket:
+      title: "integratie met Pocket"
+      description: "<a href='http://getpocket.com/'>Pocket</a> (vroeger Read It Later genoemd) is een handige app dat u inhoudelijke tekst die u later wilt lezen laat orderen, samenvoegen en van een tag voorzien."
+      connect: "Maak verbinding met Pocket om te beginnen met opslaan op Pocket"
+      account: "Uw account: <strong>%{username}</strong>"
+  import:
+    title: "Importeren"
+    alert: "<b>Vul uw Google's gebruikersnaam en wachtwoord in om subscripties te importeren vanuit Google Reader</b><br />Wij slaan uw inlog gegevens niet op. Account informatie wordt alleen gebruikt om de subscripties te verkrijgen."
+    opml: "<b>Kies een OPML-bestand</b><br />U kunt dit verkrijgen van de  Google Reader instellingen pagina.<br />Gebruik  <b>subscriptions.xml</b> van uw takeout zip-archief."
+    email: "E-mail"
+    password: "Wachtwoord"
+    import: "Importeren"
+    started: "Het importeren van feeds is behoorlijk bron intensief gebeuren, daarom laat ons systeem maar een beperkt aantal tegelijk lopende import operaties toe. Op dit moment zijn alle beschikbare plaatsen bezet, dus uw import operatie is in de wacht gezet."
+    queued: "Hartelijk dank voor het uploaden van uw OPML-bestand. We zullen spoedig met het importeren beginnen van uw subscripties."
+    queued_notice: "Er zijn <strong>%{count}</strong> gebruikers in de import wachtrij voor u."
+    processing: "Uw feeds worden nu op de achtergrond geïmporteerd."
+    error: "Er is iets mis gegaan"
+    opml_empty: "Het OPML-bestand dat u uploadde is of leeg of onjuist."
+    too_many_feeds: "Om technische redenen zullen we alleen de eerste 1000 feeds importeren."
+    cancel: "Import annuleren"
+  profile:
+    follow: "Volgen"
+    unfollow: "Niet meer volgen"
+    unfollow_confirm: "Wilt uw werkelijk het volgen staken? Uw gedeelde en liked berichten zullen niet worden verwijderd."
+    thats_you: "Dat bent uzelf!"
+    following: 
+      one: "Volgt <strong>%{count}</strong> gebruiker"
+      few: "Volgt <strong>%{count}</strong> gebruikers"
+      many: "Volgt <strong>%{count}</strong> gebruikers"
+      other: "Volgt <strong>%{count}</strong> gebruikers"
+    followers:
+      one: "gevolgt door <strong>%{count}</strong> gebruiker"
+      few: "gevolgt door <strong>%{count}</strong> gebruikers"
+      many: "gevolgt door <strong>%{count}</strong> gebruikers"
+      other: "gevolgt door <strong>%{count}</strong> gebruikers"
+    me_following: "<strong>%{count}</strong> volgend"
+    my_followers: "<strong>%{count}</strong> volgers"
+    posts: "Shared posts"
+    your_profile: "Uw profiel"
+    facebook: "Facebook (%{name})"
+    new: "Nieuw"
+    new_followers:
+      one: "%{count} nieuwe"
+      few: "%{count} nieuwen"
+      many: "%{count} nieuwen"
+      other: "%{count} nieuwen"
+    rss: "%{name} gedeelde items op The Old Reader (RSS)"
+  friends:
+    follow: "Volg de vrienden die The Old Reader gebruiken"
+    found:
+      one: "Gevonden %{count} gebruiker"
+      few: "Gevonden %{count} gebruikers"
+      many: "Gevonden %{count} gebruikers"
+      other: "Gevonden %{count} gebruikers"
+    facebook: "Login met Facebook"
+    google: "Login met Google"
+  notifier:
+    followed:
+      subject: "%{name} heeft u gevolgd"
+      body: |
+        Hallo, %{followed}!
+        
+        %{name} volgt u nu. Mooi!
+        Zie het profiel op %{profile}.
+        
+        --
+        The Old Reader robot.
+        U kunt altijd uw abonnement opzeggen op de instellingen pagina.
+        %{host}
+    import:
+      subject: "Uw feed zijn gereed, hoera!"
+      body: |
+        Hallo %{name},
+        
+        We zijn blij u te kunnen meedelen dat we gereed zijn met het importeren van uw subscripties.
+        %{count} door u geïmporteerde feeds zijn nu beschikbaar op %{host}.
+        Hartelijk dank voor het gebruiken van The Old Reader.
+        
+        --
+        The Old Reader robot.
+        %{host}
+    confirmation:
+      body: |
+        Welkom %{name},
+        
+        U kunt uw account e-mail confirmeren door op de link hieronder te klikken:
+        %{link}
+        
+        --
+        The Old Reader robot.
+        %{host}
+    password:
+      body: |
+        Hallo %{name},
+        
+        Iemand het een verzoek ingediend uw wachtwoord te veranderen, hier is de link:
+        %{link}
+        
+        Als u dit verzoek niet zelf hebt gedaan kunt u dit e-mailbericht negeren.
+        Uw wachtwoord zal niet worden veranderd zolang u niet op deze link hierboven klikt.
+        
+        --
+        The Old Reader robot.
+        %{host}
+  shortcuts:
+    header: "Sneltoetscombinaties"
+    note: "*Alleen Chrome, Safari en Opera"
+    pages:
+      title: "Navigeer tussen de pagina's"
+      body: |
+        shift-n, shift-j: volgende subscriptie of map
+        shift-p, shift-k: vorige subscriptie of map
+        shift-x: inklappen geselecteerde map
+        shift-o: open geselecteerde subscriptie of map
+        shift-c: alle mappen inklappen
+        shift-e: Alle mappen uitklappen
+        g then h: ga naar home
+        g then a: ga naar alle items
+        g then l: ga naar liked
+        g then s: ga naar gedeeld
+        g then t: ga naar trendy
+        g then c: ga naar reacties
+        g then f: ga naar volgend
+    other:
+      title: "Andere sneltoetscombinaties"
+      body: |
+        r: verversen huidige pagina
+        /: zet focus op zoekveld
+        a: subscriptie toevoegen
+        ? of h: toon dit helpvenster
+    posts:
+      title: "Sneltoetscombinaties voor berichten"
+      body: |
+        spatiebalk: scroll omlaag
+        shift+spatiebalk: scroll omhoog
+        shift+a: markeer alles als gelezen
+        j, n: volgend bericht
+        k, p: vorig bericht
+        o, v: open bericht in een nieuwe tab
+        b: open bericht in een achtergrond tab*
+        x: schakel tussen weergave berichten (lijstweergave)
+        l: like bericht
+        s: deel dit bericht
+        m: schakel gelezen/ongelezen bericht
+        f: bewaar bericht bij Pocket
+        c: scroll to reacties en open het formulier
+        1: schakel naar volledige weergave
+        2: schakel naar lijstweergave
+  alerts:
+    common: "Verzoek aan de server is mislukt, probeer het later nog eens"
+    posts: "Kon berichten niet laden"
+  page_content:
+    community:
+      title: "Gemeenschappelijk hulpmiddelen"
+      p1: "We zijn erg blij een loyale gemeenschap te hebben van gebruikers die ons constant helpen het project in voorwaartse richting te stuwen. Hier zijn enkele links naar de hulpbronnen, gemaakt en onderhouden door onze gemeenschap."
+      translations:
+        title: "Vertalingen"
+        pre_link: "The Old Reader is vertaalt in vele talen. We hebben de vertalingen in een "
+        link: "afzonderlijke openbare github repo"
+        post_link: " zodat iedereen er aan kan bijdragen."
+      extensions:
+        title: "Browser extensies"
+        p1: "Er bestaan een aantal browser extensies die het volgen van uw ongelezen items makkelijker maakt."
+        source_code: "broncode"
+        chrome: "Google Chrome extensie"
+        chrome_author: "door Anton Tolchanov"
+        chromeapp: "Google Chrome app"
+        chromeapp_author: "door Enrico Bacis"
+        safari: "Safari extensie"
+        safari_author: "door Dmitry Kranoukhov"
+        opera: "Opera extensie"
+        opera_author: "door Lazare Inepologlou"
+        firefox: "Firefox addon"
+        firefox_author: "door Tomek Wasiak"
+      themes:
+        title: "Onofficiële thema's"
+        pre_link: "Sommige gebruikers hebben gebruikersstijlen gemaakt, die het gezicht van The Old Reader in uw browser aanpassen. Er is geen garantie dat deze stijlen altijd zullen werken en de website niet laten vastlopen, maar als u voldoende moed hebt kunt u ze vinden op "
+        post_link: "."
+      requests:
+        title: "Functie verzoeken"
+        pre_link: "U kunt stemmen op een functieverzoek en nieuwe verzoeken indienen op "
+        link: "onze uservoice pagina"
+        post_link: ". Zoek eerst bij de bestaande verzoeken of u idee er al bijstaat, voordat u een nieuwe aanmaakt. Er is geen moderator voor de uservoice pagina, dus als u een duplicaat verzoek indient vermindert u in feite de kans dat die bovenaan komt te staan omdat dan twee verzoeken elkaars concurrent worden voor gebruikersstemmen."
+      forums:
+        title: "Gemeenschapsforums"
+        pre_link: "We hebben een forum "
+        link: "gemaakt op yuku.com"
+        post_link: " voor onze gebruikers om op te communiceren. Het staat u vrij hier aan deel te nemen en om hulp te vragen, over tweaks te discussiëren en uw gedachten te delen."
+    donate:
+      title: "Doneren"
+      p1: "Het draaien van een RSS reader vereist nogal wat middelen. Dit mag een simpele site lijken, maar we moeten een aantal miljoen feeds verversen. Soms elke 5 minuten. Onze serverkosten zijn behoorlijk hoog en dat zouden we ons nooit kunnen veroorloven zonder de hulp van onze geweldige gebruikers."
+      p2: "Er zijn verscheidene manieren waarop u ons financieel kunt ondersteunen en zo ons project levend kunt houden:"
+      flattr:
+        pre_link: "Gebruik "
+        link1: "Flattr"
+        inbetween: ". Het is een simpele manier om geld aan auteurs of diensten te geven. U kunt zowel een vast bedrag zenden of op de Y “flattr” knop drukken en dan wordt uw maandelijkse budget verdeeld onder ons en andere projecten die een helpt gedurende een bepaalde maand. U kunt u ook inschrijven op "
+        link2: "ons account in Flattr"
+        post_link: " dat maakt dat u ons automatisch elke maand \"flattred\"."
+      bitcoins: "Voor alle privacy bedachte mensen hebben we bitcoins"
+      additional:
+        pre_link: "We kunnen helaas om juridische redenen geen Paypal formulier op de website zetten. Als u echter ons een significante som geld wilt sturen en Flattr of bitcoins niet kunt of wilt gebruiken "
+        link: "zend ons dan aub een berichtje"
+        post_link: "  en wij zullen dan een manier trachten te vinden om u een persoonlijke gift naar ons te kunnen laten sturen."
+      thanks: "Wij appreciëren uw hulp! Net zo als dit jonge katje:"
+    tour:
+      title: "The Old Reader 101"
+      add_feeds:
+        title: "Feeds toevoegen"
+        p1: "Uw nieuwe account bij The Old Reader is nog leeg, dus het eerste dat u nu moet doen is wat feeds toevoegen."
+        img1: "Gebruik de 'Voeg een subscriptie toe' knop om u te abonneren op een feed. Als u een webpagina URL invult inplaats van een directe feed URL, zullen we de eerste RSS-feed van die pagina automatisch toevoegen."
+        img2: "Als u migreert van Google Reader of elke andere RSS software dat subscripties kan exporteren naar een OPML-bestand, kunt u de  'Import' functie gebruiken om al uw feeds toe te voegen. We zullen zelfs al uw feed maps overzetten zodat u zich onmiddellijk thuis zal voelen in de interface."
+      organize:
+        title: "Organiseren van feeds"
+        img1: "U kunt feeds en mappen verslepen met de muis om hun positie te veranderen. Het aanmaken van een nieuwe map gaat makkelijk door het slepen van een feed naar een lege plek onder uw laatste map. Lege mappen worden automatisch verwijderd."
+        img2: "Dubbelklik eenvoudigweg op een feed of map om deze te hernoemen."
+        img2_p2: "Het is niet mogelijk de standaard map  ('Subscriptions') een andere naam te geven, maar u kunt al uw feeds er uit vandaan halen en in andere mappen plaatsen. Dan zal deze standaard map vanzelf verdwijnen."
+      read:
+        title: "Berichten lezen"
+        img1: "Kies wat u wilt lezen uit het menu. u kunt op een map klikken om alle feeds in die map te lezen."
+        img2: "Het navigatie menu lat u naar het volgende of vorige  bericht te springen met een enkele muisklik. U kunt ook overschakelen naar  'Lijstweergave' dat alle berichten laat inklappen, u de kopteksten kunt doornemen en alleen die laat uitklappen die u wilt lezen."
+        img3: "U kunt ook sneltoetsen gebruiken om te navigeren. Druk op '?' of 'h' om de lijst te zien."
+        img4_p1: "Er staan actieknoppen onder elk bericht. Als u op de 'Like' knop drukt, verschijnt uw naam in de lijst van gebruikers die dit bericht ook liken. Het bericht zal ook naar uw  'Liked' map gaan."
+        img4_p2: "Als u verkiest een bericht te delen, zullen al uw contacten dit onmiddellijk zien. U kunt uw gedeelde berichten op uw Facebook tijdslijn zetten (bezoek Instellingen om dat in te schakelen)."
+      discuss:
+        title: "Berichten bediscussiëren"
+        img1: "Het is leuker over RSS feeds te praten. Ga naar de 'Vind Vrienden' pagina om te zien wie er onder uw Facebook vrienden of Google contacten The Old Reader gebruikt. U kunt vrienden ook op naam zoeken."
+        img2: "Alle berichten die u heeft gedeeld staan in de 'Gedeeld' map. Items die uw vrienden hebben gedeeld staan in de 'Volgend' map. Zoals gebruikelijk kunt u de gehele map lezen of een specifieke gebruikersnaam kiezen om alle met deze gebruiker gedeelde berichten te lezen."
+        img3: "U kunt commentaar leveren op elk met uw vrienden gedeeld bericht: klik gewoon op de 'Comment' knop en neem deel aan de discussie."
+      tips:
+        title: "Tips & Trucs"
+        p1: "Om u te kunnen abonneren op nieuwe feeds met een enkele muisklik, stel 'http://theoldreader.com/feeds/subscribe?url=%s' in in uw RSS feed handler of extensie;"
+        p2_pre_link: "Als u Firefox gebruikt, druk dan "
+        p2_link: "hier"
+        p2_post_link: " om The Old Reader als uw RSS feed handler in te stellen."
+      finally:
+        title: "Nog vragen?"
+        pre_link: "Kijk dan een op onze "
+        link1: "kennisbank"
+        inbetween: " en vraag gerust om help op de "
+        link2: "gemeenschapsforums"
+        post_link: " als iets niet duidelijk is."
