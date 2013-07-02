@@ -426,6 +426,10 @@ en:
       apps:
         title: "Mobile apps"
         p1: "Please note that apps use password authentication, so you should configure yourself a password on the Settings page before using any of the apps."
+      bookmarklets:
+        title: "Bookmarklets"
+        tornexto: "Bookmarklet to go to next item in a folder"
+        tornexto_author: "by Chas. J. Owens"
       extensions:
         title: "Browser extensions"
         p1: "There is a number of browser extensions that make tracking your unread items easier."
