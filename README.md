@@ -46,3 +46,5 @@ Polski: [mrsadowski](https://github.com/mrsadowski)
 Norsk (bokmål): [ircubic](https://github.com/ircubic)
 
 Ελληνικά: [kostas213](https://github.com/kostas213)
+
+Nederlands: [gvmelle](https://github.com/gvmelle)

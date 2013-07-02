@@ -91,25 +91,6 @@ nl:
       - "U kunt inloggen en The Old Reader met een enkele klik gebruiken. als u dit liever niet meteen doet kunt u ook onze %tour% volgen of een blik werpen op de %trending%."
     tour: "Tutorial"
     trending: "belangrijkste berichten vandaag"
-    qa:
-      -
-        :title: "Wat doet het?"
-        :text: "Het laat u uw dagelijkse portie content doorbladeren waarvan die speciale berichten die u met u vrienden heeft gedeeld, met notities en reacties"
-      -
-        :title: "Kan ik mijn subscripties overbrengen?"
-        :text: "Ja, u kunt uw feeds direct vanuit Google Reader importeren of onze OPML import functie gebruiken als u dit veiliger vindt."
-      -
-        :title: "Hoe vind ik mijn vrienden?"
-        :text: "We zijn bezig de pagina met voorgestelde vrienden te verbeteren, maar in de tussentijd kunt u handmatig naar uw vrienden zoeken of kijken wie er bij uw Facebook vrienden of Google contacten ook The Old Reader gebruikt. We zenden u ook een e-mail wanneer iemand u begint te volgen."
-      -
-        :title: "Hebben jullie een mobile app?"
-        :text: "Nee <em>nog</em> niet, maar zoals eerder beloofd, zijn we er aan de ontwikkeling ervan begonnen toen ons gebruikersaantal 5000 bereikte in oktober 2012. Zelfs nu is onze standaard interface prima aangepast aan mobile apparaten."
-      -
-        :title: "Misdragen jullie je op Facebook zoals die andere apps?"
-        :text: "Absoluut niet! U kunt u gedeelde berichten op uw tijdslijn zetten, maar tenzij u specifiek verkozen heeft op Facebook te posten, zullen alle gedeelde berichten en reacties alleen in The Old Reader blijven. We zullen nooit iets anders posten in uw naam of u laten deelnemen aan een of andere duistere praktijk."
-      -
-        :title: "Waarom hebben jullie The Old Reader gebouwd?"
-        :text: "Laten we het er op houden dat we de originele reader erg misten en we daarom The Old Reader voor onszelf en onze vrienden bouwden. We vonden dat dat goed uitpakte en daarom besloten we het met iedereen te delen"
     supported: "Met liefde ondersteund door"
   user:
     profile: "Profiel"
