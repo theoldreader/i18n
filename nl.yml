@@ -91,6 +91,22 @@ nl:
       - "U kunt inloggen en The Old Reader met een enkele klik gebruiken. als u dit liever niet meteen doet kunt u ook onze %tour% volgen of een blik werpen op de %trending%."
     tour: "Tutorial"
     trending: "belangrijkste berichten vandaag"
+    qa:
+      :title0: "Wat doet het?"
+      :text0: "Het laat u uw dagelijkse portie content doorbladeren waarvan die speciale berichten die u met u vrienden heeft gedeeld, met notities en reacties"
+      :title1: "Kan ik mijn subscripties overbrengen?"
+      :text1: "Ja, u kunt uw feeds direct vanuit Google Reader importeren of onze OPML import functie gebruiken als u dit veiliger vindt."
+      :title2: "Hoe vind ik mijn vrienden?"
+      :text2: "We zijn bezig de pagina met voorgestelde vrienden te verbeteren, maar in de tussentijd kunt u handmatig naar uw vrienden zoeken of kijken wie er bij uw Facebook vrienden of Google contacten ook The Old Reader gebruikt. We zenden u ook een e-mail wanneer iemand u begint te volgen."
+      :title3: "Hebben jullie een mobile app?"
+      :text3_pre_link: "Nee we hebben geen officiële app, maar we hebben een "
+      :text3_link1: "API"
+      :text3_between_links: ". Dit stelt iedereen in staat een app te ontwikkelen voor The Old Reader en er zijn al "
+      :text3_link2: "een aantal mobile apps"
+      :title4: "Misdragen jullie je op Facebook zoals die andere apps?"
+      :text4: "Absoluut niet! U kunt u gedeelde berichten op uw tijdslijn zetten, maar tenzij u specifiek verkozen heeft op Facebook te posten, zullen alle gedeelde berichten en reacties alleen in The Old Reader blijven. We zullen nooit iets anders posten in uw naam of u laten deelnemen aan een of andere duistere praktijk."
+      :title5: "Waarom hebben jullie The Old Reader gebouwd?"
+      :text5: "Laten we het er op houden dat we de originele reader erg misten en we daarom The Old Reader voor onszelf en onze vrienden bouwden. We vonden dat dat goed uitpakte en daarom besloten we het met iedereen te delen"
     supported: "Met liefde ondersteund door"
   user:
     profile: "Profiel"
@@ -200,14 +216,25 @@ nl:
     blog: "Blog"
     status: "Server status"
     community: "Community resources"
+    apps: "Apps"
   settings:
     name: "Naam"
     username: "Gebruikersnaam"
     email: "E-mail"
+    username_or_email: "Gebruikersnaam/E-mail"
     password: "Wachtwoord"
+    password_change: "Veranderen"
     password_confirmation: "Bevestig wachtwoord"
     password_notice: "laat leeg voor houden van huidig wachtwoord"
     token: "Token"
+    sign:
+      title: "U kunt inloggen op dit account van The Old Reader met:"
+      google: "Uw Google account"
+      google_email: "'%{email}' Google account"
+      facebook_name: "'%{name}' Facebook account"
+      username: "'%{username}' aen uw wachtwoord (gebruik dit in elke %{apps} voor The Old Reader)"
+      apps: "mobile apps"
+
     ui:
       title: "gebruikersinterface"
       click_to_scroll: "Klikken op een bericht om omlaag te scrollen"
@@ -308,7 +335,7 @@ nl:
         U kunt altijd uw abonnement opzeggen op de instellingen pagina.
         %{host}
     import:
-      subject: "Uw feed zijn gereed, hoera!"
+      subject: "Uw feeds zijn gereed, hoera!"
       body: |
         Hallo %{name},
         
@@ -390,14 +417,15 @@ nl:
     common: "Verzoek aan de server is mislukt, probeer het later nog eens"
     posts: "Kon berichten niet laden"
   page_content:
-    community:
-      title: "Gemeenschappelijk hulpmiddelen"
-      p1: "We zijn erg blij een loyale gemeenschap te hebben van gebruikers die ons constant helpen het project in voorwaartse richting te stuwen. Hier zijn enkele links naar de hulpbronnen, gemaakt en onderhouden door onze gemeenschap."
-      translations:
-        title: "Vertalingen"
-        pre_link: "The Old Reader is vertaalt in vele talen. We hebben de vertalingen in een "
-        link: "afzonderlijke openbare github repo"
-        post_link: " zodat iedereen er aan kan bijdragen."
+    apps:
+      api:
+        title: "API"
+        pre_link: "Wehebben een op GoogleReader lijkende mobile API geïmplementeerd die iedereen in staat stelt een mobile app te ontwikkelen die werkt met The Old Reader. The API is gedocumenteerd in "
+        link: "een afzonderlijke github repository"
+        post_link: ". Waarschuw ons als aub wanneer u een app maakt die werkt met The Old Reader."
+      apps:
+        title: "Mobile apps"
+        p1: "Let er op dat apps wachtwoord authenticatie gebruiken. U moet dus voor uzelf ee wachtwoord instellen op de Instellingen pagina voordat u een app gaat gebruiken."
       extensions:
         title: "Browser extensies"
         p1: "Er bestaan een aantal browser extensies die het volgen van uw ongelezen items makkelijker maakt."
@@ -412,6 +440,14 @@ nl:
         opera_author: "door Lazare Inepologlou"
         firefox: "Firefox addon"
         firefox_author: "door Tomek Wasiak"
+     community:
+      title: "Gemeenschappelijk hulpmiddelen"
+      p1: "We zijn erg blij een loyale gemeenschap te hebben van gebruikers die ons constant helpen het project in voorwaartse richting te stuwen. Hier zijn enkele links naar de hulpbronnen, gemaakt en onderhouden door onze gemeenschap."
+      translations:
+        title: "Vertalingen"
+        pre_link: "The Old Reader is vertaalt in vele talen. We hebben de vertalingen in een "
+        link: "afzonderlijke openbare github repo"
+        post_link: " zodat iedereen er aan kan bijdragen."
       themes:
         title: "Onofficiële thema's"
         pre_link: "Sommige gebruikers hebben gebruikersstijlen gemaakt, die het gezicht van The Old Reader in uw browser aanpassen. Er is geen garantie dat deze stijlen altijd zullen werken en de website niet laten vastlopen, maar als u voldoende moed hebt kunt u ze vinden op "
