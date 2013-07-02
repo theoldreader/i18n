@@ -420,7 +420,7 @@ nl:
     apps:
       api:
         title: "API"
-        pre_link: "Wehebben een op GoogleReader lijkende mobile API geïmplementeerd die iedereen in staat stelt een mobile app te ontwikkelen die werkt met The Old Reader. The API is gedocumenteerd in "
+        pre_link: "We hebben een op GoogleReader lijkende mobile API geïmplementeerd die iedereen in staat stelt een mobile app te ontwikkelen die werkt met The Old Reader. The API is gedocumenteerd in "
         link: "een afzonderlijke github repository"
         post_link: ". Waarschuw ons als aub wanneer u een app maakt die werkt met The Old Reader."
       apps:
