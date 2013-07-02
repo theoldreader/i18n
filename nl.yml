@@ -62,7 +62,7 @@ nl:
   eggs: "We ♥ jonge poesjes"
   title: "The Old Reader"
   meta:
-    description: "Het is de ultieme RSS reader. Importeer uw subscripties met een klik, vind uw vrienden en start delen."
+    description: "Het is de ultieme RSS reader. Importeer uw subscripties met één klik, vind uw vrienden en start delen."
     keywords: "the old reader"
   landing:
     topmenu:
@@ -203,7 +203,7 @@ nl:
     liked: "liked"
     shared: "Gedeeld"
     followed: "Vrienden"
-    import: "Importen"
+    import: "Importeren"
     search: "Zoeken"
     settings: "Instellingen"
     profile: "Profiel"
@@ -223,7 +223,7 @@ nl:
     email: "E-mail"
     username_or_email: "Gebruikersnaam/E-mail"
     password: "Wachtwoord"
-    password_change: "Veranderen"
+    password_change: "Verander"
     password_confirmation: "Bevestig wachtwoord"
     password_notice: "laat leeg voor houden van huidig wachtwoord"
     token: "Token"
@@ -232,7 +232,7 @@ nl:
       google: "Uw Google account"
       google_email: "'%{email}' Google account"
       facebook_name: "'%{name}' Facebook account"
-      username: "'%{username}' aen uw wachtwoord (gebruik dit in elke %{apps} voor The Old Reader)"
+      username: "'%{username}' en uw wachtwoord (gebruik dit in elke %{apps} voor The Old Reader)"
       apps: "mobile apps"
 
     ui:
@@ -258,12 +258,12 @@ nl:
     share_timeline: "Publiceer uw gedeelde items op uw Facebook pagina"
     connect_share_timeline: "Maak verbinding met Facebook om uw gedeelde berichten te publiceren"
     show_fb_profile: "Toon een link naar uw Facebook pagina in uw profiel"
-    save: "Save changes"
-    cancel_disabled: "U kunt uw account niet annuleren tijden een het importeren, even geduld graag."
+    save: "Veranderingen opslaan"
+    cancel_disabled: "U kunt uw account niet annuleren tijdens het importeren. Even geduld graag."
     cancel_account:
       text: "Niet gelukkig? U kunt %{export} als een OPML-bestand en op elk moment %{cancel}."
-      export: "exporteer uw feeds"
-      cancel: "annuleer uw account"
+      export: "uw feeds exporteren"
+      cancel: "uw account annuleren"
       confirm: "Weet u het zeker?"
     pocket:
       title: "integratie met Pocket"
@@ -282,7 +282,7 @@ nl:
     queued_notice: "Er zijn <strong>%{count}</strong> gebruikers in de import wachtrij voor u."
     processing: "Uw feeds worden nu op de achtergrond geïmporteerd."
     error: "Er is iets mis gegaan"
-    opml_empty: "Het OPML-bestand dat u uploadde is of leeg of onjuist."
+    opml_empty: "Het OPML-bestand dat u uploadde is leeg of corrupt."
     too_many_feeds: "Om technische redenen zullen we alleen de eerste 1000 feeds importeren."
     cancel: "Import annuleren"
   profile:
@@ -302,7 +302,7 @@ nl:
       other: "gevolgt door <strong>%{count}</strong> gebruikers"
     me_following: "<strong>%{count}</strong> volgend"
     my_followers: "<strong>%{count}</strong> volgers"
-    posts: "Shared posts"
+    posts: "Gedeelde berichten"
     your_profile: "Uw profiel"
     facebook: "Facebook (%{name})"
     new: "Nieuw"
@@ -313,7 +313,7 @@ nl:
       other: "%{count} nieuwen"
     rss: "%{name} gedeelde items op The Old Reader (RSS)"
   friends:
-    follow: "Volg de vrienden die The Old Reader gebruiken"
+    follow: "Volg u vrienden die The Old Reader gebruiken"
     found:
       one: "Gevonden %{count} gebruiker"
       few: "Gevonden %{count} gebruikers"
@@ -332,7 +332,7 @@ nl:
         
         --
         The Old Reader robot.
-        U kunt altijd uw abonnement opzeggen op de instellingen pagina.
+        U kunt altijd uw abonnement opzeggen via de Instellingen pagina.
         %{host}
     import:
       subject: "Uw feeds zijn gereed, hoera!"
@@ -350,7 +350,7 @@ nl:
       body: |
         Welkom %{name},
         
-        U kunt uw account e-mail confirmeren door op de link hieronder te klikken:
+        U kunt uw account via e-mail confirmeren door op de link hieronder te klikken:
         %{link}
         
         --
@@ -360,10 +360,10 @@ nl:
       body: |
         Hallo %{name},
         
-        Iemand het een verzoek ingediend uw wachtwoord te veranderen, hier is de link:
+        Iemand heeft een verzoek ingediend om uw wachtwoord te veranderen, hier is de link:
         %{link}
         
-        Als u dit verzoek niet zelf hebt gedaan kunt u dit e-mailbericht negeren.
+        Als u dit verzoek niet zelf hebt gedaan, kunt u dit e-mailbericht negeren.
         Uw wachtwoord zal niet worden veranderd zolang u niet op deze link hierboven klikt.
         
         --
@@ -420,12 +420,12 @@ nl:
     apps:
       api:
         title: "API"
-        pre_link: "Wehebben een op GoogleReader lijkende mobile API geïmplementeerd die iedereen in staat stelt een mobile app te ontwikkelen die werkt met The Old Reader. The API is gedocumenteerd in "
+        pre_link: "We hebben een op GoogleReader lijkende mobile API geïmplementeerd die iedereen in staat stelt een mobile app te ontwikkelen die werkt met The Old Reader. The API is gedocumenteerd in "
         link: "een afzonderlijke github repository"
-        post_link: ". Waarschuw ons als aub wanneer u een app maakt die werkt met The Old Reader."
+        post_link: ". Geleive ons te waarschuwen wanneer u een app maakt die werkt met The Old Reader."
       apps:
         title: "Mobile apps"
-        p1: "Let er op dat apps wachtwoord authenticatie gebruiken. U moet dus voor uzelf ee wachtwoord instellen op de Instellingen pagina voordat u een app gaat gebruiken."
+        p1: "Let er op dat apps wachtwoord authenticatie gebruiken. U moet dus voor uzelf een wachtwoord instellen op de Instellingen pagina voordat u een app gaat gebruiken."
       extensions:
         title: "Browser extensies"
         p1: "Er bestaan een aantal browser extensies die het volgen van uw ongelezen items makkelijker maakt."
@@ -456,7 +456,7 @@ nl:
         title: "Functie verzoeken"
         pre_link: "U kunt stemmen op een functieverzoek en nieuwe verzoeken indienen op "
         link: "onze uservoice pagina"
-        post_link: ". Zoek eerst bij de bestaande verzoeken of u idee er al bijstaat, voordat u een nieuwe aanmaakt. Er is geen moderator voor de uservoice pagina, dus als u een duplicaat verzoek indient vermindert u in feite de kans dat die bovenaan komt te staan omdat dan twee verzoeken elkaars concurrent worden voor gebruikersstemmen."
+        post_link: ". Zoek eerst bij de bestaande verzoeken of uw idee er al bijstaat, voordat u een nieuwe aanmaakt. Er is geen moderator voor de uservoice pagina, dus als u een duplicaat verzoek indient vermindert u in feite de kans dat die bovenaan komt te staan omdat dan twee verzoeken elkaars concurrent worden voor gebruikersstemmen."
       forums:
         title: "Gemeenschapsforums"
         pre_link: "We hebben een forum "
