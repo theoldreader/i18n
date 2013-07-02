@@ -203,7 +203,7 @@ nl:
     liked: "liked"
     shared: "Gedeeld"
     followed: "Vrienden"
-    import: "Importen"
+    import: "Importeren"
     search: "Zoeken"
     settings: "Instellingen"
     profile: "Profiel"
@@ -223,7 +223,7 @@ nl:
     email: "E-mail"
     username_or_email: "Gebruikersnaam/E-mail"
     password: "Wachtwoord"
-    password_change: "Veranderen"
+    password_change: "Verander"
     password_confirmation: "Bevestig wachtwoord"
     password_notice: "laat leeg voor houden van huidig wachtwoord"
     token: "Token"
@@ -258,12 +258,12 @@ nl:
     share_timeline: "Publiceer uw gedeelde items op uw Facebook pagina"
     connect_share_timeline: "Maak verbinding met Facebook om uw gedeelde berichten te publiceren"
     show_fb_profile: "Toon een link naar uw Facebook pagina in uw profiel"
-    save: "Save changes"
+    save: "Opslaan veranderingen"
     cancel_disabled: "U kunt uw account niet annuleren tijden een het importeren, even geduld graag."
     cancel_account:
       text: "Niet gelukkig? U kunt %{export} als een OPML-bestand en op elk moment %{cancel}."
-      export: "exporteer uw feeds"
-      cancel: "annuleer uw account"
+      export: "uw feeds exporteren"
+      cancel: "uw account annuleren"
       confirm: "Weet u het zeker?"
     pocket:
       title: "integratie met Pocket"
@@ -302,7 +302,7 @@ nl:
       other: "gevolgt door <strong>%{count}</strong> gebruikers"
     me_following: "<strong>%{count}</strong> volgend"
     my_followers: "<strong>%{count}</strong> volgers"
-    posts: "Shared posts"
+    posts: "Gedeelde berichten"
     your_profile: "Uw profiel"
     facebook: "Facebook (%{name})"
     new: "Nieuw"
@@ -420,7 +420,7 @@ nl:
     apps:
       api:
         title: "API"
-        pre_link: "We hebben een op GoogleReader lijkende mobile API geïmplementeerd die iedereen in staat stelt een mobile app te ontwikkelen die werkt met The Old Reader. The API is gedocumenteerd in "
+        pre_link: "Wehebben een op GoogleReader lijkende mobile API geïmplementeerd die iedereen in staat stelt een mobile app te ontwikkelen die werkt met The Old Reader. The API is gedocumenteerd in "
         link: "een afzonderlijke github repository"
         post_link: ". Waarschuw ons als aub wanneer u een app maakt die werkt met The Old Reader."
       apps:
@@ -440,7 +440,7 @@ nl:
         opera_author: "door Lazare Inepologlou"
         firefox: "Firefox addon"
         firefox_author: "door Tomek Wasiak"
-     community:
+    community:
       title: "Gemeenschappelijk hulpmiddelen"
       p1: "We zijn erg blij een loyale gemeenschap te hebben van gebruikers die ons constant helpen het project in voorwaartse richting te stuwen. Hier zijn enkele links naar de hulpbronnen, gemaakt en onderhouden door onze gemeenschap."
       translations:
