@@ -424,7 +424,7 @@ en:
         link: "a separate github repository"
         post_link: ". Please drop us a note if you create an app that works with The Old Reader."
       apps:
-        title: "Mobile apps"
+        title: "Mobile and desktop apps"
         p1: "Please note that apps use password authentication, so you should configure yourself a password on the Settings page before using any of the apps."
       bookmarklets:
         title: "Bookmarklets"

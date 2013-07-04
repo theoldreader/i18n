@@ -424,7 +424,6 @@ nl:
         link: "een afzonderlijke github repository"
         post_link: ". Geleive ons te waarschuwen wanneer u een app maakt die werkt met The Old Reader."
       apps:
-        title: "Mobile apps"
         p1: "Let er op dat apps wachtwoord authenticatie gebruiken. U moet dus voor uzelf een wachtwoord instellen op de Instellingen pagina voordat u een app gaat gebruiken."
       extensions:
         title: "Browser extensies"

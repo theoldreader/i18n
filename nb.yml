@@ -415,7 +415,6 @@ nb:
         link: "et separat github repository"
         post_link: ". Vår vennlig å gi oss beskjed hvis du lager en app som fungerer med The Old Reader."
       apps:
-        title: "Mobilapper"
         p1: "Vær klar over at apps bruker passordautentisering, så du må sette opp et passord i Innstillingene før du kan bruke noen av appene."
       extensions:
         title: "Nettleserutvidelser"

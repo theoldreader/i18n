@@ -414,7 +414,6 @@ hu:
         link: "egy külön github repository"
         post_link: "-ban van. Kérünk, küldj egy levelet, ha egy alkalmazást fejlesztesz a The Old Readerrel."
       apps:
-        title: "Mobil alkalmazások"
         p1: "Kérlek, vedd észre, hogy az alkalmazások jelszót kérnek, úgyhogy be kell állítanod magadnak egyet a Beállítások lapon, mielőtt bármelyik alkalmazást használnád."
       extensions:
         title: "Böngészőbővítmények"
