@@ -208,7 +208,7 @@ nl:
     search: "Zoeken"
     settings: "Instellingen"
     profile: "Profiel"
-    friends: "Vind vrienden"
+    friends: "Zoek vrienden"
     commented: "Met reacties"
     privacy: "Privacy beleid"
     trending: "Trendy"
@@ -423,7 +423,7 @@ nl:
         title: "API"
         pre_link: "We hebben een op GoogleReader lijkende mobile API geïmplementeerd die iedereen in staat stelt een mobile app te ontwikkelen die werkt met The Old Reader. The API is gedocumenteerd in "
         link: "een afzonderlijke github repository"
-        post_link: ". Geleive ons te waarschuwen wanneer u een app maakt die werkt met The Old Reader."
+        post_link: ". Gelieve ons te waarschuwen wanneer u een app maakt die werkt met The Old Reader."
       apps:
         title: "Mobile en bureaublad apps"
         p1: "Let er op dat apps wachtwoord authenticatie gebruiken. U moet dus voor uzelf een wachtwoord instellen op de Instellingen pagina voordat u een app gaat gebruiken."
@@ -433,7 +433,7 @@ nl:
         tornexto_author: "by Chas. J. Owens"
       extensions:
         title: "Browser extensies"
-        p1: "Er bestaan een aantal browser extensies die het volgen van uw ongelezen items makkelijker maakt."
+        p1: "Er bestaan een aantal browserextensies die het volgen van uw ongelezen items makkelijker maakt:"
         source_code: "broncode"
         chrome: "Google Chrome extensie"
         chrome_author: "door Anton Tolchanov"
