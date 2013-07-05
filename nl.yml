@@ -103,6 +103,7 @@ nl:
       :text3_link1: "API"
       :text3_between_links: ". Dit stelt iedereen in staat een app te ontwikkelen voor The Old Reader en er zijn al "
       :text3_link2: "een aantal mobile apps"
+      :text3_post_link: " ondersteunen onze website."
       :title4: "Misdragen jullie je op Facebook zoals die andere apps?"
       :text4: "Absoluut niet! U kunt u gedeelde berichten op uw tijdslijn zetten, maar tenzij u specifiek verkozen heeft op Facebook te posten, zullen alle gedeelde berichten en reacties alleen in The Old Reader blijven. We zullen nooit iets anders posten in uw naam of u laten deelnemen aan een of andere duistere praktijk."
       :title5: "Waarom hebben jullie The Old Reader gebouwd?"
@@ -424,7 +425,12 @@ nl:
         link: "een afzonderlijke github repository"
         post_link: ". Geleive ons te waarschuwen wanneer u een app maakt die werkt met The Old Reader."
       apps:
+        title: "Mobile en bureaublad apps"
         p1: "Let er op dat apps wachtwoord authenticatie gebruiken. U moet dus voor uzelf een wachtwoord instellen op de Instellingen pagina voordat u een app gaat gebruiken."
+      bookmarklets:
+        title: "Bookmarklets"
+        tornexto: "Bookmarklet om naar het volgende item te gaan in een map"
+        tornexto_author: "by Chas. J. Owens"
       extensions:
         title: "Browser extensies"
         p1: "Er bestaan een aantal browser extensies die het volgen van uw ongelezen items makkelijker maakt."
