@@ -8,9 +8,9 @@ fr:
       not_locked: "n'a pas été verrouillé"
       not_saved:
         one: "1 erreur a empêché cette %{resource} d'être sauvegardée:"
-        few: "%{count} erreurs ont empéché cette %{resource} d'être sauvegardée:"
-        many: "%{count} erreurs ont empéché cette %{resource} d'être sauvegardée:"
-        other: "%{count} erreurs ont empéché cette %{resource} d'être sauvegardée:"
+        few: "%{count} erreurs ont empêché cette %{resource} d'être sauvegardée:"
+        many: "%{count} erreurs ont empêché cette %{resource} d'être sauvegardée:"
+        other: "%{count} erreurs ont empêché cette %{resource} d'être sauvegardée:"
 
   devise:
     failure:
@@ -37,8 +37,8 @@ fr:
     registrations:
       signed_up: "Bienvenue! Vous vous êtes inscrit avec succès."
       signed_up_but_unconfirmed: "Un message avec un lien de confirmation a été envoyé à votre adresse mail. Merci d'ouvrir le lien pour activer votre compte."
-      signed_up_but_inactive: "Vous vous êtes inscrit avec succès. Cependant nous ne pouvons vous connecter car votre compte n'a pas encore été activé."
-      signed_up_but_locked: "Vous vous êtes inscrit avec succès. Cependant nous ne pouvons vous connecter car votre compte est verrouillé."
+      signed_up_but_inactive: "Vous vous êtes inscrit avec succès. Cependant nous ne pouvons vous connecter, car votre compte n'a pas encore été activé."
+      signed_up_but_locked: "Vous vous êtes inscrit avec succès. Cependant nous ne pouvons vous connecter, car votre compte est verrouillé."
       updated: "Mise à jour de votre compte réussie."
       update_needs_confirmation: "Mise à jour de votre compte réussi, mais nous devons vérifier votre adresse mail. Merci de vérifier vos mails et de cliquer sur le lien de confirmation pour finaliser votre nouvelle adresse."
       destroyed: "Bye! Votre compte a bien été supprimé. Nous espérons vous revoir bientôt."
@@ -93,19 +93,19 @@ fr:
     trending: "articles populaires du jour"
     qa:
       :title0: "À quoi sert ce service ?"
-      :text0: "It allows you to browse your daily dose of content with that very special bit shared by your friends, with notes and comments"
+      :text0: "Il sert a naviguer dans votre dose quotidienne de contenu avec la possibilité de la partager avec vos amis, avec des notes et des commentaires."
       :title1: "Je peux transférer mes abonnements ?"
       :text1: "Oui, vous pouvez importer vos flux grâce à l'importation de fichiers OPML."
-      :title2: "How do I find my friends?"
-      :text2: "We're working on improving the friend suggestion page, but in the mean time you can search for your buddies manually or see who among your Facebook friends or Google contacts is also using The Old Reader. We'll also send you an e-mail when someone starts following you."
+      :title2: "Comment je peux retrouver mes amis ?"
+      :text2: "Nous travaillons sur l'amélioration de la page de la suggestion des amis, mais dans le même temps vous pouvez toujours rechercher vos amis manuellement ou voir qui utilise The Old Reader via vos amis Facebook ou vos contacts Google. Aussi nous vous envoyons un mail quand quelqu'un commence à vous suivre."
       :title3: "Avez-vous une application mobile ?"
-      :text3_pre_link: "Nous n’avons pas d'application officielle, mais nous avons une"
+      :text3_pre_link: "Nous n’avons pas d'application officielle, mais nous avons une "
       :text3_link1: "API"
-      :text3_between_links: ". Elle autorise n'importe qui de développer une application pour The Old Reader, et il y a déjà"
+      :text3_between_links: ". Elle autorise n'importe qui de développer une application pour The Old Reader, et il y a déjà "
       :text3_link2: "un nombre d'applications mobiles"
       :text3_post_link: " qui supporte notre site."
-      :title4: "Will you misbehave on my Facebook like those other apps?"
-      :text4: "Absolutely not. You can post your shared items on your timeline, but unless you choose to post to Facebook, all your shares and comments will stay in The Old Reader only. We'll never post anything else on your behalf or involve you in any other shady scheme."
+      :title4: "Est-ce que vous vous comporter comme une application ordinaire de Facebook ?"
+      :text4: "Absolumment non. Vous pouvez poster vos articles partagés sur votre timeline, mais si vous choisissez de poster sur Facebook, tous vos partages et commentaires restent uniquement sur The Old Reader. Nous n’allons jamais poster n'importe quoi en votre nom ou vous impliquer dans tout autre système louche."
       :title5: "Pourquoi avez vous créer The Old Reader ?"
       :text5: "On c'est juste simplement dit qu'il manquait un lecteur original, alors nous avons bâti The Old Reader pour nous-mêmes et nos amis. Nous aimons le chemin qu'il a pris, et nous l'avons partagé avec les autres."
     supported: "Pris en charge avec amour par"
@@ -159,7 +159,7 @@ fr:
     shared: "Partagé"
     unshare: "Dé-partager"
     following: "Suivre"
-    attach_note: "Ajouter une note?"
+    attach_note: "Ajouter une note ?"
     attach: "Sauvegarder la note"
     comments:
       one: "%{count} commentaire"
@@ -168,7 +168,7 @@ fr:
       other: "%{count} commentaires"
     comment: "Commentaire"
     comment_text: "Écrire un commentaire"
-    comment_destroy_confirm: "Voulez-vous vraiment supprimer ce commentaire?"
+    comment_destroy_confirm: "Voulez-vous vraiment supprimer ce commentaire ?"
     comment_destroy_text: "Ce commentaire a été supprimé par l'utilisateur."
     post_author: "par <strong>%{author}</strong>"
     drop_add_folder: "Déposer ici pour ajouter un nouveau dossier"
@@ -194,10 +194,10 @@ fr:
     tips:
       title: "Trucs & astuces"
       items:
-        - "Press '?' or 'h' to see the list of keyboard shortcuts."
-        - "Drag & drop feeds in the menu to reorder them or to create new feed folders."
-        - "You can double click on feed or folder title to rename it."
-        - "Check out our <a href='/pages/tour'>Howto</a> page for detailed instructions on how to use The Old Reader."
+        - "Appuyer sur '?' ou 'h' pour faire apparaitre la liste des raccourcis clavier."
+        - "Glissez et déposer vos flux dans le menu permet de les réorganisés ou de créer un nouveau dossier de flux."
+        - "Vous pouvez faire un double clic sur un flux ou sur un dossier pour le renommer."
+        - "Faite un tour sur notre <a href='/pages/tour'>guide</a> pour avoir des instructions détaillés pour apprendre à comment utiliser The Old Reader."
   pages:
     home: "Accueil"
     all: "Tous les éléments"
@@ -288,7 +288,7 @@ fr:
   profile:
     follow: "Suivre"
     unfollow: "Ne plus suivre"
-    unfollow_confirm: "Do you really want to unfollow? Your shared and likes posts will not be removed."
+    unfollow_confirm: "Voulez-vous vraiment vous désabonner ? Les partages et likes ne seront pas supprimés."
     thats_you: "C'est vous !"
     following:
       one: "Suit <strong>%{count}</strong> utilisateur"
@@ -457,7 +457,7 @@ fr:
         link: "notre page uservoice"
         post_link: ". Veuillez rechercher dans les demandes existantes avant d'en créer une nouvelle, il est probable que quelqu'un ait suggéré votre idée avant. Nous n'avons pas à modérer la page uservoice, donc quand vous créez un doublon vous diminuez réellement les chances d'arriver au sommet, parce que deux demandes seront en compétition pour les votes des utilisateurs."
       forums:
-        title: "Forums Communautaire"
+        title: "Forums communautaires"
         pre_link: "Nous avons créés "
         link: "un forum sur yuku.com"
         post_link: " pour que nos utilisateurs puissent communiquer. N'hésitez pas à le rejoindre pour demander de l'aide, discuter des modifications et partager vos impressions."
@@ -488,7 +488,7 @@ fr:
         title: "Organiser vos abonnements"
         img1: "Vous pouvez 'glisser-déposer' vos abonnements et vos dossiers pour changer leurs positions. Créer un nouveau dossier est aussi simple que de déposer un abonnement dans l'espace vide sous votre dernier dossier. Les dossiers vides sont automatiquement supprimés."
         img2: "Double cliquez sur un abonnement ou sur un dossier pour le renommer."
-        img2_p2: "It's not possible to rename the default folder ('Subscriptions'), but you can move all your feeds out of it to other folders, and it will disappear completely."
+        img2_p2: "Ce n'est pas possible de renommer le dossier par défaut ('Abonnements'), mais vous pouvez déplacer tous vos flux dans d'autres dossiers, et il disparaitra complètement."
       read:
         title: "Lire les articles"
         img1: "Choisissez ce que vous voulez lire à partir du menu. Vous pouvez cliquer sur un dossier pour lire tous les abonnements que ce dossier contient."
@@ -503,12 +503,12 @@ fr:
         img3: "Vous pouvez commenter tout article partagé par vos amis - cliquez juste sur le bouton 'Commenter' et rejoignez la discussion."
       tips:
         title: "Trucs et astuces"
-        p1: "To subscribe to new feeds with a single click, configure 'http://theoldreader.com/feeds/subscribe?url=%s' in your RSS feed handler or extension;"
+        p1: "Pour vous abonné à des nouveaux flux avec un simple clique, configurer 'http://theoldreader.com/feeds/subscribe?url=%s' dans votre gestionnaire de flux RSS ou votre extension;"
         p2_pre_link: "Si vous utilisez Firefox, vous devez "
         p2_link: "appuyer ici"
         p2_post_link: " pour ajouter The Old Reader comme votre gestionnaire de flux RSS."
       finally:
-        title: "Des questions?"
+        title: "Des questions ?"
         pre_link: "Merci de faire un tour sur notre "
         link1: "base de connaissance"
         inbetween: " et n'hésitez pas à demander une assistance sur "
