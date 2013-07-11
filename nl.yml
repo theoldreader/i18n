@@ -195,7 +195,7 @@ nl:
       title: "Tips & trucs"
       items:
         - "Druk op '?' of 'h' om de lijst met sneltoetscombinaties te zien."
-        - "Sleep feeds in het menu om ze te rangschikken of nieuwe mappen aan te maken."
+        - "Versleep feeds in het menu om ze te rangschikken of nieuwe mappen aan te maken."
         - "U kunt dubbelklikken op een feed of map titel om deze te hernoemen."
         - "Kijk op onze <a href='/pages/tour'>Tutorial</a> pagina voor gedetailleerde instructies hoe The Old Reader te gebruiken."
   pages:
@@ -450,12 +450,12 @@ nl:
       p1: "We zijn erg blij een loyale gemeenschap te hebben van gebruikers die ons constant helpen het project in voorwaartse richting te stuwen. Hier zijn enkele links naar de hulpbronnen, gemaakt en onderhouden door onze gemeenschap."
       translations:
         title: "Vertalingen"
-        pre_link: "The Old Reader is vertaalt in vele talen. We hebben de vertalingen in een "
+        pre_link: "The Old Reader is vertaald in vele talen. We hebben de vertalingen in een "
         link: "afzonderlijke openbare github repo"
         post_link: " zodat iedereen er aan kan bijdragen."
       themes:
         title: "Onofficiële thema's"
-        pre_link: "Sommige gebruikers hebben gebruikersstijlen gemaakt, die het gezicht van The Old Reader in uw browser aanpassen. Er is geen garantie dat deze stijlen altijd zullen werken en de website niet laten vastlopen, maar als u voldoende moed hebt kunt u ze vinden op "
+        pre_link: "Sommige gebruikers hebben gebruikerstijlen gemaakt, die het gezicht van The Old Reader in uw browser aanpassen. Er is geen garantie dat deze stijlen altijd zullen werken en de website niet laten vastlopen, maar als u voldoende moed hebt kunt u ze vinden op "
         post_link: "."
       requests:
         title: "Functie verzoeken"
@@ -479,8 +479,8 @@ nl:
         post_link: " dat maakt dat u ons automatisch elke maand \"flattred\"."
       bitcoins: "Voor alle privacy bedachte mensen hebben we bitcoins"
       additional:
-        pre_link: "We kunnen helaas om juridische redenen geen Paypal formulier op de website zetten. Als u echter ons een significante som geld wilt sturen en Flattr of bitcoins niet kunt of wilt gebruiken "
-        link: "zend ons dan aub een berichtje"
+        pre_link: "We kunnen helaas om juridische redenen geen Paypal formulier op de website zetten. Als u echter ons een significante som geld wilt sturen en Flattr of bitcoins niet kunt of wilt gebruiken, "
+        link: "zendt ons dan aub een berichtje"
         post_link: "  en wij zullen dan een manier trachten te vinden om u een persoonlijke gift naar ons te kunnen laten sturen."
       thanks: "Wij appreciëren uw hulp! Net zo als dit jonge katje:"
     tour:
@@ -498,7 +498,7 @@ nl:
       read:
         title: "Berichten lezen"
         img1: "Kies wat u wilt lezen uit het menu. u kunt op een map klikken om alle feeds in die map te lezen."
-        img2: "Het navigatie menu lat u naar het volgende of vorige  bericht te springen met een enkele muisklik. U kunt ook overschakelen naar  'Lijstweergave' dat alle berichten laat inklappen, u de kopteksten kunt doornemen en alleen die laat uitklappen die u wilt lezen."
+        img2: "Het navigatie menu laat u naar het volgende of vorige  bericht te springen met een enkele muisklik. U kunt ook overschakelen naar  'Lijstweergave' dat alle berichten laat inklappen, u de kopteksten kunt doornemen en alleen die laat uitklappen die u wilt lezen."
         img3: "U kunt ook sneltoetsen gebruiken om te navigeren. Druk op '?' of 'h' om de lijst te zien."
         img4_p1: "Er staan actieknoppen onder elk bericht. Als u op de 'Like' knop drukt, verschijnt uw naam in de lijst van gebruikers die dit bericht ook liken. Het bericht zal ook naar uw  'Liked' map gaan."
         img4_p2: "Als u verkiest een bericht te delen, zullen al uw contacten dit onmiddellijk zien. U kunt uw gedeelde berichten op uw Facebook tijdslijn zetten (bezoek Instellingen om dat in te schakelen)."
