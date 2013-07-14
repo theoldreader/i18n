@@ -1,2 +1,2 @@
 language: python
-script: checker.py
+script: "python checker.py"
