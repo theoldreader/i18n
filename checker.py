@@ -1,5 +1,6 @@
 #!/usr/bin/env python
 import os
+import glob
 import yaml
 import sets
 import sys
@@ -50,7 +51,7 @@ def compare_dicts(master, victim, path):
     return errors
 
 def process_file(filename, master_data):
-    if filename == "%s.yml" % master or not filename.endswith('.yml'): return
+    if filename == "%s.yml" % master: return
     with open(filename, 'r') as f:
         victim_lang = os.path.basename(filename).replace('.yml','')
         victim_data = yaml.load(f)
@@ -64,7 +65,10 @@ def process_file(filename, master_data):
             for error in errors:
                 print "- %s" % error
 
+            return errors
+
 def main(args):
+    exitcode = 0
     basedir = os.path.dirname(__file__) or '.'
     with open(os.path.join(basedir, "%s.yml" % master), 'r') as master_file:
         master_data = yaml.load(master_file)[master]
@@ -72,14 +76,19 @@ def main(args):
     if len(args) > 1:
         filenames = args[1:]
     else:
-        filenames = os.listdir(basedir)
+        filenames = glob.glob(os.path.join(basedir, '*.yml'))
 
     for filename in filenames:
         filename = os.path.join(basedir, filename)
         if not os.path.exists(filename):
             filename += '.yml'
-        process_file(filename, master_data)
+        errors = process_file(filename, master_data)
+        if errors:
+            exitcode = 1
+
+    return exitcode
 
 if __name__ == "__main__":
-    main(sys.argv)
+    exitcode = main(sys.argv)
+    sys.exit(exitcode)
 
