@@ -192,12 +192,12 @@ fr:
     updated: "Mis à jour récemment"
     dead: "Flux inactifs"
     tips:
-      title: "Trucs & astuces"
+      title: "Trucs et astuces"
       items:
         - "Appuyer sur '?' ou 'h' pour faire apparaitre la liste des raccourcis clavier."
-        - "Glissez et déposer vos flux dans le menu permet de les réorganisés ou de créer un nouveau dossier de flux."
+        - "Glissez et déposer vos flux dans le menu permet de les réorganiser ou de créer un nouveau dossier de flux."
         - "Vous pouvez faire un double clic sur un flux ou sur un dossier pour le renommer."
-        - "Faite un tour sur notre <a href='/pages/tour'>guide</a> pour avoir des instructions détaillés pour apprendre à comment utiliser The Old Reader."
+        - "Faite un tour sur notre <a href='/pages/tour'>guide</a> pour avoir des instructions détaillées pour apprendre à comment utiliser The Old Reader."
   pages:
     home: "Accueil"
     all: "Tous les éléments"
@@ -350,7 +350,7 @@ fr:
       body: |
         Bienvenue %{name},
 
-        Vous pouvez confirmer compte email en utilisant le lien ci-dessous:
+        Vous pouvez confirmer le mail de votre compte en utilisant le lien ci-dessous:
         %{link}
 
         --
@@ -363,7 +363,7 @@ fr:
         Quelqu'un a demandé un lien pour changer votre mot de passe, le voici:
         %{link}
 
-        If vous n'avez pas demandé cela, merci d'ignorer cet email.
+        Si vous n'avez pas demandé cela, merci d'ignorer cet email.
         Votre mot de passe ne sera modifié tant que vous n’aurez accédé au lien ci-dessus.
 
         --
@@ -420,11 +420,11 @@ fr:
     apps:
       api:
         title: "API"
-        pre_link: "We have implemented a GoogleReader-like mobile API that allows anyone to create a mobile app working with The Old Reader. The API is documented in "
-        link: "a separate github repository"
-        post_link: ". Please drop us a note if you create an app that works with The Old Reader."
+        pre_link: "Nous avons mis en place une API mobile comme Google Reader qui autorise n'importe qui à créer une application mobile qui fonctionne avec The Old Reader. Cette API est documentée dans "
+        link: "un repo GitHub séparé"
+        post_link: ". S’il vous plait, laissez-nous une note si vous avez créé une application qui fonctionne avec The Old Reader."
       apps:
-        p1: "Please note that apps use password authentication, so you should configure yourself a password on the Settings page before using any of the apps."
+        p1: "Veuillez noter que les applications utilisent l'authentification par mot de passe, vous devez vous configurer un mot de passe dans les Réglages avant d'utiliser l'une des applications."
       extensions:
         title: "Extensions de navigateur"
         p1: "Il y a un certain nombre d'extensions de navigateurs qui facilite le suivi de vos éléments non lus."
