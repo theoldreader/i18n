@@ -1,10 +1,12 @@
 # Localizations for The Old Reader
 
+[![Build Status](https://travis-ci.org/krasnoukhov/theoldreader-i18n.png)](https://travis-ci.org/krasnoukhov/theoldreader-i18n)
+
 ## Contributing
 
 1. Fork it
 1. Change anything you want (add commits using ```git``` or simply change files using Github web interface)
-1. If you have Python and PyYAML installed, you can run ```checker.py``` or ```checker.py <your lang file>``` to verify that your translation file contains correct set of keys
+1. If you have Python and PyYAML installed, you can run ```checker.py``` or ```checker.py <your lang file>``` to verify that your translation file contains correct set of keys. Checker status is also available at [build status page](https://travis-ci.org/krasnoukhov/theoldreader-i18n).
 1. Create a new Pull Request
 
 ## Contributors
