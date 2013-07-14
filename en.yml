@@ -158,7 +158,6 @@ en:
     share: "Share"
     shared: "Shared"
     unshare: "Unshare"
-    following: "Following"
     attach_note: "Want to add a note?"
     attach: "Save note"
     comments:
@@ -203,7 +202,7 @@ en:
     all: "All items"
     liked: "Liked"
     shared: "Shared"
-    followed: "Friends"
+    following: "Following"
     import: "Import"
     search: "Search"
     settings: "Settings"
