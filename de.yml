@@ -62,6 +62,7 @@ de:
   eggs: "Wir ♥ Kätzchen"
   title: "The Old Reader"
   meta:
+    description: "The Old Reader ist der ultimative RSS-Reader. Importieren Sie Ihre Abonnements in nur einem Klick, finden Sie Freunde und teilen Sie interessante Beiträge."
     keywords: "the old reader"
   landing:
     topmenu:
@@ -81,8 +82,32 @@ de:
       title: "Anmelden via:"
       google: "Google"
       facebook: "Facebook"
+      login: "Login"
+      register: "Registrieren"
+      password: "Passswort vergessen?"
+      change_password: "Passwort ändern"
+    welcome:
+      - "Willkommen zu The Old Reader, dem ultimativen sozialen RSS-Reader. Auch wenn diese Seite sich noch im Aufbau befindet, arbeiten wir ständing an Verbesserungen und neuen Features."
+      - "Sie können sich mit einem einzigen Klick einloggen und damit beginnen, The Old Reader zu nutzen. Falls Sie erst mal Schnuppern möchten, schauen Sie sich unsere %tour% an oder lesen Sie die %trending%."
     tour: "Tour"
     trending: "Top Beiträge des Tages"
+    qa:
+      :title0: "Was macht The Old Reader?"
+      :text0: "The Old Reader erlaubt es Ihnen, Ihre tägliche Dosis an Feed-Beiträgen zu durchstöbern, mit Freunden zu teilen und zu diskutieren."
+      :title1: "Kann ich meine Abonnements umziehen?"
+      :text1: "Ja, bringen Sie Ihre Feeds einfach als OMPL-Datei mit und nutzen Sie unser \"Importieren\"-Feature."
+      :title2: "Wie finde ich meine Freunde?"
+      :text2: "Wir arbeiten daran, die Freundesvorschläge zu verbessern. In der Zwischenzeit können Sie Ihre Freunde per Hand zufügen oder nachschauen, wer von Ihren Facebook-Freunden oder Google-Kontakten bereits The Old Reader nutzt. Wir senden Ihnen außerdem eine E-Mail, wenn Ihnen jemand neues folgt."
+      :title3: "Gibt es eine App für mein Smartphone?"
+      :text3_pre_link: "Wir haben keine offizielle App, aber es gibt eine "
+      :text3_link1: "API"
+      :text3_between_links: ", die es jedem ermöglicht, selber eine App für The Old Reader zu schreiben. Es gibt bereits "
+      :text3_link2: "einige Apps "
+      :text3_post_link: ", die mit The Old Reader zusammenarbeiten."
+      :title4: "Missbraucht ihr meinen Facebook-Account wie diese ganzen anderen Apps?"
+      :text4: "Auf keinen Fall! Sie können geteilte Beiträge in Ihrer Chronik veröffentlichen, aber solange Sie einen Beitrag nicht ausdrücklich auf Facebook teilen möchten, bleibt alles innerhalb von The Old Reader. Wir werden niemals ungefragt etwas bei Facebook veröffentlichen, keine Anfragen an Ihre Freunde schicken und auch keine anderen schmutzigen Dinge mit Ihren Daten machen."
+      :title5: "Warum habt ihr The Old Reader gemacht?"
+      :text5: "Ganz einfach: Wir vermissten unseren guten alten Reader sehr und so haben wir The Old Reader für uns und unsere Freunde erschaffen. Die Entwicklung hat uns so gut gefallen, dass wir Sie einfach mit anderen Teilen wollten."
     supported: "Mit Liebe unterstützt von"
   user:
     profile: "Profil"
@@ -168,6 +193,11 @@ de:
     dead: "Stillgelegte Feeds"
     tips:
       title: "Tipps & Tricks"
+      items:
+        - "Drücken Sie '?' oder 'h', um eine Liste aller verfügbaren Tastenkürzel zu sehen."
+        - "Nutzen Sie Drag & Drop, um Feeds im Menü neu zu ordnen oder neue Ordner zu erstellen."
+        - "Ein Doppelklick auf einen Feed oder Ordner genügt, um diesen umzubenennen."
+        - "Schauen Sie sich unsere <a href='/pages/tour'>Tour</a> an, um eine detailierte Einführung in die Nutzung von The Old Reader zu erhalten."
   pages:
     home: "Home"
     all: "Alle Beiträge"
@@ -182,14 +212,34 @@ de:
     commented: "Kommentiert"
     privacy: "Datenschutzerklärung"
     trending: "Trending"
+    donate: "Spenden"
     tour: "Tour"
+    blog: "Blog"
+    status: "Serverstatus"
+    community: "Community"
+    apps: "Apps"
   settings:
     name: "Name"
     username: "Benutzername"
     email: "E-Mail"
+    username_or_email: "Benutzername/E-Mail-Adresse"
+    password: "Passwort"
+    password_confirmation: "Passwort bestätigen"
+    password_change: "Ändern"
+    password_notice: "Ihr Passwort wird erst geändert, wenn Sie auf den Button \"Änderungen speichern\" klicken"
+    token: "Token"
+    sign:
+      title: "Sie können sich wie folgt in diesen The Old Reader Account einloggen:"
+      google: "Ihr Google-Account"
+      google_email: "'%{email}' Google-Account"
+      facebook_name: "'%{name}' Facebook-Account"
+      username: "'%{username}' und Ihr Passwort (nutzen Sie diese Zugangsdaten für alle %{apps} für The Old Reader)"
+      apps: "mobilen Apps"
     ui:
       title: "Benutzeroberfläche"
       click_to_scroll: "Klick auf einen Beitrag scrollt dort hin"
+      scroll_to_read: "Scrollen durch Beiträge markiert diese als gelesen"
+      sidebar_unread_only: "Nur die Ordner/Feeds anzeigen, die ungelesene Beiträge enthalten"
       locale: "Sprache"
     feed_display_mode:
       title: "Feed-Anzeige"
@@ -227,18 +277,24 @@ de:
     email: "E-Mail"
     password: "Passwort"
     import: "Importieren"
+    started: "Der Import von Feeds ist sehr ressourcenlastig, deshalb erlaubt das System nur eine limitierte Anzahl an gleichzeitigen Import-Operationen. Momentan sind leider alle Kapazitäten belegt. Wir haben Ihre Anfrage daher in die Warteschlange gestellt."
+    queued: "Danke für das Hochladen Ihrer OPML-Datei. Wir werden in Kürze mit dem Import Ihrer Abonnements beginnen."
+    queued_notice: "Es stehen noch <strong>%{count}</strong> Nutzer vor Ihnen in der Warteschlange."
     processing: "Ihre Feeds werden im Hintergrund geladen."
     error: "Etwas ist schiefgelaufen"
     opml_empty: "Die OPML-Datei ist fehlerhaft oder leer."
+    too_many_feeds: "Aus technischen Gründne werden wir nur die ersten 1000 Feeds importieren."
+    cancel: "Import abbrechen"
   profile:
     follow: "Folgen"
     unfollow: "Nicht mehr folgen"
+    unfollow_confirm: "Möchten Sie wirklich nicht mehr folgen? Ihre geteilten und mit gefällt mir markierten Beiträge werden nicht entfernt."
     thats_you: "Das sind Sie!"
     following:
       one: "Folgt <strong>%{count}</strong> Benutzer"
       few: "Folgt <strong>%{count}</strong> Benutzern"
-      many: "Follows <strong>%{count}</strong> Benutzern"
-      other: "Follows <strong>%{count}</strong> Benutzern"
+      many: "Folgt <strong>%{count}</strong> Benutzern"
+      other: "Folgt <strong>%{count}</strong> Benutzern"
     followers:
       one: "Von <strong>%{count}</strong> Nutzer gefolgt"
       few: "Von <strong>%{count}</strong> Nutzern gefolgt"
@@ -278,3 +334,188 @@ de:
         The Old Reader Roboter.
         Sie können sich unter den Einstellungen abmelden.
         %{host}
+    import:
+      subject: "Ihre Feeds stehen bereit. Hurra!"
+      body: |
+        Hallo %{name},
+        
+        Wir freuen uns, Ihnen mitteilen zu können, dass der Import Ihrer Abonnements abgeschlossen wurde.
+        %{count} von Ihnen importierte Feeds sollten nun auf %{host} zur Verfügung stehen.
+        Danke, dass Sie The Old Reader nutzen.
+        
+        --
+        The Old Reader Roboter.
+        %{host}
+    confirmation:
+      body: |
+        Willkommen %{name},
+        
+        Bitte bestätigen Sie Ihre E-Mail-Adresse mit einem Klick auf den folgenden Link:
+        %{link}
+        
+        --
+        The Old Reader Roboter.
+        %{host}
+    password:
+      body: |
+        Hallo %{name},
+        
+        Jemand hat einen Link zur Änderung Ihres Passsworts angefordert. Hier ist er:
+        %{link}
+        
+        Falls Sie das nicht selbst waren, ignorieren Sie diese E-Mail bitte.
+        Ihr Passwort wird nicht geändert, solange Sie nicht dem Link in dieser E-Mail folgen.
+        
+        --
+        The Old Reader Roboter.
+        %{host}
+  shortcuts:
+    header: "Tastenkürzel"
+    note: "*nur für Chrome, Safari, Opera"
+    pages:
+      title: "Seitennavigation"
+      body: |
+        Shift+n, Shift+j: Nächstes Abonnement oder Ordner
+        Shift-p, Shift-k: Vorheriges Abonnement oder Ordner
+        Shift-x: Ausgewählten Ordner zuklappen
+        Shift-o: Ausgewähltes Abonnement oder Ordner öffnen
+        Shift-c: Alle Ordner zuklappen
+        Shift-e: Alle Ordner aufklappen
+        g und danach h: Zu Home wechseln
+        g und danach a: Zu Alle Beiträge wechseln
+        g und danach l: Zu Gefällt mir wechseln
+        g und danach s: Zu Geteilt wechseln
+        g und danach t: Zu Trending wechseln
+        g und danach c: Zu Kommentiert wechseln
+        g und danach f: Zu Following wechseln
+    other:
+      title: "Weitere Kürzel"
+      body: |
+        r: Aktuelle Seite neu laden
+        /: Suchfeld fokussieren
+        a: Neues Abonnement hinzufügen
+        ? or h: Dieses Fenster zeigen
+    posts:
+      title: "Kürzel für Beiträge"
+      body: |
+        Leertaste: Runterscrollen
+        Shift+Leertaste: Hochscrollen
+        Shift+a: Alle als gelesen markieren
+        j, n: Nächster Beitrag
+        k, p: Vorheriger Beitrag
+        o, v: Beitrag in einem neuen Tab öffnen
+        b: Beitrag in einem neuen Hintergrund-Tab öffnen*
+        x: Beitrag auf/zuklappen (Listenansicht)
+        l: Beitrag mit "Gefällt mir" kennzeichnen 
+        s: Beitrag teilen
+        m: Beitrag als gelesen/ungelesen markieren
+        f: Beitrag in Pocket speichern
+        c: Zu den Kommentaren scrollen und Kommentarbox öffnen
+        1: Zur Vollansicht wechseln
+        2: Zur Listenansicht wechseln
+  alerts:
+    common: "Anfrage an den Server fehlgeschlagen. Bitte versuchen Sie es später erneut"
+    posts: "Beiträge konnten nicht geladen werden"
+  page_content:
+    apps:
+      api:
+        title: "API"
+        pre_link: "Wir haben eine mobile Entwicklerschnittstelle ähnlich der Google Reader API entworfen, die es jedem ermöglicht, eine mobile Anwendung zu erstellen, die mit The Old Reader zusammenarbeitet. Die API-Dokumentation finden Sie in "
+        link: "einem separaten GitHub Repository"
+        post_link: ". Bitte schicken Sie uns eine Nachricht, wenn Sie eine App erstellt haben, die mit The Old Reader zusammenarbeitet."
+      apps:
+        title: "Smartphone-Apps und Desktop-Anwendungen"
+        p1: "Bitte beachten Sie, dass diese Anwendungen ein Passwort zur Authentifizerung benötigen. Bitte vergeben Sie zunächst in den Einstellungen ein Passwort, bevor Sie eine dieser Apps benutzen."
+      bookmarklets:
+        title: "Bookmarklets"
+        tornexto: "Bookmarklet um zum nächsten Element in einem Ordner zu wechseln"
+        tornexto_author: "von Chas. J. Owens"
+      extensions:
+        title: "Browser-Erweiterungen"
+        p1: "Es gibt eine Vielzahl an Browser-Erweiterungen, die das Verfolgen von ungelesen Beiträgen erleichtern."
+        source_code: "Quellcode"
+        chrome: "Google Chrome Erweiterung"
+        chrome_author: "von Anton Tolchanov"
+        chromeapp: "Google Chrome App"
+        chromeapp_author: "by Enrico Bacis"
+        safari: "Safari Erweiterung"
+        safari_author: "von Dmitry Kranoukhov"
+        opera: "Opera Erweiterung"
+        opera_author: "von Lazare Inepologlou"
+        firefox: "Firefox Addon"
+        firefox_author: "von Tomek Wasiak"
+    community:
+      title: "Community"
+      p1: "Wir sind unheimlich glücklich, eine treue Gemeinschaft von Nutzern zu haben, die uns ständig dabei helfen, das Projekt vorwärts zu bringen. Hier sind einige Links zu Dingen, die von der Community erstellt und unterstützt werden."
+      translations:
+        title: "Übersetzungen"
+        pre_link: "The Old Reader wurde bereits in einige Sprachen übersetzt. Wir speichern die Übersetzungen in "
+        link: "einem separaten GitHub Repository"
+        post_link: " damit jeder zur Verbesserung der Übersetzung beitragen kann."
+      themes:
+        title: "Inoffizielle Styles"
+        pre_link: "Einige Nutzer haben Styles erstellt, die das Aussehen von The Old Reader im Browser verändern. Es gibt keine Garantie, dass die Styles in Ihrem Browser laufen und das Aussehen der Seite nicht zerstören. Falls Sie das nicht abschreckt, können Sie die Styles unter "
+        post_link: " ausprobieren."
+      requests:
+        title: "Anfragen zu neuen Features"
+        pre_link: "Sie können auf "
+        link: "unserer Uservoice-Seite"
+        post_link: " für neue Features abstimmen und selber neue Features vorschlagen. Bitte suchen Sie erst nach existierden Vorschlägen, bevor Sie selbst Features vorschlagen. Wir moderieren die Uservoice-Seite nicht. Wenn Sie eine Anfrage für ein neues Feature erstellen, die bereits ein anderer Nutzer vorgeschlagen hat, sinkt die Chance, dass der Vorschlag nach ganz oben gewählt wird, weil beide Vorschläge dann um Nutzerstimmen konkurrieren."
+      forums:
+        title: "Community Forum"
+        pre_link: "Wir haben "
+        link: "ein Forum bei yuku.com"
+        post_link: " für unsere Nutzer eingerichtet. Haben Sie keine Angst beizutreten, nach Hilfe zu fragen, Verbesserungen zu diskutieren oder Ihre Gedanken mit anderen Nutzern zu teilen."
+    donate:
+      title: "Spenden"
+      p1: "Einen RSS-Reader am Laufen zu halten, erfordert einige Ressourcen. Auch wenn diese Seite relativ einfach aussieht, werden im Hintergrund teilweise alle 5 Minuten einige Millionen Feeds aktualisiert. Unsere Serverkosten sind ziemlich hoch und wir könnten uns das ohne die Unterstützung unserer großartigen Nutzer kaum leisten."
+      p2: "Es gibt einige Wege uns finanziell zu unterstützen und damit das Projekt am Leben zu erhalten:"
+      flattr:
+        pre_link: "Nutzen Sie "
+        link1: "Flattr"
+        inbetween: ". Es ist ein einfacher Weg, Geld an Autoren oder Seiten zu senden, die Ihnen gefallen. Sie können entweder eine feste Summe an uns senden oder den \"flattr\"-Button drücken. Dann wird das monatliche Budget zwischen uns und allen anderen Seiten, die Sie unterstützen, in diesem Monat geteilt. Sie können außerdem ein Abo für "
+        link2: "unseren Account bei Flattr"
+        post_link: " einrichten, sodass wir jeden Monat automatisch ein \"flattr\" erhalten."
+      bitcoins: "Für alle, die Datenschutzbedenken haben, bieten wir auch Bitcoins an"
+      additional:
+        pre_link: "Aus rechtlichen Gründen können wir leider kein PayPal Formular auf dieser Webseite anbieten. Falls Sie uns gerne eine größere Menge Geld zur Unterstützung zukommen lassen wollen und aus irgendwelchen Gründen kein Flattr oder Bitcoins nutzen möchten oder können, "
+        link: "senden Sie uns eine Nachricht"
+        post_link: ". Wir werden dann schon einen Weg finden, wie Sie uns trotzdem ein persönliches Geschenk machen können."
+      thanks: "Vielen Dank für Ihre Hilfe!"
+    tour:
+      title: "The Old Reader Tour"
+      add_feeds:
+        title: "Feeds hinzufügen"
+        p1: "Ihr neuer The Old Reader Account wird leer geliefert. Deshalb sollten Sie als Erstes ein paar Feeds abonnieren, die Sie gerne lesen möchten."
+        img1: "Nutzen Sie den \"Feed abonnieren\"-Button, um einen neuen Feed zu abonnieren. Wenn Sie eine Webseite anstatt einer direkten Feed-URL angeben, werden wir den ersten RSS-Feed dieser Seite automatisch hinzufügen."
+        img2: "Falls Sie vom Google Reader oder einem anderen RSS-Reader wechseln, der Ihre Abonnements als OPML-Datei exportieren kann, können Sie die \"Importieren\"-Funktion nutzen, um alle Ihre Feeds zu importieren. Wir werden automatisch alle Ordner erzeugen, damit Sie sich direkt wie Zuhause fühlen."
+      organize:
+        title: "Feeds organisieren"
+        img1: "Nutzen Sie Drag & Drop, um Feeds und Ordner zu ordnen. Einen neuen Ordner können Sie einfach anlegen, indem Sie einen Feed mit der Maus auf der leeren Platz unter dem letzten Ordner ziehen. Leere Ordner werden automatisch entsorgt."
+        img2: "Ein Doppelklick auf einen Feed oder Ordner genügt, um diesen umzubenennen."
+        img2_p2: "Es ist nicht möglich den Standard-Ordner (\"Abos\") zu löschen, aber Sie können alle Feeds in andere Ordner verschieben und der Ordner wird komplett verschwinden."
+      read:
+        title: "Beiträge lesen"
+        img1: "Wählen Sie im Menü, was Sie gerade lesen möchten. Klicken Sie auf einen Ordner, wenn Sie alle Feeds lesen möchten, die im Ordner enthalten sind."
+        img2: "Das Navigationsmenü erlaubt es Ihnen, mit einem Klick zum nächsten oder vorherigen Beitrag zu wechseln. Sie können außerdem zur Listenansicht wechseln, in der Sie alle Beiträge auf- und zuklappen können. Scrollen Sie durch die Titel und erweitern Sie nur die Beiträge, die Sie interessieren."
+        img3: "Sie können auch Tastenkürzel zur Navigation benutzen. Drücken Sie '?' oder 'h' um sich eine Liste der verfügbaren Kürzel anzeigen zu lassen."
+        img4_p1: "Unter jedem Beitrag finden Sie Aktionsbuttons. Drücken Sie \"Gefällt mir\" und Ihr Name erscheint in der Liste der Nutzer, denen dieser Beitrag gefällt. Der Beitrag wird dann ebenfalls im Ordner \"Gefällt mir\" angezeigt."
+        img4_p2: "Wenn Sie sich dafür entscheiden, den Beitrag zu teilen, sehen alle Ihre Kontakte ihn sofort. Sie können Beiträge außerdem auch zu Ihrer Facebook-Chronik hinzufügen (Sie müssen dieses Feature erst in den Einstellungen aktivieren)."
+      discuss:
+        title: "Über Beiträge diskutieren"
+        img1: "Feeds alleine zu lesen macht keinen Spaß. Gehen Sie auf \"Freunde finden\" um Freunde unter Ihren Facebook-Freunden oder in Ihren Google-Kontakten zu finden, die ebenfalls The Old Reader nutzen. Sie können auch nach Namen von Freunden suchen."
+        img2: "Alle geteilten Beiträge finden Sie im Ordner \"Geteilt\". Beiträge, die Ihre Freunde geteilt haben, sind im Ordner \"Following\". Wie gewohnt, können Sie entweder alle Feeds im Ordner lesen oder einen bestimmten Nutzernamen auswählen, von dem Sie alle geteilten Beiträge lesen möchten."
+        img3: "Sie können alle von Freunden geteilten Beiträge kommentieren — drücken Sie einfach auf \"Kommentieren\" und treten Sie der Diskussion bei."
+      tips:
+        title: "Tipps & Tricks"
+        p1: "Um Feeds mit einem einzigen Klick zu The Old Reader hinzuzufügen, stellen Sie 'http://theoldreader.com/feeds/subscribe?url=%s' als URL in Ihrem Handler für RSS-Feeds oder Ihrer RSS-Erweiterung ein;"
+        p2_pre_link: "Wenn Sie Firefox nutzen, "
+        p2_link: "drücken Sie einfach hier"
+        p2_post_link: ", um The Old Reader als Ihren Handler für RSS-Feeds einzustellen."
+      finally:
+        title: "Weitere Fragen?"
+        pre_link: "Schauen Sie doch in unsere "
+        link1: "FAQ"
+        inbetween: " und scheuen Sie sich nicht, in unserem "
+        link2: "Community Forum"
+        post_link: " nach Hilfe zu fragen, falls Ihnen etwas unklar ist."
