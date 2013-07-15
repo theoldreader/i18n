@@ -158,7 +158,6 @@ ru_old:
     share: "Подѣлиться" 
     shared: "Вы подѣлились" 
     unshare: "Отмѣнить" 
-    following: "Вы читаете" 
     attach_note: "Хотите добавить подпись?" 
     attach: "Добавить" 
     comments: 
@@ -203,7 +202,7 @@ ru_old:
     all: "Всѣ записи" 
     liked: "Понравилось" 
     shared: "Вы подѣлились" 
-    followed: "Друзья" 
+    following: "Друзья" 
     import: "Импортъ" 
     search: "Поискъ" 
     settings: "Настройки" 
