@@ -472,10 +472,6 @@ fr:
         link2: "votre compte Flattr"
         post_link: " qui nous fera un don \"flattr\" automatiquement tous les mois."
       bitcoins: "Pour toutes les personnes sensibles sur la vie privée, nous avons bitcoins"
-      additional:
-        pre_link: "Malheureusement, pour des raisons juridiques, nous ne pouvons pas utiliser PayPal sur le site. Toutefois, si vous souhaitez nous envoyer une importante somme d'argent et que vous ne pouvez pas utiliser Flattr ou bitcoins pour une raison ou une autre, merci "
-        link: "de nous envoyer un mot"
-        post_link: " et nous trouverons un moyen pour vous de nous envoyer un virement cadeau personnel à l'un d'entre nous."
       thanks: "Nous vous remercions de votre aide! Tout comme ce chaton:"
     tour:
       title: "The Old Reader 101"

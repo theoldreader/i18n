@@ -395,10 +395,6 @@ it:
         link2: "our account in Flattr"
         post_link: " which will make you \"flattr\" us automatically every month."
       bitcoins: "For all the privacy-concerned folks, we haz bitcoins"
-      additional:
-        pre_link: "Unfortunately, for legal reasons we cannot run a Paypal form on the website. However, if you would like to send us a significant sum of money and cannot use Flattr or bitcoins for some reason, please "
-        link: "drop us a note"
-        post_link: "  and we will figure out a way for you to send a personal gift transfer to one of us."
       thanks: "We appreciate your help! So does this kitten:"
     tour:
       title: "The Old Reader 101"

@@ -415,10 +415,6 @@ sv:
         link2: "vårt Flattr-konto"
         post_link: " som gör att du \"flattr\" oss automatiskt varje månad."
       bitcoins: "För alla som är bekymrada över sekretess, så har vi bitcoins"
-      additional:
-        pre_link: "Vi kan tyvärr inte ha ett Paypal-formulär på webbsidan (juridiska skäl). Däremot, om du vill skicka oss en betydande summa pengar och inte kan använda Flattr eller bitcoins av någon anledning, vänligen "
-        link: "skicka oss ett meddelande"
-        post_link: "så kommer vi att fundera ut ett sätt för er att skicka en överföring till oss."
       thanks: "Vi är tacksamma för din hjälp! Den här kattungen med:"
     tour:
       title: "The Old Reader - Grundkurs"

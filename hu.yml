@@ -462,10 +462,6 @@ hu:
         link2: "mi Flattr oldalunkon"
         post_link: " amitől te minden hónapban \"flattr\"-ezhetsz nekünk."
       bitcoins: "Az adatvédelmi szempontból aggályoskodóknak, van bitcoinunk is"
-      additional:
-        pre_link: "Sajnos, jogi okokból nem tehetünk Paypal űrlapot az oldalra. Azonban, ha jelentős összeget szeretnél küldeni nekünk, és nem használhatsz sem Flattr-t, sem bitcoint, kérünk"
-        link: "küldj egy levelet"
-        post_link: "  és kitalálunk egy módot arra, hogyan küldhess számunkra egy személyes ajándékot valamelyikünk számára."
       thanks: "Értékeljük a segítséget! Ahogy ez a cica is:"
     tour:
       title: "The Old Reader 101"

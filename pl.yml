@@ -412,10 +412,6 @@ pl:
         link2: "nasze konto Flattr"
         post_link: ", co spowoduje że będziemy znajdować się w waszym budżecie co miesiąc."
       bitcoins: "Dla dbających o prywatność − przyjmujemy także bitcoiny"
-      additional:
-        pre_link: "Niestety, przepisy prawa nie pozwalają nam umieścić formularza Paypal na stronie. Jeśli jednak chciałbyś przekazać nam znaczną sumę pieniędzy, a z jakichś przyczyn nie możesz użyć Flattra ani bitcoinów, "
-        link: "napisz do nas"
-        post_link: ", a zorganizujemy możliwość przesłania darowizny."
       thanks: "Bardzo cenimy sobie wasze wsparcie i pomoc! Kotek również docenia:"
     tour:
       title: "The Old Reader 101"

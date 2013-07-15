@@ -477,10 +477,6 @@ nl:
         link2: "ons account in Flattr"
         post_link: " dat maakt dat u ons automatisch elke maand \"flattred\"."
       bitcoins: "Voor alle privacy bedachte mensen hebben we bitcoins"
-      additional:
-        pre_link: "We kunnen helaas om juridische redenen geen Paypal formulier op de website zetten. Als u echter ons een significante som geld wilt sturen en Flattr of bitcoins niet kunt of wilt gebruiken, "
-        link: "zendt ons dan aub een berichtje"
-        post_link: "  en wij zullen dan een manier trachten te vinden om u een persoonlijke gift naar ons te kunnen laten sturen."
       thanks: "Wij appreciëren uw hulp! Net zo als dit jonge katje:"
     tour:
       title: "The Old Reader 101"
