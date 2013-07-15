@@ -158,7 +158,6 @@ nl:
     share: "Delen"
     shared: "Gedeeld"
     unshare: "Delen ongedaan maken"
-    following: "Volgen"
     attach_note: "Wilt u een notitie toevoegen?"
     attach: "Notitie toevoegen"
     comments:
@@ -203,7 +202,7 @@ nl:
     all: "Alle items"
     liked: "liked"
     shared: "Gedeeld"
-    followed: "Vrienden"
+    following: "Vrienden"
     import: "Importeren"
     search: "Zoeken"
     settings: "Instellingen"
