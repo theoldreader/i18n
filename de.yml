@@ -158,7 +158,6 @@ de:
     share: "Teilen"
     shared: "Geteilt"
     unshare: "Nicht mehr teilen"
-    following: "Folger"
     attach_note: "Notiz hinzufügen?"
     attach: "Notiz speichern"
     comments:
@@ -203,7 +202,7 @@ de:
     all: "Alle Beiträge"
     liked: "Gefällt mir"
     shared: "Geteilt"
-    followed: "Freunde"
+    following: "Freunde"
     import: "Importieren"
     search: "Suchen"
     settings: "Einstellungen"
@@ -477,10 +476,7 @@ de:
         link2: "unseren Account bei Flattr"
         post_link: " einrichten, sodass wir jeden Monat automatisch ein \"flattr\" erhalten."
       bitcoins: "Für alle, die Datenschutzbedenken haben, bieten wir auch Bitcoins an"
-      additional:
-        pre_link: "Aus rechtlichen Gründen können wir leider kein PayPal Formular auf dieser Webseite anbieten. Falls Sie uns gerne eine größere Menge Geld zur Unterstützung zukommen lassen wollen und aus irgendwelchen Gründen kein Flattr oder Bitcoins nutzen möchten oder können, "
-        link: "senden Sie uns eine Nachricht"
-        post_link: ". Wir werden dann schon einen Weg finden, wie Sie uns trotzdem ein persönliches Geschenk machen können."
+      note: "Bitte beachten Sie, dass wir nicht als gemeinnützige Organisation registriert sind. Alle Spenden, die Sie uns schicken, sind daher nicht steuerlich absetzbar."
       thanks: "Vielen Dank für Ihre Hilfe!"
     tour:
       title: "The Old Reader Tour"
