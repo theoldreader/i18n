@@ -430,6 +430,8 @@ nl:
         title: "Bookmarklets"
         tornexto: "Bookmarklet om naar het volgende item te gaan in een map"
         tornexto_author: "by Chas. J. Owens"
+        sidebar: "Zijbalk in-/uitschakelen"
+        sidebar_author: "by Chas. J. Owens"
       extensions:
         title: "Browser extensies"
         p1: "Er bestaan een aantal browserextensies die het volgen van uw ongelezen items makkelijker maakt:"
