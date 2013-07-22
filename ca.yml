@@ -88,7 +88,7 @@ ca:
       change_password: "Canvia la contrasenya"
     welcome:
       - "Us donem la benvinguda a The Old Reader, l'últim lector social de RSS. Ara mateix estem en fase de proves, però treballem en millores i noves funcionalitats."
-        - "Podeu registrar-vos i començar a usar The Old Reader amb un únic clic. Tot i això, si nou massa tímid, feu un tomb pel nostre %tour% o feu una ullada a %trending%."
+      - "Podeu registrar-vos i començar a usar The Old Reader amb un únic clic. Tot i això, si nou massa tímid, feu un tomb pel nostre %tour% o feu una ullada a %trending%."
     tour: "tour"
     trending: "el més llegit del dia"
     supported: "Mantingut amb amor per"
@@ -350,7 +350,7 @@ ca:
         El robot de The Old Reader.
         %{host}
   shortcuts:
-    header: "Drecers de teclat"
+    header: "Dreceres de teclat"
     note: "*Només Chrome, Safari i Opera"
     pages:
       title: "Navegació entre pàgines"
@@ -411,43 +411,43 @@ ca:
         tornexto: "Bookmarklet to go to next item in a folder"
         tornexto_author: "by Chas. J. Owens"
         sidebar: "Toggle sidebar"
-        sidebar_author: "by Chas. J. Owens"
+        sidebar_author: "per Chas. J. Owens"
       extensions:
-        title: "Browser extensions"
+        title: "Extensions de navegador"
         p1: "There is a number of browser extensions that make tracking your unread items easier."
-        source_code: "source code"
-        chrome: "Google Chrome extension"
-        chrome_author: "by Anton Tolchanov"
+        source_code: "codi font"
+        chrome: "Extensió per al Google Chrome"
+        chrome_author: "per Anton Tolchanov"
         chromeapp: "Aplicació per al Google Chrome"
         chromeapp_author: "per Enrico Bacis"
-        safari: "Extensió del Safari"
+        safari: "Extensió per al Safari"
         safari_author: "per Dmitry Kranoukhov"
-        opera: "Extensió de l'Opera"
+        opera: "Extensió per a l'Opera"
         opera_author: "per Lazare Inepologlou"
-        firefox: "Complement del Firefox"
+        firefox: "Complement per al Firefox"
         firefox_author: "per Tomek Wasiak"
     community:
-      title: "Community resources"
+      title: "Recursos de comunitat"
       p1: "We are extremely happy to have a loyal community of users who constantly help us move the project forward. Here are some links to the resources created and supported by our community."
       translations:
-        title: "Translations"
-        pre_link: "The Old Reader has been translated to many languages. We keep translations in a "
-        link: "separate public github repo"
-        post_link: " so that anyone could contribute."
+        title: "Tranduccions"
+        pre_link: "The Old Reader es troba traduït a moltes llengües. Mantenim les traduccions en un "
+        link: "repositori públic separat del github"
+        post_link: " per a que qualsevol persona interessada hi pugui col·laborar."
       themes:
-        title: "Unofficial themes"
+        title: "Temes no oficials"
         pre_link: "Some users created userstyles that change the way The Old Reader looks in your browser. There is no guarantee that these styles will always work and will not break the site for you, but if you are courageous enough to try, they are available at "
         post_link: "."
       requests:
-        title: "Peticins de funcionalitats"
-        pre_link: "You can vote for feature requests and suggest new ones on "
-        link: "our uservoice page"
+        title: "Peticions de funcionalitats"
+        pre_link: "Podeu votar per una funcionalitat i sugerir-ne de noves "
+        link: "a la nostra pàgina d'uservoice"
         post_link: ". Please search for existing requests before creating a new one, most probably somebody suggested your idea before. We do not moderate the uservoice page, so when you create a duplicate you actually decrease the chances of it getting to the top, because two requests will compete with each other for user votes."
       forums:
-        title: "Fòrums comuntaris"
-        pre_link: "We have created "
-        link: "a forum on yuku.com"
-        post_link: " for our users to communicate. Feel free to join it and ask for assistance, discuss tweaks, and share your thoughts."
+        title: "Fòrums comunitaris"
+        pre_link: "Hem creat "
+        link: "un fòrum a yuku.com"
+        post_link: " per a que els nostres usuaris es puguin comunicar. Uniu-vos-hi i demanar ajuda, discutir trucs i compartir pensaments."
     donate:
       title: "Donatius"
       p1: "Running an RSS reader requires quite a lot of resources. This might seem like a simple site, but we have to refresh several million of feeds, some as often as every 5 minutes. Our server cost is pretty high, and we would never be able to afford it without help from our awesome users."
@@ -464,17 +464,17 @@ ca:
     tour:
       title: "The Old Reader 101"
       add_feeds:
-        title: "Add feeds"
+        title: "Addició de canals"
         p1: "Your new The Old Reader account is shipped empty, so the first thing you should do is add some feeds to read."
         img1: "Use 'Add a subscription' button to subscribe to a feed. If you enter a web page URL rather than direct feed URL, we will add first RSS feed from that page automatically."
         img2: "If you are migrating from Google Reader or any other RSS software that can export subscriptions to OPML file, you can use the 'Import' feature to add all your feeds. We will even migrate all your feed folders to ensure that you feel yourself at home immediately."
       organize:
-        title: "Organize feeds"
+        title: "Organizació de canals"
         img1: "You can drag & drop feeds and folders to change their position. Creating a new feed folder is as easy as dragging a feed to an empty space below your last folder. Empty folders are removed automatically."
         img2: "Simply double-click on a feed or a folder to rename it."
         img2_p2: "It's not possible to rename the default folder ('Subscriptions'), but you can move all your feeds out of it to other folders, and it will disappear completely."
       read:
-        title: "Read posts"
+        title: "Lectura d'articles"
         img1: "Choose what you'd like to read from the menu. You can click on a folder to read all feeds that the folder contains."
         img2: "Navigation menu allows you to go to the next or previous post with a single click. You can also switch to 'List view' that collapses all posts, lets you glimpse through titles and expand only those articles you are interested in."
         img3: "You can also use keyboard shortcuts to navigate. Press '?' or 'h' to see the list."
@@ -486,7 +486,7 @@ ca:
         img2: "All posts that you have shared are in the 'Shared' folder. Items that your friends have shared are in the 'Following' folder. As usual, you can either read the whole folder or choose a specific username to see all posts shared by that user."
         img3: "You can comment on any post shared by your friends — just hit the 'Comment' button and join the discussion."
       tips:
-        title: "Tips & Tricks"
+        title: "Consells i trucs"
         p1: "To subscribe to new feeds with a single click, configure 'http://theoldreader.com/feeds/subscribe?url=%s' in your RSS feed handler or extension;"
         p2_pre_link: "If you use Firefox, just "
         p2_link: "press here"
