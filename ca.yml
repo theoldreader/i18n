@@ -62,6 +62,7 @@ ca:
   eggs: "♥ Oh! Gatets! ♥"
   title: "The Old Reader"
   meta:
+    description: "Aquest és l'últim lector RSS. Importeu les subscripcions en un clic, trobeu-hi amics i comenceu a compartir."
     keywords: "l'antic reader the old reader"
   landing:
     topmenu:
@@ -75,15 +76,40 @@ ca:
         :title: "Blog"
         :url: "http://blog.theoldreader.com/"
       - 
-        :title: "Contacteu-nos"
+        :title: "Contacte"
         :url: "http://blog.theoldreader.com/about"
     sign_in:
       title: "Inicia sessió amb:"
       google: "Google"
       facebook: "Facebook"
+      login: "Inicia sessió"
+      register: "Registre"
+      password: "Heu oblidat la constrasenya?"
+      change_password: "Canvia la contrasenya"
+    welcome:
+      - "Us donem la benvinguda a The Old Reader, l'últim lector social de RSS. Ara mateix estem en fase de proves, però treballem en millores i noves funcionalitats."
+        - "Podeu registrar-vos i començar a usar The Old Reader amb un únic clic. Tot i això, si nou massa tímid, feu un tomb pel nostre %tour% o feu una ullada a %trending%."
     tour: "tour"
     trending: "el més llegit del dia"
     supported: "Mantingut amb amor per"
+    qa:
+      :title0: "Què fa?"
+      :text0: "Us permet explorar It allows you to browse your daily dose of content with that very special bit shared by your friends, with notes and comments"
+      :title1: "Puc transferir-hi les meves subscripcions?"
+      :text1: "Sí, podeu importar els canals RSS usant la funcionalitat d'importació OMPL."
+      :title2: "Com trobo els meus amics?"
+      :text2: "Estem treballant en millorar la pàgina de suggeriments d'amics, però mentre ho fem, podeu cercar els amics manualment o entre els amics de Facebook o contactes de Google que també usen The Old Reader. També us enviem un correu quan algú comença a seguir-vos."
+      :title3: "Teniu alguna aplicació mòbil?"
+      :text3_pre_link: "No tenim cap aplicació oficial, però tenim una "
+      :text3_link1: "API"
+      :text3_between_links: ". Això permet a qualsevol escriure una aplicació per a The Old Reader, i ja n'hi ha "
+      :text3_link2: "unes quantes aplicacions mòbils"
+      :text3_post_link: " supporting our site."
+      :title4: "Will you misbehave on my Facebook like those other apps?"
+      :text4: "No, decididament no. Podeu escriure els elements compartits al vostre historial, but si no trieu publicar a Facebook, totes les comparticions i comentaris romandran a The Old Reader only. We'll never post anything else on your behalf or involve you in any other shady scheme."
+      :title5: "Per què heu fet The Old Reader?"
+      :text5: "Podem dir que trobavem a faltar molt el Reader original, per això vam fer The Old Reader per a nosaltres mateixos i els nostres amics. Ens agradà els resultat aconseguim, per això el compartim amb tothom."
+    supported: "Supported with love by"
   user:
     profile: "Perfil"
     logout: "Tanca la sessió"
@@ -300,3 +326,175 @@ ca:
         -- 
         El robot de The Old Reader.
         %{host}
+    confirmation:
+      body: |
+        Us donem la benvinguda %{name},
+        
+        Podeu confirmar el compte de correu fent clic a l'enllaç següent:
+        %{link}
+        
+        --
+        El robot de The Old Reader.
+        %{host}
+    password:
+      body: |
+        Hola %{name},
+        
+        Algú ha demanat un enllaç per canviar la contrasenya, aquí el teniu:
+        %{link}
+        
+        Si no heu sol·licitat això, ignoreu aquest correu.
+        La vostra constrasenya no es canviarà si no que accediu a l'enllaç anterior.
+        
+        --
+        El robot de The Old Reader.
+        %{host}
+  shortcuts:
+    header: "Drecers de teclat"
+    note: "*Només Chrome, Safari i Opera"
+    pages:
+      title: "Navegació entre pàgines"
+      body: |
+        shift-n, shift-j: subscripció o carpeta següent
+        shift-p, shift-k: subscripció o carpeta anterior
+        shift-x: recull la carpeta seleccionada
+        shift-o: obre la carpeta o subscripció seleccionada
+        shift-c: recull totes les carpetes
+        shift-e: expandeix totes les carpetes
+        g then h: va a l'inici
+        g then a: va a tots els elements
+        g then l: va als agradats
+        g then s: va als compartits
+        g then t: go to trending
+        g then c: va als comentats
+        g then f: go to following
+    other:
+      title: "Other shortcuts"
+      body: |
+        r: refresca la pàgina actual
+        /: focus the search field
+        a: afegeix una subscripció
+        ? o h: mostra aquesta finestra
+    posts:
+      title: "Dreceres per a articles"
+      body: |
+        space: avança la pàgina
+        shift+space: retrocedeix la pàgina
+        shift+a: mark all as read
+        j, n: article següent
+        k, p: article anterior
+        o, v: obre l'article en una pestanya nova
+        b: open post in a background tab*
+        x: toggle post (list view)
+        l: mark post as liked
+        s: comparteix un article
+        m: read/unread a post
+        f: save post to Pocket
+        c: scroll to comments and open the form
+        1: switch to full view
+        2: switch to list view
+  alerts:
+    common: "Request to the server failed, please try again later"
+    posts: "Could not load posts"
+  page_content:
+    apps:
+      api:
+        title: "API"
+        pre_link: "We have implemented a GoogleReader-like mobile API that allows anyone to create a mobile app working with The Old Reader. The API is documented in "
+        link: "a separate github repository"
+        post_link: ". Please drop us a note if you create an app that works with The Old Reader."
+      apps:
+        title: "Mobile and desktop apps"
+        p1: "Please note that apps use password authentication, so you should configure yourself a password on the Settings page before using any of the apps."
+      bookmarklets:
+        title: "Bookmarklets"
+        tornexto: "Bookmarklet to go to next item in a folder"
+        tornexto_author: "by Chas. J. Owens"
+        sidebar: "Toggle sidebar"
+        sidebar_author: "by Chas. J. Owens"
+      extensions:
+        title: "Browser extensions"
+        p1: "There is a number of browser extensions that make tracking your unread items easier."
+        source_code: "source code"
+        chrome: "Google Chrome extension"
+        chrome_author: "by Anton Tolchanov"
+        chromeapp: "Aplicació per al Google Chrome"
+        chromeapp_author: "per Enrico Bacis"
+        safari: "Extensió del Safari"
+        safari_author: "per Dmitry Kranoukhov"
+        opera: "Extensió de l'Opera"
+        opera_author: "per Lazare Inepologlou"
+        firefox: "Complement del Firefox"
+        firefox_author: "per Tomek Wasiak"
+    community:
+      title: "Community resources"
+      p1: "We are extremely happy to have a loyal community of users who constantly help us move the project forward. Here are some links to the resources created and supported by our community."
+      translations:
+        title: "Translations"
+        pre_link: "The Old Reader has been translated to many languages. We keep translations in a "
+        link: "separate public github repo"
+        post_link: " so that anyone could contribute."
+      themes:
+        title: "Unofficial themes"
+        pre_link: "Some users created userstyles that change the way The Old Reader looks in your browser. There is no guarantee that these styles will always work and will not break the site for you, but if you are courageous enough to try, they are available at "
+        post_link: "."
+      requests:
+        title: "Peticins de funcionalitats"
+        pre_link: "You can vote for feature requests and suggest new ones on "
+        link: "our uservoice page"
+        post_link: ". Please search for existing requests before creating a new one, most probably somebody suggested your idea before. We do not moderate the uservoice page, so when you create a duplicate you actually decrease the chances of it getting to the top, because two requests will compete with each other for user votes."
+      forums:
+        title: "Fòrums comuntaris"
+        pre_link: "We have created "
+        link: "a forum on yuku.com"
+        post_link: " for our users to communicate. Feel free to join it and ask for assistance, discuss tweaks, and share your thoughts."
+    donate:
+      title: "Donatius"
+      p1: "Running an RSS reader requires quite a lot of resources. This might seem like a simple site, but we have to refresh several million of feeds, some as often as every 5 minutes. Our server cost is pretty high, and we would never be able to afford it without help from our awesome users."
+      p2: "There are several ways you can help us financially and keep the project alive:"
+      flattr:
+        pre_link: "Useu "
+        link1: "Flattr"
+        inbetween: ". It is a simple way to give money to authors or services you like. You can either send us a fixed amount of money, or press the “flattr” button, and then your monthly budget would be distributed among us and other projects you helped during a given month. You can also subscribe to "
+        link2: "our account in Flattr"
+        post_link: " which will make you \"flattr\" us automatically every month."
+      bitcoins: "For all the privacy-concerned folks, we haz bitcoins"
+      note: "Please note that we are not registered as a charity, so any donations you send to us will not probably be tax-deductable."
+      thanks: "We appreciate your help! So does this kitten:"
+    tour:
+      title: "The Old Reader 101"
+      add_feeds:
+        title: "Add feeds"
+        p1: "Your new The Old Reader account is shipped empty, so the first thing you should do is add some feeds to read."
+        img1: "Use 'Add a subscription' button to subscribe to a feed. If you enter a web page URL rather than direct feed URL, we will add first RSS feed from that page automatically."
+        img2: "If you are migrating from Google Reader or any other RSS software that can export subscriptions to OPML file, you can use the 'Import' feature to add all your feeds. We will even migrate all your feed folders to ensure that you feel yourself at home immediately."
+      organize:
+        title: "Organize feeds"
+        img1: "You can drag & drop feeds and folders to change their position. Creating a new feed folder is as easy as dragging a feed to an empty space below your last folder. Empty folders are removed automatically."
+        img2: "Simply double-click on a feed or a folder to rename it."
+        img2_p2: "It's not possible to rename the default folder ('Subscriptions'), but you can move all your feeds out of it to other folders, and it will disappear completely."
+      read:
+        title: "Read posts"
+        img1: "Choose what you'd like to read from the menu. You can click on a folder to read all feeds that the folder contains."
+        img2: "Navigation menu allows you to go to the next or previous post with a single click. You can also switch to 'List view' that collapses all posts, lets you glimpse through titles and expand only those articles you are interested in."
+        img3: "You can also use keyboard shortcuts to navigate. Press '?' or 'h' to see the list."
+        img4_p1: "There are action buttons below each post. If you hit 'Like' your name will appear in the list of users who liked that post. The post will also go to your 'Liked' folder."
+        img4_p2: "If you choose to share the post, all your contacts will immediately see it. You can also post your shares to your Facebook timeline (visit Settings to enable that)."
+      discuss:
+        title: "Discuss posts"
+        img1: "It's no fun reading RSS feeds alone. Go to 'Find Friends' page to see who among your Facebook friends or Google contacts is using The Old Reader. You can also look for your friends by name."
+        img2: "All posts that you have shared are in the 'Shared' folder. Items that your friends have shared are in the 'Following' folder. As usual, you can either read the whole folder or choose a specific username to see all posts shared by that user."
+        img3: "You can comment on any post shared by your friends — just hit the 'Comment' button and join the discussion."
+      tips:
+        title: "Tips & Tricks"
+        p1: "To subscribe to new feeds with a single click, configure 'http://theoldreader.com/feeds/subscribe?url=%s' in your RSS feed handler or extension;"
+        p2_pre_link: "If you use Firefox, just "
+        p2_link: "press here"
+        p2_post_link: " to add The Old Reader as your RSS feed handler."
+      finally:
+        title: "Cap pregunta?"
+        pre_link: "Feu una ullada a la nostra "
+        link1: "base de coneixement"
+        inbetween: " i sentiu-vos lliures de demanar ajuda als "
+        link2: "fòrums comuntaris"
+        post_link: " si alguna cosa no és clara."
