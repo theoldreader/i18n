@@ -114,7 +114,6 @@ nl:
     logout: "Uitloggen"
     settings: "Instellingen"
     failure: "Het %{kind} account dat u probeert te gebruiken is reeds gekoppeld aan een ander The Old Reader account. Annuleer het ander account en herstart de handeling."
-    wrong_auth: "Iets ging er mis, attendeer ons op hello@theoldreader.com"
     becomes_active_notice: "U heeft The Old Reader al een poos niet gebruikt, daarom hebben we alleen nieuwe berichten voor u bewaard"
   feeds:
     no_feeds:

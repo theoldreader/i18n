@@ -114,7 +114,6 @@ hu:
     logout: "Kijelentkezés"
     settings: "Beállítások"
     failure: "A %{kind} fiók, amit megpróbálsz használni, már össze van kapcsolva egy másik The Old Reader fiókkal. Kérlek, szűntesd meg a másik fiókodat, és próbálkozz újra a művelettel."
-    wrong_auth: "Valami hiba történt, kérlek vedd fel velünk a kapcsolatot a hello@theoldreader.com címen"
     becomes_active_notice: "Nem használtad a The Old Readert egy ideje, úgyhogy csak a friss elemeket tartottuk meg neked"
   feeds:
     no_feeds:

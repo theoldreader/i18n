@@ -93,7 +93,6 @@ pt:
     logout: "Sair"
     settings: "Configurações"
     failure: "A conta %{kind} que você está tentando usar já foi conectada com outra conta do Old Reader. Por favor cancele sua outra conta e tente novamente."
-    wrong_auth: "Algo deu errado, por favor contate-nos em hello@theoldreader.com"
     becomes_active_notice: "Você não usou o Old Reader por algum tempo, então mantivemos apenas postagens fresquinhas para você"
   feeds:
     no_feeds:

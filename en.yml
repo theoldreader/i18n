@@ -114,7 +114,6 @@ en:
     logout: "Logout"
     settings: "Settings"
     failure: "The %{kind} account you are trying to use has already been linked to some other The Old Reader account. Please cancel your other account and retry the operation."
-    wrong_auth: "Something went wrong, please contact us at hello@theoldreader.com"
     becomes_active_notice: "You have not used The Old Reader for a while, so we kept only fresh posts for you"
   feeds:
     no_feeds:

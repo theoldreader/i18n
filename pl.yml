@@ -93,7 +93,6 @@ pl:
     logout: "Wyloguj"
     settings: "Ustawienia"
     failure: "Konto %{kind}, którego próbujesz w tej chwili użyć, zostało już połączone z innym kontem w The Old Readerze. Rozłącz je, a następnie spróbuj ponowić działanie."
-    wrong_auth: "Wystąpił błąd. Skontaktuj się z nami: hello@theoldreader.com"
     becomes_active_notice: "Nie zaglądałeś do The Old Readera przez pewien czas, więc zachowaliśmy dla ciebie tylko najświeższe posty."
   feeds:
     no_feeds:

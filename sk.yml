@@ -89,7 +89,6 @@ sk:
     logout: "Odhlásiť sa "
     settings: "Nastavenia"
     failure: "%{kind} účet ktorý sa snažíte použiť už bol použitý pre iný The Old Reader účet. Prosím zrušte svoj druhý účet a skúste to znovu."
-    wrong_auth: "Niečo sa pokazilo, prosím kontaktujte nás na hello@theoldreader.com"
     becomes_active_notice: "Už dlho ste nepoužili Váš The Old Reader, takže sme pre Vás zachovali len čerstvé správy."
   feeds:
     no_feeds:

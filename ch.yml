@@ -89,7 +89,6 @@ ch:
     logout: "退出"
     settings: "设置"
     failure: "您所使用的%{kind}帐户已经关联至另一个The Old Reader帐户。请注销您的另一个帐户并重试。"
-    wrong_auth: "出错了，请与 hello@theoldreader.com 联系"
     becomes_active_notice: "您有段时间没使用The Old Reader了，因此我们只保留了最新条目。"
   feeds:
     no_feeds:

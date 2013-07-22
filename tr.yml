@@ -89,7 +89,6 @@ tr:
     logout: "Çıkış"
     settings: "Ayarlar"
     failure: "Kullanmaya çalıştığınız %{kind} hesabı zaten başka bir The Old Reader hesabıyla ilişkilendirilmiş. Lütfen diğer hesabınızı iptal edip işlemi tekrarlayın."
-    wrong_auth: "Bir şeyler yanlış gitti, lütfen hello@theoldreader.com adresinden bizimle iletişime geçin."
     becomes_active_notice: "Bir süredit The Old Reader'ı kullanmıyordunuz, o nedenle yalnızca en yeni öğeleri tuttuk."
   feeds:
     no_feeds:

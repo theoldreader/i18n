@@ -114,7 +114,6 @@ nb:
     logout: "Logg ut"
     settings: "Innstillinger"
     failure: "%{kind}-kontoen du prøver å bruke har allerede blitt linket til en annen The Old Reader-konto. Vennligst avregistrer den andre kontoen og prøv på nytt."
-    wrong_auth: "Noe gikk galt, vennligst kontakt oss på hello@theoldreader.com"
     becomes_active_notice: "Du har ikke brukt The Old Reader på en stund, så vi har beholdt de ferskeste postene for deg"
   feeds:
     no_feeds:

@@ -89,7 +89,6 @@ de:
     logout: "Abmelden"
     settings: "Einstellungen"
     failure: "Das %{kind} Konto, das Sie verwenden wollen, wurde bereits mit einem anderen The Old Reader Konto verknüpft. Bitte kündigen Sie Ihr anderes Konto und versuchen Sie es erneut."
-    wrong_auth: "Etwas ist schiefgelaufen, bitte schreiben Sie uns an hello@theoldreader.com"
     becomes_active_notice: "Sie haben The Old Reader eine Weile nicht benutzt, daher haben wir nur die aktuellsten Artikel für Sie"
   feeds:
     no_feeds:

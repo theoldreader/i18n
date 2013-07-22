@@ -93,7 +93,6 @@ it:
     logout: "Esci"
     settings: "Impostazioni"
     failure: "L'account %{kind} che stai tentando di utilizzare è legato a qualche altro account The Old Reader. Per favore cancella il tuo altro account e tenta di nuovo l'operazione."
-    wrong_auth: "Qualcosa è andato storto, ti preghiamo di contattarci su hello@theoldreader.com"
     becomes_active_notice: "Non hai usato The Old Reader per un po, così abbiamo tenuto solo i post più freschi per te"
   feeds:
     no_feeds:

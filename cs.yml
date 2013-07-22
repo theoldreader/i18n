@@ -97,7 +97,6 @@ cs:
     logout: "Odhlášení"
     settings: "Nastavení"
     failure: "Účet %{kind} již byl asociován s jiným účtem v The Old Reader. Zrušte nejprve druhý účet a pak se pokuste o přihlášení znovu."
-    wrong_auth: "Došlo k chybě, prosím kontaktujte nás na hello@theoldreader.com."
     becomes_active_notice: "Jelikož jste The Old Reader nějakou dobu nepoužívali, uchovali jsme pro vás jen nejnovější články."
   feeds:
     no_feeds:

@@ -115,7 +115,6 @@ ca:
     logout: "Tanca la sessió"
     settings: "Ajustos"
     failure: "El compte de %{kind} que esteu intentant usar ja està enllaçat a un altre compte de The Old Reader. Cancel·leu l'altre compte i torneu a intentar-ho."
-    wrong_auth: "Alguna cosa ha fallat. Escriviu-nos a hello@theoldreader.com"
     becomes_active_notice: "No heu visitat The Old Reader des de fa una temporada, només us mostrarem els articles més frescos."
   feeds:
     no_feeds:

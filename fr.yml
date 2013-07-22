@@ -114,7 +114,6 @@ fr:
     logout: "Déconnexion"
     settings: "Réglages"
     failure: "Le %{kind} compte que vous essayez d'utiliser a déjà été lié à un autre compte dans The Old Reader. Annulez votre autre compte et recommencez l'opération."
-    wrong_auth: "Quelque chose s'est mal passé, contactez-nous à hello@theoldreader.com"
     becomes_active_notice: "Vous n'avez pas utilisé The Old Reader depuis un certain temps, nous n'avons donc gardé que les articles récents pour vous"
   feeds:
     no_feeds:

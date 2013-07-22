@@ -97,7 +97,6 @@ sv:
     logout: "Logga ut"
     settings: "Inställningar"
     failure: "%{kind}-kontot som du försöker använda har redan länkats till ett annat The Old Reader-konto. Vänligen avregistrera ditt andra konto och försök igen."
-    wrong_auth: "Något gick fel, vänligen kontakta oss på hello@theoldreader.com"
     becomes_active_notice: "Du har inte använt The Old Reader på ett tag, så vi höll några inlägg färska åt dig."
   feeds:
     no_feeds:
