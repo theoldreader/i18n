@@ -42,6 +42,9 @@ en:
       updated: "You updated your account successfully."
       update_needs_confirmation: "You updated your account successfully, but we need to verify your new email address. Please check your email and click on the confirmation link."
       destroyed: "Bye! Your account was successfully cancelled. We hope to see you again soon."
+      disabled: "Unfortunately we had to disable user registration at The Old Reader. Please take a look at our blog for more details: %{redirect}"
+      friend_notice: "We have disabled user registration at The Old Reader, and we might be making the website private. Your account will be transferred to the private site automatically. More details are available in our blog: %{redirect}"
+      non_friend_notice: "We have disabled user registration at The Old Reader, and we might be making the website private. If we do, unfortunately your account will not be transferred to the private site, so you might want to export your subscriptions as OPML and start looking for an alternative solution. More details are in available in our blog: %{redirect}"
     unlocks:
       send_instructions: "You will receive an email with instructions on how to unlock your account in a few minutes."
       unlocked: "Your account has been unlocked successfully. Please sign in to continue."
@@ -114,7 +117,7 @@ en:
     logout: "Logout"
     settings: "Settings"
     failure: "The %{kind} account you are trying to use has already been linked to some other The Old Reader account. Please cancel your other account and retry the operation."
-    becomes_active_notice: "You have not used The Old Reader for a while, so we kept only fresh posts for you"
+    becomes_active_notice: "Hey, welcome back! We haven't seen you in a while so we'll need to take a moment to rebuild your reading list. Don't worry, we've still been collecting your subscriptions. You should start seeing new unread items shortly."
   feeds:
     no_feeds:
       text: "You have no subscriptions yet. You can %{subscribe} to a new feed (how about <a href='http://blog.theoldreader.com/rss' class='feed-subscribe'>our blog</a>?) or %{import} your subscriptions.<br />If you want to learn more, %{tour}."
@@ -127,7 +130,9 @@ en:
     add_subscription: "Add a subscription"
     add: "Add"
     url: "Feed URL"
-    invalid_url: "You have provided invalid URL"
+    unavailable_url: "Feed cannot be fetched"
+    forbidden_url: "Feed cannot be fetched: access denied"
+    invalid_url: "Feed cannot be validated. Validation results: %{link}"
     empty_url: "You have not provided URL"
     loading: "Loading..."
     default_folder: "Subscriptions"
@@ -146,6 +151,7 @@ en:
     refresh: "Refresh"
     unsubscribe: "Unsubscribe"
     unsubscribe_confirm: "Do you really want to unsubscribe? Your shared and liked posts from this feed will not be removed."
+    unsubscribe_error: "Could not unsubscribe. Refresh is in progress, please try again later"
     ago: "ago"
     never: "Never"
     confirm: "Are you sure?"
