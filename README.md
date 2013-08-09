@@ -33,7 +33,7 @@ Italiano: [ggimpa](https://github.com/ggimpa), [luca74](https://github.com/luca7
 
 简体字: [ushuz](https://github.com/ushuz), [gzjoekeny](https://github.com/gzjoekeny)
 
-Deutsch: [wuhup](https://github.com/wuhup), [tehabe](https://github.com/tehabe)
+Deutsch: [wuhup](https://github.com/wuhup), [tehabe](https://github.com/tehabe), [nlsbshtr](https://github.com/nlsbshtr)
 
 Svenska: [alemacgo](https://github.com/alemacgo), [virkot](https://github.com/virkot), [Tobbe](https://github.com/Tobbe), [kokarn](https://github.com/kokarn)
 
