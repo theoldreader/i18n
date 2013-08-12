@@ -386,13 +386,13 @@ nl:
         shift-o: open geselecteerde subscriptie of map
         shift-c: alle mappen inklappen
         shift-e: Alle mappen uitklappen
-        g then h: ga naar home
-        g then a: ga naar alle items
-        g then l: ga naar liked
-        g then s: ga naar gedeeld
-        g then t: ga naar trendy
-        g then c: ga naar reacties
-        g then f: ga naar volgend
+        g daarna h: ga naar home
+        g daarna a: ga naar alle items
+        g daarna l: ga naar liked
+        g daarna s: ga naar gedeeld
+        g daarna t: ga naar trendy
+        g daarna c: ga naar reacties
+        g daarna f: ga naar volgend
     other:
       title: "Andere sneltoetscombinaties"
       body: |
