@@ -42,6 +42,9 @@ fr:
       updated: "Mise à jour de votre compte réussie."
       update_needs_confirmation: "Mise à jour de votre compte réussi, mais nous devons vérifier votre adresse mail. Merci de vérifier vos mails et de cliquer sur le lien de confirmation pour finaliser votre nouvelle adresse."
       destroyed: "Bye! Votre compte a bien été supprimé. Nous espérons vous revoir bientôt."
+      disabled: "Malheureusement, nous avons dû désactiver l'enregistrement des utilisateurs à The Old Reader. Merci de jeter un oeil sur notre blog pour plus de détails: %{redirect}"
+      friend_notice: "Nous avons désactivé l'inscription des nouveaux utilisateurs à The Old Reader, et nous pourrions rendre le site Web privé. Votre compte sera transféré automatiquement vers le site privé. Plus de détails sont disponibles sur notre blog: %{redirect}"
+      non_friend_notice: "Nous avons désactivé l'inscription des nouveaux utilisateurs à The Old Reader, et nous pourrions rendre le site Web privé. Si nous le faisons, votre compte ne sera malheureusement pas transféré, vous voudrez alors peut-être exporter vos abonnements sous OPML et commencer à chercher une solution alternative. Plus de détails sont disponibles sur notre blog: %{redirect}"
     unlocks:
       send_instructions: "Vous allez recevoir un mail contenant les instructions pour débloquer votre compte dans quelques minutes."
       unlocked: "Votre compte a bien été débloqué. Merci de vous connecter pour continuer."
@@ -127,7 +130,9 @@ fr:
     add_subscription: "Ajouter un abonnement"
     add: "Ajouter"
     url: "URL du Flux"
-    invalid_url: "Vous avez inscrit une URL invalide"
+    unavailable_url: "Le flux ne peut pas être récupérée"
+    forbidden_url: "Le flux ne peut pas être récupérée: accès refusé"
+    invalid_url: "Le flux ne peut être validé. Résultat de la validation: %{link}"
     empty_url: "Vous n'avez pas inscrit d'URL"
     loading: "Chargement en cours..."
     default_folder: "Abonnements"
@@ -146,6 +151,7 @@ fr:
     refresh: "Rafraîchir"
     unsubscribe: "Se désabonner"
     unsubscribe_confirm: "Voulez-vous vraiment vous désabonner ? Les partages et likes sur ce flux ne seront pas supprimés."
+    unsubscribe_error: "Impossible de se désabonner. Rafraichissement est en cours, veuillez réessayer plus tard"
     ago: "depuis"
     never: "Jamais"
     confirm: "Êtes-vous sûr?"
@@ -157,7 +163,6 @@ fr:
     share: "Partager"
     shared: "Partagé"
     unshare: "Dé-partager"
-    following: "Suivre"
     attach_note: "Ajouter une note ?"
     attach: "Sauvegarder la note"
     comments:
@@ -202,7 +207,7 @@ fr:
     all: "Tous les éléments"
     liked: "J'aime"
     shared: "Partagés"
-    followed: "Amis"
+    following: "Amis"
     import: "Importer"
     search: "Rechercher"
     settings: "Réglages"
@@ -423,7 +428,14 @@ fr:
         link: "un repo GitHub séparé"
         post_link: ". S’il vous plait, laissez-nous une note si vous avez créé une application qui fonctionne avec The Old Reader."
       apps:
+        title: "Applications mobiles et fixes"
         p1: "Veuillez noter que les applications utilisent l'authentification par mot de passe, vous devez vous configurer un mot de passe dans les Réglages avant d'utiliser l'une des applications."
+      bookmarklets:
+        title: "Bookmarklets"
+        tornexto: "Marquer pour aller à l'article suivant d'un dossier"
+        tornexto_author: "par Chas. J. Owens"
+        sidebar: "Basculer en sidebar"
+        sidebar_author: "par Chas. J. Owens"
       extensions:
         title: "Extensions de navigateur"
         p1: "Il y a un certain nombre d'extensions de navigateurs qui facilite le suivi de vos éléments non lus."
@@ -471,6 +483,7 @@ fr:
         link2: "votre compte Flattr"
         post_link: " qui nous fera un don \"flattr\" automatiquement tous les mois."
       bitcoins: "Pour toutes les personnes sensibles sur la vie privée, nous avons bitcoins"
+      note: "Veuillez noter que nous ne sommes pas enregistrés comme organisme de bienfaisance, les dons que vous nous transmettez ne seront probablement pas déductibles d'impôt."
       thanks: "Nous vous remercions de votre aide! Tout comme ce chaton:"
     tour:
       title: "The Old Reader 101"
