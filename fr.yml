@@ -448,7 +448,7 @@ fr:
         safari_author: "par Dmitry Kranoukhov"
         opera: "Extension Opera"
         opera_author: "par Lazare Inepologlou"
-        firefox: "Firefox addon"
+        firefox: "Module pour Firefox"
         firefox_author: "par Tomek Wasiak"
     community:
       title: "Ressources de la communauté"
