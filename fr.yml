@@ -428,13 +428,13 @@ fr:
         link: "un repo GitHub séparé"
         post_link: ". S’il vous plait, laissez-nous une note si vous avez créé une application qui fonctionne avec The Old Reader."
       apps:
-        title: "Applications mobiles et fixes"
+        title: "Applications pour mobile et ordinateur"
         p1: "Veuillez noter que les applications utilisent l'authentification par mot de passe, vous devez vous configurer un mot de passe dans les Réglages avant d'utiliser l'une des applications."
       bookmarklets:
-        title: "Bookmarklets"
-        tornexto: "Marquer pour aller à l'article suivant d'un dossier"
+        title: "Marque-pages scriptés"
+        tornexto: "Marque-page scripté pour aller à l'article suivant d'un dossier"
         tornexto_author: "par Chas. J. Owens"
-        sidebar: "Basculer en sidebar"
+        sidebar: "Masquer ou non la barre du côté"
         sidebar_author: "par Chas. J. Owens"
       extensions:
         title: "Extensions de navigateur"
@@ -486,7 +486,7 @@ fr:
       note: "Veuillez noter que nous ne sommes pas enregistrés comme organisme de bienfaisance, les dons que vous nous transmettez ne seront probablement pas déductibles d'impôt."
       thanks: "Nous vous remercions de votre aide! Tout comme ce chaton:"
     tour:
-      title: "The Old Reader 101"
+      title: "Guide"
       add_feeds:
         title: "Ajouter un abonnement"
         p1: "Votre nouveau compte The Old Reader est fournit vide, la première chose à faire est donc d'ajouter quelques abonnements à lire."
