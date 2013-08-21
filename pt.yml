@@ -42,6 +42,9 @@ pt:
       updated: "Você atualizou sua conta com sucesso."
       update_needs_confirmation: "Você atualizou sua conta com sucesso, mas temos que verificar seu novo endereco de email. Por favor verifique seu email e clique no link para finalizar a confirmação do seu novo endereço de email."
       destroyed: "Até mais! Sua conta foi cancelada com sucesso. Esperamos te ver novamente em breve."
+      disabled: "Unfortunately we had to disable user registration at The Old Reader. Please take a look at our blog for more details: %{redirect}"
+      friend_notice: "We have disabled user registration at The Old Reader, and we might be making the website private. Your account will be transferred to the private site automatically. More details are available in our blog: %{redirect}"
+      non_friend_notice: "We have disabled user registration at The Old Reader, and we might be making the website private. If we do, unfortunately your account will not be transferred to the private site, so you might want to export your subscriptions as OPML and start looking for an alternative solution. More details are in available in our blog: %{redirect}"
     unlocks:
       send_instructions: "Você receberá um email com instruções sobre como desbloquear sua conta em alguns minutos."
       unlocked: "Sua conta foi desbloqueada com sucesso. Por favor autentique-se para continuar."
@@ -62,6 +65,7 @@ pt:
   eggs: "Nós ♥ gatinhos"
   title: "The Old Reader"
   meta:
+    description: "É o leitor de RSS definitivo. Importe suas assinaturas com um clique, encontre seus amigos e comece a compartilhar."
     keywords: "the old reader"
   landing:
     topmenu:
@@ -85,8 +89,28 @@ pt:
       register: "Registrar"
       password: "Esqueceu sua senha?"
       change_password: "Alterar sua senha"
+    welcome:
+      - "Bem vindo ao Old Reader, o leitor de RSS social definitivo. Nós estamos em beta no momento, mas estamos constantemente trabalhando em melhorias e novas funcionalidades."
+      - "Você pode se registrar e começar a usar o Old Reader com um único clique. Entretanto, se você for muito tímido, por favor sinta-se livre para ver o nosso %tour% ou dar uma olhada nas %trending%."
     tour: "tour"
     trending: "postagens mais populares de hoje"
+    qa:
+      :title0: "O que ele faz?"
+      :text0: "Ele lhe permite navegar na sua dose diária de conteúdo com aquele toque muito especial de ítens compartilhados por seus amigos com anotações e comentários"
+      :title1: "Posso transferir minhas assinaturas?"
+      :text1: "Sim, você pode importar seus feeds usando nossa funcionalidade de importação de OPML."
+      :title2: "Como encontro meus amigos?"
+      :text2: "Nós estramos trabalhando para melhorar a página de sugestões de amigos, mas enquanto isso você pode procurar por eles manualmente ou ver quais dos seus amigos do Facebook ou dos contatos do Google, estão usando o Old Reader. Nós também mandamos um e-mail pra você quando alguém começa a te seguir."
+      :title3: "Vocês tem um aplicativo móvel?"
+      :text3_pre_link: "Nós não temos um aplicativo oficial, mas temos uma"
+      :text3_link1: "API"
+      :text3_between_links: ". Isso permite a todos que escrevam aplicativos para o Old Reader, e já existem "
+      :text3_link2: "alguns aplicativos"
+      :text3_post_link: " que acessam nosso site."
+      :title4: "Vocês vão se comportar mal no meu Facebook como aqueles outros aplicativos?"
+      :text4: "Absolutamente não. Você pode postar seus ítens compartilhados na sua linha do tempo, porém, a não ser que você decida fazê-lo, todos os seus compartilhamentos e curtidas são mantidos apenas no Old Reader. Nós nunca postaremos nada mais em seu nome nem lhe envolveremos em algum esquema obscuro."
+      :title5: "Por que vocês criaram o Old Reader?"
+      :text5: "Digamos apenas que nós sentimos muita falta do Reader original, então criamos o Old Reader para nós e nossos amigos. Nós gostamos de como tudo aconteceu, então compartilhamos ele com todo mundo."
     supported: "Apoiado com amor por"
   user:
     profile: "Perfil"
@@ -106,6 +130,8 @@ pt:
     add_subscription: "Adicionar uma assinatura"
     add: "Adicionar"
     url: "URL do feed"
+    unavailable_url: "O feed não pode ser obtido"
+    forbidden_url: "O feed não pode ser obtido: acesso negado"
     invalid_url: "Você forneceu uma URL inválida"
     empty_url: "Você não forneceu uma URL"
     loading: "Carregando..."
@@ -125,6 +151,7 @@ pt:
     refresh: "Atualizar"
     unsubscribe: "Cancelar assinatura"
     unsubscribe_confirm: "Deseja realmente cancelar a assinatura? Seus compartilhamentos e curtidas em postagens deste feed não serão removidos."
+    unsubscribe_error: "Não foi possível cancelar assinatura. Atualização em progresso, por favor tente novamente mais tarde"
     ago: "atrás"
     never: "Nunca"
     confirm: "Tem certeza?"
@@ -136,7 +163,6 @@ pt:
     share: "Compartilhar"
     shared: "Compartilhado"
     unshare: "Não compartilhar"
-    following: "Seguindo"
     attach_note: "Deseja adicionar uma anotação?"
     attach: "Gravar anotação"
     comments:
@@ -171,12 +197,17 @@ pt:
     dead: "Feeds mortos"
     tips:
       title: "Dicas & truques"
+      items:
+        - "Digite '?' ou 'h' para ver a lista de atalhos de teclado."
+        - "Arraste & solte os feeds no menu para reordená-los ou para criar novas pastas."
+        - "Você pode clicar duas vezes em um nome de feed ou de pasta para renomeá-los."
+        - "Veja nossa página de <a href='/pages/tour'>Guia</a> para instruções detalhadas de como usar o Old Reader."
   pages:
     home: "Início"
     all: "Todos os itens"
     liked: "Curtidos"
     shared: "Compartilhados"
-    followed: "Amigos"
+    following: "Amigos"
     import: "Importar"
     search: "Buscar"
     settings: "Configurações"
@@ -190,12 +221,24 @@ pt:
     blog: "Blog"
     status: "Status do Servidor"
     community: "Recursos da comunidade"
+    apps: "Aplicativos"
   settings:
     name: "Nome"
     username: "Nome de usuário"
     email: "Email"
+    username_or_email: "Nome de usuário/Email"
     password: "Senha"
     password_confirmation: "Confirme a senha"
+    password_change: "Alterar"
+    password_notice: "Sua senha não será alterada até que você pressione o botão 'Gravar alterações'"
+    token: "Token"
+    sign:
+      title: "Você pode fazer login nesta conta do Old Reader utilizando:"
+      google: "Sua conta Google"
+      google_email: "Conta Google '%{email}'"
+      facebook_name: "Conta Facebook '%{name}'"
+      username: "'%{username}' e sua senha (use isto em qualquer um dos %{apps} para o Old Reader)"
+      apps: "aplicativos móveis"
     ui:
       title: "Interface"
       click_to_scroll: "Clicar em uma postagem rola até ela"
@@ -249,6 +292,7 @@ pt:
   profile:
     follow: "Seguir"
     unfollow: "Deixar de seguir"
+    unfollow_confirm: "Você realmente deseja deixar de seguir? Suas postagens compartilhadas e curtidas não serão removidas."
     thats_you: "Esse(a) é você!"
     following: 
       one: "Segue <strong>%{count}</strong> usuário"
@@ -375,17 +419,24 @@ pt:
     common: "Requisição ao servidor falhou, por favor tente mais tarde"
     posts: "Não foi possível carregar as postagens"
   page_content:
-    community:
-      title: "Recursos da comunidade"
-      p1: "Nós estamos extremamente felizes de ter uma comunidade fiel de usuários que nos ajudam constantemente a mover o projeto adiante. Aqui estão alguns links para os recursos criados e apoiados por nossa comunidade."
-      translations:
-        title: "Traduções"
-        pre_link: "O Old Reader foi traduzido para várias línguas. Nós mantemos traduções em um "
-        link: "repositório público separado no github"
-        post_link: " para que todos possam contribuir."
+    apps:
+      api:
+        title: "API"
+        pre_link: "Nós implementamos uma API móvel similar a do Google Reader que permite a qualquer um criar um aplicativo que trabalhe com o Old Reader. Esta API está documentada em "
+        link: "um repositório do github"
+        post_link: ". Por favor nos avise se você criar um aplicativo que trabalhe com o Old Reader."
+      apps:
+        title: "Aplicativos móveis e desktop"
+        p1: "Por favor atente para o fato de que os aplicativos utilizam autenticação por senha, portanto você deve configurar uma na página de Configurações antes de usar qualquer um deles."
+      bookmarklets:
+        title: "Bookmarklets"
+        tornexto: "Bookmarklet para ir ao próximo item em uma pasta"
+        tornexto_author: "por Chas. J. Owens"
+        sidebar: "Alternar barra lateral"
+        sidebar_author: "por Chas. J. Owens"
       extensions:
         title: "Extensões de navegadores"
-        p1: "Há várias extensões de navegadores que tornam mais fácil acompanhar os seus ítens não lidos."
+        p1: "Há várias extensões de navegadores que facilitam o acompanhamento dos dos seus ítens não lidos."
         source_code: "código fonte"
         chrome: "extensão do Google Chrome"
         chrome_author: "por Anton Tolchanov"
@@ -397,6 +448,14 @@ pt:
         opera_author: "por Lazare Inepologlou"
         firefox: "complemento do Firefox"
         firefox_author: "por Tomek Wasiak"
+    community:
+      title: "Recursos da comunidade"
+      p1: "Nós estamos extremamente felizes de ter uma comunidade fiel de usuários que nos ajudam constantemente a mover o projeto adiante. Aqui estão alguns links para os recursos criados e apoiados por nossa comunidade."
+      translations:
+        title: "Traduções"
+        pre_link: "O Old Reader foi traduzido para várias línguas. Nós mantemos traduções em um "
+        link: "repositório público separado no github"
+        post_link: " para que todos possam contribuir."
       themes:
         title: "Temas não-oficiais"
         pre_link: "Alguns usuários criaram estilos que mudam a aparência do Old Reader no seu navegador. Não há garantia que esses estilos irão funcionar sempre e que não vão quebrar o site para você, mas se você for corajoso o suficiente para tentar, eles estão disponíveis em "
@@ -422,6 +481,7 @@ pt:
         link2: "nossa conta no Flattr"
         post_link: " que fará com que você nos \"flattr\" automaticamente todo mês."
       bitcoins: "Para todos os preocupados com privacidade, we haz bitcoins"
+      note: "Por favor note que não somos registrados como entidade filantrópica, portanto quaisquer doações que você nos enviar provavelmente não serão isentas de impostos."
       thanks: "Nós agradecemos sua ajuda! E esse gatinho também:"
     tour:
       title: "O Old Reader 101"
@@ -434,6 +494,7 @@ pt:
         title: "Organizar feeds"
         img1: "Você pode arrastar & soltar feeds e pastas para mudar suas posições. Criar uma nova pasta de feeds é simples, basta arrastar um feed até a área vazia abaixo da sua última pasta. Pastas vazias são removidas automaticamente."
         img2: "Simplesmente clique duas vezes em um feed ou pasta para renomeá-los."
+        img2_p2: "Não é posível renomear a pasta padrão ('Assinaturas'), porém você pode mover todos os seus feeds para outras pastas e ela desaparecerá completamente."
       read:
         title: "Ler postagens"
         img1: "Escolha o que você gostaria de ler pelo menu. Você pode clicar em uma pasta para ler todos os feeds que ela contém."
@@ -446,6 +507,12 @@ pt:
         img1: "Não tem graça ler feeds RSS sozinho. Vá à página 'Encontrar Amigos' para ver quais dos seus amigos do Facebook ou contatos do Google estão usando o Old Reader. Você também pode procurar pelo nome dos seus amigos."
         img2: "Todas as postagens que você compartilhar estão na pasta 'Compartilhados'. Ítens que seus amigos compartilharam estão na pasta 'Seguindo'. Como de costume, você pode ler ou a pasta toda ou escolher um nome de usuário para ver todas as postagens compartilhadas por aquele usuário."
         img3: "Você pode comentar em qualquer postagem compartilhada por seus amigos — basta apertar o botão 'Comentar' e se juntar à conversa."
+      tips:
+        title: "Dicas & Truques"
+        p1: "Para assinar novos feeds com um único clique, configure o endereço 'http://theoldreader.com/feeds/subscribe?url=%s' em sua extensão ou gerenciador de RSS;"
+        p2_pre_link: "Se você usa o Firefox, apenas "
+        p2_link: "clique aqui"
+        p2_post_link: " Para adicionar o como o seu gerenciador de RSS."
       finally:
         title: "Alguma pergunta?"
         pre_link: "Por favor dê uma olhada na nossa "
