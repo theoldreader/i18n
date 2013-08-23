@@ -324,18 +324,6 @@ nb:
         The Old Reader robot.
         Du kan alltids avregistrere deg fra disse e-postene i kontoinnstillingene dine.
         %{host}
-    import:
-      subject: "Strømmene dine er klare nå, hurra!"
-      body: |
-        Hei %{name},
-
-        Det gleder oss å informere deg at vi er ferdig med å importere de %{count} abonnementene dine.
-        Strømmene du importerte burde nå være tilgjengelig på %{host}.
-        Takk for at du bruker The Old Reader.
-
-        --
-        The Old Reader robot.
-        %{host}
     confirmation:
       body: |
         Velkommen %{name},

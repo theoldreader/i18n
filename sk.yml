@@ -288,19 +288,6 @@ sk:
         The Old Reader robot.
         Zabrániť príjmaniu týchto správ môžete na stránkach nastavení.
         %{host}
-    import:
-      subject: "Vaše článký sú pripravené!"
-      body: |
-        Dobrý deň %{name},
-        
-        S radosťou Vás informujeme, že sme dokončili spracovanie Vašich kanálov. 
-        Importovali sme %{count} položiek, ktoré sú teraz dostupne na %{host}.
-        Ďakujeme Vám za použitie The Old Reader.
-        
-        
-        -- 
-        The Old Reader robot.
-        %{host}
   shortcuts:
     header: "Klávesové skratky"
     note: "*iba pre Chrome, Safari a Operu"

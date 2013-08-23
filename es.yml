@@ -287,15 +287,3 @@ es:
         El robot de The Old Reader.
         Siempre puede desuscribirse en su página de configuración.
         %{host}
-    import:
-      subject: "Sus fuentes están listas, ¡hurra!"
-      body: |
-        Hola %{name},
-        
-        Nos complace informarle que hemos terminado de importar sus subscripciones.
-        %{count} fuentes que importó deben estar ya disponibles en %{host}.
-        Gracias por utilizar The Old Reader.
-        
-        -- 
-        El robot de The Old Reader.
-        %{host}

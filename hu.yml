@@ -323,18 +323,6 @@ hu:
         The Old Reader robotja.
         Bármikor leiratkozhatsz a beállítási lapodon.
         %{host}
-    import:
-      subject: "A csatornáid készen vannak, hurrá!"
-      body: |
-        Szia %{name},
-        
-        Örömmel tudatjuk veled, hogy befejeztük a csatornáid importálását.
-        %{count} csatornát most már elérheted a %{host}-n.
-        Köszönjük, hogy a The Old Readert használod!
-        
-        -- 
-        The Old Reader robot.
-        %{host}
     confirmation:
       body: |
         Szia %{name},

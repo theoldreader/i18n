@@ -313,18 +313,6 @@ ca:
         El robot de The Old Reader.
         Podeu canviar les preferències de correu a la pàgina de configuració.
         %{host}
-    import:
-      subject: "Els canals RSS de notícies ja estan enllestits! Visca!"
-      body: |
-        Hola %{name},
-        
-        Ens complau informar-vos que ja hem importat les vostres subscripcions.
-        Els %{count} canals RSS que heu importat estan disponibles a %{host}.
-        Gràcies per usar The Old Reader.
-        
-        -- 
-        El robot de The Old Reader.
-        %{host}
     confirmation:
       body: |
         Us donem la benvinguda %{name},

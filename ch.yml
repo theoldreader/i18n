@@ -287,15 +287,3 @@ ch:
         The Old Reader robot.
         如需退订请在设置页更改通知设置.
         %{host}
-    import:
-      subject: "您的订阅已经准备就绪, 哇哦!"
-      body: |
-        Hello %{name},
-        
-        非常高兴地通知您，我们已经完成了导入工作。
-        您导入的 %{count} 个供稿已可用，请访问%{host}。
-        感谢您使用The Old Reader。
-        
-        -- 
-        The Old Reader robot.
-        %{host}

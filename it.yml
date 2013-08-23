@@ -294,18 +294,6 @@ it:
         The Old Reader robot.
         You can always unsubscribe at your settings page.
         %{host}
-    import:
-      subject: "Yuppii!! I tuoi feed sono disponibili ora!"
-      body: |
-        Ciao %{name},
-        
-        Siamo fieri di informarti che abbiamo finito di importare le tue sottoscrizioni.
-        %{count} feeds che hai importato dovrebbero essere ora disponibili a %{host}.
-        Grazie per usare The Old Reader.
-        
-        -- 
-        The Old Reader robot.
-        %{host}
     confirmation:
       body: |
         Benvenuto\a %{name},

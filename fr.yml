@@ -338,18 +338,6 @@ fr:
         The Old Reader robot.
         Vous pouvez toujours vous désabonner sur votre page de réglage.
         %{host}
-    import:
-      subject: "Vos flux sont prêts, hourra !"
-      body: |
-        Bonjour %{name},
-
-        Nous sommes heureux de vous informer que nous avons fini d'importer vos abonnements.
-        %{count} flux que vous avez importé devraient maintenant être disponible sur %{host}.
-        Merci d'utiliser The Old Reader.
-
-        --
-        The Old Reader robot.
-        %{host}
     confirmation:
       body: |
         Bienvenue %{name},

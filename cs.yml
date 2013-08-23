@@ -304,18 +304,6 @@ cs:
         The Old Reader robot
         Tyto zprávy můžete zrušit v nastavení.
         %{host}
-    import:
-      subject: "Vaše zdroje jsou připraveny"
-      body: |
-        Ahoj, %{name}.
-        
-        S potěšením vás informujeme, že jsme dokončili import vašich zdrojů.
-        %{count} zdrojů bylo importováno a najdete je na stránce %{host}.
-        Děkujeme za používání The Old Reader.
-        
-        --
-        The Old Reader robot
-        %{host}
     confirmation:
       body: |
         Vítejte, %{name}.

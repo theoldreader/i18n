@@ -339,18 +339,6 @@ nl:
         The Old Reader robot.
         U kunt altijd uw abonnement opzeggen via de Instellingen pagina.
         %{host}
-    import:
-      subject: "Uw feeds zijn gereed, hoera!"
-      body: |
-        Hallo %{name},
-        
-        We zijn blij u te kunnen meedelen dat we gereed zijn met het importeren van uw subscripties.
-        %{count} door u geïmporteerde feeds zijn nu beschikbaar op %{host}.
-        Hartelijk dank voor het gebruiken van The Old Reader.
-        
-        --
-        The Old Reader robot.
-        %{host}
     confirmation:
       body: |
         Welkom %{name},

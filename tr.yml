@@ -285,15 +285,3 @@ tr:
         The Old Reader robotu.
         Bu iletileri almak istemiyorsanız ayarlar sayfanızı ziyaret edin.
         %{host}
-    import:
-      subject: "Feedleriniz hazır, yaşasın!"
-      body: |
-        Merhaba %{name},
-        
-        Feedlerinizin işe aktarma işleminin tamamlandığını bildirmekten dolayı mutluyuz.
-        İçe aktardığınız %{count} feede şu anda şuradan ulaşabilirsiniz: %{host}.
-        The Old Reader'ı kullandığınız için teşekkürler.
-        
-        -- 
-        The Old Reader robotu.
-        %{host}

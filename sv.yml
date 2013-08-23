@@ -298,18 +298,6 @@ sv:
         The Old Reader robot.
         Du kan alltid avregistrera från dessa mail i inställningarna för ditt konto.
         %{host}
-    import:
-      subject: "Dina flöden är redo, hurra! Länge leve Kungen!"
-      body: |
-        Hej %{name},
-        
-        Vi är glada att kunna berätta att vi har importerat klart dina %{count} prenumerationer.
-        De flöden som du importerade borde vara tillgängliga på %{host}.
-        Tack för att du använder The Old Reader.
-        
-        -- 
-        The Old Reader robot.
-        %{host}
     confirmation:
       body: |
         Välkommen %{name},

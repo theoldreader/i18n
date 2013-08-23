@@ -338,18 +338,6 @@ pt:
         O robô do Old Reader.
         Você pode sempre deixar de assinar em sua página de configurações.
         %{host}
-    import:
-      subject: "Seus feeds estão prontos, viva!"
-      body: |
-        Olá %{name},
-        
-        Estamos felizes em informar que terminamos de importar suas assinaturas.
-        Os %{count} feeds que você importou devem estar disponíveis agora em %{host}.
-        Obrigado por usar o Old Reader.
-        
-        -- 
-        O robô do Old Reader.
-        %{host}
     confirmation:
       body: |
         Bem vindo %{name},

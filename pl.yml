@@ -294,20 +294,6 @@ pl:
         Robot pocztowy The Old Reader.
         Wyłączyć powiadomienia możesz na swojej stronie ustawień.
         %{host}
-    import:
-      subject: "Twoje kanały RSS czekają na ciebie!"
-      body: |
-        Czołem, %{name}!
-        
-        Mamy przyjemność poinformować Cię, że zakończyliśmy importowanie
-        Twoich subskrypcji. Twoje kanały (%{count}), czekają na Ciebie
-        pod adresem: %{host}.
-        
-        Dziękujemy za korzystanie z The Old Readera.
-        
-        --
-        Robot pocztowy The Old Reader.
-        %{host}
     confirmation:
       body: |
         Czołem, %{name}!

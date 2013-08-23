@@ -344,7 +344,7 @@ en:
         Hello %{name},
         
         We are happy to inform you that we have finished importing your subscriptions.
-        %{count} feeds you imported should now be available at %{host}.
+        Feeds you imported should now be available at %{host}.
         Thank you for using The Old Reader.
         
         --

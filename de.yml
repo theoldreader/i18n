@@ -332,18 +332,6 @@ de:
         The Old Reader Roboter.
         Sie können sich unter den Einstellungen abmelden.
         %{host}
-    import:
-      subject: "Ihre Feeds stehen bereit. Hurra!"
-      body: |
-        Hallo %{name},
-        
-        Wir freuen uns, Ihnen mitteilen zu können, dass der Import Ihrer Abonnements abgeschlossen wurde.
-        %{count} von Ihnen importierte Feeds sollten nun auf %{host} zur Verfügung stehen.
-        Danke, dass Sie The Old Reader nutzen.
-        
-        --
-        The Old Reader Roboter.
-        %{host}
     confirmation:
       body: |
         Willkommen %{name},
