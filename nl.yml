@@ -5,7 +5,7 @@ nl:
       expired: "verlopen, vraag een nieuwe aan"
       not_found: "niet gevonden"
       already_confirmed: "Is reeds bevestigd. Tracht nu in te loggen"
-      not_locked: "Was niet vergrendeld"
+      not_locked: "Niet vergrendeld"
       not_saved:
         one: "1 fout maakte dat dit %{resource} niet kon worden opgeslagen:"
         few: "%{count} fouten maakten dat dit %{resource} niet kon worden opgeslagen:"
@@ -181,7 +181,7 @@ nl:
     unlike: "Vind-ik-niet-meer-Leuk"
     likes_count:
       zero: "%{users} vinden dit Leuk"
-      one: "%{users} en een andere vinden dit Leuk"
+      one: "%{users} en een andere vinden dit leuk"
       few: "%{users} and %{count} anderen vinden dit leuk"
       many: "%{users} and %{count} anderen vinden dit leuk"
       other: "%{users} and %{count} anderen vinden dit leuk"
@@ -205,7 +205,7 @@ nl:
   pages:
     home: "Home"
     all: "Alle items"
-    liked: "Leuk gevonden"
+    liked: "Vind-ik-Leuk"
     shared: "Gedeeld"
     following: "Vrienden"
     import: "Importeren"
