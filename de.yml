@@ -124,9 +124,11 @@ de:
     no_posts: "Hier sind noch keine Beiträge"
     no_posts_filler: "Keine Beiträge unterhalb dieser Linie. Wahrscheinlich haben Sie schon alle gelesen."
     subscribe: "Abonnieren"
-    add_subscription: "Feed abonieren"
+    add_subscription: "Feed abonnieren"
     add: "Hinzufügen"
     url: "URL"
+    unavailable_url: "Feed kann nicht gelesen werden"
+    forbidden_url: "Feed kann nicht gelesen werden: Zugriff verweigert."
     invalid_url: "Dies ist eine ungültige URL"
     empty_url: "Keine URL eingegeben"
     loading: "Laden..."
@@ -146,6 +148,7 @@ de:
     refresh: "Aktualisieren"
     unsubscribe: "Abo beenden"
     unsubscribe_confirm: "Wollen Sie das Abo wirklich beenden? Ihre geteilten und mit gefällt mir markierten Beiträge von diesem Feed werden nicht entfernt."
+    unsubscribe_error: "Das Abo konnte nicht beendet werden, da gerade eine Aktualisierung durchgeführt wird. Bitte versuchen Sie es später erneut."
     ago: "her"
     never: "Nie"
     confirm: "Sind Sie sicher?"
@@ -332,6 +335,18 @@ de:
         The Old Reader Roboter.
         Sie können sich unter den Einstellungen abmelden.
         %{host}
+    import:
+      subject: "Ihre Feeds stehen nun bereit. Hurra!"
+      body: |
+        Hallo %{name},
+        
+        Wir freuen uns, Ihnen mitteilen zu können, dass der Import Ihrer abonnierten Feeds abgeschlossen wurde.
+        Ihre Feeds sollten Ihnen nun unter %{host} bereitstehen.
+        Danke, dass Sie The Old Reader nutzen.
+        
+        --
+        The Old Reader Roboter.
+        %{host}
     confirmation:
       body: |
         Willkommen %{name},
@@ -400,7 +415,7 @@ de:
         1: Zur Vollansicht wechseln
         2: Zur Listenansicht wechseln
   alerts:
-    common: "Anfrage an den Server fehlgeschlagen. Bitte versuchen Sie es später erneut"
+    common: "Anfrage an den Server fehlgeschlagen. Bitte versuchen Sie es später erneut."
     posts: "Beiträge konnten nicht geladen werden"
   page_content:
     apps:
@@ -416,6 +431,8 @@ de:
         title: "Bookmarklets"
         tornexto: "Bookmarklet um zum nächsten Element in einem Ordner zu wechseln"
         tornexto_author: "von Chas. J. Owens"
+        sidebar: "Sidebar ein/ausblenden"
+        sidebar_author: "von Chas. J. Owens"
       extensions:
         title: "Browser-Erweiterungen"
         p1: "Es gibt eine Vielzahl an Browser-Erweiterungen, die das Verfolgen von ungelesen Beiträgen erleichtern."
