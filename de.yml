@@ -41,7 +41,7 @@ de:
       signed_up_but_locked: "Sie haben sich erfolgreich registriert. Sie können sich allerdings nicht anmelden, weil Ihr Benutzerkonto gesperrt ist."
       updated: "Sie haben Ihr Benutzerkonto erfolgreich aktualisiert."
       update_needs_confirmation: "Sie haben Ihr Benutzerkonto erfolgreich aktualisiert, aber Ihre neue E-Mail-Adresse muss noch bestätigt werden. Bitte prüfen Sie Ihre E-Mails und klicken Sie auf den Bestätigungslink, um Ihre neue E-Mail-Adresse zu bestätigen."
-      destroyed: "Auf wiedersehen! Ihr Benutzerkonto wurde erfolgreich gekündigt. Wir würden uns freuen Sie bald wieder hier begrüßen zu dürfen."
+      destroyed: "Auf Wiedersehen! Ihr Benutzerkonto wurde erfolgreich gekündigt. Wir würden uns freuen Sie bald wieder hier begrüßen zu dürfen."
     unlocks:
       send_instructions: "Sie erhalten in wenigen Minuten eine E-Mail mit Anweisungen, wie Sie Ihr Benutzerkonto entsperren können."
       unlocked: "Ihr Benutzerkonto wurde erfolgreich entsperrt. Bitte melden Sie sich an um fortzufahren."
