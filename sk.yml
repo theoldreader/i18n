@@ -15,12 +15,12 @@ sk:
   devise:
     failure:
       already_authenticated: "Už ste raz prihlásený do Vášho účtu."
-      unauthenticated: "Aby ste mohli pokračovať musíte byť prihlásený."
+      unauthenticated: "Aby ste mohli pokračovať, musíte byť prihlásený."
       unconfirmed: "Musíte potvrdiť Váš účet, aby ste mohli pokračovať."
       locked: "Váš účet je uzamknutý."
       invalid: "Nesprávne meno alebo heslo."
       invalid_token: "Nesprávny overovací kľúč."
-      timeout: "Vaš čas vypršal, pre pokračovanie sa prosím prihláste znovu."
+      timeout: "Vaš čas vypršal. Pre pokračovanie sa prosím prihláste znovu."
       inactive: "Váš účet zatiaľ nebol aktivovaný."
     sessions:
       signed_in: "Boli ste úspešne prihlásený."
@@ -36,7 +36,7 @@ sk:
       confirmed: "Váš účet bol úspešne potvrdený a boli ste prihlásený."
     registrations:
       signed_up: "Vitajte! Boli ste úspešne prihlásený."
-      signed_up_but_unconfirmed: "Správa s odkazom na overenie Vášho účtu bola odoslaná na Vášu e-mailovú adresy. Pre aktivovanie účtu prosím otvorte odkaz."
+      signed_up_but_unconfirmed: "Správa s odkazom na overenie Vášho účtu bola odoslaná na Vášu e-mailovú adresu. Pre aktivovanie účtu prosím otvorte odkaz."
       signed_up_but_inactive: "Boli ste úspešne zaregistrovaný. Bohužiaľ, zatiaľ nemôžete byť prihlásený, pretože Váš účet zatiaľ nebol aktivovaný."
       signed_up_but_locked: "Boli ste úspešne zaregistrovaný. Bohužiaľ, zatiaľ nemôžete byť prihlásený, pretože Váš účet je uzamknutý."
       updated: "Úspešne ste aktualizovali Váš účet."
@@ -95,7 +95,7 @@ sk:
       text: "Zatiaľ nemáte prihlásené žiadne kanály. Môžete %{subscribe} nové kanály. (môžete napríklad <a href='http://blog.theoldreader.com/rss' class='feed-subscribe'>náš blog</a>?) alebo %{import} vaše kanály.<br />Viac sa dozviete na %{tour}."
       subscribe: "odoberať"
       import: "importovať"
-      tour: "see the Ako na..."
+      tour: "Ako na..."
     no_posts: "Zatiaľ tu niesu žiadne články"
     no_posts_filler: "Nižšie sa už žiadne články nenachádzajú. Pravdepodobne ste ich už všetky prečítali."
     subscribe: "Prihlásiť"
@@ -126,7 +126,7 @@ sk:
     confirm: "Ste si istý?"
     mark_all_read: "Označiť všetky ako prečítané"
     search: "Vyhľadať"
-    search_limits: "Výraz, ktorý ste vyhľadali sa vo výsledkoch vyhľadávania vyskytuje veľmi často a preto sme museli obmedziť počet vúsledkov. Ak si prajete vidieť všetky výsledky, použite presnejší výraz."
+    search_limits: "Výraz, ktorý ste vyhľadali, sa vo výsledkoch vyhľadávania vyskytuje veľmi často a preto sme museli obmedziť počet výsledkov. Ak si prajete vidieť všetky výsledky, použite presnejší výraz."
     mark_read: "Označiť ako prečítané"
     mark_unread: "Označiť ako neprečítané"
     share: "Zdieľať"
