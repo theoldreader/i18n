@@ -257,11 +257,6 @@ fr:
       title: "Ordre des articles"
       normal: "Normal (les plus récents en premier)"
       reverse: "Inverse (les plus anciens en premier)"
-    social: "Social"
-    notify_when_followed: "Me notifier par mail quand quelqu'un commence à me suivre"
-    share_timeline: "Publier mes partages sur ma page Facebook"
-    connect_share_timeline: "Se connecter à Facebook pour publier vos partages"
-    show_fb_profile: "Afficher le lien de votre page Facebook sur votre profil"
     save: "Sauvegarder vos changements"
     cancel_disabled: "Vous ne pouvez pas fermer votre compte pendant que l'importation est en cours, merci de patienter."
     cancel_account:
@@ -269,11 +264,17 @@ fr:
       export: "exporter vos flux"
       cancel: "fermer votre compte"
       confirm: "Êtes-vous sûr?"
-    pocket:
-      title: "Intégration avec Pocket"
-      description: "<a href='http://getpocket.com/'>Pocket</a> (anciennement appelé Read It Later) est une application pratique qui vous permet d'arranger, de trier et de marquer des articles que vous lirez plus tard."
-      connect: "Se connecter à Pocket pour commencer à pocketer"
-      account: "Votre compte: <strong>%{username}</strong>"
+    social:
+      notify_when_followed: "Me notifier par mail quand quelqu'un commence à me suivre"
+      share_timeline: "Publier mes partages sur ma page Facebook"
+      connect_share_timeline: "Se connecter à Facebook pour publier vos partages"
+      show_fb_profile: "Afficher le lien de votre page Facebook sur votre profil"
+    readlater:
+      pocket:
+        title: "Intégration avec Pocket"
+        description: "<a href='http://getpocket.com/'>Pocket</a> (anciennement appelé Read It Later) est une application pratique qui vous permet d'arranger, de trier et de marquer des articles que vous lirez plus tard."
+        connect: "Se connecter à Pocket pour commencer à pocketer"
+        account: "Votre compte: <strong>%{username}</strong>"
   import:
     title: "Importer"
     alert: "<b>Merci de saisir votre login et mot de passe Google pour importer vos abonnements depuis Google Reader</b><br />Nous ne gardons pas vos identifiants. Vos informations vont seulement être utilisées pour récupérer vos abonnements."
@@ -366,20 +367,6 @@ fr:
     note: "*Uniquement pour Chrome, Safari et Opera."
     pages:
       title: "Naviguer entre les pages"
-      body: |
-        shift-n, shift-j: abonnement ou dossier suivant
-        shift-p, shift-k: abonnement ou dossier précédent
-        shift-x: enrouler le dossier sélectionné
-        shift-o: ouvrir l'abonnement ou le dossier sélectionné
-        shift-c: enrouler tous les dossiers
-        shift-e: dérouler tous les dossiers
-        g then h: aller à l'accueil
-        g then a: aller vers tous les articles
-        g then l: aller aux 'J'aime'
-        g then s: aller au dossier partagé
-        g then t: aller aux tendances
-        g then c: aller aux articles commentés
-        g then f: aller aux articles suivis
     other:
       title: "Autres raccourcis"
       body: |
@@ -389,22 +376,6 @@ fr:
         ? or h: montrer cette fenêtre
     posts:
       title: "Raccourcis pour les articles"
-      body: |
-        space: défiler vers le bas
-        shift+space: défiler vers le haut
-        shift+a: tous marquer comme lu
-        j, n: article suivant
-        k, p: article précédent
-        o, v: ouvre l'article dans un nouvel onglet
-        b: ouvre l'article dans un nouvel onglet en arrière-plan*
-        x: basculer l'article (list view)
-        l: marquer l'article 'J'aime'
-        s: partager un article
-        m: marquer lu/non lu un article
-        f: sauvegarder l'article vers Pocket
-        c: défiler vers les commentaires et ouvrir le formulaire
-        1: basculer vers la vue complète
-        2: basculer vers la vue en liste
   alerts:
     common: "La requête vers le serveur a échoué, merci d'essayer à nouveau un peu plus tard"
     posts: "Impossible de charger les articles"

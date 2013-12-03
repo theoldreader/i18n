@@ -207,11 +207,6 @@ ch:
       title: "显示顺序"
       normal: "新条目在前"
       reverse: "旧条目在前"
-    social: "社交网络"
-    notify_when_followed: "当我有一个新关注者时请用邮件通知我"
-    share_timeline: "将分享发布到我的Facebook"
-    connect_share_timeline: "关联Facebook"
-    show_fb_profile: "在个人档案页显示Facebook链接"
     save: "保存"
     cancel_disabled: "在导入过程中您无法注销帐户，请耐心等待。"
     cancel_account:
@@ -219,11 +214,17 @@ ch:
       export: "导出订阅"
       cancel: "注销您的帐户"
       confirm: "确定？"
-    pocket:
-      title: "Pocket integration"
-      description: "<a href='http://getpocket.com/'>Pocket</a> （原先叫Read It Later）是一款非常有用的应用，帮助你整理、标记内容， 以便稍后获取。"
-      connect: "关联Pocket"
-      account: "您的帐户: <strong>%{username}</strong>"
+    social:
+      notify_when_followed: "当我有一个新关注者时请用邮件通知我"
+      share_timeline: "将分享发布到我的Facebook"
+      connect_share_timeline: "关联Facebook"
+      show_fb_profile: "在个人档案页显示Facebook链接"
+    readlater:
+      pocket:
+        title: "Pocket integration"
+        description: "<a href='http://getpocket.com/'>Pocket</a> （原先叫Read It Later）是一款非常有用的应用，帮助你整理、标记内容， 以便稍后获取。"
+        connect: "关联Pocket"
+        account: "您的帐户: <strong>%{username}</strong>"
   import:
     title: "导入"
     alert: "<b>请输入您Google帐户的用户名及密码以从Google Reader导入您的订阅.</b><br />我们不会保存您的密码。您的帐户信息将只用来获取您的订阅。"

@@ -242,11 +242,6 @@ nb:
       title: "Innleggenes rekkefølge"
       normal: "Normal (nye innlegg først)"
       reverse: "Omvendt (gamle innlegg først)"
-    social: "Sosiale innstillinger"
-    notify_when_followed: "Varsle via e-post når noen følger deg"
-    share_timeline: "Publiser dine delte objekter på Facebook-profilen din"
-    connect_share_timeline: "Koble til Facebook for å publisere dine delte objekter"
-    show_fb_profile: "Vis link til Facebook-profilen din på profilen din"
     save: "Lagre endringer"
     cancel_disabled: "Du kan ikke avregistrere mens importen pågår, vennligst vær litt tålmodig."
     cancel_account:
@@ -254,11 +249,17 @@ nb:
       export: "eksportere strømmene dine"
       cancel: "avregistrere kontoen din"
       confirm: "Er du sikker?"
-    pocket:
-      title: "Pocket-integrasjon"
-      description: "<a href='http://getpocket.com/'>Pocket</a> (tidligere kalt Read It Later) er en hendig app for å arrangere, sortere og tagge innhold som du vil komme tilbake til senere."
-      connect: "Koble til Pocket for å bruke funksjonen"
-      account: "Din konto: <strong>%{username}</strong>"
+    social:
+      notify_when_followed: "Varsle via e-post når noen følger deg"
+      share_timeline: "Publiser dine delte objekter på Facebook-profilen din"
+      connect_share_timeline: "Koble til Facebook for å publisere dine delte objekter"
+      show_fb_profile: "Vis link til Facebook-profilen din på profilen din"
+    readlater:
+      pocket:
+        title: "Pocket-integrasjon"
+        description: "<a href='http://getpocket.com/'>Pocket</a> (tidligere kalt Read It Later) er en hendig app for å arrangere, sortere og tagge innhold som du vil komme tilbake til senere."
+        connect: "Koble til Pocket for å bruke funksjonen"
+        account: "Din konto: <strong>%{username}</strong>"
   import:
     title: "Importer"
     alert: "<b>Vennligst angi Google-brukernavnet og passordet ditt for å importere abonnementene dine fra Google Reader</b><br />Vi kommer ikke til å lagre informasjonen din. Kontoinformasjon vil bare bli brukt for å hente abonnementer."
@@ -352,20 +353,6 @@ nb:
     note: "*bare for Chrome, Safari og Opera"
     pages:
       title: "Naviger mellom sider"
-      body: |
-        shift-n, shift-j: neste abonnement eller mappe
-        shift-p, shift-k: forrige abonnement eller mappe
-        shift-x: minimer valgt mappe
-        shift-o: åpne valgt abonnement eller mappe
-        shift-c: minimer alle mapper
-        shift-e: utvid alle mapper
-        g then h: gå til hjemmeside
-        g then a: gå til alle objekter
-        g then l: gå til likte objekter
-        g then s: gå til delte objekter
-        g then t: gå til trender
-        g then c: gå til kommenterte objekter
-        g then f: gå til fulgte
     other:
       title: "Andre hurtigtaster"
       body: |
@@ -375,22 +362,6 @@ nb:
         ? or h: vis dette vinduet
     posts:
       title: "Hurtigtaster for innlegg"
-      body: |
-        space: scroll ned
-        shift+space: scroll opp
-        shift+a: marker alle som lest
-        j, n: neste innlegg
-        k, p: forrige innlegg
-        o, v: åpne innlegg i ny tab
-        b: åpne innlegg i bakgrunns-tab*
-        x: endre visningsmodus for innlegg
-        l: marker innlegg som likt
-        s: del et innlegg
-        m: marker innlegg som lest/ulest
-        f: lagre innlegg i Pocket
-        c: scroll til kommentarer og åpne skjemaet
-        1: bytt til full visning
-        2: bytt til listevisning
   alerts:
     common: "Forespørsel til serveren misslyktes, vennligst prøv igjen senere"
     posts: "Kunne ikke laste innlegg"

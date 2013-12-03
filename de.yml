@@ -254,11 +254,6 @@ de:
       title: "Reihenfolge der Beiträge"
       normal: "Normal"
       reverse: "Umgekehrt"
-    social: "Soziales"
-    notify_when_followed: "Per E-Mail benachrichtigen wenn Ihnen jemand folgt"
-    share_timeline: "Geteilte Beiträge auf Facebook veröffentlichen"
-    connect_share_timeline: "Mit Facebook verbinden um geteilte Beiträge zu veröffentlichen"
-    show_fb_profile: "Link zu Ihrer Facebook-Seite im Profil anzeigen"
     save: "Änderungen speichern"
     cancel_disabled: "Sie können Ihr Benutzerkonto nicht kündigen während ein Importvorgang läuft, bitte haben Sie Geduld."
     cancel_account:
@@ -266,11 +261,17 @@ de:
       export: "exportieren"
       cancel: "Konto kündigen"
       confirm: "Sind Sie sicher?"
-    pocket:
-      title: "Pocket-Verknüpfung"
-      description: "<a href='http://getpocket.com/'>Pocket</a> (früher Read It Later) ist eine nützliche App, mit der Sie Inhalte anordnen, sortieren und taggen können, die Sie später aufrufen wollen."
-      connect: "Mit Pocket verbinden"
-      account: "Ihr Konto: <strong>%{username}</strong>"
+    social:
+      notify_when_followed: "Per E-Mail benachrichtigen wenn Ihnen jemand folgt"
+      share_timeline: "Geteilte Beiträge auf Facebook veröffentlichen"
+      connect_share_timeline: "Mit Facebook verbinden um geteilte Beiträge zu veröffentlichen"
+      show_fb_profile: "Link zu Ihrer Facebook-Seite im Profil anzeigen"
+    readlater:
+      pocket:
+        title: "Pocket-Verknüpfung"
+        description: "<a href='http://getpocket.com/'>Pocket</a> (früher Read It Later) ist eine nützliche App, mit der Sie Inhalte anordnen, sortieren und taggen können, die Sie später aufrufen wollen."
+        connect: "Mit Pocket verbinden"
+        account: "Ihr Konto: <strong>%{username}</strong>"
   import:
     title: "Importieren"
     alert: "<b>Bitte geben Sie Ihren Google-Benutzername und Passwort ein um Ihre Abos von Google Reader zu importieren.</b><br />Wir speichern Ihre Zugangsdaten nicht. Sie werden nur verwendet um Ihre Abos zu laden."
@@ -375,20 +376,6 @@ de:
     note: "*nur für Chrome, Safari, Opera"
     pages:
       title: "Seitennavigation"
-      body: |
-        Shift+n, Shift+j: Nächstes Abonnement oder Ordner
-        Shift-p, Shift-k: Vorheriges Abonnement oder Ordner
-        Shift-x: Ausgewählten Ordner zuklappen
-        Shift-o: Ausgewähltes Abonnement oder Ordner öffnen
-        Shift-c: Alle Ordner zuklappen
-        Shift-e: Alle Ordner aufklappen
-        g und danach h: Zu Home wechseln
-        g und danach a: Zu Alle Beiträge wechseln
-        g und danach l: Zu Gefällt mir wechseln
-        g und danach s: Zu Geteilt wechseln
-        g und danach t: Zu Trending wechseln
-        g und danach c: Zu Kommentiert wechseln
-        g und danach f: Zu Following wechseln
     other:
       title: "Weitere Kürzel"
       body: |
@@ -398,22 +385,6 @@ de:
         ? or h: Dieses Fenster zeigen
     posts:
       title: "Kürzel für Beiträge"
-      body: |
-        Leertaste: Runterscrollen
-        Shift+Leertaste: Hochscrollen
-        Shift+a: Alle als gelesen markieren
-        j, n: Nächster Beitrag
-        k, p: Vorheriger Beitrag
-        o, v: Beitrag in einem neuen Tab öffnen
-        b: Beitrag in einem neuen Hintergrund-Tab öffnen*
-        x: Beitrag auf/zuklappen (Listenansicht)
-        l: Beitrag mit "Gefällt mir" kennzeichnen 
-        s: Beitrag teilen
-        m: Beitrag als gelesen/ungelesen markieren
-        f: Beitrag in Pocket speichern
-        c: Zu den Kommentaren scrollen und Kommentarbox öffnen
-        1: Zur Vollansicht wechseln
-        2: Zur Listenansicht wechseln
   alerts:
     common: "Anfrage an den Server fehlgeschlagen. Bitte versuchen Sie es später erneut."
     posts: "Beiträge konnten nicht geladen werden"

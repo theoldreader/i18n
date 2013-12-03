@@ -257,11 +257,6 @@ pt:
       title: "Ordem das postagens"
       normal: "Normal"
       reverse: "Inversa"
-    social: "Coisas sociais"
-    notify_when_followed: "Notificar por email quando alguém começa a te seguir"
-    share_timeline: "Publicar seus compartilhamentos na sua página do Facebook"
-    connect_share_timeline: "Conectar ao Facebook para publicar seus compartilhamentos"
-    show_fb_profile: "Mostrar link para a sua página do Facebook em seu perfil"
     save: "Gravar alterações"
     cancel_disabled: "Você não pode cancelar sua conta enquanto uma importação estiver ocorrendo, por favor seja paciente."
     cancel_account:
@@ -269,11 +264,17 @@ pt:
       export: "exportar seus feeds"
       cancel: "cancelar sua conta"
       confirm: "Tem certeza?"
-    pocket:
-      title: "Integração com o Pocket"
-      description: "<a href='http://getpocket.com/'>Pocket</a> (chamado anteriormente Read It Later) é um app útil que lhe permite organizar, ordenar e marcar conteúdo que você pretende acessar posteriormente."
-      connect: "Conecte ao Pocket para começar o pocketing"
-      account: "Sua conta: <strong>%{username}</strong>"
+    social:
+      notify_when_followed: "Notificar por email quando alguém começa a te seguir"
+      share_timeline: "Publicar seus compartilhamentos na sua página do Facebook"
+      connect_share_timeline: "Conectar ao Facebook para publicar seus compartilhamentos"
+      show_fb_profile: "Mostrar link para a sua página do Facebook em seu perfil"
+    readlater:
+      pocket:
+        title: "Integração com o Pocket"
+        description: "<a href='http://getpocket.com/'>Pocket</a> (chamado anteriormente Read It Later) é um app útil que lhe permite organizar, ordenar e marcar conteúdo que você pretende acessar posteriormente."
+        connect: "Conecte ao Pocket para começar o pocketing"
+        account: "Sua conta: <strong>%{username}</strong>"
   import:
     title: "Importar"
     alert: "<b>Por favor informe seu usuário e senha Google para importar suas assinaturas do Google Reader</b><br />Nós não armazenaremos suas credenciais. A informação da conta será utilizada apenas para obter suas assinaturas."
@@ -378,18 +379,6 @@ pt:
     note: "*Apenas Chrome, Safari e Opera"
     pages:
       title: "Navegar entre páginas"
-      body: |
-        shift-n: assinatura ou pasta seguinte
-        shift-p: assinatura ou pasta anterior
-        shift-x: fechar pasta selecionada
-        shift-o: abrir pasta ou assinatura selecionada
-        g depois h: ir para início
-        g depois a: ir para todos os ítens
-        g depois l: ir para curtidos
-        g depois s: ir para compartilhados
-        g depois t: ir para tendências
-        g depois c: ir para comentados
-        g depois f: ir para seguidos
     other:
       title: "Outros atalhos"
       body: |
@@ -399,22 +388,6 @@ pt:
         ? or h: exibir esta janela
     posts:
       title: "Atalhos para postagens"
-      body: |
-        space: rolar para baixo
-        shift+space: rolar para cima
-        shift+a: marcar todas como lidas
-        j, n: postagem seguinte
-        k, p: postagem anterior
-        o, v: abrir postagem em nova aba
-        b: abrir postagem em uma aba em segundo plano*
-        x: alternar postagem (visualização em lista)
-        l: marcar postagem como curtida
-        s: compartilhar postagem
-        m: marcar postagem como lida/não-lida
-        f: enviar postagem ao Pocket
-        c: rolar até os comentários e abrir o campo
-        1: mudar para o modo de visualização completa
-        2: mudar para o modo de visualização em lista
   alerts:
     common: "Requisição ao servidor falhou, por favor tente mais tarde"
     posts: "Não foi possível carregar as postagens"

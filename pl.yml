@@ -214,11 +214,6 @@ pl:
       title: "Kolejność postów"
       normal: "Najnowsze na górze"
       reverse: "Najstarsze na górze"
-    social: "Ustawienia społecznościowe"
-    notify_when_followed: "Powiadom e-mailem kiedy ktoś zacznie obserwować"
-    share_timeline: "Publikuj udostępniane na Facebooku"
-    connect_share_timeline: "Połącz z Facebookiem, aby publikować udostępniane"
-    show_fb_profile: "Pokaż w profilu link do konta na Facebooku"
     save: "Zapisz zmiany"
     cancel_disabled: "Nie można usunąć konta dopóki trwa import, prosimy o cierpliwość."
     cancel_account:
@@ -226,11 +221,17 @@ pl:
       export: "eksport kanałów"
       cancel: "usunięcie konta"
       confirm: "Czy na pewno?"
-    pocket:
-      title: "Integracja z Pocket"
-      description: "<a href='http://getpocket.com/'>Pocket</a> (dawniej pod nazwą „Read It Later”) to aplikacja służąca do przechowywania treści, do których chciałbyś wrócić później. Umożliwia także dowolne sortowanie ich i stosowanie tagów."
-      connect: "Połącz z Pocket"
-      account: "Twoje konto: <strong>%{username}</strong>"
+    social:
+      notify_when_followed: "Powiadom e-mailem kiedy ktoś zacznie obserwować"
+      share_timeline: "Publikuj udostępniane na Facebooku"
+      connect_share_timeline: "Połącz z Facebookiem, aby publikować udostępniane"
+      show_fb_profile: "Pokaż w profilu link do konta na Facebooku"
+    readlater:
+      pocket:
+        title: "Integracja z Pocket"
+        description: "<a href='http://getpocket.com/'>Pocket</a> (dawniej pod nazwą „Read It Later”) to aplikacja służąca do przechowywania treści, do których chciałbyś wrócić później. Umożliwia także dowolne sortowanie ich i stosowanie tagów."
+        connect: "Połącz z Pocket"
+        account: "Twoje konto: <strong>%{username}</strong>"
   import:
     title: "Importuj"
     alert: "<b>Aby zaimportować swoje subskrypcje z Google Readera, podaj nazwę użytkownika i hasło do konta Google.</b><br />Nie będziemy przechowywać twoich danych logowania. Zostaną one użyte wyłącznie do pobrania twoich subskrypcji."
@@ -330,22 +331,6 @@ pl:
         ? lub H: pokaż to okno
     posts:
       title: "Operacje na postach"
-      body: |
-        Spacja: przewiń w dół
-        Shift + spacja: przewiń w górę
-        Shift + A: oznacz wszystkie jako przeczytane
-        J lub N: następny post
-        K lub P: poprzedni post
-        O: otwórz post w nowej karcie
-        B: otwórz post w nowej karcie w tle*
-        X: zwiń/rozwiń post (w widoku listy)
-        L: polub post
-        S: udostępnij post
-        M: oznacz post jako przeczytany/nieprzeczytany
-        F: dodaj post do Pocket
-        C: dodaj komentarz
-        1: przełącz na pełen widok
-        2: przełącz na widok listy
   alerts:
     common: "Serwer niedostępny, spróbuj ponownie później"
     posts: "Załadowanie postów niemożliwe"

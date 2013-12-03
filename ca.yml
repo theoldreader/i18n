@@ -233,11 +233,6 @@ ca:
       title: "Ordre dels articles"
       normal: "Normal"
       reverse: "Invers"
-    social: "Social"
-    notify_when_followed: "Notifica per correu electrònic quan algú us comença a seguir"
-    share_timeline: "Publica els articles compartits a Facebook"
-    connect_share_timeline: "Connecta a Facebook per compartir-hi articles"
-    show_fb_profile: "Mostra un enllaç al Facebook al vostre perfil"
     save: "Desa els canvis"
     cancel_disabled: "No podeu cancel·lar el vostre compte mentre hi ha una importació en curs, un xic de paciència."
     cancel_account:
@@ -245,11 +240,17 @@ ca:
       export: "exportar els teus canals RSS"
       cancel: "cancel·lar el teu compte"
       confirm: "N'esteu segur?"
-    pocket:
-      title: "Integració amb Pocket"
-      description: "<a href='http://getpocket.com/'>Pocket</a> (abans Read It Later) és una aplicació que us permet marcar i organitzar articles per llegir més endavant."
-      connect: "Connecta a Pocket per començar a marcar"
-      account: "Compte: <strong>%{username}</strong>"
+    social:
+      notify_when_followed: "Notifica per correu electrònic quan algú us comença a seguir"
+      share_timeline: "Publica els articles compartits a Facebook"
+      connect_share_timeline: "Connecta a Facebook per compartir-hi articles"
+      show_fb_profile: "Mostra un enllaç al Facebook al vostre perfil"
+    readlater:
+      pocket:
+        title: "Integració amb Pocket"
+        description: "<a href='http://getpocket.com/'>Pocket</a> (abans Read It Later) és una aplicació que us permet marcar i organitzar articles per llegir més endavant."
+        connect: "Connecta a Pocket per començar a marcar"
+        account: "Compte: <strong>%{username}</strong>"
   import:
     title: "Importació"
     alert: "<b>Introduïu el vostre usuari i contrasenya de Google per importar les subscripcions del Google Reader</b><br />No desarem les vostres credencials. La informació del compte només l'usarem per obtenir les subscripcions."
@@ -341,20 +342,6 @@ ca:
     note: "*Només Chrome, Safari i Opera"
     pages:
       title: "Navegació entre pàgines"
-      body: |
-        shift-n, shift-j: subscripció o carpeta següent
-        shift-p, shift-k: subscripció o carpeta anterior
-        shift-x: recull la carpeta seleccionada
-        shift-o: obre la carpeta o subscripció seleccionada
-        shift-c: recull totes les carpetes
-        shift-e: expandeix totes les carpetes
-        g then h: va a l'inici
-        g then a: va a tots els elements
-        g then l: va als agradats
-        g then s: va als compartits
-        g then t: go to trending
-        g then c: va als comentats
-        g then f: go to following
     other:
       title: "Other shortcuts"
       body: |
@@ -364,22 +351,6 @@ ca:
         ? o h: mostra aquesta finestra
     posts:
       title: "Dreceres per a articles"
-      body: |
-        space: avança la pàgina
-        shift+space: retrocedeix la pàgina
-        shift+a: mark all as read
-        j, n: article següent
-        k, p: article anterior
-        o, v: obre l'article en una pestanya nova
-        b: open post in a background tab*
-        x: toggle post (list view)
-        l: mark post as liked
-        s: comparteix un article
-        m: read/unread a post
-        f: save post to Pocket
-        c: scroll to comments and open the form
-        1: switch to full view
-        2: switch to list view
   alerts:
     common: "Request to the server failed, please try again later"
     posts: "Could not load posts"

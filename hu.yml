@@ -242,11 +242,6 @@ hu:
       title: "Elemek sorrendje"
       normal: "Normális"
       reverse: "Fordított"
-    social: "Közösségi dolgok"
-    notify_when_followed: "Küldjön emailt, ha valaki követni kezd téged"
-    share_timeline: "Közzétegye a megosztásaidat a Facebook oldaladon"
-    connect_share_timeline: "Kapcsolódjon a Facebookhoz, hogy közzétegye a megosztásaidat"
-    show_fb_profile: "Mutassa a Facebook oldalad linkjét a profilodon"
     save: "Módosítások mentése"
     cancel_disabled: "Nem szűntetheted meg a fiókodat, miközben az importálás folyamatban van, kérlek várj türelemmel."
     cancel_account:
@@ -254,11 +249,17 @@ hu:
       export: "exportálhatod csatornáidat"
       cancel: "megszűntetheted fiókodat"
       confirm: "Biztos vagy benne?"
-    pocket:
-      title: "Pocket integráció"
-      description: "A <a href='http://getpocket.com/'>Pocket</a> (korábbi nevén Read It Later) egy ügyes alkalmazás, mellyel rendezheted, válogathatod, és címkézheted azokat a tartalmakat, melyekhez később szeretnél hozzáférni."
-      connect: "Kapcsolódás a Pockethez az indításhoz"
-      account: "Fiókod: <strong>%{username}</strong>"
+    social:
+      notify_when_followed: "Küldjön emailt, ha valaki követni kezd téged"
+      share_timeline: "Közzétegye a megosztásaidat a Facebook oldaladon"
+      connect_share_timeline: "Kapcsolódjon a Facebookhoz, hogy közzétegye a megosztásaidat"
+      show_fb_profile: "Mutassa a Facebook oldalad linkjét a profilodon"
+    readlater:
+      pocket:
+        title: "Pocket integráció"
+        description: "A <a href='http://getpocket.com/'>Pocket</a> (korábbi nevén Read It Later) egy ügyes alkalmazás, mellyel rendezheted, válogathatod, és címkézheted azokat a tartalmakat, melyekhez később szeretnél hozzáférni."
+        connect: "Kapcsolódás a Pockethez az indításhoz"
+        account: "Fiókod: <strong>%{username}</strong>"
   import:
     title: "Importálás"
     alert: "<b>Kérlek add meg Google felhasználóneved, és jelszavad a feliratkozásaid importálásához a Google Olvasóból.</b><br />Nem tároljuk el belépési adataidat, őket csak a feliratkozásaid behozásához használjuk fel."
@@ -351,20 +352,6 @@ hu:
     note: "*Csak Chrome, Safari és Opera"
     pages:
       title: "Lapok közötti navigáció"
-      body: |
-        shift-n, shift-j: következő feliratkozás, vagy mappa
-        shift-p, shift-k: előző feliratkozás, vagy mappa
-        shift-x: megnyitott mappa összecsukása
-        shift-o: kiválasztott feliratkozás, vagy mappa megnyitása
-        shift-c: összes mappa összecsukása
-        shift-e: összes mappa kinyitása
-        g then h: főoldalra ugrás
-        g then a: összes elemre ugrás
-        g then l: tetszettekhez ugrás
-        g then s: megosztottakhoz ugrás
-        g then t: népszerűekre ugrás
-        g then c: kommentáltakhoz ugrás
-        g then f: követettekhez ugrás
     other:
       title: "Egyéb gyorsbillentyűk"
       body: |
@@ -374,22 +361,6 @@ hu:
         ? or h: ezen ablak
     posts:
       title: "Elemek gyorsbillentyűi"
-      body: |
-        space: lefelé görgetés
-        shift+space: felfelé görgetés
-        shift+a: mindegyik olvasottnak jelölése
-        j, n: következő elem
-        k, p: előző elem
-        o, v: elem megnyitása új fülön
-        b: elem megnyitása a háttérben*
-        x: elemek kibontása (lista nézet)
-        l: elem tetszettnek jelölése
-        s: elem megosztása
-        m: olvas/olvasatlan elem
-        f: elem mentése a Pocketbe
-        c: megjegyzésekhez görgetés és az űrlap megnyitása
-        1: teljes nézetre váltás
-        2: listás nézetre váltás
   alerts:
     common: "A kérés a szerver felé hibát dobott, kérlek próbálkozz később újra"
     posts: "Az elemeket nem tudtuk betölteni"

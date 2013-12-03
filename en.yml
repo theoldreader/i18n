@@ -177,6 +177,8 @@ en:
     post_author: "by <strong>%{author}</strong>"
     drop_add_folder: "Drop here to add a new folder"
     new_folder: "New folder"
+    star: "Star"
+    unstar: "Unstar"
     like: "Like"
     unlike: "Unlike"
     likes_count:
@@ -205,6 +207,7 @@ en:
   pages:
     home: "Home"
     all: "All items"
+    starred: "Starred"
     liked: "Liked"
     shared: "Shared"
     following: "Following"
@@ -223,6 +226,10 @@ en:
     community: "Community resources"
     apps: "Apps"
   settings:
+    tabs:
+      main: "Main"
+      social: "Social"
+      readlater: "Read Later"
     name: "Name"
     username: "Username"
     email: "Email"
@@ -257,11 +264,6 @@ en:
       title: "Posts order"
       normal: "Normal (new posts first)"
       reverse: "Reverse (old posts first)"
-    social: "Social stuff"
-    notify_when_followed: "Notify by email when someone starts following you"
-    share_timeline: "Publish your shares on your Facebook page"
-    connect_share_timeline: "Connect to Facebook to publish your shares"
-    show_fb_profile: "Show link to your Facebook page in your profile"
     save: "Save changes"
     cancel_disabled: "You can't cancel your account while import is in progress, please be patient."
     cancel_account:
@@ -269,11 +271,34 @@ en:
       export: "export your feeds"
       cancel: "cancel your account"
       confirm: "Are you sure?"
-    pocket:
-      title: "Pocket integration"
-      description: "<a href='http://getpocket.com/'>Pocket</a> (formerly called Read It Later) is a handy app that allows you to arrange, sort, and tag content that you intend to access later."
-      connect: "Connect to Pocket to start pocketing"
-      account: "Your account: <strong>%{username}</strong>"
+    social: 
+      notify_when_followed: "Notify by email when someone starts following you"
+      share_timeline: "Publish your shares on your Facebook page"
+      connect_share_timeline: "Connect to Facebook to publish your shares"
+      show_fb_profile: "Show link to your Facebook page in your profile"
+    readlater:
+      usage:
+        title: "Usage"
+        note: "Connect any read later service to send posts automatically when you hit %{star} button"
+        star: "★ Star"
+      pocket:
+        title: "Pocket integration"
+        description: "<a href='http://getpocket.com/'>Pocket</a> (formerly called Read It Later) is a handy app that allows you to arrange, sort, and tag content that you intend to access later."
+        connect: "Connect to Pocket"
+        disconnect: "Disconnect"
+        account: "Your account: <strong>%{username}</strong>"
+      readability:
+        title: "Readability integration"
+        description: "<a href='http://www.readability.com/'>Readability</a> is a free reading platform that aims to deliver a great reading experience wherever you are, and to provide a system to connect readers to the writers they enjoy."
+        connect: "Connect to Readability"
+        disconnect: "Disconnect"
+        account: "Your account: <strong>%{username}</strong>"
+      instapaper:
+        title: "Instapaper integration"
+        description: "<a href='http://www.instapaper.com/'>Readability</a> turns web content – articles, stories, posts, videos, and even long emails – into a great reading experience, anywhere, anytime."
+        connect: "Connect to Instapaper"
+        disconnect: "Disconnect"
+        account: "Your account: <strong>%{username}</strong>"
   import:
     title: "Import"
     alert: "<b>Please enter your Google username and password to import your subscriptions from Google Reader</b><br />We are not going to store your credentials. Account information will only be used to fetch your subscriptions."
@@ -387,11 +412,12 @@ en:
         shift-e: expand all folders
         g then h: go to home
         g then a: go to all items
+        g then f: go to starred
         g then l: go to liked
         g then s: go to shared
         g then t: go to trending
         g then c: go to commented
-        g then f: go to following
+        g then p: go to following
     other:
       title: "Other shortcuts"
       body: |
@@ -410,10 +436,10 @@ en:
         o, v: open post in a new tab
         b: open post in a background tab*
         x: toggle post (list view)
-        l: mark post as liked
+        f: star a post
         s: share a post
         m: read/unread a post
-        f: save post to Pocket
+        l: mark post as liked
         c: scroll to comments and open the form
         1: switch to full view
         2: switch to list view

@@ -258,11 +258,6 @@ nl:
       title: "Berichten rangorde"
       normal: "Normaal (nieuwe berichten eerst)"
       reverse: "Omgekeerd (oude berichten eerst)"
-    social: "Sociale onderwerpen"
-    notify_when_followed: "Waarschuw per e-mail wanneer iemand u begint te volgen"
-    share_timeline: "Publiceer uw gedeelde items op uw Facebook pagina"
-    connect_share_timeline: "Maak verbinding met Facebook om uw gedeelde berichten te publiceren"
-    show_fb_profile: "Toon een link naar uw Facebook pagina in uw profiel"
     save: "Veranderingen opslaan"
     cancel_disabled: "U kunt uw account niet annuleren tijdens het importeren. Even geduld graag."
     cancel_account:
@@ -270,11 +265,17 @@ nl:
       export: "uw feeds exporteren"
       cancel: "uw account annuleren"
       confirm: "Weet u het zeker?"
-    pocket:
-      title: "integratie met Pocket"
-      description: "<a href='http://getpocket.com/'>Pocket</a> (vroeger Read It Later genoemd) is een handige app dat u inhoudelijke tekst die u later wilt lezen laat orderen, samenvoegen en van een tag voorzien."
-      connect: "Maak verbinding met Pocket om te beginnen met opslaan op Pocket"
-      account: "Uw account: <strong>%{username}</strong>"
+    social:
+      notify_when_followed: "Waarschuw per e-mail wanneer iemand u begint te volgen"
+      share_timeline: "Publiceer uw gedeelde items op uw Facebook pagina"
+      connect_share_timeline: "Maak verbinding met Facebook om uw gedeelde berichten te publiceren"
+      show_fb_profile: "Toon een link naar uw Facebook pagina in uw profiel"
+    readlater:
+      pocket:
+        title: "integratie met Pocket"
+        description: "<a href='http://getpocket.com/'>Pocket</a> (vroeger Read It Later genoemd) is een handige app dat u inhoudelijke tekst die u later wilt lezen laat orderen, samenvoegen en van een tag voorzien."
+        connect: "Maak verbinding met Pocket om te beginnen met opslaan op Pocket"
+        account: "Uw account: <strong>%{username}</strong>"
   import:
     title: "Importeren"
     alert: "<b>Vul uw Google's gebruikersnaam en wachtwoord in om subscripties te importeren vanuit Google Reader</b><br />Wij slaan uw inlog gegevens niet op. Account informatie wordt alleen gebruikt om de subscripties te verkrijgen."
@@ -367,20 +368,6 @@ nl:
     note: "*Alleen Chrome, Safari en Opera"
     pages:
       title: "Navigeer tussen de pagina's"
-      body: |
-        shift-n, shift-j: volgende subscriptie of map
-        shift-p, shift-k: vorige subscriptie of map
-        shift-x: inklappen geselecteerde map
-        shift-o: open geselecteerde subscriptie of map
-        shift-c: alle mappen inklappen
-        shift-e: Alle mappen uitklappen
-        g daarna h: ga naar home
-        g daarna a: ga naar alle items
-        g daarna l: ga naar Leuk gevonden
-        g daarna s: ga naar gedeeld
-        g daarna t: ga naar trendy
-        g daarna c: ga naar reacties
-        g daarna f: ga naar volgend
     other:
       title: "Andere sneltoetscombinaties"
       body: |
@@ -390,22 +377,6 @@ nl:
         ? of h: toon dit helpvenster
     posts:
       title: "Sneltoetscombinaties voor berichten"
-      body: |
-        spatiebalk: scroll omlaag
-        shift+spatiebalk: scroll omhoog
-        shift+a: markeer alles als gelezen
-        j, n: volgend bericht
-        k, p: vorig bericht
-        o, v: open bericht in een nieuwe tab
-        b: open bericht in een achtergrond tab*
-        x: schakel tussen weergave berichten (lijstweergave)
-        l: Vind bericht leuk
-        s: deel dit bericht
-        m: schakel gelezen/ongelezen bericht
-        f: bewaar bericht bij Pocket
-        c: scroll to reacties en open het formulier
-        1: schakel naar volledige weergave
-        2: schakel naar lijstweergave
   alerts:
     common: "Verzoek aan de server is mislukt, probeer het later nog eens"
     posts: "Kon berichten niet laden"

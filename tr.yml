@@ -205,11 +205,6 @@ tr:
       title: "İleti sıralanışı"
       normal: "Normal (önce yeni iletiler)"
       reverse: "Reverse (önce eski iletiler)"
-    social: "Sosyal şeyler"
-    notify_when_followed: "Birisi beni takip etmeye başladığında e-postayla haber verin"
-    share_timeline: "Paylaşımlarımı Facebook hesabımda yayınlayın"
-    connect_share_timeline: "Paylaşımlarınızı yayınlamak için Facebook'a bağlanın"
-    show_fb_profile: "Profilinizde Facebook sayfanızın linki olsun"
     save: "Değişiklikleri kaydet"
     cancel_disabled: "İçe aktarım sürerken hesabınızı iptal edemezsiniz, lütfen sabredin."
     cancel_account:
@@ -217,11 +212,17 @@ tr:
       export: "dışa aktarabilir"
       cancel: "hesabınızı iptal edebilirsiniz"
       confirm: "Emin misiniz?"
-    pocket:
-      title: "Pocket entegrasyonu"
-      description: "<a href='http://getpocket.com/'>Pocket</a> (önceki adı Read It Later) daha sonra erişmek istediğiniz içeriği düzenlemeye, sıralamaya ve etiketlemeye yarayan kullanışlı bir uygulamadır."
-      connect: "Cebe atmaya başlamak için Pocket'a bağlanın"
-      account: "Hesabınız: <strong>%{username}</strong>"
+    social:
+      notify_when_followed: "Birisi beni takip etmeye başladığında e-postayla haber verin"
+      share_timeline: "Paylaşımlarımı Facebook hesabımda yayınlayın"
+      connect_share_timeline: "Paylaşımlarınızı yayınlamak için Facebook'a bağlanın"
+      show_fb_profile: "Profilinizde Facebook sayfanızın linki olsun"
+    readlater:
+      pocket:
+        title: "Pocket entegrasyonu"
+        description: "<a href='http://getpocket.com/'>Pocket</a> (önceki adı Read It Later) daha sonra erişmek istediğiniz içeriği düzenlemeye, sıralamaya ve etiketlemeye yarayan kullanışlı bir uygulamadır."
+        connect: "Cebe atmaya başlamak için Pocket'a bağlanın"
+        account: "Hesabınız: <strong>%{username}</strong>"
   import:
     title: "İçe Aktarım"
     alert: "<b>Google Reader aboneliklerinizi aktarmak için lütfen Google kullanıcı adınızı ve şifrenizi girin.</b><br />Bu bilgileri kaydetmiyoruz. Hesap bilgileriniz yalnızca aboneliklerinizi aktarmak için kullanılıyor."

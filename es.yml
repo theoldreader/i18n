@@ -207,11 +207,6 @@ es:
       title: "Ordenar elementos"
       normal: "Normal (elementos nuevos primero)"
       reverse: "A la inversa (elementos antiguos primero)"
-    social: "Redes sociales"
-    notify_when_followed: "Notificar por correo cuando alguien empieza a seguirle"
-    share_timeline: "Publicar sus compartidos en su página de Facebook"
-    connect_share_timeline: "Conectar a Facebook para publicar sus compartidos"
-    show_fb_profile: "Mostrar un enlace a su página de Facebook en su perfil"
     save: "Guardar cambios"
     cancel_disabled: "No puede cancelar su cuenta mientras la importación está en curso, por favor sea paciente."
     cancel_account:
@@ -219,11 +214,17 @@ es:
       export: "exportar sus fuentes"
       cancel: "cancelar su cuenta"
       confirm: "¿Está seguro?"
-    pocket:
-      title: "Integración con Pocket"
-      description: "<a href='http://getpocket.com/'>Pocket</a> (antes conocido como Read It Later) es una aplicación útil que le permite gestionar, marcar y etiquetar contenido que prefiere leer luego."
-      connect: "Conectar con Pocket para empezar a guardar para leer luego"
-      account: "Su cuenta: <strong>%{username}</strong>"
+    social:
+      notify_when_followed: "Notificar por correo cuando alguien empieza a seguirle"
+      share_timeline: "Publicar sus compartidos en su página de Facebook"
+      connect_share_timeline: "Conectar a Facebook para publicar sus compartidos"
+      show_fb_profile: "Mostrar un enlace a su página de Facebook en su perfil"
+    readlater:
+      pocket:
+        title: "Integración con Pocket"
+        description: "<a href='http://getpocket.com/'>Pocket</a> (antes conocido como Read It Later) es una aplicación útil que le permite gestionar, marcar y etiquetar contenido que prefiere leer luego."
+        connect: "Conectar con Pocket para empezar a guardar para leer luego"
+        account: "Su cuenta: <strong>%{username}</strong>"
   import:
     title: "Importar"
     alert: "<b>Por favor, introduzca su usuario y contraseña de Google para importar sus suscripciones desde Google Reader</b><br />No almacenaremos sus credenciales. La información de la cuenta se usará solamente para obtener sus suscripciones."

@@ -218,11 +218,6 @@ sv:
       title: "Inläggens ordning"
       normal: "Normal"
       reverse: "Omvänt"
-    social: "Sociala inställningar"
-    notify_when_followed: "Meddela via e-post när någon följer dig"
-    share_timeline: "Publicera dina delade objekt på din Facebook-profil"
-    connect_share_timeline: "Anslut till Facebook för att publicera dina delade objekt"
-    show_fb_profile: "Visa länk till din Facebook-profil på din sida"
     save: "Spara ändringar"
     cancel_disabled: "Du kan inte avregistrera ditt konto medan importen pågår, vänligen ha lite tålamod."
     cancel_account:
@@ -230,11 +225,17 @@ sv:
       export: "exportera dina prenumerationer"
       cancel: "avregistrera ditt konto"
       confirm: "Är du säker?"
-    pocket:
-      title: "Pocket-integration"
-      description: "<a href='http://getpocket.com/'>Pocket</a> (kallades Read It Later förut) är en praktisk app för att arrangera, ordna och tagga inehållen som du vill kolla upp senare."
-      connect: "Anslut till Pocket för att använda funktionen"
-      account: "Ditt konto: <strong>%{username}</strong>"
+    social:
+      notify_when_followed: "Meddela via e-post när någon följer dig"
+      share_timeline: "Publicera dina delade objekt på din Facebook-profil"
+      connect_share_timeline: "Anslut till Facebook för att publicera dina delade objekt"
+      show_fb_profile: "Visa länk till din Facebook-profil på din sida"
+    readlater:
+      pocket:
+        title: "Pocket-integration"
+        description: "<a href='http://getpocket.com/'>Pocket</a> (kallades Read It Later förut) är en praktisk app för att arrangera, ordna och tagga inehållen som du vill kolla upp senare."
+        connect: "Anslut till Pocket för att använda funktionen"
+        account: "Ditt konto: <strong>%{username}</strong>"
   import:
     title: "Importera"
     alert: "<b>Vänligen ange ditt Google-användarnamn och lösenord för att importera dina prenumerationer från Google Reader. Vi kommer inte att spara dina uppgifter. Dina kontouppgifter ska användas bara för att hämta dina prenumerationer."
@@ -335,22 +336,6 @@ sv:
         ? eller h: visa detta fönster
     posts:
       title: "Kortkommandon för inlägg"
-      body: |
-        space: scrolla ner
-        shift+mellanslag: scrolla upp
-        shift+a: markera alla som lästa
-        j, n: nästa inlägg
-        k, p: föregående inlägg
-        o, v: öppna inlägg i ny flik
-        b: öppna inlägg i ny flik i bakgrunden*
-        x: ändra visningsläge för inlägg
-        l: gilla inlägg
-        s: dela inlägg
-        m: markera inlägg som läst/oläst
-        f: spara inlägg till Pocket
-        c: scrolla till kommentarer och öppna formuläret
-        1: ändra till full visning
-        2: ändra till listvisning
   alerts:
     common: "Begäran till servern misslyckades, vänligen försök igen senare"
     posts: "Kunde inte ladda inlägg"

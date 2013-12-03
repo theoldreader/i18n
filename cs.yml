@@ -224,11 +224,6 @@ cs:
       title: "Pořadí článků"
       normal: "Od nejnovějších k nejstarším"
       reverse: "Od nejstarších k nejnovějším"
-    social: "Sociální věci"
-    notify_when_followed: "Poslat e-mail, pokud vás začne někdo sledovat"
-    share_timeline: "Publikovat sdílené články na vašem Facebooku"
-    connect_share_timeline: "Připojit váš účet na Facebooku"
-    show_fb_profile: "Ukazovat v profilu odkaz na váš Facebook"
     save: "Uložit změny"
     cancel_disabled: "Nemůžete zrušit účet, pokud probíhá import. Prosíme o vaši trpělivost."
     cancel_account:
@@ -236,11 +231,17 @@ cs:
       export: "exportovat zdroje"
       cancel: "zrušit svůj účet"
       confirm: "Opravdu?"
-    pocket:
-      title: "Integrace Pocketu"
-      description: "<a href='http://getpocket.com/'>Pocket</a> (dříve <em>Read It Later</em>) je užitečná aplikace, která umožňuje spravovat články, které si chcete prohlédnout později."
-      connect: "Připojit se k Pocketu"
-      account: "Váš účet: <strong>%{username}</strong>"
+    social:
+      notify_when_followed: "Poslat e-mail, pokud vás začne někdo sledovat"
+      share_timeline: "Publikovat sdílené články na vašem Facebooku"
+      connect_share_timeline: "Připojit váš účet na Facebooku"
+      show_fb_profile: "Ukazovat v profilu odkaz na váš Facebook"
+    readlater:
+      pocket:
+        title: "Integrace Pocketu"
+        description: "<a href='http://getpocket.com/'>Pocket</a> (dříve <em>Read It Later</em>) je užitečná aplikace, která umožňuje spravovat články, které si chcete prohlédnout později."
+        connect: "Připojit se k Pocketu"
+        account: "Váš účet: <strong>%{username}</strong>"
   import:
     title: "Import"
     alert: "<b>Zadejte své jméno a heslo pro Google účet</b><br />Vaše přihlašovací údaje neukládáme, slouží pouze pro načtení vašich zdrojů."
@@ -332,20 +333,6 @@ cs:
     note: "* pouze pro Chrome, Safari a Operu"
     pages:
       title: "Navigace mezi stránkami"
-      body: |
-        shift-n, shift-j: následující zdroj či složka
-        shift-p, shift-k: předchozí zdroj či složka
-        shift-x: zavřít otevřenou složku
-        shift-o: otevřít zvolený zdroj či složku
-        shift-c: sbalit všechny složky
-        shift-e: rozbalit všechny složky
-        g then h: jít na úvodní stránku
-        g then a: jít na všechny články
-        g then l: jít na oblíbené články
-        g then s: jít na sdílené články
-        g then t: jít na nejlepší články
-        g then c: jít na komentáře
-        g then f: jít na sledované
     other:
       title: "Ostatní zkratky"
       body: |
@@ -355,22 +342,6 @@ cs:
         ? or h: zobrazit nápovědu (tuto stránku)
     posts:
       title: "Zkratky pro články"
-      body: |
-        space: o stránku níže
-        shift+space: o stránku výše
-        shift+a: označit vše jako přečtené
-        j, n: následující článek
-        k, p: předchozí článek
-        o, v: otevřít článek v nové kartě
-        b: otevřít článek v nové kartě na pozadí*
-        x: toggle post (list view)
-        l: označit článek jako oblíbený
-        s: sdílet článek
-        m: označit článek jako (ne)přečtený
-        f: poslat článek do Pocketu
-        c: přejít na komentáře
-        1: přepnout na plné zobrazení článků
-        2: přepnout na seznam článků
   alerts:
     common: "Požadavek na server selhal, zkuste to prosím později"
     posts: "Nemohu nahrát články"

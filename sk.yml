@@ -208,11 +208,6 @@ sk:
       title: "Poradie článkov"
       normal: "Klasické (nové články zobaziť ako prvé)"
       reverse: "Prevrátené (najstaršie články zobaziť ako prvé)"
-    social: "Sociálne nastavenia"
-    notify_when_followed: "Odošlite mi správu pokiaľ niekto začne sledovať moju činnosť"
-    share_timeline: "Zverejnite zdieľania na Vašej stránke na Facebooku"
-    connect_share_timeline: "Spojiť sa s Facebookom pre publikovanie Vášho zdieľania"
-    show_fb_profile: "Zobraziť odkaz na Vašu stránku na Facebooku v profile"
     save: "uložiť zmenu"
     cancel_disabled: "Váš účet nemôžete zrušiť pokiaľ prebieha import kanálov, prosíme o strpenie."
     cancel_account:
@@ -220,11 +215,17 @@ sk:
       export: "exportovať Vaše kanály"
       cancel: "zrušiť účet"
       confirm: "Ste si naozaj istý?"
-    pocket:
-      title: "Integrácia so službou Pocket "
-      description: "<a href='http://getpocket.com/'>Pocket</a> (v minulosti nazvaný Read It Later) je praktická aplikácia, ktorá Vám umožňuje vybrať, zoradiť a triediť obsah, ktorý si chcete prečítať neskôr."
-      connect: "Spojiť so službou Pocket pre začanie odkladaniea"
-      account: "Váš účet: <strong>%{username}</strong>"
+    social:
+      notify_when_followed: "Odošlite mi správu pokiaľ niekto začne sledovať moju činnosť"
+      share_timeline: "Zverejnite zdieľania na Vašej stránke na Facebooku"
+      connect_share_timeline: "Spojiť sa s Facebookom pre publikovanie Vášho zdieľania"
+      show_fb_profile: "Zobraziť odkaz na Vašu stránku na Facebooku v profile"
+    readlater:
+      pocket:
+        title: "Integrácia so službou Pocket "
+        description: "<a href='http://getpocket.com/'>Pocket</a> (v minulosti nazvaný Read It Later) je praktická aplikácia, ktorá Vám umožňuje vybrať, zoradiť a triediť obsah, ktorý si chcete prečítať neskôr."
+        connect: "Spojiť so službou Pocket pre začanie odkladaniea"
+        account: "Váš účet: <strong>%{username}</strong>"
   import:
     title: "Import"
     alert: "<b>Pre importovanie kanálov z Google reader, prosím zadajte Vaše prihlasovacie meno a heslo do Google účtu</b><br />Vaše prihlasovacie údaje nebudeme ukladať a Vaše informácie o účte budú použité len na spracovanie Vašich kanálov."

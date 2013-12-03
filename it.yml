@@ -214,11 +214,6 @@ it:
       title: "Ordine Dei Post"
       normal: "Normale"
       reverse: "Rovesciata"
-    social: "Social"
-    notify_when_followed: "Notifica via email quando qualcuno inizia a seguirti"
-    share_timeline: "Pubblica le tue condivisioni sul tuo profilo Facebook"
-    connect_share_timeline: "Connettiti a Facebook per pubblicare le tue condivisioni"
-    show_fb_profile: "Mostra il link al tuo Facebook nel tuo profilo"
     save: "Salva Modifiche"
     cancel_disabled: "Non puoi cancellare il tuo account mentre l'import è in corso, per favore sii paziente."
     cancel_account:
@@ -226,11 +221,17 @@ it:
       export: "esportare i tuoi feed"
       cancel: "cancellare il tuo account"
       confirm: "sei sicuro?"
-    pocket:
-      title: "Pocket integration"
-      description: "<a href='http://getpocket.com/'>Pocket</a> (formerly called Read It Later) is a handy app that allows you to arrange, sort, and tag content that you intend to access later."
-      connect: "Connect to Pocket to start pocketing"
-      account: "Il tuo account: <strong>%{username}</strong>"
+    social:
+      notify_when_followed: "Notifica via email quando qualcuno inizia a seguirti"
+      share_timeline: "Pubblica le tue condivisioni sul tuo profilo Facebook"
+      connect_share_timeline: "Connettiti a Facebook per pubblicare le tue condivisioni"
+      show_fb_profile: "Mostra il link al tuo Facebook nel tuo profilo"
+    readlater:
+      pocket:
+        title: "Pocket integration"
+        description: "<a href='http://getpocket.com/'>Pocket</a> (formerly called Read It Later) is a handy app that allows you to arrange, sort, and tag content that you intend to access later."
+        connect: "Connect to Pocket to start pocketing"
+        account: "Il tuo account: <strong>%{username}</strong>"
   import:
     title: "Importa"
     alert: "<b>Prego, inserisci utente e password di Google per importare le tue sottoscrizioni da Google Reader</b><br />Non conserveremo le tue credenziali. Le informazioni del tuo account verranno utilizzate solo per recuperare le tue sottoscrizioni."
