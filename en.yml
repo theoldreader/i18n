@@ -279,7 +279,7 @@ en:
     readlater:
       usage:
         title: "Usage"
-        note: "Connect any read later service to send posts automatically when you hit %{star} button"
+        note: "Connect to the following read later services and posts will be sent to it when you click the %{star} button"
         star: "★ Star"
       pocket:
         title: "Pocket integration"
