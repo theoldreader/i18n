@@ -181,6 +181,7 @@ en:
     unstar: "Unstar"
     like: "Like"
     unlike: "Unlike"
+    send_to: "Send To"
     likes_count:
       zero: "%{users} likes this"
       one: "%{users} and one other like this"
