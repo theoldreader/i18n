@@ -230,6 +230,7 @@ en:
       main: "Main"
       social: "Social"
       readlater: "Read Later"
+    general: "General"
     name: "Name"
     username: "Username"
     email: "Email"
@@ -271,15 +272,25 @@ en:
       export: "export your feeds"
       cancel: "cancel your account"
       confirm: "Are you sure?"
-    social: 
+    social:
       notify_when_followed: "Notify by email when someone starts following you"
       share_timeline: "Publish your shares on your Facebook page"
       connect_share_timeline: "Connect to Facebook to publish your shares"
       show_fb_profile: "Show link to your Facebook page in your profile"
+      sendto:
+        title: "Send To Services"
+        custom:
+          description: "Add your sharing services below"
+          tokens: "Tokens"
+          example: "Example"
+          title: "Service Title"
+          url: "Service Url"
+          delete: "Delete"
+          more: "For a list of common sharing service urls, see <a href='http://theoldreader.uservoice.com/knowledgebase/articles/294010' target='_blank'>this article.</a>"
     readlater:
       usage:
         title: "Usage"
-        note: "Connect to the following read later services and posts will be sent to it when you click the %{star} button"
+        note: "Connect to the following read later services and posts will be sent to them when you click the %{star} button"
         star: "★ Star"
       pocket:
         title: "Pocket integration"
