@@ -470,6 +470,9 @@ en:
         p1: "Please note that apps use password authentication, so you should configure yourself a password on the Settings page before using any of the apps."
       bookmarklets:
         title: "Bookmarklets"
+        description: "Drag any of this to your bookmarks"
+        advanced: "Set up and use advanced bookmarklets"
+        subscribe: "Subscribe"
         tornexto: "Bookmarklet to go to next item in a folder"
         tornexto_author: "by Chas. J. Owens"
         sidebar: "Toggle sidebar"
