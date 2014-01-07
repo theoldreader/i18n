@@ -23,7 +23,7 @@ Português: [eduardomps](https://github.com/eduardomps), [annyella](https://gith
 
 Español: [marevalo](https://github.com/marevalo)
 
-Français: [AlexandreP2101](https://github.com/AlexandreP2101), [madx](https://github.com/madx), [lelabtv](https://github.com/lelabtv), [clementderedec](https://github.com/clementderedec)
+Français: [AlexandreP2101](https://github.com/AlexandreP2101), [madx](https://github.com/madx), [lelabtv](https://github.com/lelabtv), [clementderedec](https://github.com/clementderedec), [Tillous](https://github.com/Tillous)
 
 Catalan: [ramonpoca](https://github.com/ramonpoca), [jmontane](https://github.com/jmontane), [martimorta](https://github.com/martimorta)
 
