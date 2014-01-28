@@ -236,7 +236,7 @@ ch:
     queued: "OPML文件上傳成功！我們將儘快開始導入您的訂閱來源。"
     queued_notice: "隊列中還有 <strong>%{count}</strong> 位用戶在您的前方，請耐心等待。"
     processing: "正在導入你的供稿。"
-    error: "Opps！出錯了！"
+    error: "Oops！出錯了！"
     opml_empty: "OPML文件不正確或者是空的。"
     too_many_feeds: "由於技術問題，我們只能導入您的前1000個訂閱。"
     cancel: "取消"
