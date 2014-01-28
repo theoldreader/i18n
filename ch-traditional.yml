@@ -14,8 +14,8 @@ ch:
   
   devise:
     failure:
-      already_authenticated: "您已登錄了。"
-      unauthenticated: "請先登錄"
+      already_authenticated: "您已登入了。"
+      unauthenticated: "請先登入"
       unconfirmed: "請先行認證您的帳號。"
       locked: "您的賬號已被鎖定。"
       invalid: "無效的登入電郵或密碼。"
