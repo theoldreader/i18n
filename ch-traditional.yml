@@ -228,7 +228,7 @@ ch:
   import:
     title: "導入"
     alert: "<b>請輸入您的Google帳號及密碼以便從Google Reader導入您的訂閱來源.</b><br />我們絕不會保存您的密碼。您的賬戶信息只用於獲取您的訂閱來源。"
-    opml: "<b>或者上傳OPML文件</b><br /你可以從Google Reader的設定頁面獲得。<br />請上傳<b>subscriptions.xml</b>文件"
+    opml: "<b>或者上傳OPML文件</b><br />你可以從Google Reader的設定頁面獲得。<br />請上傳<b>subscriptions.xml</b>文件"
     email: "電子郵箱"
     password: "密碼"
     import: "導入"
