@@ -1,0 +1,290 @@
+ch:
+  # Devise
+  errors:
+    messages:
+      expired: "請求已過期，請重試"
+      not_found: "找不到目標"
+      already_confirmed: "認證成功，請重新登入"
+      not_locked: "尚未鎖定"
+      not_saved:
+        one: "1 個錯誤導致 %{resource} 无法被保存:"
+        few: "%{count} 個錯誤導致 %{resource} 無法保存:"
+        many: "%{count} 個錯誤導致 %{resource} 無法保存:"
+        other: "%{count} 個錯誤導致 %{resource} 無法保存:"
+  
+  devise:
+    failure:
+      already_authenticated: "您已登錄了。"
+      unauthenticated: "請先登錄"
+      unconfirmed: "請先行認證您的帳號。"
+      locked: "您的賬號已被鎖定。"
+      invalid: "無效的登入電郵或密碼。"
+      invalid_token: "無效的認證資訊。"
+      timeout: "您的工作階段已經過期，請重新登入。"
+      inactive: "您的賬戶尚未激活。"
+    sessions:
+      signed_in: "成功登入！"
+      signed_out: "成功登出！"
+    passwords:
+      send_instructions: "你將會收到一封電子郵件，請透過它來重設密碼。"
+      updated: "您已更改密碼成功並已登入。"
+      updated_not_active: "更改密碼成功。"
+      send_paranoid_instructions: "如果你的電郵是存在的，您將會收到一封內含修復密碼鏈結的郵件。"
+    confirmations:
+      send_instructions: "您將會收到一封郵件，請透過它來驗證你的帳號。"
+      send_paranoid_instructions: "如果您的電子郵箱是存在的，您將會收到一封驗證郵件。"
+      confirmed: "你已驗證成功並已登入。"
+    registrations:
+      signed_up: "歡迎您！您已成功註冊！"
+      signed_up_but_unconfirmed: "一封飽含驗證信息的郵件已寄往您的電子郵箱。請點擊鏈結以激活您的賬戶。"
+      signed_up_but_inactive: "您已成功註冊，但賬戶尚未激活。"
+      signed_up_but_locked: "您已成功註冊，但您的賬戶已被鎖定。"
+      updated: "您已成功變更帳號信息。"
+      update_needs_confirmation: "您已成功變更帳號信息，但我們需要驗證您的新郵箱。請檢查您的收件匣並點擊鏈結以完成驗證。"
+      destroyed: "再見！您已成功刪除您的帳號。"
+    unlocks:
+      send_instructions: "您將會收到一封郵件，請通過它來解鎖您的帳號。"
+      unlocked: "解除鎖定成功。請重新登錄。"
+      send_paranoid_instructions: "如果您的郵箱是存在的，您將會收到一封包含解鎖方法的郵件。"
+    omniauth:
+      success: "%{kind} 成功獲得授權！"
+      failure: "%{kind} 無法獲得授權: %{reason}。"
+    mailer:
+      confirmation_instructions:
+        subject: "賬號認證"
+      reset_password_instructions:
+        subject: "重設密碼"
+      unlock_instructions:
+        subject: "解除帳號鎖定"
+  
+  # Reader
+  app: "The Old Reader"
+  eggs: "We ♥ kittens"
+  title: "The Old Reader"
+  meta:
+    keywords: "the old reader"
+  landing:
+    topmenu:
+      -
+        :title: "Twitter"
+        :url: "https://twitter.com/#！/theoldreader"
+      -
+        :title: "Facebook"
+        :url: "https://www.facebook.com/theoldreader"
+      - 
+        :title: "Blog"
+        :url: "http://blog.theoldreader.com/"
+      - 
+        :title: "關於我們"
+        :url: "http://blog.theoldreader.com/about"
+    sign_in:
+      title: "登入:"
+      google: "Google"
+      facebook: "Facebook"
+    tour: "新手導覽"
+    trending: "是日熱門"
+    supported: "Supported with love by"
+  user:
+    profile: "個人檔案"
+    logout: "登出"
+    settings: "設定"
+    failure: "你所使用的%{kind}帳號已經連結至另一個The Old Reader帳號。請登出您的另一個帳號並重試。"
+    becomes_active_notice: "您有一段頗長時間沒有使用The Old Reader了，因此我們只保留了了最新項目。"
+  feeds:
+    no_feeds:
+      text: "還沒有任何訂閱！你可以%{subscribe}一個新的供稿(<a href='http://blog.theoldreader.com/rss' class='feed-subscribe'>我們的Blog</a>怎麼樣？)或者%{import}你的訂閱.<br />如果你想瞭解更多，你可以查看我們的%{tour}。"
+      subscribe: "訂閱"
+      import: "導入"
+      tour: "新手導覽"
+    no_posts: "還沒有任何項目。"
+    no_posts_filler: "沒有更多項目了。大概是因為你都讀完了。"
+    subscribe: "訂閱"
+    add_subscription: "增加新的訂閱來源"
+    add: "增加"
+    url: "URL"
+    invalid_url: "無效的URL"
+    empty_url: "URL不能為空"
+    loading: "讀取中..."
+    default_folder: "訂閱"
+    feeds: "供稿"
+    feeds_count:
+      one: "個供稿"
+      few: "個供稿"
+      many: "個供稿"
+      other: "個供稿"
+    posts_count:
+      one: "個項目"
+      few: "個項目"
+      many: "個項目"
+      other: "個項目"
+    your_posts: "<em>%{unread}</em> %{posts}未讀"
+    refresh: "刷新"
+    unsubscribe: "取消訂閱"
+    unsubscribe_confirm: "真的要取消訂閱？「共享」和「讚」的項目不会被删除。"
+    ago: "前"
+    never: "從不"
+    confirm: "確定？"
+    mark_all_read: "全部標示為已讀"
+    search: "搜尋"
+    search_limits: "你的搜尋範圍過於空泛，因此我們限制了搜尋結果的數量。如果你希望看到所有結果，輕微搜尋範圍增加更多条件。"
+    mark_read: "標記為已讀"
+    mark_unread: "標記為未讀"
+    share: "共享"
+    shared: "已共享"
+    unshare: "取消共享"
+    following: "正在跟隨"
+    attach_note: "要添加一筆筆記嗎？"
+    attach: "保存筆記"
+    comments:
+      one: "%{count} 則評論"
+      few: "%{count} 則評論"
+      many: "%{count} 則評論"
+      other: "%{count} 則評論"
+    comment: "評論"
+    comment_text: "寫新評論"
+    comment_destroy_confirm: "確定要刪除這則評論？"
+    comment_destroy_text: "這則評論已被刪除。"
+    post_author: "by <strong>%{author}</strong>"
+    drop_add_folder: "拖動至此已建立新資料夾"
+    new_folder: "新資料夾"
+    like: "讚"
+    unlike: "收回讚"
+    likes_count:
+      zero: "%{users} 個讚"
+      one: "%{users} 及另外 1 位用户表示讚"
+      few: "%{users} 及另外 %{count} 位用户表示讚"
+      many: "%{users} 及另外 %{count} 位用户表示讚"
+      other: "%{users} 及另外 %{count} 位用户表示讚"
+    feed: "源"
+    site: "網站"
+    enclosure_url: "查看附件(%{size}, %{type})"
+    pocket: "Pocket"
+    unpocket: "Unpocket"
+    pocket_error: "失敗"
+  home:
+    following: "好友的最近更新"
+    updated: "最近更新"
+    dead: "久未更新"
+    tips:
+      title: "小祕訣"
+  pages:
+    home: "主頁"
+    all: "所有項目"
+    liked: "讚"
+    shared: "共享"
+    followed: "好友"
+    import: "導入"
+    search: "搜尋"
+    settings: "設定"
+    profile: "個人檔案"
+    friends: "尋找好友"
+    commented: "評論"
+    privacy: "隱私權政策"
+    trending: "趨勢"
+    donate: "捐贈"
+    tour: "入門"
+    blog: "Blog"
+    status: "伺服器狀態"
+  settings:
+    name: "昵稱"
+    username: "用戶名稱"
+    email: "電郵地址"
+    ui:
+      title: "界面"
+      click_to_scroll: "選中項目時自動聚焦"
+      scroll_to_read: "瀏覽條目後自動標示為已讀"
+      sidebar_unread_only: "只顯示有未讀項目的資料夾或供稿來源"
+      locale: "語言"
+    feed_display_mode:
+      title: "顯示模式"
+      all: "顯示所有項目"
+      unread: "顯示未讀項目"
+    feed_list_mode:
+      title: "瀏覽模式"
+      full: "完整瀏覽模式"
+      list: "列表瀏覽模式"
+    sort_mode:
+      title: "顯示排序"
+      normal: "新條目最前"
+      reverse: "舊條目最前"
+    save: "儲存"
+    cancel_disabled: "在導入過程中您無法登出賬戶，請稍加等待。"
+    cancel_account:
+      text: "很是不滿意？ 您可以%{export}到OPML文件，然後隨時可以%{cancel}。"
+      export: "導出訂閱來源"
+      cancel: "刪除你的賬戶"
+      confirm: "确定？"
+    social:
+      notify_when_followed: "當我有新關注者時請電郵通知我"
+      share_timeline: "共享到Facebook"
+      connect_share_timeline: "與Facebook連結"
+      show_fb_profile: "在個人檔案中顯示Facebook連結"
+    readlater:
+      pocket:
+        title: "Pocket integration"
+        description: "<a href='http://getpocket.com/'>Pocket</a> （曾名曰Read It Later）是款非常實用的應用程式，它可以幫助你整理及標記內容， 以便稍後讀取。"
+        connect: "連結Pocket"
+        account: "您的賬戶: <strong>%{username}</strong>"
+  import:
+    title: "導入"
+    alert: "<b>請輸入您的Google帳號及密碼以便從Google Reader導入您的訂閱來源.</b><br />我們絕不會保存您的密碼。您的賬戶信息只用於獲取您的訂閱來源。"
+    opml: "<b>或者上傳OPML文件</b><br /你可以從Google Reader的設定頁面獲得。<br />請上傳<b>subscriptions.xml</b>文件"
+    email: "電子郵箱"
+    password: "密碼"
+    import: "導入"
+    started: "導入訂閱來源會消耗大量資源，因此系統只允許同時進行有限量的導入操作，您的操作將會提交到導入隊列當中。"
+    queued: "OPML文件上傳成功！我們將儘快開始導入您的訂閱來源。"
+    queued_notice: "隊列中還有 <strong>%{count}</strong> 位用戶在您的前方，請耐心等待。"
+    processing: "正在導入你的供稿。"
+    error: "Opps！出錯了！"
+    opml_empty: "OPML文件不正確或者是空的。"
+    too_many_feeds: "由於技術問題，我們只能導入您的前1000個訂閱。"
+    cancel: "取消"
+  profile:
+    follow: "跟隨"
+    unfollow: "取消跟隨"
+    thats_you: "That's you!"
+    following: 
+      one: "跟隨 <strong>%{count}</strong> 位用戶"
+      few: "跟隨 <strong>%{count}</strong> 位用戶"
+      many: "跟隨 <strong>%{count}</strong> 位用戶"
+      other: "跟隨 <strong>%{count}</strong> 位用戶"
+    followers:
+      one: "被 <strong>%{count}</strong> 位用戶跟隨"
+      few: "被 <strong>%{count}</strong> 位用戶跟隨"
+      many: "被 <strong>%{count}</strong> 位用戶跟隨"
+      other: "被 <strong>%{count}</strong> 位用戶跟隨"
+    me_following: "<strong>%{count}</strong> 正在跟隨"
+    my_followers: "<strong>%{count}</strong> 跟隨者"
+    posts: "共享的項目"
+    your_profile: "您的個人資料"
+    facebook: "Facebook (%{name})"
+    new: "New"
+    new_followers:
+      one: "%{count} 位新跟隨者"
+      few: "%{count} 位新跟隨者"
+      many: "%{count} 位新跟隨者"
+      other: "%{count} 位新跟隨者"
+    rss: "%{name}在The Old Reader共享的項目(RSS)"
+  friends:
+    follow: "在The Old Reader跟隨你的好友"
+    found:
+      one: "找到 %{count} 位用戶"
+      few: "找到 %{count} 位用戶"
+      many: "找到 %{count} 位用戶"
+      other: "找到 %{count} 位用戶"
+    facebook: "登入 Facebook"
+    google: "登入 Google"
+  notifier:
+    followed:
+      subject: "%{name}跟隨了你"
+      body: |
+        Hello，%{followed}！
+        
+        %{name}正在跟隨你！
+        在%{profile}查看他的個人檔案.
+        
+        -- 
+        The Old Reader robot.
+        如需退訂請在設定頁面中更改通知設定.
+        %{host}
