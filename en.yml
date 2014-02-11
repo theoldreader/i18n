@@ -98,24 +98,22 @@ en:
     tour: "Howto"
     trending: "what's trending"
     qa:
-      :title0: "What does it do?"
-      :text0: "The Old Reader allows you to subscribe to your favorite sites so you can stay in the know. Connect with friends to share and discuss articles you love. Send links to your favorite social networks, or save them to Pocket, Instapaper or Readability."
-      :title1: "Can I transfer my subscriptions?"
-      :text1: "Yep! Importing an OPML export from another service is a breeze."
-      :title2: "How do I find my friends?"
-      :text2: "Connect your account to Facebook or Google and we'll see who else is here (we don't ever store any of your Facebook or Google contact data)."
-      :title3: "Do you have a mobile app?"
-      :text3_pre_link: "Yes! Our fantastic community of developers have built apps for just about any platform. We have a great "
-      :text3_link1: "API"
-      :text3_between_links: " which allows anyone to write an app for The Old Reader. Check out our "
-      :text3_link2: "apps page"
-      :text3_post_link: " to see all of the great apps available."
-      :title4: "Are you going to send junk to my social networks or hijack my links?"
-      :text4: "Absolutely not. We don't believe that's the right thing to do. You're in complete control of what you share to your social networks. When you share it, your friends will get a direct link to see the post, not some link to our site."
-      :title5: "What's included in Premium?"
-      :text5: "Premium comes with the following features:"
-    supported: "Supported with love by"
-    pricing: "Up to %{subscriptions} subscriptions FREE or $%{monthly}/mo"
+      title0: "What does it do?"
+      text0: "The Old Reader allows you to subscribe to your favorite sites so you can stay in the know. Connect with friends to share and discuss articles you love. Send links to your favorite social networks, or save them to Pocket, Instapaper or Readability."
+      title1: "Can I transfer my subscriptions?"
+      text1: "Yep! Importing an OPML export from another service is a breeze."
+      title2: "How do I find my friends?"
+      text2: "Connect your account to Facebook or Google and we'll see who else is here (we don't ever store any of your Facebook or Google contact data)."
+      title3: "Do you have a mobile app?"
+      text3_pre_link: "Yes! Our fantastic community of developers have built apps for just about any platform. We have a great "
+      text3_link1: "API"
+      text3_between_links: " which allows anyone to write an app for The Old Reader. Check out our "
+      text3_link2: "apps page"
+      text3_post_link: " to see all of the great apps available."
+      title4: "Are you going to send junk to my social networks or hijack my links?"
+      text4: "Absolutely not. We don't believe that's the right thing to do. You're in complete control of what you share to your social networks. When you share it, your friends will get a direct link to see the post, not some link to our site."
+      title5: "What does this service cost?"
+      text5: "The Old Reader is free for up to %{free_count} feeds. We also offer a Premium version for %{price} that has the following features:"
   user:
     profile: "Profile"
     logout: "Logout"
@@ -589,7 +587,7 @@ en:
         version does not include all the premium features, you can rest assured that all of the great features that are 
         available today will be available going forward (and we'll add more free features along the way).</p>
         %{limit_specific_message}
-        <p>Please <a href='#'>read our open letter</a> for more information on the change.</p>
+        <p>Please <a href='#'>read our blog post</a> for more information on the change.</p>
       over_limit_message: |
         <p>We'll keep things as they are for you for a couple weeks so you can take your time to decide. After these two
         weeks, you can upgrade to a premium version, or remove subscriptions to qualify for the free plan. You currrently
@@ -635,10 +633,10 @@ en:
       yearly_description: "$%{price} per year"
       summary_title: "Premium Account Features:"
       summary: |
+        <li>Full-text search</li>
+        <li>Faster feed refresh times</li>
         <li>Up to <u>%{subscriptions}</u> Subscriptions *</li> 
         <li><u>6 months</u> of post storage</li>
-        <li>Faster feed refresh times</li>
-        <li>Full-text search of title AND body of posts</li>
         <li>Instapaper and Readability integration</li>
         <li>Early access to new features</li>
       other: "Other plan options"
