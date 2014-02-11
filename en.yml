@@ -16,7 +16,7 @@ en:
     failure:
       already_authenticated: "You are already signed in."
       unauthenticated: "You need to sign in to continue."
-      unconfirmed: "You have to confirm your account to continue."
+      unconfirmed: "We have sent a confirmation email to your address."
       locked: "Your account is locked."
       invalid: "Invalid email or password."
       invalid_token: "Invalid authentication token."
@@ -82,40 +82,45 @@ en:
         :title: "Contact us"
         :url: "http://blog.theoldreader.com/about"
     sign_in:
-      title: "Sign in using:"
+      title: "Sign In:"
       google: "Google"
       facebook: "Facebook"
+      or: "or"
       login: "Login"
       register: "Register"
       password: "Forgot password?"
       change_password: "Change password"
+      tos: "By registering or signing in, you are agreeing to our <a href='%{tos}' target='_blank'>Terms Of Service</a> and <a href='%{privacy}' target='_blank'>Privacy Policy</a>"
+      social_register: "You may also use your %{google} or %{facebook} accounts to register."
     welcome:
-      - "Welcome to The Old Reader, the ultimate social RSS reader. We're in beta right now, but we're constantly working on improvements and new features."
-      - "You can sign in and start using The Old Reader with a single click. However, if you are too shy, please feel free to see our %tour% or peek at the %trending%."
+      - "Welcome to <span class='highlight'>the ultimate social RSS reader</span> for The Open Web. Read, share and discuss. Don't miss a thing."
+      - "Sign in and start using The Old Reader with a single click. Or, if you're too shy, check out our %tour% or peek at %trending% right now."
     tour: "Howto"
-    trending: "top posts of the day"
+    trending: "what's trending"
     qa:
       :title0: "What does it do?"
-      :text0: "It allows you to browse your daily dose of content with that very special bit shared by your friends, with notes and comments"
+      :text0: "The Old Reader allows you to subscribe to your favorite sites so you can stay in the know. Connect with friends to share and discuss articles you love. Send links to your favorite social networks, or save them to Pocket, Instapaper or Readability."
       :title1: "Can I transfer my subscriptions?"
-      :text1: "Yes, you can import your feeds using our OPML import feature."
+      :text1: "Yep! Importing an OPML export from another service is a breeze."
       :title2: "How do I find my friends?"
-      :text2: "We're working on improving the friend suggestion page, but in the mean time you can search for your buddies manually or see who among your Facebook friends or Google contacts is also using The Old Reader. We'll also send you an e-mail when someone starts following you."
+      :text2: "Connect your account to Facebook or Google and we'll see who else is here (we don't ever store any of your Facebook or Google contact data)."
       :title3: "Do you have a mobile app?"
-      :text3_pre_link: "We don't have an official app, but we have an "
+      :text3_pre_link: "Yes! Our fantastic community of developers have built apps for just about any platform. We have a great "
       :text3_link1: "API"
-      :text3_between_links: ". This allows anyone to write an app for The Old Reader, and there is already "
-      :text3_link2: "a number of mobile apps"
-      :text3_post_link: " supporting our site."
-      :title4: "Will you misbehave on my Facebook like those other apps?"
-      :text4: "Absolutely not. You can post your shared items on your timeline, but unless you choose to post to Facebook, all your shares and comments will stay in The Old Reader only. We'll never post anything else on your behalf or involve you in any other shady scheme."
-      :title5: "Why did you build The Old Reader?"
-      :text5: "Let's just say we missed the original reader a lot, so we built The Old Reader for ourselves and our friends. We like the way it turned out, so we are sharing it with everyone."
+      :text3_between_links: " which allows anyone to write an app for The Old Reader. Check out our "
+      :text3_link2: "apps page"
+      :text3_post_link: " to see all of the great apps available."
+      :title4: "Are you going to send junk to my social networks or hijack my links?"
+      :text4: "Absolutely not. We don't believe that's the right thing to do. You're in complete control of what you share to your social networks. When you share it, your friends will get a direct link to see the post, not some link to our site."
+      :title5: "What's included in Premium?"
+      :text5: "Premium comes with the following features:"
     supported: "Supported with love by"
+    pricing: "Up to %{subscriptions} subscriptions FREE or $%{monthly}/mo"
   user:
     profile: "Profile"
     logout: "Logout"
     settings: "Settings"
+    account: "Account"
     failure: "The %{kind} account you are trying to use has already been linked to some other The Old Reader account. Please cancel your other account and retry the operation."
     becomes_active_notice: "Hey, welcome back! We haven't seen you in a while so we'll need to take a moment to rebuild your reading list. Don't worry, we've still been collecting your subscriptions. You should start seeing new unread items shortly."
   feeds:
@@ -220,6 +225,7 @@ en:
     profile: "Profile"
     friends: "Find Friends"
     commented: "Commented"
+    tos: "Terms of Service"
     privacy: "Privacy policy"
     trending: "Trending"
     donate: "Donate"
@@ -228,6 +234,7 @@ en:
     status: "Server status"
     community: "Community resources"
     apps: "Apps"
+    account: "Account"
   settings:
     tabs:
       main: "Main"
@@ -326,7 +333,6 @@ en:
     processing: "Your feeds are now importing in background."
     error: "Something went wrong"
     opml_empty: "OPML file you uploaded is either incorrect or empty."
-    too_many_feeds: "For technical reasons we will only import first 1000 of your feeds."
     cancel: "Cancel import"
   profile:
     follow: "Follow"
@@ -565,3 +571,135 @@ en:
         inbetween: " and feel free to ask for assistance at the "
         link2: "community forums"
         post_link: " if something is not clear."
+  accounts:
+    notification:
+      modal:
+        title: "Important news from The Old Reader"
+        dismiss_button: "Close"
+      introduction: "Hello %{display_name}"
+      notification_text: |
+        <p>The Old Reader is adding new paid account plans to help fund the maintenance and development of this service.
+        The new paid plans will offer the following benefits:
+        <ul>
+          %{summary}
+        </ul></p>
+        <p>We're working diligently to make this the best RSS reader on the web and hope that you'll consider upgrading 
+        to the premium version for only $%{price} per month (yearly discounts available).</p>
+        <p><strong>A free plan will also be available for users who have less than %{free_limit} subscriptions.</strong> While the free 
+        version does not include all the premium features, you can rest assured that all of the great features that are 
+        available today will be available going forward (and we'll add more free features along the way).</p>
+        %{limit_specific_message}
+        <p>Please <a href='#'>read our open letter</a> for more information on the change.</p>
+      over_limit_message: |
+        <p>We'll keep things as they are for you for a couple weeks so you can take your time to decide. After these two
+        weeks, you can upgrade to a premium version, or remove subscriptions to qualify for the free plan. You currrently
+        have <strong>%{current_count}</strong> subscriptions.</p>
+      under_limit_message: |
+        </p>Since you have less than %{free_limit} feeds, you qualify for a free account.</p>
+      tos: "By dismissing this message and continuing to use The Old Reader, you are agreeing to our <a href='%{tos}' target='_blank'>Terms Of Service</a> and <a href='%{privacy}' target='_blank'>Privacy Policy</a>"
+      closing: |
+        <p>Visit your <a href="%{manage_url}">account page</a> to sign up for a premium plan.</p>
+        <p>Thank you for your continued support,</p>
+        <p>The Old Reader Team</p>
+    limits:
+      change: "upgrade to premium"
+      subscribe: "Feed was not added. You already have %{current} subscriptions, your limit is %{limit}. You should %{change}."
+      import_full: "Your import was not added. You already have %{current} subscriptions, your limit is %{limit}. You might want to increase by %{change} and re-import again."
+      import_partial: "Your import was added, but we will process only first %{avail} subscriptions of %{total}. You already have %{current} subscriptions, your limit is %{limit}. You might want to increase by %{change} and re-import again."
+      status: "You are currently using <strong>%{current}</strong> of the <strong>%{limit}</strong> subscriptions available for your plan."
+      should_upgrade: "%{status} You should consider an %{upgrade}"
+      must_upgrade: "You must upgrade to add more subscriptions."
+      inactive: "You have more subscriptions than your plan allows, so we've stopped fetching new posts. You can %{upgrade}"
+      upgrade_title: "More of a great thing with The Old Reader Premium"
+    trial:
+      try: "Try FREE for 14 Days"
+      created: "Your free trial has been created."
+      expiration: "Your free trial will expire on"
+      expiration_desc: "Your free trial will expire in %{dist}. You can %{upgrade} or %{extend}"
+      extend: "extend your trial"
+      extended: "Your free trial has been extended."
+      expired: "Your free trial has expired. You can %{upgrade} or %{extend}"
+      expired_over_limit: "Your free trial has expired and you are over the free account limit, so we've stopped fetching new posts. You can %{upgrade} or %{extend}"
+    card:
+      number: "Credit Card Number"
+      code: "Security Code (CVC)"
+      expiration: "Card Expiration"
+      on_file: "Your current card:"
+      status:
+        payment_failed: "payment failed"
+      status_desc:
+        payment_failed: "Your current credit card could not be charged. Go to <a href='%{account_url}'>accounts</a> to update your payment information."
+    plan: "Selected Plan"
+    plans:
+      monthly_description: "$%{price} per month"
+      yearly_description: "$%{price} per year"
+      summary_title: "Premium Account Features:"
+      summary: |
+        <li>Up to <u>%{subscriptions}</u> Subscriptions *</li> 
+        <li><u>6 months</u> of post storage</li>
+        <li>Faster feed refresh times</li>
+        <li>Full-text search of title AND body of posts</li>
+        <li>Instapaper and Readability integration</li>
+        <li>Early access to new features</li>
+      other: "Other plan options"
+      subscriptions: "Up to %{subscriptions} feeds"
+      bigger_plans: "Larger plans are available"
+    payments:
+      errors:
+        incorrect_number: "The card number is incorrect."
+        invalid_number: "The card number is not a valid credit card number."
+        invalid_expiry: "The card's expiration is invalid."
+        invalid_expiry_month: "The card's expiration month is invalid."
+        invalid_expiry_year: "The card's expiration year is invalid."
+        invalid_cvc: "The card's security code is invalid."
+        expired_card: "The card has expired."
+        incorrect_cvc: "The card's security code is incorrect."
+        incorrect_zip: "The card's zip code failed validation."
+        card_declined: "The card was declined."
+        missing: "There is no card on a customer that is being charged."
+        processing_error: "An error occurred while processing the card."
+      history_title: "Payment History"
+      date_column: "Date"
+      amount_column: "Amount (USD)"
+      next_payment: "Next payment date"
+      info_unavailable: "Payment information is unavailable"
+    tos: "I agree with <a href='%{tos}' target='_blank'>Terms Of Service</a> and <a href='%{privacy}' target='_blank'>Privacy Policy</a>"
+    tos_error: "Please accept our Terms Of Service and Privacy Policy"
+    stripe: "Payment is handled securely through <a href='http://stripe.com' target='_blank'>Stripe</a>."
+    submit: "Update account"
+    cancel: "Cancel my paid account"
+    cancel_confirm: "Are you sure you want to cancel your account?"
+    successful_create: "Account created successfully"
+    successful_update: "Account updated successfully"
+    successful_destroy: "Account deleted successfully"
+    title: "Premium Account"
+    form_title: "Payment Information"
+    emails:
+      payment_failed:
+        subject: "The Old Reader Payment Failed"
+        body: |
+          <p>Hello %{name},</p>
+          <p>An attempt to charge your credit card for your subscription to our premium service failed. Please update your
+          credit card information on the <a href="%{manage_url}">accounts page</a> as soon as possible. Further
+          payment failures will result in the removal of your paid account.</p>
+          <p>Thank you,<br />The Old Reader Team</p>
+      almost_inactive:
+        subject: "Keep your Old Reader account active!"
+        body: |
+          <p>Hello %{name},</p>
+          <p>After %{inactive_count} days of inactivity, The Old Reader removes your unread items to make space for the users
+          who are actively using the service. Can you believe it has been that long since we've seen you?</p>
+          <p>To make sure you don't miss anything, all you have to do is sign in to The Old Reader. 
+          You can also check out what's new while you're there!</p>
+          <p>Thank you,<br />The Old Reader Team</p>
+      almost_expired:
+        subject: "Your Old Reader Premium free trial is about to expire"
+        body: |
+          <p>Hello %{name},</p>
+          <p>Your Old Reader Premium free trial is about to expire. Visit your <a href="%{manage_url}">accounts page</a> to purchase a 
+          premium membership.</p
+          <p>Don't miss out on all the great premium features:
+          <ul>
+            %{summary}
+          </ul></p>
+          <p>Thank you,<br />The Old Reader Team</p>
