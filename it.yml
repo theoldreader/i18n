@@ -16,7 +16,6 @@ it:
     failure:
       already_authenticated: "Sei già connesso."
       unauthenticated: "Devi connetterti per poter continuare."
-      unconfirmed: "Devi confermare il tuo account per poter continuare."
       locked: "Il tuo account è bloccato."
       invalid: "Email o password non corrette."
       invalid_token: "Token di autenticazione non valido." 
@@ -86,8 +85,6 @@ it:
       password: "Password Dimenticata?"
       change_password: "Cambia password" 
     tour: "tour"
-    trending: "post principali del giorno"
-    supported: "Supportato con amore da"
   user:
     profile: "Profilo"
     logout: "Esci"
@@ -239,7 +236,6 @@ it:
     email: "Email"
     password: "Password"
     import: "Importa"
-    too_many_feeds: "Per ragioni techniche, importeremo solo i tuoi primi 1000 feed."
     started: "Poichè l'import è una procedura che richiede considerevoli risorse, i nostri sistemi eseguono un numero limitato di procedure di import nello stesso istante. Al momento tutti gli slot disponibili sono occupati, perciò il tuo import verrà accodato."
     queued: "Grazie per aver caricato il tuo file OPML. Inizieremo appena possibile a importare le tue sottoscrizioni."
     queued_notice: "Ci sono <strong>%{count}</strong> utenti in attesa di import prima di te."

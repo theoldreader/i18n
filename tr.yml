@@ -16,7 +16,6 @@ tr:
     failure:
       already_authenticated: "Zaten giriş yaptınız."
       unauthenticated: "Devam edebilmek için giriş yapmalısınız."
-      unconfirmed: "Devam edebilmek için hesabınızı onaylamalısınız."
       locked: "Hesabınız kilitlendi."
       invalid: "Hatalı e-posta ya da şifre."
       invalid_token: "Geçersiz doğrulama belirteci."
@@ -82,8 +81,6 @@ tr:
       google: "Google"
       facebook: "Facebook"
     tour: "tur"
-    trending: "günün öne çıkan başlıkları"
-    supported: "Sevgiyle destekleyen"
   user:
     profile: "Profil"
     logout: "Çıkış"
@@ -236,7 +233,6 @@ tr:
     processing: "Feedleriniz şu anda arkaplanda içe aktarılıyor."
     error: "Bir şeyler ters gitti"
     opml_empty: "Yüklediğiniz OPML dosyası ya hatalı ya da boş."
-    too_many_feeds: "Teknik nedenlerle feedlerinizin yalnızca ilk 1000 tanesini içe aktarabiliyoruz."
     cancel: "İçe aktarmayı iptal et"
   profile:
     follow: "Takip et"

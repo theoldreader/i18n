@@ -16,7 +16,6 @@ ch:
     failure:
       already_authenticated: "您已经登录了。"
       unauthenticated: "请登录。"
-      unconfirmed: "请验证您的帐户。"
       locked: "您的帐号已被锁定。"
       invalid: "无效的邮箱或密码。"
       invalid_token: "无效的认证信息。"
@@ -82,8 +81,6 @@ ch:
       google: "Google"
       facebook: "Facebook"
     tour: "新手入门"
-    trending: "每日热门"
-    supported: "Supported with love by"
   user:
     profile: "个人档案"
     logout: "退出"
@@ -238,7 +235,6 @@ ch:
     processing: "正在导入您的供稿。"
     error: "出错了"
     opml_empty: "OPML文件不正确或是空的。"
-    too_many_feeds: "由于技术问题，我们只能导入您的前1000个订阅。"
     cancel: "取消"
   profile:
     follow: "关注"

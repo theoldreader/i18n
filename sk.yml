@@ -16,7 +16,6 @@ sk:
     failure:
       already_authenticated: "Už ste raz prihlásený do Vášho účtu."
       unauthenticated: "Aby ste mohli pokračovať, musíte byť prihlásený."
-      unconfirmed: "Musíte potvrdiť Váš účet, aby ste mohli pokračovať."
       locked: "Váš účet je uzamknutý."
       invalid: "Nesprávne meno alebo heslo."
       invalid_token: "Nesprávny overovací kľúč."
@@ -82,8 +81,6 @@ sk:
       google: "Google"
       facebook: "Facebooku"
     tour: "Ako na..."
-    trending: "najlepšie články dnešného dňa"
-    supported: "S láskou podporováný od"
   user:
     profile: "Profil"
     logout: "Odhlásiť sa "
@@ -239,7 +236,6 @@ sk:
     processing: "Vaše kanály sú importované na pozadí."
     error: "Niečo sa pokazilo"
     opml_empty: "OPML súbor, ktorý ste nahrali je buď nesprávny ale bo prázdny."
-    too_many_feeds: "Z technických príčin Vám importujeme len prvých 1000 kanálov."
     cancel: "Ukončiť import"
   profile:
     follow: "Sledovať"

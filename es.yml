@@ -16,7 +16,6 @@ es:
     failure:
       already_authenticated: "Ya está dentro del sistema"
       unauthenticated: "Necesita ingresar o registrarse para continuar"
-      unconfirmed: "Debe confirmar su cuenta para continuar"
       locked: "Su cuenta está bloqueada"
       invalid: "Correo o contraseña inválidos"
       invalid_token: "Ficha de autenticación invalida"
@@ -82,8 +81,6 @@ es:
       google: "Google"
       facebook: "Facebook"
     tour: "tour"
-    trending: "popular"
-    supported: "Soportado con amor por"
   user:
     profile: "Perfil"
     logout: "Salir"
@@ -238,7 +235,6 @@ es:
     processing: "Sus fuentes se están importando en segundo plano."
     error: "Algo salió mal"
     opml_empty: "El fichero OPML que envió es incorrecto o está vacío."
-    too_many_feeds: "Por razones técnicas, sólo importaremos sus primeras 1000 fuentes."
     cancel: "Cancelar importación"
   profile:
     follow: "Seguir"

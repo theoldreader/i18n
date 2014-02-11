@@ -16,7 +16,6 @@ pl:
     failure:
       already_authenticated: "Jesteś już zalogowany."
       unauthenticated: "Najpierw musisz się zalogować."
-      unconfirmed: "Najpierw musisz potwierdzić swoje konto."
       locked: "Twoje konto jest zablokowane."
       invalid: "Nieprawidłowe hasło lub e-mail."
       invalid_token: "Nieprawidłowy klucz uwierzytelnienia."
@@ -86,8 +85,6 @@ pl:
       password: "Odzyskiwanie hasła"
       change_password: "Zmień hasło"
     tour: "przewodnik"
-    trending: "najlepsze posty dnia"
-    supported: "Dzięki życzliwemu wsparciu"
   user:
     profile: "Profil"
     logout: "Wyloguj"
@@ -245,7 +242,6 @@ pl:
     processing: "Twoje kanały są importowane w tle."
     error: "Wystąpił błąd"
     opml_empty: "Wysłałeś albo uszkodzony, albo pusty plik OPML."
-    too_many_feeds: "Z przyczyn technicznych, zaimportujemy tylko pierwsze 1000 twoich kanałów."
     cancel: "Anuluj importowanie"
   profile:
     follow: "Obserwuj"

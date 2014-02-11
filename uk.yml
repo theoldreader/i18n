@@ -16,7 +16,6 @@ uk:
     failure:
       already_authenticated: "Ви вже увійшли до системи."
       unauthenticated: "Вам необхідно увійти до системи або зареєструватися."
-      unconfirmed: "Ви маєте затвердити ваш обліковий запис."
       locked: "Ваш обліковий запис заблокован."
       invalid: "Невірна адреса e-mail або пароль."
       invalid_token: "Невірний ключ аутентифікації."
@@ -86,8 +85,6 @@ uk:
       google: "Google"
       facebook: "Facebook"
     tour: "тур"
-    trending: "популярні записи"
-    supported: "За підтримки"
   user:
     profile: "Профіль"
     logout: "Вийти"
@@ -241,7 +238,6 @@ uk:
     processing: "Ваши підписки зараз імпортуються у фоні."
     error: "Щось пішло не так"
     opml_empty: "OPML-файл порожній або некоректний."
-    too_many_feeds: "З технічних причин ми імпортуємо лише перші 1000 ваших підписок."
     cancel: "Скасувати імпорт"
   profile:
     follow: "Стежити"
