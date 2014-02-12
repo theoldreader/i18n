@@ -587,7 +587,7 @@ en:
         version does not include all the premium features, you can rest assured that all of the great features that are 
         available today will be available going forward (and we'll add more free features along the way).</p>
         %{limit_specific_message}
-        <p>Please <a href='#'>read our blog post</a> for more information on the change.</p>
+        <p>Please <a href='http://blog.theoldreader.com/post/76417559063'>read our blog post</a> for more information on the change.</p>
       over_limit_message: |
         <p>We'll keep things as they are for you for a couple weeks so you can take your time to decide. After these two
         weeks, you can upgrade to a premium version, or remove subscriptions to qualify for the free plan. You currrently
