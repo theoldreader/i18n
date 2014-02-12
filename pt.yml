@@ -41,9 +41,6 @@ pt:
       updated: "Você atualizou sua conta com sucesso."
       update_needs_confirmation: "Você atualizou sua conta com sucesso, mas temos que verificar seu novo endereco de email. Por favor verifique seu email e clique no link para finalizar a confirmação do seu novo endereço de email."
       destroyed: "Até mais! Sua conta foi cancelada com sucesso. Esperamos te ver novamente em breve."
-      disabled: "Unfortunately we had to disable user registration at The Old Reader. Please take a look at our blog for more details: %{redirect}"
-      friend_notice: "We have disabled user registration at The Old Reader, and we might be making the website private. Your account will be transferred to the private site automatically. More details are available in our blog: %{redirect}"
-      non_friend_notice: "We have disabled user registration at The Old Reader, and we might be making the website private. If we do, unfortunately your account will not be transferred to the private site, so you might want to export your subscriptions as OPML and start looking for an alternative solution. More details are in available in our blog: %{redirect}"
     unlocks:
       send_instructions: "Você receberá um email com instruções sobre como desbloquear sua conta em alguns minutos."
       unlocked: "Sua conta foi desbloqueada com sucesso. Por favor autentique-se para continuar."

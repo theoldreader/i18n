@@ -41,9 +41,6 @@ nl:
       updated: "U heeft uw account met succes bijgewerkt."
       update_needs_confirmation: "U heeft uw account met succes bijgewerkt, maar wij moeten uw nieuwe e-mailadres verifiëren. Controleer uw e-mail en klik op de bevestigingslink."
       destroyed: "tot ziens! Uw account is met succes geannuleerd. We hopen u spoedig weer te zien."
-      disabled: "Jammer genoeg moeten we het registren van nieuwe gebruikers stopzetten op The Old Reader. Kijk voor meer informatie op onze blog: %{redirect}"
-      friend_notice: "We hebben de registratie van nieuwe gebruikers voor The Old Reader uitgeschakeld, en misschien maken we de website privé. Uw account zal automatisch worden overgebracht naar de privé website. Meer informatie is aanwezig op onze blog: %{redirect}"
-      non_friend_notice: "We hebben de registratie van nieuwe gebruikers voor The Old Reader uitgeschakeld, en misschien maken we de website privé. Als we dat doen zal uw account jammergenoeg niet worden overgebracht naar de privé website. U moet dus overwegen uw subscripties te exporteren via een OPML-bestand en uitkijken naar een  alternatieve reader. Kijk voor meer informatie op onze blog: %{redirect}"
     unlocks:
       send_instructions: "U ontvangt binnen enkele ogenblikken een e-mail met instructies hoe u uw account kunt ontgrendelen."
       unlocked: "Uw account is met succes ontgrendeld. U kunt u nu aanmelden om door te gaan."
