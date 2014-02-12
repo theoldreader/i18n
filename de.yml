@@ -16,6 +16,7 @@ de:
     failure:
       already_authenticated: "Sie sind bereits angemeldet."
       unauthenticated: "Sie müssen sich zum Fortfahren anmelden."
+      unconfirmed: "Wir haben Ihnen einen Bestätigungslink an Ihre E-Mail-Adresse geschickt."
       locked: "Ihr Benutzerkonto ist gesperrt."
       invalid: "Ungültige E-Mail-Adresse oder Passwort."
       invalid_token: "Ungültiger Authentifizierungstoken."
@@ -81,15 +82,40 @@ de:
       title: "Anmelden via:"
       google: "Google"
       facebook: "Facebook"
+      or: "oder"
       login: "Login"
       register: "Registrieren"
       password: "Passswort vergessen?"
       change_password: "Passwort ändern"
+      tos: "Mit dem Registrieren oder Einloggen stimmen Sie unseren <a href='%{tos}' target='_blank'>Nutzungsbedingungen</a> und der <a href='%{privacy}' target='_blank'>Datenschutzerklärung</a> zu"
+      social_register: "Sie können auch Ihr %{google}- oder %{facebook}-Konto nutzen, um sich zu registrieren."
+    welcome:
+      - "Willkommen bei The Old Reader, <span class='highlight'>dem ultimativen RSS-Reader</span> für das Open Web. Lesen, Teilen und Diskutieren Sie mit und verpassen Sie nichts mehr!"
+      - "Loggen Sie sich mit einem einzigen Klick ein und nutzen Sie The Old Reader. Oder sind Sie noch etwas zu schüchtern? Dann schauen Sie sich doch mal unsere %tour% an oder werfen Sie einen Blick auf die aktuellen %trending%."
     tour: "Tour"
+    trending: "Trends"
+    qa:
+      title0: "Was macht The Old Reader?"
+      text0: "The Old Reader erlaubt es Ihnen, Ihre favorisierten Websites zu abonnieren, so dass Sie immer auf dem Laufenden bleiben. Verbinden Sie sich mit Freunden und teilen und diskutieren Sie über Beiträge, die Ihnen gefallen. Teilen Sie Links in Ihrem bevorzugten sozialen Netzwerk or speichern Sie diese in Pocket, Instapaper oder Readability."
+      title1: "Kann ich meine Abonnements umziehen?"
+      text1: "Ja, der Import einer OMPL-Datei ist ein Spaziergang!"
+      title2: "Wie finde ich meine Freunde?"
+      text2: "Verbinden Sie sich zu Facebook oder Google und wir schauen wer noch so hier ist (wir speichern Ihre Facebook- oder Google-Kontaktdaten nicht!)."
+      title3: "Gibt es eine App für mein Smartphone?"
+      text3_pre_link: "Ja! Unsere großartige Entwicklergemeinschaft hat Apps für nahezu jede Plattform entwickelt. Wir haben eine "
+      text3_link1: "API"
+      text3_between_links: ", die es jedem ermöglicht, selber eine App für The Old Reader zu schreiben. Schauen Sie sich unsere "
+      text3_link2: "App-Seite"
+      text3_post_link: "an, um alle verfügbaren Apps zu sehen."
+      title4: "Missbraucht ihr meinen Facebook-Account wie diese ganzen anderen Apps?"
+      text4: "Auf keinen Fall! Wir glauben nicht, dass das der richtige Weg ist. Sie haben die komplette Kontrolle darüber, was zu sozialen Netzwerken geteilt wird. Wenn Sie etwas teilen, erhalten Ihre Freunde einen direkten Link zu dem Beitrag, keinen Link zu unserer Seite."
+      title5: "Was kostet dieser Service?"
+      text5: "The Old Reader ist kostenlos für bis zu %{free_count} Abonnements. Wir bieten außerdem eine <u>Premiumversion</u> für $%{price}/Monat ($%{intro_price}/Monat, wenn Sie sich jetzt anmelden!) mit den folgenden Funktionen an:"
   user:
     profile: "Profil"
     logout: "Abmelden"
     settings: "Einstellungen"
+    account: "Konto"
     failure: "Das %{kind} Konto, das Sie verwenden wollen, wurde bereits mit einem anderen The Old Reader Konto verknüpft. Bitte kündigen Sie Ihr anderes Konto und versuchen Sie es erneut."
     becomes_active_notice: "Sie haben The Old Reader eine Weile nicht benutzt, daher haben wir nur die aktuellsten Artikel für Sie"
   feeds:
@@ -124,7 +150,9 @@ de:
     your_posts: "Sie haben <em>%{unread}</em> ungelesene %{posts}"
     refresh: "Aktualisieren"
     unsubscribe: "Abo beenden"
-    unsubscribe_confirm: "Wollen Sie das Abo wirklich beenden? Ihre geteilten und mit gefällt mir markierten Beiträge von diesem Feed werden nicht entfernt."
+    unsubscribe_confirm_feed: "Wollen Sie das Abo wirklich beenden? Ihre geteilten und mit gefällt mir markierten Beiträge von diesem Feed werden nicht entfernt."
+    unsubscribe_confirm_folder: "Wollen Sie wirklich alle Abos in diesem Ordner beenden? Ihre geteilten und mit gefällt mir markierten Beiträge von diesem Feed werden nicht entfernt."
+    unsubscribe_confirm_folder_really: "Sind Sie sich ganz sicher? ALLE Abos in diesem Ordner werden endgültig gelöscht, wenn Sie fortfahren!"
     unsubscribe_error: "Das Abo konnte nicht beendet werden, da gerade eine Aktualisierung durchgeführt wird. Bitte versuchen Sie es später erneut."
     ago: "her"
     never: "Nie"
@@ -151,8 +179,11 @@ de:
     post_author: "von <strong>%{author}</strong>"
     drop_add_folder: "Hier ablegen um neuen Ordner zu erstellen"
     new_folder: "Neuer Ordner"
+    star: "Markieren"
+    unstar: "Markierung entfernen"
     like: "Gefällt mir"
     unlike: "Gefällt mir nicht mehr"
+    send_to: "Senden an"
     likes_count:
       zero: "%{users} gefällt dies"
       one: "%{users} und einem anderen gefällt dies"
@@ -179,6 +210,7 @@ de:
   pages:
     home: "Home"
     all: "Alle Beiträge"
+    starred: "Markiert"
     liked: "Gefällt mir"
     shared: "Geteilt"
     following: "Freunde"
@@ -188,15 +220,22 @@ de:
     profile: "Profile"
     friends: "Freunde finden"
     commented: "Kommentiert"
+    tos: "Nutzungsbedingungen"
     privacy: "Datenschutzerklärung"
-    trending: "Trending"
+    trending: "Trends"
     donate: "Spenden"
     tour: "Tour"
     blog: "Blog"
     status: "Serverstatus"
     community: "Community"
     apps: "Apps"
+    account: "Konto"
   settings:
+    tabs:
+      main: "Kontoeinstellungen"
+      social: "Soziale Einstellungen"
+      readlater: "Später lesen" 
+    general: "Allgemein"
     name: "Name"
     username: "Benutzername"
     email: "E-Mail"
@@ -243,11 +282,38 @@ de:
       share_timeline: "Geteilte Beiträge auf Facebook veröffentlichen"
       connect_share_timeline: "Mit Facebook verbinden um geteilte Beiträge zu veröffentlichen"
       show_fb_profile: "Link zu Ihrer Facebook-Seite im Profil anzeigen"
+      sendto:
+        title: "Senden an"
+        custom:
+          description: "Fügen Sie Ihren eigenen Service hinzu"
+          tokens: "Verfügbare Variablen"
+          example: "Beispiel"
+          title: "Service-Name"
+          url: "Service-URL"
+          delete: "Löschen"
+          more: "Eine Liste von bekannten Service-URLs finden Sie in <a href='http://theoldreader.uservoice.com/knowledgebase/articles/294010' target='_blank'>diesem Artikel.</a>"
     readlater:
+      usage:
+        title: "Nutzung"
+        note: "Verbinden Sie sich zu den folgenden Services und Beiträge werden dorthin gesendet, wenn Sie den %{star}-Button drücken."
+        star: "★ Markieren"
       pocket:
         title: "Pocket-Verknüpfung"
         description: "<a href='http://getpocket.com/'>Pocket</a> (früher Read It Later) ist eine nützliche App, mit der Sie Inhalte anordnen, sortieren und taggen können, die Sie später aufrufen wollen."
         connect: "Mit Pocket verbinden"
+        disconnect: "Verbindung trennen"
+        account: "Ihr Konto: <strong>%{username}</strong>"
+      readability:
+        title: "Readability-Verknüpfung"
+        description: "<a href='http://www.readability.com/'>Readability</a> ist eine freie Leseplattform die darauf zielt, egal wo Sie gerade sind ein großartiges Leseerlebnis zu liefern und ein System zur Verfügung zu stellen, dass Leser mit den Autoren verbindet, die sie mögen."
+        connect: "Mit Readability verbinden"
+        disconnect: "Verbindung trennen"
+        account: "Ihr Konto: <strong>%{username}</strong>"
+      instapaper:
+        title: "Instapaper-Verknüpfung"
+        description: "<a href='http://www.instapaper.com/'>Instapaper</a> wandelt Webinhalte – Artikel, Stories, Beiträge, Videos und sogar lange E-Mails – in ein großartiges Leseerlebnis um. Überall, jederzeit."
+        connect: "Mit Instapaper verbinden"
+        disconnect: "Verbindung trennen"
         account: "Ihr Konto: <strong>%{username}</strong>"
   import:
     title: "Importieren"
@@ -352,6 +418,21 @@ de:
     note: "*nur für Chrome, Safari, Opera"
     pages:
       title: "Seitennavigation"
+      body: |
+        Shift+n, Shift+j: Nächstes Abonnement oder Ordner
+        Shift-p, Shift-k: Vorheriges Abonnement oder Ordner
+        Shift-x: Ausgewählten Ordner zuklappen
+        Shift-o: Ausgewähltes Abonnement oder Ordner öffnen
+        Shift-c: Alle Ordner zuklappen
+        Shift-e: Alle Ordner aufklappen
+        g und danach h: Zu Home wechseln
+        g und danach a: Zu Alle Beiträge wechseln
+        g und danach f: Zu Markiert wechseln
+        g und danach l: Zu Gefällt mir wechseln
+        g und danach s: Zu Geteilt wechseln
+        g und danach t: Zu Trends wechseln
+        g und danach c: Zu Kommentiert wechseln
+        g und danach f: Zu Following wechseln 
     other:
       title: "Weitere Kürzel"
       body: |
@@ -361,6 +442,22 @@ de:
         ? or h: Dieses Fenster zeigen
     posts:
       title: "Kürzel für Beiträge"
+      body: |
+        Leertaste: Runterscrollen
+        Shift+Leertaste: Hochscrollen
+        Shift+a: Alle als gelesen markieren
+        j, n: Nächster Beitrag
+        k, p: Vorheriger Beitrag
+        o, v: Beitrag in einem neuen Tab öffnen
+        b: Beitrag in einem neuen Hintergrund-Tab öffnen*
+        x: Beitrag auf/zuklappen (Listenansicht)
+        f: Beitrag markieren
+        s: Beitrag teilen
+        m: Beitrag als gelesen/ungelesen markieren
+        l: Beitrag mit "Gefällt mir" kennzeichnen 
+        c: Zu den Kommentaren scrollen und Kommentarbox öffnen
+        1: Zur Vollansicht wechseln
+        2: Zur Listenansicht wechseln
   alerts:
     common: "Anfrage an den Server fehlgeschlagen. Bitte versuchen Sie es später erneut."
     posts: "Beiträge konnten nicht geladen werden"
@@ -376,6 +473,9 @@ de:
         p1: "Bitte beachten Sie, dass diese Anwendungen ein Passwort zur Authentifizerung benötigen. Bitte vergeben Sie zunächst in den Einstellungen ein Passwort, bevor Sie eine dieser Apps benutzen."
       bookmarklets:
         title: "Bookmarklets"
+        description: "Ziehen Sie diese Bookmarklets einfach in Ihre Lesezeichen"
+        advanced: "Für Fortgeschrittene: Einrichten und erweiterte Bookmarklets nutzen"
+        subscribe: "Folgen"
         tornexto: "Bookmarklet um zum nächsten Element in einem Ordner zu wechseln"
         tornexto_author: "von Chas. J. Owens"
         sidebar: "Sidebar ein/ausblenden"
