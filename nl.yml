@@ -18,7 +18,7 @@ nl:
       unauthenticated: "U moet inloggen om door te gaan."
       locked: "Uw account is vergrendeld."
       invalid: "Ongeldig e-mail of wachtwoord."
-      invalid_token: "Ongeldig authenticatiesleutel."
+      invalid_token: "Ongeldige authenticatiesleutel."
       timeout: "Uw sessie is verlopen, log opnieuw in om door te gaan."
       inactive: "Uw account is nog niet geactiveerd."
     sessions:
