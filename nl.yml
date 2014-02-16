@@ -114,7 +114,7 @@ nl:
       text4: "Absoluut niet. We geloven niet dat dat de juiste manier van handelen is. U heeft volledige control over wat u deelt met uw sociale netwerken. als u iets deelt, krijgen uw frienden een directe link naar uw bericht. Niet een link naar onze website."
       title5: "Wat kost deze dienstverlening?"
       text5: "The Old Reader is gratis tot %{free_count} feeds. We hebben ook een <u>premium versie</u> voor $%{price}/maand ($%{intro_price}/maand als u zich nu aanmeldt!) met de volgende kenmerken:"
-    user:
+  user:
     profile: "Profiel"
     logout: "Uitloggen"
     settings: "Instellingen"
@@ -596,23 +596,23 @@ nl:
         <p>The Old Reader Team</p>
     limits:
       change: "upgraden naar premium"
-      subscribe: "De feed is niet toegevoegd. U heeft al %{current} abonnementen, uw limiet is %{limit}. U zou moeten %{upgrade}."
+      subscribe: "De feed is niet toegevoegd. U heeft al %{current} abonnementen, uw limiet is %{limit}. U zou moeten %{change}."
       import_full: "Uw import is niet toegevoegd. U heeft al %{current} abonnementen, uw limiet is %{limit}. U zou het aantal kunnen vergroten door te %{change} en opnieuw een import te doen."
       import_partial: "Uw import is toegevoegd, maar we zullen alleen de eerste %{avail} abonnementen van %{total} verwerken. U heeft al %{current} abonnementen, uw limiet is %{limit}. U zou het aantal kunnen vergroten door te %{change} en opnieuw een import te doen."
       status: "u gebruikt op dit moment <strong>%{current}</strong> van de <strong>%{limit}</strong> abonnementen beschikbaar voor uw plan."
-      should_upgrade: "%{status} U zou moeten overwegen te %{upgrade}"
+      should_upgrade: "%{status} U zou moeten overwegen te %{change}"
       must_upgrade: "U moet upgraden om meer abonnement toe te kunnen voegen."
-      inactive: "U heeft meer abonnementen dan uw betalingsplan toelaat, dus zijn we gestopt met het ophalen van berichten. U kunt %{upgrade}"
+      inactive: "U heeft meer abonnementen dan uw betalingsplan toelaat, dus zijn we gestopt met het ophalen van berichten. U kunt %{change}"
       upgrade_title: "Meer van het beste met The Old Reader Premium"
-    trial:	
+    trial:
       try: "Probeer GRATIS voor 14 dagen"
       created: "Uw gratis proefperiode is ingegaan."
       expiration: "Uw gratis proefperiode eindigt op"
-      expiration_desc: "Uw gratis proefperiode zal aflopen in %{dist}. U kunt %{upgrade} of %{extend}"
+      expiration_desc: "Uw gratis proefperiode zal aflopen in %{dist}. U kunt %{change} of %{extend}"
       extend: "uw proefperiode verlengen."
       extended: "Uw proefperiode is verlengd."
-      expired: "Uw proefperiode is verlopen. U kunt %{upgrade} of %{extend}"
-      expired_over_limit: "Uw proefperiode is verlopen en u bent over de gratis account limiet. We zijn daarom gestopt met het ophalen van nieuwe berichten. U kunt %{upgrade} of %{extend}"
+      expired: "Uw proefperiode is verlopen. U kunt %{change} of %{extend}"
+      expired_over_limit: "Uw proefperiode is verlopen en u bent over de gratis account limiet. We zijn daarom gestopt met het ophalen van nieuwe berichten. U kunt %{change} of %{extend}"
     card:
       number: "Creditkaart nummer"
       code: "Beveiligingscode (CVC)"
@@ -692,4 +692,3 @@ nl:
             %{summary}
           </ul></p>
           <p>Hartelijk dank,<br />The Old Reader Team</p>
-       
