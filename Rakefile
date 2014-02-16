@@ -1,7 +1,7 @@
 namespace :i18n do
   desc "Invalidate locales one-by-one"
   task :invalidate do
-    available = Dir.glob("[a-z\-]*\.yml").map { |x| x.chomp(".yml").to_sym }
+    available = Dir.glob("*.yml").map { |x| x.chomp(".yml").to_sym }
     base = :en
     translations = available - [base]
     identation = "  " # ._.
