@@ -4,6 +4,7 @@ import glob
 import yaml
 import sets
 import sys
+import traceback
 
 """
 Check that all translation have proper keys
@@ -82,13 +83,12 @@ def main(args):
         filename = os.path.join(basedir, filename)
         if not os.path.exists(filename):
             filename += '.yml'
-        errors = process_file(filename, master_data)
-        if errors:
+        try:
+            process_file(filename, master_data)
+        except yaml.scanner.ScannerError:
+            traceback.print_exc()
             exitcode = 1
 
     return exitcode
-
 if __name__ == "__main__":
-    exitcode = main(sys.argv)
-    sys.exit(exitcode)
-
+    sys.exit(main(sys.argv))
