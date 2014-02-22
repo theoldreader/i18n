@@ -346,210 +346,218 @@ zh-hant:
       one: "已被 <strong>%{count}</strong>個用戶跟隨"
       few: "已被 <strong>%{count}</strong>個用戶跟隨
       many: "已被 <strong>%{count}</strong>個用戶跟隨"
-      other: "Followed by <strong>%{count}</strong> users"
-    me_following: "<strong>%{count}</strong> Following"
-    my_followers: "<strong>%{count}</strong> Followers"
-    posts: "Shared posts"
-    your_profile: "Your profile"
+      other: "已被<strong>%{count}</strong>個用戶跟隨"
+    me_following: "<strong>%{count}</strong>個用戶正在跟隨"
+    my_followers: "<strong>%{count}</strong>跟隨者"
+    posts: "共享文章"
+    your_profile: "你的個人資料"
     facebook: "Facebook (%{name})"
-    new: "New"
+    new: "新"
     new_followers:
-      one: "%{count} new"
-      few: "%{count} new"
-      many: "%{count} new"
-      other: "%{count} new"
-    rss: "%{name} shared items on The Old Reader (RSS)"
+      one: "%{count}個新的追隨者"
+      few: "%{count}個新的追隨者"
+      many: "%{count}個新的追隨者"
+      other: "%{count}個新的追隨者"
+    rss: "在The Old Reader 已共享了%{name}個項目"
   friends:
-    follow: "Follow your friends who use The Old Reader"
+    follow: "追隨在The Old Reader上的朋友們"
     found:
-      one: "Found %{count} user"
-      few: "Found %{count} users"
-      many: "Found %{count} users"
-      other: "Found %{count} users"
-    facebook: "Login with Facebook"
-    google: "Login with Google"
+      one: "找到了 %{count}個用戶"
+      few: "找到了 %{count} 個用戶"
+      many: "找到了 %{count} 個用戶"
+      other: "找到了 %{count} 個用戶"
+    facebook: "用Facebook帳號登入"
+    google: "用Google帳號登入"
   notifier:
     followed:
-      subject: "%{name} has followed you"
+      subject: "%{name} 個用戶正在追隨你"
       body: |
-        Hello, %{followed}!
+        你好， %{followed}!
         
-        %{name} is now following you. Nice!
-        See profile at %{profile}.
+        %{name} 現在正在跟隨你！
+        看看他的個人資料： %{profile}.
         
         --
-        The Old Reader robot.
-        You can always unsubscribe at your settings page.
+        The Old Reader 自動機械人
+      你可以在你的個人資料中中隨時取消訂閱這些郵件。
         %{host}
     import:
-      subject: "Your feeds are ready, hooray!"
+      subject: "你的訂閱源已經準備好了，萬歲！"
       body: |
-        Hello %{name},
+        你好， %{name},
         
-        We are happy to inform you that we have finished importing your subscriptions.
-        Feeds you imported should now be available at %{host}.
-        Thank you for using The Old Reader.
+        我們很高興告訴你我們已經成功匯入了你的訂閱源。
+        你匯入的訂閱可以在 %{host} 看到。
+        感謝你使用The Old Reader
         
         --
-        The Old Reader robot.
+        The Old Reader 自動機械人
         %{host}
     confirmation:
       body: |
-        Welcome %{name},
+        歡迎， %{name},
         
-        You can confirm your account email using the link below:
+        請點擊以下鏈結以激活你的帳號：
         %{link}
         
         --
-        The Old Reader robot.
+        The Old Reader自動機械人
         %{host}
     password:
       body: |
-        Hello %{name},
+        你好， %{name},
         
-        Someone has requested a link to change your password, here it is:
+        有人發起了請求修改密碼，修改密碼的鏈結在此:
         %{link}
         
-        If you have not requested this, please ignore this email.
-        Your password will not get changed until you access the link above.
+        如果該請求不是你所發起的，請忽視此則電郵。
+        在你點擊此鏈結前，你的密碼不會被更動。
         
         --
-        The Old Reader robot.
+        The Old Reader自動機械人
         %{host}
   shortcuts:
-    header: "Keyboard Shortcuts"
-    note: "*Chrome, Safari, Opera only"
+    header: "鍵盤快捷鍵"
+    note: "*Chrome、 Safari、 Opera限定"
     pages:
-      title: "Navigate between pages"
+      title: "頁面導航"
       body: |
-        shift-n, shift-j: next subscription or folder
-        shift-p, shift-k: previous subscription or folder
-        shift-x: collapse selected folder
-        shift-o: open selected subscription or folder
-        shift-c: collapse all folders
-        shift-e: expand all folders
-        g then h: go to home
-        g then a: go to all items
-        g then f: go to starred
-        g then l: go to liked
-        g then s: go to shared
-        g then t: go to trending
-        g then c: go to commented
-        g then p: go to following
+        shift-n, shift-j: 下一個訂閱源或文件夾
+        shift-p, shift-k: 上一個訂閱源或文件夾
+        shift-x: 摺疊選定的文件夾
+        shift-o: 開啓選定的文件夾或訂閱源
+        shift-c: 摺疊所有文件夾
+        shift-e: 展開所有文件夾
+        g then h: 返回主頁
+        g then a: 前往所有項目
+        g then f: 前往已星號
+        g then l: 前往已點讚
+        g then s: 前往已共享
+        g then t: 前往趨勢
+        g then c: 前往已評論
+        g then p: 前往已追隨
     other:
-      title: "Other shortcuts"
+      title: "其他快捷鍵"
       body: |
-        r: refresh current page
-        /: focus the search field
-        a: add subscription
-        ? or h: show this window
+        r: 刷新頁面
+        /: 專注到搜尋欄位
+        a: 新增訂閱源
+        ? or h: 展示這個窗口
     posts:
-      title: "Shortcuts for posts"
+      title: "文章相關的快捷鍵"
       body: |
-        space: scroll down
-        shift+space: scroll up
-        shift+a: mark all as read
-        j, n: next post
-        k, p: previous post
-        o, v: open post in a new tab
-        b: open post in a background tab*
-        x: toggle post (list view)
-        f: star a post
-        s: share a post
-        m: read/unread a post
-        l: mark post as liked
-        c: scroll to comments and open the form
-        1: switch to full view
-        2: switch to list view
+        space: 往下滾動
+        shift+space: 往上滾動
+        shift+a: 標記所有爲已讀
+        j, n: 下一則
+        k, p: 上一則
+        o, v: 在新窗口開啓文章
+        b: 在背景窗口開啓文章
+        x: 切換文章(列表顯示)
+        f: 加上星號
+        s: 共享文章
+        m: 標記已讀/未讀
+        l: 讚好所有文章
+        c: 滾動到評論及開啓表單
+        1: 切換到完整檢視
+        2: 切換到列表檢視
   alerts:
-    common: "Request to the server failed, please try again later"
-    posts: "Could not load posts"
+    common: "請求失敗，請稍後再試。"
+    posts: "無法載入文章"
   page_content:
     apps:
       api:
         title: "API"
-        pre_link: "We have implemented a GoogleReader-like mobile API that allows anyone to create a mobile app working with The Old Reader. The API is documented in "
-        link: "a separate github repository"
-        post_link: ". Please drop us a note if you create an app that works with The Old Reader."
+        pre_link: "我們已經實施了GoogleReader一樣的流動應用API，它允許任何人創建一個The Old Reader的流動應用程序。該API在 "
+        link: "一個GitHub上的Repository"
+        post_link: "。 如果你創建了一個The Old Reader的應用請告訴我們。"
       apps:
-        title: "Mobile and desktop apps"
-        p1: "Please note that apps use password authentication, so you should configure yourself a password on the Settings page before using any of the apps."
+        title: "流動與桌面應用程式"
+        p1: "請注意，應用程式使用密碼認證。所以你應該使用任何應用程式之前，應自己配置 」「配置頁面」 上的密碼。"
       bookmarklets:
-        title: "Bookmarklets"
-        description: "Drag any of this to your bookmarks"
-        advanced: "Set up and use advanced bookmarklets"
-        subscribe: "Subscribe"
-        tornexto: "Bookmarklet to go to next item in a folder"
-        tornexto_author: "by Chas. J. Owens"
-        sidebar: "Toggle sidebar"
-        sidebar_author: "by Chas. J. Owens"
+        title: "書籤工具"
+        description: "拖動至你的書籤"
+        advanced: "設置爲預設的書籤工具"
+        subscribe: "訂閱"
+        tornexto: "讓書籤工具前往下一個文件夾。"
+        tornexto_author: "由 Chas. J. Owens 製作"
+        sidebar: "切換側欄"
+        sidebar_author: "由 Chas. J. Owens 製作"
       extensions:
-        title: "Browser extensions"
-        p1: "There is a number of browser extensions that make tracking your unread items easier."
-        source_code: "source code"
-        chrome: "Google Chrome extension"
+        title: "瀏覽器擴展元件"
+        p1: "這裏有些瀏覽器擴展元件，使得你隨時可以查看有多少未讀項目。"
+        source_code: "原始碼"
+        chrome: "Google Chrome擴充元件"
         chrome_author: "by Anton Tolchanov"
-        chromeapp: "Google Chrome app"
+        chromeapp: "Google Chrome 應用元件"
         chromeapp_author: "by Enrico Bacis"
-        safari: "Safari extension"
+        safari: "Safari 擴充元件"
         safari_author: "by Dmitry Kranoukhov"
-        opera: "Opera extension"
+        opera: "Opera 擴充元件"
         opera_author: "by Lazare Inepologlou"
-        firefox: "Firefox addon"
+        firefox: "Firefox 附加元件"
         firefox_author: "by Tomek Wasiak"
     community:
-      title: "Community resources"
-      p1: "We are extremely happy to have a loyal community of users who constantly help us move the project forward. Here are some links to the resources created and supported by our community."
+      title: "社區資源"
+      p1: "我們非常高興我們有一個忠誠的社區用戶經常開發及推進此項目。這裏有一些鏈結是曾協助我們開發的用戶"
       translations:
-        title: "Translations"
-        pre_link: "The Old Reader has been translated to many languages. We keep translations in a "
-        link: "separate public github repo"
-        post_link: " so that anyone could contribute."
+        title: "翻譯"
+        pre_link: "The Old Reader已被翻譯成多種語言。我們一直在翻譯在 "
+        link: "獨立的GitHub的Repo當中"
+        post_link: " 讓任何人都可以作出貢獻。"
       themes:
-        title: "Unofficial themes"
-        pre_link: "Some users created userstyles that change the way The Old Reader looks in your browser. There is no guarantee that these styles will always work and will not break the site for you, but if you are courageous enough to try, they are available at "
+        title: "非官方主題"
+        pre_link: "一些用戶創建了一些userstyles去改變The Old Reader的外觀。沒有任何人可以保證這些userstyles會一直能正常運作或不會破壞網站。如果你有足夠的勇氣去嘗試的話，你可以在 "
         post_link: "."
       requests:
-        title: "Feature requests"
-        pre_link: "You can vote for feature requests and suggest new ones on "
-        link: "our uservoice page"
-        post_link: ". Please search for existing requests before creating a new one, most probably somebody suggested your idea before. We do not moderate the uservoice page, so when you create a duplicate you actually decrease the chances of it getting to the top, because two requests will compete with each other for user votes."
+        title: "功能請求"
+        pre_link: "你可以透過投票或發起請求以建議我們新的功能 "
+        link: "在我們的用戶投票頁面"
+        post_link: "。 在創建前請先行搜索有沒有類似的要求，以緩和我們的用戶投票頁面。當創建一個重複的用戶投票實際上會降低它成功的機會，因爲兩個請求會分薄了用戶們的票數。"
       forums:
-        title: "Community forums"
-        pre_link: "We have created "
-        link: "a forum on yuku.com"
-        post_link: " for our users to communicate. Feel free to join it and ask for assistance, discuss tweaks, and share your thoughts."
+        title: "社區論壇"
+        pre_link: "我們已經創建 "
+        link: "一個論壇並寄存在 yuku.com"
+        post_link: " 
+
+爲了和用戶有良好的溝通，請自由加入社區並請求協助、討論如何調整及共享你的看法。"
     donate:
-      title: "Donate"
-      p1: "Running an RSS reader requires quite a lot of resources. This might seem like a simple site, but we have to refresh several million of feeds, some as often as every 5 minutes. Our server cost is pretty high, and we would never be able to afford it without help from our awesome users."
-      p2: "There are several ways you can help us financially and keep the project alive:"
+      title: "捐贈"
+      p1: "
+運行一個RSS閱讀器需要極多的資源。這個網站看似非常簡單，但是我們每五分鐘就好要更新過百萬個訂閱源。我們的服務器成本極爲高昂，我們不能沒有各位美妙的用戶的幫忙。"
+      p2: "
+有幾種方法讓我們這項目能繼續生存下去："
       flattr:
-        pre_link: "Use "
+        pre_link: "用 "
         link1: "Flattr"
-        inbetween: ". It is a simple way to give money to authors or services you like. You can either send us a fixed amount of money, or press the “flattr” button, and then your monthly budget would be distributed among us and other projects you helped during a given month. You can also subscribe to "
-        link2: "our account in Flattr"
-        post_link: " which will make you \"flattr\" us automatically every month."
-      bitcoins: "For all the privacy-concerned folks, we haz bitcoins"
-      note: "Please note that we are not registered as a charity, so any donations you send to us will not probably be tax-deductable."
-      thanks: "We appreciate your help! So does this kitten:"
+        inbetween: ". 
+這是個簡單的付款方法給你所喜愛的作者或服務商。你可以給我們寄送固定的金額。或者按下「Flattr」的按鈕，然後每月固定捐贈予以我們。然後你還可以訂閱 "
+        link2: "我們在Flattr的帳號"
+        post_link: " 這將能使你每月都可自動 \"flattr\" 我們。"
+      bitcoins: "對於關心私隱的人，我們也提供比特幣的捐贈："
+      note: "請注意，我們並非註冊爲慈善機構，所以你的捐贈有可能被徵稅。"
+      thanks: "我們非常感謝你的捐贈，這隻小小的喵星人也如此："
     tour:
       title: "The Old Reader 101"
       add_feeds:
-        title: "Add feeds"
-        p1: "Your new The Old Reader account is shipped empty, so the first thing you should do is add some feeds to read."
-        img1: "Use 'Add a subscription' button to subscribe to a feed. If you enter a web page URL rather than direct feed URL, we will add first RSS feed from that page automatically."
-        img2: "If you are migrating from Google Reader or any other RSS software that can export subscriptions to OPML file, you can use the 'Import' feature to add all your feeds.  We will even migrate all your feed folders to ensure that you feel yourself at home immediately."
+        title: "新增訂閱源"
+        p1: "你的The Old Reader預設是空白的，所以你得先新增一些訂閱。"
+        img1: "使用「新增訂閱源」來來新增訂閱。如果你提供的是網站的URL而非網站訂閱鏈結，我們會自動新增此網站的預設訂閱源。"
+        img2: "
+如果您是來自Google Reader或任何其他的RSS軟件，你可以導出訂閱源為OPML文件，接着你可以使用「匯入」功能來添加你所有的源。我們甚至會匯入所有的訂閱源的文件夾，確保你有在家的感覺。"
       organize:
-        title: "Organize feeds"
-        img1: "You can drag & drop feeds and folders to change their position. Creating a new feed folder is as easy as dragging a feed to an empty space below your last folder. Empty folders are removed automatically."
-        img2: "Simply double-click on a feed or a folder to rename it."
-        img2_p2: "It's not possible to rename the default folder ('Subscriptions'), but you can move all your feeds out of it to other folders, and it will disappear completely."
+        title: "組織訂閱源"
+        img1: "
+你可以拖放訂閱源及文件夾，以改變他們的位置。創造一個新的文件夾只需拖放一個訂閱源到你文件夾下方的空白處。空白的文件夾會被自動刪除。"
+        img2: "只需在訂閱源或文件夾上上雙擊就可爲其改名。"
+        img2_p2: "這不是可以重命名的默認資料夾（「訂閱源」），但你可以移動到其他文件夾，它會完全消失。"
       read:
-        title: "Read posts"
-        img1: "Choose what you'd like to read from the menu. You can click on a folder to read all feeds that the folder contains."
-        img2: "Navigation menu allows you to go to the next or previous post with a single click. You can also switch to 'List view' that collapses all posts, lets you glimpse through titles and expand only those articles you are interested in."
-        img3: "You can also use keyboard shortcuts to navigate. Press '?' or 'h' to see the list."
-        img4_p1: "There are action buttons below each post. If you hit 'Like' your name will appear in the list of users who liked that post. The post will also go to your 'Liked' folder."
+        title: "閱讀文章"
+        img1: "在選單中選擇你想閱讀的，你可以點擊文件夾標題以閱讀該文件夾中所有訂閱源所提供的文章。"
+        img2: "
+導航選單允許你只需單擊便可前往上一篇或下一篇文章。你亦可以切換「列表顯示」並手動展開文章，讓你只瀏覽標題並只瀏覽你有興趣的。"
+        img3: "你也可以使用鍵盤快捷鍵瀏覽。點擊「？」或「H」瀏覽更多。"
+        img4_p1: "每個文章下方都有此按鈕。如果你你喜歡，請點擊「讚」，如果有用戶閱讀這則文章，你的名字就會顯示在此並告訴他們誰「讚」了這則文章。該文章也會置入你的「已讚」的文件夾裏。"
         img4_p2: "If you choose to share the post, all your contacts will immediately see it. You can also post your shares to your Facebook timeline (visit Settings to enable that)."
       discuss:
         title: "Discuss posts"
