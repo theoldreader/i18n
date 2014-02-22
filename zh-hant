@@ -558,156 +558,147 @@ zh-hant:
 導航選單允許你只需單擊便可前往上一篇或下一篇文章。你亦可以切換「列表顯示」並手動展開文章，讓你只瀏覽標題並只瀏覽你有興趣的。"
         img3: "你也可以使用鍵盤快捷鍵瀏覽。點擊「？」或「H」瀏覽更多。"
         img4_p1: "每個文章下方都有此按鈕。如果你你喜歡，請點擊「讚」，如果有用戶閱讀這則文章，你的名字就會顯示在此並告訴他們誰「讚」了這則文章。該文章也會置入你的「已讚」的文件夾裏。"
-        img4_p2: "If you choose to share the post, all your contacts will immediately see it. You can also post your shares to your Facebook timeline (visit Settings to enable that)."
+        img4_p2: "如果你選擇了共享文章，你所有的聯絡人將會看到它。你也可以發表到你的Facebook頁面（你可在設定中啓用）。"
       discuss:
-        title: "Discuss posts"
-        img1: "It's no fun reading RSS feeds alone. Go to 'Find Friends' page to see who among your Facebook friends or Google contacts is using The Old Reader. You can also look for your friends by name."
-        img2: "All posts that you have shared are in the 'Shared' folder. Items that your friends have shared are in the 'Following' folder. As usual, you can either read the whole folder or choose a specific username to see all posts shared by that user."
-        img3: "You can comment on any post shared by your friends — just hit the 'Comment' button and join the discussion."
+        title: "討論文章"
+        img1: "一個人閱讀是很無聊的。前往「尋找朋友」頁面尋找與你一樣使用着The Old Reader的Facebook或Google的聯絡人。你也可以使用名字來搜尋你的好友。"
+        img2: "你所有共享過的文章將會放在「已共享」的文件夾當中。你的朋友可以閱讀你所共享的在他們的「已追隨」的資料夾。像往昔一樣，你也可以讀取整個文件夾或特定用戶所共享的文章。"
+        img3: "你可以評論任何你的好友所共享的文章——只需點擊「寫評論」按鈕便可加入討論！"
       tips:
-        title: "Tips & Tricks"
-        p1: "To subscribe to new feeds with a single click, configure 'http://theoldreader.com/feeds/subscribe?url=%s' in your RSS feed handler or extension;"
-        p2_pre_link: "If you use Firefox, just "
-        p2_link: "press here"
-        p2_post_link: " to add The Old Reader as your RSS feed handler."
+        title: "提示與技巧"
+        p1: "只需輕輕一點便可新增訂閱源到The Old Reader！ 在你的RSS訂閱來源處理程式或附加元件中新增「http://theoldreader.com/feeds/subscribe?url=%s」;"
+        p2_pre_link: "如果你是使用Fireox（火狐瀏覽器）的話，只需輕輕 "
+        p2_link: "點擊這裏"
+        p2_post_link: " ，便可新增到你的RSS訂閱來源處理程式裏。"
       finally:
-        title: "Any questions?"
-        pre_link: "Please take a look at our "
-        link1: "knowledge base"
-        inbetween: " and feel free to ask for assistance at the "
-        link2: "community forums"
-        post_link: " if something is not clear."
+        title: "有任何問題？"
+        pre_link: "看看我們的"
+        link1: "知識庫"
+        inbetween: " ，並隨時請求協助在我們的"
+        link2: "社區論壇"
+        post_link: " ——如果你不太清楚當中的內容。"
   accounts:
     notification:
       modal:
-        title: "Important news from The Old Reader"
-        dismiss_button: "Close"
-      introduction: "Hello %{display_name},"
+        title: "The Old Reader的重要消息"
+        dismiss_button: "關閉"
+      introduction: "貴安！ %{display_name},"
       notification_text: |
-        <p>The Old Reader is adding new paid account plans to help fund the maintenance and development of this service.
-        The new paid plans will offer the following benefits:
+        <p>The Old Reader新增付款計劃以幫助我們的服務繼續開發及發展。
+        付款計劃提供以下的優勢:
         <ul>
           %{summary}
         </ul></p>
-        <p>We're working diligently to make this the best RSS reader on the web and hope that you'll consider upgrading 
-        to the premium version for only $%{price} per month (yearly discounts available).</p>
-        <p><strong>A free plan will also be available for users who have less than %{free_limit} subscriptions.</strong> While the free 
-        version does not include all the premium features, you can rest assured that all of the great features that are 
-        available today will be available going forward (and we'll add more free features along the way).</p>
+        <p>我們正在使其成爲網絡上最優秀的RSS閱讀器。並且，我們希望你會考慮升級到高級版本。而現在每月只需$%{price} 美金  (按年購買可享有折扣).</p>
+        <p><strong>免費用戶最多只能使用 %{free_limit} 個訂閱源。</strong> 而免費版本亦不包含高級版本的功能。你可以放心，所有強大的功能可用了（我們也會新增更多免費版本可用的功能）。</p>
         %{limit_specific_message}
-        <p>Please <a href='http://blog.theoldreader.com/post/76417559063'>read our blog post</a> for more information on the change.</p>
+        <p>請<a href='http://blog.theoldreader.com/post/76417559063'>查看我們的Blog</a>以瞭解更多的變更。</p>
       over_limit_message: |
-        <p>We'll keep things as they are for you for a couple weeks so you can take your time to decide. After these two
-        weeks, you can upgrade to a premium version, or remove subscriptions to qualify for the free plan. You currrently
-        have <strong>%{current_count}</strong> subscriptions.</p>
+        <p>我們會會提供兩星期的高級版本試用以便讓你考慮是否使用高級版本。你可以有<strong>%{current_count}</strong>個訂閱源。</p>
       under_limit_message: |
-        </p>Since you have less than %{free_limit} feeds, you qualify for a free account.</p>
-      tos: "By dismissing this message and continuing to use The Old Reader, you are agreeing to our <a href='%{tos}' target='_blank'>Terms Of Service</a> and <a href='%{privacy}' target='_blank'>Privacy Policy</a>"
+        </p>如果你少於 %{free_limit} 個訂閱源， 我們建議你使用免費版本。</p>
+      tos: "如果你沒有錯過此則消息並繼續使用The Old Reader，即是代表你同意我們的<a href='%{tos}' target='_blank'>服務協議</a>和<a href='%{privacy}' target='_blank'>隱私權政策</a>"
       closing: |
-        <p>Visit your <a href="%{manage_url}">account page</a> to sign up for a premium plan.</p>
-        <p>Thank you for your continued support,</p>
-        <p>The Old Reader Team</p>
+        <p>前往你的<a href="%{manage_url}">帳號設定頁面</a>去升級爲高級版本</p>
+        <p>感謝你一直以來的支持，</p>
+        <p>The Old Reader團隊</p>
     limits:
-      change: "upgrade to premium"
-      subscribe: "Feed was not added. You already have %{current} subscriptions, your limit is %{limit}. You should %{change}."
-      import_full: "Your import was not added. You already have %{current} subscriptions, your limit is %{limit}. You might want to increase by %{change} and re-import again."
-      import_partial: "Your import was added, but we will process only first %{avail} subscriptions of %{total}. You already have %{current} subscriptions, your limit is %{limit}. You might want to increase by %{change} and re-import again."
-      status: "You are currently using <strong>%{current}</strong> of the <strong>%{limit}</strong> subscriptions available for your plan."
-      should_upgrade: "%{status} You should consider an %{change}"
-      must_upgrade: "You must upgrade to add more subscriptions."
-      inactive: "You have more subscriptions than your plan allows, so we've stopped fetching new posts. You can %{change}"
-      upgrade_title: "More of a great thing with The Old Reader Premium"
+      change: "升級至高級版本"
+      subscribe: "訂閱源無法新增。你已經有了 %{current}個訂閱源。你的訂閱源上限是%{limit}。你需要 %{change}。"
+      import_full: "你的匯入並沒有被新增。你已經有%{current}個訂閱源。你的訂閱源上限是%{limit}。你可能需要通過增加 %{change}，然後再次嘗試匯入。"
+      import_partial: "你的匯入已經增加了。但我們只會處理 %{total}個當中%{avail}個訂閱源。你已經有 %{current}訂閱源，而你的訂閱源上限是%{limit}。你可能需要通過增加%{change}，乳癌後再次嘗試匯入。"
+      status: "你正在使用了 <strong>%{limit}</strong>個當中的<strong>%{current}</strong>個訂閱源，由你的付費計劃所提供。"
+      should_upgrade: "%{status} 你應該考慮 %{change}"
+      must_upgrade: "你必須增加更多的訂閱源"
+      inactive: "你有已超出了付費計劃所容許的訂閱源上限，所以你的訂閱源無法抓取新的文章。你可以 %{change}"
+      upgrade_title: "更多偉大的事情盡在高級版的The Old Reader"
     trial:
-      try: "Try FREE for 14 Days"
-      created: "Your free trial has been created."
-      expiration: "Your free trial will expire on"
-      expiration_desc: "Your free trial will expire in %{dist}. You can %{change} or %{extend}"
-      extend: "extend your trial"
-      extended: "Your free trial has been extended."
-      expired: "Your free trial has expired. You can %{change} or %{extend}"
-      expired_over_limit: "Your free trial has expired and you are over the free account limit, so we've stopped fetching new posts. You can %{change} or %{extend}"
+      try: "獲取14日的高級版本的試用"
+      created: "你已獲得了免費試用"
+      expiration: "你的免費試用將無法使用於"
+      expiration_desc: "你的免費試用將於 %{dist}到期。你可以%{change}或%{extend}"
+      extend: "延長試用"
+      extended: "免費試用期已經延長了。"
+      expired: "你的免費試用已經過期。你可以%{change}或%{extend}。"
+      expired_over_limit: "你的免費試用期已經屆滿，你的訂閱源數目超過免費賬戶所容許的，所以我們暫停爲你抓取新的文章。你可以%{change}或%{extend}。"
     card:
       name: "Name on Card"
-      number: "Card Number"
-      code: "Security Code (CVC)"
-      expiration: "Card Expiration"
-      on_file: "Your current card:"
+      number: "卡號"
+      code: "安全碼(CVC)"
+      expiration: "到期日"
+      on_file: "你當前所使用的卡："
       status:
-        payment_failed: "payment failed"
+        payment_failed: "付款失敗"
       status_desc:
-        payment_failed: "Your current credit card could not be charged. Go to <a href='%{account_url}'>accounts</a> to update your payment information."
+        payment_failed: "你目前的所使用的卡不能成功付款，前往<a href='%{account_url}'>帳號</a>更新你的付款資料。"
     plan: "Selected Plan"
     plans:
-      monthly_description: "$%{price} per month"
-      yearly_description: "$%{price} per year"
-      summary_title: "Premium Account Features:"
+      monthly_description: "$%{price}/月"
+      yearly_description: "$%{price}/年"
+      summary_title: "高級帳號的特色："
       summary: |
-        <li>Full-text search</li>
-        <li>Faster feed refresh times</li>
-        <li>Up to <u>%{subscriptions}</u> Subscriptions *</li> 
-        <li><u>6 months</u> of post storage</li>
-        <li>Instapaper and Readability integration</li>
-        <li>Early access to new features</li>
-      other: "Other plan options"
-      subscriptions: "Up to %{subscriptions} feeds"
-      bigger_plans: "Larger plans are available"
+        <li>全文搜尋</li>
+        <li>更快的訂閱源更新速度</li>
+        <li>增加到<u>%{subscriptions}</u>個訂閱源*</li> 
+        <li>儲存訂閱源的文章最多<u>6個月</u></li>
+        <li>Instapaper和Readability整合</li>
+        <li>儘早獲得新功能！</li>
+      other: "其他付款選項"
+      subscriptions: "增加到最多%{subscriptions}個訂閱源"
+      bigger_plans: "更大的付款計劃現在可以使用了！"
     payments:
       errors:
-        missing_name: "Please enter the name of the cardholder as it appears on the card."
-        incorrect_number: "The card number is incorrect."
-        invalid_number: "The card number is not a valid credit card number."
-        invalid_expiry: "The card's expiration is invalid."
-        invalid_expiry_month: "The card's expiration month is invalid."
-        invalid_expiry_year: "The card's expiration year is invalid."
-        invalid_cvc: "The card's security code is invalid."
-        expired_card: "The card has expired."
-        incorrect_cvc: "The card's security code is incorrect."
-        incorrect_zip: "The card's zip code failed validation."
-        card_declined: "The card was declined."
-        missing: "There is no card on a customer that is being charged."
-        processing_error: "An error occurred while processing the card."
-      history_title: "Payment History"
-      date_column: "Date"
-      amount_column: "Amount (USD)"
-      next_payment: "Next payment date"
-      info_unavailable: "Payment information is unavailable"
-    tos: "I agree with <a href='%{tos}' target='_blank'>Terms Of Service</a> and <a href='%{privacy}' target='_blank'>Privacy Policy</a>"
-    tos_error: "Please accept our Terms Of Service and Privacy Policy"
-    stripe: "Payment is handled securely through <a href='http://stripe.com' target='_blank'>Stripe</a>."
-    submit: "Update account"
-    cancel: "Cancel my paid account"
-    cancel_confirm: "Are you sure you want to cancel your account?"
-    successful_create: "Account created successfully"
-    successful_update: "Account updated successfully"
-    successful_destroy: "Account deleted successfully"
-    title: "Premium Account"
-    form_title: "Payment Information"
+        missing_name: "請輸入你卡上的持卡人姓名"
+        incorrect_number: "卡號錯誤。"
+        invalid_number: "這不是個有效的卡號。"
+        invalid_expiry: "此卡的有效期日是無效的。"
+        invalid_expiry_month: "此卡的到期的月份是無效的。"
+        invalid_expiry_year: "此卡的到期年份是無效的。"
+        invalid_cvc: "該卡的安全碼是無效的。"
+        expired_card: "此卡已經過期。"
+        incorrect_cvc: "該卡安全碼是錯誤的。"
+        incorrect_zip: "ZIP碼是錯誤的。"
+        card_declined: "該卡已被拒絕。"
+        missing: "這裏沒有用戶的卡能充值。"
+        processing_error: "在處理該卡的時候發生錯誤"
+      history_title: "付款歷史"
+      date_column: "日期"
+      amount_column: "金額(USD)"
+      next_payment: "下一個付款日"
+      info_unavailable: "付款資訊無法使用"
+    tos: "我同意<a href='%{tos}' target='_blank'>服務協議</a>和<a href='%{privacy}' target='_blank'>隱私權政策</a>"
+    tos_error: "請同意我們的服務協議和隱私權政策。"
+    stripe: "支付過程是經過 <a href='http://stripe.com' target='_blank'>Stripe</a>安全處理的。"
+    submit: "更新帳號"
+    cancel: "刪除我的付款帳號"
+    cancel_confirm: "你確定要刪除你的帳號？"
+    successful_create: "成功創建帳號"
+    successful_update: "成功更新帳號"
+    successful_destroy: "成功刪除帳號"
+    title: "高級帳號"
+    form_title: "付款資料"
     emails:
       payment_failed:
-        subject: "The Old Reader Payment Failed"
+        subject: "來自The Old Reader的信件：付款失敗！"
         body: |
-          <p>Hello %{name},</p>
-          <p>An attempt to charge your credit card for your subscription to our premium service failed. Please update your
-          credit card information on the <a href="%{manage_url}">accounts page</a> as soon as possible. Further
-          payment failures will result in the removal of your paid account.</p>
-          <p>Thank you,<br />The Old Reader Team</p>
+          <p>你好，%{name},</p>
+          <p>向你的信用卡收取高級版本服務的款項失敗。請更新你的信用卡資訊。你可以前往<a href="%{manage_url}">帳號頁面</a>更新至最新資料。再次付款失敗會導致你失去高級版本。</p>
+          <p>      此致<br />The Old Reader團隊</p>
       almost_inactive:
-        subject: "Keep your Old Reader account active!"
+        subject: "讓你的The Old Reader帳號保持激活狀態！"
         body: |
-          <p>Hello %{name},</p>
-          <p>After %{inactive_count} days of inactivity, The Old Reader removes your unread items to make space for the users
-          who are actively using the service. Can you believe it has been that long since we've seen you?</p>
-          <p>To make sure you don't miss anything, all you have to do is sign in to The Old Reader. 
-          You can also check out what's new while you're there!</p>
-          <p>Thank you,<br />The Old Reader Team</p>
+          <p>你好， %{name},</p>
+          <p>你已閒置了%{inactive_count}天。The Old Reader會移除你部分的未讀項目以讓活躍用戶使用。你可以相信我很已經很久沒有見到你嗎？</p>
+          <p>確保你不會錯過任何事情，你需要做的就是登入到The Old Reader。
+          你還可以在此看看有什麼新事物！</p>
+          <p>      此致<br />The Old Reader團隊</p>
       almost_expired:
-        subject: "Your Old Reader Premium free trial is about to expire"
+        subject: "你的Old Reader高級版本試用期已經屆滿"
         body: |
-          <p>Hello %{name},</p>
-          <p>Your Old Reader Premium free trial is about to expire. Visit your <a href="%{manage_url}">accounts page</a> to purchase a 
-          premium membership.</p
-          <p>Don't miss out on all the great premium features:
+          <p>你好，%{name},</p>
+          <p>你的The Old Reader的高級版本的試用期已經屆滿。前往<a href="%{manage_url}">帳號頁面</a>購買高級會員</p>
+          <p>不要錯過那些美妙絕倫的功能！
           <ul>
             %{summary}
           </ul></p>
-          <p>Thank you,<br />The Old Reader Team</p>
+          <p>      此致<br />The Old Reader團隊</p>
