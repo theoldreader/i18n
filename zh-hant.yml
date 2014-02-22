@@ -150,7 +150,7 @@ zh-hant:
       few: "文章"
       many: "文章"
       other: "文章"
-    your_posts: "你有<em>%{unread}</em>未讀%{posts}文章"
+    your_posts: "你有<em>%{unread}</em>未讀%{posts}"
     refresh: "刷新"
     unsubscribe: "取消訂閱"
     unsubscribe_confirm_feed: "你真的要取消訂閱？你已經共享或已Like的文章不會被刪除。"
