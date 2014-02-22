@@ -623,11 +623,12 @@ en:
       number: "Card Number"
       code: "Security Code (CVC)"
       expiration: "Card Expiration"
-      on_file: "Your current card:"
+      on_file: "Your current card"
       status:
         payment_failed: "payment failed"
       status_desc:
         payment_failed: "Your current credit card could not be charged. Go to <a href='%{account_url}'>accounts</a> to update your payment information."
+      paypal: "Paypal Express Checkout"
     plan: "Selected Plan"
     plans:
       monthly_description: "$%{price} per month"
@@ -643,6 +644,7 @@ en:
       other: "Other plan options"
       subscriptions: "Up to %{subscriptions} feeds"
       bigger_plans: "Larger plans are available"
+      paypal_description: "The Old Reader Premium %{frequency} subscription for up to %{subscriptions} feeds"
     payments:
       errors:
         missing_name: "Please enter the name of the cardholder as it appears on the card."
@@ -657,12 +659,24 @@ en:
         incorrect_zip: "The card's zip code failed validation."
         card_declined: "The card was declined."
         missing: "There is no card on a customer that is being charged."
-        processing_error: "An error occurred while processing the card."
+        processing_error: "An error occurred while processing your payment."
       history_title: "Payment History"
       date_column: "Date"
       amount_column: "Amount (USD)"
       next_payment: "Next payment date"
       info_unavailable: "Payment information is unavailable"
+      account_pending: "Payment pending"
+      current_info_title: "Current Paid Account Information"
+      current_payment_method: "Payment Method"
+      current_pricing_plan: "Pricing Plan"
+      current_subscription_level: "Subscription Level"
+      paypal_transaction_cancelled: "Paypal checkout cancelled"
+      paypal_change_plan: "To change your plan for Paypal Express Checkout, you must cancel your current paid account."
+      credit_card: "Credit Card"
+      paypal_express: "Paypal Express Checkout"
+      paypal_confirm_notice: "By clicking the Update account button below, your authorized recurring payment of %{price} will be initiated at Paypal and your Old Reader Premium account will be created."
+      paypal_confirm_cancel: "cancel"
+      view_receipt: 'View Receipt'
     tos: "I agree with <a href='%{tos}' target='_blank'>Terms Of Service</a> and <a href='%{privacy}' target='_blank'>Privacy Policy</a>"
     tos_error: "Please accept our Terms Of Service and Privacy Policy"
     stripe: "Payment is handled securely through <a href='http://stripe.com' target='_blank'>Stripe</a>."
@@ -673,6 +687,7 @@ en:
     successful_update: "Account updated successfully"
     successful_destroy: "Account deleted successfully"
     title: "Premium Account"
+    paypal_title: "Confirm Paypal Purchase"
     form_title: "Payment Information"
     emails:
       payment_failed:
@@ -682,7 +697,7 @@ en:
           <p>An attempt to charge your credit card for your subscription to our premium service failed. Please update your
           credit card information on the <a href="%{manage_url}">accounts page</a> as soon as possible. Further
           payment failures will result in the removal of your paid account.</p>
-          <p>Thank you,<br />The Old Reader Team</p>
+          <p>Thank you,<br />The Old Reader Team<br /><a href="mailto:support@theoldreader.com">support@theoldreader.com</a></p>
       almost_inactive:
         subject: "Keep your Old Reader account active!"
         body: |
@@ -691,7 +706,7 @@ en:
           who are actively using the service. Can you believe it has been that long since we've seen you?</p>
           <p>To make sure you don't miss anything, all you have to do is sign in to The Old Reader. 
           You can also check out what's new while you're there!</p>
-          <p>Thank you,<br />The Old Reader Team</p>
+          <p>Thank you,<br />The Old Reader Team<br /><a href="mailto:support@theoldreader.com">support@theoldreader.com</a></p>
       almost_expired:
         subject: "Your Old Reader Premium free trial is about to expire"
         body: |
@@ -702,4 +717,14 @@ en:
           <ul>
             %{summary}
           </ul></p>
-          <p>Thank you,<br />The Old Reader Team</p>
+          <p>Thank you,<br />The Old Reader Team<br /><a href="mailto:support@theoldreader.com">support@theoldreader.com</a></p>
+      receipt:
+        subject: "The Old Reader Payment Receipt"
+        hi: "Hello"
+        info: "This is a receipt of payment for your Old Reader premium account subscription."
+        invoice: "Invoice"
+        description: "Description"
+        user: "User"
+        amount: "Amount: USD"
+        thanks: "Thank You"
+        questions: "Please send any questions to"

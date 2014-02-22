@@ -617,7 +617,7 @@ nl:
       number: "Creditkaart nummer"
       code: "Beveiligingscode (CVC)"
       expiration: "Geldig tot"
-      on_file: "Uw huidige kaart:"
+      on_file: "Uw huidige kaart"
       status:
         payment_failed: "betaling mislukt"
       status_desc:
@@ -650,7 +650,6 @@ nl:
         incorrect_zip: "De zipcode van de kaart kon niet worden gevalideerd."
         card_declined: "De kaart is geweigerd."
         missing: "Er is geen kaart van een client waarvan kon worden afgeschreven."
-        processing_error: "Er is een fout opgetreden tijden het verwerken van de kaart."
       history_title: "Betalingsgeschiedenis"
       date_column: "Datum"
       amount_column: "Bedrag (USD)"
@@ -673,7 +672,7 @@ nl:
         body: |
           <p>Hallo %{name},</p>
           <p>Een poging om om uw abonnement op onze premium service toe betalen via uw creditkaart is mislukt. U wordt verzocht zo spoedig mogelijk bij op de <a href="%{manage_url}">accounts pagina</a> uw betalingsgegevens bij te werken. Komen er opnieuw mislukking voor dan kan dit resulteren in verwijdering van uw betaalde account.</p>
-          <p>Hartelijk dank,<br />The Old Reader Team</p>
+          <p>Hartelijk dank,<br />The Old Reader Team<br /><a href="mailto:support@theoldreader.com">support@theoldreader.com</a></p>
       almost_inactive:
         subject: "Houd uw Old Reader account actief!"
         body: |
@@ -681,7 +680,7 @@ nl:
           <p>Na %{inactive_count} dagen van inactiviteit verwijdert The Old Reader uw ongelezen items om plaats te maken voor de gebruikers die actief ons service benutten. Kunt u geloven dat het zo'n tijd geleden is dat we u hebben gezien?</p>
           <p>Om er zeker van te zijn dat u niets mist hoeft u zich alleen maar aan te melden bij The Old Reader. 
           U kunt ook bekijken wat er nieuw is als u daar toch bent!</p>
-          <p>Hartelijk dank,<br />The Old Reader Team</p>
+          <p>Hartelijk dank,<br />The Old Reader Team<br /><a href="mailto:support@theoldreader.com">support@theoldreader.com</a></p>
       almost_expired:
         subject: "Uw Old Reader Premium gratis proefperiode staat op het punt te verlopen"
         body: |
@@ -691,4 +690,4 @@ nl:
           <ul>
             %{summary}
           </ul></p>
-          <p>Hartelijk dank,<br />The Old Reader Team</p>
+          <p>Hartelijk dank,<br />The Old Reader Team<br /><a href="mailto:support@theoldreader.com">support@theoldreader.com</a></p>
