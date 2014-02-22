@@ -7,7 +7,7 @@ zh-hant:
       already_confirmed: "已驗證成功。請再次登入。"
       not_locked: "沒有被鎖定"
       not_saved:
-        one: "1一個錯誤導致 %{resource} 無法儲存:"
+        one: "一個錯誤導致 %{resource} 無法儲存:"
         few: "%{count} 個錯誤導致 %{resource} 無法儲存:"
         many: "%{count} 個錯誤導致 %{resource} 無法儲存:"
         other: "%{count} 個錯誤導致 %{resource} 無法儲存:"
