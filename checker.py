@@ -16,6 +16,7 @@ Just run the script. No output is good.
 """
 
 master = "en"
+basedir = "%s/locales" % os.getcwd()
 
 def compare_dicts(master, victim, path):
     if type(victim) != dict:
@@ -70,7 +71,6 @@ def process_file(filename, master_data):
 
 def main(args):
     exitcode = 0
-    basedir = os.path.dirname(__file__) or '.'
     with open(os.path.join(basedir, "%s.yml" % master), 'r') as master_file:
         master_data = yaml.load(master_file)[master]
 

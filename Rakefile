@@ -1,9 +1,10 @@
 namespace :i18n do
   desc "Invalidate locales one-by-one"
   task :invalidate do
-    available = Dir.glob("*.yml").map { |x| x.chomp(".yml").to_sym }
-    base = :en
-    translations = available - [base]
+    master = :en
+    basedir = File.join(Dir.pwd, "locales")
+    available = Dir.glob(File.join(basedir, "*.yml"))
+    translations = available - [master]
     identation = "  " # ._.
 
     while true
@@ -13,11 +14,12 @@ namespace :i18n do
 
       confirm = []
       results = Hash.new
-      translations.each do |locale|
-        lines = File.read("#{locale}.yml").split("\n")
+      translations.each do |translation|
+        locale = File.basename(translation, ".yml")
+        lines = File.read(translation).split("\n")
         result = Hash.new
         level = 0
-        full_path = [locale.to_s] + path.split(".")
+        full_path = [locale] + path.split(".")
 
         lines.each_with_index do |text, line|
           current_identation = "  "*level
@@ -55,17 +57,17 @@ namespace :i18n do
 
           confirm << "#{locale}.yml:#{multiline ? "#{result[:lines].first+1}..#{result[:lines].last+1}" : result[:lines].first+1}"
           confirm << (multiline ? "\n#{result[:texts].join("\n")}\n\n" : " - #{result[:texts].first.strip}\n")
-          results[locale] = result
+          results[translation] = result
         end
       end
 
       if confirm.any?
         puts confirm.join(""), "\n", "Confirm? y/n"
         if STDIN.gets.strip == "y"
-          results.each do |locale, result|
-            lines = File.read("#{locale}.yml").split("\n")
+          results.each do |translation, result|
+            lines = File.read(translation).split("\n")
             result[:lines].each { |x| lines[x] = nil }
-            File.open("#{locale}.yml", "w") { |f| f.write(lines.compact.join("\n")+"\n") }
+            File.open(translation, "w") { |f| f.write(lines.compact.join("\n")+"\n") }
           end
 
           puts "Done."
