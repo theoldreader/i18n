@@ -344,7 +344,7 @@ zh-hant:
       other: "跟隨了<strong>%{count}</strong>個用戶"
     followers:
       one: "已被 <strong>%{count}</strong>個用戶跟隨"
-      few: "已被 <strong>%{count}</strong>個用戶跟隨
+      “few: "已被 <strong>%{count}</strong>個用戶跟隨”
       many: "已被 <strong>%{count}</strong>個用戶跟隨"
       other: "已被<strong>%{count}</strong>個用戶跟隨"
     me_following: "<strong>%{count}</strong>個用戶正在跟隨"
