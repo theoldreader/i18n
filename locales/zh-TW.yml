@@ -321,7 +321,7 @@ zh-TW:
   import:
     title: "匯入"
     alert: "<b>請輸入你的Google帳號及密碼以從Google Reader匯入。</b><br />我們不會存儲你的資料。賬戶信息將僅用於獲取您的訂閱源列表。"
-    opml: "<b>選擇OPML文件</b><br />你可以從Google閱讀器中獲得它。<br />請使用<b>subscriptions.xml</b> 從你的存檔當中。"
+    opml: "<b>選擇OPML文件</b><br />你可以從Google Reader或其他RSS Reader中獲得它。<br />請使用類似<b>subscriptions.xml</b>這樣的OPML文件，從你的存檔當中。"
     email: "電郵地址"
     password: "密碼"
     import: "匯入"
