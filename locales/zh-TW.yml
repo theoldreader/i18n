@@ -202,7 +202,7 @@ zh-TW:
   home:
     following: "最新的來自你的朋友"
     updated: "最近更新"
-    dead: "失效的訂閱源"
+    dead: "久未更新的訂閱源"
     tips:
       title: "技巧與提示"
       items:
