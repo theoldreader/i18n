@@ -91,7 +91,7 @@ zh-TW:
       password: "忘記了密碼？"
       change_password: "更改密碼"
       tos: "若你進行註冊或登入操作，將視作你同意了我們的<a href='%{tos}' target='_blank'>服務協議</a>及<a href='%{privacy}' target='_blank'>隱私權政策</a>。"
-      social_register: "你可以用%{google} 或 %{facebook} 帳號來註冊。"
+      social_register: "你可以用%{google} 或 %{facebook} 帳號來登入。"
     welcome:
       - "歡迎來到<span class='highlight'>終極的社交型RSS閱讀器</span>。閱讀、共享和討論，不再錯過任何事情！"
       - "登入並開始使用The Old Reader只需輕輕一點！或，你是個害羞的人，可以先看看我們 %tour% 或是偷瞄 %trending%一下。"
