@@ -677,6 +677,8 @@ en:
       paypal_confirm_notice: "By clicking the Update account button below, your authorized recurring payment of %{price} will be initiated at Paypal and your Old Reader Premium account will be created."
       paypal_confirm_cancel: "cancel"
       view_receipt: 'View Receipt'
+      paypal_header: 'Pay with PayPal'
+      cc_header: 'Pay with credit or debit card'
     tos: "I agree with <a href='%{tos}' target='_blank'>Terms Of Service</a> and <a href='%{privacy}' target='_blank'>Privacy Policy</a>"
     tos_error: "Please accept our Terms Of Service and Privacy Policy"
     stripe: "Payment is handled securely through <a href='http://stripe.com' target='_blank'>Stripe</a>."
