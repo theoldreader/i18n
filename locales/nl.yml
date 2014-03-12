@@ -659,11 +659,8 @@ nl:
     tos_error: "U moet akkoord gaan met onze dienstverleningsvoorwaarden en en privacy beleid"
     stripe: "De betaling wordt veilig afgehandeld via <a href='http://stripe.com' target='_blank'>Stripe</a>."
     submit: "Bijwerken account"
-    cancel: "Annuleer mijn betaald account"
-    cancel_confirm: "Weet u zeker dat u uw account wilt annuleren?"
     successful_create: "Account met succes aangemaakt"
     successful_update: "Account met succes bijgewerkt"
-    successful_destroy: "Account met succes verwijderd"
     title: "Premium Account"
     form_title: "Betalingsinformatie"
     emails:
@@ -680,14 +677,4 @@ nl:
           <p>Na %{inactive_count} dagen van inactiviteit verwijdert The Old Reader uw ongelezen items om plaats te maken voor de gebruikers die actief ons service benutten. Kunt u geloven dat het zo'n tijd geleden is dat we u hebben gezien?</p>
           <p>Om er zeker van te zijn dat u niets mist hoeft u zich alleen maar aan te melden bij The Old Reader. 
           U kunt ook bekijken wat er nieuw is als u daar toch bent!</p>
-          <p>Hartelijk dank,<br />The Old Reader Team<br /><a href="mailto:support@theoldreader.com">support@theoldreader.com</a></p>
-      almost_expired:
-        subject: "Uw Old Reader Premium gratis proefperiode staat op het punt te verlopen"
-        body: |
-          <p>Hallo %{name},</p>
-          <p>Uw Old Reader Premium gratis proefperiode staat op het punt te verlopen. Bezoek onze <a href="%{manage_url}">accounts pagina</a> om een premium lidmaatschap aan te schaffen.</p
-          <p>Zorg dat u niet alle schitterende premium functies misloopt:
-          <ul>
-            %{summary}
-          </ul></p>
           <p>Hartelijk dank,<br />The Old Reader Team<br /><a href="mailto:support@theoldreader.com">support@theoldreader.com</a></p>

@@ -671,7 +671,7 @@ en:
       current_pricing_plan: "Pricing Plan"
       current_subscription_level: "Subscription Level"
       paypal_transaction_cancelled: "Paypal checkout cancelled"
-      paypal_change_plan: "To change your plan for Paypal Express Checkout, you must cancel your current paid account."
+      paypal_change_plan: "To change your plan for Paypal Express Checkout, contact <a href='mailto:support@theoldreader.com'>support</a>."
       credit_card: "Credit Card"
       paypal_express: "Paypal Express Checkout"
       paypal_confirm_notice: "By clicking the Update account button below, your authorized recurring payment of %{price} will be initiated at Paypal and your Old Reader Premium account will be created."
@@ -679,15 +679,23 @@ en:
       view_receipt: 'View Receipt'
       paypal_header: 'Pay with PayPal'
       cc_header: 'Pay with credit or debit card'
+      cancelled_title: 'Recurring Payment Cancelled'
+      cancelled_line_1: 'Your recurring payment has been cancelled. You are paid through <b>%{expires_date}</b> and your premium account will remain active until that time.'
+      cancelled_line_2: 'Fill out the payment information below to start a new recurring payment. <a href="mailto:support@theoldreader.com">Contact us</a> if you need any assistance or have any questions.'
+      need_help: "Need Help? Email us at"
     tos: "I agree with <a href='%{tos}' target='_blank'>Terms Of Service</a> and <a href='%{privacy}' target='_blank'>Privacy Policy</a>"
     tos_error: "Please accept our Terms Of Service and Privacy Policy"
     stripe: "Payment is handled securely through <a href='http://stripe.com' target='_blank'>Stripe</a>."
     submit: "Update account"
-    cancel: "Cancel my paid account"
-    cancel_confirm: "Are you sure you want to cancel your account?"
+    cancel: "Cancel My Payments"
+    cancel_header: "Cancel Payments"
+    cancel_info: "Cancelling will end your recurring payments. Your premium account will continue until the end of your current payment period on <b>%{expires_date}</b>."
+    cancel_pending_info: "You cannot cancel your payments while a payment is pending."
+    cancel_confirm: "Are you sure you want to cancel your payments?"
     successful_create: "Account created successfully"
     successful_update: "Account updated successfully"
-    successful_destroy: "Account deleted successfully"
+    successful_destroy: "Payment cancelled successfully"
+    failed_destroy: "Unable to cancel payments"
     title: "Premium Account"
     paypal_title: "Confirm Paypal Purchase"
     form_title: "Payment Information"
@@ -710,10 +718,10 @@ en:
           You can also check out what's new while you're there!</p>
           <p>Thank you,<br />The Old Reader Team<br /><a href="mailto:support@theoldreader.com">support@theoldreader.com</a></p>
       almost_expired:
-        subject: "Your Old Reader Premium free trial is about to expire"
+        subject: "Your Old Reader Premium account is about to expire"
         body: |
           <p>Hello %{name},</p>
-          <p>Your Old Reader Premium free trial is about to expire. Visit your <a href="%{manage_url}">accounts page</a> to purchase a 
+          <p>Your Old Reader Premium account is about to expire. Visit your <a href="%{manage_url}">accounts page</a> to begin a new 
           premium membership.</p
           <p>Don't miss out on all the great premium features:
           <ul>
