@@ -11,7 +11,7 @@ el:
         few: "%{count} σφάλματα απέτρεψαν την αποθήκευση αυτού του %{resource}:"
         many: "%{count} σφάλματα απέτρεψαν την αποθήκευση αυτού του %{resource}:"
         other: "%{count} σφάλματα απέτρεψαν την αποθήκευση αυτού του %{resource}:"
-  
+
   devise:
     failure:
       already_authenticated: "Είσαστε ήδη συνδεδεμένος/η."
@@ -55,7 +55,7 @@ el:
         subject: "Οδηγίες επαναφοράς κωδικού"
       unlock_instructions:
         subject: "Οδηγίες ξεκλειδώματος"
-  
+
   # Reader
   app: "The Old Reader"
   eggs: "We ♥ kittens"
@@ -71,10 +71,10 @@ el:
       -
         :title: "Facebook"
         :url: "https://www.facebook.com/theoldreader"
-      - 
+      -
         :title: "Blog"
         :url: "http://blog.theoldreader.com/"
-      - 
+      -
         :title: "Επικοινωνία"
         :url: "http://blog.theoldreader.com/about"
     sign_in:
@@ -268,7 +268,7 @@ el:
     unfollow: "Κατάργηση ακολουθίας"
     unfollow_confirm: "Είσαστε σίγουρος/η ότι δε θέλετε πλέον να ακολουθείτε; Οι μοιρασμένες και οι αγαπημένες σας αναρτήσεις δε θα διαγραφούν."
     thats_you: "Αυτός/ή είσαστε εσείς!"
-    following: 
+    following:
       one: "Ακουλουθεί <strong>%{count}</strong> χρήστη"
       few: "Ακουλουθεί <strong>%{count}</strong> χρήστες"
       many: "Ακουλουθεί <strong>%{count}</strong> χρήστες"
@@ -304,10 +304,10 @@ el:
       subject: "Ο/Η %{name} σας ακολουθεί"
       body: |
         Γεια σας, %{followed}!
-        
+
         %{name} σας ακολουθεί τώρα. Τέλεια!
         Δείτε το προφίλ στο %{profile}.
-        
+
         --
         The Old Reader robot.
         Μπορείτε πάντα να απεγγραφείτε στη σελίδα ρυθμίσεων σας.
@@ -316,34 +316,34 @@ el:
       subject: "Οι ροές σας είναι έτοιμες!"
       body: |
         Γεια σας %{name},
-        
+
         Είμαστε στην ευχάριστη θέση να σας πληροφορήσουμ ότι έχουμε ολοκληρώσει την εισαγωγή των συνδρομών σας.
         Οι ροές που εισάγαγατε είναι τώρα διαθέσιμες στο %{host}.
         Ευχαριστούμε που χρησιμοποιείτε τον The Old Reader.
-        
+
         --
         The Old Reader robot.
         %{host}
     confirmation:
       body: |
         Καλώς ήρθατε %{name},
-        
+
         Μπορείτε να επιβεβαιώσετε το e-mail του λογαριασμού σας χρησιμοποιώντας τον παρακάτω σύνδεσμο:
         %{link}
-        
+
         --
         The Old Reader robot.
         %{host}
     password:
       body: |
         Γεια σας %{name},
-        
+
         Κάποιος έχει ζητήσει έναν σύνδεσμο για την αλλαγή του κωδικού σας, ορίστε:
         %{link}
-        
+
         Αν δεν τον έχετε ζητήσει εσείς, παρακαλώ αγνοήστε αυτό το e-mail.
         Ο κωδικός σας δεν θα αλλάξει αν δεν χρησιμοποιήσετε τον παραπάνω σύνδεσμο.
-        
+
         --
         The Old Reader robot.
         %{host}

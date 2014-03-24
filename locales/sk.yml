@@ -11,7 +11,7 @@ sk:
         few: "%{count} chýb Vám zabránilo uložiť tento %{resource}:"
         many: "%{count} chýb Vám zabránilo uložiť tento %{resource}:"
         other: "%{count} chýb Vám zabránilo uložiť tento %{resource}:"
-  
+
   devise:
     failure:
       already_authenticated: "Už ste raz prihlásený do Vášho účtu."
@@ -55,7 +55,7 @@ sk:
         subject: "Návod na zmenu hesla"
       unlock_instructions:
         subject: "Návod na odomknutie"
-  
+
   # Reader
   app: "The Old Reader"
   eggs: "Máme radi mačíčky ♥"
@@ -70,10 +70,10 @@ sk:
       -
         :title: "Facebook"
         :url: "https://www.facebook.com/theoldreader"
-      - 
+      -
         :title: "Blog"
         :url: "http://blog.theoldreader.com/"
-      - 
+      -
         :title: "Kontaktujte nás"
         :url: "http://blog.theoldreader.com/about"
     sign_in:
@@ -241,7 +241,7 @@ sk:
     follow: "Sledovať"
     unfollow: "Ukončiť sledovanie"
     thats_you: "Toto ste Vy!"
-    following: 
+    following:
       one: "Sleduje <strong>%{count}</strong> uživateľa"
       few: "Sleduje <strong>%{count}</strong> uživateľov"
       many: "Sleduje <strong>%{count}</strong> uživateľov"
@@ -277,11 +277,11 @@ sk:
       subject: "%{name} začal sledovať Váš profil"
       body: |
         Dobrý deň, %{followed}!
-        
+
         %{name} začal sledovať Váš profil.
         Jeho stránku nájdete na %{profile}.
-        
-        -- 
+
+        --
         The Old Reader robot.
         Zabrániť príjmaniu týchto správ môžete na stránkach nastavení.
         %{host}

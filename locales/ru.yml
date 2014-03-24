@@ -11,7 +11,7 @@ ru:
         few: "%{resource}: сохранение не удалось из-за %{count} ошибок"
         many: "%{resource}: сохранение не удалось из-за %{count} ошибок"
         other: "%{resource}: сохранение не удалось из-за %{count} ошибки"
-  
+
   devise:
     failure:
       already_authenticated: "Вы уже вошли в систему."
@@ -56,7 +56,7 @@ ru:
         subject: "Инструкции по восстановлению пароля"
       unlock_instructions:
         subject: "Инструкции по разблокировке учётной записи"
-  
+
   # Reader
   app: "The Old Reader"
   eggs: "Мы ♥ котиков"
@@ -72,10 +72,10 @@ ru:
       -
         :title: "Фейсбук"
         :url: "https://www.facebook.com/theoldreader"
-      - 
+      -
         :title: "Блог"
         :url: "http://blog.theoldreader.com/"
-      - 
+      -
         :title: "Контакты"
         :url: "http://blog.theoldreader.com/about"
     sign_in:
@@ -319,7 +319,7 @@ ru:
     unfollow: "Не читать"
     unfollow_confirm: "Вы действительно хотите отписаться? Ваши общие и понравившиеся записи удалены не будут."
     thats_you: "Это вы!"
-    following: 
+    following:
       one: "Он читает <strong>%{count}</strong> пользователя"
       few: "Он читает <strong>%{count}</strong> пользователей"
       many: "Он читает <strong>%{count}</strong> пользователей"
@@ -355,11 +355,11 @@ ru:
       subject: "%{name} подписался на вас"
       body: |
         Привет, %{followed}!
-        
+
         %{name} теперь читают вас. Отлично!
         Посмотрите профиль пользователя на %{profile}.
-        
-        -- 
+
+        --
         Робот The Old Reader.
         От наших рассылок всегда можно отписаться на странице настроек.
         %{host}
@@ -367,34 +367,34 @@ ru:
       subject: "Ваши подписки ждут вас!"
       body: |
         Приветствуем, %{name},
-        
+
         Мы рады сообщить вам, что мы закончили импорт ваших подписок.
         Импортированные подписки теперь доступны на %{host}.
         Благодарим за использование The Old Reader.
-        
-        -- 
+
+        --
         Робот The Old Reader.
         %{host}
     confirmation:
       body: |
         Добро пожаловать, %{name}!
-        
+
         Вы можете подтвердить ваш email по этой ссылке:
         %{link}
-        
+
         --
         Робот The Old Reader.
         %{host}
     password:
       body: |
         Приветствуем, %{name}!
-        
+
         Кто-то запросил ссылку для смены вашего пароля, вот она:
         %{link}
-        
+
         Если вы её не запрашивали, пожалуйста, проигнорируйте это письмо.
         Ваш пароль не будет изменён, пока вы не перейдёте по ссылке выше.
-        
+
         --
         Робот The Old Reader.
         %{host}

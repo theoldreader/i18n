@@ -11,7 +11,7 @@ hu:
         few: "%{count} hiba megakadályozta, hogy lementsd %{resource}-t:"
         many: "%{count} hiba megakadályozta, hogy lementsd %{resource}-t"
         other: "%{count} hiba megakadályozta, hogy lementsd %{resource}-t"
-  
+
   devise:
     failure:
       already_authenticated: "Már be vagy jelentkezve."
@@ -55,7 +55,7 @@ hu:
         subject: "Jelszó-helyreállítási utasítások"
       unlock_instructions:
         subject: "Feloldási utasítások"
-  
+
   # Reader
   app: "The Old Reader"
   eggs: "Mi ♥ cicák"
@@ -71,10 +71,10 @@ hu:
       -
         :title: "Facebook"
         :url: "https://www.facebook.com/theoldreader"
-      - 
+      -
         :title: "Blog"
         :url: "http://blog.theoldreader.com/"
-      - 
+      -
         :title: "Kapcsolat"
         :url: "http://blog.theoldreader.com/about"
     sign_in:
@@ -256,7 +256,7 @@ hu:
     unfollow: "Nem követés"
     unfollow_confirm: "Biztosan nem akarod tovább követni? A megosztott és tetszett elemeket nem távolítjuk el."
     thats_you: "Ez te vagy!"
-    following: 
+    following:
       one: "<strong>%{count}</strong> embert követ"
       few: "<strong>%{count}</strong> embert követ"
       many: "<strong>%{count}</strong> embert követ"
@@ -292,34 +292,34 @@ hu:
       subject: "%{name} követ téged"
       body: |
         Szia, %{followed}!
-        
+
         %{name} már követ téged. Szép!
         Nézd meg a profilját: %{profile}.
-        
-        -- 
+
+        --
         The Old Reader robotja.
         Bármikor leiratkozhatsz a beállítási lapodon.
         %{host}
     confirmation:
       body: |
         Szia %{name},
-        
+
         Igazolhatod a fiókod emailcímét az alábbi linkre való kattintással:
         %{link}
-        
+
         --
         The Old Reader robot.
         %{host}
     password:
       body: |
         Szia %{name},
-        
+
         Valaki kért egy linket a jelszavad megváltoztatására, itt találod:
         %{link}
-        
+
         Ha nem te kérted ezt, kérlek hagyd figyelmen kívül ezt a levelet.
         A jelszavad nem változik meg, amíg nem nyitod meg a fenti hivatkozást.
-        
+
         --
         The Old Reader robot.
         %{host}

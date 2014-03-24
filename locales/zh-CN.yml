@@ -11,7 +11,7 @@ zh-CN:
         few: "%{count} 个错误导致 %{resource} 无法被保存:"
         many: "%{count} 个错误导致 %{resource} 无法被保存:"
         other: "%{count} 个错误导致 %{resource} 无法被保存:"
-  
+
   devise:
     failure:
       already_authenticated: "您已经登录了。"
@@ -55,7 +55,7 @@ zh-CN:
         subject: "密码重置"
       unlock_instructions:
         subject: "帐户解锁"
-  
+
   # Reader
   app: "The Old Reader"
   eggs: "We ♥ kittens"
@@ -70,10 +70,10 @@ zh-CN:
       -
         :title: "Facebook"
         :url: "https://www.facebook.com/theoldreader"
-      - 
+      -
         :title: "博客"
         :url: "http://blog.theoldreader.com/"
-      - 
+      -
         :title: "联系我们"
         :url: "http://blog.theoldreader.com/about"
     sign_in:
@@ -240,7 +240,7 @@ zh-CN:
     follow: "关注"
     unfollow: "取消关注"
     thats_you: "That's you!"
-    following: 
+    following:
       one: "关注 <strong>%{count}</strong> 位用户"
       few: "关注 <strong>%{count}</strong> 位用户"
       many: "关注 <strong>%{count}</strong> 位用户"
@@ -276,11 +276,11 @@ zh-CN:
       subject: "%{name}关注了你"
       body: |
         Hello，%{followed}！
-        
+
         %{name}正在关注你！
         在%{profile}查看TA的个人档案.
-        
-        -- 
+
+        --
         The Old Reader robot.
         如需退订请在设置页更改通知设置.
         %{host}

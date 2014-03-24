@@ -11,7 +11,7 @@ pl:
         few: "Zapisanie „%{resource}” nie udało się z powodu %{count} błędów:"
         many: "Zapisanie „%{resource}” nie udało się z powodu %{count} błędów:"
         other: "Zapisanie „%{resource}” nie udało się z powodu %{count} błędów:"
-  
+
   devise:
     failure:
       already_authenticated: "Jesteś już zalogowany."
@@ -55,7 +55,7 @@ pl:
         subject: "Reset hasła"
       unlock_instructions:
         subject: "Odblokowywanie konta"
-  
+
   # Reader
   app: "The Old Reader"
   eggs: "Kotki ♥"
@@ -70,10 +70,10 @@ pl:
       -
         :title: "Facebook"
         :url: "https://www.facebook.com/theoldreader"
-      - 
+      -
         :title: "Blog"
         :url: "http://blog.theoldreader.com/"
-      - 
+      -
         :title: "Kontakt"
         :url: "http://blog.theoldreader.com/about"
     sign_in:
@@ -247,7 +247,7 @@ pl:
     follow: "Obserwuj"
     unfollow: "Przestań obserwować"
     thats_you: "To ty!"
-    following: 
+    following:
       one: "Obserwuje <strong>%{count}</strong> osobę"
       few: "Obserwuje <strong>%{count}</strong> osoby"
       many: "Obserwuje <strong>%{count}</strong> osób"
@@ -283,10 +283,10 @@ pl:
       subject: "%{name} od teraz obserwuje cię"
       body: |
         Czołem, %{followed}!
-        
+
         %{name} obserwuje Cię od teraz. Czyż nie uroczo?
         Zobacz profil tej osoby tu: %{profile}.
-        
+
         --
         Robot pocztowy The Old Reader.
         Wyłączyć powiadomienia możesz na swojej stronie ustawień.
@@ -294,22 +294,22 @@ pl:
     confirmation:
       body: |
         Czołem, %{name}!
-        
+
         Możesz potwierdzić swój adres e-mail klikając w poniższy link:
         %{link}
-        
+
         --
         Robot pocztowy The Old Reader.
         %{host}
     password:
       body: |
         Czołem, %{name}!
-        
+
         Ktoś zlecił przysłanie linka resetującego Twoje hasło, oto on:
         %{link}
         Jeśli to nie byłeś Ty, zignoruj ten e-mail. Twoje hasło nie zos-
         tanie zmienione, dopóki nie klikniesz w powyższy link.
-        
+
         --
         Robot pocztowy The Old Reader.
         %{host}

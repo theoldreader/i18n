@@ -56,7 +56,7 @@ cs:
         subject: "Instrukce pro obnovu hesla"
       unlock_instructions:
         subject: "Instrukce pro odemknutí účtu"
-  
+
   # Reader
   app: "The Old Reader"
   eggs: "Milujeme koťátka :)"
@@ -72,10 +72,10 @@ cs:
       -
         :title: "Facebook"
         :url: "https://www.facebook.com/theoldreader"
-      - 
+      -
         :title: "Blog"
         :url: "http://blog.theoldreader.com/"
-      - 
+      -
         :title: "Kontaktujte nás"
         :url: "http://blog.theoldreader.com/about"
     sign_in:
@@ -261,7 +261,7 @@ cs:
     follow: "Sledovat"
     unfollow: "Nesledovat"
     thats_you: "Tohle jste vy!"
-    following: 
+    following:
       one: "Sleduje <strong>%{count}</strong> uživatele"
       few: "Sleduje <strong>%{count}</strong> uživatele"
       many: "Sleduje <strong>%{count}</strong> uživatelů"
@@ -297,10 +297,10 @@ cs:
       subject: "%{name} vás začal sledovat"
       body: |
         Ahoj, %{followed}.
-        
+
         %{name} vás začal sledovat. Super!
         Zobrazte si jeho profil na adrese %{profile}.
-        
+
         --
         The Old Reader robot
         Tyto zprávy můžete zrušit v nastavení.
@@ -308,23 +308,23 @@ cs:
     confirmation:
       body: |
         Vítejte, %{name}.
-        
+
         Svůj e-mail můžete potvrdit pomocí tohoto odkazu:
         %{link}
-        
+
         --
         The Old Reader robot
         %{host}
     password:
       body: |
         Ahoj, %{name}.
-        
+
         Někdo požádal o změnu vašeho hesla. Změnu provedete kliknutím na tento odkaz:
         %{link}
-        
+
         Pokud jste to nebyli vy, klidně ignorujte tento e-mail.
         Ke změně hesla nedojde, pokud nekliknete na odkaz výše.
-        
+
         --
         The Old Reader robot
         %{host}

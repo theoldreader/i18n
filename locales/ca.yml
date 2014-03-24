@@ -11,7 +11,7 @@ ca:
         few: "%{count} errors han impedit desar %{resource}:"
         many: "%{count} errors han impedit desar %{resource}:"
         other: "%{count} errors han impedit desar %{resource}:"
-  
+
   devise:
     failure:
       already_authenticated: "Ja esteu autenticats."
@@ -55,7 +55,7 @@ ca:
         subject: "Instruccions de canvi de contrasenya"
       unlock_instructions:
         subject: "Instruccions de desbloqueig"
-  
+
   # Reader
   app: "The Old Reader"
   eggs: "♥ Oh! Gatets! ♥"
@@ -71,10 +71,10 @@ ca:
       -
         :title: "Facebook"
         :url: "https://www.facebook.com/theoldreader"
-      - 
+      -
         :title: "Blog"
         :url: "http://blog.theoldreader.com/"
-      - 
+      -
         :title: "Contacte"
         :url: "http://blog.theoldreader.com/about"
     sign_in:
@@ -246,7 +246,7 @@ ca:
     follow: "Segueix"
     unfollow: "Deixa de seguir"
     thats_you: "Aquest sou vós!"
-    following: 
+    following:
       one: "Segueix <strong>%{count}</strong> usuari"
       few: "Segueix <strong>%{count}</strong> usuaris"
       many: "Segueix <strong>%{count}</strong> usuaris"
@@ -282,34 +282,34 @@ ca:
       subject: "%{name} us segueix"
       body: |
         Hola, %{followed}!
-        
+
         %{name} us segueix. Visca!
         Llegiu el perfil a %{profile}.
-        
-        -- 
+
+        --
         El robot de The Old Reader.
         Podeu canviar les preferències de correu a la pàgina de configuració.
         %{host}
     confirmation:
       body: |
         Us donem la benvinguda %{name},
-        
+
         Podeu confirmar el compte de correu fent clic a l'enllaç següent:
         %{link}
-        
+
         --
         El robot de The Old Reader.
         %{host}
     password:
       body: |
         Hola %{name},
-        
+
         Algú ha demanat un enllaç per canviar la contrasenya, aquí el teniu:
         %{link}
-        
+
         Si no heu sol·licitat això, ignoreu aquest correu.
         La vostra constrasenya no es canviarà si no que accediu a l'enllaç anterior.
-        
+
         --
         El robot de The Old Reader.
         %{host}

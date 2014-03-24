@@ -11,7 +11,7 @@ es:
         few: "%{count} errores evitaron que este %{resource} fuera guardado:"
         many: "%{count} errores evitaron que este %{resource} fuera guardado:"
         other: "%{count} errores evitaron que este %{resource} fuera guardado:"
-  
+
   devise:
     failure:
       already_authenticated: "Ya está dentro del sistema"
@@ -55,7 +55,7 @@ es:
         subject: "Instrucciones de reinicio de contraseña"
       unlock_instructions:
         subject: "Instrucciones de desbloqueo"
-  
+
   # Reader
   app: "The Old Reader"
   eggs: "Nos ♥ los gatitos"
@@ -70,10 +70,10 @@ es:
       -
         :title: "Facebook"
         :url: "https://www.facebook.com/theoldreader"
-      - 
+      -
         :title: "Blog"
         :url: "http://blog.theoldreader.com/"
-      - 
+      -
         :title: "Contáctenos"
         :url: "http://blog.theoldreader.com/about"
     sign_in:
@@ -240,7 +240,7 @@ es:
     follow: "Seguir"
     unfollow: "Dejar de seguir"
     thats_you: "¡Este eres tú!"
-    following: 
+    following:
       one: "Sigue a <strong>%{count}</strong> usuario"
       few: "Sigue a <strong>%{count}</strong> usuarios"
       many: "Sigue a <strong>%{count}</strong> usuarios"
@@ -276,11 +276,11 @@ es:
       subject: "%{name} le sigue"
       body: |
         ¡Hola, %{followed}!
-        
+
         %{name} le está siguiendo ahora. ¡Bien!
         Vea el perfil en %{profile}.
-        
-        -- 
+
+        --
         El robot de The Old Reader.
         Siempre puede desuscribirse en su página de configuración.
         %{host}

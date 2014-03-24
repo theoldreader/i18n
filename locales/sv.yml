@@ -56,7 +56,7 @@ sv:
         subject: "Instruktioner för att återställa lösenordet"
       unlock_instructions:
         subject: "Instruktioner för att låsa upp kontot"
-  
+
   # Reader
   app: "The Old Reader"
   eggs: "Vi ♥ kattungar"
@@ -72,10 +72,10 @@ sv:
       -
         :title: "Facebook"
         :url: "https://www.facebook.com/theoldreader"
-      - 
+      -
         :title: "Blog"
         :url: "http://blog.theoldreader.com/"
-      - 
+      -
         :title: "Kontakta oss"
         :url: "http://blog.theoldreader.com/about"
     sign_in:
@@ -295,7 +295,7 @@ sv:
         %{name} följer dig nu. Toppen!
         Se profilen på %{profile}.
 
-        -- 
+        --
         The Old Reader robot.
         Du kan alltid avregistrera från dessa mail i inställningarna för ditt konto.
         %{host}

@@ -11,7 +11,7 @@ uk:
         few: "%{resource}: збереження не вдалося через %{count} помилок"
         many: "%{resource}: збереження не вдалося через %{count} помилок"
         other: "%{resource}: збереження не вдалося через %{count} помилку"
-  
+
   devise:
     failure:
       already_authenticated: "Ви вже увійшли до системи."
@@ -56,7 +56,7 @@ uk:
         subject: "Інструкції для відновлення пароля"
       unlock_instructions:
         subject: "Інструкції для розблокування облікового запису"
-  
+
   # Reader
   app: "The Old Reader"
   eggs: "Ми ♥ киць"
@@ -71,10 +71,10 @@ uk:
       -
         :title: "Фейсбук"
         :url: "https://www.facebook.com/theoldreader"
-      - 
+      -
         :title: "Блоґ"
         :url: "http://blog.theoldreader.com/"
-      - 
+      -
         :title: "Контакти"
         :url: "http://blog.theoldreader.com/about"
     sign_in:
@@ -240,7 +240,7 @@ uk:
     follow: "Стежити"
     unfollow: "Не стежити"
     thats_you: "Це ви!"
-    following: 
+    following:
       one: "Стежить за <strong>%{count}</strong> користувачем"
       few: "Стежить за <strong>%{count}</strong> користувачами"
       many: "Стежить за <strong>%{count}</strong> користувачами"
@@ -276,11 +276,11 @@ uk:
       subject: "%{name} почав стежити за вами"
       body: |
         Привіт, %{followed}!
-        
+
         %{name} теперь стежить за вами. Кльово!
         Подивіться профіль користувача на %{profile}.
-        
-        -- 
+
+        --
         Робот The Old Reader.
         Від наших розсилок завжди можна відписатися на сторінці налаштуваннь.
         %{host}

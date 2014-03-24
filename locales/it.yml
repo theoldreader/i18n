@@ -11,14 +11,14 @@ it:
         few: "%{count} errori non hanno permesso che %{resource} venissero salvati:"
         many: "%{count} errori non hanno permesso che %{resource} venissero salvati:"
         other: "%{count} errori non hanno permesso che %{resource} venissero salvati:"
-  
+
   devise:
     failure:
       already_authenticated: "Sei già connesso."
       unauthenticated: "Devi connetterti per poter continuare."
       locked: "Il tuo account è bloccato."
       invalid: "Email o password non corrette."
-      invalid_token: "Token di autenticazione non valido." 
+      invalid_token: "Token di autenticazione non valido."
       timeout: "Sessione scaduta, per favore prova a connetterti di nuovo per continuare."
       inactive: "Il tuo account non è stato ancora attivato."
     sessions:
@@ -55,7 +55,7 @@ it:
         subject: "Istruzioni per il ripristino password"
       unlock_instructions:
         subject: "Istruzioni per lo sblocco"
-  
+
   # Reader
   app: "The Old Reader"
   eggs: "Ci piacciono i gattini!"
@@ -70,10 +70,10 @@ it:
       -
         :title: "Facebook"
         :url: "https://www.facebook.com/theoldreader"
-      - 
+      -
         :title: "Blog"
         :url: "http://blog.theoldreader.com/"
-      - 
+      -
         :title: "Contattaci"
         :url: "http://blog.theoldreader.com/about"
     sign_in:
@@ -83,7 +83,7 @@ it:
       login: "Login"
       register: "Registrati"
       password: "Password Dimenticata?"
-      change_password: "Cambia password" 
+      change_password: "Cambia password"
     tour: "tour"
   user:
     profile: "Profilo"
@@ -195,7 +195,7 @@ it:
     password_confirmation: "Conferma password"
     ui:
       title: "Interfaccia Utente"
-      click_to_scroll: "Clicca su un post per metterlo in evidenza" 
+      click_to_scroll: "Clicca su un post per metterlo in evidenza"
       scroll_to_read: "Sfogliare i post li marcherà come letti"
       sidebar_unread_only: "Mostra solo quelle cartelle/feed che hanno elementi ancora da leggere"
       locale: "Lingua"
@@ -247,7 +247,7 @@ it:
     follow: "Segui"
     unfollow: "Non seguire più"
     thats_you: "Questo sei tu!"
-    following: 
+    following:
       one: "Segue <strong>%{count}</strong> utente"
       few: "Segue <strong>%{count}</strong> utenti"
       many: "Segue <strong>%{count}</strong> utenti"
@@ -283,34 +283,34 @@ it:
       subject: "%{name} ha iniziato a seguirti!"
       body: |
         Ciao, %{followed}!
-        
+
         %{name} ti sta seguendo. Bello!
         Guarda il suo profilo su %{profile}.
-        
-        -- 
+
+        --
         The Old Reader robot.
         You can always unsubscribe at your settings page.
         %{host}
     confirmation:
       body: |
         Benvenuto\a %{name},
-        
+
         Ora puoi confermare la mail associata al tuo account utilizzando il seguente link:
         %{link}
-        
+
         --
         The Old Reader robot.
         %{host}
     password:
       body: |
         Ciao %{name},
-        
+
         Qualcuno ha richiesto un link per modificare la tua password, eccolo:
         %{link}
-        
+
         Se non sei stato tu a richiederlo, ignora pure questa email.
         La tua password non verrà modificata fin quando non accederai usando il link qui sopra.
-        
+
         --
         The Old Reader robot.
         %{host}

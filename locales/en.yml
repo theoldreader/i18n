@@ -11,7 +11,7 @@ en:
         few: "%{count} errors prohibited this %{resource} from being saved:"
         many: "%{count} errors prohibited this %{resource} from being saved:"
         other: "%{count} errors prohibited this %{resource} from being saved:"
-  
+
   devise:
     failure:
       already_authenticated: "You are already signed in."
@@ -59,7 +59,7 @@ en:
         subject: "Reset password instructions"
       unlock_instructions:
         subject: "Unlock Instructions"
-  
+
   # Reader
   app: "The Old Reader"
   eggs: "We ♥ kittens"
@@ -75,10 +75,10 @@ en:
       -
         :title: "Facebook"
         :url: "https://www.facebook.com/theoldreader"
-      - 
+      -
         :title: "Blog"
         :url: "http://blog.theoldreader.com/"
-      - 
+      -
         :title: "Contact us"
         :url: "http://blog.theoldreader.com/about"
     sign_in:
@@ -337,7 +337,7 @@ en:
     unfollow: "Unfollow"
     unfollow_confirm: "Do you really want to unfollow? Your shared and likes posts will not be removed."
     thats_you: "That's you!"
-    following: 
+    following:
       one: "Follows <strong>%{count}</strong> user"
       few: "Follows <strong>%{count}</strong> users"
       many: "Follows <strong>%{count}</strong> users"
@@ -373,10 +373,10 @@ en:
       subject: "%{name} has followed you"
       body: |
         Hello, %{followed}!
-        
+
         %{name} is now following you. Nice!
         See profile at %{profile}.
-        
+
         --
         The Old Reader robot.
         You can always unsubscribe at your settings page.
@@ -385,34 +385,34 @@ en:
       subject: "Your feeds are ready, hooray!"
       body: |
         Hello %{name},
-        
+
         We are happy to inform you that we have finished importing your subscriptions.
         Feeds you imported should now be available at %{host}.
         Thank you for using The Old Reader.
-        
+
         --
         The Old Reader robot.
         %{host}
     confirmation:
       body: |
         Welcome %{name},
-        
+
         You can confirm your account email using the link below:
         %{link}
-        
+
         --
         The Old Reader robot.
         %{host}
     password:
       body: |
         Hello %{name},
-        
+
         Someone has requested a link to change your password, here it is:
         %{link}
-        
+
         If you have not requested this, please ignore this email.
         Your password will not get changed until you access the link above.
-        
+
         --
         The Old Reader robot.
         %{host}
@@ -581,10 +581,10 @@ en:
         <ul>
           %{summary}
         </ul></p>
-        <p>We're working diligently to make this the best RSS reader on the web and hope that you'll consider upgrading 
+        <p>We're working diligently to make this the best RSS reader on the web and hope that you'll consider upgrading
         to the premium version for only $%{price} per month (yearly discounts available).</p>
-        <p><strong>A free plan will also be available for users who have less than %{free_limit} subscriptions.</strong> While the free 
-        version does not include all the premium features, you can rest assured that all of the great features that are 
+        <p><strong>A free plan will also be available for users who have less than %{free_limit} subscriptions.</strong> While the free
+        version does not include all the premium features, you can rest assured that all of the great features that are
         available today will be available going forward (and we'll add more free features along the way).</p>
         %{limit_specific_message}
         <p>Please <a href='http://blog.theoldreader.com/post/76417559063'>read our blog post</a> for more information on the change.</p>
@@ -637,7 +637,7 @@ en:
       summary: |
         <li>Full-text search</li>
         <li>Faster feed refresh times</li>
-        <li>Up to <u>%{subscriptions}</u> Subscriptions *</li> 
+        <li>Up to <u>%{subscriptions}</u> Subscriptions *</li>
         <li><u>6 months</u> of post storage</li>
         <li>Instapaper and Readability integration</li>
         <li>Early access to new features</li>
@@ -714,14 +714,14 @@ en:
           <p>Hello %{name},</p>
           <p>After %{inactive_count} days of inactivity, The Old Reader removes your unread items to make space for the users
           who are actively using the service. Can you believe it has been that long since we've seen you?</p>
-          <p>To make sure you don't miss anything, all you have to do is sign in to The Old Reader. 
+          <p>To make sure you don't miss anything, all you have to do is sign in to The Old Reader.
           You can also check out what's new while you're there!</p>
           <p>Thank you,<br />The Old Reader Team<br /><a href="mailto:support@theoldreader.com">support@theoldreader.com</a></p>
       almost_expired:
         subject: "Your Old Reader Premium account is about to expire"
         body: |
           <p>Hello %{name},</p>
-          <p>Your Old Reader Premium account is about to expire. Visit your <a href="%{manage_url}">accounts page</a> to begin a new 
+          <p>Your Old Reader Premium account is about to expire. Visit your <a href="%{manage_url}">accounts page</a> to begin a new
           premium membership.</p
           <p>Don't miss out on all the great premium features:
           <ul>

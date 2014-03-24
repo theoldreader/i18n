@@ -11,7 +11,7 @@ zh-TW:
         few: "%{count} 個錯誤導致 %{resource} 無法儲存:"
         many: "%{count} 個錯誤導致 %{resource} 無法儲存:"
         other: "%{count} 個錯誤導致 %{resource} 無法儲存:"
-  
+
   devise:
     failure:
       already_authenticated: "你已經登入了。"
@@ -59,7 +59,7 @@ zh-TW:
         subject: "重設密碼指令"
       unlock_instructions:
         subject: "解鎖指令"
-  
+
   # Reader
   app: "The Old Reader"
   eggs: "我們愛喵星人♥〜〜〜"
@@ -75,10 +75,10 @@ zh-TW:
       -
         :title: "Facebook"
         :url: "https://www.facebook.com/theoldreader"
-      - 
+      -
         :title: "Blog"
         :url: "http://blog.theoldreader.com/"
-      - 
+      -
         :title: "Contact us"
         :url: "http://blog.theoldreader.com/about"
     sign_in:
@@ -337,7 +337,7 @@ zh-TW:
     unfollow: "取消跟隨"
     unfollow_confirm: "你真的要取消跟隨嗎？你共享或點讚的將會被刪除。"
     thats_you: "這是你！"
-    following: 
+    following:
       one: "跟隨了<strong>%{count}</strong>個用戶"
       few: "跟隨了<strong>%{count}</strong>個用戶"
       many: "跟隨了<strong>%{count}</strong>個用戶"
@@ -373,10 +373,10 @@ zh-TW:
       subject: "%{name} 個用戶正在追隨你"
       body: |
         你好， %{followed}!
-        
+
         %{name} 現在正在跟隨你！
         看看他的個人資料： %{profile}.
-        
+
         --
         The Old Reader 自動機械人
         你可以在你的個人資料中中隨時取消訂閱這些郵件。
@@ -385,34 +385,34 @@ zh-TW:
       subject: "你的訂閱源已經準備好了，萬歲！"
       body: |
         你好， %{name},
-        
+
         我們很高興告訴你我們已經成功匯入了你的訂閱源。
         你匯入的訂閱可以在 %{host} 看到。
         感謝你使用The Old Reader
-        
+
         --
         The Old Reader 自動機械人
         %{host}
     confirmation:
       body: |
         歡迎， %{name},
-        
+
         請點擊以下鏈結以激活你的帳號：
         %{link}
-        
+
         --
         The Old Reader自動機械人
         %{host}
     password:
       body: |
         你好， %{name},
-        
+
         有人發起了請求修改密碼，修改密碼的鏈結在此:
         %{link}
-        
+
         如果該請求不是你所發起的，請忽視此則電郵。
         在你點擊此鏈結前，你的密碼不會被更動。
-        
+
         --
         The Old Reader自動機械人
         %{host}
@@ -518,7 +518,7 @@ zh-TW:
         title: "社區論壇"
         pre_link: "我們已經創建 "
         link: "一個論壇並寄存在 yuku.com"
-        post_link: " 
+        post_link: "
 
 爲了和用戶有良好的溝通，請自由加入社區並請求協助、討論如何調整及共享你的看法。"
     donate:
@@ -530,7 +530,7 @@ zh-TW:
       flattr:
         pre_link: "用 "
         link1: "Flattr"
-        inbetween: ". 
+        inbetween: ".
 這是個簡單的付款方法給你所喜愛的作者或服務商。你可以給我們寄送固定的金額。或者按下「Flattr」的按鈕，然後每月固定捐贈予以我們。然後你還可以訂閱 "
         link2: "我們在Flattr的帳號"
         post_link: " 這將能使你每月都可自動 \"flattr\" 我們。"
@@ -639,7 +639,7 @@ zh-TW:
       summary: |
         <li>全文搜尋</li>
         <li>更快的訂閱源更新速度</li>
-        <li>增加到<u>%{subscriptions}</u>個訂閱源*</li> 
+        <li>增加到<u>%{subscriptions}</u>個訂閱源*</li>
         <li>儲存訂閱源的文章最多<u>6個月</u></li>
         <li>Instapaper和Readability整合</li>
         <li>儘早獲得新功能！</li>

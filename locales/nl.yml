@@ -11,7 +11,7 @@ nl:
         few: "%{count} fouten maakten dat dit %{resource} niet kon worden opgeslagen:"
         many: "%{count} fouten maakten dat dit %{resource} niet kon worden opgeslagen:"
         other: "%{count} fouten maakten dat dit %{resource} niet kon worden opgeslagen:"
-  
+
   devise:
     failure:
       already_authenticated: "U bent al ingelogd."
@@ -59,7 +59,7 @@ nl:
         subject: "Instructies wachtwoord opnieuw instellen"
       unlock_instructions:
         subject: "Ontgrendel instructies"
-  
+
   # Reader
   app: "The Old Reader"
   eggs: "We ♥ jonge poesjes"
@@ -75,10 +75,10 @@ nl:
       -
         :title: "Facebook"
         :url: "https://www.facebook.com/theoldreader"
-      - 
+      -
         :title: "Blog"
         :url: "http://blog.theoldreader.com/"
-      - 
+      -
         :title: "Contact"
         :url: "http://blog.theoldreader.com/about"
     sign_in:
@@ -337,7 +337,7 @@ nl:
     unfollow: "Niet meer volgen"
     unfollow_confirm: "Wilt uw werkelijk het volgen staken? Uw gedeelde en Leuk gevonden berichten zullen niet worden verwijderd."
     thats_you: "Dat bent uzelf!"
-    following: 
+    following:
       one: "Volgt <strong>%{count}</strong> gebruiker"
       few: "Volgt <strong>%{count}</strong> gebruikers"
       many: "Volgt <strong>%{count}</strong> gebruikers"
@@ -373,10 +373,10 @@ nl:
       subject: "%{name} heeft u gevolgd"
       body: |
         Hallo, %{followed}!
-        
+
         %{name} volgt u nu. Mooi!
         Zie het profiel op %{profile}.
-        
+
         --
         The Old Reader robot.
         U kunt altijd uw abonnement opzeggen via de Instellingen pagina.
@@ -385,34 +385,34 @@ nl:
       subject: "Uw feeds zijn gereed, hoera!"
       body: |
         Hello %{name},
-        
+
         We kunne u informeren dat de import van uw abonnementen gereed is.
         De feeds die u heeft geïmporteerd zijn nu beschikbaar op %{host}.
         Met dank voor het gebruiken van The Old Reader.
-        
+
         --
         The Old Reader robot.
         %{host}
     confirmation:
       body: |
         Welkom %{name},
-        
+
         U kunt uw account via e-mail confirmeren door op de link hieronder te klikken:
         %{link}
-        
+
         --
         The Old Reader robot.
         %{host}
     password:
       body: |
         Hallo %{name},
-        
+
         Iemand heeft een verzoek ingediend om uw wachtwoord te veranderen, hier is de link:
         %{link}
-        
+
         Als u dit verzoek niet zelf hebt gedaan, kunt u dit e-mailbericht negeren.
         Uw wachtwoord zal niet worden veranderd zolang u niet op deze link hierboven klikt.
-        
+
         --
         The Old Reader robot.
         %{host}
@@ -630,7 +630,7 @@ nl:
       summary: |
         <li>Volledige tekst doorzoeken</li>
         <li>Snellere versen tijden van feeds</li>
-        <li>Tot <u>%{subscriptions}</u> abonnementen *</li> 
+        <li>Tot <u>%{subscriptions}</u> abonnementen *</li>
         <li><u>6 maanden</u> berichten opslag</li>
         <li>Instapaper en Readability integratie</li>
         <li>Eerdere toegang tot nieuwe functies</li>
@@ -675,6 +675,6 @@ nl:
         body: |
           <p>Hallo %{name},</p>
           <p>Na %{inactive_count} dagen van inactiviteit verwijdert The Old Reader uw ongelezen items om plaats te maken voor de gebruikers die actief ons service benutten. Kunt u geloven dat het zo'n tijd geleden is dat we u hebben gezien?</p>
-          <p>Om er zeker van te zijn dat u niets mist hoeft u zich alleen maar aan te melden bij The Old Reader. 
+          <p>Om er zeker van te zijn dat u niets mist hoeft u zich alleen maar aan te melden bij The Old Reader.
           U kunt ook bekijken wat er nieuw is als u daar toch bent!</p>
           <p>Hartelijk dank,<br />The Old Reader Team<br /><a href="mailto:support@theoldreader.com">support@theoldreader.com</a></p>

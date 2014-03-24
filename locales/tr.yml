@@ -11,7 +11,7 @@ tr:
         few: "%{count} hata bu %{resource}'ın kaydedilmesini engelledi:"
         many: "%{count} hata bu %{resource}'ın kaydedilmesini engelledi:"
         other: "%{count} hata bu %{resource}'ın kaydedilmesini engelledi:"
-  
+
   devise:
     failure:
       already_authenticated: "Zaten giriş yaptınız."
@@ -55,7 +55,7 @@ tr:
         subject: "Şifre sıfırlama yönergeleri"
       unlock_instructions:
         subject: "Hesap kilidi kaldırma yönergeleri"
-  
+
   # Reader
   app: "The Old Reader"
   eggs: "Kedicikleri seviyoruz ♥"
@@ -70,10 +70,10 @@ tr:
       -
         :title: "Facebook"
         :url: "https://www.facebook.com/theoldreader"
-      - 
+      -
         :title: "Blog"
         :url: "http://blog.theoldreader.com/"
-      - 
+      -
         :title: "İletişim"
         :url: "http://blog.theoldreader.com/about"
     sign_in:
@@ -238,7 +238,7 @@ tr:
     follow: "Takip et"
     unfollow: "Takip etmeyi bırak"
     thats_you: "Bu sensin!"
-    following: 
+    following:
       one: "<strong>%{count}</strong> kullanıcıyı takip ediyor"
       few: "<strong>%{count}</strong> kullanıcıyı takip ediyor"
       many: "<strong>%{count}</strong> kullanıcıyı takip ediyor"
@@ -274,11 +274,11 @@ tr:
       subject: "%{name} sizi takip ediyor"
       body: |
         Merhaba, %{followed}!
-        
+
         %{name} sizi takip etmeye başladı. Ne güzel!
         Profilini şuradan görebilirsiniz: %{profile}.
-        
-        -- 
+
+        --
         The Old Reader robotu.
         Bu iletileri almak istemiyorsanız ayarlar sayfanızı ziyaret edin.
         %{host}
