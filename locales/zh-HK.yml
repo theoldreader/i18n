@@ -1,0 +1,744 @@
+en:
+  # Devise
+  errors:
+    messages:
+      expired: "請求已過期，請再次發出請求"
+      not_found: "搵唔到目標"
+      already_confirmed: "驗證成功， 請再次登入。"
+      not_locked: "冇畀鎖定"
+      not_saved:
+        one: "1個錯誤 %{resource} 搞到無法儲存:"
+        few: "%{count} 個錯誤 %{resource} 搞到無法儲存:"
+        many: "%{count} 個錯誤 %{resource} 搞到無法儲存:"
+        other: "%{count} 個錯誤 %{resource} 搞到無法儲存:"
+
+  devise:
+    failure:
+      already_authenticated: "你已經登入咗。"
+      unauthenticated: "你要先登入先可以繼續呢個操作"
+      unconfirmed: "我哋已經寄咗個驗證信去咗你個郵箱，去Check下啦^^"
+      locked: "你個帳號畀起鎖咗"
+      invalid: "你輸入嘅嗰帳號或密碼唔啱"
+      invalid_token: "冇呢嗰身份驗證令牌，或者佢已經失效咗。"
+      timeout: "呢個進程已經過期，請重新登入。"
+      inactive: "你個帳號仲未被激活。"
+    sessions:
+      signed_in: "登入成功。"
+      signed_out: "登出成功。"
+    passwords:
+      send_instructions: "你將會收到封電郵，呢封信會講畀你聽點樣重設嗰密碼。"
+      updated: "密碼更改成功！你家下可以登入啦。"
+      updated_not_active: "密碼更改成功。"
+      send_paranoid_instructions: "如果你嘅電郵信箱喺真實嘅，你將會收到封電郵，呢封信當中有回復密碼用嘅鏈結。"
+      confirmations:
+      send_instructions: "你將會收到封信件，呢封信會話畀你知點樣驗證你嗰帳號。"
+      send_paranoid_instructions: "如果你嘅電郵信箱喺真實嘅，你將會收到封電郵，呢封信會話畀你知點樣驗證你嗰帳號。"
+      confirmed: "驗證成功！你嗰帳號而家可以登入啦。"
+    registrations:
+      signed_up: "多謝你嘅註冊！你已成功註冊了！"
+      signed_up_but_unconfirmed: "一封包含咗驗證鏈結嘅電郵已經寄咗去你嘅電郵信箱。請點擊呢個鏈結以激活你嘅帳號。"
+      signed_up_but_inactive: "登入失敗。你已成功註冊，但喺你並未激活你的帳號。"
+      signed_up_but_locked: "登入失敗。您已成功註冊，但喺你嘅帳號已被鎖定。"
+      updated: "已更新好咗你嘅帳號資訊。"
+      update_needs_confirmation: "帳號資訊更新成功！但喺我哋需要驗證你新嘅電郵信箱。請檢查你嘅電郵信箱並點擊驗證用嘅鏈結。"
+      destroyed: "再見！你嘅帳號已刪除，但我哋希望可以有天可以再爲你服務。"
+      disabled: "對唔住！我哋停咗嘅The Old Reader嘅註冊，請睇我哋嘅Blog瞭解詳情: %{redirect}"
+      friend_notice: "我們停咗The Old Reader嘅用戶註冊，並且我哋會令網站私人化。你嘅帳號會自動被傳送至另一私人網站。請睇睇我哋嘅Blog瞭解詳情: %{redirect}"
+      non_friend_notice: "我們停咗The Old Reader嘅用戶註冊，並且我哋會令網站私人化。因此，你嘅帳號不會被傳送到其他私人網站，所以請將你嘅訂閱源輸出爲OPML文件並且尋找替代品。詳情請參閱我哋嘅Blog: %{redirect}"
+    unlocks:
+      send_instructions: "你將會收到封信話畀你知點樣去解鎖你嘅帳號。"
+      unlocked: "你嘅帳號已經解鎖成功，請登入以繼續。"
+      send_paranoid_instructions: "如果你嘅帳號是存在嘅，你將會收到封電郵，話畀你知點樣去解鎖你嗰帳號。"
+    omniauth:
+      success: "成功畀咗授權 %{kind} 帳號！"
+      failure: "授權%{kind} 帳號失敗，原因: %{reason}."
+    mailer:
+      confirmation_instructions:
+        subject: "驗證指令"
+      reset_password_instructions:
+        subject: "重設密碼指令"
+      unlock_instructions:
+        subject: "解鎖指令"
+
+  # Reader
+  app: "The Old Reader"
+  eggs: "我哋最愛♥喵咪嘎啦！"
+  title: "The Old Reader"
+  meta:
+    description: "呢個喺天上地下、史上最強嘅RSS閱讀器。輕點以匯入你的訂閱源、尋找你嘅朋友並且共享一切你想共享嘅！"
+    keywords: "the old reader"
+  landing:
+    topmenu:
+      -
+        :title: "Twitter"
+        :url: "https://twitter.com/#!/theoldreader"
+      -
+        :title: "Facebook"
+        :url: "https://www.facebook.com/theoldreader"
+      -
+        :title: "Blog"
+        :url: "http://blog.theoldreader.com/"
+      -
+        :title: "Contact us"
+        :url: "http://blog.theoldreader.com/about"
+    sign_in:
+      title: "登入:"
+      google: "Google"
+      facebook: "Facebook"
+      or: "或"
+      login: "登入"
+      register: "註冊"
+      password: "唔記得咗個密碼？"
+      change_password: "改密碼"
+      tos: "如果你註冊或登入咗，將視作你同意咗我哋嘅<a href='%{tos}' target='_blank'>服務協議</a>同埋<a href='%{privacy}' target='_blank'>隱私權政策</a>。"
+      social_register: "你可以用%{google} 或 %{facebook} 帳號來登入。"
+    welcome:
+      - "歡迎嚟到<span class='highlight'>無與倫比嘅社交型RSS閱讀器</span>。閱讀、共享同埋討論，唔會再錯過任何嘢！"
+      - "登入並開始使用The Old Reader只需輕輕一點！如果你喺個怕醜嘅人，可以先睇睇我哋嘅 %tour% 或者偷偷地望下 %trending%"
+      tour: "唔知點用？"
+    trending: "今日趨勢"
+    qa:
+      title0: "呢個有咩用噶？"
+      text0: "The Old Reader可以讓你訂閱你鍾意嘅網站，讓你保持住對佢哋嘅關注；共享你所喜愛嘅文章，並且同佢哋一齊討論；寄送個鏈結到社交網站、儲存到Pocket、 Instapaper 或者 Readability。"
+      title1: "我可以匯入我嘅訂閱源（OPML檔案）嗎？"
+      text1: "當然可以啦！匯入你來自其他服務嘅OPML檔案喺極之容易嘅事！"
+      title2: "我點樣搵到我啲朋友？"
+      text2: "透過你嘅Facebook或者Google帳號！你將可以睇到邊個喺度:) (當然，我哋喺唔會儲存你嘅Facebook或者Google帳號嘅資訊)。"
+      title3: "你們有冇畀流動裝置用嘅應用程式？"
+      text3_pre_link: "當然有啦！我哋嘅開發者社區已經開發咗幾乎所有平台嘅應用程式！我哋有美妙嘅"
+      text3_link1: "API"
+      text3_between_links: " 我哋喺畀任何人爲The Old Reader開發應用程式，睇睇我哋嘅 "
+      text3_link2: "應用程式頁面"
+      text3_post_link: "睇下所有可以用嘅應用程式。"
+      title4: "你哋會唔會發送啲垃圾信息到我哋嘅社交網站或者利用鏈結入侵嗎？"
+      text4: "當然不會！我們認爲呢個唔喺件啱嘅事。你擁有完整嘅控制權，控制你想共享點乜到社交網站。當你共享的嘅時候，你嘅朋友會獲得直接鏈結到文章嘅地址，而唔喺我們嘅網站。"
+      title5: "呢嗰服務要幾多錢？"
+      text5: "The Old Reader嘅免費用戶可以最多有%{free_count}訂閱源。同時我哋提供 <u>高級版</u>，而費用喺 $%{price}/月 (如果你而家註冊只需$%{intro_price}/月) 呢度有高級版嘅特色:"
+  support: "要幫手?"
+  user:
+    profile: "個人資料"
+    logout: "登出"
+    settings: "設定"
+    account: "賬戶"
+    failure: "%{kind}
+    failure: "%{kind}帳號鏈結到其他嘅The Old Reader帳號。請取消其他賬戶同The Old Reader嘅鏈結並重新操作。"
+    becomes_active_notice: "Hey，歡迎你返嚟！我哋有一段時間冇見到你啦，需要啲時間重建你嘅閱讀列表。但喺唔需要擔心，我哋會一直收集你嘅訂閱，你應該好快就可以睇到你嘅未讀項目噶啦！。"
+  feeds:
+    no_feeds:
+      text: "你冇任何訂閱。你可以%{subscribe}啲網站 (唔知點用？ <a href='http://blog.theoldreader.com/rss' class='feed-subscribe'>我們嘅Blog</a>?) 或者 %{import} 匯出你嘅訂閱源。<br />如果你想知道更多資訊， %{tour}。"
+      subscribe: "訂閱"
+      import: "匯入"
+      tour: "睇睇點用"
+    no_posts: "呢度已經冇任何文章啦！"
+    no_posts_filler: "下面已經冇任何文章，大概因爲你已經讀完曬啦。"
+    subscribe: "訂閱"
+    add_subscription: "加個訂閱來源"
+    add: "新增"
+    url: "URL"
+    unavailable_url: "無法從訂閱來源獲取"
+    forbidden_url: "無法從訂閱源獲取：訪問被拒絕。"
+    invalid_url: "訂閱源無法驗證，驗證結果： %{link}"
+    empty_url: "你冇提供網址。"
+    loading: "少女很努力咁爲你載入緊嗰內容……"
+    default_folder: "訂閱"
+    default_folder: "訂閱"
+    feeds: "訂閱源"
+    feeds_count:
+      one: "訂閱源"
+      few: "訂閱源"
+      many: "訂閱源"
+      other: "訂閱源"
+    posts_count:
+      one: "文章"
+      few: "文章"
+      many: "文章"
+      other: "文章"
+    your_posts: "你有<em>%{unread}</em>未讀%{posts}"
+    refresh: "重新載入"
+    unsubscribe: "取消呢個訂閱來源"
+    unsubscribe_confirm_feed: "你真喺要取消訂閱？你已經共享或者已Like嘅文章不會被刪除。"
+    unsubscribe_confirm_folder: "你真喺要取消呢嗰文件夾嘅所有訂閱？你已經共享或者已Like咗嘅文章不會被刪除。"
+    unsubscribe_confirm_folder_really: "你確定真喺要咁做？如果你點擊「OK」，所有的訂閱來源會被刪除！"
+    unsubscribe_error: "無法取消訂閱：重新載入緊，請稍後再試。"
+    ago: "前"
+    never: "永不"
+    confirm: "真喺要？"
+    mark_all_read: "將所有標記成已讀"
+    search: "搜尋"
+    search_limits: "搜尋結果只包含熱門嘅，所以我哋只能展示有限嘅搜尋結果。如果你想睇曬啲搜尋結果，請用更嚴謹嘅搜尋字。"
+    mark_read: "標記成已讀"
+    mark_unread: "標記成未讀"
+    share: "共享"
+    shared: "已共享"
+    unshare: "取消共享"
+    attach_note: "要新增一筆筆記嗎？"
+    attach: "儲存筆記"
+    comments:
+      one: "%{count}則評論"
+      few: "%{count}則評論"
+      many: "%{count}則評論"
+      other: "%{count}則評論"
+    comment: "Comment"
+    comment_text: "寫評論"
+    comment_destroy_confirm: "你真喺要刪除呢條評論嗎？"
+    comment_destroy_text: "呢條評論已被用戶刪除。"
+    post_author: "<strong>%{author}</strong>話"
+    drop_add_folder: "拖嚟呢度以新增文件夾。"
+    new_folder: "新文件夾"
+    star: "星號"
+    unstar: "收番嗰星號"
+    like: "讚"
+    unlike: "收番嗰讚"
+    send_to: "寄送至"
+    likes_count:
+      zero: "%{users}話讚"
+      one: "%{users}同另外一個用戶話讚"
+      few: "%{users}同另外%{count}個用戶話讚"
+      many: "%{users}同另外%{count}個用戶話讚"
+      other: "%{users}同另外%{count}個用戶話讚"
+    feed: "訂閱源"
+    site: "網站"
+    enclosure_url: "睇睇附件 (%{size}, %{type})"
+    pocket: "Pocket"
+    unpocket: "收番嗰Pocket"
+    pocket_error: "失敗咗！"
+  home:
+    following: "來自你朋友嘅最新嘅嘢"
+    updated: "最近有更新嘅"
+    dead: "好耐都冇更新嘅訂閱源"
+    tips:
+      title: "技巧同提示"
+      items:
+        - "'禁嗰'?'或'h'睇快捷鍵。"
+        - "拖放選單入面嘅訂閱源以重新排列或者創建新嘅訂閱來源資料夾。"
+        - "你可以連點兩下個資料夾或者嗰訂閱來源以重新命名。"
+        - "睇下我們嘅<a href='/pages/tour'>唔知點用？</a>，呢度會話你知點樣更好咁用The Old Reader。"
+  pages:
+    home: "主頁"
+    all: "所有項目"
+    starred: "已加星號"
+    liked: "已讚"
+    shared: "已共享"
+    following: "跟隨中"
+    import: "匯入"
+    search: "搜尋"
+    settings: "設定"
+    profile: "個人資料"
+    friends: "尋找朋友"
+    commented: "已評論"
+    tos: "服務協議"
+    privacy: "隱私權政策"
+    trending: "趨勢"
+    donate: "捐贈"
+    tour: "唔知點用？"
+    blog: "Blog"
+    status: "伺服器狀態"
+    community: "社區"
+    apps: "應用程式"
+    account: "帳號"
+  settings:
+    tabs:
+      main: "主要"
+      social: "社交"
+      readlater: "遲啲閱讀"
+    general: "一般"
+    name: "姓名"
+    username: "用戶名稱"
+    email: "電郵地址"
+    username_or_email: "用戶名稱/電郵地址"
+    password: "密碼"
+    password_confirmation: "再次確認密碼"
+    password_change: "更改密碼"
+    password_notice: "喺點擊儲存改變之前，你嘅新密碼唔會畀改變。"
+    token: "Token"
+    sign:
+      title: "你可以使用The Old Reader登入:"
+      google: "你嘅Google帳號"
+      google_email: "'%{email}'Google帳號"
+      facebook_name: "'%{name}' Facebook帳號"
+      username: "'%{username}'以及你嘅密碼 (使用呢嗰帳號喺任何The Old Reader嘅 %{apps} )"
+      apps: "應用程式"
+    ui:
+      title: "用戶界面"
+      click_to_scroll: "點擊一則文章之後到佢度"
+      scroll_to_read: "滾動到文章嘅時候即刻標記成已讀"
+      sidebar_unread_only: "只顯示有未讀嘅訂閱源或者資料夾"
+      locale: "語言"
+    feed_display_mode:
+      title: "訂閱源顯示模式"
+      all: "顯示所有文章"
+      unread: "只顯示未讀文章"
+    feed_list_mode:
+      title: "文章閱讀模式"
+      full: "完整瀏覽"
+      list: "只顯示標題"
+    sort_mode:
+      title: "文章顯示模式"
+      normal: "普通 (按新到舊排列文章)"
+      reverse: "反轉 (按舊到新排列文章)"
+    save: "儲存改變"
+    cancel_disabled: "你唔可以喺匯入工作執行緊嘅時候刪除你嘅帳號，請耐心等待並遲啲再嘗試。"
+    cancel_account:
+      text: "條氣唔順？你可以隨時%{export}成OPML文件同%{cancel}"
+      export: "匯出你嘅訂閱源"
+      cancel: "刪除帳號"
+      confirm: "確定？"？"
+    social:
+      notify_when_followed: "如果有人追蹤咗你，我哋會以電郵嘅方式通知你。"
+      share_timeline: "共享到Facebook。"
+      connect_share_timeline: "鏈結到Facebook以共享文章"
+      show_fb_profile: "喺個人資料嘅頁面展示你嘅Facebook鏈結"
+      sendto:
+        title: "發送到"
+        custom:
+          description: "新增你嘅共享服務"
+          tokens: "Token"
+          example: "例子"
+          title: "服務名稱"
+          url: "服務鏈結"
+          delete: "刪除"
+          more: "對於常見嘅共享服務，睇睇<a href='http://theoldreader.uservoice.com/knowledgebase/articles/294010' target='_blank'>呢篇文章。</a>"
+    readlater:
+      usage:
+        title: "Usage"
+        note: "鏈結到該稍後閱讀服務，當你標記%{star}時會傳送到呢度"
+        star: "★ 星號"
+      pocket:
+        title: "Pocket 整合"
+        description: "<a href='http://getpocket.com/'>Pocket</a> (以前叫Read It Later) 喺個方便嘅應用，讓你可以整合、分類同埋標籤啲內容，讓你可以稍後去睇。"
+        connect: "鏈結到Pocket"
+        disconnect: "取消鏈結"
+        account: "你嘅帳號: <strong>%{username}</strong>"
+      readability:
+        title: "Readability 整合"
+        description: "<a href='http://www.readability.com/'>Readability</a> 喺一個免費嘅閱讀平臺。佢嘅目的喺提供一個無論你喺邊度都可以享有偉大嘅閱讀體驗。並提供一個系統畀讀者連接到佢哋鍾意嘅作家度。"
+        connect: "鏈結到Readability"
+        disconnect: "取消鏈結"
+        account: "你的帳號: <strong>%{username}</strong>"
+      instapaper:
+        title: "Instapaper 整合"
+        description: "<a href='http://www.instapaper.com/'>Instapaper</a> 打開網頁內容 - 文章、故事、帖子、視頻，甚至乎喺長篇嘅電子郵件。佢會讓你有個偉大的閱讀體驗：隨時隨地都可以享受閱讀！"
+        connect: "Connect to Instapaper"
+        disconnect: "取消鏈結"
+        account: "你嘅帳號: <strong>%{username}</strong>"
+  import:
+    title: "匯入"
+    alert: "<b>請輸入你嘅Google帳號同密碼以從Google Reader度匯入。</b><br />我哋唔會儲存你嘅資料。賬戶信息僅用喺獲取您嘅訂閱源列表。"
+    opml: "<b>選擇OPML文件</b><br />你可以從Google Reader或其他RSS Reader當中中獲得佢。<br />請使用類似<b>subscriptions.xml</b>咁樣嘅OPML文件，從你嘅存檔之中。"
+    email: "電郵地址"
+    password: "密碼"
+    import: "匯入"
+    started: "匯入訂閱源喺好耗費系統資源嘅，因此我哋限制同一時間內匯入程序嘅運行數量。而家所有嘅匯入程序都好忙碌，所以你嘅匯入已經畀放到匯入隊列當中。"
+    queued: "感謝你上傳OPML文件。遲少少我哋就會匯入你嘅訂閱源。"
+    queued_notice: "呢度有 <strong>%{count}</strong> 個用戶喺你嘅隊列前面。"
+    processing: "你嘅訂閱源正在背景上載緊。"
+    error: "出咗啲問題"
+    opml_empty: "OPML文件唔啱或佢嘅內容喺空白嘅。"
+    cancel: "取消匯入"
+  profile:
+    follow: "追隨"
+    unfollow: "取消追隨"
+    unfollow_confirm: "你真喺要取消追隨嗎？你共享或讚咗嘅將會被刪除。"
+    thats_you: "呢個喺你！"
+    following:
+      one: "追隨咗<strong>%{count}</strong>個用戶"
+      few: "追隨咗<strong>%{count}</strong>個用戶"
+      many: "追隨咗<strong>%{count}</strong>個用戶"
+      other: "追隨咗<strong>%{count}</strong>個用戶"
+    followers:
+      one: "有 <strong>%{count}</strong> 個用戶追隨咗你"
+      few: "有 <strong>%{count}</strong> 個用戶追隨咗你"
+      many: "有 <strong>%{count}</strong> 個用戶追隨咗你"
+      other: "有 <strong>%{count}</strong> 個用戶追隨咗你"
+    me_following: "<strong>%{count}</strong>個用戶喺度追隨你"
+    my_followers: "<strong>%{count}</strong>跟隨者"
+    posts: "共享文章"
+    your_profile: "你的個人資料"
+    facebook: "Facebook (%{name})"
+    new: "新"
+    new_followers:
+      one: "%{count}個新的追隨者"
+      few: "%{count}個新的追隨者"
+      many: "%{count}個新的追隨者"
+      other: "%{count}個新的追隨者"
+    rss: "在The Old Reader 已共享了%{name}個項目"
+  friends:
+    follow: "Follow your friends who use The Old Reader"
+    found:
+      one: "Found %{count} user"
+      few: "Found %{count} users"
+      many: "Found %{count} users"
+      other: "Found %{count} users"
+    facebook: "Login with Facebook"
+    google: "Login with Google"
+  notifier:
+    followed:
+      subject: "%{name} has followed you"
+      body: |
+        Hello, %{followed}!
+
+        %{name} is now following you. Nice!
+        See profile at %{profile}.
+
+        --
+        The Old Reader robot.
+        You can always unsubscribe at your settings page.
+        %{host}
+    import:
+      subject: "Your feeds are ready, hooray!"
+      body: |
+        Hello %{name},
+
+        We are happy to inform you that we have finished importing your subscriptions.
+        Feeds you imported should now be available at %{host}.
+        Thank you for using The Old Reader.
+
+        --
+        The Old Reader robot.
+        %{host}
+    confirmation:
+      body: |
+        Welcome %{name},
+
+        You can confirm your account email using the link below:
+        %{link}
+
+        --
+        The Old Reader robot.
+        %{host}
+    password:
+      body: |
+        Hello %{name},
+
+        Someone has requested a link to change your password, here it is:
+        %{link}
+
+        If you have not requested this, please ignore this email.
+        Your password will not get changed until you access the link above.
+
+        --
+        The Old Reader robot.
+        %{host}
+  shortcuts:
+    header: "Keyboard Shortcuts"
+    note: "*Chrome, Safari, Opera only"
+    pages:
+      title: "Navigate between pages"
+      body: |
+        shift-n, shift-j: next subscription or folder
+        shift-p, shift-k: previous subscription or folder
+        shift-x: collapse selected folder
+        shift-o: open selected subscription or folder
+        shift-c: collapse all folders
+        shift-e: expand all folders
+        g then h: go to home
+        g then a: go to all items
+        g then f: go to starred
+        g then l: go to liked
+        g then s: go to shared
+        g then t: go to trending
+        g then c: go to commented
+        g then p: go to following
+    other:
+      title: "Other shortcuts"
+      body: |
+        r: refresh current page
+        /: focus the search field
+        a: add subscription
+        ? or h: show this window
+    posts:
+      title: "Shortcuts for posts"
+      body: |
+        space: scroll down
+        shift+space: scroll up
+        shift+a: mark all as read
+        j, n: next post
+        k, p: previous post
+        o, v: open post in a new tab
+        b: open post in a background tab*
+        x: toggle post (list view)
+        f: star a post
+        s: share a post
+        m: read/unread a post
+        l: mark post as liked
+        c: scroll to comments and open the form
+        1: switch to full view
+        2: switch to list view
+  alerts:
+    common: "Request to the server failed, please try again later"
+    posts: "Could not load posts"
+  page_content:
+    apps:
+      api:
+        title: "API"
+        pre_link: "We have implemented a GoogleReader-like mobile API that allows anyone to create a mobile app working with The Old Reader. The API is documented in "
+        link: "a separate github repository"
+        post_link: ". Please drop us a note if you create an app that works with The Old Reader."
+      apps:
+        title: "Mobile and desktop apps"
+        p1: "Please note that apps use password authentication, so you should configure yourself a password on the Settings page before using any of the apps."
+      bookmarklets:
+        title: "Bookmarklets"
+        description: "Drag any of this to your bookmarks"
+        advanced: "Set up and use advanced bookmarklets"
+        subscribe: "Subscribe"
+        tornexto: "Bookmarklet to go to next item in a folder"
+        tornexto_author: "by Chas. J. Owens"
+        sidebar: "Toggle sidebar"
+        sidebar_author: "by Chas. J. Owens"
+      extensions:
+        title: "Browser extensions"
+        p1: "There is a number of browser extensions that make tracking your unread items easier."
+        source_code: "source code"
+        chrome: "Google Chrome extension"
+        chrome_author: "by Anton Tolchanov"
+        chromeapp: "Google Chrome app"
+        chromeapp_author: "by Enrico Bacis"
+        safari: "Safari extension"
+        safari_author: "by Dmitry Kranoukhov"
+        opera: "Opera extension"
+        opera_author: "by Lazare Inepologlou"
+        firefox: "Firefox addon"
+        firefox_author: "by Tomek Wasiak"
+    community:
+      title: "Community resources"
+      p1: "We are extremely happy to have a loyal community of users who constantly help us move the project forward. Here are some links to the resources created and supported by our community."
+      translations:
+        title: "Translations"
+        pre_link: "The Old Reader has been translated to many languages. We keep translations in a "
+        link: "separate public github repo"
+        post_link: " so that anyone could contribute."
+      themes:
+        title: "Unofficial themes"
+        pre_link: "Some users created userstyles that change the way The Old Reader looks in your browser. There is no guarantee that these styles will always work and will not break the site for you, but if you are courageous enough to try, they are available at "
+        post_link: "."
+      requests:
+        title: "Feature requests"
+        pre_link: "You can vote for feature requests and suggest new ones on "
+        link: "our uservoice page"
+        post_link: ". Please search for existing requests before creating a new one, most probably somebody suggested your idea before. We do not moderate the uservoice page, so when you create a duplicate you actually decrease the chances of it getting to the top, because two requests will compete with each other for user votes."
+      forums:
+        title: "Community forums"
+        pre_link: "We have created "
+        link: "a forum on yuku.com"
+        post_link: " for our users to communicate. Feel free to join it and ask for assistance, discuss tweaks, and share your thoughts."
+    donate:
+      title: "Donate"
+      p1: "Running an RSS reader requires quite a lot of resources. This might seem like a simple site, but we have to refresh several million of feeds, some as often as every 5 minutes. Our server cost is pretty high, and we would never be able to afford it without help from our awesome users."
+      p2: "There are several ways you can help us financially and keep the project alive:"
+      flattr:
+        pre_link: "Use "
+        link1: "Flattr"
+        inbetween: ". It is a simple way to give money to authors or services you like. You can either send us a fixed amount of money, or press the “flattr” button, and then your monthly budget would be distributed among us and other projects you helped during a given month. You can also subscribe to "
+        link2: "our account in Flattr"
+        post_link: " which will make you \"flattr\" us automatically every month."
+      bitcoins: "For all the privacy-concerned folks, we haz bitcoins"
+      note: "Please note that we are not registered as a charity, so any donations you send to us will not probably be tax-deductable."
+      thanks: "We appreciate your help! So does this kitten:"
+    tour:
+      title: "The Old Reader 101"
+      add_feeds:
+        title: "Add feeds"
+        p1: "Your new The Old Reader account is shipped empty, so the first thing you should do is add some feeds to read."
+        img1: "Use 'Add a subscription' button to subscribe to a feed. If you enter a web page URL rather than direct feed URL, we will add first RSS feed from that page automatically."
+        img2: "If you are migrating from Google Reader or any other RSS software that can export subscriptions to OPML file, you can use the 'Import' feature to add all your feeds.  We will even migrate all your feed folders to ensure that you feel yourself at home immediately."
+      organize:
+        title: "Organize feeds"
+        img1: "You can drag & drop feeds and folders to change their position. Creating a new feed folder is as easy as dragging a feed to an empty space below your last folder. Empty folders are removed automatically."
+        img2: "Simply double-click on a feed or a folder to rename it."
+        img2_p2: "It's not possible to rename the default folder ('Subscriptions'), but you can move all your feeds out of it to other folders, and it will disappear completely."
+      read:
+        title: "Read posts"
+        img1: "Choose what you'd like to read from the menu. You can click on a folder to read all feeds that the folder contains."
+        img2: "Navigation menu allows you to go to the next or previous post with a single click. You can also switch to 'List view' that collapses all posts, lets you glimpse through titles and expand only those articles you are interested in."
+        img3: "You can also use keyboard shortcuts to navigate. Press '?' or 'h' to see the list."
+        img4_p1: "There are action buttons below each post. If you hit 'Like' your name will appear in the list of users who liked that post. The post will also go to your 'Liked' folder."
+        img4_p2: "If you choose to share the post, all your contacts will immediately see it. You can also post your shares to your Facebook timeline (visit Settings to enable that)."
+      discuss:
+        title: "Discuss posts"
+        img1: "It's no fun reading RSS feeds alone. Go to 'Find Friends' page to see who among your Facebook friends or Google contacts is using The Old Reader. You can also look for your friends by name."
+        img2: "All posts that you have shared are in the 'Shared' folder. Items that your friends have shared are in the 'Following' folder. As usual, you can either read the whole folder or choose a specific username to see all posts shared by that user."
+        img3: "You can comment on any post shared by your friends — just hit the 'Comment' button and join the discussion."
+      tips:
+        title: "Tips & Tricks"
+        p1: "To subscribe to new feeds with a single click, configure 'http://theoldreader.com/feeds/subscribe?url=%s' in your RSS feed handler or extension;"
+        p2_pre_link: "If you use Firefox, just "
+        p2_link: "press here"
+        p2_post_link: " to add The Old Reader as your RSS feed handler."
+      finally:
+        title: "Any questions?"
+        pre_link: "Please take a look at our "
+        link1: "knowledge base"
+        inbetween: " and feel free to ask for assistance at the "
+        link2: "community forums"
+        post_link: " if something is not clear."
+  accounts:
+    notification:
+      modal:
+        title: "Important news from The Old Reader"
+        dismiss_button: "Close"
+      introduction: "Hello %{display_name},"
+      notification_text: |
+        <p>The Old Reader is adding new paid account plans to help fund the maintenance and development of this service.
+        The new paid plans will offer the following benefits:
+        <ul>
+          %{summary}
+        </ul></p>
+        <p>We're working diligently to make this the best RSS reader on the web and hope that you'll consider upgrading
+        to the premium version for only $%{price} per month (yearly discounts available).</p>
+        <p><strong>A free plan will also be available for users who have less than %{free_limit} subscriptions.</strong> While the free
+        version does not include all the premium features, you can rest assured that all of the great features that are
+        available today will be available going forward (and we'll add more free features along the way).</p>
+        %{limit_specific_message}
+        <p>Please <a href='http://blog.theoldreader.com/post/76417559063'>read our blog post</a> for more information on the change.</p>
+      over_limit_message: |
+        <p>We'll keep things as they are for you for a couple weeks so you can take your time to decide. After these two
+        weeks, you can upgrade to a premium version, or remove subscriptions to qualify for the free plan. You currrently
+        have <strong>%{current_count}</strong> subscriptions.</p>
+      under_limit_message: |
+        </p>Since you have less than %{free_limit} feeds, you qualify for a free account.</p>
+      tos: "By dismissing this message and continuing to use The Old Reader, you are agreeing to our <a href='%{tos}' target='_blank'>Terms Of Service</a> and <a href='%{privacy}' target='_blank'>Privacy Policy</a>"
+      closing: |
+        <p>Visit your <a href="%{manage_url}">account page</a> to sign up for a premium plan.</p>
+        <p>Thank you for your continued support,</p>
+        <p>The Old Reader Team</p>
+    limits:
+      change: "upgrade to premium"
+      subscribe: "Feed was not added. You already have %{current} subscriptions, your limit is %{limit}. You should %{change}."
+      import_full: "Your import was not added. You already have %{current} subscriptions, your limit is %{limit}. You might want to increase by %{change} and re-import again."
+      import_partial: "Your import was added, but we will process only first %{avail} subscriptions of %{total}. You already have %{current} subscriptions, your limit is %{limit}. You might want to increase by %{change} and re-import again."
+      status: "You are currently using <strong>%{current}</strong> of the <strong>%{limit}</strong> subscriptions available for your plan."
+      should_upgrade: "%{status} You should consider an %{change}"
+      must_upgrade: "You must upgrade to add more subscriptions."
+      inactive: "You have more subscriptions than your plan allows, so we've stopped fetching new posts. You can %{change}"
+      upgrade_title: "More of a great thing with The Old Reader Premium"
+    trial:
+      try: "Try FREE for 14 Days"
+      created: "Your free trial has been created."
+      expiration: "Your free trial will expire on"
+      expiration_desc: "Your free trial will expire in %{dist}. You can %{change} or %{extend}"
+      extend: "extend your trial"
+      extended: "Your free trial has been extended."
+      expired: "Your free trial has expired. You can %{change} or %{extend}"
+      expired_over_limit: "Your free trial has expired and you are over the free account limit, so we've stopped fetching new posts. You can %{change} or %{extend}"
+    card:
+      name: "Name on Card"
+      number: "Card Number"
+      code: "Security Code (CVC)"
+      expiration: "Card Expiration"
+      on_file: "Your current card"
+      status:
+        payment_failed: "payment failed"
+      status_desc:
+        payment_failed: "Your current credit card could not be charged. Go to <a href='%{account_url}'>accounts</a> to update your payment information."
+      paypal: "Paypal Express Checkout"
+    plan: "Selected Plan"
+    plans:
+      monthly_description: "$%{price} per month"
+      yearly_description: "$%{price} per year"
+      summary_title: "Premium Account Features:"
+      summary: |
+        <li>Full-text search</li>
+        <li>Faster feed refresh times</li>
+        <li>Up to <u>%{subscriptions}</u> Subscriptions *</li>
+        <li><u>6 months</u> of post storage</li>
+        <li>Instapaper and Readability integration</li>
+        <li>Early access to new features</li>
+      other: "Other plan options"
+      subscriptions: "Up to %{subscriptions} feeds"
+      bigger_plans: "Larger plans are available"
+      paypal_description: "The Old Reader Premium %{frequency} subscription for up to %{subscriptions} feeds"
+    payments:
+      errors:
+        missing_name: "Please enter the name of the cardholder as it appears on the card."
+        incorrect_number: "The card number is incorrect."
+        invalid_number: "The card number is not a valid credit card number."
+        invalid_expiry: "The card's expiration is invalid."
+        invalid_expiry_month: "The card's expiration month is invalid."
+        invalid_expiry_year: "The card's expiration year is invalid."
+        invalid_cvc: "The card's security code is invalid."
+        expired_card: "The card has expired."
+        incorrect_cvc: "The card's security code is incorrect."
+        incorrect_zip: "The card's zip code failed validation."
+        card_declined: "The card was declined."
+        missing: "There is no card on a customer that is being charged."
+        processing_error: "An error occurred while processing your payment."
+      history_title: "Payment History"
+      date_column: "Date"
+      amount_column: "Amount (USD)"
+      next_payment: "Next payment date"
+      info_unavailable: "Payment information is unavailable"
+      account_pending: "Payment pending"
+      current_info_title: "Current Paid Account Information"
+      current_payment_method: "Payment Method"
+      current_pricing_plan: "Pricing Plan"
+      current_subscription_level: "Subscription Level"
+      paypal_transaction_cancelled: "Paypal checkout cancelled"
+      paypal_change_plan: "To change your plan for Paypal Express Checkout, contact <a href='mailto:support@theoldreader.com'>support</a>."
+      credit_card: "Credit Card"
+      paypal_express: "Paypal Express Checkout"
+      paypal_confirm_notice: "By clicking the Update account button below, your authorized recurring payment of %{price} will be initiated at Paypal and your Old Reader Premium account will be created."
+      paypal_confirm_cancel: "cancel"
+      view_receipt: 'View Receipt'
+      paypal_header: 'Pay with PayPal'
+      cc_header: 'Pay with credit or debit card'
+      cancelled_title: 'Recurring Payment Cancelled'
+      cancelled_line_1: 'Your recurring payment has been cancelled. You are paid through <b>%{expires_date}</b> and your premium account will remain active until that time.'
+      cancelled_line_2: 'Fill out the payment information below to start a new recurring payment. <a href="mailto:support@theoldreader.com">Contact us</a> if you need any assistance or have any questions.'
+      need_help: "Need Help? Email us at"
+    tos: "I agree with <a href='%{tos}' target='_blank'>Terms Of Service</a> and <a href='%{privacy}' target='_blank'>Privacy Policy</a>"
+    tos_error: "Please accept our Terms Of Service and Privacy Policy"
+    stripe: "Payment is handled securely through <a href='http://stripe.com' target='_blank'>Stripe</a>."
+    submit: "Update account"
+    cancel: "Cancel My Payments"
+    cancel_header: "Cancel Payments"
+    cancel_info: "Cancelling will end your recurring payments. Your premium account will continue until the end of your current payment period on <b>%{expires_date}</b>."
+    cancel_pending_info: "You cannot cancel your payments while a payment is pending."
+    cancel_confirm: "Are you sure you want to cancel your payments?"
+    successful_create: "Account created successfully"
+    successful_update: "Account updated successfully"
+    successful_destroy: "Payment cancelled successfully"
+    failed_destroy: "Unable to cancel payments"
+    title: "Premium Account"
+    paypal_title: "Confirm Paypal Purchase"
+    form_title: "Payment Information"
+    emails:
+      unsubscribe: "To unsubscribe from all future emails, respond to this email with the text UNSUBSCRIBE"
+      payment_failed:
+        subject: "The Old Reader Payment Failed"
+        body: |
+          <p>Hello %{name},</p>
+          <p>An attempt to charge your credit card for your subscription to our premium service failed. Please update your
+          credit card information on the <a href="%{manage_url}">accounts page</a> as soon as possible. Further
+          payment failures will result in the removal of your paid account.</p>
+          <p>Thank you,<br />The Old Reader Team<br /><a href="mailto:support@theoldreader.com">support@theoldreader.com</a></p>
+      almost_inactive:
+        subject: "Keep your Old Reader account active!"
+        body: |
+          <p>Hello %{name},</p>
+          <p>After %{inactive_count} days of inactivity, The Old Reader removes your unread items to make space for the users
+          who are actively using the service. Can you believe it has been that long since we've seen you?</p>
+          <p>To make sure you don't miss anything, all you have to do is sign in to The Old Reader.
+          You can also check out what's new while you're there!</p>
+          <p>Thank you,<br />The Old Reader Team<br /><a href="mailto:support@theoldreader.com">support@theoldreader.com</a></p>
+      almost_expired:
+        subject: "Your Old Reader Premium account is about to expire"
+        body: |
+          <p>Hello %{name},</p>
+          <p>Your Old Reader Premium account is about to expire. Visit your <a href="%{manage_url}">accounts page</a> to begin a new
+          premium membership.</p
+          <p>Don't miss out on all the great premium features:
+          <ul>
+            %{summary}
+          </ul></p>
+          <p>Thank you,<br />The Old Reader Team<br /><a href="mailto:support@theoldreader.com">support@theoldreader.com</a></p>
+      receipt:
+        subject: "The Old Reader Payment Receipt"
+        hi: "Hello"
+        info: "This is a receipt of payment for your Old Reader premium account subscription."
+        invoice: "Invoice"
+        description: "Description"
+        user: "User"
+        amount: "Amount: USD"
+        thanks: "Thank You"
+        questions: "Please send any questions to"
