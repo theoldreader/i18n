@@ -653,7 +653,7 @@ en:
         expired_card: "呢張卡已經過期。"
         incorrect_cvc: "呢張卡嘅安全碼(CVC)喺錯誤嘅。"
         incorrect_zip: "ZIP碼喺錯誤嘅。"
-        card_declined: "呢張卡卡已被拒絕。"
+        card_declined: "呢張卡已被拒絕。"
         missing: "呢度冇用戶嘅卡可以用與增值。"
       history_title: "付款記錄"
       date_column: "日期"
