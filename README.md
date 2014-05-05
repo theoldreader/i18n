@@ -35,6 +35,8 @@ Italiano: [ggimpa](https://github.com/ggimpa), [luca74](https://github.com/luca7
 
 正體中文: [lenchan139](https://github.com/lenchan139)
 
+粵語: [lenchan139](https://github.com/lenchan139)
+
 Deutsch: [wuhup](https://github.com/wuhup), [tehabe](https://github.com/tehabe), [nlsbshtr](https://github.com/nlsbshtr)
 
 Svenska: [alemacgo](https://github.com/alemacgo), [virkot](https://github.com/virkot), [Tobbe](https://github.com/Tobbe), [kokarn](https://github.com/kokarn)
@@ -54,5 +56,3 @@ Norsk (bokmål): [ircubic](https://github.com/ircubic)
 Nederlands: [gvmelle](https://github.com/gvmelle)
 
 فارسی: [martouss](https://github.com/martouss)
-
-粵語: [lenchan139](https://github.com/lenchan139)
