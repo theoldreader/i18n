@@ -19,7 +19,7 @@ English: [knyar](https://github.com/knyar), [krasnoukhov](https://github.com/kra
 
 Українська: [zemlanin](https://github.com/zemlanin)
 
-Português: [eduardomps](https://github.com/eduardomps), [annyella](https://github.com/annyella) 
+Português: [eduardomps](https://github.com/eduardomps), [annyella](https://github.com/annyella)
 
 Español: [marevalo](https://github.com/marevalo)
 
@@ -54,3 +54,5 @@ Norsk (bokmål): [ircubic](https://github.com/ircubic)
 Nederlands: [gvmelle](https://github.com/gvmelle)
 
 فارسی: [martouss](https://github.com/martouss)
+
+粵語: [lenchan139](https://github.com/lenchan139)
