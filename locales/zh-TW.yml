@@ -606,7 +606,7 @@ zh-TW:
       change: "升級至高級版本"
       subscribe: "訂閱源無法新增。你已經有了 %{current}個訂閱源。你的訂閱源上限是%{limit}。你需要 %{change}。"
       import_full: "你的匯入並沒有被新增。你已經有%{current}個訂閱源。你的訂閱源上限是%{limit}。你可能需要通過增加 %{change}，然後再次嘗試匯入。"
-      import_partial: "你的匯入已經增加了。但我們只會處理 %{total}個當中%{avail}個訂閱源。你已經有 %{current}訂閱源，而你的訂閱源上限是%{limit}。你可能需要通過增加%{change}，乳癌後再次嘗試匯入。"
+      import_partial: "你的匯入已經增加了。但我們只會處理 %{total}個當中%{avail}個訂閱源。你已經有 %{current}訂閱源，而你的訂閱源上限是%{limit}。你可能需要通過增加%{change}，然後再次嘗試匯入。"
       status: "你正在使用了 <strong>%{limit}</strong>個當中的<strong>%{current}</strong>個訂閱源，由你的付費計劃所提供。"
       should_upgrade: "%{status} 你應該考慮 %{change}"
       must_upgrade: "你必須增加更多的訂閱源"

@@ -1,0 +1,698 @@
+en:
+  # Devise
+  errors:
+    messages:
+      expired: "請求已過期，請再次發出請求"
+      not_found: "搵唔到目標"
+      already_confirmed: "驗證成功， 請再次登入。"
+      not_locked: "冇畀鎖定"
+      not_saved:
+        one: "1個錯誤 %{resource} 搞到無法儲存:"
+        few: "%{count} 個錯誤 %{resource} 搞到無法儲存:"
+        many: "%{count} 個錯誤 %{resource} 搞到無法儲存:"
+        other: "%{count} 個錯誤 %{resource} 搞到無法儲存:"
+
+  devise:
+    failure:
+      already_authenticated: "你已經登入咗。"
+      unauthenticated: "你要先登入先可以繼續呢個操作"
+      unconfirmed: "我哋已經寄咗個驗證信去咗你個郵箱，去Check下啦^^"
+      locked: "你個帳號畀起鎖咗"
+      invalid: "你輸入嘅嗰帳號或密碼唔啱"
+      invalid_token: "冇呢嗰身份驗證令牌，或者佢已經失效咗。"
+      timeout: "呢個進程已經過期，請重新登入。"
+      inactive: "你個帳號仲未被激活。"
+    sessions:
+      signed_in: "登入成功。"
+      signed_out: "登出成功。"
+    passwords:
+      send_instructions: "你將會收到封電郵，呢封信會講畀你聽點樣重設嗰密碼。"
+      updated: "密碼更改成功！你家下可以登入啦。"
+      updated_not_active: "密碼更改成功。"
+      send_paranoid_instructions: "如果你嘅電郵信箱喺真實嘅，你將會收到封電郵，呢封信當中有回復密碼用嘅鏈結。"
+      confirmations:
+      send_instructions: "你將會收到封信件，呢封信會話畀你知點樣驗證你嗰帳號。"
+      send_paranoid_instructions: "如果你嘅電郵信箱喺真實嘅，你將會收到封電郵，呢封信會話畀你知點樣驗證你嗰帳號。"
+      confirmed: "驗證成功！你嗰帳號而家可以登入啦。"
+    registrations:
+      signed_up: "多謝你嘅註冊！你已成功註冊了！"
+      signed_up_but_unconfirmed: "一封包含咗驗證鏈結嘅電郵已經寄咗去你嘅電郵信箱。請點擊呢個鏈結以激活你嘅帳號。"
+      signed_up_but_inactive: "登入失敗。你已成功註冊，但喺你並未激活你的帳號。"
+      signed_up_but_locked: "登入失敗。您已成功註冊，但喺你嘅帳號已被鎖定。"
+      updated: "已更新好咗你嘅帳號資訊。"
+      update_needs_confirmation: "帳號資訊更新成功！但喺我哋需要驗證你新嘅電郵信箱。請檢查你嘅電郵信箱並點擊驗證用嘅鏈結。"
+      destroyed: "再見！你嘅帳號已刪除，但我哋希望可以有天可以再爲你服務。"
+      disabled: "對唔住！我哋停咗嘅The Old Reader嘅註冊，請睇我哋嘅Blog瞭解詳情: %{redirect}"
+      friend_notice: "我們停咗The Old Reader嘅用戶註冊，並且我哋會令網站私人化。你嘅帳號會自動被傳送至另一私人網站。請睇睇我哋嘅Blog瞭解詳情: %{redirect}"
+      non_friend_notice: "我們停咗The Old Reader嘅用戶註冊，並且我哋會令網站私人化。因此，你嘅帳號不會被傳送到其他私人網站，所以請將你嘅訂閱源輸出爲OPML文件並且尋找替代品。詳情請參閱我哋嘅Blog: %{redirect}"
+    unlocks:
+      send_instructions: "你將會收到封信話畀你知點樣去解鎖你嘅帳號。"
+      unlocked: "你嘅帳號已經解鎖成功，請登入以繼續。"
+      send_paranoid_instructions: "如果你嘅帳號是存在嘅，你將會收到封電郵，話畀你知點樣去解鎖你嗰帳號。"
+    omniauth:
+      success: "成功畀咗授權 %{kind} 帳號！"
+      failure: "授權%{kind} 帳號失敗，原因: %{reason}."
+    mailer:
+      confirmation_instructions:
+        subject: "驗證指令"
+      reset_password_instructions:
+        subject: "重設密碼指令"
+      unlock_instructions:
+        subject: "解鎖指令"
+
+  # Reader
+  app: "The Old Reader"
+  eggs: "我哋最愛♥喵咪嘎啦！"
+  title: "The Old Reader"
+  meta:
+    description: "呢個喺天上地下、史上最強嘅RSS閱讀器。輕點以匯入你的訂閱源、尋找你嘅朋友並且共享一切你想共享嘅！"
+    keywords: "the old reader"
+  landing:
+    topmenu:
+      -
+        :title: "Twitter"
+        :url: "https://twitter.com/#!/theoldreader"
+      -
+        :title: "Facebook"
+        :url: "https://www.facebook.com/theoldreader"
+      -
+        :title: "Blog"
+        :url: "http://blog.theoldreader.com/"
+      -
+        :title: "Contact us"
+        :url: "http://blog.theoldreader.com/about"
+    sign_in:
+      title: "登入:"
+      google: "Google"
+      facebook: "Facebook"
+      or: "或"
+      login: "登入"
+      register: "註冊"
+      password: "唔記得咗個密碼？"
+      change_password: "改密碼"
+      tos: "如果你註冊或登入咗，將視作你同意咗我哋嘅<a href='%{tos}' target='_blank'>服務協議</a>同埋<a href='%{privacy}' target='_blank'>隱私權政策</a>。"
+      social_register: "你可以用%{google} 或 %{facebook} 帳號來登入。"
+    welcome:
+      - "歡迎嚟到<span class='highlight'>無與倫比嘅社交型RSS閱讀器</span>。閱讀、共享同埋討論，唔會再錯過任何嘢！"
+      - "登入並開始使用The Old Reader只需輕輕一點！如果你喺個怕醜嘅人，可以先睇睇我哋嘅 %tour% 或者偷偷地望下 %trending%"
+      tour: "唔知點用？"
+    trending: "今日趨勢"
+    qa:
+      title0: "呢個有咩用噶？"
+      text0: "The Old Reader可以讓你訂閱你鍾意嘅網站，讓你保持住對佢哋嘅關注；共享你所喜愛嘅文章，並且同佢哋一齊討論；寄送個鏈結到社交網站、儲存到Pocket、 Instapaper 或者 Readability。"
+      title1: "我可以匯入我嘅訂閱源（OPML檔案）嗎？"
+      text1: "當然可以啦！匯入你來自其他服務嘅OPML檔案喺極之容易嘅事！"
+      title2: "我點樣搵到我啲朋友？"
+      text2: "透過你嘅Facebook或者Google帳號！你將可以睇到邊個喺度:) (當然，我哋喺唔會儲存你嘅Facebook或者Google帳號嘅資訊)。"
+      title3: "你們有冇畀流動裝置用嘅應用程式？"
+      text3_pre_link: "當然有啦！我哋嘅開發者社區已經開發咗幾乎所有平台嘅應用程式！我哋有美妙嘅"
+      text3_link1: "API"
+      text3_between_links: " 我哋喺畀任何人爲The Old Reader開發應用程式，睇睇我哋嘅 "
+      text3_link2: "應用程式頁面"
+      text3_post_link: "睇下所有可以用嘅應用程式。"
+      title4: "你哋會唔會發送啲垃圾信息到我哋嘅社交網站或者利用鏈結入侵嗎？"
+      text4: "當然不會！我們認爲呢個唔喺件啱嘅事。你擁有完整嘅控制權，控制你想共享點乜到社交網站。當你共享的嘅時候，你嘅朋友會獲得直接鏈結到文章嘅地址，而唔喺我們嘅網站。"
+      title5: "呢嗰服務要幾多錢？"
+      text5: "The Old Reader嘅免費用戶可以最多有%{free_count}訂閱源。同時我哋提供 <u>高級版</u>，而費用喺 $%{price}/月 (如果你而家註冊只需$%{intro_price}/月) 呢度有高級版嘅特色:"
+  support: "要幫手?"
+  user:
+    profile: "個人資料"
+    logout: "登出"
+    settings: "設定"
+    account: "賬戶"
+    failure: "%{kind}
+    failure: "%{kind}帳號鏈結到其他嘅The Old Reader帳號。請取消其他賬戶同The Old Reader嘅鏈結並重新操作。"
+    becomes_active_notice: "Hey，歡迎你返嚟！我哋有一段時間冇見到你啦，需要啲時間重建你嘅閱讀列表。但喺唔需要擔心，我哋會一直收集你嘅訂閱，你應該好快就可以睇到你嘅未讀項目噶啦！。"
+  feeds:
+    no_feeds:
+      text: "你冇任何訂閱。你可以%{subscribe}啲網站 (唔知點用？ <a href='http://blog.theoldreader.com/rss' class='feed-subscribe'>我們嘅Blog</a>?) 或者 %{import} 匯出你嘅訂閱源。<br />如果你想知道更多資訊， %{tour}。"
+      subscribe: "訂閱"
+      import: "匯入"
+      tour: "睇睇點用"
+    no_posts: "呢度已經冇任何文章啦！"
+    no_posts_filler: "下面已經冇任何文章，大概因爲你已經讀完曬啦。"
+    subscribe: "訂閱"
+    add_subscription: "加個訂閱來源"
+    add: "新增"
+    url: "URL"
+    unavailable_url: "無法從訂閱來源獲取"
+    forbidden_url: "無法從訂閱源獲取：訪問被拒絕。"
+    invalid_url: "訂閱源無法驗證，驗證結果： %{link}"
+    empty_url: "你冇提供網址。"
+    loading: "少女很努力咁爲你載入緊嗰內容……"
+    default_folder: "訂閱"
+    default_folder: "訂閱"
+    feeds: "訂閱源"
+    feeds_count:
+      one: "訂閱源"
+      few: "訂閱源"
+      many: "訂閱源"
+      other: "訂閱源"
+    posts_count:
+      one: "文章"
+      few: "文章"
+      many: "文章"
+      other: "文章"
+    your_posts: "你有<em>%{unread}</em>未讀%{posts}"
+    refresh: "重新載入"
+    unsubscribe: "取消呢個訂閱來源"
+    unsubscribe_confirm_feed: "你真喺要取消訂閱？你已經共享或者已Like嘅文章不會被刪除。"
+    unsubscribe_confirm_folder: "你真喺要取消呢嗰文件夾嘅所有訂閱？你已經共享或者已Like咗嘅文章不會被刪除。"
+    unsubscribe_confirm_folder_really: "你確定真喺要咁做？如果你點擊「OK」，所有的訂閱來源會被刪除！"
+    unsubscribe_error: "無法取消訂閱：重新載入緊，請稍後再試。"
+    ago: "前"
+    never: "永不"
+    confirm: "真喺要？"
+    mark_all_read: "將所有標記成已讀"
+    search: "搜尋"
+    search_limits: "搜尋結果只包含熱門嘅，所以我哋只能展示有限嘅搜尋結果。如果你想睇曬啲搜尋結果，請用更嚴謹嘅搜尋字。"
+    mark_read: "標記成已讀"
+    mark_unread: "標記成未讀"
+    share: "共享"
+    shared: "已共享"
+    unshare: "取消共享"
+    attach_note: "要新增一筆筆記嗎？"
+    attach: "儲存筆記"
+    comments:
+      one: "%{count}則評論"
+      few: "%{count}則評論"
+      many: "%{count}則評論"
+      other: "%{count}則評論"
+    comment: "Comment"
+    comment_text: "寫評論"
+    comment_destroy_confirm: "你真喺要刪除呢條評論嗎？"
+    comment_destroy_text: "呢條評論已被用戶刪除。"
+    post_author: "<strong>%{author}</strong>話"
+    drop_add_folder: "拖嚟呢度以新增文件夾。"
+    new_folder: "新文件夾"
+    star: "星號"
+    unstar: "收番嗰星號"
+    like: "讚"
+    unlike: "收番嗰讚"
+    send_to: "寄送至"
+    likes_count:
+      zero: "%{users}話讚"
+      one: "%{users}同另外一個用戶話讚"
+      few: "%{users}同另外%{count}個用戶話讚"
+      many: "%{users}同另外%{count}個用戶話讚"
+      other: "%{users}同另外%{count}個用戶話讚"
+    feed: "訂閱源"
+    site: "網站"
+    enclosure_url: "睇睇附件 (%{size}, %{type})"
+    pocket: "Pocket"
+    unpocket: "收番嗰Pocket"
+    pocket_error: "失敗咗！"
+  home:
+    following: "來自你朋友嘅最新嘅嘢"
+    updated: "最近有更新嘅"
+    dead: "好耐都冇更新嘅訂閱源"
+    tips:
+      title: "技巧同提示"
+      items:
+        - "'禁嗰'?'或'h'睇快捷鍵。"
+        - "拖放選單入面嘅訂閱源以重新排列或者創建新嘅訂閱來源資料夾。"
+        - "你可以連點兩下個資料夾或者嗰訂閱來源以重新命名。"
+        - "睇下我們嘅<a href='/pages/tour'>唔知點用？</a>，呢度會話你知點樣更好咁用The Old Reader。"
+  pages:
+    home: "主頁"
+    all: "所有項目"
+    starred: "已加星號"
+    liked: "已讚"
+    shared: "已共享"
+    following: "跟隨中"
+    import: "匯入"
+    search: "搜尋"
+    settings: "設定"
+    profile: "個人資料"
+    friends: "尋找朋友"
+    commented: "已評論"
+    tos: "服務協議"
+    privacy: "隱私權政策"
+    trending: "趨勢"
+    donate: "捐贈"
+    tour: "唔知點用？"
+    blog: "Blog"
+    status: "伺服器狀態"
+    community: "社區"
+    apps: "應用程式"
+    account: "帳號"
+  settings:
+    tabs:
+      main: "主要"
+      social: "社交"
+      readlater: "遲啲閱讀"
+    general: "一般"
+    name: "姓名"
+    username: "用戶名稱"
+    email: "電郵地址"
+    username_or_email: "用戶名稱/電郵地址"
+    password: "密碼"
+    password_confirmation: "再次確認密碼"
+    password_change: "更改密碼"
+    password_notice: "喺點擊儲存改變之前，你嘅新密碼唔會畀改變。"
+    token: "Token"
+    sign:
+      title: "你可以使用The Old Reader登入:"
+      google: "你嘅Google帳號"
+      google_email: "'%{email}'Google帳號"
+      facebook_name: "'%{name}' Facebook帳號"
+      username: "'%{username}'以及你嘅密碼 (使用呢嗰帳號喺任何The Old Reader嘅 %{apps} )"
+      apps: "應用程式"
+    ui:
+      title: "用戶界面"
+      click_to_scroll: "點擊一則文章之後到佢度"
+      scroll_to_read: "滾動到文章嘅時候即刻標記成已讀"
+      sidebar_unread_only: "只顯示有未讀嘅訂閱源或者資料夾"
+      locale: "語言"
+    feed_display_mode:
+      title: "訂閱源顯示模式"
+      all: "顯示所有文章"
+      unread: "只顯示未讀文章"
+    feed_list_mode:
+      title: "文章閱讀模式"
+      full: "完整瀏覽"
+      list: "只顯示標題"
+    sort_mode:
+      title: "文章顯示模式"
+      normal: "普通 (按新到舊排列文章)"
+      reverse: "反轉 (按舊到新排列文章)"
+    save: "儲存改變"
+    cancel_disabled: "你唔可以喺匯入工作執行緊嘅時候刪除你嘅帳號，請耐心等待並遲啲再嘗試。"
+    cancel_account:
+      text: "條氣唔順？你可以隨時%{export}成OPML文件同%{cancel}"
+      export: "匯出你嘅訂閱源"
+      cancel: "刪除帳號"
+      confirm: "確定？"？"
+    social:
+      notify_when_followed: "如果有人追蹤咗你，我哋會以電郵嘅方式通知你。"
+      share_timeline: "共享到Facebook。"
+      connect_share_timeline: "鏈結到Facebook以共享文章"
+      show_fb_profile: "喺個人資料嘅頁面展示你嘅Facebook鏈結"
+      sendto:
+        title: "發送到"
+        custom:
+          description: "新增你嘅共享服務"
+          tokens: "Token"
+          example: "例子"
+          title: "服務名稱"
+          url: "服務鏈結"
+          delete: "刪除"
+          more: "對於常見嘅共享服務，睇睇<a href='http://theoldreader.uservoice.com/knowledgebase/articles/294010' target='_blank'>呢篇文章。</a>"
+    readlater:
+      usage:
+        title: "Usage"
+        note: "鏈結到該稍後閱讀服務，當你標記%{star}時會傳送到呢度"
+        star: "★ 星號"
+      pocket:
+        title: "Pocket 整合"
+        description: "<a href='http://getpocket.com/'>Pocket</a> (以前叫Read It Later) 喺個方便嘅應用，讓你可以整合、分類同埋標籤啲內容，讓你可以稍後去睇。"
+        connect: "鏈結到Pocket"
+        disconnect: "取消鏈結"
+        account: "你嘅帳號: <strong>%{username}</strong>"
+      readability:
+        title: "Readability 整合"
+        description: "<a href='http://www.readability.com/'>Readability</a> 喺一個免費嘅閱讀平臺。佢嘅目的喺提供一個無論你喺邊度都可以享有偉大嘅閱讀體驗。並提供一個系統畀讀者連接到佢哋鍾意嘅作家度。"
+        connect: "鏈結到Readability"
+        disconnect: "取消鏈結"
+        account: "你的帳號: <strong>%{username}</strong>"
+      instapaper:
+        title: "Instapaper 整合"
+        description: "<a href='http://www.instapaper.com/'>Instapaper</a> 打開網頁內容 - 文章、故事、帖子、視頻，甚至乎喺長篇嘅電子郵件。佢會讓你有個偉大的閱讀體驗：隨時隨地都可以享受閱讀！"
+        connect: "Connect to Instapaper"
+        disconnect: "取消鏈結"
+        account: "你嘅帳號: <strong>%{username}</strong>"
+  import:
+    title: "匯入"
+    alert: "<b>請輸入你嘅Google帳號同密碼以從Google Reader度匯入。</b><br />我哋唔會儲存你嘅資料。賬戶信息僅用喺獲取您嘅訂閱源列表。"
+    opml: "<b>選擇OPML文件</b><br />你可以從Google Reader或其他RSS Reader當中中獲得佢。<br />請使用類似<b>subscriptions.xml</b>咁樣嘅OPML文件，從你嘅存檔之中。"
+    email: "電郵地址"
+    password: "密碼"
+    import: "匯入"
+    started: "匯入訂閱源喺好耗費系統資源嘅，因此我哋限制同一時間內匯入程序嘅運行數量。而家所有嘅匯入程序都好忙碌，所以你嘅匯入已經畀放到匯入隊列當中。"
+    queued: "感謝你上傳OPML文件。遲少少我哋就會匯入你嘅訂閱源。"
+    queued_notice: "呢度有 <strong>%{count}</strong> 個用戶喺你嘅隊列前面。"
+    processing: "你嘅訂閱源正在背景上載緊。"
+    error: "出咗啲問題"
+    opml_empty: "OPML文件唔啱或佢嘅內容喺空白嘅。"
+    cancel: "取消匯入"
+  profile:
+    follow: "追隨"
+    unfollow: "取消追隨"
+    unfollow_confirm: "你真喺要取消追隨嗎？你共享或讚咗嘅將會被刪除。"
+    thats_you: "呢個喺你！"
+    following:
+      one: "追隨咗<strong>%{count}</strong>個用戶"
+      few: "追隨咗<strong>%{count}</strong>個用戶"
+      many: "追隨咗<strong>%{count}</strong>個用戶"
+      other: "追隨咗<strong>%{count}</strong>個用戶"
+    followers:
+      one: "有 <strong>%{count}</strong> 個用戶追隨咗你"
+      few: "有 <strong>%{count}</strong> 個用戶追隨咗你"
+      many: "有 <strong>%{count}</strong> 個用戶追隨咗你"
+      other: "有 <strong>%{count}</strong> 個用戶追隨咗你"
+    me_following: "<strong>%{count}</strong>個用戶喺度追隨你"
+    my_followers: "<strong>%{count}</strong>追隨者"
+    posts: "共享文章"
+    your_profile: "你嘅個人資料"
+    facebook: "Facebook (%{name})"
+    new: "新"
+    new_followers:
+      one: "%{count}個新嘅追隨者"
+      few: "%{count}個新嘅追隨者"
+      many: "%{count}個新嘅追隨者"
+      other: "%{count}個新嘅追隨者"
+    rss: "喺The Old Reader 共享咗%{name}個項目""
+  friends:
+    follow: "追隨在The Old Reader上嘅朋友"
+    found:
+      one: "搵到 %{count}個用戶"
+      few: "搵到 %{count} 個用戶"
+      many: "搵到 %{count} 個用戶"
+      other: "搵到 %{count} 個用戶"
+    facebook: "用Facebook帳號登入"
+    google: "用Google帳號登入"
+  notifier:
+    followed:
+      subject: "%{name} 個用戶喺度追隨你"
+      body: |
+        你好， %{followed}!
+
+        %{name} 而家追隨咗你！
+        睇睇佢嘅個人資料： %{profile}.
+
+        --
+        The Old Reader 自動機械人
+        你可以喺你嘅個人資料中中隨時取消訂閱呢啲郵件。
+        %{host}
+    import:
+      subject: "你嘅訂閱源已經準備好咗，萬歲！"
+      body: |
+        你好， %{name},
+
+        我們很開心咁話畀你知我哋已經成功匯入曬你嘅訂閱源。
+        你匯入嘅訂閱可以喺 %{host} 看到。
+        多謝你使用The Old Reader
+
+        --
+        The Old Reader 自動機械人
+        %{host}
+    confirmation:
+      body: |
+        歡迎， %{name},
+
+        請點擊下面嗰鏈結以啓動你嘅帳號：
+        %{link}
+
+        --
+        The Old Reader自動機械人
+        %{host}
+    password:
+      body: |
+        你好， %{name},
+
+        有人發起咗嗰修改密碼請求，修改密碼嘅鏈結:
+        %{link}
+
+        如果呢嗰請求唔喺你發起嘅，請忽視呢則電郵。
+        喺你點擊呢嗰鏈結之前，你嘅密碼不會畀改變。
+
+        --
+        The Old Reader自動機械人
+        %{host}
+  shortcuts:
+    header: "鍵盤快捷鍵"
+    note: "*Chrome、 Safari、 Opera限定"
+    pages:
+      title: "頁面導航"
+      body: |
+        shift-n, shift-j: 下一個訂閱源或者文件夾
+        shift-p, shift-k: 上一個訂閱源或者文件夾
+        shift-x: 摺疊選定嘅文件夾
+        shift-o: 開啓選定嘅文件夾或者訂閱源
+        shift-c: 摺疊所有文件夾
+        shift-e: 展開所有文件夾
+        g then h: 返回主頁
+        g then a: 前往所有項目
+        g then f: 前往已星號
+        g then l: 前往已點讚
+        g then s: 前往已共享
+        g then t: 前往趨勢
+        g then c: 前往已評論
+        g then p: 前往已追隨
+    other:
+      title: "其他快捷鍵"
+      body: |
+        r: 重新載入網頁
+        /: 切換到搜尋欄位
+        a: 加多個訂閱來源
+        ? or h: 展示呢嗰窗口
+    posts:
+      title: "文章相關嘅快捷鍵"
+      body: |
+        space: 向下滾動
+        shift+space: 向上滾動
+        shift+a: 將所有標記成已讀
+        j, n: 下一篇
+        k, p: 上一篇
+        o, v: 喺新視窗開啓文章
+        b: 喺背景視窗開啓文章
+        x: 切換文章(列表顯示)
+        f: 加上星號
+        s: 共享文章
+        m: 標記已讀/未讀
+        l: 讚好所有文章
+        c: 滾動到評論及開啓表單
+        1: 切換到完整檢視
+        2: 切換到列表檢視
+  alerts:
+    common: "請求失敗，請稍後再試。"
+    posts: "無法載入文章"
+  page_content:
+    apps:
+      api:
+        title: "API"
+        pre_link: "我哋已經實施咗GoogleReader一樣嘅流動應用API，佢畀任何人創建一個The Old Reader嘅流動應用程序。該API喺 "
+        link: "一個GitHub上嘅Repository"
+        post_link: "。 如果你創建咗The Old Reader嘅應用請話費我哋知。"
+      apps:
+        title: "流動或桌面應用程式"
+        p1: "請注意，應用程式使用密碼認證。所以你應該喺用任何應用程式之前，應自行配置喺 「配置頁面」 上嘅密碼。"
+      bookmarklets:
+        title: "書籤工具"
+        description: "拖到去你嘅書籤欄"
+        advanced: "設置成預設嘅書籤工具"
+        subscribe: "訂閱"
+        tornexto: "畀書籤工具前往下一個資料夾。"
+        tornexto_author: "由 Chas. J. Owens 製作"
+        sidebar: "切換側欄"
+        sidebar_author: "由 Chas. J. Owens 製作"
+      extensions:
+        title: "瀏覽器擴充元件"
+        p1: "呢度有啲瀏覽器擴展元件，令你可以隨時睇睇有幾多未讀嘅項目。"
+        source_code: "原始碼"
+        chrome: "Google Chrome擴充元件"
+        chrome_author: "by Anton Tolchanov"
+        chromeapp: "Google Chrome 應用元件"
+        chromeapp_author: "by Enrico Bacis"
+        safari: "Safari 擴充元件"
+        safari_author: "by Dmitry Kranoukhov"
+        opera: "Opera 擴充元件"
+        opera_author: "by Lazare Inepologlou"
+        firefox: "Firefox 附加元件"
+        firefox_author: "by Tomek Wasiak"
+    community:
+      title: "社區資源"
+      p1: "我哋非常開心我哋有一批忠誠嘅社區用戶經常開發同推進呢嗰項目。呢度有一些鏈結喺曾經幫過我哋開發嘅用戶"
+      translations:
+        title: "翻譯"
+        pre_link: "The Old Reader已被翻譯成多種嘅語言。我哋嘅翻譯相關文件放喺 "
+        link: "獨立嘅GitHub的Repo"
+        post_link: " 畀任何人都可以作出貢獻。"
+      themes:
+        title: "非官方主題"
+        pre_link: "有啲用戶創建咗以userstyles去改變The Old Reader嘅外觀。冇人可以保證呢啲userstyles會一直能正常運作或者不會破壞網站。如果你有足夠嘅勇氣去嘗試嘅話，你可以喺 "
+        post_link: "."
+      requests:
+        title: "要求新功能"
+        pre_link: "你可以透過投票或者發起以建議我們增加新功能——"
+        link: "喺我們嘅用戶投票網頁果度"
+        post_link: "。 喺創建之前請先搜尋下有冇類似嘅投票，以緩和我們嘅用戶投票網頁。當你創建重複嘅用戶投票實際上會降低佢成功嘅機會，因爲兩個投票會分薄咗用戶投嘅票數。"
+      forums:
+        title: "社區論壇"
+        pre_link: "我們創建咗 "
+        link: "個論壇並寄存喺 yuku.com"
+        post_link: "爲咗同其他用戶有良好嘅溝通，請自由加入社區並請求協助、討論如何調整同埋共享你嘅看法。"
+    donate:
+      title: "捐贈"
+      p1: "運行一個RSS閱讀器需要勁多嘅資源。呢嗰網站睇落好簡單，但喺我哋每五分鐘就要更新過百萬個嘅訂閱源。我哋嘅服務器成本極爲高昂，我們唔可能冇各位用戶幫手噶。"
+      p2: "有幾種方法可以畀呢嗰項目生存落去："
+      flattr:
+        pre_link: "用 "
+        link1: "Flattr"
+        inbetween: "。呢嗰喺一個簡單嘅付款畀你所喜愛嘅作者或者服務商嘅方法。你可以畀我們一個固定嘅金額。或者按下「Flattr」嘅按鈕，然後每月固定捐贈畀我哋。之後，你仲可以訂閱 "
+        link2: "我哋喺Flattr嘅帳號"
+        post_link: " 咁就可以令你每月都自動咁 \"flattr\" 我哋。"
+      bitcoins: "對於關心私隱嘅人，我哋亦提供比特幣嘅捐贈："
+      note: "請注意，我哋並非註冊成慈善機構，所以你嘅捐贈有可能被徵稅。"
+      thanks: "我哋非常多謝你嘅捐贈，呢嗰小小嘅喵星人到喺好多謝你："
+    tour:
+      title: "The Old Reader 101"
+      add_feeds:
+        title: "加個訂閱來源"
+        p1: "你嘅The Old Reader預設喺空白噶，所以你要先加啲訂閱來源。"
+        img1: "使用「加個訂閱來源」來加啲訂閱來源。如果你提供嘅是網站嘅URL而非網站嘅訂閱鏈結，我哋會自動新增呢嗰網站嘅預設訂閱來源。"
+        img2: "如果您喺來自Google Reader或者任何其他嘅RSS軟件，你可以匯出訂閱來源成OPML文件，跟住你可以用「匯入」功能來匯入你所有嘅訂閱來源。我哋甚至會匯入所有嘅訂閱來源嘅資料夾，確保你有家的感覺。"
+      organize:
+        title: "組織訂閱源"
+        img1: "你可以拖放訂閱源或資料夾，以改變佢哋嘅位置。創造一個新嘅文件夾只需拖動一個訂閱來源到你嘅資料夾下方嘅空白處。空白嘅資料夾夾會被自動刪除。"
+        img2: "只需要喺訂閱源或文件夾上上雙點就可以爲佢改名。"
+        img2_p2: "呢嗰唔喺可以重新命名嘅默認資料夾（「訂閱源」），但你可以移動到其他資料夾夾，佢會完全消失。"
+      read:
+        title: "閱讀文章"
+        img1: "喺選單裏面選擇你所想閱讀嘅，你可以點擊資料夾嘅標題以閱讀該文件夾中所有訂閱來源所提供嘅文章。"
+        img2: "導航選單可以畀你只需一點就可以去到上一篇或者下一篇嘅文章。你亦可以切換成「列表顯示」並手動展開文章，畀你只瀏覽標題並且只瀏覽你有興趣嘅文章。"
+        img3: "你亦可以使用鍵盤快捷鍵瀏覽。禁「？」或者「H」瀏覽更多資訊。"
+        img4_p1: "每個文章嘅下面都有呢嗰掣。如果你鍾意嘅話，請點「讚」。如果有用戶閱讀到你篇文章，你嘅名就會顯示喺呢度，並話畀佢哋知邊個「讚」了呢篇文章。呢篇文章亦會放喺你嘅「已讚」嘅資料夾裏面。"
+        img4_p2: "如果你選擇了共享文章，你所有的聯絡人將會看到它。你也可以發表到你的Facebook頁面（你可在設定中啓用）。"
+      discuss:
+        title: "討論文章"
+        img1: "一個人閱讀喺很無聊嘅。去到「搵朋友」嘅頁面搵與你一樣使用緊The Old Reader嘅Facebook或者Google嘅聯絡人。你亦可以用名去搜尋你嘅好友。"
+        img2: "你所有共享過嘅文章將會放喺「已共享」嘅資料夾裏面。你嘅朋友可以閱讀你所共享嘅畀佢哋嘅——喺「已追隨」嘅資料夾度。像以前咁，你亦可以睇曬成個資料夾或特定用戶所共享嘅文章。"
+        img3: "你可以評論任何你的好友所共享的文章——只需點擊「寫評論」按鈕便可加入討論！"
+      tips:
+        title: "提示同技巧"
+        p1: "只需輕輕一點就可以新增訂閱源到The Old Reader！喺你嘅RSS訂閱來源處理程式或者附加元件中新增「http://theoldreader.com/feeds/subscribe?url=%s」;"
+        p2_pre_link: "如果你喺用Fireox（火狐瀏覽器）嘅話，只需輕輕 "
+        p2_link: "禁下呢到"
+        p2_post_link: " ，就可以新增到你嘅RSS訂閱來源處理程式裏果度"
+      finally:
+        title: "有任何嘅問題？"
+        pre_link: "睇睇我們嘅"
+        link1: "知識庫"
+        inbetween: " ，並隨時喺我哋嘅"
+        link2: "社區論壇"
+        post_link: " 請求協助——如果你唔太清楚當中嘅內容嘅話。"
+  accounts:
+    notification:
+      modal:
+        title: "The Old Reader嘅一啲重要消息"
+        dismiss_button: "關閉"
+      introduction: "  貴安！ %{display_name},"
+      notification_text: |
+        <p>The Old Reader新增付款計劃以幫助我哋嘅服務可以繼續開發同發展。
+        付款計劃提供以下優勢:
+        <ul>
+          %{summary}
+        </ul></p>
+        <p>我哋喺度令佢成爲網絡上最優秀嘅RSS閱讀器。並且，我們希望你會考慮升級到高級版本。而而家每月只需$%{price} 美金  (按年購買可享有折扣).</p>
+        <p><strong>免費用戶最多只可以用 %{free_limit} 個訂閱來源。</strong> 而免費版本亦不包含高級版本嘅功能。你可以放心，所有強大嘅功能可用（我哋亦都會新增更多免費版本可用嘅功能）。</p>
+        %{limit_specific_message}
+        <p>請<a href='http://blog.theoldreader.com/post/76417559063'>睇下我哋嘅Blog</a>以瞭解更多嘅改變。</p>
+      over_limit_message: |
+        <p>我們提供兩星期嘅高級版本試用以便讓你考慮買唔買高級版本好。你最多可以有<strong>%{current_count}</strong>個訂閱源。</p>
+      under_limit_message: |
+        </p>如果你會用少過 %{free_limit} 個訂閱來源， 我哋建議你用免費版本就夠啦。</p>
+      tos: "如果你冇錯過呢條消息並繼續使用The Old Reader，即喺代表你同意我們嘅<a href='%{tos}' target='_blank'>服務協議</a>同埋<a href='%{privacy}' target='_blank'>隱私權政策</a>"
+      closing: |
+        <p>去到你嘅<a href="%{manage_url}">帳號設定頁面</a>以升級到高級版本</p>
+        <p>多謝你一直以來嘅支持，</p>
+        <p>The Old Reader團隊</p>>
+    limits:
+      change: "升級至高級版本"
+      subscribe: "無法再加訂閱源。你已經有 %{current} 個訂閱源。你嘅訂閱源上限喺%{limit}。你需要 %{change}。"
+      import_full: "你嘅匯入失敗咗啦。你已經有 %{current} 個訂閱源。你嘅訂閱源上限喺%{limit}。你可能需要t透過增加 %{change}，之後再次嘗試匯入。"
+      import_partial: "你嘅匯入已經增加咗啦。但喺我哋只會處理 %{total}個當中嘅%{avail}個訂閱源。你已經有 %{current}訂閱源，而你嘅訂閱源上限喺%{limit}。你可能需要透過增加%{change}，之後再次嘗試匯入。"
+      status: "你正喺度用緊 <strong>%{limit}</strong>個當中嘅<strong>%{current}</strong>個訂閱源，由你嘅付費計劃所提供。"
+      should_upgrade: "%{status} 你應該考慮 %{change}"
+      must_upgrade: "你必須增加更多嘅訂閱來源上限"
+      inactive: "你已有超出咗付費計劃所容許嘅訂閱來源上限，所以你嘅訂閱源無法獲得新文章。你可以 %{change}"
+      upgrade_title: "更多偉大嘅事情盡在高級版嘅The Old Reader"
+    trial:
+      try: "獲得14日嘅高級版本的試用"
+      created: "你已獲得咗免費試用啦"
+      expiration: "你嘅免費試用將停止喺"
+      expiration_desc: "你嘅免費試用會喺 %{dist}到期。你可以%{change}或者%{extend}"
+      extend: "延長試用期"
+      extended: "免費試用期已經延長咗。"
+      expired: "你嘅免費試用已經過咗期。你可以%{change}或%{extend}。"
+      expired_over_limit: "你嘅免費試用期已經屆滿，你嘅訂閱源數目超過免費賬戶所容許嘅上限，所以我哋暫停爲你捕捉新嘅文章。你可以%{change}或者%{extend}。"
+    card:
+      name: "持卡人姓名"
+      number: "卡號"
+      code: "安全碼(CVC)"
+      expiration: "到期日"
+      on_file: "你家下所用緊嘅卡"
+      status:
+        payment_failed: "付款失敗"
+      status_desc:
+        payment_failed: "你目前所使用嘅卡無法付款，前往<a href='%{account_url}'>帳號</a>更新你嘅付款資料。"
+    plan: "已選計劃"
+    plans:
+      monthly_description: "$%{price}/月"
+      yearly_description: "$%{price}/年"
+      summary_title: "高級帳號嘅特色："
+      summary: |
+        <li>全文搜尋</li>
+        <li>更快嘅訂閱來源更新速度</li>
+        <li>增加到<u>%{subscriptions}</u>個訂閱源*</li>
+        <li>儲存訂閱源的文章最多<u>6個月</u></li>
+        <li>Instapaper和Readability整合</li>
+        <li>儘早獲得新功能！</li>
+      other: "其他付款選項"
+      subscriptions: "增加到最多%{subscriptions}個訂閱源"
+      bigger_plans: "更大嘅付款計劃現在有咗了！"
+    payments:
+      errors:
+        missing_name: "請輸入你卡上嘅持卡人姓名"
+        incorrect_number: "卡號錯誤。"
+        invalid_number: "呢嗰唔喺有效嘅卡號。"
+        invalid_expiry: "呢張卡嘅有效日期喺無效嘅。"
+        invalid_expiry_month: "呢張卡嘅到期月喺無效嘅。"
+        invalid_expiry_year: "呢張卡嘅到期年喺無效嘅。"
+        invalid_cvc: "呢張卡嘅安全碼(CVC)喺無效嘅。"
+        expired_card: "呢張卡已經過期。"
+        incorrect_cvc: "呢張卡嘅安全碼(CVC)喺錯誤嘅。"
+        incorrect_zip: "ZIP碼喺錯誤嘅。"
+        card_declined: "呢張卡已被拒絕。"
+        missing: "呢度冇用戶嘅卡可以用與增值。"
+      history_title: "付款記錄"
+      date_column: "日期"
+      amount_column: "金額(USD)"
+      next_payment: "下一個付款日"
+      info_unavailable: "付款資訊無法使用"
+    tos: "我同意<a href='%{tos}' target='_blank'>服務協議</a>同埋<a href='%{privacy}' target='_blank'>隱私權政策</a>"
+    tos_error: "請同意我們嘅服務協議同埋隱私權政策。"
+    stripe: "支付嘅過程喺透過 <a href='http://stripe.com' target='_blank'>Stripe</a>安全處理嘅。"
+    submit: "更新帳號"
+    cancel: "刪除我嘅付款帳號"
+    cancel_confirm: "你確定要刪除你嘅帳號？"
+    successful_create: "成功創建帳號"
+    successful_update: "成功更新帳號"
+    successful_destroy: "成功刪除帳號"
+    title: "高級帳號"
+    form_title: "付款資料"
+    emails:
+      payment_failed:
+        subject: "來自The Old Reader嘅信件：付款失敗！"
+        body: |
+          <p>你好，%{name},</p>
+          <p>向你嘅信用卡收取高級版本服務嘅款項失敗。請更新你嘅信用卡資訊。你可以前往<a href="%{manage_url}">帳號頁面</a>更新至最新嘅資料。再次付款失敗嘅話會導致你失去高級版本。</p>
+          <p>      此致,<br />The Old Reader團隊<br /><a href="mailto:support@theoldreader.com">support@theoldreader.com</a></p>
+      almost_inactive:
+        subject: "讓你嘅The Old Reader帳號保持激活狀態！"
+        body: |
+          <p>你好， %{name},</p>
+          <p>你已閒置咗%{inactive_count}日。The Old Reader會移除你部分嘅未讀項目以讓活躍用戶使用。你可以相信我已好耐冇見到你嗎？</p>
+          <p>確保你唔會錯過任何嘢，你需要做嘅喺登入到The Old Reader！
+          你仲可以喺度睇睇有咩新嘢！</p>
+          <p>      此致,<br />The Old Reader團隊<br /><a href="mailto:support@theoldreader.com">support@theoldreader.com</a></p>
+      almost_expired:
+        subject: "你嘅Old Reader高級版本試用期已經屆滿"
+        body: |
+          <p>你好，%{name},</p>
+          <p>你嘅The Old Reader高級版本試用期已經屆滿。前往<a href="%{manage_url}">帳號頁面</a>購買高級會員</p>
+          <p>不要錯過果啲美妙絕倫嘅功能！
+          <ul>
+            %{summary}
+          </ul></p>
+          <p>      此致,<br />The Old Reader團隊<br /><a href="mailto:support@theoldreader.com">support@theoldreader.com</a></p>
