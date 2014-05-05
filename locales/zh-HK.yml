@@ -1,4 +1,4 @@
-en:
+zh-HK:
   # Devise
   errors:
     messages:
@@ -95,7 +95,7 @@ en:
     welcome:
       - "歡迎嚟到<span class='highlight'>無與倫比嘅社交型RSS閱讀器</span>。閱讀、共享同埋討論，唔會再錯過任何嘢！"
       - "登入並開始使用The Old Reader只需輕輕一點！如果你喺個怕醜嘅人，可以先睇睇我哋嘅 %tour% 或者偷偷地望下 %trending%"
-      tour: "唔知點用？"
+    tour: "唔知點用？"
     trending: "今日趨勢"
     qa:
       title0: "呢個有咩用噶？"
@@ -120,7 +120,7 @@ en:
     logout: "登出"
     settings: "設定"
     account: "賬戶"
-    failure: "%{kind}
+    failure: "%{kind}"
     failure: "%{kind}帳號鏈結到其他嘅The Old Reader帳號。請取消其他賬戶同The Old Reader嘅鏈結並重新操作。"
     becomes_active_notice: "Hey，歡迎你返嚟！我哋有一段時間冇見到你啦，需要啲時間重建你嘅閱讀列表。但喺唔需要擔心，我哋會一直收集你嘅訂閱，你應該好快就可以睇到你嘅未讀項目噶啦！。"
   feeds:
@@ -282,7 +282,7 @@ en:
       text: "條氣唔順？你可以隨時%{export}成OPML文件同%{cancel}"
       export: "匯出你嘅訂閱源"
       cancel: "刪除帳號"
-      confirm: "確定？"？"
+      confirm: "確定？"
     social:
       notify_when_followed: "如果有人追蹤咗你，我哋會以電郵嘅方式通知你。"
       share_timeline: "共享到Facebook。"
@@ -361,7 +361,7 @@ en:
       few: "%{count}個新嘅追隨者"
       many: "%{count}個新嘅追隨者"
       other: "%{count}個新嘅追隨者"
-    rss: "喺The Old Reader 共享咗%{name}個項目""
+    rss: "喺The Old Reader 共享咗%{name}個項目"
   friends:
     follow: "追隨在The Old Reader上嘅朋友"
     found:
