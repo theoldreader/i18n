@@ -260,6 +260,7 @@ en:
       apps: "mobile apps"
     ui:
       title: "User interface"
+      use_spritz: "Enable <a href='http://www.spritzinc.com' target='_blank'>Spritz</a> for speedy reading (requires Spritz account)"
       click_to_scroll: "Clicking on a post scrolls to it"
       scroll_to_read: "Scrolling through posts marks them as read"
       sidebar_unread_only: "Show only those folders/feeds that have unread items"
@@ -422,6 +423,7 @@ en:
   shortcuts:
     header: "Keyboard Shortcuts"
     note: "*Chrome, Safari, Opera only"
+    note2: "**Premium Accounts Only"
     pages:
       title: "Navigate between pages"
       body: |
@@ -462,6 +464,7 @@ en:
         m: read/unread a post
         l: mark post as liked
         c: scroll to comments and open the form
+        i: use Spritz to read post**
         1: switch to full view
         2: switch to list view
   alerts:
@@ -742,3 +745,8 @@ en:
         amount: "Amount: USD"
         thanks: "Thank You"
         questions: "Please send any questions to"
+  spritz:
+    reading_time: 'Spritz reading time for this post'
+    less_than_a_minute: 'Less than a minute'
+    minutes: 'minutes'
+    one_minute: '1 minute'
