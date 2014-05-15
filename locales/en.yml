@@ -423,7 +423,6 @@ en:
   shortcuts:
     header: "Keyboard Shortcuts"
     note: "*Chrome, Safari, Opera only"
-    note2: "**Premium Accounts Only"
     pages:
       title: "Navigate between pages"
       body: |
@@ -464,7 +463,7 @@ en:
         m: read/unread a post
         l: mark post as liked
         c: scroll to comments and open the form
-        i: use Spritz to read post**
+        i: use Spritz to read post
         1: switch to full view
         2: switch to list view
   alerts:
