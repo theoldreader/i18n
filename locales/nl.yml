@@ -113,7 +113,6 @@ nl:
       title4: "Gaan jullie junk zenden naar mijn sociale netwerken of mijn links stelen?"
       text4: "Absoluut niet. We geloven niet dat dat de juiste manier van handelen is. U heeft volledige control over wat u deelt met uw sociale netwerken. als u iets deelt, krijgen uw frienden een directe link naar uw bericht. Niet een link naar onze website."
       title5: "Wat kost deze dienstverlening?"
-      text5: "The Old Reader is gratis tot %{free_count} feeds. We hebben ook een <u>premium versie</u> voor $%{price}/maand ($%{intro_price}/maand als u zich nu aanmeldt!) met de volgende kenmerken:"
   user:
     profile: "Profiel"
     logout: "Uitloggen"

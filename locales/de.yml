@@ -110,7 +110,6 @@ de:
       title4: "Missbraucht ihr meinen Facebook-Account wie diese ganzen anderen Apps?"
       text4: "Auf keinen Fall! Wir glauben nicht, dass das der richtige Weg ist. Sie haben die komplette Kontrolle darüber, was zu sozialen Netzwerken geteilt wird. Wenn Sie etwas teilen, erhalten Ihre Freunde einen direkten Link zu dem Beitrag, keinen Link zu unserer Seite."
       title5: "Was kostet dieser Service?"
-      text5: "The Old Reader ist kostenlos für bis zu %{free_count} Abonnements. Wir bieten außerdem eine <u>Premiumversion</u> für $%{price}/Monat ($%{intro_price}/Monat, wenn Sie sich jetzt anmelden!) mit den folgenden Funktionen an:"
   user:
     profile: "Profil"
     logout: "Abmelden"
