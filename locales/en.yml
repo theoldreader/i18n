@@ -113,6 +113,7 @@ en:
       title4: "Are you going to send junk to my social networks or hijack my links?"
       text4: "Absolutely not. We don't believe that's the right thing to do. You're in complete control of what you share to your social networks. When you share it, your friends will get a direct link to see the post, not some link to our site."
       title5: "What does this service cost?"
+      text5: "The Old Reader is free for up to %{free_count} feeds. We also offer a <u>premium version</u> for $%{price}/month that has the following features:"
   support: "Need Help?"
   user:
     profile: "Profile"
