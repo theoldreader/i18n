@@ -90,7 +90,7 @@ nl:
       register: "Registreren"
       password: "Wachtwoord vergeten?"
       change_password: "Verander wachtwoord"
-      tos: Door u te registeren of aan te melden, gaat u akkoord met onze  <a href='%{tos}' target='_blank'>Servicevoorwaarden</a> en <a href='%{privacy}' target='_blank'>Privacy beleid</a>"
+      tos: "Door u te registeren of aan te melden, gaat u akkoord met onze  <a href='%{tos}' target='_blank'>Servicevoorwaarden</a> en <a href='%{privacy}' target='_blank'>Privacy beleid</a>"
       social_register: "U kunt ook uw %{google} of %{facebook} accounts gebruiken om u te registeren."
     welcome:
       - "Welkome bij <span class='highlight'>de ultieme social RSS reader</span> voor het Open Web. Lees, deel en discussieer. Zorg dat u niets mist."
