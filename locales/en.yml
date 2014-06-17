@@ -202,6 +202,7 @@ en:
     pocket: "Pocket"
     unpocket: "Unpocket"
     pocket_error: "Failed"
+    delete: "Delete"
   home:
     following: "Latest from your friends"
     updated: "Recently updated"
@@ -219,6 +220,7 @@ en:
     starred: "Starred"
     liked: "Liked"
     shared: "Shared"
+    bookmarked: "Bookmarked"
     following: "Following"
     import: "Import"
     search: "Search"
@@ -437,6 +439,7 @@ en:
         g then f: go to starred
         g then l: go to liked
         g then s: go to shared
+        g then b: go to bookmarked
         g then t: go to trending
         g then c: go to commented
         g then p: go to following
@@ -561,6 +564,9 @@ en:
         img1: "It's no fun reading RSS feeds alone. Go to 'Find Friends' page to see who among your Facebook friends or Google contacts is using The Old Reader. You can also look for your friends by name."
         img2: "All posts that you have shared are in the 'Shared' folder. Items that your friends have shared are in the 'Following' folder. As usual, you can either read the whole folder or choose a specific username to see all posts shared by that user."
         img3: "You can comment on any post shared by your friends — just hit the 'Comment' button and join the discussion."
+      bookmarklet:
+        title: "Bookmarklet"
+        p1: "Drag this link below onto your browser's bookmarks bar to add any public web page to your Old Reader."
       tips:
         title: "Tips & Tricks"
         p1: "To subscribe to new feeds with a single click, configure 'http://theoldreader.com/feeds/subscribe?url=%s' in your RSS feed handler or extension;"
@@ -749,3 +755,16 @@ en:
     less_than_a_minute: 'Less than a minute'
     minutes: 'minutes'
     one_minute: '1 minute'
+  bookmarklet:
+    new: "Bookmark new post"
+    title: "Title"
+    cancel: "Cancel"
+    create: "Create Bookmark"
+    delete_confirm: "Are you sure you want to delete this bookmarked post?"
+    error_title: "Error Saving Bookmark"
+    error_line_1: "We were unable to access the page you want to bookmark. Please check the page exists at %{link}"
+    error_line_2: "The error was: \"%{error}\""
+    premium_only: "Bookmarking posts requires a Premium membership. Please upgrade to Premium or start a free trial."
+    explanation: "Drag %{link} onto your browser bookmarks bar to add posts from any site."
+    link_text: "Add to The Old Reader"
+    cant_do_that: "If you were to bookmark The Old Reader with The Old Reader then the universe will fold in on itself and become a very large black hole."
