@@ -22,6 +22,7 @@ namespace :i18n do
         full_path = [locale] + path.split(".")
 
         lines.each_with_index do |text, line|
+          next if text.empty? # Atom cleans up blank lines
           current_identation = "  "*level
 
           if !text.start_with?(current_identation)
