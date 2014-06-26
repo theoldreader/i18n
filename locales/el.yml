@@ -676,7 +676,6 @@ el:
       paypal_change_plan: "Για να αλλάξετε την συνδρομής σας για το Paypal Express Checkout, επικοινωνήστε με την <a href='mailto:support@theoldreader.com'>υποστήριξη</a>."
       credit_card: "Πιστωτική Κάρτα"
       paypal_express: "Paypal Express Checkout"
-      paypal_confirm_notice: "Πατώντας το κουμπί Αναβάμιση λογαριασμού παρακάτω, η εξουσιοδοτημένη επαναλαμβανόμενη πληρωμή σας των %{price} θα ξεκινήσει στο Paypal και ο premium λογαριασμός σας στον Old Reader θα δημιουργηθεί."
       paypal_confirm_cancel: "άκυρο"
       view_receipt: 'Προβολή Απόδειξης'
       paypal_header: 'Πληρωμή μέσω PayPal'
