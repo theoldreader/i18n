@@ -257,7 +257,6 @@ zh-HK:
     ui:
       title: "用戶界面"
       click_to_scroll: "點擊一則文章之後到佢度"
-      scroll_to_read: "滾動到文章嘅時候即刻標記成已讀"
       sidebar_unread_only: "只顯示有未讀嘅訂閱源或者資料夾"
       locale: "語言"
     feed_display_mode:

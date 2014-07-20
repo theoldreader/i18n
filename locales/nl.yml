@@ -254,7 +254,6 @@ nl:
     ui:
       title: "gebruikersinterface"
       click_to_scroll: "Klikken op een bericht om omlaag te scrollen"
-      scroll_to_read: "Scrollen door berichten, markeert ze als gelezen"
       sidebar_unread_only: "Toon alleen die mappen/feeds die ongelezen items hebben"
       locale: "Taal"
     feed_display_mode:

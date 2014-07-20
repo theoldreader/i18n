@@ -224,7 +224,6 @@ nb:
     ui:
       title: "Grensesnitt"
       click_to_scroll: "Å klikke på en post tar deg dit"
-      scroll_to_read: "Å bla gjennom poster markerer de som lest"
       sidebar_unread_only: "Vis bare mapper/strømmer som har uleste objekter"
       locale: "Språk"
     feed_display_mode:

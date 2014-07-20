@@ -202,7 +202,6 @@ hu:
     ui:
       title: "Felhasználói felület"
       click_to_scroll: "Egy elemre kattintás odagördít"
-      scroll_to_read: "Az elemeken átgördítés olvasottnak jelöli őket"
       sidebar_unread_only: "Csak azokat a mappákat/csatornákat mutassa, ami tartalmaz olvasatlan elemet"
       locale: "Nyelv"
     feed_display_mode:

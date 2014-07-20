@@ -188,7 +188,6 @@ sk:
     ui:
       title: "Zobrazenie stránky."
       click_to_scroll: "Kliknutím na článok sa naň obrazovka presunie."
-      scroll_to_read: "Posúvanie obrazovky cez článký ich označí za prečítané."
       sidebar_unread_only: "Zobraziť iba tie priečinky alebo kanály, ktoré majú neprečítané položky."
       locale: "Jazky"
     feed_display_mode:

@@ -187,7 +187,6 @@ zh-CN:
     ui:
       title: "界面"
       click_to_scroll: "选中条目时自动聚焦"
-      scroll_to_read: "浏览条目后自动标为已读"
       sidebar_unread_only: "只显示有未读项的文件夹或供稿"
       locale: "语言"
     feed_display_mode:

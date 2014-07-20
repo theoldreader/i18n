@@ -194,7 +194,6 @@ pl:
     ui:
       title: "Interfejs"
       click_to_scroll: "Przewijaj ekran do klikniętego posta"
-      scroll_to_read: "Przy przewijaniu oznaczaj minięte jako przeczytane"
       sidebar_unread_only: "Pokaż tylko foldery i kanały z nieprzeczytanymi postami"
       locale: "Język"
     feed_display_mode:

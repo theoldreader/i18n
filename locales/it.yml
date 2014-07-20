@@ -194,7 +194,6 @@ it:
     ui:
       title: "Interfaccia Utente"
       click_to_scroll: "Clicca su un post per metterlo in evidenza"
-      scroll_to_read: "Sfogliare i post li marcherà come letti"
       sidebar_unread_only: "Mostra solo quelle cartelle/feed che hanno elementi ancora da leggere"
       locale: "Lingua"
     feed_display_mode:

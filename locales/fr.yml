@@ -238,7 +238,6 @@ fr:
     ui:
       title: "Interface utilisateur"
       click_to_scroll: "Aller sur un article en cliquant dessus"
-      scroll_to_read: "Marquer les articles lus au fur et à mesure du défilement"
       sidebar_unread_only: "Afficher seulement les dossiers/flux non lus"
       locale: "Langue"
     feed_display_mode:

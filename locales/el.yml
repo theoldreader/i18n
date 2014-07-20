@@ -259,7 +259,6 @@ el:
       title: "Περιβάλλον χρήστη"
       use_spritz: "Ενεργοποιήστε το <a href='http://www.spritzinc.com' target='_blank'>Spritz</a> για ταχεία ανάγνωση (προϋποθέτει έναν λογαριασμό Spritz)"
       click_to_scroll: "Κάνοντας κλικ σε μία ανάρτηση, γίνεται κύλιση (scroll) σε αυτή"
-      scroll_to_read: "Κάνοντας scroll στις αναρτήσεις, τις επισημαίνετε ως αναγνωσμένες"
       sidebar_unread_only: "Εμφάνιση φακέλων/ροών με μη αναγνωσμένα στοιχεία"
       locale: "Γλώσσα"
     feed_display_mode:

@@ -251,7 +251,6 @@ de:
     ui:
       title: "Benutzeroberfläche"
       click_to_scroll: "Klick auf einen Beitrag scrollt dort hin"
-      scroll_to_read: "Scrollen durch Beiträge markiert diese als gelesen"
       sidebar_unread_only: "Nur die Ordner/Feeds anzeigen, die ungelesene Beiträge enthalten"
       locale: "Sprache"
     feed_display_mode:

@@ -201,7 +201,6 @@ sv:
     ui:
       title: "Gränssnitt"
       click_to_scroll: "Om du klickar på ett inlägg tar vi dig dit"
-      scroll_to_read: "Du markerar inläggen som lästa genom att bläddra igenom dem"
       sidebar_unread_only: "Visa endast mappar och flöden som har olästa objekt"
       locale: "Språk"
     feed_display_mode:

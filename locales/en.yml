@@ -266,7 +266,6 @@ en:
       title: "User interface"
       use_spritz: "Enable <a href='http://www.spritzinc.com' target='_blank'>Spritz</a> for speedy reading (requires Spritz account)"
       click_to_scroll: "Clicking on a post scrolls to it"
-      scroll_to_read: "Scrolling through posts marks them as read"
       sidebar_unread_only: "Show only those folders/feeds that have unread items"
       locale: "Language"
     feed_display_mode:

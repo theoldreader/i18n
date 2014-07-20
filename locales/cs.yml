@@ -207,7 +207,6 @@ cs:
     ui:
       title: "Uživatelské rozhraní"
       click_to_scroll: "Kliknutí na článek přejde na jeho polohu v seznamu"
-      scroll_to_read: "Listování články je označuje jako přečtené"
       sidebar_unread_only: "Zobrazovat jen zdroje či složky s nepřečtenými články"
       locale: "Jazyk"
     feed_display_mode:

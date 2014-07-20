@@ -213,7 +213,6 @@ pt:
     ui:
       title: "Interface"
       click_to_scroll: "Clicar em uma postagem rola até ela"
-      scroll_to_read: "Rolar pelas postagens as marca como lidas"
       sidebar_unread_only: "Mostrar apenas as pastas/feeds que tem itens não lidos"
       locale: "Idioma"
     feed_display_mode:
