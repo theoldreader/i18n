@@ -700,7 +700,6 @@ el:
     paypal_title: "Επικύρωση της αγοράς μέσω Paypal"
     form_title: "Πληροφορίες Πληρωμής"
     emails:
-      unsubscribe: "Για να απεγγραφείτε από πιθανά μελλοντικά e-mail, παρακαλώ απαντήστε σε αυτό το e-mail με το κείμενο UNSUBSCRIBE"
       payment_failed:
         subject: "Η πληρωμή του The Old Reader απέτυχε"
         body: |

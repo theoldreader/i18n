@@ -721,7 +721,8 @@ en:
     paypal_onetime_title: "Setup One-Time Payment to Paypal"
     form_title: "Payment Information"
     emails:
-      unsubscribe: "To unsubscribe from all future emails, respond to this email with the text UNSUBSCRIBE"
+      unsubscribe: "To unsubscribe from all future emails, click on following link:"
+      unsubscribed: "You have been successfully unsubscribed from all future emails."
       payment_failed:
         subject: "The Old Reader Payment Failed"
         body: |
