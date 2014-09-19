@@ -79,7 +79,7 @@ de:
         :title: "Kontakt"
         :url: "http://blog.theoldreader.com/about"
     sign_in:
-      title: "Anmelden via:"
+      title: "Login:"
       google: "Google"
       facebook: "Facebook"
       or: "oder"
@@ -87,7 +87,7 @@ de:
       register: "Registrieren"
       password: "Passswort vergessen?"
       change_password: "Passwort ändern"
-      tos: "Mit dem Registrieren oder Einloggen stimmen Sie unseren <a href='%{tos}' target='_blank'>Nutzungsbedingungen</a> und der <a href='%{privacy}' target='_blank'>Datenschutzerklärung</a> zu"
+      tos: "Mit dem Registrieren oder Einloggen stimmen Sie unseren <a href='%{tos}' target='_blank'>Nutzungsbedingungen</a> und der <a href='%{privacy}' target='_blank'>Datenschutzerklärung</a> zu."
       social_register: "Sie können auch Ihr %{google}- oder %{facebook}-Konto nutzen, um sich zu registrieren."
     welcome:
       - "Willkommen bei The Old Reader, <span class='highlight'>dem ultimativen RSS-Reader</span> für das Open Web. Lesen, Teilen und Diskutieren Sie mit und verpassen Sie nichts mehr!"
@@ -110,6 +110,8 @@ de:
       title4: "Missbraucht ihr meinen Facebook-Account wie diese ganzen anderen Apps?"
       text4: "Auf keinen Fall! Wir glauben nicht, dass das der richtige Weg ist. Sie haben die komplette Kontrolle darüber, was zu sozialen Netzwerken geteilt wird. Wenn Sie etwas teilen, erhalten Ihre Freunde einen direkten Link zu dem Beitrag, keinen Link zu unserer Seite."
       title5: "Was kostet dieser Service?"
+      text5: "The Old Reader ist kostenlos für bis zu %{free_count} abonnierten Feeds. Wir bieten auch eine <u>Premium-Version</u> für $%{price} pro Monat an, die folgende Features hat:"
+  help: "Brauchen Sie Hilfe?"
   user:
     profile: "Profil"
     logout: "Abmelden"
@@ -126,10 +128,15 @@ de:
     no_posts: "Hier sind noch keine Beiträge"
     no_posts_filler: "Keine Beiträge unterhalb dieser Linie. Wahrscheinlich haben Sie schon alle gelesen."
     subscribe: "Abonnieren"
+    subscribed: "Abonniert"    
     add_subscription: "Feed abonnieren"
+    suggestions: "Wir konnten keinen genauen Treffer finden, aber hier sind ein paar Feeds, die zu Ihrer Suche passen könnten."
     add: "Hinzufügen"
+    url: "Stichwort oder URL"
+    unavailable_url: "Es konnte kein Feed unter diesem Stichwort oder dieser URL gefunden werden"
     forbidden_url: "Feed kann nicht gelesen werden: Zugriff verweigert."
     invalid_url: "Dies ist eine ungültige URL"
+    empty_url: "Sie haben keine URL oder kein Stichwort angegeben"
     loading: "Laden..."
     default_folder: "Abos"
     feeds: "Feeds"
@@ -154,6 +161,9 @@ de:
     never: "Nie"
     confirm: "Sind Sie sicher?"
     mark_all_read: "Alle als gelesen markieren"
+    mark_all_read_week: "Älter als 1 Woche"
+    mark_all_read_month: "Älter als 1 Monat"
+    mark_all_read_year: "Älter als 1 Jahr"
     search: "Suchen"
     search_limits: "Ihre Sucheingabe ist sehr beliebt, daher mussten wir die Zahl der Ergebnisse begrenzen. Bitte spezifizieren Sie Ihre Suche, wenn Sie alle Ergebnisse sehen wollen."
     mark_read: "Als gelesen markieren"
@@ -180,6 +190,8 @@ de:
     like: "Gefällt mir"
     unlike: "Gefällt mir nicht mehr"
     send_to: "Senden an"
+    mark_as_nsfw: "Als unangemessen markieren"
+    mark_as_nsfw_confirm: "Sind Sie sicher, dass Sie diesen Beitrag als unangemessen markieren wollen?"
     likes_count:
       zero: "%{users} gefällt dies"
       one: "%{users} und einem anderen gefällt dies"
@@ -192,6 +204,7 @@ de:
     pocket: "Pocket"
     unpocket: "Unpocket"
     pocket_error: "Fehlgeschlagen"
+    delete: "Löschen"
   home:
     following: "Das Neuste von Ihren Freunden"
     updated: "Kürzlich aktualisiert"
@@ -209,6 +222,7 @@ de:
     starred: "Markiert"
     liked: "Gefällt mir"
     shared: "Geteilt"
+    bookmarked: "Lesezeichen"
     following: "Freunde"
     import: "Importieren"
     search: "Suchen"
@@ -250,7 +264,12 @@ de:
       apps: "mobilen Apps"
     ui:
       title: "Benutzeroberfläche"
+      use_spritz: "<a href='http://www.spritzinc.com' target='_blank'>Spritz</a> aktivieren für Speed-Reading (erfordert Spritz-Account)"
       click_to_scroll: "Klick auf einen Beitrag scrollt dort hin"
+      scroll_to_read: "Durch Beiträge scrollen"
+      scroll_to_read_never: "Niemals als gelesen markieren"
+      scroll_to_read_full: "Nur in Vollansicht als gelesen markieren"
+      scroll_to_read_always: "Als gelesen markieren in Vollansicht und Listenansicht"
       sidebar_unread_only: "Nur die Ordner/Feeds anzeigen, die ungelesene Beiträge enthalten"
       locale: "Sprache"
     feed_display_mode:
@@ -548,6 +567,9 @@ de:
         img1: "Feeds alleine zu lesen macht keinen Spaß. Gehen Sie auf \"Freunde finden\" um Freunde unter Ihren Facebook-Freunden oder in Ihren Google-Kontakten zu finden, die ebenfalls The Old Reader nutzen. Sie können auch nach Namen von Freunden suchen."
         img2: "Alle geteilten Beiträge finden Sie im Ordner \"Geteilt\". Beiträge, die Ihre Freunde geteilt haben, sind im Ordner \"Following\". Wie gewohnt, können Sie entweder alle Feeds im Ordner lesen oder einen bestimmten Nutzernamen auswählen, von dem Sie alle geteilten Beiträge lesen möchten."
         img3: "Sie können alle von Freunden geteilten Beiträge kommentieren — drücken Sie einfach auf \"Kommentieren\" und treten Sie der Diskussion bei."
+      bookmarklet:
+        title: "Bookmarklet"
+        p1: "Ziehen Sie diesen Link in Ihrer Lesezeichenleiste im Browser, um auf einfache Weise jede Webseite zu Ihrem The Old Reader hinzufügen zu können."
       tips:
         title: "Tipps & Tricks"
         p1: "Um Feeds mit einem einzigen Klick zu The Old Reader hinzuzufügen, stellen Sie 'http://theoldreader.com/feeds/subscribe?url=%s' als URL in Ihrem Handler für RSS-Feeds oder Ihrer RSS-Erweiterung ein;"
@@ -561,3 +583,21 @@ de:
         inbetween: " und scheuen Sie sich nicht, in unserem "
         link2: "Community Forum"
         post_link: " nach Hilfe zu fragen, falls Ihnen etwas unklar ist."
+  spritz:
+    reading_time: 'Spritz-Lesezeit für diesen Beitrag'
+    less_than_a_minute: 'Weniger als eine Minute'
+    minutes: 'Minuten'
+    one_minute: '1 Minute'
+  bookmarklet:
+    new: "Neuen Beitrag als Lesezeichen aufnehmen"
+    title: "Titel"
+    cancel: "Abbrechen"
+    create: "Lesezeichen erzeugen"
+    delete_confirm: "Wollen Sie das Lesezeichen für diesen Beitrag wirklich löschen?"
+    error_title: "Fehler beim Speichern des Lesezeichens"
+    error_line_1: "Wir konnten die Webseite %{link}, die Sie als Lesezeichen markieren wollten, nicht aufrufen oder durchsuchen."
+    error_line_2: "Bitte kontaktieren Sie %{support_link} für Fragen oder Probleme."
+    premium_only: "Lesezeichen für Beiträge anzulegen erfordert einen Premium-Account. Bitte auf Premium aktualisieren oder einen kostenlosen Testzeitraum beginnen."
+    explanation: "Ziehen Sie %{link} in die Lesezeichenleiste Ihres Browser um Beiträge von jeder Webseite als Lesezeichen speichern zu können."
+    link_text: "Zu The Old Reader zufügen"
+    cant_do_that: "Wenn Sie versuchen The Old Reader in The Old Reader als Lesezeichen zu erstellen, wird sich das Universum in ein riesiges schwarzes Loch verwandeln und alles zerstören!"
