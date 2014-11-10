@@ -60,6 +60,15 @@ en:
       unlock_instructions:
         subject: "Unlock Instructions"
 
+  #Kaminari
+  en:
+  views:
+    pagination:
+      first: "&laquo; First"
+      last: "Last &raquo;"
+      previous: "&lsaquo; Prev"
+      next: "Next &rsaquo;"
+
   # Reader
   app: "The Old Reader"
   eggs: "We ♥ kittens"
@@ -120,6 +129,7 @@ en:
     logout: "Logout"
     settings: "Settings"
     account: "Account"
+    subscriptions: "Subscriptions"
     failure: "The %{kind} account you are trying to use has already been linked to some other The Old Reader account. Please cancel your other account and retry the operation."
     becomes_active_notice: "Hey, welcome back! We haven't seen you in a while so we'll need to take a moment to rebuild your reading list. Don't worry, we've still been collecting your subscriptions. You should start seeing new unread items shortly."
   feeds:
@@ -633,10 +643,13 @@ en:
       created: "Your free trial has been created."
       expiration: "Your free trial will expire on"
       expiration_desc: "Your free trial will expire in %{dist}. You can %{change} or %{extend}"
+      expiration_desc_no_extension: "Your free trial will expire in %{dist}. Consider supporting this site with an %{change}"
       extend: "extend your trial"
       extended: "Your free trial has been extended."
       expired: "Your free trial has expired. You can %{change} or %{extend}"
+      expired_no_extension: "Your free trial has expired. Please consider supporting this site with an %{change}"
       expired_over_limit: "Your free trial has expired and you are over the free account limit, so we've stopped fetching new posts. You can %{change} or %{extend}"
+      expired_no_extension_over_limit: "Your free trial has expired and you are over the free account limit, so we've stopped fetching new posts. Please consider supporting this site with an %{change}"
     card:
       name: "Name on Card"
       number: "Card Number"
@@ -782,3 +795,25 @@ en:
     explanation: "Drag %{link} onto your browser bookmarks bar to add posts from any site."
     link_text: "Add to The Old Reader"
     cant_do_that: "If you were to bookmark The Old Reader with The Old Reader then the universe will fold in on itself and become a very large black hole."
+  subscriptions:
+    title: "Manage Subscriptions"
+    selection_with: "With"
+    selection_selected: "selected"
+    move_to_folder: "Move to folder"
+    create_new_folder: "Create new folder"
+    unsubscribe: "Unsubscribe"
+    feed_title: "Feed title"
+    last_updated: "Last updated"
+    no_folder_filter: "No folder filter"
+    individual:
+      unsubscribe_confirm: "Are you sure you want to unsubscribe from this feed?"
+      move_confirm: "Are you sure you want to move this subscription?"
+    multiple:
+      unsubscribe_confirm: "Are you sure you want to unsubscribe from the selected subscriptions?"
+      move_confirm: "Are you sure you want to move the selected subscriptions?"
+    create_modal:
+      title: "Create New Folder"
+      blank_folder: "Folder name cannot be blank"
+      folder_name: "Folder name"
+      cancel: "Cancel"
+      create: "Create folder"
