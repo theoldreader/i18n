@@ -801,10 +801,13 @@ en:
     selection_selected: "selected"
     move_to_folder: "Move to folder"
     create_new_folder: "Create new folder"
+    rename_folder: "Rename folder"
     unsubscribe: "Unsubscribe"
     feed_title: "Feed title"
     last_updated: "Last updated"
     no_folder_filter: "No folder filter"
+    feed_actions: "Actions"
+    rename_feed: "Rename"
     individual:
       unsubscribe_confirm: "Are you sure you want to unsubscribe from this feed?"
       move_confirm: "Are you sure you want to move this subscription?"
@@ -817,3 +820,12 @@ en:
       folder_name: "Folder name"
       cancel: "Cancel"
       create: "Create folder"
+    rename_modal:
+      title: "Rename Folder"
+      create: "Rename folder"
+    rename_feed_modal:
+      title: "Rename subscription"
+      blank_feed: "Subscription name cannot be blank"
+      feed_name: "Subscription name"
+      cancel: "Cancel"
+      create: "Rename subscription"
