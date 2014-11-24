@@ -284,6 +284,7 @@ en:
       scroll_to_read_full: "Marks as read in Full View only"
       scroll_to_read_always: "Marks as read in Full View and List View"
       sidebar_unread_only: "Show only those folders/feeds that have unread items"
+      sidebar_alpha: "Sort folders/feeds alphabetically"
       locale: "Language"
     feed_display_mode:
       title: "Feed display mode"
@@ -810,10 +811,10 @@ en:
     rename_feed: "Rename"
     individual:
       unsubscribe_confirm: "Are you sure you want to unsubscribe from this feed?"
-      move_confirm: "Are you sure you want to move this subscription?"
+      move_confirm: "Are you sure you want to move this feed?"
     multiple:
-      unsubscribe_confirm: "Are you sure you want to unsubscribe from the selected subscriptions?"
-      move_confirm: "Are you sure you want to move the selected subscriptions?"
+      unsubscribe_confirm: "Are you sure you want to unsubscribe from the selected feeds?"
+      move_confirm: "Are you sure you want to move the selected feeds?"
     create_modal:
       title: "Create New Folder"
       blank_folder: "Folder name cannot be blank"
@@ -829,3 +830,4 @@ en:
       feed_name: "Subscription name"
       cancel: "Cancel"
       create: "Rename subscription"
+    info: 'Below is a list of your current feeds. From this page, you can unsubscribe from existing feeds as well as organize feeds into folders. You can manage the sort order and visibility settings of your feeds and folders in <a href="/users/edit">settings</a>.'
