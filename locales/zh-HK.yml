@@ -680,6 +680,7 @@ zh-HK:
           <p>你已閒置咗%{inactive_count}日。The Old Reader會移除你部分嘅未讀項目以讓活躍用戶使用。你可以相信我已好耐冇見到你嗎？</p>
           <p>確保你唔會錯過任何嘢，你需要做嘅喺登入到The Old Reader！
           你仲可以喺度睇睇有咩新嘢！</p>
+          <p><a href="https://theoldreader.com">https://theoldreader.com</a></p>
           <p>      此致,<br />The Old Reader團隊<br /><a href="mailto:support@theoldreader.com">support@theoldreader.com</a></p>
       almost_expired:
         subject: "你嘅Old Reader高級版本試用期已經屆滿"

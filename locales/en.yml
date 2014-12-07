@@ -756,6 +756,7 @@ en:
           who are actively using the service. Can you believe it has been that long since we've seen you?</p>
           <p>To make sure you don't miss anything, all you have to do is sign in to The Old Reader.
           You can also check out what's new while you're there!</p>
+          <p><a href="https://theoldreader.com">https://theoldreader.com</a></p>
           <p>Thank you,<br />The Old Reader Team<br /><a href="mailto:support@theoldreader.com">support@theoldreader.com</a></p>
       almost_expired:
         subject: "Your Old Reader Premium account is about to expire"
