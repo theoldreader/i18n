@@ -665,7 +665,10 @@ en:
     plan: "Selected Plan"
     plans:
       monthly_description: "$%{price} per month"
+      monthly_onetime_discount: "($%{initial_price} for the first month)"
       yearly_description: "$%{price} per year"
+      yearly_onetime_discount: "($%{initial_price} for the first year)"
+      discount: "($%{discount_price} off with coupon)"
       onetime_description: "$%{price} one-time payment"
       summary_title: "Premium Account Features:"
       summary: |
@@ -694,6 +697,7 @@ en:
         card_declined: "The card was declined."
         missing: "There is no card on a customer that is being charged."
         processing_error: "An error occurred while processing your payment."
+        invalid_coupon: "The coupon code entered is invalid."
       history_title: "Payment History"
       date_column: "Date"
       amount_column: "Amount (USD)"
@@ -714,6 +718,8 @@ en:
       paypal_confirm_notice: "By clicking the Update account button below, your authorized %{price} will be initiated at Paypal and your Old Reader Premium account will be created."
       paypal_confirm_cancel: "cancel"
       view_receipt: 'View Receipt'
+      coupon_header: 'Coupon'
+      coupon_label: 'Enter Coupon Code'
       paypal_header: 'Pay with PayPal'
       cc_header: 'Pay with credit or debit card'
       cancelled_title: 'Recurring Payment Cancelled'
