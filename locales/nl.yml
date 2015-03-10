@@ -616,7 +616,8 @@ nl:
       status:
         payment_failed: "betaling mislukt"
       status_desc:
-        payment_failed: "Met uw huidige creditkaart kon niet worden betaald. Ga naar <a href='%{account_url}'>accounts</a> om uw betalingsgegevens bij te werken."
+        stripe:
+          payment_failed: "Met uw huidige creditkaart kon niet worden betaald. Ga naar <a href='%{account_url}'>accounts</a> om uw betalingsgegevens bij te werken."
     plan: "Gekozen betalingsplan"
     plans:
       monthly_description: "$%{price} per maand"

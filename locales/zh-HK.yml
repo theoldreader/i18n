@@ -620,7 +620,8 @@ zh-HK:
       status:
         payment_failed: "付款失敗"
       status_desc:
-        payment_failed: "你目前所使用嘅卡無法付款，前往<a href='%{account_url}'>帳號</a>更新你嘅付款資料。"
+        stripe:
+          payment_failed: "你目前所使用嘅卡無法付款，前往<a href='%{account_url}'>帳號</a>更新你嘅付款資料。"
     plan: "已選計劃"
     plans:
       monthly_description: "$%{price}/月"

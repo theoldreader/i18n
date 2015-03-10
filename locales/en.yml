@@ -123,6 +123,7 @@ en:
       text4: "Absolutely not. We don't believe that's the right thing to do. You're in complete control of what you share to your social networks. When you share it, your friends will get a direct link to see the post, not some link to our site."
       title5: "What does this service cost?"
       text5: "The Old Reader is free for up to %{free_count} feeds. We also offer a <u>premium version</u> for $%{price}/month that has the following features:"
+    sponsorship_opportunities: "Sponsorship opportunities with The Old Reader are now available.  Learn more."
   help: "Need Help?"
   user:
     profile: "Profile"
@@ -253,6 +254,7 @@ en:
     community: "Community resources"
     apps: "Apps"
     account: "Account"
+    sponsorships: "Sponsorships"
   settings:
     tabs:
       main: "Main"
@@ -268,6 +270,8 @@ en:
     password_change: "Change"
     password_notice: "Your password will not be changed until you press the 'Save changes' button"
     token: "Token"
+    dont_email: "Please don't email me"
+    use_ssl: "Use a secure <a href='http://en.wikipedia.org/wiki/HTTP_Secure' target='_blank'>HTTPS</a> connection"
     sign:
       title: "You can log in to this The Old Reader account using:"
       google: "Your Google account"
@@ -660,7 +664,10 @@ en:
       status:
         payment_failed: "payment failed"
       status_desc:
-        payment_failed: "Your current credit card could not be charged. Go to <a href='%{account_url}'>accounts</a> to update your payment information."
+        stripe:
+          payment_failed: "Your current credit card could not be charged. Go to <a href='%{account_url}'>accounts</a> to update your payment information."
+        paypal:
+          payment_failed: "Your Paypal payment failed. Please go to <a href=\"http://www.paypal.com\" target=\"_blank\">Paypal.com</a> to update your payment information."
       paypal: "Paypal Express Checkout"
     plan: "Selected Plan"
     plans:
@@ -698,6 +705,12 @@ en:
         missing: "There is no card on a customer that is being charged."
         processing_error: "An error occurred while processing your payment."
         invalid_coupon: "The coupon code entered is invalid."
+        retrying_on: "We will retry payment on %{retry_date}."
+        missing_plan: "must be selected"
+        stripe:
+          update_payment_info: "Please update your payment information below."
+        paypal:
+          update_payment_info: "Please update your payment information at Paypal.com."
       history_title: "Payment History"
       date_column: "Date"
       amount_column: "Amount (USD)"
@@ -775,6 +788,18 @@ en:
             %{summary}
           </ul></p>
           <p>Thank you,<br />The Old Reader Team<br /><a href="mailto:support@theoldreader.com">support@theoldreader.com</a></p>
+      almost_renewing:
+        subject: "The Old Reader - Premium Subscription"
+        hello: "Hi"
+        thanks: "We'd like to thank you for being a Premium Subscriber to The Old Reader. Over the last year we've made a ton of improvements thanks in large part to the support of users such as yourself.  Here are just a few of the highlights:"
+        speed_title: "Site speed, stability, and availability"
+        speed_text: "Since February 2014, we've had 99.999% uptime, feeds refresh 70% faster, and pages load 10 times faster."
+        bookmarklet_title: "The  Bookmarklet"
+        bookmarklet_text: "Add any page on the internet to The Old Reader and share it with friends."
+        reeder_title: "Support for Reeder iOS App"
+        organize_title: "Tools for Organizing Your Feeds"
+        https_title: "Secure Browsing by Default"
+        auto_renew: "Your annual subscription is scheduled to auto-renew on <b>%{renew_date}</b>. We hope you'll continue using our service. If you have any thoughts or feedback get in touch with us at <a href=\"mailto:support@theoldreader.com\">support@theoldreader.com</a>."
       receipt:
         subject: "The Old Reader Payment Receipt"
         hi: "Hello"
@@ -838,3 +863,9 @@ en:
       cancel: "Cancel"
       create: "Rename subscription"
     info: 'Below is a list of your current feeds. From this page, you can unsubscribe from existing feeds as well as organize feeds into folders. You can manage the sort order and visibility settings of your feeds and folders in <a href="/users/edit">settings</a>.'
+  emails:
+    read_discover_share: "READ. DISCOVER. SHARE."
+    unsubscribe: "unsubscribe"
+    copyright: "Copyright &copy; %{year} The Old Reader, All rights reserved."
+    thanks_line_1: "Thanks for using The Old Reader!"
+    thanks_line_2: "The Old Reader Team"
