@@ -123,7 +123,7 @@ en:
       text4: "Absolutely not. We don't believe that's the right thing to do. You're in complete control of what you share to your social networks. When you share it, your friends will get a direct link to see the post, not some link to our site."
       title5: "What does this service cost?"
       text5: "The Old Reader is free for up to %{free_count} feeds. We also offer a <u>premium version</u> for $%{price}/month that has the following features:"
-    sponsorship_opportunities: "Sponsorship opportunities with The Old Reader are now available.  Learn more."
+    sponsorship_opportunities: "Sponsorship opportunities are now available.  Learn more."
   help: "Need Help?"
   user:
     profile: "Profile"
@@ -175,6 +175,7 @@ en:
     never: "Never"
     confirm: "Are you sure?"
     mark_all_read: "Mark all as read"
+    mark_all_read_day: "Older than 1 day"
     mark_all_read_week: "Older than 1 week"
     mark_all_read_month: "Older than 1 month"
     mark_all_read_year: "Older than 1 year"
@@ -187,6 +188,8 @@ en:
     unshare: "Unshare"
     attach_note: "Want to add a note?"
     attach: "Save note"
+    open_in_new_tab: "View website in new tab"
+    add_to_the_old_reader: "Subscribe in The Old Reader"
     comments:
       one: "%{count} comment"
       few: "%{count} comments"
@@ -815,6 +818,8 @@ en:
     less_than_a_minute: 'Less than a minute'
     minutes: 'minutes'
     one_minute: '1 minute'
+    must_be_logged_in: '*You must log in to Spritz in order to use 50, 100, 500, 550, and 600 words per minute.'
+    image_alt_tag: 'Spritz This Post'
   bookmarklet:
     new: "Bookmark new post"
     title: "Title"
@@ -869,3 +874,5 @@ en:
     copyright: "Copyright &copy; %{year} The Old Reader, All rights reserved."
     thanks_line_1: "Thanks for using The Old Reader!"
     thanks_line_2: "The Old Reader Team"
+  api:
+    sponsored_feed_title: "The Old Reader Sponsored Posts"
