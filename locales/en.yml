@@ -54,9 +54,9 @@ en:
       failure: "%{kind} authorization failed for the following reason: %{reason}."
     mailer:
       confirmation_instructions:
-        subject: "Confirmation instructions"
+        subject: "Welcome to The Old Reader!"
       reset_password_instructions:
-        subject: "Reset password instructions"
+        subject: "Reset Password Request - The Old Reader"
       unlock_instructions:
         subject: "Unlock Instructions"
 
@@ -199,6 +199,7 @@ en:
     comment_text: "Write comment"
     comment_destroy_confirm: "Do you really want to delete the comment?"
     comment_destroy_text: "This comment has been deleted by the user."
+    emoji_cheat_sheet: "Emoji Cheat-Sheet"
     post_author: "by <strong>%{author}</strong>"
     drop_add_folder: "Drop here to add a new folder"
     new_folder: "New folder"
@@ -285,6 +286,7 @@ en:
     ui:
       title: "User interface"
       use_spritz: "Enable <a href='http://www.spritzinc.com' target='_blank'>Spritz</a> for speedy reading (requires Spritz account)"
+      confirm_mark_all: "Protect me from accidentally marking all as read"
       click_to_scroll: "Clicking on a post scrolls to it"
       scroll_to_read: "Scrolling through posts"
       scroll_to_read_never: "Never marks as read"
@@ -404,15 +406,12 @@ en:
     followed:
       subject: "%{name} has followed you"
       body: |
-        Hello, %{followed}!
+        Hi, %{followed}!
 
-        %{name} is now following you. Nice!
-        See profile at %{profile}.
+        Good news... %{name} is now following your shared items on The Old Reader.  Click here to view their profile and follow them back:
+        %{profile}
 
-        --
-        The Old Reader robot.
-        You can always unsubscribe at your settings page.
-        %{host}
+        If you no longer wish to receive these notifications, you can turn them off on the "Social" tab of your settings page.
     import:
       subject: "Your feeds are ready, hooray!"
       body: |
@@ -420,34 +419,22 @@ en:
 
         We are happy to inform you that we have finished importing your subscriptions.
         Feeds you imported should now be available at %{host}.
-        Thank you for using The Old Reader.
-
-        --
-        The Old Reader robot.
-        %{host}
     confirmation:
       body: |
-        Welcome %{name},
+        Welcome %{name}!,
 
-        You can confirm your account email using the link below:
+        You're almost ready to start using The Old Reader. Simply confirm your email using the link below:
         %{link}
 
-        --
-        The Old Reader robot.
-        %{host}
+        Let us know if you need any assistance and we'll be happy to help.
     password:
       body: |
-        Hello %{name},
+        Hello %{name}!
 
-        Someone has requested a link to change your password, here it is:
+        A reset password request has been issued for your account with The Old Reader.  You can reset your password using the following link:
         %{link}
 
-        If you have not requested this, please ignore this email.
-        Your password will not get changed until you access the link above.
-
-        --
-        The Old Reader robot.
-        %{host}
+        If you did not make this request, you can simply ignore this email and your password will not be changed.  Please let us know if you have any questions or concerns.
   shortcuts:
     header: "Keyboard Shortcuts"
     note: "*Chrome, Safari, Opera only"
@@ -764,22 +751,40 @@ en:
       unsubscribed: "You have been successfully unsubscribed from all future emails."
       payment_failed:
         subject: "The Old Reader Payment Failed"
-        body: |
-          <p>Hello %{name},</p>
-          <p>An attempt to charge your credit card for your subscription to our premium service failed. Please update your
-          credit card information on the <a href="%{manage_url}">accounts page</a> as soon as possible. Further
-          payment failures will result in the removal of your paid account.</p>
-          <p>Thank you,<br />The Old Reader Team<br /><a href="mailto:support@theoldreader.com">support@theoldreader.com</a></p>
+        stripe:
+          body: |
+            Hello, %{name}
+
+            Thank you for your continued support of The Old Reader.
+
+            We wanted to let you know that an attempt to charge your credit card for your subscription has failed.
+
+            You can update your card information on our accounts page. Please let us know if you need any assistance and we'd be happy to help.
+
+            %{manage_url}
+
+            Your support is invaluable to the continued success of The Old Reader.
+        paypal:
+          body: |
+            Hello, %{name}
+
+            Thank you for your continued support of The Old Reader.
+
+            We wanted to let you know that an attempt to charge your Paypal account for your subscription has failed.
+
+            You can update your payment information at http://www.paypal.com. Please let us know if you need any assistance and we'd be happy to help.
+
+            Your support is invaluable to the continued success of The Old Reader.
       almost_inactive:
         subject: "Keep your Old Reader account active!"
         body: |
-          <p>Hello %{name},</p>
-          <p>After %{inactive_count} days of inactivity, The Old Reader removes your unread items to make space for the users
-          who are actively using the service. Can you believe it has been that long since we've seen you?</p>
-          <p>To make sure you don't miss anything, all you have to do is sign in to The Old Reader.
-          You can also check out what's new while you're there!</p>
-          <p><a href="https://theoldreader.com">https://theoldreader.com</a></p>
-          <p>Thank you,<br />The Old Reader Team<br /><a href="mailto:support@theoldreader.com">support@theoldreader.com</a></p>
+          Hello %{name},
+
+          After %{inactive_count} days of inactivity, The Old Reader removes your unread items to make space for the users who are actively using the service. Can you believe it has been that long since we've seen you?
+
+          To make sure you don't miss anything, all you have to do is sign in to The Old Reader. You can also check out what's new while you're there!
+
+          https://theoldreader.com
       almost_expired:
         subject: "Your Old Reader Premium account is about to expire"
         body: |
@@ -790,7 +795,6 @@ en:
           <ul>
             %{summary}
           </ul></p>
-          <p>Thank you,<br />The Old Reader Team<br /><a href="mailto:support@theoldreader.com">support@theoldreader.com</a></p>
       almost_renewing:
         subject: "The Old Reader - Premium Subscription"
         hello: "Hi"
