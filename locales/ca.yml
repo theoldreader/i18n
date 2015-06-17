@@ -284,10 +284,7 @@ ca:
         %{name} us segueix. Visca!
         Llegiu el perfil a %{profile}.
 
-        --
-        El robot de The Old Reader.
         Podeu canviar les preferències de correu a la pàgina de configuració.
-        %{host}
     confirmation:
       body: |
         Us donem la benvinguda %{name},
@@ -307,10 +304,6 @@ ca:
 
         Si no heu sol·licitat això, ignoreu aquest correu.
         La vostra constrasenya no es canviarà si no que accediu a l'enllaç anterior.
-
-        --
-        El robot de The Old Reader.
-        %{host}
   shortcuts:
     header: "Dreceres de teclat"
     note: "*Només Chrome, Safari i Opera"

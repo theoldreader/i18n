@@ -372,10 +372,7 @@ nl:
         %{name} volgt u nu. Mooi!
         Zie het profiel op %{profile}.
 
-        --
-        The Old Reader robot.
         U kunt altijd uw abonnement opzeggen via de Instellingen pagina.
-        %{host}
     import:
       subject: "Uw feeds zijn gereed, hoera!"
       body: |
@@ -384,20 +381,12 @@ nl:
         We kunne u informeren dat de import van uw abonnementen gereed is.
         De feeds die u heeft geïmporteerd zijn nu beschikbaar op %{host}.
         Met dank voor het gebruiken van The Old Reader.
-
-        --
-        The Old Reader robot.
-        %{host}
     confirmation:
       body: |
         Welkom %{name},
 
         U kunt uw account via e-mail confirmeren door op de link hieronder te klikken:
         %{link}
-
-        --
-        The Old Reader robot.
-        %{host}
     password:
       body: |
         Hallo %{name},
@@ -407,10 +396,6 @@ nl:
 
         Als u dit verzoek niet zelf hebt gedaan, kunt u dit e-mailbericht negeren.
         Uw wachtwoord zal niet worden veranderd zolang u niet op deze link hierboven klikt.
-
-        --
-        The Old Reader robot.
-        %{host}
   shortcuts:
     header: "Sneltoetscombinaties"
     note: "*Alleen Chrome, Safari en Opera"
@@ -624,6 +609,7 @@ nl:
       yearly_description: "$%{price} per jaar"
       summary_title: "Premium Account kenmerken:"
       summary: |
+        <li>No Advertisements</li>
         <li>Volledige tekst doorzoeken</li>
         <li>Snellere versen tijden van feeds</li>
         <li>Tot <u>%{subscriptions}</u> abonnementen *</li>
@@ -662,16 +648,18 @@ nl:
     emails:
       payment_failed:
         subject: "The Old Reader betaling is mislukt"
-        body: |
-          <p>Hallo %{name},</p>
-          <p>Een poging om om uw abonnement op onze premium service toe betalen via uw creditkaart is mislukt. U wordt verzocht zo spoedig mogelijk bij op de <a href="%{manage_url}">accounts pagina</a> uw betalingsgegevens bij te werken. Komen er opnieuw mislukking voor dan kan dit resulteren in verwijdering van uw betaalde account.</p>
-          <p>Hartelijk dank,<br />The Old Reader Team<br /><a href="mailto:support@theoldreader.com">support@theoldreader.com</a></p>
+        stripe:
+          body: |
+            Hallo %{name},
+
+            Een poging om om uw abonnement op onze premium service toe betalen via uw creditkaart is mislukt. U wordt verzocht zo spoedig mogelijk bij op de accounts pagina: %{manage_url} uw betalingsgegevens bij te werken. Komen er opnieuw mislukking voor dan kan dit resulteren in verwijdering van uw betaalde account.
       almost_inactive:
         subject: "Houd uw Old Reader account actief!"
         body: |
-          <p>Hallo %{name},</p>
-          <p>Na %{inactive_count} dagen van inactiviteit verwijdert The Old Reader uw ongelezen items om plaats te maken voor de gebruikers die actief ons service benutten. Kunt u geloven dat het zo'n tijd geleden is dat we u hebben gezien?</p>
-          <p>Om er zeker van te zijn dat u niets mist hoeft u zich alleen maar aan te melden bij The Old Reader.
-          U kunt ook bekijken wat er nieuw is als u daar toch bent!</p>
-          <p><a href="https://theoldreader.com">https://theoldreader.com</a></p>
-          <p>Hartelijk dank,<br />The Old Reader Team<br /><a href="mailto:support@theoldreader.com">support@theoldreader.com</a></p>
+          Hallo %{name},</p>
+
+          Na %{inactive_count} dagen van inactiviteit verwijdert The Old Reader uw ongelezen items om plaats te maken voor de gebruikers die actief ons service benutten. Kunt u geloven dat het zo'n tijd geleden is dat we u hebben gezien?
+
+          Om er zeker van te zijn dat u niets mist hoeft u zich alleen maar aan te melden bij The Old Reader. U kunt ook bekijken wat er nieuw is als u daar toch bent!
+
+          https://theoldreader.com

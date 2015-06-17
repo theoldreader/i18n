@@ -317,20 +317,13 @@ nb:
         %{name} følger deg nå. Supert!
         Se profilen deres på %{profile}.
 
-        --
-        The Old Reader robot.
         Du kan alltids avregistrere deg fra disse e-postene i kontoinnstillingene dine.
-        %{host}
     confirmation:
       body: |
         Velkommen %{name},
 
         Du kan verifisere e-posten din på linken under:
         %{link}
-
-        --
-        The Old Reader robot.
-        %{host}
     password:
       body: |
         Hei %{name},
@@ -340,10 +333,6 @@ nb:
 
         Hvis du ikke har bedt om dette, vennligst ignorer denne e-posten.
         Passordet ditt vil ikke endres før du åpner linken over.
-
-        --
-        The Old Reader robot.
-        %{host}
   shortcuts:
     header: "Hurtigtaster"
     note: "*bare for Chrome, Safari og Opera"

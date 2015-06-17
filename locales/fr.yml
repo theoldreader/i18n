@@ -330,20 +330,13 @@ fr:
         %{name} vous suit. Bien!
         Voir son profil sur %{profile}.
 
-        --
-        The Old Reader robot.
         Vous pouvez toujours vous désabonner sur votre page de réglage.
-        %{host}
     confirmation:
       body: |
         Bienvenue %{name},
 
         Vous pouvez confirmer le mail de votre compte en utilisant le lien ci-dessous:
         %{link}
-
-        --
-        The Old Reader robot.
-        %{host}
     password:
       body: |
         Bonjour %{name},
@@ -353,10 +346,6 @@ fr:
 
         Si vous n'avez pas demandé cela, merci d'ignorer cet email.
         Votre mot de passe ne sera modifié tant que vous n’aurez accédé au lien ci-dessus.
-
-        --
-        The Old Reader robot.
-        %{host}
   shortcuts:
     header: "Raccourcis clavier"
     note: "*Uniquement pour Chrome, Safari et Opera."

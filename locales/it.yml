@@ -284,20 +284,13 @@ it:
         %{name} ti sta seguendo. Bello!
         Guarda il suo profilo su %{profile}.
 
-        --
-        The Old Reader robot.
-        You can always unsubscribe at your settings page.
-        %{host}
+        If you no longer wish to receive these notifications, you can turn them off on the "Social" tab of your settings page.
     confirmation:
       body: |
         Benvenuto\a %{name},
 
         Ora puoi confermare la mail associata al tuo account utilizzando il seguente link:
         %{link}
-
-        --
-        The Old Reader robot.
-        %{host}
     password:
       body: |
         Ciao %{name},
@@ -307,10 +300,6 @@ it:
 
         Se non sei stato tu a richiederlo, ignora pure questa email.
         La tua password non verrà modificata fin quando non accederai usando il link qui sopra.
-
-        --
-        The Old Reader robot.
-        %{host}
   shortcuts:
     header: "Scorciatoie"
     note: "Solo per Chrome, Safari e Opera*"

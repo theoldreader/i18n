@@ -24,7 +24,7 @@ de:
       inactive: "Ihr Benutzerkonto wurde noch nicht aktiviert."
     sessions:
       signed_in: "Erfolgreich angemeldet."
-      signed_out: "Erfolgreich abgemeldet."
+      signed_out: "Erfolgreich abgemeledet."
     passwords:
       send_instructions: "Sie erhalten in wenigen Minuten eine E-Mail mit Anweisungen, um Ihr Passwort zurückzusetzen."
       updated: "Ihr Passwort wurde erfolgreich geändert. Sie sind nun angemeldet."
@@ -128,7 +128,7 @@ de:
     no_posts: "Hier sind noch keine Beiträge"
     no_posts_filler: "Keine Beiträge unterhalb dieser Linie. Wahrscheinlich haben Sie schon alle gelesen."
     subscribe: "Abonnieren"
-    subscribed: "Abonniert"    
+    subscribed: "Abonniert"
     add_subscription: "Feed abonnieren"
     suggestions: "Wir konnten keinen genauen Treffer finden, aber hier sind ein paar Feeds, die zu Ihrer Suche passen könnten."
     add: "Hinzufügen"
@@ -388,10 +388,7 @@ de:
         %{name} folgt Ihnen nun. Hurra!
         Profil betrachten unter %{profile}.
 
-        --
-        The Old Reader Roboter.
         Sie können sich unter den Einstellungen abmelden.
-        %{host}
     import:
       subject: "Ihre Feeds stehen nun bereit. Hurra!"
       body: |
@@ -400,20 +397,12 @@ de:
         Wir freuen uns, Ihnen mitteilen zu können, dass der Import Ihrer abonnierten Feeds abgeschlossen wurde.
         Ihre Feeds sollten Ihnen nun unter %{host} bereitstehen.
         Danke, dass Sie The Old Reader nutzen.
-
-        --
-        The Old Reader Roboter.
-        %{host}
     confirmation:
       body: |
         Willkommen %{name},
 
         Bitte bestätigen Sie Ihre E-Mail-Adresse mit einem Klick auf den folgenden Link:
         %{link}
-
-        --
-        The Old Reader Roboter.
-        %{host}
     password:
       body: |
         Hallo %{name},
@@ -423,10 +412,6 @@ de:
 
         Falls Sie das nicht selbst waren, ignorieren Sie diese E-Mail bitte.
         Ihr Passwort wird nicht geändert, solange Sie nicht dem Link in dieser E-Mail folgen.
-
-        --
-        The Old Reader Roboter.
-        %{host}
   shortcuts:
     header: "Tastenkürzel"
     note: "*nur für Chrome, Safari, Opera"

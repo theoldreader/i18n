@@ -276,7 +276,4 @@ tr:
         %{name} sizi takip etmeye başladı. Ne güzel!
         Profilini şuradan görebilirsiniz: %{profile}.
 
-        --
-        The Old Reader robotu.
         Bu iletileri almak istemiyorsanız ayarlar sayfanızı ziyaret edin.
-        %{host}

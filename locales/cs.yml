@@ -298,20 +298,13 @@ cs:
         %{name} vás začal sledovat. Super!
         Zobrazte si jeho profil na adrese %{profile}.
 
-        --
-        The Old Reader robot
         Tyto zprávy můžete zrušit v nastavení.
-        %{host}
     confirmation:
       body: |
         Vítejte, %{name}.
 
         Svůj e-mail můžete potvrdit pomocí tohoto odkazu:
         %{link}
-
-        --
-        The Old Reader robot
-        %{host}
     password:
       body: |
         Ahoj, %{name}.
@@ -321,10 +314,6 @@ cs:
 
         Pokud jste to nebyli vy, klidně ignorujte tento e-mail.
         Ke změně hesla nedojde, pokud nekliknete na odkaz výše.
-
-        --
-        The Old Reader robot
-        %{host}
   shortcuts:
     header: "Klávesové zkratky"
     note: "* pouze pro Chrome, Safari a Operu"

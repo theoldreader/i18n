@@ -669,6 +669,7 @@ en:
       onetime_description: "$%{price} one-time payment"
       summary_title: "Premium Account Features:"
       summary: |
+        <li>No Advertisements</li>
         <li>Full-text search</li>
         <li>Faster feed refresh times</li>
         <li>Up to <u>%{subscriptions}</u> Subscriptions *</li>

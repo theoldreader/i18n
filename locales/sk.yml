@@ -278,10 +278,7 @@ sk:
         %{name} začal sledovať Váš profil.
         Jeho stránku nájdete na %{profile}.
 
-        --
-        The Old Reader robot.
         Zabrániť príjmaniu týchto správ môžete na stránkach nastavení.
-        %{host}
   shortcuts:
     header: "Klávesové skratky"
     note: "*iba pre Chrome, Safari a Operu"

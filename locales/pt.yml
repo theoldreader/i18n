@@ -304,10 +304,7 @@ pt:
         %{name} está te seguindo agora. Legal!
         Veja seu perfil em %{profile}.
 
-        --
-        O robô do Old Reader.
         Você pode sempre deixar de assinar em sua página de configurações.
-        %{host}
     import:
       subject: "Seus feeds estão prontos, viva!"
       body: |
@@ -316,20 +313,12 @@ pt:
         Estamos felizes em informar que terminamos de importar suas assinaturas.
         Os feeds que você importou devem estar disponíveis agora em %{host}.
         Obrigado por usar o Old Reader.
-
-        --
-        O robô do Old Reader.
-        %{host}
     confirmation:
       body: |
         Bem vindo %{name},
 
         Você pode confirmar o email da sua conta usando o link abaixo:
         %{link}
-
-        --
-        O robô do Old Reader.
-        %{host}
     password:
       body: |
         Olá %{name},
@@ -339,10 +328,6 @@ pt:
 
         Se você não solicitou isso, por favor ignore este email.
         Sua senha não vai ser modificada até que você acesse o link acima.
-
-        --
-        O robô do Old Reader.
-        %{host}
   shortcuts:
     header: "Atalhos de teclado"
     note: "*Apenas Chrome, Safari e Opera"

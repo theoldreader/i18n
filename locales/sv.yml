@@ -292,20 +292,13 @@ sv:
         %{name} följer dig nu. Toppen!
         Se profilen på %{profile}.
 
-        --
-        The Old Reader robot.
         Du kan alltid avregistrera från dessa mail i inställningarna för ditt konto.
-        %{host}
     confirmation:
       body: |
         Välkommen %{name},
 
         Du kan bekräfta din e-postadress genom att klicka på bekräftelselänken nedan:
         %{link}
-
-        --
-        The Old Reader robot.
-        %{host}
     password:
       body: |
         Hej %{name},
@@ -315,10 +308,6 @@ sv:
 
         Om det inte var du som begärde detta kan du ignorera detta mail.
         Ditt lösenord kommer inte att ändras om du inte klickar på länken.
-
-        --
-        The Old Reader robot.
-        %{host}
   shortcuts:
     header: "Kortkommandon"
     note: "*endast Chrome, Safari och Opera"

@@ -293,20 +293,13 @@ hu:
         %{name} már követ téged. Szép!
         Nézd meg a profilját: %{profile}.
 
-        --
-        The Old Reader robotja.
         Bármikor leiratkozhatsz a beállítási lapodon.
-        %{host}
     confirmation:
       body: |
         Szia %{name},
 
         Igazolhatod a fiókod emailcímét az alábbi linkre való kattintással:
         %{link}
-
-        --
-        The Old Reader robot.
-        %{host}
     password:
       body: |
         Szia %{name},
@@ -316,10 +309,6 @@ hu:
 
         Ha nem te kérted ezt, kérlek hagyd figyelmen kívül ezt a levelet.
         A jelszavad nem változik meg, amíg nem nyitod meg a fenti hivatkozást.
-
-        --
-        The Old Reader robot.
-        %{host}
   shortcuts:
     header: "Gyorsbillentyűk"
     note: "*Csak Chrome, Safari és Opera"

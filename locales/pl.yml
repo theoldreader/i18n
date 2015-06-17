@@ -284,20 +284,13 @@ pl:
         %{name} obserwuje Cię od teraz. Czyż nie uroczo?
         Zobacz profil tej osoby tu: %{profile}.
 
-        --
-        Robot pocztowy The Old Reader.
         Wyłączyć powiadomienia możesz na swojej stronie ustawień.
-        %{host}
     confirmation:
       body: |
         Czołem, %{name}!
 
         Możesz potwierdzić swój adres e-mail klikając w poniższy link:
         %{link}
-
-        --
-        Robot pocztowy The Old Reader.
-        %{host}
     password:
       body: |
         Czołem, %{name}!
@@ -306,10 +299,6 @@ pl:
         %{link}
         Jeśli to nie byłeś Ty, zignoruj ten e-mail. Twoje hasło nie zos-
         tanie zmienione, dopóki nie klikniesz w powyższy link.
-
-        --
-        Robot pocztowy The Old Reader.
-        %{host}
   shortcuts:
     header: "Skróty klawiaturowe"
     note: "*Działa tylko w Chrome, Safari i Operze."
