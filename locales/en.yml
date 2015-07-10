@@ -673,12 +673,13 @@ en:
         <li>Full-text search</li>
         <li>Faster feed refresh times</li>
         <li>Up to <u>%{subscriptions}</u> Subscriptions *</li>
-        <li><u>6 months</u> of post storage</li>
+        <li><u>1 year</u> of post storage **</li>
         <li>Instapaper and Readability integration</li>
         <li>Early access to new features</li>
       other: "Other plan options"
       subscriptions: "Up to %{subscriptions} feeds"
       bigger_plans: "Larger plans are available"
+      max_posts: "Up to 4000 posts per feed"
       paypal_description: "The Old Reader Premium %{frequency} subscription for up to %{subscriptions} feeds"
     payments:
       errors:
