@@ -106,17 +106,19 @@ de:
       text3_link1: "API"
       text3_between_links: ", die es jedem ermöglicht, selber eine App für The Old Reader zu schreiben. Schauen Sie sich unsere "
       text3_link2: "App-Seite"
-      text3_post_link: "an, um alle verfügbaren Apps zu sehen."
+      text3_post_link: " an, um alle verfügbaren Apps zu sehen."
       title4: "Missbraucht ihr meinen Facebook-Account wie diese ganzen anderen Apps?"
       text4: "Auf keinen Fall! Wir glauben nicht, dass das der richtige Weg ist. Sie haben die komplette Kontrolle darüber, was zu sozialen Netzwerken geteilt wird. Wenn Sie etwas teilen, erhalten Ihre Freunde einen direkten Link zu dem Beitrag, keinen Link zu unserer Seite."
       title5: "Was kostet dieser Service?"
       text5: "The Old Reader ist kostenlos für bis zu %{free_count} abonnierten Feeds. Wir bieten auch eine <u>Premium-Version</u> für $%{price} pro Monat an, die folgende Features hat:"
+    sponsorship_opportunities: "Sponsoren-Möglichkeiten sind jetzt verfügbar. Lernen Sie mehr darüber."
   help: "Brauchen Sie Hilfe?"
   user:
     profile: "Profil"
     logout: "Abmelden"
     settings: "Einstellungen"
     account: "Konto"
+    subscriptions: "Abonnements"
     failure: "Das %{kind} Konto, das Sie verwenden wollen, wurde bereits mit einem anderen The Old Reader Konto verknüpft. Bitte kündigen Sie Ihr anderes Konto und versuchen Sie es erneut."
     becomes_active_notice: "Sie haben The Old Reader eine Weile nicht benutzt, daher haben wir nur die aktuellsten Artikel für Sie"
   feeds:
@@ -161,6 +163,7 @@ de:
     never: "Nie"
     confirm: "Sind Sie sicher?"
     mark_all_read: "Alle als gelesen markieren"
+    mark_all_read_day: "Älter als 1 Tag"
     mark_all_read_week: "Älter als 1 Woche"
     mark_all_read_month: "Älter als 1 Monat"
     mark_all_read_year: "Älter als 1 Jahr"
@@ -173,6 +176,8 @@ de:
     unshare: "Nicht mehr teilen"
     attach_note: "Notiz hinzufügen?"
     attach: "Notiz speichern"
+    open_in_new_tab: "Webseite in neuem Tab öffnen"
+    add_to_the_old_reader: "In The Old Reader abonnieren"
     comments:
       one: "%{count} Kommentare"
       few: "%{count} Kommentare"
@@ -182,6 +187,7 @@ de:
     comment_text: "Kommentar schreiben"
     comment_destroy_confirm: "Wollen Sie den Kommentar wirklich löschen?"
     comment_destroy_text: "Dieser Kommentar wurde vom Benutzer gelöscht."
+    emoji_cheat_sheet: "Emoji Cheat-Sheet"
     post_author: "von <strong>%{author}</strong>"
     drop_add_folder: "Hier ablegen um neuen Ordner zu erstellen"
     new_folder: "Neuer Ordner"
@@ -240,6 +246,7 @@ de:
     community: "Community"
     apps: "Apps"
     account: "Konto"
+    sponsorships: "Sponsoren"
   settings:
     tabs:
       main: "Kontoeinstellungen"
@@ -255,6 +262,8 @@ de:
     password_change: "Ändern"
     password_notice: "Ihr Passwort wird erst geändert, wenn Sie auf den Button \"Änderungen speichern\" klicken"
     token: "Token"
+    dont_email: "Bitte senden Sie mir keine E-Mails"
+    use_ssl: "Eine sichere <a href='http://de.wikipedia.org/wiki/HTTPS' target='_blank'>HTTPS</a> Verbindung nutzen"
     sign:
       title: "Sie können sich wie folgt in diesen The Old Reader Account einloggen:"
       google: "Ihr Google-Account"
@@ -265,12 +274,14 @@ de:
     ui:
       title: "Benutzeroberfläche"
       use_spritz: "<a href='http://www.spritzinc.com' target='_blank'>Spritz</a> aktivieren für Speed-Reading (erfordert Spritz-Account)"
+      confirm_mark_all: "Mich davor schützen, alle Beiträge versehentlich als gelesen zu markieren"
       click_to_scroll: "Klick auf einen Beitrag scrollt dort hin"
       scroll_to_read: "Durch Beiträge scrollen"
       scroll_to_read_never: "Niemals als gelesen markieren"
       scroll_to_read_full: "Nur in Vollansicht als gelesen markieren"
       scroll_to_read_always: "Als gelesen markieren in Vollansicht und Listenansicht"
       sidebar_unread_only: "Nur die Ordner/Feeds anzeigen, die ungelesene Beiträge enthalten"
+      sidebar_alpha: "Ordner/Abos alphabetisch sortieren"
       locale: "Sprache"
     feed_display_mode:
       title: "Feed-Anzeige"
@@ -568,11 +579,25 @@ de:
         inbetween: " und scheuen Sie sich nicht, in unserem "
         link2: "Community Forum"
         post_link: " nach Hilfe zu fragen, falls Ihnen etwas unklar ist."
+  accounts:
+    plans:
+      summary: |
+        <li>Keine Werbung</li>
+        <li>Volltextsuche</li>
+        <li>Schnellere Aktualisierung von Feeds</li>
+        <li>Bis zu <u>%{subscriptions}</u> Abonnements *</li>
+        <li>Beiträge lassen sich <u>1 Jahr</u> speichern **</li>
+        <li>Integration von Instapaper und Readability</li>
+        <li>Als Erster Zugriff auf neue Features</li>
+      bigger_plans: "Noch nicht genug? Wir haben noch größere Tarif-Pakete!"
+      max_posts: "Bis zu 4000 Beiträge pro abonniertem Feed"
   spritz:
     reading_time: 'Spritz-Lesezeit für diesen Beitrag'
     less_than_a_minute: 'Weniger als eine Minute'
     minutes: 'Minuten'
     one_minute: '1 Minute'
+    must_be_logged_in: '* Sie müssen bei Spritz eingeloggt sein, um 50, 100, 500, 550 oder 600 Wörter pro Minute nutzen zu können.'
+    image_alt_tag: 'Diesen Beitrag mit Spritz lesen'
   bookmarklet:
     new: "Neuen Beitrag als Lesezeichen aufnehmen"
     title: "Titel"
