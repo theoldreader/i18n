@@ -165,7 +165,6 @@ pt:
   home:
     following: "Últimas dos seus amigos"
     updated: "Atualizados recentemente"
-    dead: "Feeds mortos"
     tips:
       title: "Dicas & truques"
       items:

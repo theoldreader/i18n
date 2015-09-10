@@ -165,7 +165,6 @@ ca:
   home:
     following: "El darrer dels amics"
     updated: "Actualitzat fa poc"
-    dead: "Canals RSS morts"
     tips:
       title: "Trucs i consells"
   pages:

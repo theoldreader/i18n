@@ -226,7 +226,7 @@ en:
   home:
     following: "Latest from your friends"
     updated: "Recently updated"
-    dead: "Dead feeds"
+    dead: "Inactive feeds"
     tips:
       title: "Tips & tricks"
       items:
@@ -251,6 +251,7 @@ en:
     tos: "Terms of Service"
     privacy: "Privacy policy"
     trending: "Trending"
+    recommended: "Recommended"
     donate: "Donate"
     tour: "Howto"
     blog: "Blog"
@@ -259,6 +260,7 @@ en:
     apps: "Apps"
     account: "Account"
     sponsorships: "Sponsorships"
+    sponsored_archive: "Sponsored Posts"
   settings:
     tabs:
       main: "Main"
@@ -315,6 +317,8 @@ en:
       cancel: "cancel your account"
       confirm: "Are you sure?"
     social:
+      enable_private_mode: "Protect my shared posts"
+      enable_private_mode_info: "selecting this option will only show your shared posts to approved followers"
       notify_when_followed: "Notify by email when someone starts following you"
       share_timeline: "Publish your shares on your Facebook page"
       connect_share_timeline: "Connect to Facebook to publish your shares"
@@ -369,6 +373,10 @@ en:
   profile:
     follow: "Follow"
     unfollow: "Unfollow"
+    pending: "Pending"
+    approve: "Approve"
+    deny: "Deny"
+    remove: "Remove"
     unfollow_confirm: "Do you really want to unfollow? Your shared and likes posts will not be removed."
     thats_you: "That's you!"
     following:
@@ -381,6 +389,16 @@ en:
       few: "Followed by <strong>%{count}</strong> users"
       many: "Followed by <strong>%{count}</strong> users"
       other: "Followed by <strong>%{count}</strong> users"
+    pending_followers:
+      one: "<strong>%{count}</strong> follow request"
+      few: "<strong>%{count}</strong> follow requests"
+      many: "<strong>%{count}</strong> follow requests"
+      other: "<strong>%{count}</strong> follow requests"
+    post_protected: "%{username}'s shared posts are protected."
+    protected_instructions_not_logged_in: "This user's shared posts are only visible to approved followers."
+    protected_instructions_logged_in: "Click the \"Follow\" button to send a follow request."
+    pending_approval: "Your request to follow %{username}'s shared posts is awaiting approval."
+    only_for_approved: "This user's shared posts are only visible to approved followers."
     me_following: "<strong>%{count}</strong> Following"
     my_followers: "<strong>%{count}</strong> Followers"
     posts: "Shared posts"
@@ -410,6 +428,15 @@ en:
 
         Good news... %{name} is now following your shared items on The Old Reader.  Click here to view their profile and follow them back:
         %{profile}
+
+        If you no longer wish to receive these notifications, you can turn them off on the "Social" tab of your settings page.
+    follow_requested:
+      subject: "%{name} has requested to follow you"
+      body: |
+        Hi, %{followed}!
+
+        %{name} has requested to follow your shared items on The Old Reader.  Click here to accept or deny the request:
+        %{accept_request}
 
         If you no longer wish to receive these notifications, you can turn them off on the "Social" tab of your settings page.
     import:
@@ -557,7 +584,7 @@ en:
       title: "The Old Reader 101"
       add_feeds:
         title: "Add feeds"
-        p1: "Your new The Old Reader account is shipped empty, so the first thing you should do is add some feeds to read."
+        p1: "Your new The Old Reader account is ready, so the first thing you should do is add some feeds to read."
         img1: "Use 'Add a subscription' button to subscribe to a feed. If you enter a web page URL rather than direct feed URL, we will add first RSS feed from that page automatically."
         img2: "If you are migrating from Google Reader or any other RSS software that can export subscriptions to OPML file, you can use the 'Import' feature to add all your feeds.  We will even migrate all your feed folders to ensure that you feel yourself at home immediately."
       organize:

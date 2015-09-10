@@ -170,7 +170,6 @@ sv:
   home:
     following: "Senaste från dina vänner"
     updated: "Nyligen uppdaterat"
-    dead: "Döda flöden"
     tips:
       title: "Tips och råd"
   pages:

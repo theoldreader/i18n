@@ -186,7 +186,6 @@ nb:
   home:
     following: "Det siste fra vennene dine"
     updated: "Nylig oppdatert"
-    dead: "Døde strømmer"
     tips:
       title: "Tips og triks"
       items:

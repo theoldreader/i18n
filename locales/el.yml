@@ -202,7 +202,6 @@ el:
   home:
     following: "Τα πιο πρόσφατα των φίλων σας"
     updated: "Πρόσφατα ενημερωμένα"
-    dead: "Νεκρές ροές"
     tips:
       title: "Tips & tricks"
       items:

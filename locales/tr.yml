@@ -159,7 +159,6 @@ tr:
   home:
     following: "Arkadaşlarınızdan en yeniler"
     updated: "Son güncellenenler"
-    dead: "Ölü feedler"
     tips:
       title: "İpuçları"
   pages:

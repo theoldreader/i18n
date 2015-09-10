@@ -163,7 +163,6 @@ it:
   home:
     following: "Le ultime dai tuoi amici"
     updated: "Aggiornati di recente"
-    dead: "Feed morti"
     tips:
       title: "Tips & tricks"
   pages:
