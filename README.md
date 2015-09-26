@@ -37,7 +37,7 @@ Italiano: [ggimpa](https://github.com/ggimpa), [luca74](https://github.com/luca7
 
 粵語: [lenchan139](https://github.com/lenchan139)
 
-Deutsch: [wuhup](https://github.com/wuhup), [tehabe](https://github.com/tehabe), [ConcurrentHashMap](https://github.com/ConcurrentHashMap)
+Deutsch: [wuhup](https://github.com/wuhup), [tehabe](https://github.com/tehabe), [nb88a](https://github.com/nb88a)
 
 Svenska: [alemacgo](https://github.com/alemacgo), [virkot](https://github.com/virkot), [Tobbe](https://github.com/Tobbe), [kokarn](https://github.com/kokarn)
 
