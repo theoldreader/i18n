@@ -48,7 +48,7 @@ nl:
     unlocks:
       send_instructions: "U ontvangt binnen enkele ogenblikken een e-mail met instructies hoe u uw account kunt ontgrendelen."
       unlocked: "Uw account is met succes ontgrendeld. U kunt u nu aanmelden om door te gaan."
-      send_paranoid_instructions: "Als uw account bestaat,  ontvangt u binnen enkele ogenblikken een e-mail met instructies hoe u uw account kunt ontgrendelen."
+      send_paranoid_instructions: "Als uw account bestaat, ontvangt u binnen enkele ogenblikken een e-mail met instructies hoe u uw account kunt ontgrendelen."
     omniauth:
       success: "Met succes geautoriseerd via %{kind} account."
       failure: "de %{kind} autorisatie is mislukt om de volgende reden: %{reason}."
@@ -59,13 +59,22 @@ nl:
         subject: "Instructies wachtwoord opnieuw instellen"
       unlock_instructions:
         subject: "Ontgrendel instructies"
-
+  
+  #Kaminari
+  en:
+  views:
+    pagination:
+      first: "&laquo; Eerste"
+      last: "Laatste &raquo;"
+      previous: "&lsaquo; Vorige"
+      next: "Volgende &rsaquo;"
+  
   # Reader
   app: "The Old Reader"
   eggs: "We ♥ jonge poesjes"
   title: "The Old Reader"
   meta:
-    description: "Het is de ultieme RSS reader. Importeer uw subscripties met één klik, vind uw vrienden en start delen."
+    description: "Het is de ultieme RSS reader. Importeer uw abonnementen met één klik, vind uw vrienden en start delen."
     keywords: "the old reader"
   landing:
     topmenu:
@@ -113,28 +122,37 @@ nl:
       title4: "Gaan jullie junk zenden naar mijn sociale netwerken of mijn links stelen?"
       text4: "Absoluut niet. We geloven niet dat dat de juiste manier van handelen is. U heeft volledige control over wat u deelt met uw sociale netwerken. als u iets deelt, krijgen uw frienden een directe link naar uw bericht. Niet een link naar onze website."
       title5: "Wat kost deze dienstverlening?"
+      text5: "The Old Reader is gratis te gebruiken tot %{free_count} feeds. Wij hebben ook een <u>premium versie</u> voor $%{price}/maand die de volgende functies heeft:"
+    sponsorship_opportunities: "Sponsorschap mogelijkheden zijn nu beschikbaar. kom meer te weten."
+  help: "Hulp nodig?"
   user:
     profile: "Profiel"
     logout: "Uitloggen"
     settings: "Instellingen"
     account: "Account"
+    subscriptions: "Abonnementen"
     failure: "Het %{kind} account dat u probeert te gebruiken is reeds gekoppeld aan een ander The Old Reader account. Annuleer het ander account en herstart de handeling."
     becomes_active_notice: "Hallo, fijn dat u terug bent! We hebben u al een poos niet gezien, daarom hebben w wat tijd nodig om uw leeslijst bij te werken. Maak u geen zorgen we verzamelen nog steeds uw abonnementen. U zult zo meteen uw nieuwe ongelezen berichten zien verschijnen."
   feeds:
     no_feeds:
-      text: "U heeft nog geen subscripties. U kunt u zich %{subscribe} op een nieuwe feed (wat dacht u van <a href='http://blog.theoldreader.com/rss' class='feed-subscribe'>onze blog</a>?) of uw subscripties %{import}.<br />Als u meer wilt weten, %{tour}."
+      text: "U heeft nog geen abonnementen. U kunt u zich %{subscribe} op een nieuwe feed (wat dacht u van <a href='http://blog.theoldreader.com/rss' class='feed-subscribe'>onze blog</a>?) of uw abonnementen %{import}.<br />Als u meer wilt weten, %{tour}."
       subscribe: "abonneren"
       import: "importeren"
       tour: "zie de tutorial"
     no_posts: "Er zijn hier nog geen berichten"
     no_posts_filler: "Geen berichten onder deze lijn. U heeft ze waarschijnlijk allemaal gelezen."
     subscribe: "Abonneren"
-    add_subscription: "voeg een subscriptie toe"
+    subscribed: "Geabonneerd"
+    add_subscription: "voeg een abonnement toe toe"
+    suggestions: "We komden geen exacte overeenkomst vinden, maar hier zijn wat suggesties voor feeds die ook aan uw vraag voldoen."
     add: "toevoegen"
+    url: "Sleutelwoord of feed URL"
+    unavailable_url: "Geen feeds gevonden voor dat sleutelwoord of URL"
     forbidden_url: "Feed kan niet worden opgehaald: toegang geweigerd"
     invalid_url: "U heeft een ongeldige URL ingevuld"
+    empty_url: "U heeft geen URL of sleutelwoord ingevuld"
     loading: "Aan 't laden..."
-    default_folder: "Subscripties"
+    default_folder: "Abonnementen"
     feeds: "Feeds"
     feeds_count:
       one: "feed"
@@ -157,6 +175,10 @@ nl:
     never: "Nooit"
     confirm: "Weet u het zeker?"
     mark_all_read: "Markeer alles als gelezen"
+    mark_all_read_day: "Ouder dan 1 dag"
+    mark_all_read_week: "Ouder dan 1 week"
+    mark_all_read_month: "Ouder dan 1 maand"
+    mark_all_read_year: "Ouder dan 1 jaar"
     search: "Zoeken"
     search_limits: "De zoekopdracht die u gebruikt is erg populair. We moeten daarom het aantal resultaten beperken. Als u alle resultaten wilt zien, maak u zoekopdracht dan gedetailleerder."
     mark_read: "Markeer als gelezen"
@@ -165,7 +187,9 @@ nl:
     shared: "Gedeeld"
     unshare: "Delen ongedaan maken"
     attach_note: "Wilt u een notitie toevoegen?"
-    attach: "Notitie toevoegen"
+    attach: "Notitie opslaan"
+    open_in_new_tab: "Bekijk website in nieuw tabblad"
+    add_to_the_old_reader: "Abonneer in The Old Reader"
     comments:
       one: "%{count} reactie"
       few: "%{count} reacties"
@@ -175,26 +199,30 @@ nl:
     comment_text: "Schrijf reactie"
     comment_destroy_confirm: "Wilt u werkelijk de reactie verwijderen?"
     comment_destroy_text: "Deze reactie is verwijderd door de gebruiker."
+    emoji_cheat_sheet: "Emoji Cheat-Sheet"
     post_author: "door <strong>%{author}</strong>"
     drop_add_folder: "Sleep hier na toe om een nieuwe map toe te voegen"
     new_folder: "Nieuwe map"
     star: "Ster"
     unstar: "Ster weghalen"
-    like: "Vind-ik-Leuk"
-    unlike: "Vind-ik-niet-meer-Leuk"
+    like: "Like"
+    unlike: "Unlike"
     send_to: "Zend naar"
+    mark_as_nsfw: "Markeer als ongepast"
+    mark_as_nsfw_confirm: "Weet u zeker dat u deze post wilt markeren als ongepast?"
     likes_count:
-      zero: "%{users} vinden dit Leuk"
-      one: "%{users} en een andere vinden dit leuk"
-      few: "%{users} and %{count} anderen vinden dit leuk"
-      many: "%{users} and %{count} anderen vinden dit leuk"
-      other: "%{users} and %{count} anderen vinden dit leuk"
+      zero: "%{users} liken dit"
+      one: "%{users} en één andere liken dit"
+      few: "%{users} and %{count} anderen liken dit"
+      many: "%{users} and %{count} anderen liken dit"
+      other: "%{users} and %{count} anderen liken dit"
     feed: "Feed"
     site: "Site"
     enclosure_url: "Bekijk bijgevoegd bestand (%{size}, %{type})"
     pocket: "Pocket"
     unpocket: "Unpocket"
     pocket_error: "Mislukt"
+    delete: "Verwijderen"
   home:
     following: "Laatste van uw vrienden"
     updated: "Recent bijgewerkt"
@@ -212,7 +240,8 @@ nl:
     starred: "Met Ster"
     liked: "Vind-ik-Leuk"
     shared: "Gedeeld"
-    following: "Vrienden"
+    bookmarked: "Met bladwijzer"
+    following: "Volgend"
     import: "Importeren"
     search: "Zoeken"
     settings: "Instellingen"
@@ -222,6 +251,7 @@ nl:
     tos: "Voorwaarden dienstverlening"
     privacy: "Privacy beleid"
     trending: "Trendy"
+    recommended: "Aanbevolen"
     donate: "Doneer"
     tour: "Tutorial"
     blog: "Blog"
@@ -229,6 +259,8 @@ nl:
     community: "Community hulpbronnen"
     apps: "Apps"
     account: "Account"
+    sponsorships: "Sponsorschappen"
+    sponsored_archive: "Gesponserde Posts"
   settings:
     tabs:
       main: "Main"
@@ -244,6 +276,8 @@ nl:
     password_confirmation: "Bevestig wachtwoord"
     password_notice: "laat leeg voor houden van huidig wachtwoord"
     token: "Token"
+    dont_email: "Zend aub geen e-mails naar mij"
+    use_ssl: "Gebruik een veilige <a href='http://en.wikipedia.org/wiki/HTTP_Secure' target='_blank'>HTTPS</a> verbinding"
     sign:
       title: "U kunt inloggen op dit account van The Old Reader met:"
       google: "Uw Google account"
@@ -253,8 +287,15 @@ nl:
       apps: "mobile apps"
     ui:
       title: "gebruikersinterface"
+      use_spritz: "Schakel <a href='http://www.spritzinc.com' target='_blank'>Spritz</a> in voor snel lezen (vereist een Spritz account)"
+      confirm_mark_all: "Bescherm me tegen het per ongeluk alles markeren als gelezen"
       click_to_scroll: "Klikken op een bericht om omlaag te scrollen"
+      scroll_to_read: "Scrollen door berichten"
+      scroll_to_read_never: "Nooit markeren als gelezen"
+      scroll_to_read_full: "Markeer als gelezen alleen in volledig overzicht"
+      scroll_to_read_always: "Markeer als gelezen zowel in volledig overzicht als in lijst overzicht"
       sidebar_unread_only: "Toon alleen die mappen/feeds die ongelezen items hebben"
+      sidebar_alpha: "Sorteer mappen/feeds alfabetisch"
       locale: "Taal"
     feed_display_mode:
       title: "Feed weergavemodus"
@@ -276,6 +317,8 @@ nl:
       cancel: "uw account annuleren"
       confirm: "Weet u het zeker?"
     social:
+      enable_private_mode: "Bescherm mijn gedeelde berichten"
+      enable_private_mode_info: "selecteren van deze optie zal alleen uw gedeelde berichten laten zien aan goedgekeurde volgers"
       notify_when_followed: "Waarschuw per e-mail wanneer iemand u begint te volgen"
       share_timeline: "Publiceer uw gedeelde items op uw Facebook pagina"
       connect_share_timeline: "Maak verbinding met Facebook om uw gedeelde berichten te publiceren"
@@ -315,13 +358,13 @@ nl:
         account: "Uw account: <strong>%{username}</strong>"
   import:
     title: "Importeren"
-    alert: "<b>Vul uw Google's gebruikersnaam en wachtwoord in om subscripties te importeren vanuit Google Reader</b><br />Wij slaan uw inlog gegevens niet op. Account informatie wordt alleen gebruikt om de subscripties te verkrijgen."
+    alert: "<b>Vul uw Google's gebruikersnaam en wachtwoord in om abonnementen te importeren vanuit Google Reader</b><br />Wij slaan uw inlog gegevens niet op. Account informatie wordt alleen gebruikt om de abonnementen te verkrijgen."
     opml: "<b>Kies een OPML-bestand</b><br />U kunt dit verkrijgen van de  Google Reader instellingen pagina.<br />Gebruik  <b>subscriptions.xml</b> van uw takeout zip-archief."
     email: "E-mail"
     password: "Wachtwoord"
     import: "Importeren"
     started: "Het importeren van feeds is behoorlijk bron intensief gebeuren, daarom laat ons systeem maar een beperkt aantal tegelijk lopende import operaties toe. Op dit moment zijn alle beschikbare plaatsen bezet, dus uw import operatie is in de wacht gezet."
-    queued: "Hartelijk dank voor het uploaden van uw OPML-bestand. We zullen spoedig met het importeren beginnen van uw subscripties."
+    queued: "Hartelijk dank voor het uploaden van uw OPML-bestand. We zullen spoedig met het importeren beginnen van uw abonnementen."
     queued_notice: "Er zijn <strong>%{count}</strong> gebruikers in de import wachtrij voor u."
     processing: "Uw feeds worden nu op de achtergrond geïmporteerd."
     error: "Er is iets mis gegaan"
@@ -330,6 +373,10 @@ nl:
   profile:
     follow: "Volgen"
     unfollow: "Niet meer volgen"
+    pending: "In behandeling"
+    approve: "Goedkeuren"
+    deny: "Weigeren"
+    remove: "Verwijderen"
     unfollow_confirm: "Wilt uw werkelijk het volgen staken? Uw gedeelde en Leuk gevonden berichten zullen niet worden verwijderd."
     thats_you: "Dat bent uzelf!"
     following:
@@ -342,6 +389,16 @@ nl:
       few: "gevolgt door <strong>%{count}</strong> gebruikers"
       many: "gevolgt door <strong>%{count}</strong> gebruikers"
       other: "gevolgt door <strong>%{count}</strong> gebruikers"
+    pending_followers:
+      one: "<strong>%{count}</strong> volgverzoek"
+      few: "<strong>%{count}</strong> volgverzoeken"
+      many: "<strong>%{count}</strong> volgverzoeken"
+      other: "<strong>%{count}</strong> volgverzoeken"
+    post_protected: "%{username}'s gedeelde berichten zijn beschermd."
+    protected_instructions_not_logged_in: "De gedeelde berichten van deze gebruiker zijn alleen zichtbaar voor goedgekeurde volgers."
+    protected_instructions_logged_in: "Klik de \"Volgen\" knop om een volgverzoek te sturen."
+    pending_approval: "Uw volgverzoek voor %{username}'s gedeelde berichten wacht op goedkeuring."
+    only_for_approved: "Deze gebruiker's gedeelde berichten zijn aleen zichtbaar voor goedgekeurde volgers."
     me_following: "<strong>%{count}</strong> volgend"
     my_followers: "<strong>%{count}</strong> volgers"
     posts: "Gedeelde berichten"
@@ -365,37 +422,46 @@ nl:
     google: "Login met Google"
   notifier:
     followed:
-      subject: "%{name} heeft u gevolgd"
+      subject: "%{name} volgd u"
       body: |
         Hallo, %{followed}!
 
-        %{name} volgt u nu. Mooi!
-        Zie het profiel op %{profile}.
+        Goed nieuws... %{name} volgt nu uw gedeelde berichten op The Old Reader. Klik hier om hun profiel te bekijken en hen op uw beurt te volgen:
+        %{profile}.
 
-        U kunt altijd uw abonnement opzeggen via de Instellingen pagina.
-    import:
+        Als u niet langer deze notificaties wilt ontvangen kunt u die uitzetten op het "Social" tabblad van uw Instellingen pagina.
+    follow_requested:
+      subject: "%{name} heeft een volgverzoek gestuurd"
+      body: |
+        Hallo, %{followed}!
+
+        %{name} heeft een volgverzoek gestuurd voor uw gedeelde berichten op The Old Reader.  Klik hier om het volgverzoek te accepteren of te weigeren:
+        %{accept_request}
+
+        Als u niet langer deze notificaties wilt ontvangen kunt u die uitzetten op het "Social" tabblad van uw Instellingen pagina.
+ import:
       subject: "Uw feeds zijn gereed, hoera!"
       body: |
         Hello %{name},
 
-        We kunne u informeren dat de import van uw abonnementen gereed is.
+        We kunnen u informeren dat de import van uw abonnementen gereed is.
         De feeds die u heeft geïmporteerd zijn nu beschikbaar op %{host}.
-        Met dank voor het gebruiken van The Old Reader.
-    confirmation:
+ confirmation:
       body: |
         Welkom %{name},
 
-        U kunt uw account via e-mail confirmeren door op de link hieronder te klikken:
+        U kunt bijna The old Reader gaan gebruiken. Bevestig eenvoudigweg uw e-mail door op de link hieronder te klikken:
         %{link}
+        
+        Laat ons weten of u enige assistentie nodig heeft. Wij help u dan graag.
     password:
       body: |
         Hallo %{name},
 
-        Iemand heeft een verzoek ingediend om uw wachtwoord te veranderen, hier is de link:
+        Er is een verzoek gedaan voor het opnieuw instellen van het wachtwoord voor uw account bij The Old Reader. U kunt u wachtwoord opnieuw insrtellen door te klikken op de link hieronder:
         %{link}
 
-        Als u dit verzoek niet zelf hebt gedaan, kunt u dit e-mailbericht negeren.
-        Uw wachtwoord zal niet worden veranderd zolang u niet op deze link hierboven klikt.
+        Als u dit verzoek niet zelf hebt gedaan, kunt u dit e-mailbericht negeren. Uw wachtwoord zal niet worden veranderd zolang u niet op deze link hierboven klikt.
   shortcuts:
     header: "Sneltoetscombinaties"
     note: "*Alleen Chrome, Safari en Opera"
@@ -413,6 +479,7 @@ nl:
         g then f: ga naar gesterde items
         g then l: ga naar vind-ik-leuk items
         g then s: ga naar gedeelde items
+        g then b: ga naar items met bladwijzer
         g then t: ga naar trendzettende items
         g then c: ga naar becommentaarde items
         g then p: ga naar gevolgde items
@@ -421,7 +488,7 @@ nl:
       body: |
         r: verversen huidige pagina
         /: zet focus op zoekveld
-        a: subscriptie toevoegen
+        a: abonnement toevoegen
         ? of h: toon dit helpvenster
     posts:
       title: "Sneltoetscombinaties voor berichten"
@@ -437,8 +504,9 @@ nl:
         f: ster een bericht
         s: deel een bericht
         m: maak een bericht gelezen/ongelezen
-        l: markeer een bericht als vind-ik-leuk
-        c: scroll naar opmekringen en open het formulier
+        l: markeer een bericht als geliket
+        c: scroll naar opmerkingen en open het formulier
+        i: gebruik Spritz om bericht te lezen
         1: schakel over naar volledige weergave
         2: schakel over naar lijstweergave
   alerts:
@@ -517,8 +585,8 @@ nl:
       add_feeds:
         title: "Feeds toevoegen"
         p1: "Uw nieuwe account bij The Old Reader is nog leeg, dus het eerste dat u nu moet doen is wat feeds toevoegen."
-        img1: "Gebruik de 'Voeg een subscriptie toe' knop om u te abonneren op een feed. Als u een webpagina URL invult inplaats van een directe feed URL, zullen we de eerste RSS-feed van die pagina automatisch toevoegen."
-        img2: "Als u migreert van Google Reader of elke andere RSS software dat subscripties kan exporteren naar een OPML-bestand, kunt u de  'Import' functie gebruiken om al uw feeds toe te voegen. We zullen zelfs al uw feed maps overzetten zodat u zich onmiddellijk thuis zal voelen in de interface."
+        img1: "Gebruik de 'Voeg een abonnement toe' knop om u te abonneren op een feed. Als u een webpagina URL invult inplaats van een directe feed URL, zullen we de eerste RSS-feed van die pagina automatisch toevoegen."
+        img2: "Als u migreert van Google Reader of elke andere RSS software dat abonnementen kan exporteren naar een OPML-bestand, kunt u de  'Import' functie gebruiken om al uw feeds toe te voegen. We zullen zelfs al uw feed maps overzetten zodat u zich onmiddellijk thuis zal voelen in de interface."
       organize:
         title: "Organiseren van feeds"
         img1: "U kunt feeds en mappen verslepen met de muis om hun positie te veranderen. Het aanmaken van een nieuwe map gaat makkelijk door het slepen van een feed naar een lege plek onder uw laatste map. Lege mappen worden automatisch verwijderd."
@@ -536,6 +604,9 @@ nl:
         img1: "Het is leuker over RSS feeds te praten. Ga naar de 'Vind Vrienden' pagina om te zien wie er onder uw Facebook vrienden of Google contacten The Old Reader gebruikt. U kunt vrienden ook op naam zoeken."
         img2: "Alle berichten die u heeft gedeeld staan in de 'Gedeeld' map. Items die uw vrienden hebben gedeeld staan in de 'Volgend' map. Zoals gebruikelijk kunt u de gehele map lezen of een specifieke gebruikersnaam kiezen om alle met deze gebruiker gedeelde berichten te lezen."
         img3: "U kunt commentaar leveren op elk met uw vrienden gedeeld bericht: klik gewoon op de 'Comment' knop en neem deel aan de discussie."
+      bookmarklet:
+        title: "Bookmarklet"
+        p1: "Sleep de link hieronder in uw browser's bladwijzerbalk om een openbare webpagina toe te voegen aan uw Old Reader."
       tips:
         title: "Tips & Trucs"
         p1: "Om u te kunnen abonneren op nieuwe feeds met een enkele muisklik, stel 'http://theoldreader.com/feeds/subscribe?url=%s' in in uw RSS feed handler of extensie;"
@@ -557,16 +628,21 @@ nl:
       introduction: "Hallo %{display_name},"
       notification_text: |
         <p>The Old Reader is bezig met het toevoegen van betaalde accounts om het onderhoud en verdere ontwikkeling van deze dienstverlening financieel te ondersteunen.
-        De nieuwe betaalde plannen zullen de volgnede voordelen offreren:
+        De nieuwe betaalde plannen zullen de volgende voordelen geven:
         <ul>
           %{summary}
         </ul></p>
-        <p>We zijn altijd ijverig bezig de beste RSS reader op het web te maken en hopen dan ook dat u wilt overwegen een premium versie aan te schaffen voor slechts $%{price} per maand (korting voor jaarlijks aanwezig).</p>
-        <p><strong>Een gratis plan is ook aanwezig voor gebruikers met minder dan %{free_limit} abonnementen.</strong> Hoewel de gratis versie niet alle functionaliteiten heeft van de premium versie, kunt u er zeker van zijn dat alle functies die nu aanwezig zijn, dat in de toekomst ook zullen zijn (en  we zullen meer gratis functies toevoegen in de toekomst).</p>
+        <p>We zijn altijd ijverig bezig de beste RSS reader op het web te maken en hopen dan ook dat u wilt overwegen
+         een premium versie aan te schaffen voor slechts $%{price} per maand (korting voor jaarlijks aanwezig).</p>
+        <p><strong>Een gratis plan is ook aanwezig voor gebruikers met minder dan %{free_limit} abonnementen.</strong> Hoewel de gratis
+         versie niet alle functionaliteiten heeft van de premium versie, kunt u er zeker van zijn dat alle functies die nu aanwezig zijn, 
+         dat in de toekomst ook zullen zijn (en  we zullen meer gratis functies toevoegen in de toekomst).</p>
         %{limit_specific_message}
         <p>Lees aub. <a href='http://blog.theoldreader.com/post/76417559063'>ons blogbericht</a> voor meer informatie over de verandering.</p>
       over_limit_message: |
-        <p>Wa laten de huidige toestands voor een paar weken zoals die is, zodat u tijd genoeg heeft om te beslissen. Na deze twee weken kunt u upgraden naar een premium versie of zoveel abonnmenten  als nidg verwijderen als nodig is voor de gratis versie. U heeft op dit moment <strong>%{current_count}</strong> abonnementen.</p>
+        <p>We laten de huidige toestand voor een paar weken zoals die is, zodat u tijd genoeg heeft om te beslissen. Na deze twee weken
+        kunt u upgraden naar een premium versie of zoveel abonnmenten  als nidg verwijderen als nodig is voor de gratis versie. U heeft 
+        op dit moment <strong>%{current_count}</strong> abonnementen.</p>
       under_limit_message: |
         </p>Aangezien u minder dan %{free_limit} feeds heeft, komt u in aanmerking voor een gratis account.</p>
       tos: "Door dit bericht te ngeren en door te gaan met The Old Reader, gaat u akkoord met onze <a href='%{tos}' target='_blank'>dienstverleningsvoorwaarden</a> en <a href='%{privacy}' target='_blank'>Privacy beleid</a>"
@@ -581,19 +657,23 @@ nl:
       import_partial: "Uw import is toegevoegd, maar we zullen alleen de eerste %{avail} abonnementen van %{total} verwerken. U heeft al %{current} abonnementen, uw limiet is %{limit}. U zou het aantal kunnen vergroten door te %{change} en opnieuw een import te doen."
       status: "u gebruikt op dit moment <strong>%{current}</strong> van de <strong>%{limit}</strong> abonnementen beschikbaar voor uw plan."
       should_upgrade: "%{status} U zou moeten overwegen te %{change}"
-      must_upgrade: "U moet upgraden om meer abonnement toe te kunnen voegen."
+      must_upgrade: "U moet upgraden om meer abonnementen toe te kunnen voegen."
       inactive: "U heeft meer abonnementen dan uw betalingsplan toelaat, dus zijn we gestopt met het ophalen van berichten. U kunt %{change}"
       upgrade_title: "Meer van het beste met The Old Reader Premium"
     trial:
       try: "Probeer GRATIS voor 14 dagen"
-      created: "Uw gratis proefperiode is ingegaan."
-      expiration: "Uw gratis proefperiode eindigt op"
-      expiration_desc: "Uw gratis proefperiode zal aflopen in %{dist}. U kunt %{change} of %{extend}"
+      created: "Uw proefperiode is ingegaan."
+      expiration: "Uw proefperiode eindigt op"
+      expiration_desc: "Uw proefperiode zal aflopen in %{dist}. U kunt %{change} of %{extend}"
+      expiration_desc_no_extension: "Uw proefperiode zal aflopen in %{dist}. Overweeg deze site te ondersteunen met een %{change}"
       extend: "uw proefperiode verlengen."
       extended: "Uw proefperiode is verlengd."
       expired: "Uw proefperiode is verlopen. U kunt %{change} of %{extend}"
+      expired_no_extension: "Uw proefperiode is verlopen. Overweeg aub deze site te ondersteunen met een %{change}"
       expired_over_limit: "Uw proefperiode is verlopen en u bent over de gratis account limiet. We zijn daarom gestopt met het ophalen van nieuwe berichten. U kunt %{change} of %{extend}"
+      expired_no_extension_over_limit: "Uw proefperiode is verlopen en u bent over de gratis account limiet, dus zijn we gestopt met het ophalen van nieuwe berichten. Overweeg aub deze site te ondersteunen met een %{change}"
     card:
+      name: "Naam op Creditkaart"
       number: "Creditkaart nummer"
       code: "Beveiligingscode (CVC)"
       expiration: "Geldig tot"
@@ -603,10 +683,17 @@ nl:
       status_desc:
         stripe:
           payment_failed: "Met uw huidige creditkaart kon niet worden betaald. Ga naar <a href='%{account_url}'>accounts</a> om uw betalingsgegevens bij te werken."
+        paypal:
+          payment_failed: "Your Paypal betaling is mislukt. Ga aub naar <a href=\"http://www.paypal.com\" target=\"_blank\">Paypal.com</a> om uw informatie bij te werken."
+      paypal: "Paypal Express Checkout"
     plan: "Gekozen betalingsplan"
     plans:
       monthly_description: "$%{price} per maand"
+      monthly_onetime_discount: "($%{initial_price} voor de eerste maand)"
       yearly_description: "$%{price} per jaar"
+      yearly_onetime_discount: "($%{initial_price} voor het eerste jaar)"
+      discount: "($%{discount_price} korting met coupon)"
+      onetime_description: "$%{price} eenmalige betaling"
       summary_title: "Premium Account kenmerken:"
       summary: |
         <li>No Advertisements</li>
@@ -619,8 +706,11 @@ nl:
       other: "andere betalingsplan opties"
       subscriptions: "Tot %{subscriptions} feeds"
       bigger_plans: "Uitgebreider betalingsplan aanwezig"
+      max_posts: "Tot 4000 berichten per feed"
+      paypal_description: "The Old Reader Premium %{frequency} abonnement voor %{subscriptions} feeds"
     payments:
       errors:
+        missing_name: "Vul de naam van de kaarthouder in zoals die staat op de Creditkaart."
         incorrect_number: "Het kaartnummer is onjuist."
         invalid_number: "Dit kaartnummer is ongeldig."
         invalid_expiry: "The card's expiration is invalid."
@@ -632,27 +722,88 @@ nl:
         incorrect_zip: "De zipcode van de kaart kon niet worden gevalideerd."
         card_declined: "De kaart is geweigerd."
         missing: "Er is geen kaart van een client waarvan kon worden afgeschreven."
+        processing_error: "Er is een fout opgetreden bij het verwerken van uw betaling."
+        invalid_coupon: "De ingevuld couponcode is ongeldig."
+        retrying_on: "We zullen de bataling op %{retry_date} opnieuw proberen."
+        missing_plan: "Moet geselecteerd zijn"
+        stripe:
+          update_payment_info: "Werk uw betalingsinformatie hieronder bij."
+        paypal:
+          update_payment_info: "Werk uw betalingsinformatie bij op Paypal.com."
       history_title: "Betalingsgeschiedenis"
       date_column: "Datum"
       amount_column: "Bedrag (USD)"
       next_payment: "Volgende betalingsdatum"
+      onetime_end_date: "Abonnement stopt"
       info_unavailable: "Betalingsinformatie is niet aanwezig"
+      account_pending: "Betaling in behandeling"
+      current_info_title: "Huidige betaald Account Informatie"
+      current_payment_method: "Betalingsmethode"
+      current_pricing_plan: "Betalingsplan"
+      current_subscription_level: "Soort abonnement"
+      paypal_transaction_cancelled: "Paypal checkout geannuleerd"
+      paypal_change_plan: "Om uw Paypal Express Checkout plamn te veranderen, contacteer <a href='mailto:support@theoldreader.com'>support</a>."
+      credit_card: "Creditkaart"
+      paypal_express: "Paypal Express Checkout"
+      paypal_germany_notice: "Bent u een gebruiker uit Duitsland en heeft u problemen met Paypal doorlopende betalingen?"
+      paypal_germany_notice_link: "Klik hier"
+      paypal_confirm_notice: "Door te klikken op de Bijwerken account kmop hieronder, wordt u geauthorizeerde %{price} geïnitieerd bij Paypal en uw Old Reader Premium account wordt aangemaakt."
+      paypal_confirm_cancel: "Annuleer"
+      view_receipt: 'Bekijk factuur'
+      coupon_header: 'Coupon'
+      coupon_label: 'Vul Couponcode in'
+      paypal_header: 'Betaal met PayPal'
+      cc_header: 'Betaal met creditkaart of bankpas'
+      cancelled_title: 'Doorlopende betalingen geannuleerd'
+      cancelled_line_1: 'Uw doorlopende betaling is geannuleerd. U heeft betaald tot <b>%{expires_date}</b> en uw premium account zal actief blijven tot dat tijdstip.'
+      cancelled_line_2: 'Vul de betalingsinformatie hieronder in om de nieuwe doorlopende betaling te starten. <a href="mailto:support@theoldreader.com">Contacteer ons</a> als u enige assistentie nodig heeft of vragen hebt.'
+      need_help: "Hulp nodig? E-mail ons op"
     tos: "Ik ga akkoord met de <a href='%{tos}' target='_blank'>dienstverleningsvoorwaarden</a> en <a href='%{privacy}' target='_blank'>privacy beleid</a>"
     tos_error: "U moet akkoord gaan met onze dienstverleningsvoorwaarden en en privacy beleid"
     stripe: "De betaling wordt veilig afgehandeld via <a href='http://stripe.com' target='_blank'>Stripe</a>."
     submit: "Bijwerken account"
+    cancel: "Annuleer mijn betalingen"
+    cancel_header: "Anuleren van betalingen"
+    cancel_info: "Annuleren zal uw doorlopende betalingen stoppen. Uw premium account zal doorlopen tot het einde van uw huidige betalingsperiode op <b>%{expires_date}</b>."
+    cancel_pending_info: "U kunt uw betalingen niet annuleren als deze nog in behandeling zijn."
+    cancel_confirm: "Weet u zeker dat u de betalingen wilt annuleren?"
     successful_create: "Account met succes aangemaakt"
     successful_update: "Account met succes bijgewerkt"
+    successful_destroy: "Betaling met succes geannuleerd"
+    failed_destroy: "Annulering betalingen mislukt"
     title: "Premium Account"
+    paypal_title: "Bevestig Paypal aankoop"
+    paypal_onetime_title: "Instellen eenmalige betaling aan Paypal"
     form_title: "Betalingsinformatie"
     emails:
+      unsubscribe: "Om u af te melden voor alle toekomstige e-mails, klik op de volgende link:"
+      unsubscribed: "U bent met succes afgemeld voor alle toekomstige e-mails."
       payment_failed:
         subject: "The Old Reader betaling is mislukt"
         stripe:
           body: |
             Hallo %{name},
 
-            Een poging om om uw abonnement op onze premium service toe betalen via uw creditkaart is mislukt. U wordt verzocht zo spoedig mogelijk bij op de accounts pagina: %{manage_url} uw betalingsgegevens bij te werken. Komen er opnieuw mislukking voor dan kan dit resulteren in verwijdering van uw betaalde account.
+            Dank u voor uw steun aan The old Reader.
+
+            Wij willen u laten weten, dat een poging om uw abonnement op onze premium service toe betalen via uw creditkaart is mislukt. 
+            
+            U kunt uw creditkaart informatie bijwerken op onze accounts pagina. Laat ons aub weten of u enige assistentie nodig heeft en wij zullen u graag helpen.
+            
+            %{manage_url}
+            
+           Uw steun is zeer belangrijk voor het voortdurende succes van The old Reader.
+        paypal:
+          body: |
+            Hallo, %{name}
+
+            Dank u voor uw steun aan The old Reader.
+
+            Wij willen u laten weten, dat een poging uw Paypal account te belasten voor uw abonnement, is mislukt.
+
+            U kunt uw betalingsinformatie bijwerken op http://www.paypal.com. Laat ons aub weten of u enige assistentie nodig heeft en wij zullen u graag helpen.
+            
+            Uw steun is zeer belangrijk voor het voortdurende succes van The old Reader.
       almost_inactive:
         subject: "Houd uw Old Reader account actief!"
         body: |
@@ -663,3 +814,118 @@ nl:
           Om er zeker van te zijn dat u niets mist hoeft u zich alleen maar aan te melden bij The Old Reader. U kunt ook bekijken wat er nieuw is als u daar toch bent!
 
           https://theoldreader.com
+      almost_expired:
+        subject: "Your Old Reader Premium account is about to expire"
+        body: |
+          <p>Hallo %{name},</p>
+          <p>Uw Old Reader Premium account staat op het punt te verlopen. Bezoek uw <a href="%{manage_url}">accounts pagina</a> om een nieuw
+          premium lidmaatschap te beginnen.</p
+          <p>Loop niet alle premium functies mis:
+          <ul>
+            %{summary}
+          </ul></p>
+      almost_renewing:
+        subject: "The Old Reader - Premium abonnment"
+        hello: "Hallo"
+        thanks: "Wij willen u bedanken voor het nemen van een Premium Abonnment op The Old Reader. Het afgelopen jaar hebben we erg veel verbeteringen kunnen aanbrengen wat in grote mate dankzij de steun van gebruikers zoals u kon gebeuren.  Hier zij een aantal van de hoogtepunten:"
+        speed_title: "Website's snelheid, stabiliteit en beschikbaarheid"
+        speed_text: "Sinds februari 2014 zijn we voor 99.999% in de lucht geweest, is de verversing van feeds 70% sneller geweest en laden pagina's 10 keer sneller."
+        bookmarklet_title: "De  Bookmarklet"
+        bookmarklet_text: "Voeg elke webpagina toe aan The Old Reader en deel het met uw vrienden."
+        reeder_title: "Ondersteuning voor Reeder iOS App"
+        organize_title: "Hulpmiddelen voor het organiseren van uw feeds"
+        https_title: "Veilig browsen als standaard"
+        auto_renew: "Uw jaarlijkse abonnement is gepland voor automatisch vernieuwing op <b>%{renew_date}</b>. Wij hopen dat u van onze dienst gebruik blijft maken. Als u enige op- of aanmerkingen heeft of feedback wilt geven, stuur een bericht naar <a href=\"mailto:support@theoldreader.com\">support@theoldreader.com</a>."
+      receipt:
+        subject: "The Old Reader betalingsbewijs"
+        hi: "Hallo"
+        info: "Dit is het betalingsbewijs voor uw Old Reader premium account abonnement."
+        invoice: "Factuur"
+        description: "Omschrijving"
+        user: "Gebruiker"
+        amount: "Bedrag: USD"
+        thanks: "Dank u"
+        questions: "Zend vragen naar"
+  spritz:
+    reading_time: 'Spritz leestijd voor dit bericht'
+    less_than_a_minute: 'Minder dan een minuut'
+    minutes: 'minuten'
+    one_minute: '1 minuut'
+    must_be_logged_in: '*U moet ingelogd zijn bij Spritz om 50, 100, 500, 550, en 600 woorden per minuut te lezen.'
+    image_alt_tag: 'Spritz dit bericht'
+  bookmarklet:
+    new: "Maak een bladwijzer bij dit bericht"
+    title: "Titel"
+    cancel: "Annuleren"
+    create: "Maak een bladwijzer"
+    delete_confirm: "Weet u zeker dat u dit bericht met bladwijzer wilt verwijderen?"
+    error_title: "Fout bij opslaan bladwijzer"
+    error_line_1: "Wij waren niet in staat de pagina op %{link}, waarop u een bladwijzer wilde maken, te benaderen of te parseren"
+    error_line_2: "Maak aub contact via %{support_link} voor vragen of problemen."
+    premium_only: "Bladwijzers maken bij berichten vereist een Premium lidmaatschap. Upgrade naar Premium of begin een gratis proefperiode."
+    explanation: "Sleep %{link} naar uw browser's bladwijzerbalk om berichten van websites toe te voegen."
+    link_text: "Voeg toe aan The Old Reader"
+    cant_do_that: "Als u een The Old Reader bladwijzer wilt toevoegen aan The Old Reader zal het universum imploderen één groot zwart gat worden."
+  subscriptions:
+    title: "Beheer abonnementen"
+    selection_with: "Met"
+    selection_selected: "geselecteerd"
+    move_to_folder: "Verplaats naar map"
+    create_new_folder: "Maak nieuwe map"
+    rename_folder: "Hernoem map"
+    unsubscribe: "Afmelden"
+    feed_title: "Feed titel"
+    last_updated: "Laatst bijgewerkt"
+    no_folder_filter: "Geen map filter"
+    feed_actions: "Acties"
+    rename_feed: "Hernoem"
+    individual:
+      unsubscribe_confirm: "Weet u zeker dat u zich wilt afmelden voor dit feed-abonnement?"
+      move_confirm: "Weet u zeker dat u deze feed wilt verplaatsen?"
+    multiple:
+      unsubscribe_confirm: "Weet u zeker dat u zich wilt afmelden voor deze feed-abonnementen?"
+      move_confirm: "Weet u zeker dat u deze feeds wilt verplaatsen?"
+    create_modal:
+      title: "Maken van nieuwe map"
+      blank_folder: "Naam van map kan niet leeg blijven"
+      folder_name: "Map naam"
+      cancel: "Annuleren"
+      create: "Maak map"
+    rename_modal:
+      title: "Hernoemen map"
+      create: "Hernoem folder"
+    rename_feed_modal:
+      title: "Hernoem abonnement"
+      blank_feed: "Abonnementsnaam kan niet leeg blijven"
+      feed_name: "Abonnementsnaam"
+      cancel: "Annuleren"
+      create: "Hernoem abonnement"
+    info: 'Hieronder staat een lijst van uw huidige feeds. Via deze pagina kunt u zich afmelden van bestaande feeds en eveneens de feeds in mappen organiseren. U kunt de sorteervolgorde en zichtbaarheid beheren voor uw feeds en mappen in <a href="/users/edit">instellingen</a>.'
+  emails:
+    read_discover_share: "LEES, ONTDEK, DEEL."
+    unsubscribe: "afmelden"
+    copyright: "Auteursrechten &copy; %{year} The Old Reader, Alle rechten voorbehouden."
+    thanks_line_1: "Dank voor het gebruiken van The Old Reader!"
+    thanks_line_2: "The Old Reader Team"
+  api:
+    sponsored_feed_title: "The Old Reader gesponsorde berichten"
+  new_user_setup:
+    skip: "Sla dit over, ik ben Oké."
+    next: "Volgende"
+    close: "Sluiten"
+    step_1_title: "Welkom bij The Old Reader!"
+    step_1_text_1: "Hartelijk dank voor het aanmelden bij The Old Reader!"
+    step_1_text_2: "Wij maken wat feeds voor u, zodat u kunt zien doe het werkt. Terwijl we daar mee bezig zijn kunt u tijd maken om wat functies van de site te bekijken."
+    step_1_text_3: "Als er iets is wat u niet duidelijk is of meer informatie over wenst, aarzel dan niet ons te contacteren op <a href=\"mailto:support@theoldreader.com\">support@theoldreader.com</a>"
+    step_1_text_4: "Klik de \"Volgende\" knop hierboven om te beginnen."
+    step_2_title: "Snelstart: Abonneren op nieuwe feeds"
+    step_2_text: "Om u te abonneren op een nieuwe feed klikt u op de \"Toevoegen abonnement\" knop in de linkerbovenhoek van de pagina en vult het adres in van de feed waarop u zich wilt abonneren."
+    step_3_title: "Snelstart: Vinden en volgen van vrienden"
+    step_3_text: "Door verbinding te maken met vrienden kunt u berichten delen en met hen becommentariëren. U kunt op naam zoeken of via Facebook of Google."
+    step_4_title: "Snelstart: Delen"
+    step_4_text: "Als u een bericht deelt in The Old Reader wordt het bericht verzonden naar alle gebruikers die u volgen. zodra een bericht wordt gedeeld krijgen uw vrienden een notificatie en kunt u gezamenlijk het bericht becommentariëren."
+    step_5_title: "Snelstart: Importeren van abonnementen"
+    step_5_text: "Als u bij ons komt van een andere RSS reader kunt u de berichten van het vorige  platform exporteren en datzelfde bestand gemakkelijk importeren in The Old Reader."
+    step_6_title: "Snelstart: Ga voor Premium!"
+    step_6_text: "<b>Upgrade naar premium!</b> We bieden een betaalde premium versie aan van The Old Reader die u ervaring hiermee op belangrijke wijze verbeterd. Onze premium dienst biedt de volgende belangrijke voordelen aan:"
+    
