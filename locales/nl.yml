@@ -59,7 +59,7 @@ nl:
         subject: "Instructies wachtwoord opnieuw instellen"
       unlock_instructions:
         subject: "Ontgrendel instructies"
-  
+
   #Kaminari
   en:
   views:
@@ -68,7 +68,7 @@ nl:
       last: "Laatste &raquo;"
       previous: "&lsaquo; Vorige"
       next: "Volgende &rsaquo;"
-  
+
   # Reader
   app: "The Old Reader"
   eggs: "We ♥ jonge poesjes"
@@ -439,20 +439,20 @@ nl:
         %{accept_request}
 
         Als u niet langer deze notificaties wilt ontvangen kunt u die uitzetten op het "Social" tabblad van uw Instellingen pagina.
- import:
+    import:
       subject: "Uw feeds zijn gereed, hoera!"
       body: |
         Hello %{name},
 
         We kunnen u informeren dat de import van uw abonnementen gereed is.
         De feeds die u heeft geïmporteerd zijn nu beschikbaar op %{host}.
- confirmation:
+    confirmation:
       body: |
         Welkom %{name},
 
         U kunt bijna The old Reader gaan gebruiken. Bevestig eenvoudigweg uw e-mail door op de link hieronder te klikken:
         %{link}
-        
+
         Laat ons weten of u enige assistentie nodig heeft. Wij help u dan graag.
     password:
       body: |
@@ -635,13 +635,13 @@ nl:
         <p>We zijn altijd ijverig bezig de beste RSS reader op het web te maken en hopen dan ook dat u wilt overwegen
          een premium versie aan te schaffen voor slechts $%{price} per maand (korting voor jaarlijks aanwezig).</p>
         <p><strong>Een gratis plan is ook aanwezig voor gebruikers met minder dan %{free_limit} abonnementen.</strong> Hoewel de gratis
-         versie niet alle functionaliteiten heeft van de premium versie, kunt u er zeker van zijn dat alle functies die nu aanwezig zijn, 
+         versie niet alle functionaliteiten heeft van de premium versie, kunt u er zeker van zijn dat alle functies die nu aanwezig zijn,
          dat in de toekomst ook zullen zijn (en  we zullen meer gratis functies toevoegen in de toekomst).</p>
         %{limit_specific_message}
         <p>Lees aub. <a href='http://blog.theoldreader.com/post/76417559063'>ons blogbericht</a> voor meer informatie over de verandering.</p>
       over_limit_message: |
         <p>We laten de huidige toestand voor een paar weken zoals die is, zodat u tijd genoeg heeft om te beslissen. Na deze twee weken
-        kunt u upgraden naar een premium versie of zoveel abonnmenten  als nidg verwijderen als nodig is voor de gratis versie. U heeft 
+        kunt u upgraden naar een premium versie of zoveel abonnmenten  als nidg verwijderen als nodig is voor de gratis versie. U heeft
         op dit moment <strong>%{current_count}</strong> abonnementen.</p>
       under_limit_message: |
         </p>Aangezien u minder dan %{free_limit} feeds heeft, komt u in aanmerking voor een gratis account.</p>
@@ -786,13 +786,13 @@ nl:
 
             Dank u voor uw steun aan The old Reader.
 
-            Wij willen u laten weten, dat een poging om uw abonnement op onze premium service toe betalen via uw creditkaart is mislukt. 
-            
+            Wij willen u laten weten, dat een poging om uw abonnement op onze premium service toe betalen via uw creditkaart is mislukt.
+
             U kunt uw creditkaart informatie bijwerken op onze accounts pagina. Laat ons aub weten of u enige assistentie nodig heeft en wij zullen u graag helpen.
-            
+
             %{manage_url}
-            
-           Uw steun is zeer belangrijk voor het voortdurende succes van The old Reader.
+
+            Uw steun is zeer belangrijk voor het voortdurende succes van The old Reader.
         paypal:
           body: |
             Hallo, %{name}
@@ -802,7 +802,7 @@ nl:
             Wij willen u laten weten, dat een poging uw Paypal account te belasten voor uw abonnement, is mislukt.
 
             U kunt uw betalingsinformatie bijwerken op http://www.paypal.com. Laat ons aub weten of u enige assistentie nodig heeft en wij zullen u graag helpen.
-            
+
             Uw steun is zeer belangrijk voor het voortdurende succes van The old Reader.
       almost_inactive:
         subject: "Houd uw Old Reader account actief!"
@@ -928,4 +928,3 @@ nl:
     step_5_text: "Als u bij ons komt van een andere RSS reader kunt u de berichten van het vorige  platform exporteren en datzelfde bestand gemakkelijk importeren in The Old Reader."
     step_6_title: "Snelstart: Ga voor Premium!"
     step_6_text: "<b>Upgrade naar premium!</b> We bieden een betaalde premium versie aan van The Old Reader die u ervaring hiermee op belangrijke wijze verbeterd. Onze premium dienst biedt de volgende belangrijke voordelen aan:"
-    
