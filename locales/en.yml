@@ -166,6 +166,7 @@ en:
       other: "posts"
     your_posts: "You have <em>%{unread}</em> unread %{posts}"
     refresh: "Refresh"
+    refresh_all_cl: "All My Craigslist Feeds in Background"
     unsubscribe: "Unsubscribe"
     unsubscribe_confirm_feed: "Do you really want to unsubscribe? Your shared and liked posts from this feed will not be removed."
     unsubscribe_confirm_folder: "Do you really want to unsubscribe from all feeds within this folder? Your shared and liked posts from feeds within this folder will not be removed."
@@ -652,6 +653,7 @@ en:
         <p>The Old Reader Team</p>
     limits:
       change: "upgrade to premium"
+      upgrade: "Upgrade"
       subscribe: "Feed was not added. You already have %{current} subscriptions, your limit is %{limit}. You should %{change}."
       import_full: "Your import was not added. You already have %{current} subscriptions, your limit is %{limit}. You might want to increase by %{change} and re-import again."
       import_partial: "Your import was added, but we will process only first %{avail} subscriptions of %{total}. You already have %{current} subscriptions, your limit is %{limit}. You might want to increase by %{change} and re-import again."
@@ -706,7 +708,7 @@ en:
       other: "Other plan options"
       subscriptions: "Up to %{subscriptions} feeds"
       bigger_plans: "Larger plans are available"
-      max_posts: "Up to 4000 posts per feed"
+      max_posts: "Up to 1000 posts per feed"
       paypal_description: "The Old Reader Premium %{frequency} subscription for up to %{subscriptions} feeds"
     payments:
       errors:
@@ -724,6 +726,9 @@ en:
         missing: "There is no card on a customer that is being charged."
         processing_error: "An error occurred while processing your payment."
         invalid_coupon: "The coupon code entered is invalid."
+        invalid_coupon_yearly: "You must select a yearly plan to use this coupon code."
+        invalid_coupon_monthly: "You must select a monthly plan to use this coupon code."
+        invalid_coupon_expired: "This coupon code has expired."
         retrying_on: "We will retry payment on %{retry_date}."
         missing_plan: "must be selected"
         stripe:
