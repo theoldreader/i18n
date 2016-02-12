@@ -239,6 +239,7 @@ de:
     tos: "Nutzungsbedingungen"
     privacy: "Datenschutzerklärung"
     trending: "Trends"
+    recommended: "Empfohlen"
     donate: "Spenden"
     tour: "Tour"
     blog: "Blog"
@@ -247,6 +248,7 @@ de:
     apps: "Apps"
     account: "Konto"
     sponsorships: "Sponsoren"
+    sponsored_archive: "Gesponserte Beiträge"
   settings:
     tabs:
       main: "Kontoeinstellungen"
@@ -303,6 +305,8 @@ de:
       cancel: "Konto kündigen"
       confirm: "Sind Sie sicher?"
     social:
+      enable_private_mode: "Meine geteilten Beiträge schützen"
+      enable_private_mode_info: "bei der Auswahl dieser Option werden geteilte Beiträge nur Nutzern angezeigt, die Sie vorher explizit als Follower bestätigt haben"
       notify_when_followed: "Per E-Mail benachrichtigen wenn Ihnen jemand folgt"
       share_timeline: "Geteilte Beiträge auf Facebook veröffentlichen"
       connect_share_timeline: "Mit Facebook verbinden um geteilte Beiträge zu veröffentlichen"
@@ -611,3 +615,38 @@ de:
     explanation: "Ziehen Sie %{link} in die Lesezeichenleiste Ihres Browser um Beiträge von jeder Webseite als Lesezeichen speichern zu können."
     link_text: "Zu The Old Reader zufügen"
     cant_do_that: "Wenn Sie versuchen The Old Reader in The Old Reader als Lesezeichen zu erstellen, wird sich das Universum in ein riesiges schwarzes Loch verwandeln und alles zerstören!"
+  subscriptions:
+    title: "Abonnements verwalten"
+    selection_with: "Folgende Aktion mit"
+    selection_selected: "ausgewählten Beiträgen durchführen"
+    move_to_folder: "in Ordner verschieben"
+    create_new_folder: "Neuen Ordner erstellen"
+    rename_folder: "Ordner umbenennen"
+    unsubscribe: "Abo beenden"
+    feed_title: "Abo-Titel"
+    last_updated: "Zuletzt aktualisiert"
+    no_folder_filter: "Keine Filterung nach Ordner"
+    feed_actions: "Aktionen"
+    rename_feed: "Umbenennen"
+    individual:
+      unsubscribe_confirm: "Möchten Sie dieses Abo wirklich beenden?"
+      move_confirm: "Möchten Sie dieses Abo wirklich verschieben?"
+    multiple:
+      unsubscribe_confirm: "Möchten Sie die ausgewählten Abonnements wirklich beenden?"
+      move_confirm: "Möchten Sie die ausgewählten Abonnements wirklich verschieben?"
+    create_modal:
+      title: "Neuen Ordner erstellen"
+      blank_folder: "Der Ordnername darf nicht leer sein"
+      folder_name: "Ordername"
+      cancel: "Abbrechen"
+      create: "Ordner erstellen"
+    rename_modal:
+      title: "Ordner umbenennen"
+      create: "Ordner umbenennen"
+    rename_feed_modal:
+      title: "Abo-Titel ändern"
+      blank_feed: "Abo-Titel darf nicht leer sein"
+      feed_name: "Abo-Titel"
+      cancel: "Abbrechen"
+      create: "Abo-Titel ändern"
+    info: 'Auf dieser Seite finden Sie eine Liste Ihrer aktuellen Abonnements. Sie können bestehende Abonnements beenden, in Ordnern organisieren oder umbenennen. Die Sortierung der Beiträge und Sichtbarkeitseinstellungen Ihrer Abonnements können Sie in den <a href="/users/edit">Einstellungen</a> ändern.'
