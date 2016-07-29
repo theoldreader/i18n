@@ -277,7 +277,8 @@ en:
     password_change: "Change"
     password_notice: "Your password will not be changed until you press the 'Save changes' button"
     token: "Token"
-    dont_email: "Please don't email me"
+    dont_email_news_updates: "Please don't email me news and updates."
+    dont_email_recs: "Please don't email me feed or post recommendations."
     use_ssl: "Use a secure <a href='http://en.wikipedia.org/wiki/HTTP_Secure' target='_blank'>HTTPS</a> connection"
     sign:
       title: "You can log in to this The Old Reader account using:"
@@ -749,6 +750,7 @@ en:
       paypal_transaction_cancelled: "Paypal checkout cancelled"
       paypal_change_plan: "To change your plan for Paypal Express Checkout, contact <a href='mailto:support@theoldreader.com'>support</a>."
       credit_card: "Credit Card"
+      credit_card_ending_in: "your credit card ending in: %{last_four}"
       paypal_express: "Paypal Express Checkout"
       paypal_germany_notice: "Are you a user in Germany and having problems with Paypal recurring payments?"
       paypal_germany_notice_link: "Click here"
@@ -781,8 +783,13 @@ en:
     paypal_onetime_title: "Setup One-Time Payment to Paypal"
     form_title: "Payment Information"
     emails:
-      unsubscribe: "To unsubscribe from all future emails, click on following link:"
-      unsubscribed: "You have been successfully unsubscribed from all future emails."
+      unsubscribe: "Unsubscribe"
+      unsubscribe_description: "Please tell us which email types you would like to unsubscribe from:"
+      recs: "Feed and Post Recommendations"
+      news_and_updates: "News and Updates"
+      all: "All Emails"
+      unsubscribed: "Your email preferences have been updated"
+      unable_to_unsubscribe: "We were unable to update your email preferences. Please contact support at support@theoldreader.com"
       payment_failed:
         subject: "The Old Reader Payment Failed"
         stripe:
@@ -840,7 +847,7 @@ en:
         reeder_title: "Support for Reeder iOS App"
         organize_title: "Tools for Organizing Your Feeds"
         https_title: "Secure Browsing by Default"
-        auto_renew: "Your annual subscription is scheduled to auto-renew on <b>%{renew_date}</b>. We hope you'll continue using our service. If you have any thoughts or feedback get in touch with us at <a href=\"mailto:support@theoldreader.com\">support@theoldreader.com</a>."
+        auto_renew: "Your <b>%{renewal_price}</b> subscription is scheduled to auto-renew on <b>%{renew_date}</b> using <b>%{renew_payment_info}</b>. We hope you'll continue using our service. If you have any thoughts or feedback get in touch with us at <a href=\"mailto:support@theoldreader.com\">support@theoldreader.com</a>."
       receipt:
         subject: "The Old Reader Payment Receipt"
         hi: "Hello"
@@ -851,6 +858,15 @@ en:
         amount: "Amount: USD"
         thanks: "Thank You"
         questions: "Please send any questions to"
+      recommended_feeds:
+        subject: "New Year, New Knowledge"
+        intro_text: "Here's some feeds we think you'll love!"
+        feeds_button: "Go to Your Feeds"
+      fix_feed:
+        subject: "Keep Up to Date on %{feed_title}"
+        intro_text: "Hey, it looks like the %{feed_link} has moved. When it comes to your feeds, we've got your back. Make sure to update your feed so you can stay up to date and share the content that matters to you. Read on!"
+        feed_link_text: "%{feed_title} feed"
+        feed_button: "Subscribe to the Updated Feed"
   spritz:
     reading_time: 'Spritz reading time for this post'
     less_than_a_minute: 'Less than a minute'

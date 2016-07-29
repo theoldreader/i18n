@@ -264,7 +264,6 @@ de:
     password_change: "Ändern"
     password_notice: "Ihr Passwort wird erst geändert, wenn Sie auf den Button \"Änderungen speichern\" klicken"
     token: "Token"
-    dont_email: "Bitte senden Sie mir keine E-Mails"
     use_ssl: "Eine sichere <a href='http://de.wikipedia.org/wiki/HTTPS' target='_blank'>HTTPS</a> Verbindung nutzen"
     sign:
       title: "Sie können sich wie folgt in diesen The Old Reader Account einloggen:"
@@ -594,7 +593,7 @@ de:
         <li>Integration von Instapaper und Readability</li>
         <li>Als Erster Zugriff auf neue Features</li>
       bigger_plans: "Noch nicht genug? Wir haben noch größere Tarif-Pakete!"
-      max_posts: "Bis zu 4000 Beiträge pro abonniertem Feed"
+      max_posts: "Bis zu 1000 Beiträge pro abonniertem Feed"
   spritz:
     reading_time: 'Spritz-Lesezeit für diesen Beitrag'
     less_than_a_minute: 'Weniger als eine Minute'

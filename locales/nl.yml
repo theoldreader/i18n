@@ -276,7 +276,6 @@ nl:
     password_confirmation: "Bevestig wachtwoord"
     password_notice: "laat leeg voor houden van huidig wachtwoord"
     token: "Token"
-    dont_email: "Zend aub geen e-mails naar mij"
     use_ssl: "Gebruik een veilige <a href='http://en.wikipedia.org/wiki/HTTP_Secure' target='_blank'>HTTPS</a> verbinding"
     sign:
       title: "U kunt inloggen op dit account van The Old Reader met:"
@@ -706,7 +705,7 @@ nl:
       other: "andere betalingsplan opties"
       subscriptions: "Tot %{subscriptions} feeds"
       bigger_plans: "Uitgebreider betalingsplan aanwezig"
-      max_posts: "Tot 4000 berichten per feed"
+      max_posts: "Tot 1000 berichten per feed"
       paypal_description: "The Old Reader Premium %{frequency} abonnement voor %{subscriptions} feeds"
     payments:
       errors:
@@ -776,8 +775,6 @@ nl:
     paypal_onetime_title: "Instellen eenmalige betaling aan Paypal"
     form_title: "Betalingsinformatie"
     emails:
-      unsubscribe: "Om u af te melden voor alle toekomstige e-mails, klik op de volgende link:"
-      unsubscribed: "U bent met succes afgemeld voor alle toekomstige e-mails."
       payment_failed:
         subject: "The Old Reader betaling is mislukt"
         stripe:
@@ -835,7 +832,6 @@ nl:
         reeder_title: "Ondersteuning voor Reeder iOS App"
         organize_title: "Hulpmiddelen voor het organiseren van uw feeds"
         https_title: "Veilig browsen als standaard"
-        auto_renew: "Uw jaarlijkse abonnement is gepland voor automatisch vernieuwing op <b>%{renew_date}</b>. Wij hopen dat u van onze dienst gebruik blijft maken. Als u enige op- of aanmerkingen heeft of feedback wilt geven, stuur een bericht naar <a href=\"mailto:support@theoldreader.com\">support@theoldreader.com</a>."
       receipt:
         subject: "The Old Reader betalingsbewijs"
         hi: "Hallo"
