@@ -166,7 +166,8 @@ nl:
       other: "berichten"
     your_posts: "U heeft <em>%{unread}</em> ongelezen %{posts}"
     refresh: "Verversen"
-    unsubscribe: "Abonnement opzeggen"
+    refresh_all_cl: "Al mijn Craigslist Feeds in de achtergrond"
+   unsubscribe: "Abonnement opzeggen"
     unsubscribe_confirm_feed: "Wilt werkelijk dit abonnement opzeggen? Uw gedeelde berichten en Leuk gevonden berichten uit deze feed zullen niet worden verwijderd."
     unsubscribe_confirm_folder: "Wilt werkelijk alle abonnementen binnen deze map opzeggen? Uw gedeelde berichten en Leuk gevonden berichten uit deze feed zullen niet worden verwijderd."
     unsubscribe_confirm_folder_really: "Weet u het zeker? ALLE FEEDS binnen deze map zullen permanent worden verwijderd als u op OK klikt!"
@@ -276,6 +277,8 @@ nl:
     password_confirmation: "Bevestig wachtwoord"
     password_notice: "laat leeg voor houden van huidig wachtwoord"
     token: "Token"
+    dont_email_news_updates: "Graag geen e-mails met nieuwes en updates sturen."
+    dont_email_recs: "Graag geen e-mails met feeds of aanbevelingen sturen."
     use_ssl: "Gebruik een veilige <a href='http://en.wikipedia.org/wiki/HTTP_Secure' target='_blank'>HTTPS</a> verbinding"
     sign:
       title: "U kunt inloggen op dit account van The Old Reader met:"
@@ -651,6 +654,7 @@ nl:
         <p>The Old Reader Team</p>
     limits:
       change: "upgraden naar premium"
+      upgrade: "Upgraden"
       subscribe: "De feed is niet toegevoegd. U heeft al %{current} abonnementen, uw limiet is %{limit}. U zou moeten %{change}."
       import_full: "Uw import is niet toegevoegd. U heeft al %{current} abonnementen, uw limiet is %{limit}. U zou het aantal kunnen vergroten door te %{change} en opnieuw een import te doen."
       import_partial: "Uw import is toegevoegd, maar we zullen alleen de eerste %{avail} abonnementen van %{total} verwerken. U heeft al %{current} abonnementen, uw limiet is %{limit}. U zou het aantal kunnen vergroten door te %{change} en opnieuw een import te doen."
@@ -723,6 +727,9 @@ nl:
         missing: "Er is geen kaart van een client waarvan kon worden afgeschreven."
         processing_error: "Er is een fout opgetreden bij het verwerken van uw betaling."
         invalid_coupon: "De ingevuld couponcode is ongeldig."
+        invalid_coupon_yearly: "U moet een jaarabonnement selecteren om deze couponcode te kunnen gebruiken."
+        invalid_coupon_monthly: "U moet een maandabonnement selecteren om deze couponcode te kunnen gebruiken."
+        invalid_coupon_expired: "Deze couponcode is verlopen."
         retrying_on: "We zullen de bataling op %{retry_date} opnieuw proberen."
         missing_plan: "Moet geselecteerd zijn"
         stripe:
@@ -743,6 +750,7 @@ nl:
       paypal_transaction_cancelled: "Paypal checkout geannuleerd"
       paypal_change_plan: "Om uw Paypal Express Checkout plamn te veranderen, contacteer <a href='mailto:support@theoldreader.com'>support</a>."
       credit_card: "Creditkaart"
+      credit_card_ending_in: "uw creditkaart eindigt met: %{last_four}"
       paypal_express: "Paypal Express Checkout"
       paypal_germany_notice: "Bent u een gebruiker uit Duitsland en heeft u problemen met Paypal doorlopende betalingen?"
       paypal_germany_notice_link: "Klik hier"
@@ -775,6 +783,13 @@ nl:
     paypal_onetime_title: "Instellen eenmalige betaling aan Paypal"
     form_title: "Betalingsinformatie"
     emails:
+      unsubscribe: "Abonnement opzeggen"
+      unsubscribe_description: "Vertel ons welke e-mail types uw wilt opzeggen:"
+      recs: "Feed and Post aanbevelingen"
+      news_and_updates: "Nieuws en updates"
+      all: "Alle e-mails"
+      unsubscribed: "Uw e-mail voorkeuren zijn bijgewerkt"
+      unable_to_unsubscribe: "We konden uw e-mail voorkeuren niet bijwerken. Contacteer os op support at support@theoldreader.com"
       payment_failed:
         subject: "The Old Reader betaling is mislukt"
         stripe:
@@ -832,6 +847,7 @@ nl:
         reeder_title: "Ondersteuning voor Reeder iOS App"
         organize_title: "Hulpmiddelen voor het organiseren van uw feeds"
         https_title: "Veilig browsen als standaard"
+        auto_renew: "Uw <b>%{renewal_price}</b> abonnement zal automatisch worden vernieuwd op <b>%{renew_date}</b> met <b>%{renew_payment_info}</b>. We hopen dat u van onze dinsten gebuik zal blijven maken. Heeft u een idee of wilt u commentaar geven neem dan contact op met ons op <a href=\"mailto:support@theoldreader.com\">support@theoldreader.com</a>."
       receipt:
         subject: "The Old Reader betalingsbewijs"
         hi: "Hallo"
@@ -842,6 +858,15 @@ nl:
         amount: "Bedrag: USD"
         thanks: "Dank u"
         questions: "Zend vragen naar"
+      recommended_feeds:
+        subject: "Een nieuw jaar, Nieuwe kennis"
+        intro_text: "Hier zijn een aantal nieuwe feeds waarvan wij vinden dat u ze interessant zult vinden!"
+        feeds_button: "Ga naar uw feeds"
+      fix_feed:
+        subject: "Blijf bij op %{feed_title}"
+        intro_text: "Hi, het lijkt er op dat de %{feed_link} is verplaatst. Als het aankomt op uw feeds, zijn we er als de kippen bij. Update uw feed zodat u op de hoogte blijft en de content deelt die er toe doet. Lees verder!"
+        feed_link_text: "%{feed_title} feed"
+        feed_button: "Abonneren op de bijgewerkte feed"
   spritz:
     reading_time: 'Spritz leestijd voor dit bericht'
     less_than_a_minute: 'Minder dan een minuut'
