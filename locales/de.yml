@@ -263,6 +263,8 @@ de:
     password_confirmation: "Passwort bestätigen"
     password_change: "Ändern"
     password_notice: "Ihr Passwort wird erst geändert, wenn Sie auf den Button \"Änderungen speichern\" klicken"
+    dont_email_news_updates: "Bitte senden Sie mir keine News und Updates."
+    dont_email_recs: "Bitte senden Sie mir keine Empfehlungen für Feeds oder Beiträge."
     token: "Token"
     use_ssl: "Eine sichere <a href='http://de.wikipedia.org/wiki/HTTPS' target='_blank'>HTTPS</a> Verbindung nutzen"
     sign:
