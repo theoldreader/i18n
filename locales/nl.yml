@@ -99,7 +99,7 @@ nl:
       register: "Registreren"
       password: "Wachtwoord vergeten?"
       change_password: "Verander wachtwoord"
-      tos: "Door u te registeren of aan te melden, gaat u akkoord met onze  <a href='%{tos}' target='_blank'>Servicevoorwaarden</a> en <a href='%{privacy}' target='_blank'>Privacy beleid</a>"
+      tos: "Door u te registeren of aan te melden, gaat u akkoord met onze  <a href='%{tos}' target='_blank' rel='noopener noreferrer'>Servicevoorwaarden</a> en <a href='%{privacy}' target='_blank' rel='noopener noreferrer'>Privacy beleid</a>"
       social_register: "U kunt ook uw %{google} of %{facebook} accounts gebruiken om u te registeren."
     welcome:
       - "Welkome bij <span class='highlight'>de ultieme social RSS reader</span> voor het Open Web. Lees, deel en discussieer. Zorg dat u niets mist."
@@ -279,7 +279,7 @@ nl:
     token: "Token"
     dont_email_news_updates: "Graag geen e-mails met nieuwes en updates sturen."
     dont_email_recs: "Graag geen e-mails met feeds of aanbevelingen sturen."
-    use_ssl: "Gebruik een veilige <a href='http://en.wikipedia.org/wiki/HTTP_Secure' target='_blank'>HTTPS</a> verbinding"
+    use_ssl: "Gebruik een veilige <a href='http://en.wikipedia.org/wiki/HTTP_Secure' target='_blank' rel='noopener noreferrer'>HTTPS</a> verbinding"
     sign:
       title: "U kunt inloggen op dit account van The Old Reader met:"
       google: "Uw Google account"
@@ -289,7 +289,7 @@ nl:
       apps: "mobile apps"
     ui:
       title: "gebruikersinterface"
-      use_spritz: "Schakel <a href='http://www.spritzinc.com' target='_blank'>Spritz</a> in voor snel lezen (vereist een Spritz account)"
+      use_spritz: "Schakel <a href='http://www.spritzinc.com' target='_blank' rel='noopener noreferrer'>Spritz</a> in voor snel lezen (vereist een Spritz account)"
       confirm_mark_all: "Bescherm me tegen het per ongeluk alles markeren als gelezen"
       click_to_scroll: "Klikken op een bericht om omlaag te scrollen"
       scroll_to_read: "Scrollen door berichten"
@@ -334,7 +334,7 @@ nl:
           title: "Service Titel"
           url: "Service Url"
           delete: "Verwijder"
-          more: "voor een lijst van algemene sharing service urls, zie <a href='http://theoldreader.uservoice.com/knowledgebase/articles/294010' target='_blank'>dit artikel.</a>"
+          more: "voor een lijst van algemene sharing service urls, zie <a href='http://theoldreader.uservoice.com/knowledgebase/articles/294010' target='_blank' rel='noopener noreferrer'>dit artikel.</a>"
     readlater:
       usage:
         title: "Gebruiksaanwijzing"
@@ -647,7 +647,7 @@ nl:
         op dit moment <strong>%{current_count}</strong> abonnementen.</p>
       under_limit_message: |
         </p>Aangezien u minder dan %{free_limit} feeds heeft, komt u in aanmerking voor een gratis account.</p>
-      tos: "Door dit bericht te ngeren en door te gaan met The Old Reader, gaat u akkoord met onze <a href='%{tos}' target='_blank'>dienstverleningsvoorwaarden</a> en <a href='%{privacy}' target='_blank'>Privacy beleid</a>"
+      tos: "Door dit bericht te ngeren en door te gaan met The Old Reader, gaat u akkoord met onze <a href='%{tos}' target='_blank' rel='noopener noreferrer'>dienstverleningsvoorwaarden</a> en <a href='%{privacy}' target='_blank' rel='noopener noreferrer'>Privacy beleid</a>"
       closing: |
         <p>Bezoek onze <a href="%{manage_url}">account pagina</a> om u in te schrijven voor een premium plan.</p>
         <p>Dank u voor u verdere ondersteuning,</p>
@@ -765,9 +765,9 @@ nl:
       cancelled_line_1: 'Uw doorlopende betaling is geannuleerd. U heeft betaald tot <b>%{expires_date}</b> en uw premium account zal actief blijven tot dat tijdstip.'
       cancelled_line_2: 'Vul de betalingsinformatie hieronder in om de nieuwe doorlopende betaling te starten. <a href="mailto:support@theoldreader.com">Contacteer ons</a> als u enige assistentie nodig heeft of vragen hebt.'
       need_help: "Hulp nodig? E-mail ons op"
-    tos: "Ik ga akkoord met de <a href='%{tos}' target='_blank'>dienstverleningsvoorwaarden</a> en <a href='%{privacy}' target='_blank'>privacy beleid</a>"
+    tos: "Ik ga akkoord met de <a href='%{tos}' target='_blank' rel='noopener noreferrer'>dienstverleningsvoorwaarden</a> en <a href='%{privacy}' target='_blank' rel='noopener noreferrer'>privacy beleid</a>"
     tos_error: "U moet akkoord gaan met onze dienstverleningsvoorwaarden en en privacy beleid"
-    stripe: "De betaling wordt veilig afgehandeld via <a href='http://stripe.com' target='_blank'>Stripe</a>."
+    stripe: "De betaling wordt veilig afgehandeld via <a href='http://stripe.com' target='_blank' rel='noopener noreferrer'>Stripe</a>."
     submit: "Bijwerken account"
     cancel: "Annuleer mijn betalingen"
     cancel_header: "Anuleren van betalingen"

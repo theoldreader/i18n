@@ -87,7 +87,7 @@ de:
       register: "Registrieren"
       password: "Passswort vergessen?"
       change_password: "Passwort ändern"
-      tos: "Mit dem Registrieren oder Einloggen stimmen Sie unseren <a href='%{tos}' target='_blank'>Nutzungsbedingungen</a> und der <a href='%{privacy}' target='_blank'>Datenschutzerklärung</a> zu."
+      tos: "Mit dem Registrieren oder Einloggen stimmen Sie unseren <a href='%{tos}' target='_blank' rel='noopener noreferrer'>Nutzungsbedingungen</a> und der <a href='%{privacy}' target='_blank' rel='noopener noreferrer'>Datenschutzerklärung</a> zu."
       social_register: "Sie können auch Ihr %{google}- oder %{facebook}-Konto nutzen, um sich zu registrieren."
     welcome:
       - "Willkommen bei The Old Reader, <span class='highlight'>dem ultimativen RSS-Reader</span> für das Open Web. Lesen, Teilen und Diskutieren Sie mit und verpassen Sie nichts mehr!"
@@ -266,7 +266,7 @@ de:
     dont_email_news_updates: "Bitte senden Sie mir keine News und Updates."
     dont_email_recs: "Bitte senden Sie mir keine Empfehlungen für Feeds oder Beiträge."
     token: "Token"
-    use_ssl: "Eine sichere <a href='http://de.wikipedia.org/wiki/HTTPS' target='_blank'>HTTPS</a> Verbindung nutzen"
+    use_ssl: "Eine sichere <a href='http://de.wikipedia.org/wiki/HTTPS' target='_blank' rel='noopener noreferrer'>HTTPS</a> Verbindung nutzen"
     sign:
       title: "Sie können sich wie folgt in diesen The Old Reader Account einloggen:"
       google: "Ihr Google-Account"
@@ -276,7 +276,7 @@ de:
       apps: "mobilen Apps"
     ui:
       title: "Benutzeroberfläche"
-      use_spritz: "<a href='http://www.spritzinc.com' target='_blank'>Spritz</a> aktivieren für Speed-Reading (erfordert Spritz-Account)"
+      use_spritz: "<a href='http://www.spritzinc.com' target='_blank' rel='noopener noreferrer'>Spritz</a> aktivieren für Speed-Reading (erfordert Spritz-Account)"
       confirm_mark_all: "Mich davor schützen, alle Beiträge versehentlich als gelesen zu markieren"
       click_to_scroll: "Klick auf einen Beitrag scrollt dort hin"
       scroll_to_read: "Durch Beiträge scrollen"
@@ -321,7 +321,7 @@ de:
           title: "Service-Name"
           url: "Service-URL"
           delete: "Löschen"
-          more: "Eine Liste von bekannten Service-URLs finden Sie in <a href='http://theoldreader.uservoice.com/knowledgebase/articles/294010' target='_blank'>diesem Artikel.</a>"
+          more: "Eine Liste von bekannten Service-URLs finden Sie in <a href='http://theoldreader.uservoice.com/knowledgebase/articles/294010' target='_blank' rel='noopener noreferrer'>diesem Artikel.</a>"
     readlater:
       usage:
         title: "Nutzung"

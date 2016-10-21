@@ -90,7 +90,7 @@ zh-TW:
       register: "註冊"
       password: "忘記了密碼？"
       change_password: "更改密碼"
-      tos: "若你進行註冊或登入操作，將視作你同意了我們的<a href='%{tos}' target='_blank'>服務協議</a>及<a href='%{privacy}' target='_blank'>隱私權政策</a>。"
+      tos: "若你進行註冊或登入操作，將視作你同意了我們的<a href='%{tos}' target='_blank' rel='noopener noreferrer'>服務協議</a>及<a href='%{privacy}' target='_blank' rel='noopener noreferrer'>隱私權政策</a>。"
       social_register: "你可以用%{google} 或 %{facebook} 帳號來登入。"
     welcome:
       - "歡迎來到<span class='highlight'>終極的社交型RSS閱讀器</span>。閱讀、共享和討論，不再錯過任何事情！"
@@ -289,7 +289,7 @@ zh-TW:
           title: "服務名稱"
           url: "服務鏈結"
           delete: "刪除"
-          more: "對於常見的共享服務，看看<a href='http://theoldreader.uservoice.com/knowledgebase/articles/294010' target='_blank'>這則文章。</a>"
+          more: "對於常見的共享服務，看看<a href='http://theoldreader.uservoice.com/knowledgebase/articles/294010' target='_blank' rel='noopener noreferrer'>這則文章。</a>"
     readlater:
       usage:
         title: "Usage"
@@ -577,7 +577,7 @@ zh-TW:
         <p>我們會會提供兩星期的高級版本試用以便讓你考慮是否使用高級版本。你可以有<strong>%{current_count}</strong>個訂閱源。</p>
       under_limit_message: |
         </p>如果你少於 %{free_limit} 個訂閱源， 我們建議你使用免費版本。</p>
-      tos: "如果你沒有錯過此則消息並繼續使用The Old Reader，即是代表你同意我們的<a href='%{tos}' target='_blank'>服務協議</a>和<a href='%{privacy}' target='_blank'>隱私權政策</a>"
+      tos: "如果你沒有錯過此則消息並繼續使用The Old Reader，即是代表你同意我們的<a href='%{tos}' target='_blank' rel='noopener noreferrer'>服務協議</a>和<a href='%{privacy}' target='_blank' rel='noopener noreferrer'>隱私權政策</a>"
       closing: |
         <p>前往你的<a href="%{manage_url}">帳號設定頁面</a>去升級爲高級版本</p>
         <p>感謝你一直以來的支持，</p>
@@ -647,9 +647,9 @@ zh-TW:
       amount_column: "金額(USD)"
       next_payment: "下一個付款日"
       info_unavailable: "付款資訊無法使用"
-    tos: "我同意<a href='%{tos}' target='_blank'>服務協議</a>和<a href='%{privacy}' target='_blank'>隱私權政策</a>"
+    tos: "我同意<a href='%{tos}' target='_blank' rel='noopener noreferrer'>服務協議</a>和<a href='%{privacy}' target='_blank' rel='noopener noreferrer'>隱私權政策</a>"
     tos_error: "請同意我們的服務協議和隱私權政策。"
-    stripe: "支付過程是經過 <a href='http://stripe.com' target='_blank'>Stripe</a>安全處理的。"
+    stripe: "支付過程是經過 <a href='http://stripe.com' target='_blank' rel='noopener noreferrer'>Stripe</a>安全處理的。"
     submit: "更新帳號"
     cancel: "刪除我的付款帳號"
     cancel_confirm: "你確定要刪除你的帳號？"

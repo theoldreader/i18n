@@ -90,7 +90,7 @@ el:
       register: "Εγγραφή"
       password: "Ξεχάσατε τον κωδικό σας;"
       change_password: "Αλλαγή κωδικού"
-      tos: "Εγγράφοντας ή συνδεόντας στην σελίδα, συμφωνείτε στους <a href='%{tos}' target='_blank'>Όρους Χρήσης</a> και στην <a href='%{privacy}' target='_blank'>Πολιτική Προστασίας Προσωπικών Δεδομένων</a>"
+      tos: "Εγγράφοντας ή συνδεόντας στην σελίδα, συμφωνείτε στους <a href='%{tos}' target='_blank' rel='noopener noreferrer'>Όρους Χρήσης</a> και στην <a href='%{privacy}' target='_blank' rel='noopener noreferrer'>Πολιτική Προστασίας Προσωπικών Δεδομένων</a>"
       social_register: "Μπορείτε επίσης να χρησιμοποιήσετε τους λογαριασμούς σας στο %{google} ή στο %{facebook} για να εγγραφείτε."
     welcome:
       - "Καλώς ορίσατε στον <span class='highlight'>απόλυτο αναγνώστη RSS</span> για τον Ανοικτό Ιστό. Διαβάστε, μοιραστείτε και συζητείστε. Μην χάσετε τίποτα."
@@ -256,7 +256,7 @@ el:
       apps: "εφαρμογές για φορητές συσκευές"
     ui:
       title: "Περιβάλλον χρήστη"
-      use_spritz: "Ενεργοποιήστε το <a href='http://www.spritzinc.com' target='_blank'>Spritz</a> για ταχεία ανάγνωση (προϋποθέτει έναν λογαριασμό Spritz)"
+      use_spritz: "Ενεργοποιήστε το <a href='http://www.spritzinc.com' target='_blank' rel='noopener noreferrer'>Spritz</a> για ταχεία ανάγνωση (προϋποθέτει έναν λογαριασμό Spritz)"
       click_to_scroll: "Κάνοντας κλικ σε μία ανάρτηση, γίνεται κύλιση (scroll) σε αυτή"
       sidebar_unread_only: "Εμφάνιση φακέλων/ροών με μη αναγνωσμένα στοιχεία"
       locale: "Γλώσσα"
@@ -293,7 +293,7 @@ el:
           title: "Τίτλος Υπηρεσίας"
           url: "Url Υπηρεσίας"
           delete: "Διαγραφή"
-          more: "Για μία λίστα συνηθισμένων υπηρεσιών διαμοιρασμού url, δείτε <a href='http://theoldreader.uservoice.com/knowledgebase/articles/294010' target='_blank'>αυτό το άρθρο.</a>"
+          more: "Για μία λίστα συνηθισμένων υπηρεσιών διαμοιρασμού url, δείτε <a href='http://theoldreader.uservoice.com/knowledgebase/articles/294010' target='_blank' rel='noopener noreferrer'>αυτό το άρθρο.</a>"
     readlater:
       usage:
         title: "Χρήση"
@@ -579,7 +579,7 @@ el:
         έχετε <strong>%{current_count}</strong> συνδρομές.</p>
       under_limit_message: |
         </p>Αφού έχετε λιγότερες από %{free_limit} ροές, πληροίτε τις προϋποθέσεις για την δωρεάν έκδοση.</p>
-      tos: "Κλείνοντας αυτό το μήνυμα και συνεχίζοντας να χρησιμοποιείτε τον The Old Reader, συμφωνείτε στους <a href='%{tos}' target='_blank'>Όρους Χρήσης</a> και στην <a href='%{privacy}' target='_blank'>Πολιτική Προστασίας Προσωπικών Δεδομένων</a>"
+      tos: "Κλείνοντας αυτό το μήνυμα και συνεχίζοντας να χρησιμοποιείτε τον The Old Reader, συμφωνείτε στους <a href='%{tos}' target='_blank' rel='noopener noreferrer'>Όρους Χρήσης</a> και στην <a href='%{privacy}' target='_blank' rel='noopener noreferrer'>Πολιτική Προστασίας Προσωπικών Δεδομένων</a>"
       closing: |
         <p>Επισκεφθείτε την <a href="%{manage_url}">σελίδα του λογαριασμού</a> για να εγγραφείτε για την premium έκδοση.</p>
         <p>Ευχαριστούμε για την συνεχιζόμενη υποστήριξή σας,</p>
@@ -669,9 +669,9 @@ el:
       cancelled_line_1: 'Η επαναλαμβανόμενη πληρωμή σας έχει ακυρωθεί. Έχετε πληρώσει μέχρι τις <b>%{expires_date}</b> και ο premium λογαριασμός σας θα παραμείνει ενεργός μέχρι τότε.'
       cancelled_line_2: 'Συμπληρώστε τις πληροφορίες πληρωμής παρακάτω για να ξεκινήσετε μία νέα επαναλαμβανόμενη πληρωμή. <a href="mailto:support@theoldreader.com">Επικοινωνήστε μαζί μας</a> αν χρειάζεστε οποιαδήποτε βοήθεια ή αν έχετε απορίες.'
       need_help: "Χρειάζεστε βοήθεια; Στείλτε μας ένα e-mail στο"
-    tos: "Συμφωνώ με <a href='%{tos}' target='_blank'>Όρους Χρήσης</a> και την <a href='%{privacy}' target='_blank'>Πολιτική Προστασίας Προσωπικών Δεδομένων</a>"
+    tos: "Συμφωνώ με <a href='%{tos}' target='_blank' rel='noopener noreferrer'>Όρους Χρήσης</a> και την <a href='%{privacy}' target='_blank' rel='noopener noreferrer'>Πολιτική Προστασίας Προσωπικών Δεδομένων</a>"
     tos_error: "Παρακαλώ αποδεχθείτε τους Όρους Χρήσης και την Πολιτική Προστασίας Προσωπικών Δεδομένων"
-    stripe: "Η πληρωμή γίνεται με ασφάλεια μέσω του <a href='http://stripe.com' target='_blank'>Stripe</a>."
+    stripe: "Η πληρωμή γίνεται με ασφάλεια μέσω του <a href='http://stripe.com' target='_blank' rel='noopener noreferrer'>Stripe</a>."
     submit: "Ενημέρωση λογαριασμού"
     cancel: "Ακύρωσω των πληρωμών μου"
     cancel_header: "Ακύρωση Πληρωμών"

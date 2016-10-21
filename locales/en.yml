@@ -99,7 +99,7 @@ en:
       register: "Register"
       password: "Forgot password?"
       change_password: "Change password"
-      tos: "By registering or signing in, you are agreeing to our <a href='%{tos}' target='_blank'>Terms Of Service</a> and <a href='%{privacy}' target='_blank'>Privacy Policy</a>"
+      tos: "By registering or signing in, you are agreeing to our <a href='%{tos}' target='_blank' rel='noopener noreferrer'>Terms Of Service</a> and <a href='%{privacy}' target='_blank' rel='noopener noreferrer'>Privacy Policy</a>"
       social_register: "You may also use your %{google} or %{facebook} accounts to register."
     welcome:
       - "Welcome to <span class='highlight'>the ultimate social RSS reader</span> for The Open Web. Read, share and discuss. Don't miss a thing."
@@ -279,7 +279,7 @@ en:
     token: "Token"
     dont_email_news_updates: "Please don't email me news and updates."
     dont_email_recs: "Please don't email me feed or post recommendations."
-    use_ssl: "Use a secure <a href='http://en.wikipedia.org/wiki/HTTP_Secure' target='_blank'>HTTPS</a> connection"
+    use_ssl: "Use a secure <a href='http://en.wikipedia.org/wiki/HTTP_Secure' target='_blank' rel='noopener noreferrer'>HTTPS</a> connection"
     sign:
       title: "You can log in to this The Old Reader account using:"
       google: "Your Google account"
@@ -289,7 +289,7 @@ en:
       apps: "mobile apps"
     ui:
       title: "User interface"
-      use_spritz: "Enable <a href='http://www.spritzinc.com' target='_blank'>Spritz</a> for speedy reading (requires Spritz account)"
+      use_spritz: "Enable <a href='http://www.spritzinc.com' target='_blank' rel='noopener noreferrer'>Spritz</a> for speedy reading (requires Spritz account)"
       confirm_mark_all: "Protect me from accidentally marking all as read"
       click_to_scroll: "Clicking on a post scrolls to it"
       scroll_to_read: "Scrolling through posts"
@@ -334,7 +334,7 @@ en:
           title: "Service Title"
           url: "Service Url"
           delete: "Delete"
-          more: "For a list of common sharing service urls, see <a href='http://theoldreader.uservoice.com/knowledgebase/articles/294010' target='_blank'>this article.</a>"
+          more: "For a list of common sharing service urls, see <a href='http://theoldreader.uservoice.com/knowledgebase/articles/294010' target='_blank' rel='noopener noreferrer'>this article.</a>"
     readlater:
       usage:
         title: "Usage"
@@ -647,7 +647,7 @@ en:
         have <strong>%{current_count}</strong> subscriptions.</p>
       under_limit_message: |
         </p>Since you have less than %{free_limit} feeds, you qualify for a free account.</p>
-      tos: "By dismissing this message and continuing to use The Old Reader, you are agreeing to our <a href='%{tos}' target='_blank'>Terms Of Service</a> and <a href='%{privacy}' target='_blank'>Privacy Policy</a>"
+      tos: "By dismissing this message and continuing to use The Old Reader, you are agreeing to our <a href='%{tos}' target='_blank' rel='noopener noreferrer'>Terms Of Service</a> and <a href='%{privacy}' target='_blank' rel='noopener noreferrer'>Privacy Policy</a>"
       closing: |
         <p>Visit your <a href="%{manage_url}">account page</a> to sign up for a premium plan.</p>
         <p>Thank you for your continued support,</p>
@@ -765,9 +765,9 @@ en:
       cancelled_line_1: 'Your recurring payment has been cancelled. You are paid through <b>%{expires_date}</b> and your premium account will remain active until that time.'
       cancelled_line_2: 'Fill out the payment information below to start a new recurring payment. <a href="mailto:support@theoldreader.com">Contact us</a> if you need any assistance or have any questions.'
       need_help: "Need Help? Email us at"
-    tos: "I agree with <a href='%{tos}' target='_blank'>Terms Of Service</a> and <a href='%{privacy}' target='_blank'>Privacy Policy</a>"
+    tos: "I agree with <a href='%{tos}' target='_blank' rel='noopener noreferrer'>Terms Of Service</a> and <a href='%{privacy}' target='_blank' rel='noopener noreferrer'>Privacy Policy</a>"
     tos_error: "Please accept our Terms Of Service and Privacy Policy"
-    stripe: "Payment is handled securely through <a href='http://stripe.com' target='_blank'>Stripe</a>."
+    stripe: "Payment is handled securely through <a href='http://stripe.com' target='_blank' rel='noopener noreferrer'>Stripe</a>."
     submit: "Update account"
     cancel: "Cancel My Payments"
     cancel_header: "Cancel Payments"

@@ -87,7 +87,7 @@ ru:
       register: "Регистрация"
       password: "Забыли пароль?"
       change_password: "Изменить пароль"
-      tos: "Регистрируясь или авторизуясь, вы соглашаетесь с нашими  <a href='%{tos}' target='_blank'>правилами использования</a> и <a href='%{privacy}' target='_blank'>политикой конфиденциальности</a>"
+      tos: "Регистрируясь или авторизуясь, вы соглашаетесь с нашими  <a href='%{tos}' target='_blank' rel='noopener noreferrer'>правилами использования</a> и <a href='%{privacy}' target='_blank' rel='noopener noreferrer'>политикой конфиденциальности</a>"
       social_register: "Еще вы можете зарегистрироваться используя свой аккаунт в %{google} или %{facebook}."
     welcome:
       - "Добро пожаловать в The Old Reader — <span class='highlight'>социальный RSS-ридер</span>. Читайте, делитесь записями и обсуждайте их с друзьями. Вам понравится."
@@ -546,7 +546,7 @@ ru:
         <p>Принимать решения под давлением — плохо, поэтому мы дадим вам две недели на размышление. После этих двух недель вы сможете перейти на premium аккаунт или уменьшить количество ваших подписок, чтобы продолжать пользоваться бесплатной версией сервиса. Прямо сейчас у вас <strong>%{current_count}</strong> подписок.</p>
       under_limit_message: |
         <p>Так как у вас меньше %{free_limit} подписок, вы можете ни о чем не беспокоиться и продолжать пользоваться The Old Reader бесплатно.</p>
-      tos: "Закрыв это окно и продолжив пользоваться The Old Reader, вы соглашаетесь с нашими <a href='%{tos}' target='_blank'>правилами использования</a> и <a href='%{privacy}' target='_blank'>политикой конфиденциальности</a>"
+      tos: "Закрыв это окно и продолжив пользоваться The Old Reader, вы соглашаетесь с нашими <a href='%{tos}' target='_blank' rel='noopener noreferrer'>правилами использования</a> и <a href='%{privacy}' target='_blank' rel='noopener noreferrer'>политикой конфиденциальности</a>"
       closing: |
         <p>Зайдите в свой <a href="%{manage_url}">аккаунт</a>, чтобы подключить premium версию.</p>
         <p>Спасибо за вашу поддержку,</p>
@@ -614,9 +614,9 @@ ru:
       amount_column: "Сумма (USD)"
       next_payment: "Дата следующего платежа"
       info_unavailable: "Информация о платеже недоступна"
-    tos: "Я принимаю <a href='%{tos}' target='_blank'>правила пользования сервисом</a> и <a href='%{privacy}' target='_blank'>политику конфиденциальности</a>"
+    tos: "Я принимаю <a href='%{tos}' target='_blank' rel='noopener noreferrer'>правила пользования сервисом</a> и <a href='%{privacy}' target='_blank' rel='noopener noreferrer'>политику конфиденциальности</a>"
     tos_error: "Пожалуйста, примите наши правила пользования сервисом и политику конфиденциальности"
-    stripe: "Оплата осуществляется безопасно при помощи <a href='http://stripe.com' target='_blank'>Stripe</a>."
+    stripe: "Оплата осуществляется безопасно при помощи <a href='http://stripe.com' target='_blank' rel='noopener noreferrer'>Stripe</a>."
     submit: "Изменить"
     successful_create: "Аккаунт был успешно создан"
     successful_update: "Аккаунт был успешно обновлен"
