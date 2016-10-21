@@ -167,7 +167,7 @@ nl:
     your_posts: "U heeft <em>%{unread}</em> ongelezen %{posts}"
     refresh: "Verversen"
     refresh_all_cl: "Al mijn Craigslist Feeds in de achtergrond"
-   unsubscribe: "Abonnement opzeggen"
+    unsubscribe: "Abonnement opzeggen"
     unsubscribe_confirm_feed: "Wilt werkelijk dit abonnement opzeggen? Uw gedeelde berichten en Leuk gevonden berichten uit deze feed zullen niet worden verwijderd."
     unsubscribe_confirm_folder: "Wilt werkelijk alle abonnementen binnen deze map opzeggen? Uw gedeelde berichten en Leuk gevonden berichten uit deze feed zullen niet worden verwijderd."
     unsubscribe_confirm_folder_really: "Weet u het zeker? ALLE FEEDS binnen deze map zullen permanent worden verwijderd als u op OK klikt!"
