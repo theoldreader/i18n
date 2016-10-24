@@ -99,7 +99,6 @@ zh-TW:
     trending: "今日趨勢"
     qa:
       title0: "它有什麼用？"
-      text0: "The Old Reader允許你訂閱你所喜愛的網站，讓你保持對它們的關注。聯絡你的朋友，並共享和討論任何你所喜愛的文章。寄送鏈結到社交網站、儲存到Pocket、 Instapaper 或 Readability。"
       title1: "我可以轉入我的訂閱源嗎？"
       text1: "當然可以！匯入你來自其他服務的OPML檔案極之容易的事！"
       title2: "我如何尋找我的朋友？"
@@ -299,12 +298,6 @@ zh-TW:
         title: "Pocket 整合"
         description: "<a href='http://getpocket.com/'>Pocket</a> (以前的名字爲Read It Later) 是一個方便的應用，讓你可以整合、分類及標籤內容，讓你可以稍後訪問。"
         connect: "鏈結到Pocket"
-        disconnect: "取消鏈結"
-        account: "你的帳號: <strong>%{username}</strong>"
-      readability:
-        title: "Readability 整合"
-        description: "<a href='http://www.readability.com/'>Readability</a> 是一個免費的閱讀平臺。它可以其目的是提供一個無論你在哪裡都可以享有偉大的閱讀體驗。並提供一個系統以讓讀者連接到他們喜歡的作家。"
-        connect: "鏈結到Readability"
         disconnect: "取消鏈結"
         account: "你的帳號: <strong>%{username}</strong>"
       instapaper:
@@ -617,14 +610,6 @@ zh-TW:
       monthly_description: "$%{price}/月"
       yearly_description: "$%{price}/年"
       summary_title: "高級帳號的特色："
-      summary: |
-        <li>No Advertisements</li>
-        <li>全文搜尋</li>
-        <li>更快的訂閱源更新速度</li>
-        <li>增加到<u>%{subscriptions}</u>個訂閱源*</li>
-        <li><u>1 year</u> of post storage **</li>
-        <li>Instapaper和Readability整合</li>
-        <li>儘早獲得新功能！</li>
       other: "其他付款選項"
       subscriptions: "增加到最多%{subscriptions}個訂閱源"
       bigger_plans: "更大的付款計劃現在可以使用了！"

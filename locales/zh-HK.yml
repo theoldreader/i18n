@@ -99,7 +99,6 @@ zh-HK:
     trending: "今日趨勢"
     qa:
       title0: "呢個有咩用噶？"
-      text0: "The Old Reader可以讓你訂閱你鍾意嘅網站，讓你保持住對佢哋嘅關注；共享你所喜愛嘅文章，並且同佢哋一齊討論；寄送個鏈結到社交網站、儲存到Pocket、 Instapaper 或者 Readability。"
       title1: "我可以匯入我嘅訂閱源（OPML檔案）嗎？"
       text1: "當然可以啦！匯入你來自其他服務嘅OPML檔案喺極之容易嘅事！"
       title2: "我點樣搵到我啲朋友？"
@@ -304,12 +303,6 @@ zh-HK:
         connect: "鏈結到Pocket"
         disconnect: "取消鏈結"
         account: "你嘅帳號: <strong>%{username}</strong>"
-      readability:
-        title: "Readability 整合"
-        description: "<a href='http://www.readability.com/'>Readability</a> 喺一個免費嘅閱讀平臺。佢嘅目的喺提供一個無論你喺邊度都可以享有偉大嘅閱讀體驗。並提供一個系統畀讀者連接到佢哋鍾意嘅作家度。"
-        connect: "鏈結到Readability"
-        disconnect: "取消鏈結"
-        account: "你的帳號: <strong>%{username}</strong>"
       instapaper:
         title: "Instapaper 整合"
         description: "<a href='http://www.instapaper.com/'>Instapaper</a> 打開網頁內容 - 文章、故事、帖子、視頻，甚至乎喺長篇嘅電子郵件。佢會讓你有個偉大的閱讀體驗：隨時隨地都可以享受閱讀！"
@@ -612,14 +605,6 @@ zh-HK:
       monthly_description: "$%{price}/月"
       yearly_description: "$%{price}/年"
       summary_title: "高級帳號嘅特色："
-      summary: |
-        <li>No Advertisements</li>
-        <li>全文搜尋</li>
-        <li>更快嘅訂閱來源更新速度</li>
-        <li>增加到<u>%{subscriptions}</u>個訂閱源*</li>
-        <li><u>1 year</u> of post storage **</li>
-        <li>Instapaper和Readability整合</li>
-        <li>儘早獲得新功能！</li>
       other: "其他付款選項"
       subscriptions: "增加到最多%{subscriptions}個訂閱源"
       bigger_plans: "更大嘅付款計劃現在有咗了！"

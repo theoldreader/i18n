@@ -108,7 +108,7 @@ en:
     trending: "what's trending"
     qa:
       title0: "What does it do?"
-      text0: "The Old Reader allows you to subscribe to your favorite sites so you can stay in the know. Connect with friends to share and discuss articles you love. Send links to your favorite social networks, or save them to Pocket, Instapaper or Readability."
+      text0: "The Old Reader allows you to subscribe to your favorite sites so you can stay in the know. Connect with friends to share and discuss articles you love. Send links to your favorite social networks, or save them to Pocket or Instapaper."
       title1: "Can I transfer my subscriptions?"
       text1: "Yep! Importing an OPML export from another service is a breeze."
       title2: "How do I find my friends?"
@@ -133,6 +133,9 @@ en:
     subscriptions: "Subscriptions"
     failure: "The %{kind} account you are trying to use has already been linked to some other The Old Reader account. Please cancel your other account and retry the operation."
     becomes_active_notice: "Hey, welcome back! We haven't seen you in a while so we'll need to take a moment to rebuild your reading list. Don't worry, we've still been collecting your subscriptions. You should start seeing new unread items shortly."
+    reauthorize: "reauthorize"
+    facebook_failed_notice: "Your Facebook credentials have expired, likely because your password has changed. Please %{reauth_link} to re-enable your Facebook connection."
+    pocket_failed_notice: "Your Pocket credentials have expired, likely because your password has changed. Please %{reauth_link} to re-enable your Pocket connection."
   feeds:
     no_feeds:
       text: "You have no subscriptions yet. You can %{subscribe} to a new feed (how about <a href='http://blog.theoldreader.com/rss' class='feed-subscribe'>our blog</a>?) or %{import} your subscriptions.<br />If you want to learn more, %{tour}."
@@ -344,12 +347,6 @@ en:
         title: "Pocket integration"
         description: "<a href='http://getpocket.com/'>Pocket</a> (formerly called Read It Later) is a handy app that allows you to arrange, sort, and tag content that you intend to access later."
         connect: "Connect to Pocket"
-        disconnect: "Disconnect"
-        account: "Your account: <strong>%{username}</strong>"
-      readability:
-        title: "Readability integration"
-        description: "<a href='http://www.readability.com/'>Readability</a> is a free reading platform that aims to deliver a great reading experience wherever you are, and to provide a system to connect readers to the writers they enjoy."
-        connect: "Connect to Readability"
         disconnect: "Disconnect"
         account: "Your account: <strong>%{username}</strong>"
       instapaper:
@@ -704,7 +701,7 @@ en:
         <li>Faster feed refresh times</li>
         <li>Up to <u>%{subscriptions}</u> Subscriptions *</li>
         <li><u>1 year</u> of post storage **</li>
-        <li>Instapaper and Readability integration</li>
+        <li>Instapaper integration</li>
         <li>Early access to new features</li>
       other: "Other plan options"
       subscriptions: "Up to %{subscriptions} feeds"

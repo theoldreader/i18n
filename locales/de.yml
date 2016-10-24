@@ -96,7 +96,6 @@ de:
     trending: "Trends"
     qa:
       title0: "Was macht The Old Reader?"
-      text0: "The Old Reader erlaubt es Ihnen, Ihre favorisierten Websites zu abonnieren, so dass Sie immer auf dem Laufenden bleiben. Verbinden Sie sich mit Freunden und teilen und diskutieren Sie über Beiträge, die Ihnen gefallen. Teilen Sie Links in Ihrem bevorzugten sozialen Netzwerk or speichern Sie diese in Pocket, Instapaper oder Readability."
       title1: "Kann ich meine Abonnements umziehen?"
       text1: "Ja, der Import einer OMPL-Datei ist ein Spaziergang!"
       title2: "Wie finde ich meine Freunde?"
@@ -331,12 +330,6 @@ de:
         title: "Pocket-Verknüpfung"
         description: "<a href='http://getpocket.com/'>Pocket</a> (früher Read It Later) ist eine nützliche App, mit der Sie Inhalte anordnen, sortieren und taggen können, die Sie später aufrufen wollen."
         connect: "Mit Pocket verbinden"
-        disconnect: "Verbindung trennen"
-        account: "Ihr Konto: <strong>%{username}</strong>"
-      readability:
-        title: "Readability-Verknüpfung"
-        description: "<a href='http://www.readability.com/'>Readability</a> ist eine freie Leseplattform die darauf zielt, egal wo Sie gerade sind ein großartiges Leseerlebnis zu liefern und ein System zur Verfügung zu stellen, dass Leser mit den Autoren verbindet, die sie mögen."
-        connect: "Mit Readability verbinden"
         disconnect: "Verbindung trennen"
         account: "Ihr Konto: <strong>%{username}</strong>"
       instapaper:
@@ -586,14 +579,6 @@ de:
         post_link: " nach Hilfe zu fragen, falls Ihnen etwas unklar ist."
   accounts:
     plans:
-      summary: |
-        <li>Keine Werbung</li>
-        <li>Volltextsuche</li>
-        <li>Schnellere Aktualisierung von Feeds</li>
-        <li>Bis zu <u>%{subscriptions}</u> Abonnements *</li>
-        <li>Beiträge lassen sich <u>1 Jahr</u> speichern **</li>
-        <li>Integration von Instapaper und Readability</li>
-        <li>Als Erster Zugriff auf neue Features</li>
       bigger_plans: "Noch nicht genug? Wir haben noch größere Tarif-Pakete!"
       max_posts: "Bis zu 1000 Beiträge pro abonniertem Feed"
   spritz:

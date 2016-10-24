@@ -99,7 +99,6 @@ el:
     trending: "τι είναι δημοφιλές"
     qa:
       title0: "Τι κάνει;"
-      text0: "Ο Old Reader σας επιτρέπει να εγγραφείτε στις αγαπημένες σας ιστοσελίδες για να μείνετε ενημερωμένος/η. Συνδεθείτε με φίλους για να μοιραστείτε και να συζητήσετε άρθρα που σας αρέσουν. Στείλτε συνδέσμους στα αγαπημένα σας κοινωνικά δίκτυα, ή αποθηκεύστε τα στο Pocket, ή στο Instapaper ή στο Readability."
       title1: "Μπορώ να μεταφέρω τις συνδρομές μου;"
       text1: "Ναι! Η εισαγωγή ενός εξαχθέντος αρχείου OPML από μία άλλη υπήρεσία είναι άμεση."
       title2: "Πώς μπορώ να βρω τους φίλους μου;"
@@ -303,12 +302,6 @@ el:
         title: "Ενσωμάτωση του Pocket"
         description: "Το <a href='http://getpocket.com/'>Pocket</a> (γνωστό και ως Read It Later) είναι μία βολική εφαρμογή η οποία σας επιτρέπει να οργανώνετε, ταξινομείτε και να βάζετε ετικέτες σε περιεχόμενο που σκοπεύετε να διαβάσετε αργότερα."
         connect: "Συνδεθείτε στο Pocket για να ξεκινήσετε το pocketing"
-        disconnect: "Αποσύνδεση"
-        account: "Ο λογαριασμός σας: <strong>%{username}</strong>"
-      readability:
-        title: "Ενσωμάτωση του Readability"
-        description: "Το <a href='http://www.readability.com/'>Readability</a> είναι μία δωρεάν πλατφόρμα ανάγνωσης η οποία στοχεύει για μία σπουδαία εμπειρία ανάγνωσης όπου και αν είστε, και παρέχει ένα σύστημα για την σύνδεση των χρηστών με τους συγγραφείς που τους αρέσουν."
-        connect: "Σύνδεση στο Readability"
         disconnect: "Αποσύνδεση"
         account: "Ο λογαριασμός σας: <strong>%{username}</strong>"
       instapaper:
@@ -620,14 +613,6 @@ el:
       monthly_description: "$%{price} ανά μήνα"
       yearly_description: "$%{price} ανά χρόνο"
       summary_title: "Δυνατότητες της Premium έκδοσης:"
-      summary: |
-        <li>No Advertisements</li>
-        <li>Αναζήτηση σε ολόκληρο το κείμενο</li>
-        <li>Μικροτεροι χρόνοι για την ανανέωση των ροών</li>
-        <li>Μέχρι και <u>%{subscriptions}</u> συνδρομές *</li>
-        <li><u>1 year</u> of post storage **</li>
-        <li>Ενσωμάτωση των Instapaper και Readability</li>
-        <li>Πρόωρη πρόσβαση σε νέες δυνατότητες</li>
       other: "Άλλες διαθέσιμες εκδόσεις"
       subscriptions: "Μέχρι και %{subscriptions} ροές"
       bigger_plans: "Μεγαλύτερες εκδόσεις είναι διαθέσιμες"

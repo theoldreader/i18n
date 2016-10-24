@@ -257,12 +257,6 @@ ru-old:
         connect: "Подключится къ Pocket"
         disconnect: "Отключиться"
         account: "Ваша учетная запись: <strong>%{username}</strong>"
-      readability:
-        title: "Интеграція съ Readability"
-        description: "<a href='http://www.readability.com/'>Readability</a> — это средство для чтенія записей, которое стремится предоставить вамъ какъ можно больше возможностей, гдѣ бы вы ни находились."
-        connect: "Подключиться къ Readability"
-        disconnect: "Отключиться"
-        account: "Ваша учетная запись: <strong>%{username}</strong>"
       instapaper:
         title: "Интеграція съ Instapaper"
         description: "<a href='http://www.instapaper.com/'>Instapaper</a> преобразуетъ вебъ-контентъ — статьи, разсказы, видео и даже длинныя письма — къ удобнуму для чтенія виду, въ любомъ мѣстѣ, въ любое время."

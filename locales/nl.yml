@@ -108,7 +108,6 @@ nl:
     trending: "what is de trend"
     qa:
       title0: "Wat doet het?"
-      text0: "Met The Old Reader kunt u zich abonneren op uw favoriete websites zodat u op de hoogte kan blijven. Maak verbinding met vrienden om artikel die u interessant vindt te delen en te bediscussiëren. Zend links naar uw favoriete sociale netwerken, or bewaar ze bij Pocket, Instapaper of Readability."
       title1: "Kan ik mij abonnement overbrengen van en naar een andere reader?"
       text1: "Jazeker! Importeren van een OPML export-bestand van een andere dienst is heel eenvoudig."
       title2: "Hoe vind iki mijn vrienden?"
@@ -344,12 +343,6 @@ nl:
         title: "integratie met Pocket"
         description: "<a href='http://getpocket.com/'>Pocket</a> (vroeger Read It Later genoemd) is een handige app dat u inhoudelijke tekst die u later wilt lezen laat orderen, samenvoegen en van een tag voorzien."
         connect: "Maak verbinding met Pocket"
-        disconnect: "Verbreek de verbinding"
-        account: "Uw account: <strong>%{username}</strong>"
-      readability:
-        title: "Readability integratie"
-        description: "<a href='http://www.readability.com/'>Readability</a> is een gratis lees platform dat er op gericht is een uitstekende leeservaring te leveren waar u ook bent en in een systeem te voorzien dat lezers met hun favoriete schrijvers te verbinden."
-        connect: "Verbind Readability"
         disconnect: "Verbreek de verbinding"
         account: "Uw account: <strong>%{username}</strong>"
       instapaper:
@@ -698,14 +691,6 @@ nl:
       discount: "($%{discount_price} korting met coupon)"
       onetime_description: "$%{price} eenmalige betaling"
       summary_title: "Premium Account kenmerken:"
-      summary: |
-        <li>No Advertisements</li>
-        <li>Volledige tekst doorzoeken</li>
-        <li>Snellere versen tijden van feeds</li>
-        <li>Tot <u>%{subscriptions}</u> abonnementen *</li>
-        <li><u>1 year</u> of post storage **</li>
-        <li>Instapaper en Readability integratie</li>
-        <li>Eerdere toegang tot nieuwe functies</li>
       other: "andere betalingsplan opties"
       subscriptions: "Tot %{subscriptions} feeds"
       bigger_plans: "Uitgebreider betalingsplan aanwezig"

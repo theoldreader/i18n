@@ -96,7 +96,6 @@ ru:
     trending: "самые популярные посты"
     qa:
       title0: "Как это работает?"
-      text0: "The Old Reader даёт вам возможность подписаться на обновления ваших любимых сайтов и оставаться в курсе событий. Вы сможете обсудить понравившиеся материалы со своими друзьями. Отправить интересную ссылку в социальные сети или сохранить её в Pocket, Instapaper или Readability? Без проблем."
       title1: "Могу ли я импортировать свои подписки?"
       text1: "Конечно! Вы можете перенести свои подписки в формате файла OPML. Даже ваша бабушка сможет."
       title2: "Как мне найти своих друзей?"
@@ -280,12 +279,6 @@ ru:
         title: "Интеграция с Pocket"
         description: "<a href='http://getpocket.com/'>Pocket</a> (который раньше назывался Read It Later) — это приложение, которое позволяет вам упорядочивать и помечать информацию, которую вы собираетесь использовать позже."
         connect: "Подключиться к Pocket"
-        disconnect: "Отключиться"
-        account: "Ваша учётная запись: <strong>%{username}</strong>"
-      readability:
-        title: "Интеграция с Readability"
-        description: "<a href='http://www.readability.com/'>Readability</a> — это средство для чтения записей, которое стремится предоставить вам как можно больше возможностей, где бы вы ни находились."
-        connect: "Подключиться к Readability"
         disconnect: "Отключиться"
         account: "Ваша учётная запись: <strong>%{username}</strong>"
       instapaper:
@@ -585,14 +578,6 @@ ru:
       monthly_description: "$%{price} в месяц"
       yearly_description: "$%{price} в год"
       summary_title: "Возможности The Old Reader Premium:"
-      summary: |
-        <li>No Advertisements</li>
-        <li>Полнотекстовый поиск по заголовкам и содержанию постов</li>
-        <li>Более быстрое обновление подписок</li>
-        <li>До <u>%{subscriptions}</u> подписок *</li>
-        <li><u>1 year</u> of post storage **</li>
-        <li>Интеграция с Instapaper и Readability</li>
-        <li>Ранний доступ к самым новым разработкам</li>
       other: "Другие premium планы"
       subscriptions: "До %{subscriptions} подписок"
       bigger_plans: "Доступно большее количество подписок"
