@@ -17,7 +17,7 @@ nl:
       already_authenticated: "U bent al ingelogd."
       unauthenticated: "U moet inloggen om door te gaan."
       locked: "Uw account is vergrendeld."
-      unconfirmed: "We hebben een confirmatie e-mail naar uw adres gestuurd."
+      unconfirmed: "We hebben een bevestigingsmail naar uw e-mailadres gestuurd."
       invalid: "Ongeldig e-mail of wachtwoord."
       invalid_token: "Ongeldige authenticatiesleutel."
       timeout: "Uw sessie is verlopen, log opnieuw in om door te gaan."
@@ -26,22 +26,22 @@ nl:
       signed_in: "Met succes aangemeld."
       signed_out: "Met succes afgemeld."
     passwords:
-      send_instructions: "U ontvangt binnen enkele ogenblikken een e-mail met instructie hoe u uw  wachtwoord opnieuw moet instellen."
+      send_instructions: "U ontvangt binnen enkele ogenblikken een instructiemail om uw wachtwoord opnieuw in te stellen."
       updated: "Uw wachtwoord is met succes veranderd. U bent nu ingelogd."
       updated_not_active: "Uw wachtwoord is met succes veranderd."
-      send_paranoid_instructions: "Als uw e-mailadres in onze database aanwezig is, zult u een wachtwoord herstel-link per e-mail toegestuurd krijgen."
+      send_paranoid_instructions: "Als uw e-mailadres bij ons gekend is, ontvangt u binnen enkele ogenblikken een e-mail met herstellink voor uw wachtwoord ontvangen."
     confirmations:
-      send_instructions: "U ontvangt binnen enkele ogenblikken een e-mail met instructies hoe u uw account kunt bevestigen."
-      send_paranoid_instructions: "Als uw e-mailadres in onze database aanwezig is, ontvangt u binnen enkele ogenblikken een e-mail met instructies hoe u uw account kunt bevestigen."
-      confirmed: "Uw account is met succes geconfirmeerd. U bent nu ingelogd."
+      send_instructions: "U ontvangt binnen enkele ogenblikken een e-mail om uw account te bevestigen."
+      send_paranoid_instructions: "Als uw e-mailadres bij ons gekend is, ontvangt u binnen enkele ogenblikken een e-mail om uw account te bevestigen."
+      confirmed: "Uw account is met succes bevestigd. U bent nu ingelogd."
     registrations:
       signed_up: "Welkom! U heeft u met succes geregistreerd."
-      signed_up_but_unconfirmed: "Een bericht met een link ter confirmatie van uw account is naar uw e-mailadres verstuurd. Open deze link aub om uw account te activeren."
+      signed_up_but_unconfirmed: "Een bericht met een link ter bevestiging van uw account is naar uw e-mailadres verstuurd. Open deze link aub om uw account te activeren."
       signed_up_but_inactive: "U heeft u met succes geregistreerd. U kunt zich echter niet aanmelden omdat uw account nog niet is geactiveerd."
       signed_up_but_locked: "U heeft u met succes geregistreerd. U kunt zich echter niet aanmelden omdat uw account is vergrendeld."
       updated: "U heeft uw account met succes bijgewerkt."
       update_needs_confirmation: "U heeft uw account met succes bijgewerkt, maar wij moeten uw nieuwe e-mailadres verifiëren. Controleer uw e-mail en klik op de bevestigingslink."
-      destroyed: "tot ziens! Uw account is met succes geannuleerd. We hopen u spoedig weer te zien."
+      destroyed: "Tot ziens! Uw account is met succes geannuleerd. We hopen u spoedig weer te zien."
       disabled: "Jammer genoeg moesten we uw gebruikersregistratie verwijderen bij The Old Reader. Kijk op ons blog voor meer informatie: %{redirect}"
       friend_notice: "We hebben uw gebruikersregistatie bij The Old Reader verwijderd en maken de website waarschijnlijk privé. Uw account zal automatisch naar de privé website worden overgebracht. Meer informatie beschikbaar op ons blog: %{redirect}"
       non_friend_notice: "We hebben uw gebruikersregistatie bij The Old Reader verwijderd en maken de website waarschijnlijk privé. Als we dat doen zal uw account niet worden overgebracht naar de privé webiste. U wordt aangeraden uw abonnement te exporteren als OPML-bestand en te zoeken naar een alternatieve oplossing. Meer informatie beschikbaar op ons blog: %{redirect}"
@@ -58,7 +58,7 @@ nl:
       reset_password_instructions:
         subject: "Instructies wachtwoord opnieuw instellen"
       unlock_instructions:
-        subject: "Ontgrendel instructies"
+        subject: "Ontgrendelinstructies"
 
   #Kaminari
   en:
@@ -110,7 +110,7 @@ nl:
       title0: "Wat doet het?"
       title1: "Kan ik mij abonnement overbrengen van en naar een andere reader?"
       text1: "Jazeker! Importeren van een OPML export-bestand van een andere dienst is heel eenvoudig."
-      title2: "Hoe vind iki mijn vrienden?"
+      title2: "Hoe vind ik mijn vrienden?"
       text2: "Maak verbinding met uw account bij Facebook of Google en wij kijken wie daar ook is (wij slaan nooit enige contactgegevens van uw Facebook of Google account op)."
       title3: "Hebben jullie een mobiele app?"
       text3_pre_link: "Ja! Onze geweldige ontwikkeaars community heeft apps gebouwd voor ongeveer elk platform. We hebben een zeer goede "
@@ -122,7 +122,7 @@ nl:
       text4: "Absoluut niet. We geloven niet dat dat de juiste manier van handelen is. U heeft volledige control over wat u deelt met uw sociale netwerken. als u iets deelt, krijgen uw frienden een directe link naar uw bericht. Niet een link naar onze website."
       title5: "Wat kost deze dienstverlening?"
       text5: "The Old Reader is gratis te gebruiken tot %{free_count} feeds. Wij hebben ook een <u>premium versie</u> voor $%{price}/maand die de volgende functies heeft:"
-    sponsorship_opportunities: "Sponsorschap mogelijkheden zijn nu beschikbaar. kom meer te weten."
+    sponsorship_opportunities: "Sponsormogelijkheden zijn nu beschikbaar. Kom meer te weten."
   help: "Hulp nodig?"
   user:
     profile: "Profiel"
@@ -131,7 +131,7 @@ nl:
     account: "Account"
     subscriptions: "Abonnementen"
     failure: "Het %{kind} account dat u probeert te gebruiken is reeds gekoppeld aan een ander The Old Reader account. Annuleer het ander account en herstart de handeling."
-    becomes_active_notice: "Hallo, fijn dat u terug bent! We hebben u al een poos niet gezien, daarom hebben w wat tijd nodig om uw leeslijst bij te werken. Maak u geen zorgen we verzamelen nog steeds uw abonnementen. U zult zo meteen uw nieuwe ongelezen berichten zien verschijnen."
+    becomes_active_notice: "Hallo, fijn dat u terug bent! We hebben u al een tijdje niet gezien, daarom hebben we wat tijd nodig om uw leeslijst bij te werken. Maak u geen zorgen, we verzamelen nog steeds uw abonnementen. U zult zo meteen uw nieuwe ongelezen berichten zien verschijnen."
   feeds:
     no_feeds:
       text: "U heeft nog geen abonnementen. U kunt u zich %{subscribe} op een nieuwe feed (wat dacht u van <a href='http://blog.theoldreader.com/rss' class='feed-subscribe'>onze blog</a>?) of uw abonnementen %{import}.<br />Als u meer wilt weten, %{tour}."
@@ -165,7 +165,7 @@ nl:
       other: "berichten"
     your_posts: "U heeft <em>%{unread}</em> ongelezen %{posts}"
     refresh: "Verversen"
-    refresh_all_cl: "Al mijn Craigslist Feeds in de achtergrond"
+    refresh_all_cl: "Al mijn Craigslist-feeds in de achtergrond"
     unsubscribe: "Abonnement opzeggen"
     unsubscribe_confirm_feed: "Wilt werkelijk dit abonnement opzeggen? Uw gedeelde berichten en Leuk gevonden berichten uit deze feed zullen niet worden verwijderd."
     unsubscribe_confirm_folder: "Wilt werkelijk alle abonnementen binnen deze map opzeggen? Uw gedeelde berichten en Leuk gevonden berichten uit deze feed zullen niet worden verwijderd."
@@ -213,9 +213,9 @@ nl:
     likes_count:
       zero: "%{users} liken dit"
       one: "%{users} en één andere liken dit"
-      few: "%{users} and %{count} anderen liken dit"
-      many: "%{users} and %{count} anderen liken dit"
-      other: "%{users} and %{count} anderen liken dit"
+      few: "%{users} en %{count} anderen liken dit"
+      many: "%{users} en %{count} anderen liken dit"
+      other: "%{users} en %{count} anderen liken dit"
     feed: "Feed"
     site: "Site"
     enclosure_url: "Bekijk bijgevoegd bestand (%{size}, %{type})"
@@ -237,7 +237,7 @@ nl:
   pages:
     home: "Home"
     all: "Alle items"
-    starred: "Met Ster"
+    starred: "Met ster"
     liked: "Vind-ik-Leuk"
     shared: "Gedeeld"
     bookmarked: "Met bladwijzer"
@@ -255,12 +255,12 @@ nl:
     donate: "Doneer"
     tour: "Tutorial"
     blog: "Blog"
-    status: "Server status"
+    status: "Serverstatus"
     community: "Community hulpbronnen"
     apps: "Apps"
     account: "Account"
     sponsorships: "Sponsorschappen"
-    sponsored_archive: "Gesponserde Posts"
+    sponsored_archive: "Gesponsorde berichten"
   settings:
     tabs:
       main: "Main"
@@ -285,7 +285,7 @@ nl:
       google_email: "'%{email}' Google account"
       facebook_name: "'%{name}' Facebook account"
       username: "'%{username}' en uw wachtwoord (gebruik dit in elke %{apps} voor The Old Reader)"
-      apps: "mobile apps"
+      apps: "mobiele apps"
     ui:
       title: "gebruikersinterface"
       use_spritz: "Schakel <a href='http://www.spritzinc.com' target='_blank' rel='noopener noreferrer'>Spritz</a> in voor snel lezen (vereist een Spritz account)"
@@ -380,10 +380,10 @@ nl:
       many: "Volgt <strong>%{count}</strong> gebruikers"
       other: "Volgt <strong>%{count}</strong> gebruikers"
     followers:
-      one: "gevolgt door <strong>%{count}</strong> gebruiker"
-      few: "gevolgt door <strong>%{count}</strong> gebruikers"
-      many: "gevolgt door <strong>%{count}</strong> gebruikers"
-      other: "gevolgt door <strong>%{count}</strong> gebruikers"
+      one: "gevolgd door <strong>%{count}</strong> gebruiker"
+      few: "gevolgd door <strong>%{count}</strong> gebruikers"
+      many: "gevolgd door <strong>%{count}</strong> gebruikers"
+      other: "gevolgd door <strong>%{count}</strong> gebruikers"
     pending_followers:
       one: "<strong>%{count}</strong> volgverzoek"
       few: "<strong>%{count}</strong> volgverzoeken"
@@ -471,7 +471,7 @@ nl:
         shift-e: openklappen van alle mappen
         g then h: ga naar home
         g then a: ga naar alle items
-        g then f: ga naar gesterde items
+        g then f: ga naar items met ster
         g then l: ga naar vind-ik-leuk items
         g then s: ga naar gedeelde items
         g then b: ga naar items met bladwijzer
@@ -511,7 +511,7 @@ nl:
     apps:
       api:
         title: "API"
-        pre_link: "We hebben een op GoogleReader lijkende mobile API geïmplementeerd die iedereen in staat stelt een mobile app te ontwikkelen die werkt met The Old Reader. The API is gedocumenteerd in "
+        pre_link: "We hebben een op Google Reader lijkende mobile API geïmplementeerd die iedereen in staat stelt een mobile app te ontwikkelen die werkt met The Old Reader. The API is gedocumenteerd in "
         link: "een afzonderlijke github repository"
         post_link: ". Gelieve ons te waarschuwen wanneer u een app maakt die werkt met The Old Reader."
       apps:
@@ -669,8 +669,8 @@ nl:
       expired_over_limit: "Uw proefperiode is verlopen en u bent over de gratis account limiet. We zijn daarom gestopt met het ophalen van nieuwe berichten. U kunt %{change} of %{extend}"
       expired_no_extension_over_limit: "Uw proefperiode is verlopen en u bent over de gratis account limiet, dus zijn we gestopt met het ophalen van nieuwe berichten. Overweeg aub deze site te ondersteunen met een %{change}"
     card:
-      name: "Naam op Creditkaart"
-      number: "Creditkaart nummer"
+      name: "Naam op kredietkaart"
+      number: "Kaartnummer"
       code: "Beveiligingscode (CVC)"
       expiration: "Geldig tot"
       on_file: "Uw huidige kaart"
@@ -680,7 +680,7 @@ nl:
         stripe:
           payment_failed: "Met uw huidige creditkaart kon niet worden betaald. Ga naar <a href='%{account_url}'>accounts</a> om uw betalingsgegevens bij te werken."
         paypal:
-          payment_failed: "Your Paypal betaling is mislukt. Ga aub naar <a href=\"http://www.paypal.com\" target=\"_blank\">Paypal.com</a> om uw informatie bij te werken."
+          payment_failed: "Uw PayPal-betaling is mislukt. Ga aub naar <a href=\"http://www.paypal.com\" target=\"_blank\">Paypal.com</a> om uw informatie bij te werken."
       paypal: "Paypal Express Checkout"
     plan: "Gekozen betalingsplan"
     plans:
@@ -739,7 +739,7 @@ nl:
       paypal_express: "Paypal Express Checkout"
       paypal_germany_notice: "Bent u een gebruiker uit Duitsland en heeft u problemen met Paypal doorlopende betalingen?"
       paypal_germany_notice_link: "Klik hier"
-      paypal_confirm_notice: "Door te klikken op de Bijwerken account kmop hieronder, wordt u geauthorizeerde %{price} geïnitieerd bij Paypal en uw Old Reader Premium account wordt aangemaakt."
+      paypal_confirm_notice: "Door te klikken op de Bijwerken account knop hieronder, wordt u geauthorizeerde %{price} geïnitieerd bij Paypal en uw Old Reader Premium account wordt aangemaakt."
       paypal_confirm_cancel: "Annuleer"
       view_receipt: 'Bekijk factuur'
       coupon_header: 'Coupon'
@@ -781,7 +781,7 @@ nl:
           body: |
             Hallo %{name},
 
-            Dank u voor uw steun aan The old Reader.
+            Dank u voor uw steun aan The Old Reader.
 
             Wij willen u laten weten, dat een poging om uw abonnement op onze premium service toe betalen via uw creditkaart is mislukt.
 
@@ -794,7 +794,7 @@ nl:
           body: |
             Hallo, %{name}
 
-            Dank u voor uw steun aan The old Reader.
+            Dank u voor uw steun aan The Old Reader.
 
             Wij willen u laten weten, dat een poging uw Paypal account te belasten voor uw abonnement, is mislukt.
 
@@ -812,7 +812,7 @@ nl:
 
           https://theoldreader.com
       almost_expired:
-        subject: "Your Old Reader Premium account is about to expire"
+        subject: "Uw Old Reader Premium account verloopt bijna"
         body: |
           <p>Hallo %{name},</p>
           <p>Uw Old Reader Premium account staat op het punt te verlopen. Bezoek uw <a href="%{manage_url}">accounts pagina</a> om een nieuw
@@ -916,7 +916,7 @@ nl:
   api:
     sponsored_feed_title: "The Old Reader gesponsorde berichten"
   new_user_setup:
-    skip: "Sla dit over, ik ben Oké."
+    skip: "Instructies overslaan, ik weet genoeg."
     next: "Volgende"
     close: "Sluiten"
     step_1_title: "Welkom bij The Old Reader!"
