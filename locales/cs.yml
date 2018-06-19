@@ -109,7 +109,8 @@ cs:
     subscribe: "Přihlásit"
     add_subscription: "Přidat zdroj"
     add: "Přidat"
-    invalid_url: "Zadáno invalidní URL zdroje"
+    url: "Téma, nebo URL zdroje"
+    invalid_url: "Zadáno neplatné URL zdroje"
     loading: "Nahrávám…"
     default_folder: "Zdroje"
     feeds: "Zdroje"
@@ -181,8 +182,10 @@ cs:
   pages:
     home: "Úvodní stránka"
     all: "Všechny položky"
+    starred: "S hvězdičkou"
     liked: "Oblíbené"
     shared: "Sdílené"
+    bookmarked: "Označené"
     followed: "Přátelé"
     import: "Importovat"
     search: "Hledat"
@@ -416,3 +419,6 @@ cs:
         inbetween: " and feel free to ask for assistance at the "
         link2: "community forums"
         post_link: " if something is not clear."
+  accounts:
+    limits:
+      change: "upgradovat na prémium"
