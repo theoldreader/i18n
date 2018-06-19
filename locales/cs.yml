@@ -181,8 +181,10 @@ cs:
   pages:
     home: "Úvodní stránka"
     all: "Všechny položky"
+    starred: "S hvězdičkou"
     liked: "Oblíbené"
     shared: "Sdílené"
+    bookmarked: "Označené"
     followed: "Přátelé"
     import: "Importovat"
     search: "Hledat"
