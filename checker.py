@@ -1,8 +1,8 @@
 #!/usr/bin/env python
 import os
 import glob
+from sets import Set as sets
 import yaml
-import sets
 import sys
 import traceback
 
@@ -22,8 +22,8 @@ def compare_dicts(master, victim, path):
     if type(victim) != dict:
         return ["Victim %s is not a dictionary" % '.'.join(path)]
 
-    master_keys = sets.Set(master.keys())
-    victim_keys = sets.Set(victim.keys())
+    master_keys = sets.Set(list(master.keys()))
+    victim_keys = sets.Set(list(victim.keys()))
 
     errors = []
     missing_keys = master_keys - victim_keys
@@ -40,9 +40,9 @@ def compare_dicts(master, victim, path):
         type_master = type(master[k])
         type_victim = type(victim[k])
         if type_master == str:
-            type_master = unicode
+            type_master = str
         if type_victim == str:
-            type_victim = unicode
+            type_victim = str
         if type_master != type_victim:
             errors.append("%s type is incorrect (%s, should be %s)" %
                     ('.'.join(subpath), type_victim, type_master))
@@ -63,9 +63,9 @@ def process_file(filename, master_data):
             errors = ["Top-level node '%s' not found" % victim_lang]
 
         if errors:
-            print "Errors found in %s:" % filename
+            print("Errors found in %s:" % filename)
             for error in errors:
-                print "- %s" % error
+                print("- %s" % error)
 
             return errors
 
