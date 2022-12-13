@@ -899,7 +899,7 @@ nl:
       create: "Maak map"
     rename_modal:
       title: "Hernoemen map"
-      create: "Hernoem folder"
+      create: "Hernoem map"
     rename_feed_modal:
       title: "Hernoem abonnement"
       blank_feed: "Abonnementsnaam kan niet leeg blijven"
