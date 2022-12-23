@@ -99,7 +99,7 @@ nl:
       register: "Registreren"
       password: "Wachtwoord vergeten?"
       change_password: "Verander wachtwoord"
-      tos: "Door u te registeren of aan te melden, gaat u akkoord met onze  <a href='%{tos}' target='_blank' rel='noopener noreferrer'>Servicevoorwaarden</a> en <a href='%{privacy}' target='_blank' rel='noopener noreferrer'>Privacy beleid</a>"
+      tos: "Door u te registeren of aan te melden, gaat u akkoord met onze <a href='%{tos}' target='_blank' rel='noopener noreferrer'>Servicevoorwaarden</a> en <a href='%{privacy}' target='_blank' rel='noopener noreferrer'>Privacy beleid</a>"
       social_register: "U kunt ook uw %{google} of %{facebook} accounts gebruiken om u te registeren."
     welcome:
       - "Welkome bij <span class='highlight'>de ultieme social RSS reader</span> voor het Open Web. Lees, deel en discussieer. Zorg dat u niets mist."
@@ -226,7 +226,7 @@ nl:
   home:
     following: "Laatste van uw vrienden"
     updated: "Recent bijgewerkt"
-    dead: "dode feeds"
+    dead: "Dode feeds"
     tips:
       title: "Tips & trucs"
       items:
@@ -354,7 +354,7 @@ nl:
   import:
     title: "Importeren"
     alert: "<b>Vul uw Google's gebruikersnaam en wachtwoord in om abonnementen te importeren vanuit Google Reader</b><br />Wij slaan uw inlog gegevens niet op. Account informatie wordt alleen gebruikt om de abonnementen te verkrijgen."
-    opml: "<b>Kies een OPML-bestand</b><br />U kunt dit verkrijgen van de  Google Reader instellingen pagina.<br />Gebruik  <b>subscriptions.xml</b> van uw takeout zip-archief."
+    opml: "<b>Kies een OPML-bestand</b><br />U kunt dit verkrijgen van de Google Reader instellingen pagina.<br />Gebruik <b>subscriptions.xml</b> van uw takeout zip-archief."
     email: "E-mail"
     password: "Wachtwoord"
     import: "Importeren"
@@ -430,7 +430,7 @@ nl:
       body: |
         Hallo, %{followed}!
 
-        %{name} heeft een volgverzoek gestuurd voor uw gedeelde berichten op The Old Reader.  Klik hier om het volgverzoek te accepteren of te weigeren:
+        %{name} heeft een volgverzoek gestuurd voor uw gedeelde berichten op The Old Reader. Klik hier om het volgverzoek te accepteren of te weigeren:
         %{accept_request}
 
         Als u niet langer deze notificaties wilt ontvangen kunt u die uitzetten op het "Social" tabblad van uw Instellingen pagina.
@@ -445,7 +445,7 @@ nl:
       body: |
         Welkom %{name},
 
-        U kunt bijna The old Reader gaan gebruiken. Bevestig eenvoudigweg uw e-mail door op de link hieronder te klikken:
+        U kunt bijna The Old Reader gaan gebruiken. Bevestig eenvoudigweg uw e-mail door op de link hieronder te klikken:
         %{link}
 
         Laat ons weten of u enige assistentie nodig heeft. Wij help u dan graag.
@@ -581,18 +581,18 @@ nl:
         title: "Feeds toevoegen"
         p1: "Uw nieuwe account bij The Old Reader is nog leeg, dus het eerste dat u nu moet doen is wat feeds toevoegen."
         img1: "Gebruik de 'Voeg een abonnement toe' knop om u te abonneren op een feed. Als u een webpagina URL invult inplaats van een directe feed URL, zullen we de eerste RSS-feed van die pagina automatisch toevoegen."
-        img2: "Als u migreert van Google Reader of elke andere RSS software dat abonnementen kan exporteren naar een OPML-bestand, kunt u de  'Import' functie gebruiken om al uw feeds toe te voegen. We zullen zelfs al uw feed maps overzetten zodat u zich onmiddellijk thuis zal voelen in de interface."
+        img2: "Als u migreert van Google Reader of elke andere RSS software dat abonnementen kan exporteren naar een OPML-bestand, kunt u de 'Import' functie gebruiken om al uw feeds toe te voegen. We zullen zelfs al uw feed maps overzetten zodat u zich onmiddellijk thuis zal voelen in de interface."
       organize:
         title: "Organiseren van feeds"
         img1: "U kunt feeds en mappen verslepen met de muis om hun positie te veranderen. Het aanmaken van een nieuwe map gaat makkelijk door het slepen van een feed naar een lege plek onder uw laatste map. Lege mappen worden automatisch verwijderd."
         img2: "Dubbelklik eenvoudigweg op een feed of map om deze te hernoemen."
-        img2_p2: "Het is niet mogelijk de standaard map  ('Subscriptions') een andere naam te geven, maar u kunt al uw feeds er uit vandaan halen en in andere mappen plaatsen. Dan zal deze standaard map vanzelf verdwijnen."
+        img2_p2: "Het is niet mogelijk de standaard map ('Subscriptions') een andere naam te geven, maar u kunt al uw feeds er uit vandaan halen en in andere mappen plaatsen. Dan zal deze standaard map vanzelf verdwijnen."
       read:
         title: "Berichten lezen"
         img1: "Kies wat u wilt lezen uit het menu. u kunt op een map klikken om alle feeds in die map te lezen."
-        img2: "Het navigatie menu laat u naar het volgende of vorige  bericht te springen met een enkele muisklik. U kunt ook overschakelen naar  'Lijstweergave' dat alle berichten laat inklappen, u de kopteksten kunt doornemen en alleen die laat uitklappen die u wilt lezen."
+        img2: "Het navigatie menu laat u naar het volgende of vorige bericht te springen met een enkele muisklik. U kunt ook overschakelen naar 'Lijstweergave' dat alle berichten laat inklappen, u de kopteksten kunt doornemen en alleen die laat uitklappen die u wilt lezen."
         img3: "U kunt ook sneltoetsen gebruiken om te navigeren. Druk op '?' of 'h' om de lijst te zien."
-        img4_p1: "Er staan actieknoppen onder elk bericht. Als u op de 'Vind-ik-Leuk' knop drukt, verschijnt uw naam in de lijst van gebruikers die dit bericht ook liken. Het bericht zal ook naar uw  'Leuk gevonden' map gaan."
+        img4_p1: "Er staan actieknoppen onder elk bericht. Als u op de 'Vind-ik-Leuk' knop drukt, verschijnt uw naam in de lijst van gebruikers die dit bericht ook liken. Het bericht zal ook naar uw 'Leuk gevonden' map gaan."
         img4_p2: "Als u verkiest een bericht te delen, zullen al uw contacten dit onmiddellijk zien. U kunt uw gedeelde berichten op uw Facebook tijdslijn zetten (bezoek Instellingen om dat in te schakelen)."
       discuss:
         title: "Berichten bediscussiëren"
@@ -631,12 +631,12 @@ nl:
          een premium versie aan te schaffen voor slechts $%{price} per maand (korting voor jaarlijks aanwezig).</p>
         <p><strong>Een gratis plan is ook aanwezig voor gebruikers met minder dan %{free_limit} abonnementen.</strong> Hoewel de gratis
          versie niet alle functionaliteiten heeft van de premium versie, kunt u er zeker van zijn dat alle functies die nu aanwezig zijn,
-         dat in de toekomst ook zullen zijn (en  we zullen meer gratis functies toevoegen in de toekomst).</p>
+         dat in de toekomst ook zullen zijn (en we zullen meer gratis functies toevoegen in de toekomst).</p>
         %{limit_specific_message}
         <p>Lees aub. <a href='http://blog.theoldreader.com/post/76417559063'>ons blogbericht</a> voor meer informatie over de verandering.</p>
       over_limit_message: |
         <p>We laten de huidige toestand voor een paar weken zoals die is, zodat u tijd genoeg heeft om te beslissen. Na deze twee weken
-        kunt u upgraden naar een premium versie of zoveel abonnmenten  als nidg verwijderen als nodig is voor de gratis versie. U heeft
+        kunt u upgraden naar een premium versie of zoveel abonnmenten als nidg verwijderen als nodig is voor de gratis versie. U heeft
         op dit moment <strong>%{current_count}</strong> abonnementen.</p>
       under_limit_message: |
         </p>Aangezien u minder dan %{free_limit} feeds heeft, komt u in aanmerking voor een gratis account.</p>
@@ -789,7 +789,7 @@ nl:
 
             %{manage_url}
 
-            Uw steun is zeer belangrijk voor het voortdurende succes van The old Reader.
+            Uw steun is zeer belangrijk voor het voortdurende succes van The Old Reader.
         paypal:
           body: |
             Hallo, %{name}
@@ -800,7 +800,7 @@ nl:
 
             U kunt uw betalingsinformatie bijwerken op http://www.paypal.com. Laat ons aub weten of u enige assistentie nodig heeft en wij zullen u graag helpen.
 
-            Uw steun is zeer belangrijk voor het voortdurende succes van The old Reader.
+            Uw steun is zeer belangrijk voor het voortdurende succes van The Old Reader.
       almost_inactive:
         subject: "Houd uw Old Reader account actief!"
         body: |
@@ -824,10 +824,10 @@ nl:
       almost_renewing:
         subject: "The Old Reader - Premium abonnment"
         hello: "Hallo"
-        thanks: "Wij willen u bedanken voor het nemen van een Premium Abonnment op The Old Reader. Het afgelopen jaar hebben we erg veel verbeteringen kunnen aanbrengen wat in grote mate dankzij de steun van gebruikers zoals u kon gebeuren.  Hier zij een aantal van de hoogtepunten:"
+        thanks: "Wij willen u bedanken voor het nemen van een Premium Abonnment op The Old Reader. Het afgelopen jaar hebben we erg veel verbeteringen kunnen aanbrengen wat in grote mate dankzij de steun van gebruikers zoals u kon gebeuren. Hier zij een aantal van de hoogtepunten:"
         speed_title: "Website's snelheid, stabiliteit en beschikbaarheid"
         speed_text: "Sinds februari 2014 zijn we voor 99.999% in de lucht geweest, is de verversing van feeds 70% sneller geweest en laden pagina's 10 keer sneller."
-        bookmarklet_title: "De  Bookmarklet"
+        bookmarklet_title: "De Bookmarklet"
         bookmarklet_text: "Voeg elke webpagina toe aan The Old Reader en deel het met uw vrienden."
         reeder_title: "Ondersteuning voor Reeder iOS App"
         organize_title: "Hulpmiddelen voor het organiseren van uw feeds"
@@ -931,6 +931,6 @@ nl:
     step_4_title: "Snelstart: Delen"
     step_4_text: "Als u een bericht deelt in The Old Reader wordt het bericht verzonden naar alle gebruikers die u volgen. zodra een bericht wordt gedeeld krijgen uw vrienden een notificatie en kunt u gezamenlijk het bericht becommentariëren."
     step_5_title: "Snelstart: Importeren van abonnementen"
-    step_5_text: "Als u bij ons komt van een andere RSS reader kunt u de berichten van het vorige  platform exporteren en datzelfde bestand gemakkelijk importeren in The Old Reader."
+    step_5_text: "Als u bij ons komt van een andere RSS reader kunt u de berichten van het vorige platform exporteren en datzelfde bestand gemakkelijk importeren in The Old Reader."
     step_6_title: "Snelstart: Ga voor Premium!"
     step_6_text: "<b>Upgrade naar premium!</b> We bieden een betaalde premium versie aan van The Old Reader die u ervaring hiermee op belangrijke wijze verbeterd. Onze premium dienst biedt de volgende belangrijke voordelen aan:"
